@@ -1,0 +1,21 @@
+import "../constants/protein_folding_3d.ep"
+define expect_equal with label as Str and got as Str and want as Str:
+    if got equals want:
+        display concat("  ok    " and label)
+    else:
+        display concat("  FAIL  " and concat(label and concat(" got " and got)))
+    return 0
+define expect_bool with label as Str and got as Bool:
+    if got:
+        display concat("  ok    " and label)
+    else:
+        display concat("  FAIL  " and label)
+    return 0
+define main:
+    display "=== 3D protein folding ==="
+    set ok to expect_bool("alpha-helix phi folds to 1/3 (period-2 orbit)" and alpha_phi_folds_to_orbit())
+    set ok to expect_bool("alpha-helix psi decays to native (1)" and alpha_psi_folds_to_native())
+    set ok to expect_bool("beta-sheet phi folds to 2/3 (period-2 orbit)" and beta_phi_folds_to_orbit())
+    set ok to expect_bool("beta-sheet psi decays to native (1)" and beta_psi_folds_to_native())
+    display "=== done ==="
+    return 0

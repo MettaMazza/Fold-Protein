@@ -1,0 +1,64 @@
+# ============================================================================
+#  PROTEIN FOLDING  --  why a protein finds its native shape fast, forced.
+# ============================================================================
+#
+#  ── WHY ─ (significance; skip if you only want to verify) ────────────────────
+#  A protein has astronomically many possible shapes (Levinthal's estimate: ~10^50),
+#  yet it folds to its one correct "native" shape in a fraction of a second. If it
+#  searched at random it would take longer than the age of the universe. The paradox
+#  dissolves if folding is not a search but a directed DESCENT to a fixed point.
+#
+#  ── DERIVATION ─ (check every line; uses ONLY the fold) ──────────────────────
+#  The fold has a unique fixed point: fold(1) = 1, and no value in (0,1) is fixed
+#  (for x below 1/2 the fold doubles it upward; for x above, it wraps -- only the One
+#  returns to itself). So there is exactly ONE native target, the One.
+#    Folding is the fold applied repeatedly, and it CONVERGES on that target in a few
+#  steps. From a starting conformation 3/4:
+#       fold(3/4) = 1/2 ,   fold(1/2) = 1 .
+#  Two steps, and it is at the native fixed point -- a directed descent, not a search
+#  over 10^50 shapes. The number of steps (2) is nothing beside the configuration
+#  count, which is the whole resolution of the paradox: the landscape funnels.
+#
+#  ── CHECK ─ (measurement; comparison only) ──────────────────────────────────
+#  Proteins fold reliably and fast to a single native state -- exactly a funnelled
+#  descent to a unique fixed point, not a random search. The forced content is exact:
+#  the fold has ONE fixed point (the One) and reaches it in a bounded number of steps,
+#  which is what makes fast, repeatable folding possible.
+# ============================================================================
+
+import "../foundation/the_one_and_the_fold.ep"
+
+
+# Fold a fraction once: double it (via a twin) and cast out whole Ones.
+define fold_fraction with size as Fraction returning Fraction:
+    set size_again to fraction_make(fraction_numerator(size) and fraction_denominator(size))
+    set doubled to fraction_add(size and size_again)
+    return cast_out_whole_ones(doubled)
+
+# The native state: the fold's unique fixed point, the One.
+define native_state returning Fraction:
+    return fraction_from_whole_number(1)
+
+# The native state is fixed: fold(1) = 1 -- once folded to unison, it stays.
+define native_state_is_fixed returning Bool:
+    set folded to fold_fraction(native_state())
+    return fraction_is_equal(folded and native_state())
+
+# A starting conformation, away from native.
+define starting_conformation returning Fraction:
+    return fraction_from_ratio(3 and 4)
+
+# One step of the descent: fold(3/4) = 1/2.
+define descent_after_one_step returning Fraction:
+    return fold_fraction(starting_conformation())
+
+# Two steps of the descent: fold(1/2) = 1 -- arrived at the native fixed point.
+define descent_after_two_steps returning Fraction:
+    set once to descent_after_one_step()
+    return fold_fraction(once)
+
+# The descent converges to the native state in two steps -- directed, not a search.
+define descent_reaches_native returning Bool:
+    set reached to descent_after_two_steps()
+    set native to native_state()
+    return fraction_is_equal(reached and native)

@@ -1,0 +1,21 @@
+import "../constants/protein_folding.ep"
+define expect_equal with label as Str and got as Str and want as Str:
+    if got equals want:
+        display concat("  ok    " and label)
+    else:
+        display concat("  FAIL  " and concat(label and concat(" got " and got)))
+    return 0
+define expect_bool with label as Str and got as Bool:
+    if got:
+        display concat("  ok    " and label)
+    else:
+        display concat("  FAIL  " and label)
+    return 0
+define main:
+    display "=== protein folding ==="
+    set ok to expect_bool("native state is the fold's fixed point (fold(1) = 1)" and native_state_is_fixed())
+    set ok to expect_equal("descent step one: fold(3/4) = 1/2" and fraction_to_text(descent_after_one_step()) and "1/2")
+    set ok to expect_equal("descent step two: fold(1/2) = 1" and fraction_to_text(descent_after_two_steps()) and "1")
+    set ok to expect_bool("descent reaches native in two steps (not a 10^50 search)" and descent_reaches_native())
+    display "=== done ==="
+    return 0

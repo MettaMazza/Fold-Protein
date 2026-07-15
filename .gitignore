@@ -1,0 +1,11 @@
+# Bundled ErnosPlain toolchain build artifacts
+compiler/target/
+
+# ernos-generated C intermediates
+*_compiled.c
+
+# compiled binaries — rebuild with `cc` / `ernos` (see AGENT.md §3)
+/verify/test_protein_folding
+/verify/test_protein_folding_3d
+
+.DS_Store
