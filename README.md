@@ -15,8 +15,9 @@ space — it is descent to the fold's fixed point, reaching the native state in 
 
 ### The result — measured, and reproducible in seconds
 
-- 🧬 **0.9891 TM-score · 0.261 Å dRMSD** on ubiquitin (`1ubq`), folded **blind from the sequence**
-  via the 24-lattice Dihedral Orbit expansion. *(TM > 0.5 = correct fold; ~0.9 = near-experimental.)*
+- 🧬 **0.9891 TM-score · 0.261 Å dRMSD** on ubiquitin (`1ubq`), constructed on the **24-lattice
+  Dihedral Orbits**, resolved against the experimental `1ubq` structure. *(TM > 0.5 = correct fold;
+  ~0.9 = near-experimental.)*
   ```sh
   python3 calculate_tm.py verify/1ubq_test_24_lattice.pdb verify/1ubq.pdb   # -> TM-score: 0.9891
   ```
@@ -26,8 +27,9 @@ space — it is descent to the fold's fixed point, reaching the native state in 
   folding descends `fold(3/4) = 1/2 → fold(1/2) = 1` — **native in two steps.**
 - 📐 **Backbone geometry from counted orbits:** α-helix φ → **1/3**, β-sheet φ → **2/3** (the two
   period-2 orbits) — no Ramachandran fitting.
-- 🔒 **The target is never touched.** The predictor is blind from sequence; the experimental
-  structure is read only to score.
+- 🔒 **How the target is used.** The 0.9891 construction resolves candidates against the
+  experimental structure at each step. A path that reads no target structure
+  (`tools/blind_24_lattice_solver.py`) also exists.
 
 ```sh
 # prove the law too (C compiler only) — every line reads "ok"
@@ -46,8 +48,8 @@ cc -O2 -o test_protein_folding_3d test_protein_folding_3d.c && ./test_protein_fo
   protein finds its structure in microseconds instead of searching `10⁵⁰` conformations.
 - **Backbone dihedrals are counted orbits** of the fold: the α-helix and β-sheet basins are its two
   period-2 orbits, derived, not fitted.
-- **Folded from sequence, scored blind** by TM-score / dRMSD against the experimental structure —
-  which never enters the fold.
+- **Beam-assembled against the experimental structure** by TM-score / dRMSD — the target ranks
+  candidates during the fold; the zero-parameter element is the 24-lattice angle set itself.
 
 ## The rule that governs this workspace
 
