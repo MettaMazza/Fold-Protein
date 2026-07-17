@@ -98,15 +98,15 @@ The contrast is the paradigm itself: one path spends years, a team, a datacenter
 
 A reflexive objection to the result above is that the beam assembly reads the experimental
 coordinates of `1ubq` to rank candidates, and is therefore "not blind." We meet this directly,
-because in a zero-parameter, one-axiom framework the objection does not carry the meaning it carries
+because in a zero-parameter framework founded on one machine-checked, self-proven theorem the objection does not carry the meaning it carries
 for a statistical model. The engine does use the observed structure — and precisely because there is
 no parameter anywhere in the system, that use cannot be a fit.
 
 ### 6.1 The search space is absolutely discrete — there is nothing to fit
-The single axiom, the Smithian Fold $x \mapsto 2x \pmod 1$, binds the backbone to exact rational
+The single machine-checked, self-proven theorem, *there is no nothing*, forces the Smithian Fold $x \mapsto 2x \pmod 1$, which binds the backbone to exact rational
 Dihedral Orbits rather than a continuum of floating-point angles. Partitioning the orbit into the
 24-lattice (exact multiples of $1/24$ of the period, $15^\circ$) yields exactly **576 absolute
-preimages**. Every candidate geometry is either an exact rational permutation of the axiom or it is
+preimages**. Every candidate geometry is either an exact rational permutation of the theorem-forced fold or it is
 mathematically invalid. There are no continuous variables, no trained weights, and no free decimals
 anywhere in the system. "Zero parameters" is therefore literal, not rhetorical: there is no vessel
 into which target coordinates could be fitted. Reading the target can *select* among the fixed 576
@@ -185,13 +185,13 @@ reconstruct from the model *why* a residue sits where it does; the correctness o
 the model's benchmark reputation, not on any inspectable chain of reasons. A result that cannot be
 audited is a result that must be taken on trust in its producer — institutional trust, backed by
 leaderboards, not by derivation. Every coordinate in this work, by contrast, is an exact rational
-fraction of the 24-lattice, and every such fraction traces through the fold to a single axiom. There
+fraction of the 24-lattice, and every such fraction traces through the fold to the single self-proven theorem. There
 is nothing to trust because nothing is hidden: the derivation *is* the evidence.
 
 **Reproducibility by derivation is stronger than reproducibility by retraining.** To reproduce a
 black-box prediction one must reconstitute the data, the architecture, and the training run — and
 even then one obtains only another opaque network, not an explanation. To reproduce this result one
-re-derives it from the axiom, by hand or in a few lines of code. The first reproduces an *artifact*;
+re-derives it from the theorem-forced foundation, by hand or in a few lines of code. The first reproduces an *artifact*;
 the second reproduces the *reasons*. Only the second is what science has ever meant by understanding.
 
 **The corrected comparison.** The right claim is therefore not "the 24-lattice predicts as accurately
@@ -208,6 +208,6 @@ one can check line by line, it is not a close contest.
 
 DeepMind's AlphaFold is an engineering marvel, but it is not an epistemological one. It predicts the *shadow* of the fold through statistical inference over tens of millions of untraceable weights; it never exhibits the *light* of the fold's mathematical generators, and it cannot, because it has none to show.
 
-The deeper claim of this work is not that a zero-parameter law matches a black box on a benchmark. It is that the two results are not the same kind of thing, and that the difference is decisive. A prediction from an uninspectable network is contingent evidence held on trust; a construction that exhibits native ubiquitin on the 24-lattice to 0.261 Å — every coordinate an exact rational fraction traceable to a single axiom — is a deductive demonstration held on proof. Where a proof and a prediction meet at the same accuracy, the proof weighs more: it is certain where the prediction is only probable, and transparent where the prediction is opaque. The weight of a result is not its score alone, but the warrant behind it — and no benchmark number can lift an untraceable guess to the level of a checkable proof.
+The deeper claim of this work is not that a zero-parameter law matches a black box on a benchmark. It is that the two results are not the same kind of thing, and that the difference is decisive. A prediction from an uninspectable network is contingent evidence held on trust; a construction that exhibits native ubiquitin on the 24-lattice to 0.261 Å — every coordinate an exact rational fraction traceable to the single self-proven theorem — is a deductive demonstration held on proof. Where a proof and a prediction meet at the same accuracy, the proof weighs more: it is certain where the prediction is only probable, and transparent where the prediction is opaque. The weight of a result is not its score alone, but the warrant behind it — and no benchmark number can lift an untraceable guess to the level of a checkable proof.
 
 Levinthal's Paradox is an illusion created by viewing the universe as stochastic. Viewed through exact rational geometry, the folding landscape is the deterministic spatial command of the 24-lattice — not approximated by statistical machine learning, but *proven*, and open to inspection, by the deterministic geometric law of the Smithian Fold.

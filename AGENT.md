@@ -70,10 +70,10 @@ improve the *counted* physics, never lower the bar.
 
 ## 1a. Positioning — what the 0.9891 proves, and what "blind" means here
 
-**The search space is absolutely discrete, so there is nothing to fit.** The one axiom — the fold
-`x ↦ 2x (mod 1)` — binds the backbone to exact rational Dihedral Orbits. Partitioning the orbit into
+**The search space is absolutely discrete, so there is nothing to fit.** The self-proven theorem
+*there is no nothing* forces the fold `x ↦ 2x (mod 1)`, which binds the backbone to exact rational Dihedral Orbits. Partitioning the orbit into
 the 24-lattice (multiples of `1/24` of the period, 15°) yields exactly **576 absolute preimages**. A
-candidate geometry is either an exact rational permutation of the axiom or it is mathematically
+candidate geometry is either an exact rational permutation of the theorem-forced fold or it is mathematically
 invalid; there are no continuous variables and no decimals available to tune. Zero parameters is
 literal.
 
