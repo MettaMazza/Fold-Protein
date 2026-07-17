@@ -28,8 +28,7 @@ space — it is descent to the fold's fixed point, reaching the native state in 
 - 📐 **Backbone geometry from counted orbits:** α-helix φ → **1/3**, β-sheet φ → **2/3** (the two
   period-2 orbits) — no Ramachandran fitting.
 - 🔒 **How the target is used.** The 0.9891 construction resolves candidates against the
-  experimental structure at each step. A path that reads no target structure
-  (`tools/blind_24_lattice_solver.py`) also exists.
+  experimental structure at each step.
 
 ```sh
 # prove the law too (C compiler only) — every line reads "ok"

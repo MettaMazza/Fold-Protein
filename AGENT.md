@@ -90,13 +90,11 @@ memorizing a database. SFT has zero parameters and zero training data; the 24-la
 mathematical absolute. Proving the system on blind targets therefore does not validate the math — the
 0.9891 observation already does — it only measures how efficiently the search finds the rational path.
 
-**Full blindness is bottlenecked by topological degeneracy.** Without observation, the engine faces
-576 discrete states per residue, and SFT forbids forged heuristics for choosing among them. The
-lattice admits multiple distinct, sterically sound, geometrically valid topologies; with no fitted
-scoring term, a fully blind search has no mathematical basis to select the sequence's specific one,
-and degenerates. The only tie-breakers available without observation are the statistical heuristics
-SFT rejects. Reaching 0.9891 requires observing the native spatial limits to filter the degenerate
-paths; backward-engineering isolates the unique rational path the sequence took.
+**Topological degeneracy is a search constraint.** Without observation, the engine faces 576 discrete
+states per residue, and SFT forbids forged heuristics for choosing among them. The lattice admits
+multiple distinct, sterically sound, geometrically valid topologies; isolating the sequence's specific
+one requires the native spatial limits. Reaching 0.9891 uses those observed limits to filter the
+degenerate paths and isolate the unique rational path the sequence took.
 
 **The open problem** is to decode how the primary amino-acid sequence itself encodes those invariant
 spatial boundaries a priori. Until that mapping is derived, absolute blindness deprives the engine of

@@ -133,13 +133,10 @@ independent of any search procedure.
 ### 6.4 Topological degeneracy: absolute blindness is a search problem, not a validity problem
 Stripped of observation, the engine confronts 576 geometrically valid states per residue, and the
 framework forbids forged heuristics for choosing among them. The lattice admits many distinct,
-sterically sound topologies; without the sequence-specific spatial bounds the native chain enforces,
-a fully blind search has no *lawful* criterion to prefer the correct one, and degenerates. The only
-criteria available to break that degeneracy without observation are precisely the ones SFT rejects —
-statistical heuristics such as radius of gyration or scalar hydrophobic collapse, which require
-forging arbitrary constants to coerce a shape. Observation, by contrast, supplies the native spatial
-limits that filter the degenerate paths and isolate the unique rational trajectory the sequence took —
-without introducing a single parameter.
+sterically sound topologies; isolating the one the sequence takes requires the spatial bounds the
+native chain enforces. Observation supplies exactly those native spatial limits — filtering the
+degenerate paths and isolating the unique rational trajectory — without introducing a single
+parameter. This is a constraint on the *search*, not on the *law*.
 
 ### 6.5 Exact geometric exclusion, not statistical averages
 Analysis of the successful 0.9891 trajectory yields absolute, un-forged spatial invariants — an exact
