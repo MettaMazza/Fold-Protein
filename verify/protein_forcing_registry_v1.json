@@ -213,5 +213,19 @@
         "verify/1ubq_zero_parameter_block.pdb"
       ]
     }
+  },
+  "other_tracked_artifacts": {
+    ".gitignore": {
+      "sha256": "7eb09e6eb8ff1fa9f20ddf58437c0d7be3c649d7c04cf03d9a97aab3695073b4",
+      "class": "repository configuration"
+    },
+    "tests/test_protein_folding_3d": {
+      "sha256": "d39b6979d84709ea025c9e58145d67f24be490089fe4ea6a170fdc5b9d34b64b",
+      "class": "committed compiled law-check artifact; source authority remains tests/test_protein_folding_3d.ep and verify/test_protein_folding_3d.c"
+    },
+    "verify/task-62.log": {
+      "sha256": "c1e7381223d6fed9e4c6a04cc2d3f19f21c925983f240a1c201b3c9e8fec8bfd",
+      "class": "protected target-assisted construction development log bound by verify/ubiquitin_24_lattice_manifest.json"
+    }
   }
 }

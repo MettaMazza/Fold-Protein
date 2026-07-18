@@ -134,6 +134,10 @@ def verify_registry() -> dict:
     if pdb_digest != artifact_inventory["tracked_pdb_file_set_sha256"]:
         raise RuntimeError("tracked PDB file-set digest changed")
 
+    for relative, binding in registry["other_tracked_artifacts"].items():
+        if sha256(ROOT / relative) != binding["sha256"]:
+            raise RuntimeError(f"other tracked artifact drift: {relative}")
+
     legacy = set(registry["legacy_exclusion"]["forbidden_runtime_modules"])
     runtime_hashes = {}
     for relative in registry["legacy_exclusion"]["v3_runtime_roots"]:
@@ -186,6 +190,7 @@ def verify_registry() -> dict:
             "v2_ladder": ladder,
             "v2_panel": panel,
         },
+        "other_tracked_artifacts": len(registry["other_tracked_artifacts"]),
     }
 
 

@@ -149,6 +149,9 @@ development outputs, and thirty-nine legacy pre-project development artifacts.
 Their complete path-and-content census is hash-bound by the registry; both v2
 aggregate seals are reverified. Legacy filenames such as `predicted`,
 `optimized`, or `autonomous` do not confer result or authorship status.
+The remaining three non-JSON/non-source files outside the compiler and PDB
+inventories are also bound: repository configuration, the historical compiled
+3D-law artifact, and the protected construction development log.
 
 ## Remaining forward work
 
