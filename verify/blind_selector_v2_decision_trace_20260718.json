@@ -1,0 +1,391 @@
+{
+  "analyzer": {
+    "path": "tools/trace_blind_ladder_decisions_v2.py",
+    "sha256": "219348ae1c7bc8e5618702df51de3c7e0d280f159b47fbfbfdf6dffecbf4a7df"
+  },
+  "comparisons": [
+    {
+      "active_states_compared": 7,
+      "changed_state_count": 1,
+      "changed_states": [
+        {
+          "active_state": 0,
+          "full_selection_relation_at_prefix": "shorter-path-prefix-first",
+          "long_angles_radians": [
+            -3.141592653589793,
+            -1.5707963267948966
+          ],
+          "long_chosen_prefix_key": [
+            0,
+            1.0,
+            0.25000000000000006
+          ],
+          "long_state": 6,
+          "residue": "M",
+          "short_angles_radians": [
+            -3.141592653589793,
+            0.2617993877991494
+          ],
+          "short_chosen_prefix_key": [
+            0,
+            1.0,
+            0.25
+          ],
+          "short_state": 13,
+          "topology_key_relation_at_prefix": "shorter-path-prefix-first"
+        }
+      ],
+      "first_divergence_zero_based": 0,
+      "long_length": 16,
+      "shared_frontier_trace_identical": true,
+      "short_length": 8
+    },
+    {
+      "active_states_compared": 15,
+      "changed_state_count": 1,
+      "changed_states": [
+        {
+          "active_state": 0,
+          "full_selection_relation_at_prefix": "longer-path-prefix-first",
+          "long_angles_radians": [
+            -3.141592653589793,
+            0.2617993877991494
+          ],
+          "long_chosen_prefix_key": [
+            0,
+            1.0,
+            0.25
+          ],
+          "long_state": 13,
+          "residue": "M",
+          "short_angles_radians": [
+            -3.141592653589793,
+            -1.5707963267948966
+          ],
+          "short_chosen_prefix_key": [
+            0,
+            1.0,
+            0.25000000000000006
+          ],
+          "short_state": 6,
+          "topology_key_relation_at_prefix": "longer-path-prefix-first"
+        }
+      ],
+      "first_divergence_zero_based": 0,
+      "long_length": 24,
+      "shared_frontier_trace_identical": true,
+      "short_length": 16
+    },
+    {
+      "active_states_compared": 23,
+      "changed_state_count": 7,
+      "changed_states": [
+        {
+          "active_state": 0,
+          "full_selection_relation_at_prefix": "longer-path-prefix-first",
+          "long_angles_radians": [
+            -3.141592653589793,
+            -3.141592653589793
+          ],
+          "long_chosen_prefix_key": [
+            0,
+            1.0,
+            0.25
+          ],
+          "long_state": 0,
+          "residue": "M",
+          "short_angles_radians": [
+            -3.141592653589793,
+            0.2617993877991494
+          ],
+          "short_chosen_prefix_key": [
+            0,
+            1.0,
+            0.25
+          ],
+          "short_state": 13,
+          "topology_key_relation_at_prefix": "equal-topology-key"
+        },
+        {
+          "active_state": 7,
+          "full_selection_relation_at_prefix": "shorter-path-prefix-first",
+          "long_angles_radians": [
+            0.2617993877991494,
+            -1.0471975511965976
+          ],
+          "long_chosen_prefix_key": [
+            0,
+            0.5871464792766101,
+            3.1556516547221003
+          ],
+          "long_state": 320,
+          "residue": "L",
+          "short_angles_radians": [
+            -0.2617993877991494,
+            1.0471975511965976
+          ],
+          "short_chosen_prefix_key": [
+            0,
+            0.58714647927661,
+            3.1556516547221016
+          ],
+          "short_state": 280,
+          "topology_key_relation_at_prefix": "shorter-path-prefix-first"
+        },
+        {
+          "active_state": 14,
+          "full_selection_relation_at_prefix": "longer-path-prefix-first",
+          "long_angles_radians": [
+            -0.2617993877991494,
+            0.7853981633974483
+          ],
+          "long_chosen_prefix_key": [
+            0,
+            0.9523405793836744,
+            8.768746455163862
+          ],
+          "long_state": 279,
+          "residue": "L",
+          "short_angles_radians": [
+            0.2617993877991494,
+            -0.7853981633974483
+          ],
+          "short_chosen_prefix_key": [
+            0,
+            0.9523405793836747,
+            8.76874645516386
+          ],
+          "short_state": 321,
+          "topology_key_relation_at_prefix": "longer-path-prefix-first"
+        },
+        {
+          "active_state": 15,
+          "full_selection_relation_at_prefix": "longer-path-prefix-first",
+          "long_angles_radians": [
+            -0.2617993877991494,
+            0.0
+          ],
+          "long_chosen_prefix_key": [
+            0,
+            1.0850585828807677,
+            9.23623116578749
+          ],
+          "long_state": 276,
+          "residue": "E",
+          "short_angles_radians": [
+            0.2617993877991494,
+            0.0
+          ],
+          "short_chosen_prefix_key": [
+            0,
+            1.085058582880768,
+            9.23623116578749
+          ],
+          "short_state": 324,
+          "topology_key_relation_at_prefix": "longer-path-prefix-first"
+        },
+        {
+          "active_state": 16,
+          "full_selection_relation_at_prefix": "longer-path-prefix-first",
+          "long_angles_radians": [
+            -0.2617993877991494,
+            1.3089969389957472
+          ],
+          "long_chosen_prefix_key": [
+            0,
+            1.0106006342236982,
+            10.017252256734048
+          ],
+          "long_state": 281,
+          "residue": "V",
+          "short_angles_radians": [
+            0.2617993877991494,
+            -1.3089969389957472
+          ],
+          "short_chosen_prefix_key": [
+            0,
+            1.0106006342236986,
+            10.017252256734052
+          ],
+          "short_state": 319,
+          "topology_key_relation_at_prefix": "longer-path-prefix-first"
+        },
+        {
+          "active_state": 21,
+          "full_selection_relation_at_prefix": "shorter-path-prefix-first",
+          "long_angles_radians": [
+            -0.2617993877991494,
+            0.0
+          ],
+          "long_chosen_prefix_key": [
+            0,
+            1.0118685137448007,
+            16.949525986833066
+          ],
+          "long_state": 276,
+          "residue": "T",
+          "short_angles_radians": [
+            0.2617993877991494,
+            0.0
+          ],
+          "short_chosen_prefix_key": [
+            0,
+            1.0118685137447998,
+            16.949525986833063
+          ],
+          "short_state": 324,
+          "topology_key_relation_at_prefix": "shorter-path-prefix-first"
+        },
+        {
+          "active_state": 22,
+          "full_selection_relation_at_prefix": "shorter-path-prefix-first",
+          "long_angles_radians": [
+            0.0,
+            0.2617993877991494
+          ],
+          "long_chosen_prefix_key": [
+            0,
+            0.9308928732983074,
+            18.52651825794227
+          ],
+          "long_state": 301,
+          "residue": "I",
+          "short_angles_radians": [
+            0.0,
+            -0.2617993877991494
+          ],
+          "short_chosen_prefix_key": [
+            0,
+            0.930892873298307,
+            18.526518257942268
+          ],
+          "short_state": 299,
+          "topology_key_relation_at_prefix": "shorter-path-prefix-first"
+        }
+      ],
+      "first_divergence_zero_based": 0,
+      "long_length": 32,
+      "shared_frontier_trace_identical": true,
+      "short_length": 24
+    },
+    {
+      "active_states_compared": 31,
+      "changed_state_count": 1,
+      "changed_states": [
+        {
+          "active_state": 0,
+          "full_selection_relation_at_prefix": "shorter-path-prefix-first",
+          "long_angles_radians": [
+            -3.141592653589793,
+            2.0943951023931953
+          ],
+          "long_chosen_prefix_key": [
+            0,
+            1.0,
+            0.25
+          ],
+          "long_state": 20,
+          "residue": "M",
+          "short_angles_radians": [
+            -3.141592653589793,
+            -3.141592653589793
+          ],
+          "short_chosen_prefix_key": [
+            0,
+            1.0,
+            0.25
+          ],
+          "short_state": 0,
+          "topology_key_relation_at_prefix": "equal-topology-key"
+        }
+      ],
+      "first_divergence_zero_based": 0,
+      "long_length": 48,
+      "shared_frontier_trace_identical": true,
+      "short_length": 32
+    },
+    {
+      "active_states_compared": 47,
+      "changed_state_count": 1,
+      "changed_states": [
+        {
+          "active_state": 0,
+          "full_selection_relation_at_prefix": "shorter-path-prefix-first",
+          "long_angles_radians": [
+            -3.141592653589793,
+            2.8797932657906435
+          ],
+          "long_chosen_prefix_key": [
+            0,
+            1.0,
+            0.25
+          ],
+          "long_state": 23,
+          "residue": "M",
+          "short_angles_radians": [
+            -3.141592653589793,
+            2.0943951023931953
+          ],
+          "short_chosen_prefix_key": [
+            0,
+            1.0,
+            0.25
+          ],
+          "short_state": 20,
+          "topology_key_relation_at_prefix": "equal-topology-key"
+        }
+      ],
+      "first_divergence_zero_based": 0,
+      "long_length": 76,
+      "shared_frontier_trace_identical": true,
+      "short_length": 48
+    }
+  ],
+  "consistency_receipt_sha256": "b218ade6b4a81f6ae34aa79f9d45a20dfc89b0d6ac7f1b4c9991acf35780e834",
+  "governance_authority": false,
+  "interpretation": "target-free selector decision trace only; the engine determines forcing or halt and Maria Smith assigns project conclusions",
+  "ordering_relation": [
+    "self-exclusion violations",
+    "hydrophobic dispersion",
+    "compaction",
+    "state-path lexicographic order"
+  ],
+  "result_type": "measured implementation result",
+  "schema": "fold-protein-selector-v2-decision-trace/v1",
+  "selected_state_bindings": [
+    {
+      "length": 8,
+      "sha256": "5ebfe1c499759e6a4485c8090e606730b48683e6eee7d17a983bf74d850b2b80"
+    },
+    {
+      "length": 16,
+      "sha256": "d45072ed6af0e6f3adefa09510aaed5abcc1d519742a9210fc99a2f9837f6308"
+    },
+    {
+      "length": 24,
+      "sha256": "dda19f0fc83c1506acd51503606c4ef3d7f941d2e25d8b370e2e9bbe008005b7"
+    },
+    {
+      "length": 32,
+      "sha256": "7627a8bb86e1ab61504303ca7319b1ca587427c86c312750093259de330b341a"
+    },
+    {
+      "length": 48,
+      "sha256": "2ac703ac12ffe2a6e1cd19aa016f9fc143bdc6d9862b318c0a89b814339eda96"
+    },
+    {
+      "length": 76,
+      "sha256": "a5c82bfe7d669a58ec25119a5776f1239a3ee3d7e4625d18fb84a1d8ca4b48a9"
+    }
+  ],
+  "status": "completed",
+  "target_access": "none",
+  "verified_ladder": {
+    "completed_runs": 6,
+    "failed_runs": 0,
+    "registration_sha256": "13712fc188fd362a1d0b6bd0e139321f4404cbb51bcbc5a1349b127a01241e64",
+    "schema": "fold-protein-selector-v2-length-ladder-verification/v1",
+    "seal_sha256": "05b11e798c95c30e5bfda70e7000158d29f91a2cdd6b817c205ad72b620c7c00",
+    "status": "verified"
+  }
+}

@@ -41,3 +41,19 @@ registered prefix and never opens a target. The exact identical-state counts are
 48→76 comparisons. This is a measured implementation result only. The engine
 determines forcing or halt; Maria Smith assigns any project conclusion and
 decides when the selector receives a real blind run.
+
+`tools/trace_blind_ladder_decisions_v2.py` continues that audit entirely inside
+the selector. For every changed active state it records the two exact lattice
+states, their dihedral angles, each chosen prefix's dimensionless topology key,
+and their lexicographic relation. It also checks whether the shared beam-frontier
+trace is byte-for-byte identical before the shorter sequence ends. The trace
+binds the verified ladder, consistency receipt, analyzer source, and every state
+file; it reads no target and assigns no project conclusion.
+
+The sealed 2026-07-18 trace records changed-state counts of 1, 1, 7, 1, and 1
+across the five consecutive length comparisons. In all five comparisons the
+shared beam-frontier trace is byte-for-byte identical through the shorter
+active range. Each later final path therefore remains traceable to the same
+registered frontier construction and the selector's explicit continuation and
+lexicographic ordering, with the complete per-state relations preserved in
+`blind_selector_v2_decision_trace_20260718.json`.
