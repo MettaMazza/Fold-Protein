@@ -143,6 +143,12 @@ The registry verifier halts if:
 
 Generated PDBs and campaign receipts are evidence rather than forcing source.
 They are bound by the protected construction manifest or their immutable seals.
+All 53 tracked PDBs are also exhaustively classified: two experimental
+references, one protected target-assisted construction, eleven sealed v2
+development outputs, and thirty-nine legacy pre-project development artifacts.
+Their complete path-and-content census is hash-bound by the registry; both v2
+aggregate seals are reverified. Legacy filenames such as `predicted`,
+`optimized`, or `autonomous` do not confer result or authorship status.
 
 ## Remaining forward work
 

@@ -13,6 +13,8 @@ class ProteinForcingRegistryTests(unittest.TestCase):
             "6b08f5288034d0958a15c8b4b0af0edb59715e37",
         )
         self.assertEqual(receipt["inherited_compiler"]["tracked_files"], 315)
+        self.assertEqual(receipt["artifact_inventory"]["tracked_pdb_files"], 53)
+        self.assertEqual(receipt["artifact_inventory"]["v2_ladder"]["failed_runs"], 0)
 
 
 if __name__ == "__main__":

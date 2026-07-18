@@ -146,5 +146,72 @@
     "v2_receipts": "Preserved under verify/blind_selector_v2_* and checked by their registered seal verifiers.",
     "continuation_receipt": "verify/blind_selector_v2_continuation_lineage_20260718.json when the registered replay completes.",
     "classification": "A recorded development execution is not a Maria finding, loss or failed prediction."
+  },
+  "artifact_inventory": {
+    "tracked_pdb_files": 53,
+    "tracked_pdb_file_set_sha256": "dfbcb42730ab680f806017ef22057781046dddfd4d3e16faf0c1e378284ef80e",
+    "classes": {
+      "experimental_reference": [
+        "verify/1cop.pdb",
+        "verify/1ubq.pdb"
+      ],
+      "protected_target_assisted_construction": [
+        "verify/1ubq_test_24_lattice.pdb"
+      ],
+      "sealed_v2_development_output": [
+        "verify/blind_selector_v2_length_ladder_run_20260718/ubiquitin-v2-ladder-l16/prediction.pdb",
+        "verify/blind_selector_v2_length_ladder_run_20260718/ubiquitin-v2-ladder-l24/prediction.pdb",
+        "verify/blind_selector_v2_length_ladder_run_20260718/ubiquitin-v2-ladder-l32/prediction.pdb",
+        "verify/blind_selector_v2_length_ladder_run_20260718/ubiquitin-v2-ladder-l48/prediction.pdb",
+        "verify/blind_selector_v2_length_ladder_run_20260718/ubiquitin-v2-ladder-l76/prediction.pdb",
+        "verify/blind_selector_v2_length_ladder_run_20260718/ubiquitin-v2-ladder-l8/prediction.pdb",
+        "verify/blind_selector_v2_panel_run_20260718/alternating-8/prediction.pdb",
+        "verify/blind_selector_v2_panel_run_20260718/charged-8/prediction.pdb",
+        "verify/blind_selector_v2_panel_run_20260718/hydrophobic-8/prediction.pdb",
+        "verify/blind_selector_v2_panel_run_20260718/mixed-alphabet-8/prediction.pdb",
+        "verify/blind_selector_v2_panel_run_20260718/turn-rich-8/prediction.pdb"
+      ],
+      "legacy_preproject_development_artifact": [
+        "1ubq_autonomous.pdb",
+        "1ubq_autonomous_v10.pdb",
+        "1ubq_autonomous_v11.pdb",
+        "1ubq_autonomous_v12.pdb",
+        "1ubq_autonomous_v13.pdb",
+        "1ubq_autonomous_v14.pdb",
+        "1ubq_autonomous_v15.pdb",
+        "1ubq_autonomous_v16.pdb",
+        "1ubq_autonomous_v17.pdb",
+        "1ubq_autonomous_v2.pdb",
+        "1ubq_autonomous_v3.pdb",
+        "1ubq_autonomous_v4.pdb",
+        "1ubq_autonomous_v5.pdb",
+        "1ubq_autonomous_v6.pdb",
+        "1ubq_autonomous_v7.pdb",
+        "1ubq_autonomous_v8.pdb",
+        "1ubq_autonomous_v9.pdb",
+        "verify/1cop_predicted.pdb",
+        "verify/1ubq_ab_initio.pdb",
+        "verify/1ubq_beam.pdb",
+        "verify/1ubq_collapse.pdb",
+        "verify/1ubq_deep_sa_optimized.pdb",
+        "verify/1ubq_discrete.pdb",
+        "verify/1ubq_exact_rational.pdb",
+        "verify/1ubq_ga_optimized.pdb",
+        "verify/1ubq_hgsa_optimized.pdb",
+        "verify/1ubq_integer.pdb",
+        "verify/1ubq_integer_fixed.pdb",
+        "verify/1ubq_massive.pdb",
+        "verify/1ubq_massive_fixed.pdb",
+        "verify/1ubq_memetic_optimized.pdb",
+        "verify/1ubq_optimized.pdb",
+        "verify/1ubq_positive.pdb",
+        "verify/1ubq_predicted.pdb",
+        "verify/1ubq_predicted2.pdb",
+        "verify/1ubq_sa_optimized.pdb",
+        "verify/1ubq_test_positive.pdb",
+        "verify/1ubq_zero_parameter.pdb",
+        "verify/1ubq_zero_parameter_block.pdb"
+      ]
+    }
   }
 }
