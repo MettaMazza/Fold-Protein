@@ -30,3 +30,14 @@ The 2026-07-18 execution in `blind_selector_v2_panel_run_20260718/` completed al
 five registered sequences with deterministic sequence-only outputs and hash-bound
 receipts. The registered ubiquitin length ladder subsequently completed all six
 prefixes through the full 76-residue sequence.
+
+## Target-free prefix continuation receipt
+
+`blind_selector_v2_prefix_consistency_20260718.json` hash-binds the verified
+length-ladder registration, ladder seal, and every selected-state file. It
+compares only Cα-active state decisions in each shorter prefix with the next
+registered prefix and never opens a target. The exact identical-state counts are
+6/7, 14/15, 16/23, 30/31, and 46/47 for the 8→16, 16→24, 24→32, 32→48, and
+48→76 comparisons. This is a measured implementation result only. The engine
+determines forcing or halt; Maria Smith assigns any project conclusion and
+decides when the selector receives a real blind run.

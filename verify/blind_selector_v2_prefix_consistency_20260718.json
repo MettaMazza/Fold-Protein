@@ -1,0 +1,93 @@
+{
+  "analyzer": {
+    "path": "tools/analyze_blind_ladder_consistency_v2.py",
+    "sha256": "76bac68f927a0ed503d960b08d25fd3e5a609415484544732ef25a443fa8236b"
+  },
+  "comparisons": [
+    {
+      "active_states_compared": 7,
+      "first_divergence_zero_based": 0,
+      "identical_active_states": 6,
+      "long_length": 16,
+      "short_length": 8
+    },
+    {
+      "active_states_compared": 15,
+      "first_divergence_zero_based": 0,
+      "identical_active_states": 14,
+      "long_length": 24,
+      "short_length": 16
+    },
+    {
+      "active_states_compared": 23,
+      "first_divergence_zero_based": 0,
+      "identical_active_states": 16,
+      "long_length": 32,
+      "short_length": 24
+    },
+    {
+      "active_states_compared": 31,
+      "first_divergence_zero_based": 0,
+      "identical_active_states": 30,
+      "long_length": 48,
+      "short_length": 32
+    },
+    {
+      "active_states_compared": 47,
+      "first_divergence_zero_based": 0,
+      "identical_active_states": 46,
+      "long_length": 76,
+      "short_length": 48
+    }
+  ],
+  "governance_authority": false,
+  "interpretation": "exact prefix-continuation measurement only; Maria Smith assigns any project conclusion and decides real blind-run timing",
+  "ladder_seal_sha256": "05b11e798c95c30e5bfda70e7000158d29f91a2cdd6b817c205ad72b620c7c00",
+  "registered_lengths": [
+    8,
+    16,
+    24,
+    32,
+    48,
+    76
+  ],
+  "registration_sha256": "13712fc188fd362a1d0b6bd0e139321f4404cbb51bcbc5a1349b127a01241e64",
+  "result_type": "measured implementation result",
+  "schema": "fold-protein-selector-v2-prefix-consistency/v1",
+  "state_bindings": [
+    {
+      "length": 8,
+      "selected_states_sha256": "5ebfe1c499759e6a4485c8090e606730b48683e6eee7d17a983bf74d850b2b80"
+    },
+    {
+      "length": 16,
+      "selected_states_sha256": "d45072ed6af0e6f3adefa09510aaed5abcc1d519742a9210fc99a2f9837f6308"
+    },
+    {
+      "length": 24,
+      "selected_states_sha256": "dda19f0fc83c1506acd51503606c4ef3d7f941d2e25d8b370e2e9bbe008005b7"
+    },
+    {
+      "length": 32,
+      "selected_states_sha256": "7627a8bb86e1ab61504303ca7319b1ca587427c86c312750093259de330b341a"
+    },
+    {
+      "length": 48,
+      "selected_states_sha256": "2ac703ac12ffe2a6e1cd19aa016f9fc143bdc6d9862b318c0a89b814339eda96"
+    },
+    {
+      "length": 76,
+      "selected_states_sha256": "a5c82bfe7d669a58ec25119a5776f1239a3ee3d7e4625d18fb84a1d8ca4b48a9"
+    }
+  ],
+  "status": "completed",
+  "target_access": "none",
+  "verified_ladder": {
+    "completed_runs": 6,
+    "failed_runs": 0,
+    "registration_sha256": "13712fc188fd362a1d0b6bd0e139321f4404cbb51bcbc5a1349b127a01241e64",
+    "schema": "fold-protein-selector-v2-length-ladder-verification/v1",
+    "seal_sha256": "05b11e798c95c30e5bfda70e7000158d29f91a2cdd6b817c205ad72b620c7c00",
+    "status": "verified"
+  }
+}
