@@ -21,6 +21,13 @@ source is classified from its actual executable role instead. The complete,
 machine-checked classification is
 `verify/protein_forcing_registry_v1.json`.
 
+The bundled `compiler/` directory is an inherited infrastructure boundary, not
+a Protein-specific forcing mechanism. Its 315 tracked files are byte-identical
+to the canonical compiler directory in the main SFT corpus at this audit point.
+Their stable relative-path/file-hash census has SHA-256
+`d64800349f2ab8939c9e09ee85d2fef12559c3b712ce79c4363bee92d6cfe62c`.
+The registry checks that boundary separately and selector v3 cannot import it.
+
 ## Secured routes
 
 ### One-traced protein law
@@ -128,6 +135,7 @@ python3 -m unittest tests.test_protein_forcing_registry \
 The registry verifier halts if:
 
 - any Protein source in scope lacks a provenance class;
+- the inherited 315-file compiler boundary changes;
 - a source is assigned more than one primary class;
 - a forbidden legacy module enters the v3 runtime import closure;
 - any v3 source differs from its registered SHA-256; or

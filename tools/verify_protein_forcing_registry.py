@@ -6,6 +6,7 @@ import ast
 import hashlib
 import json
 from pathlib import Path
+import subprocess
 
 from verify.replay_protein_backbone_geometry_v1 import replay as replay_geometry
 
@@ -54,6 +55,20 @@ def imported_modules(path: Path) -> set[str]:
     return modules
 
 
+def tracked_compiler_digest() -> tuple[int, str]:
+    result = subprocess.run(
+        ["git", "ls-files", "compiler"], cwd=ROOT,
+        check=True, text=True, capture_output=True,
+    )
+    paths = [line for line in result.stdout.splitlines() if line]
+    digest_input = bytearray()
+    for relative in paths:
+        file_hash = sha256(ROOT / relative)
+        compiler_relative = relative.removeprefix("compiler/")
+        digest_input.extend(f"{file_hash}  {compiler_relative}\n".encode())
+    return len(paths), hashlib.sha256(digest_input).hexdigest()
+
+
 def verify_registry() -> dict:
     registry = json.loads(REGISTRY.read_text())
     if registry.get("schema") != "fold-protein-forcing-registry/v1":
@@ -78,6 +93,13 @@ def verify_registry() -> dict:
     for relative in sorted(actual):
         if not (ROOT / relative).is_file():
             raise RuntimeError(f"classified protein source is missing: {relative}")
+
+    compiler_boundary = registry["inherited_toolchain_boundary"]
+    compiler_count, compiler_digest = tracked_compiler_digest()
+    if compiler_count != compiler_boundary["tracked_files"]:
+        raise RuntimeError("inherited compiler tracked-file census changed")
+    if compiler_digest != compiler_boundary["tracked_file_set_sha256"]:
+        raise RuntimeError("inherited compiler file-set digest changed")
 
     legacy = set(registry["legacy_exclusion"]["forbidden_runtime_modules"])
     runtime_hashes = {}
@@ -115,6 +137,10 @@ def verify_registry() -> dict:
         "v3_runtime_sha256": runtime_hashes,
         "geometry_replay": geometry,
         "history_floor_commit": registry["visible_history"]["first_commit"],
+        "inherited_compiler": {
+            "tracked_files": compiler_count,
+            "tracked_file_set_sha256": compiler_digest,
+        },
     }
 
 

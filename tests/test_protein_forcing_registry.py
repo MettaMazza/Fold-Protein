@@ -12,6 +12,7 @@ class ProteinForcingRegistryTests(unittest.TestCase):
             receipt["history_floor_commit"],
             "6b08f5288034d0958a15c8b4b0af0edb59715e37",
         )
+        self.assertEqual(receipt["inherited_compiler"]["tracked_files"], 315)
 
 
 if __name__ == "__main__":

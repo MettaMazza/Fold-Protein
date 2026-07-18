@@ -19,6 +19,14 @@
     "blind_selector_v3": "active provenance-isolated forward-forcing continuation route",
     "legacy_engines": "retained history only; excluded from promoted and active continuation routes"
   },
+  "inherited_toolchain_boundary": {
+    "path": "compiler/",
+    "role": "bundled ErnosPlain compiler shared with the main SFT corpus; infrastructure for compiling the .ep law, not a Protein-specific forcing mechanism",
+    "tracked_files": 315,
+    "tracked_file_set_sha256": "d64800349f2ab8939c9e09ee85d2fef12559c3b712ce79c4363bee92d6cfe62c",
+    "canonical_comparison": "byte-identical tracked file set to /Users/mettamazza/Desktop/Smithian Fold Theory/compiler at audit time",
+    "rule": "the boundary is hash-checked as inherited infrastructure and cannot enter selector-v3 runtime"
+  },
   "classes": {
     "engine_one_trace": [
       "constants/protein_folding.ep",
