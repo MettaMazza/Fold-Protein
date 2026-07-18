@@ -1,0 +1,142 @@
+{
+  "schema": "fold-protein-forcing-registry/v1",
+  "date": "2026-07-18",
+  "authority": {
+    "validity": "Forcing and derivation are admitted by the engine's trace, closure and halt standards; this registry cannot declare them valid by prose.",
+    "publication": "Maria Smith alone declares publishable conclusions, benchmark findings, victories, losses and real-run status.",
+    "agent_evidence": "Agent-created probes and development executions remain auxiliary evidence unless Maria adopts a conclusion from them."
+  },
+  "visible_history": {
+    "first_commit": "6b08f5288034d0958a15c8b4b0af0edb59715e37",
+    "first_commit_date": "2026-07-15T10:58:26+01:00",
+    "finding": "The first visible commit already contains the theorem copy, all-purpose predictor, target-guided optimisers, legacy outputs and agent-authored workspace guidance. Git history therefore cannot prove their pre-project origin or forcing provenance.",
+    "rule": "No source is admitted from commit authorship alone; it must be classified and executable routes must be bound independently."
+  },
+  "route_status": {
+    "theorem_and_protein_law": "engine-traced One route",
+    "ubiquitin_24_lattice_construction": "protected target-assisted forward-forcing construction",
+    "blind_selector_v2": "preserved development evidence with mixed legacy dependencies; not the clean continuation route",
+    "blind_selector_v3": "active provenance-isolated forward-forcing continuation route",
+    "legacy_engines": "retained history only; excluded from promoted and active continuation routes"
+  },
+  "classes": {
+    "engine_one_trace": [
+      "constants/protein_folding.ep",
+      "constants/protein_folding_3d.ep",
+      "foundation/assembly_enumeration.ep",
+      "foundation/counted_numbers.ep",
+      "foundation/enforcement.ep",
+      "foundation/exact_fractions.ep",
+      "foundation/exact_integers.ep",
+      "foundation/form_enforcement.ep",
+      "foundation/measured_values.ep",
+      "foundation/structural_counts.ep",
+      "foundation/the_one_and_the_fold.ep",
+      "tests/test_protein_folding.ep",
+      "tests/test_protein_folding_3d.ep",
+      "verify/test_protein_folding.c",
+      "verify/test_protein_folding_3d.c"
+    ],
+    "protected_target_assisted_forward_forcing": [
+      "calculate_tm.py",
+      "verify/replay_ubiquitin_24_lattice.py",
+      "verify/ubiquitin_24_lattice_manifest.json"
+    ],
+    "mixed_historical_construction_source": [
+      "tools/predict_structure.py"
+    ],
+    "blind_v2_preserved_development_evidence": [
+      "tests/test_blind_evaluator_v2.py",
+      "tests/test_blind_ladder_consistency_v2.py",
+      "tests/test_blind_ladder_decision_trace_v2.py",
+      "tests/test_blind_length_ladder_v2.py",
+      "tests/test_blind_panel_v2.py",
+      "tests/test_blind_protocol_v2.py",
+      "tests/test_selector_continuation_lineage_v2.py",
+      "tools/analyze_blind_ladder_consistency_v2.py",
+      "tools/blind_24_lattice_selector_v2.py",
+      "tools/run_blind_length_ladder_v2.py",
+      "tools/run_blind_panel_v2.py",
+      "tools/run_blind_protocol_v2.py",
+      "tools/trace_blind_ladder_decisions_v2.py",
+      "tools/trace_selector_continuation_lineage_v2.py",
+      "tools/verify_blind_length_ladder_v2.py",
+      "tools/verify_blind_panel_v2.py",
+      "verify/BLIND_SELECTOR_V2.md",
+      "verify/blind_selector_v2.json",
+      "verify/blind_selector_v2_length_ladder.json",
+      "verify/blind_selector_v2_panel.json",
+      "verify/evaluate_sealed_blind_v2.py"
+    ],
+    "blind_v3_active_forward_forcing": [
+      "tests/test_blind_selector_v3.py",
+      "tests/test_protein_backbone_geometry_v1.py",
+      "tests/test_protein_forcing_registry.py",
+      "tools/blind_24_lattice_selector_v3.py",
+      "tools/protein_backbone_geometry_v1.py",
+      "tools/run_blind_protocol_v3.py",
+      "tools/verify_protein_forcing_registry.py",
+      "verify/blind_selector_v3.json",
+      "verify/protein_backbone_geometry_v1.json",
+      "verify/replay_protein_backbone_geometry_v1.py"
+    ],
+    "legacy_agent_development_unpromoted": [
+      "tests/test_blind_protocol.py",
+      "tools/beam_search_engine.py",
+      "tools/blind_24_lattice_solver.py",
+      "tools/discrete_assembly_engine.py",
+      "tools/rotamer_geometry.py",
+      "tools/run_blind_protocol.py",
+      "tools/sft_integer_engine.py",
+      "tools/sft_positive_integer_engine.py",
+      "verify/blind_selector_v1.json",
+      "verify/evaluate_sealed_blind.py"
+    ],
+    "governance_and_authored_argument": [
+      "AGENT.md",
+      "README.md",
+      "papers/Levinthals_Paradox_Dissolved_Parameter_Free_Protein_Folding_and_the_Genetic_Code.md",
+      "papers/Super_Parity_Zero_Parameter_Protein_Folding.md",
+      "verify/PROTEIN_FORCING_AUDIT.md"
+    ],
+    "package_scaffolding": [
+      "tests/__init__.py",
+      "verify/__init__.py"
+    ]
+  },
+  "legacy_exclusion": {
+    "promoted_or_active_classes": [
+      "engine_one_trace",
+      "protected_target_assisted_forward_forcing",
+      "mixed_historical_construction_source",
+      "blind_v3_active_forward_forcing"
+    ],
+    "forbidden_runtime_modules": [
+      "tools.predict_structure",
+      "predict_structure",
+      "tools.blind_24_lattice_solver",
+      "blind_24_lattice_solver",
+      "tools.beam_search_engine",
+      "beam_search_engine",
+      "tools.discrete_assembly_engine",
+      "discrete_assembly_engine",
+      "tools.sft_integer_engine",
+      "sft_integer_engine",
+      "tools.sft_positive_integer_engine",
+      "sft_positive_integer_engine",
+      "tools.rotamer_geometry",
+      "rotamer_geometry"
+    ],
+    "v3_runtime_roots": [
+      "tools/blind_24_lattice_selector_v3.py",
+      "tools/protein_backbone_geometry_v1.py",
+      "tools/run_blind_protocol_v3.py"
+    ]
+  },
+  "generated_evidence": {
+    "pdb_files": "Targets, constructions and development outputs are data, not forcing source; protected or sealed routes bind them by SHA-256.",
+    "v2_receipts": "Preserved under verify/blind_selector_v2_* and checked by their registered seal verifiers.",
+    "continuation_receipt": "verify/blind_selector_v2_continuation_lineage_20260718.json when the registered replay completes.",
+    "classification": "A recorded development execution is not a Maria finding, loss or failed prediction."
+  }
+}

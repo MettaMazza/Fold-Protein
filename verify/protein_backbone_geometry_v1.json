@@ -1,0 +1,29 @@
+{
+  "schema": "fold-protein-backbone-geometry-constitution/v1",
+  "status": "named-forward-forcing-bridge",
+  "authority": "The engine determines admission; this record supplies provenance and executable identity only.",
+  "route": "The protected target-assisted 24-lattice construction already uses this declared peptide geometry. This constitution extracts only that coordinate relation into a target-incapable module and requires byte-exact replay of the protected witness.",
+  "one_trace": {
+    "dihedral_state_source": "The 24-lattice states are exact rational circle turns inherited from the protected construction.",
+    "allowed_state_count": 576,
+    "state_count_relation": "24 * 24",
+    "target_assisted_anchor": "verify/ubiquitin_24_lattice_manifest.json"
+  },
+  "forward_forced_constitution": {
+    "bond_lengths_angstrom": {
+      "N_CA": "146/100",
+      "CA_C": "152/100",
+      "C_N": "133/100"
+    },
+    "bond_angles_degrees": {
+      "C_N_CA": "121/1",
+      "N_CA_C": "111/1",
+      "CA_C_N": "116/1",
+      "omega": "180/1"
+    },
+    "coordinate_relation": "deterministic NeRF re-derived as cross products, normalisation, sine and cosine at the Cartesian readout boundary",
+    "classification": "declared peptide-geometry constitution; no target, fitting, optimisation, selector, score, or random input"
+  },
+  "replay": "verify/replay_protein_backbone_geometry_v1.py",
+  "protected_output": "verify/1ubq_test_24_lattice.pdb"
+}

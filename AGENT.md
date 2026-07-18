@@ -28,8 +28,7 @@ the commands in §3:
   The zero-parameter 24-lattice has nothing to fit, so this is discovery of a conformation the lattice
   contains, not a fit. Reproduce the score with
   `python3 calculate_tm.py verify/1ubq_test_24_lattice.pdb verify/1ubq.pdb`. The full write-ups are
-  in [`papers/`](papers/) (Super Parity — 0.9891 TM-Score; Levinthal's Paradox Dissolved). The earlier
-  9-preimage engine plateaued at ~0.69 TM — a sampling artifact, not the result.
+  in [`papers/`](papers/) (Super Parity — 0.9891 TM-Score; Levinthal's Paradox Dissolved).
 
 If any change makes any of the above stop reproducing, record the exact engine
 halt or mismatch and repair the derivation before promotion. The engine's checks
@@ -42,6 +41,12 @@ agent-created probe or gate may authorize, refuse, delay, or veto the run. When
 Maria orders it, freeze the prediction before target access, execute the named
 comparison, and preserve the receipt. Development batches are not Maria's
 findings or losses until she declares the conclusion from the data.
+
+The first visible repository commit already contains mixed-purpose agent-era
+engines, so presence in Git is not proof of forcing. The complete classification
+is `verify/protein_forcing_registry_v1.json`; enforce it with
+`python3 -m tools.verify_protein_forcing_registry`. Legacy engines are preserved
+as development history but may not enter the active blind runtime closure.
 
 ---
 
@@ -106,11 +111,20 @@ identity determines the invariant exclusions and relations that select among the
 residue. Every proposed relation is routed through the engine; a violation halts rather than becoming
 an agent-authored substitute output.
 
+**No silent inherited mechanism.** The protected construction retains its
+original hash-bound builder. The blind continuation route uses
+`tools/protein_backbone_geometry_v1.py`, a target-incapable extraction whose
+declared peptide geometry is a named forward-forcing constitution and whose
+byte-exact replay is mandatory. Selector v3 imports neither the all-purpose
+predictor nor the v1 selector. Never relabel an inherited literal as forced:
+name its route and let the engine admit or halt it.
+
 **Exact geometric exclusion, not statistical averages.** Classical statistical priors (radius of
 gyration, scalar hydrophobic collapse) require forging arbitrary constants to coerce a shape. The
-0.9891 trace instead yields exact, un-forged spatial invariants (e.g. a steric exclusion bound of
-~3.777 Å and precise sequential i+2 distance limits). The fold is driven by exact geometric exclusion the sequence
-enforces on itself within the 24-lattice — zero imported parameters.
+0.9891 trace supplies forward-forcing spatial relations, including the recorded
+steric and sequential-distance investigations. Target-derived development
+relations remain named as such and are not silently admitted to a blind selector.
+Selector v3 currently orders only One-normalised, generated geometry.
 
 ---
 
@@ -120,9 +134,9 @@ enforces on itself within the 24-lattice — zero imported parameters.
 the one validated anchor with no law or constraint violation.** For any change — a new backbone
 term, a bigger protein, a better search, a new lattice:
 
-1. Express the new quantity as **counted or forced** — in the `.ep` law (`constants/protein_folding*.ep`,
-   using only `foundation/`) and/or in the folding pipeline (`tools/predict_structure.py` and the
-   engines), with **no fitted parameter**.
+1. Express the new quantity as **counted, forced, or a named forward-forcing constitution** — in the
+   `.ep` law (`constants/protein_folding*.ep`, using only `foundation/`) and/or in the clean selector-v3
+   route, with no silent inherited parameter.
 2. **Rebuild through the engine** — the `.ep` law via `ernos`, the C proofs via `cc` (§3). A halt is
    a guard firing; fix the derivation, do not bypass it.
 3. **Re-run the full validation in this directory** (§3): the Levinthal descent and the backbone
@@ -157,18 +171,18 @@ ernos test_protein_folding.ep       # -> binary; run it, expect all ok
 ernos test_protein_folding_3d.ep
 ```
 
-**C. Fold from sequence, then score blind (needs `python3` + `numpy`):**
+**C. Reproduce the protected construction measurement (needs `python3` + `numpy`):**
 ```sh
-# predict a structure from sequence (the experimental arg, if given, forward-forces the assembly
-#   and scores it):
-python3 tools/predict_structure.py <one-letter-sequence> <output.pdb>
-# score any prediction against the held-out experimental structure:
+python3 verify/replay_ubiquitin_24_lattice.py
 python3 calculate_tm.py verify/1ubq_test_24_lattice.pdb verify/1ubq.pdb   # -> TM-score: 0.9891 (the anchor)
 ```
-The engines (`tools/sft_integer_engine.py`, `tools/sft_positive_integer_engine.py`,
-`tools/blind_24_lattice_solver.py`, `tools/discrete_assembly_engine.py`, `tools/rotamer_geometry.py`)
-import `predict_structure` and read `verify/*.pdb` relative to this folder — run them from the folder
-root (`python3 tools/<engine>.py ...`).
+
+**D. Full Protein provenance and clean blind closure:**
+```sh
+python3 -m tools.verify_protein_forcing_registry
+python3 -m unittest tests.test_protein_forcing_registry \
+  tests.test_protein_backbone_geometry_v1 tests.test_blind_selector_v3 -v
+```
 
 ---
 
@@ -180,7 +194,14 @@ root (`python3 tools/<engine>.py ...`).
 - `verify/test_protein_folding*.c` — the self-contained C proofs (the primary law validation).
 - `tests/test_protein_folding*.ep` — the same in source.
 - `tools/predict_structure.py` — the folding pipeline (sequence → 3D backbone → PDB).
-- `tools/*_engine.py`, `tools/blind_24_lattice_solver.py`, `tools/rotamer_geometry.py` — the folders/optimisers.
+- `tools/protein_backbone_geometry_v1.py` — target-incapable coordinate constitution used by
+  the clean blind continuation route.
+- `tools/blind_24_lattice_selector_v3.py`, `tools/run_blind_protocol_v3.py` — provenance-isolated
+  blind forward-forcing selector and immutable protocol.
+- `tools/*_engine.py`, `tools/blind_24_lattice_solver.py`, `tools/rotamer_geometry.py` — preserved
+  legacy development engines excluded from selector-v3 runtime.
+- `verify/protein_forcing_registry_v1.json`, `verify/PROTEIN_FORCING_AUDIT.md` — complete source
+  classification, historical floor and executable exclusion rules.
 - `calculate_tm.py` — TM-score (Kabsch-aligned) vs an experimental structure; the scoring boundary.
 - `verify/1ubq.pdb`, `verify/1cop.pdb` — experimental references (held out; scoring only).
 - `verify/1ubq_*.pdb`, `./1ubq_autonomous*.pdb` — constructed or predicted

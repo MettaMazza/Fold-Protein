@@ -1,0 +1,62 @@
+{
+  "schema": "fold-protein-blind-selector/v3",
+  "version": "3.0.0",
+  "execution": "sequence-only provenance-isolated forward-forcing selector",
+  "foundation": {
+    "theorem": "one machine-checked self-proven theorem: there is no nothing",
+    "axioms": 0,
+    "trace": "One -> fold circle -> protected 24-lattice construction -> target-incapable peptide-geometry constitution -> sequence selector"
+  },
+  "lattice": {
+    "states": 576,
+    "axis_states": 24,
+    "phi_degrees": "-180 + 15 * floor(state / 24)",
+    "psi_degrees": "-180 + 15 * (state mod 24)",
+    "ordering": "row-major phi outer, psi inner",
+    "forward_forcing_anchor": "verify/ubiquitin_24_lattice_manifest.json"
+  },
+  "causal_search": {
+    "lookahead_residues": 1,
+    "first_phi": "canonical -180 degrees; enumerate the 24 psi states",
+    "internal_states": "enumerate all 576 states",
+    "final_state": "canonical state 0; final phi and psi are C-alpha inactive",
+    "tie_break": "ascending (dimensionless topology key, complete state tuple)",
+    "stopping_rule": "complete every C-alpha-active state; no target or score early stop"
+  },
+  "selector_config": {
+    "beam_width": 24
+  },
+  "score": {
+    "ordering": "lexicographic",
+    "first": "count non-neighbour C-alpha pairs closer than the chain's own mean adjacent C-alpha step",
+    "second": "mean hydrophobic-pair squared distance / mean non-neighbour squared distance",
+    "third": "radius-of-gyration squared / mean adjacent C-alpha squared step",
+    "external_length_scale": null,
+    "angstrom_cutoff": null,
+    "reward_scale": null
+  },
+  "allowed_selector_input": ["run_id", "sequence"],
+  "prohibited_selector_input": ["target", "native", "reference", "template", "distance_map", "pdb_path", "arbitrary_path"],
+  "component_routes": {
+    "One_and_fold": "engine-traced foundation/protein law",
+    "24_lattice": "forward-forced from the protected target-assisted construction and retained as its exact finite state constitution",
+    "peptide_geometry": "named forward-forcing bridge in verify/protein_backbone_geometry_v1.json; byte-exact protected-witness replay required",
+    "deterministic_nerf_builder": "constitutional computational re-derivation in the target-incapable geometry module",
+    "target_isolation_and_sealing": "constitutional experimental protocol",
+    "self_exclusion_at_the_one": "One-normalised generated-geometry relation",
+    "hydrophobic_alphabet": "registered established sequence classification used by the forward-forcing selector",
+    "dimensionless_topology_order": "registered generated-geometry forward-forcing relation",
+    "lexicographic_priority": "registered exact ordering",
+    "beam_width": "the lattice axis census, 24, used as finite path capacity",
+    "neutral_secondary_structure": "removed; v3 geometry receives sequence and exact dihedrals only"
+  },
+  "source_sha256": {
+    "tools/blind_24_lattice_selector_v3.py": "95898937cd0139e5f8a939c3a785ded32c5a7dbba5b01dc6117bed52decdd06f",
+    "tools/protein_backbone_geometry_v1.py": "a043e5d05a26fdf063c4703dac619f5fe918b65779a96df6d3cfa2f536fdc315",
+    "tools/run_blind_protocol_v3.py": "4d50eaa7bf3c95a9adcba52fce926d6e4a6f627a932d3c0cf903287c0c87ec60",
+    "verify/protein_backbone_geometry_v1.json": "47da7e3f3c58a88e53b36157c5d5ed4dfa2c8b2c6e2cba91a5da34e5746571fd",
+    "verify/replay_protein_backbone_geometry_v1.py": "c441fac4b7afde843ff260fadcd62430aa8937f3881d2e778de32c27c3b80b62"
+  },
+  "legacy_runtime_imports": [],
+  "protected_construction": "verify/ubiquitin_24_lattice_manifest.json"
+}

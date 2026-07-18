@@ -29,6 +29,17 @@ what conclusion its data supports. Agent-selected panels and ladders remain
 attributed measurements; they cannot authorize, delay, veto, or redefine that
 campaign.
 
+The first visible Protein commit already contains mixed-purpose agent-era
+development engines. Repository presence is therefore not treated as proof of
+forcing. Every current source is classified in the executable provenance
+registry, and the clean blind continuation route refuses legacy runtime imports.
+
+Run the provenance gate:
+
+```sh
+python3 -m tools.verify_protein_forcing_registry
+```
+
 ## Evidence map
 
 | Path | Role |
@@ -38,6 +49,11 @@ campaign.
 | `verify/1ubq_test_24_lattice.pdb` | constructed witness |
 | `verify/1ubq.pdb` | experimental target used in development and scoring |
 | `tools/predict_structure.py` | committed NeRF backbone builder |
+| `tools/protein_backbone_geometry_v1.py` | target-incapable extraction of the declared coordinate constitution; byte-exact construction replay |
+| `tools/blind_24_lattice_selector_v3.py` | active provenance-isolated sequence forward-forcing selector |
+| `verify/blind_selector_v3.json` | v3 relation routes, prohibited inputs, and source hashes |
+| `verify/protein_forcing_registry_v1.json` | complete source classification and legacy exclusion gate |
+| `verify/PROTEIN_FORCING_AUDIT.md` | historical floor, trace findings, and authority boundary |
 | `calculate_tm.py` | repository TM scorer |
 | `verify/test_protein_folding*.c` | project law checks |
 | `papers/` | principal protein papers |

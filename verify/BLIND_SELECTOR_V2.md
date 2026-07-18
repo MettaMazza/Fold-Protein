@@ -57,3 +57,12 @@ active range. Each later final path therefore remains traceable to the same
 registered frontier construction and the selector's explicit continuation and
 lexicographic ordering, with the complete per-state relations preserved in
 `blind_selector_v2_decision_trace_20260718.json`.
+
+The next target-free relation is continuation lineage: a longer candidate is a
+descendant exactly when its active-state tuple begins with the registered
+shorter winner. `tools/trace_selector_continuation_lineage_v2.py` replays the
+same 24-path frontier and records the exact descendant count, best rank, first
+displacement, and first extinction at every added active state. It halts if the
+registered shorter winner is not reproduced at its own frontier and binds the
+selector source, analyzer source, verified ladder, and every selected-state
+file.
