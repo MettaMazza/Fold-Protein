@@ -1,0 +1,43 @@
+{
+  "execution": "five-sequence selector-v2 panel",
+  "panel_registration_sha256": "075ea34dce04a49e547e2d9d84989286701b7c94f4435288c9af6da02c99c201",
+  "runs": [
+    {
+      "diagnostic_role": "mixed residue classes",
+      "prediction_pdb_sha256": "c0f1301b549f926fdabe361563f7e3e712644f6fde23c0ec9b0b8d4bc178962f",
+      "run_id": "mixed-alphabet-8",
+      "seal_sha256": "1ea0cf24258ddcbce2cec319f433fbae1db05a4d4dfa827fef772d51ee5d6f1c",
+      "selected_states_sha256": "2f5a03f76452de3ab9a63dee46e27a1359c7c951fe0a1e87fc5d3d92a3b8763b"
+    },
+    {
+      "diagnostic_role": "all registered hydrophobic-class residues",
+      "prediction_pdb_sha256": "73e7aa3c97632e270f12340b79e5f084d9411c6355e62af8bc1b5116dc78a20d",
+      "run_id": "hydrophobic-8",
+      "seal_sha256": "b40f535ed3c2536a3d7b786d733240c27a66186341e34e41424cb3c8c9542fd3",
+      "selected_states_sha256": "7ce2127d86dee0fc03e46560b25108bbfa0ca6595cf0870e09712a1cc8dbde4e"
+    },
+    {
+      "diagnostic_role": "alternating acidic and basic residues",
+      "prediction_pdb_sha256": "4a6e2dc6b286d05f442f80fe95bf4b456d6a89dbf30d5f64b370bced4f2fdde3",
+      "run_id": "charged-8",
+      "seal_sha256": "97c669fb6e9b9212766f550a863be1068af89ddcdb7daa82f6f30314b45fd441",
+      "selected_states_sha256": "2734b8a7b5486f5e3bff7ae582a23a21c9e1aa84fe4564d7ee6b0af8e9160f84"
+    },
+    {
+      "diagnostic_role": "glycine-proline alternating control",
+      "prediction_pdb_sha256": "37ddb2229fd3f67c25c8ec6484a7c79fea94f7ed0077752f1420ff0452f77bee",
+      "run_id": "turn-rich-8",
+      "seal_sha256": "d3ff97d9931a1d1682f868a509589dbce4f3aee7368fdff6319140605450a2cb",
+      "selected_states_sha256": "6104d8d9a425bcd598d749a2194ef0336226196dc26a1ce549081e417cd74e22"
+    },
+    {
+      "diagnostic_role": "alternating small and hydrophobic residues",
+      "prediction_pdb_sha256": "ad2112d855b214f513ea2497e7bd468f0798880efad7a6e9d60bc9c1b643c094",
+      "run_id": "alternating-8",
+      "seal_sha256": "d5ce4f3e18b4b1ac1ec61bdac663eff578a8cca50666d4c118743f9d5fe001b9",
+      "selected_states_sha256": "acd366895e24bd32189a3df9126ed5aa7f90d29ee642d92d01d3ca80b6df6aae"
+    }
+  ],
+  "schema": "fold-protein-selector-v2-panel-seal/v1",
+  "status": "completed"
+}

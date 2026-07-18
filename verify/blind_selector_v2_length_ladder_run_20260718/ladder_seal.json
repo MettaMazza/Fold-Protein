@@ -1,0 +1,74 @@
+{
+  "execution": "ubiquitin sequence selector-v2 length ladder",
+  "registration_sha256": "13712fc188fd362a1d0b6bd0e139321f4404cbb51bcbc5a1349b127a01241e64",
+  "runs": [
+    {
+      "candidate_count": 82968,
+      "elapsed_seconds": 8.229380082999999,
+      "execution_sha256": "26aa5f9295ab3ef979a97c65b0c8d8cfba1a324242f56f261f93ee96a64b037f",
+      "length": 8,
+      "nested_seal_sha256": "3722b8633eda92cf7e8ade76dc452f2de155bacfbe145fd87ff6bc9d38633d60",
+      "prediction_pdb_sha256": "effbdf267f2f9566744f478ba524a232ab3db7bc65ff3924990432bb672340ba",
+      "run_id": "ubiquitin-v2-ladder-l8",
+      "selected_states_sha256": "5ebfe1c499759e6a4485c8090e606730b48683e6eee7d17a983bf74d850b2b80",
+      "status": "completed"
+    },
+    {
+      "candidate_count": 193560,
+      "elapsed_seconds": 42.796084208,
+      "execution_sha256": "c43ace3b5801d3229a9aedc8b47c2d9160283a821a868d2694dbdd772a7b2b61",
+      "length": 16,
+      "nested_seal_sha256": "33ba45755e9db287fc0ebc01ef47f270c89150a4763f3299c916c476892cebec",
+      "prediction_pdb_sha256": "6ac1cf0d7abec5c6efdc92192816b27c4a0b546d0efe664950e4194670d1ac8f",
+      "run_id": "ubiquitin-v2-ladder-l16",
+      "selected_states_sha256": "d45072ed6af0e6f3adefa09510aaed5abcc1d519742a9210fc99a2f9837f6308",
+      "status": "completed"
+    },
+    {
+      "candidate_count": 304152,
+      "elapsed_seconds": 117.22436979100002,
+      "execution_sha256": "6b9cbfc766b8ae2b5ddd0d4b1dce4da5d38597b270aba62e81f933344840f39a",
+      "length": 24,
+      "nested_seal_sha256": "caa47c15564d438a108e6907d5930ac1db71665f585b01900bae74a41c4b97d6",
+      "prediction_pdb_sha256": "feebb95e60b9cb26a16d50947144b574107ad8d20574ccc30ee0a07ac4a1f267",
+      "run_id": "ubiquitin-v2-ladder-l24",
+      "selected_states_sha256": "dda19f0fc83c1506acd51503606c4ef3d7f941d2e25d8b370e2e9bbe008005b7",
+      "status": "completed"
+    },
+    {
+      "candidate_count": 414744,
+      "elapsed_seconds": 247.78559191699998,
+      "execution_sha256": "40e95b37cf5ea1bf2589599a9747f85bdecd0c02350e6be738c9d111b963a5c7",
+      "length": 32,
+      "nested_seal_sha256": "c4ce00d1bb6f8000006da9ce3c824dd80a036ab898cd0bec6e559af038afa59b",
+      "prediction_pdb_sha256": "a1d3074fae2b36d843e20f63e255655520537cfedfe0e92f7f817e8dd737a4c8",
+      "run_id": "ubiquitin-v2-ladder-l32",
+      "selected_states_sha256": "7627a8bb86e1ab61504303ca7319b1ca587427c86c312750093259de330b341a",
+      "status": "completed"
+    },
+    {
+      "candidate_count": 635928,
+      "elapsed_seconds": 727.82757625,
+      "execution_sha256": "c55ea822b6bd9dbf32fdf22efcecfeae3cae831c3cc5498293cf10ad1b6f5ab6",
+      "length": 48,
+      "nested_seal_sha256": "8b1dff5a929434f2f20eee795b3384464cffcd0a2463564b53505e3dabc2942e",
+      "prediction_pdb_sha256": "9e3aeb0d7d540818029faef40012d1809e627050cc2b960cc7b46231c276ce84",
+      "run_id": "ubiquitin-v2-ladder-l48",
+      "selected_states_sha256": "2ac703ac12ffe2a6e1cd19aa016f9fc143bdc6d9862b318c0a89b814339eda96",
+      "status": "completed"
+    },
+    {
+      "candidate_count": 1023000,
+      "elapsed_seconds": 2549.650936042,
+      "execution_sha256": "a8bfe9ac5cc2523e6111f10dd26e68aecaa1b59103c07b5ff8e0928675a55879",
+      "length": 76,
+      "nested_seal_sha256": "0b0e68bf8f80a9aaeb4aa8fa17bc43ffe27b6e1aa8e08b6e14dee82b0667a832",
+      "prediction_pdb_sha256": "184c3987cf1b12fb2bd5624cef1f577c3e02ff327913e2e0b3b82c39c8d851b5",
+      "run_id": "ubiquitin-v2-ladder-l76",
+      "selected_states_sha256": "a5c82bfe7d669a58ec25119a5776f1239a3ee3d7e4625d18fb84a1d8ca4b48a9",
+      "status": "completed"
+    }
+  ],
+  "schema": "fold-protein-selector-v2-length-ladder-seal/v1",
+  "status": "completed"
+}

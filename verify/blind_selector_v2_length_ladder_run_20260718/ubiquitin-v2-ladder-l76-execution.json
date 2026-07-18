@@ -1,0 +1,10 @@
+{
+  "candidate_count": 1023000,
+  "elapsed_seconds": 2549.650936042,
+  "length": 76,
+  "nested_seal_sha256": "0b0e68bf8f80a9aaeb4aa8fa17bc43ffe27b6e1aa8e08b6e14dee82b0667a832",
+  "prediction_pdb_sha256": "184c3987cf1b12fb2bd5624cef1f577c3e02ff327913e2e0b3b82c39c8d851b5",
+  "run_id": "ubiquitin-v2-ladder-l76",
+  "selected_states_sha256": "a5c82bfe7d669a58ec25119a5776f1239a3ee3d7e4625d18fb84a1d8ca4b48a9",
+  "status": "completed"
+}

@@ -1,0 +1,19 @@
+{
+  "execution": "sequence-only selector output",
+  "path_length": 48,
+  "prediction_pdb_sha256": "9e3aeb0d7d540818029faef40012d1809e627050cc2b960cc7b46231c276ce84",
+  "protocol_manifest_sha256": "3350b95f6f04437e6cc55680aa7401e77d347d0e812d06956e48710f5e1d0d2c",
+  "run_id": "ubiquitin-v2-ladder-l48",
+  "schema": "fold-protein-blind-seal/v2",
+  "selected_states_sha256": "2ac703ac12ffe2a6e1cd19aa016f9fc143bdc6d9862b318c0a89b814339eda96",
+  "selector_input_sha256": "2b2c8d6e15a5702cdc5670c55af502a78d0311f1609f08b41cfc289ec66d01ed",
+  "sequence_sha256": "529c7b5ad8ff3ec2cb84d66360a185367df769777c254c767a25e01d658607a7",
+  "source_sha256": {
+    "tools/blind_24_lattice_selector_v2.py": "b8d1c406ffcf85ebf38f2f87590e5aee7a694501242cd268bbe5372cd388a934",
+    "tools/blind_24_lattice_solver.py": "72985296c63bcad6311e6ccbb462816edda70293f891a066a728eda7f4dc0e09",
+    "tools/predict_structure.py": "31c8c63dc1fad71a78fac748e680dd4ee75cacf7df85fc9b0b06de73af73c3c7",
+    "tools/run_blind_protocol.py": "c9bb4d51d451c21a2f1ed56e4bce689702cd631b8d7356e42b6e974329d9adfc",
+    "tools/run_blind_protocol_v2.py": "f903ddab7a1639ffa6a9e66ded79685cbfd1794a0c44c59141d11e299c59bb64"
+  },
+  "status": "completed"
+}

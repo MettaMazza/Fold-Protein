@@ -1,0 +1,95 @@
+#!/usr/bin/env python3
+"""Run and seal the registered target-isolated selector-v2 experiment."""
+from __future__ import annotations
+
+import argparse
+import json
+import os
+from pathlib import Path
+import shutil
+import tempfile
+
+try:
+    from tools.blind_24_lattice_selector_v2 import SelectorV2Config, select_state_path_v2
+    from tools.predict_structure import write_pdb
+    from tools.run_blind_protocol import _load_input, sha256_bytes, sha256_file
+except ImportError:
+    from blind_24_lattice_selector_v2 import SelectorV2Config, select_state_path_v2
+    from predict_structure import write_pdb
+    from run_blind_protocol import _load_input, sha256_bytes, sha256_file
+
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+def _check_source_hashes(manifest: dict) -> None:
+    for relative, expected in manifest["source_sha256"].items():
+        path = ROOT / relative
+        if not path.is_file() or sha256_file(path) != expected:
+            raise RuntimeError(f"protocol source drift: {relative}")
+
+
+def run_protocol_v2(manifest_path: Path, input_path: Path, output_dir: Path) -> dict:
+    manifest_path = manifest_path.resolve()
+    input_path = input_path.resolve()
+    output_dir = output_dir.resolve()
+    if output_dir.exists():
+        raise FileExistsError(f"sealed output already exists: {output_dir}")
+    manifest_raw = manifest_path.read_bytes()
+    manifest = json.loads(manifest_raw)
+    if manifest.get("schema") != "fold-protein-blind-selector/v2":
+        raise ValueError("unsupported selector-v2 manifest")
+    _check_source_hashes(manifest)
+    selector_input, input_raw = _load_input(input_path)
+    config = SelectorV2Config(**manifest["selector_config"])
+
+    output_dir.parent.mkdir(parents=True, exist_ok=True)
+    stage = Path(tempfile.mkdtemp(prefix="fold-protein-v2-sealed-", dir=output_dir.parent))
+    try:
+        (stage / "selector_input.json").write_bytes(input_raw)
+        result = select_state_path_v2(selector_input["sequence"], config)
+        state_record = {
+            "schema": "fold-protein-selected-states/v2",
+            "run_id": selector_input["run_id"],
+            "sequence": selector_input["sequence"].upper(),
+            "states": result["states"],
+            "score_trace": result["score_trace"],
+            "final_key": result["final_key"],
+            "status": "completed",
+        }
+        state_bytes = (json.dumps(state_record, indent=2, sort_keys=True) + "\n").encode()
+        (stage / "selected_states.json").write_bytes(state_bytes)
+        write_pdb(result["atoms"], str(stage / "prediction.pdb"))
+        seal = {
+            "schema": "fold-protein-blind-seal/v2",
+            "status": "completed",
+            "execution": "sequence-only selector output",
+            "run_id": selector_input["run_id"],
+            "protocol_manifest_sha256": sha256_bytes(manifest_raw),
+            "selector_input_sha256": sha256_bytes(input_raw),
+            "sequence_sha256": sha256_bytes(selector_input["sequence"].upper().encode()),
+            "source_sha256": manifest["source_sha256"],
+            "selected_states_sha256": sha256_bytes(state_bytes),
+            "prediction_pdb_sha256": sha256_file(stage / "prediction.pdb"),
+            "path_length": len(result["states"]),
+        }
+        (stage / "seal.json").write_text(json.dumps(seal, indent=2, sort_keys=True) + "\n")
+        os.replace(stage, output_dir)
+        return seal
+    except Exception:
+        shutil.rmtree(stage, ignore_errors=True)
+        raise
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("manifest", type=Path)
+    parser.add_argument("selector_input", type=Path)
+    parser.add_argument("output_dir", type=Path)
+    args = parser.parse_args()
+    print(json.dumps(run_protocol_v2(args.manifest, args.selector_input, args.output_dir),
+                     sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()

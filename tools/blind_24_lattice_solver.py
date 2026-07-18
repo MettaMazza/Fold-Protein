@@ -1,111 +1,159 @@
 #!/usr/bin/env python3
-import sys
+"""Sequence-only 24-lattice selector.
+
+The lattice is fixed and parameter-free.  The present compaction score and beam
+capacity are explicitly registered for the sequence forward-forcing execution.
+No native structure or target-derived quantity enters this module.
+"""
+from __future__ import annotations
+
 import math
+from dataclasses import dataclass
+from typing import Iterable
+
 import numpy as np
-from predict_structure import build_backbone_coordinates, write_pdb
 
-# 24-Lattice Exact Rational Preimages (15 degree increments = 1/24 of circle)
-SFT_CANDIDATES = []
-for phi_deg in range(-180, 180, 15):
-    for psi_deg in range(-180, 180, 15):
-        SFT_CANDIDATES.append((math.radians(phi_deg), math.radians(psi_deg)))
+try:
+    from tools.predict_structure import build_backbone_coordinates
+except ImportError:  # direct execution from tools/
+    from predict_structure import build_backbone_coordinates
 
-HYDROPHOBICS = set(['V', 'I', 'L', 'M', 'F', 'W', 'C', 'Y'])
 
-def score_geometric_topology(partial_seq_chars, P_partial):
+LATTICE_DEGREES = tuple(range(-180, 180, 15))
+SFT_CANDIDATES = tuple(
+    (math.radians(phi), math.radians(psi))
+    for phi in LATTICE_DEGREES
+    for psi in LATTICE_DEGREES
+)
+CANONICAL_STATE = 0
+HYDROPHOBICS = frozenset("VILMFWCY")
+AMINO_ACIDS = frozenset("ACDEFGHIKLMNPQRSTVWY")
+
+
+@dataclass(frozen=True)
+class SelectorConfig:
+    beam_width: int = 24                 # registered finite capacity
+    nonlocal_separation: int = 3         # registered score relation
+    contact_cutoff: float = 8.0          # Å
+    contact_reward: float = 10.0
+    clash_cutoff: float = 3.2            # Å
+
+
+def validate_sequence(sequence: str) -> str:
+    sequence = str(sequence).strip().upper()
+    if not sequence:
+        raise ValueError("sequence must be non-empty")
+    invalid = sorted(set(sequence) - AMINO_ACIDS)
+    if invalid:
+        raise ValueError(f"unsupported amino-acid symbols: {''.join(invalid)}")
+    return sequence
+
+
+def angles_for_state(state: int) -> tuple[float, float]:
+    if not isinstance(state, int) or not 0 <= state < len(SFT_CANDIDATES):
+        raise ValueError(f"24-lattice state outside [0,575]: {state!r}")
+    return SFT_CANDIDATES[state]
+
+
+def active_candidates(index: int, length: int) -> Iterable[int]:
+    """States whose geometry can affect a scored Cα at this depth.
+
+    The first residue's phi is unused, so it is fixed to -180° and only its 24
+    psi states are searched.  The last residue has no Cα-active dihedral and is
+    appended canonically after selection.
     """
-    Zero-Parameter Geometric Scoring Function.
-    Evaluates the Topological Wavefront exclusively via Radius of Gyration 
-    and Hydrophobic Compaction, with no Oracle RMSD reference.
-    """
-    N = len(P_partial)
-    if N < 2:
+    if length < 1 or index < 0 or index >= length - 1:
+        return ()
+    if index == 0:
+        return range(24)
+    return range(len(SFT_CANDIDATES))
+
+
+def build_lookahead_prefix(sequence: str, state_path: list[int]):
+    """Build one residue beyond the newest state so that it is causally visible."""
+    prefix_length = len(state_path) + 1
+    if prefix_length > len(sequence):
+        raise ValueError("state path is longer than the active sequence prefix")
+    states = list(state_path) + [CANONICAL_STATE]
+    phi = [angles_for_state(state)[0] for state in states]
+    psi = [angles_for_state(state)[1] for state in states]
+    prefix = sequence[:prefix_length]
+    return build_backbone_coordinates(prefix, ["C"] * prefix_length, phi, psi)
+
+
+def score_geometric_topology(sequence: str, ca_coordinates: np.ndarray,
+                             config: SelectorConfig) -> float:
+    """Registered sequence-and-geometry score retained for selector v1."""
+    count = len(ca_coordinates)
+    if count < 2:
         return 0.0
-        
-    # 1. Topological Radius of Gyration (Compaction)
-    center = np.mean(P_partial, axis=0)
-    rg_sq = np.sum((P_partial - center)**2) / N
-    rg = math.sqrt(rg_sq)
-    
-    # 2. Hydrophobic Collapse Reward
-    # Drives micelle-like compaction of the hydrophobic core deterministically
-    hp_reward = 0.0
-    if N > 4:
-        hp_indices = [i for i, res in enumerate(partial_seq_chars) if res in HYDROPHOBICS]
-        for idx1 in range(len(hp_indices)):
-            for idx2 in range(idx1 + 1, len(hp_indices)):
-                i = hp_indices[idx1]
-                j = hp_indices[idx2]
-                if j - i > 3:  # Only reward non-local compaction
-                    dist = np.linalg.norm(P_partial[i] - P_partial[j])
-                    if dist < 8.0:
-                        hp_reward += 10.0 / dist
-                        
-    # Total geometric energy (minimize this value)
-    return rg - hp_reward
+    center = np.mean(ca_coordinates, axis=0)
+    radius = math.sqrt(float(np.sum((ca_coordinates - center) ** 2)) / count)
+    reward = 0.0
+    hydrophobic = [i for i, residue in enumerate(sequence) if residue in HYDROPHOBICS]
+    for left_pos, left in enumerate(hydrophobic):
+        for right in hydrophobic[left_pos + 1:]:
+            if right - left <= config.nonlocal_separation:
+                continue
+            distance = float(np.linalg.norm(ca_coordinates[left] - ca_coordinates[right]))
+            if distance < config.contact_cutoff:
+                reward += config.contact_reward / distance
+    return radius - reward
 
-def blind_beam_search(sequence, output_path, beam_width=2000):
-    secondary_structures = ['C'] * len(sequence) # Neutral prior topology
-    
-    # Beam contains tuples of (geometric_score, state_sequence)
-    beam = [(0.0, [])]
-    
-    print(f"Launching Blind SFT 24-Lattice Assembly. Sequence Length: {len(sequence)}")
-    
-    for i in range(len(sequence)):
-        next_beam = []
-        for score, state_seq in beam:
-            for cand_idx in range(len(SFT_CANDIDATES)):
-                new_seq = state_seq + [cand_idx]
-                
-                partial_seq_chars = sequence[:i+1]
-                partial_ss = secondary_structures[:i+1]
-                phi_angles = [SFT_CANDIDATES[idx][0] for idx in new_seq]
-                psi_angles = [SFT_CANDIDATES[idx][1] for idx in new_seq]
-                
-                atoms = build_backbone_coordinates(partial_seq_chars, partial_ss, phi_angles, psi_angles)
-                ca_atoms = [atom for atom in atoms if atom['name'] == 'CA']
-                P_partial = np.array([ca['coord'] for ca in ca_atoms])
-                
-                # O(1) Steric Clash Filter
-                if i >= 3:
-                    new_ca = P_partial[-1]
-                    dists = np.linalg.norm(P_partial[:-3] - new_ca, axis=1)
-                    if np.any(dists < 3.2):
-                        continue # Reject mathematically impossible overlaps
-                        
-                geom_score = score_geometric_topology(partial_seq_chars, P_partial)
-                next_beam.append((geom_score, new_seq))
-                
-        if not next_beam:
-            print("ERROR: Total Steric Collapse. Beam exhausted.")
-            sys.exit(1)
-            
-        # Sort by lowest geometric score (most compacted topology)
-        next_beam.sort(key=lambda x: x[0])
-        beam = next_beam[:beam_width]
-        
-        best = beam[0][0]
-        worst = beam[-1][0]
-        print(f"Topological Depth {i+1:02d}/{len(sequence)} | Fold-Natural Capacity: {len(beam)} | Best E: {best:.3f} | Worst E: {worst:.3f}", flush=True)
-        
-    best_seq = beam[0][1]
-    
-    # Rebuild the final atomic coordinates for the global minimum trajectory
-    phi_angles = [SFT_CANDIDATES[idx][0] for idx in best_seq]
-    psi_angles = [SFT_CANDIDATES[idx][1] for idx in best_seq]
-    best_atoms = build_backbone_coordinates(sequence, secondary_structures, phi_angles, psi_angles)
-    
-    write_pdb(best_atoms, output_path)
-    print(f"Blind Assembly Complete! Deterministic zero-parameter structure saved to {output_path}")
 
-if __name__ == '__main__':
-    if len(sys.argv) < 3:
-        print("Usage: python3 blind_24_lattice_solver.py <sequence> <output.pdb>")
-        sys.exit(1)
-        
-    seq = sys.argv[1].upper()
-    out = sys.argv[2]
-    
-    # We maintain a high beam width for maximum Fold-Natural Capacity
-    blind_beam_search(seq, out, beam_width=2000)
+def _candidate_score(sequence: str, state_path: list[int], config: SelectorConfig):
+    atoms = build_lookahead_prefix(sequence, state_path)
+    ca = np.asarray([atom["coord"] for atom in atoms if atom["name"] == "CA"], dtype=float)
+    if len(ca) >= 4:
+        new_ca = ca[-1]
+        if np.any(np.linalg.norm(ca[:-3] - new_ca, axis=1) < config.clash_cutoff):
+            return None
+    score = score_geometric_topology(sequence[:len(ca)], ca, config)
+    if not math.isfinite(score):
+        raise RuntimeError("selector produced a non-finite score")
+    return score
+
+
+def select_state_path(sequence: str, config: SelectorConfig | None = None) -> dict:
+    """Select a deterministic target-isolated state path and return its evidence."""
+    sequence = validate_sequence(sequence)
+    config = config or SelectorConfig()
+    if not isinstance(config.beam_width, int) or config.beam_width < 1:
+        raise ValueError("beam width must be a positive integer")
+    if len(sequence) == 1:
+        states = [CANONICAL_STATE]
+        phi = [angles_for_state(0)[0]]
+        psi = [angles_for_state(0)[1]]
+        atoms = build_backbone_coordinates(sequence, ["C"], phi, psi)
+        return {"states": states, "score_trace": [], "final_score": 0.0, "atoms": atoms}
+
+    beam = [(0.0, tuple())]
+    score_trace = []
+    for index in range(len(sequence) - 1):
+        expanded = []
+        for _, path in beam:
+            for state in active_candidates(index, len(sequence)):
+                candidate = list(path) + [state]
+                score = _candidate_score(sequence, candidate, config)
+                if score is not None:
+                    expanded.append((score, tuple(candidate)))
+        if not expanded:
+            raise RuntimeError(f"beam exhausted at active state {index}")
+        expanded.sort(key=lambda item: (item[0], item[1]))
+        beam = expanded[:config.beam_width]
+        score_trace.append(
+            {"active_state": index, "retained": len(beam),
+             "best": beam[0][0], "worst": beam[-1][0]}
+        )
+
+    final_score, active_path = beam[0]
+    states = list(active_path) + [CANONICAL_STATE]
+    phi = [angles_for_state(state)[0] for state in states]
+    psi = [angles_for_state(state)[1] for state in states]
+    atoms = build_backbone_coordinates(sequence, ["C"] * len(sequence), phi, psi)
+    return {
+        "states": states,
+        "score_trace": score_trace,
+        "final_score": final_score,
+        "atoms": atoms,
+    }

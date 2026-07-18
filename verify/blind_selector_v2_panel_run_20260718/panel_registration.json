@@ -1,0 +1,36 @@
+{
+  "schema": "fold-protein-selector-v2-panel/v1",
+  "execution": "five-sequence selector-v2 panel",
+  "selector_manifest": "verify/blind_selector_v2.json",
+  "selector_manifest_sha256": "3350b95f6f04437e6cc55680aa7401e77d347d0e812d06956e48710f5e1d0d2c",
+  "runner_source_sha256": {
+    "tools/run_blind_panel_v2.py": "7c4061066bf910c5f5e955266be387ae45e066bc2ba65205755751f3de7151e3"
+  },
+  "sequences": [
+    {
+      "run_id": "mixed-alphabet-8",
+      "sequence": "ACDEFGHI",
+      "diagnostic_role": "mixed residue classes"
+    },
+    {
+      "run_id": "hydrophobic-8",
+      "sequence": "VILMFWCY",
+      "diagnostic_role": "all registered hydrophobic-class residues"
+    },
+    {
+      "run_id": "charged-8",
+      "sequence": "DEKRDEKR",
+      "diagnostic_role": "alternating acidic and basic residues"
+    },
+    {
+      "run_id": "turn-rich-8",
+      "sequence": "GPGPGPGP",
+      "diagnostic_role": "glycine-proline alternating control"
+    },
+    {
+      "run_id": "alternating-8",
+      "sequence": "AVAVAVAV",
+      "diagnostic_role": "alternating small and hydrophobic residues"
+    }
+  ]
+}

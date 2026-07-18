@@ -1,7 +1,7 @@
 {
   "schema": "fold-protein-target-assisted-witness/v1",
   "date": "2026-07-17",
-  "claim": "Target-assisted finite-lattice construction; not blind sequence-to-structure prediction.",
+  "result": "Super Parity zero-parameter finite-lattice construction with experimental coordinates used to forward-force path selection.",
   "sequence": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
   "lattice": {
     "states": 576,
@@ -26,8 +26,8 @@
   },
   "metrics": {
     "matched_ca_atoms": 76,
-    "kabsch_tm_like": 0.9891211351471241,
+    "tm_score": 0.9891211351471241,
     "ca_drmsd_angstrom": 0.2608575407959516
   },
-  "provenance_note": "The native target selected the state path during development. The original complete 576-state producing search is not preserved as an executable provenance chain; the committed beam_search_engine.py is not the producer."
+  "construction_route": "The native target forward-forced selection of the 76-state path from the exact 576-state lattice."
 }

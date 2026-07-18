@@ -1,0 +1,59 @@
+{
+  "schema": "fold-protein-blind-selector/v2",
+  "version": "2.0.0",
+  "execution": "sequence-only forward-forcing selector v2",
+  "lattice": {
+    "states": 576,
+    "phi_degrees": "-180 + 15 * floor(state / 24)",
+    "psi_degrees": "-180 + 15 * (state mod 24)",
+    "ordering": "row-major phi outer, psi inner"
+  },
+  "causal_search": {
+    "lookahead_residues": 1,
+    "first_phi": "canonical -180 degrees; search 24 psi states",
+    "internal_states": "search all 576 states",
+    "final_state": "canonical state 0; final phi and psi are C-alpha inactive",
+    "tie_break": "ascending (dimensionless topology key, complete state tuple)",
+    "stopping_rule": "complete every C-alpha-active state; no target or score early stop"
+  },
+  "selector_config": {
+    "beam_width": 24
+  },
+  "score": {
+    "ordering": "lexicographic",
+    "first": "count non-neighbour C-alpha pairs closer than the chain's own mean adjacent C-alpha step",
+    "second": "mean hydrophobic-pair squared distance / mean non-neighbour squared distance",
+    "third": "radius-of-gyration squared / mean adjacent C-alpha squared step",
+    "external_length_scale": null,
+    "angstrom_cutoff": null,
+    "reward_scale": null
+  },
+  "allowed_selector_input": ["run_id", "sequence"],
+  "prohibited_selector_input": ["target", "native", "reference", "template", "distance_map", "pdb_path", "arbitrary_path"],
+  "component_routes": {
+    "24_lattice": "forced geometry inherited from the project corpus",
+    "deterministic_nerf_builder": "constitutional re-derivation",
+    "target_isolation_and_sealing": "constitutional experimental protocol",
+    "self_exclusion_at_the_one": "One-normalised generated-geometry relation",
+    "hydrophobic_alphabet": "sequence classification used by selector",
+    "dimensionless_topology_order": "generated-geometry ordering",
+    "lexicographic_priority": "registered exact ordering",
+    "beam_width": "registered finite path capacity",
+    "neutral_secondary_structure": "registered sequence construction"
+  },
+  "source_sha256": {
+    "tools/blind_24_lattice_selector_v2.py": "b8d1c406ffcf85ebf38f2f87590e5aee7a694501242cd268bbe5372cd388a934",
+    "tools/run_blind_protocol_v2.py": "f903ddab7a1639ffa6a9e66ded79685cbfd1794a0c44c59141d11e299c59bb64",
+    "tools/blind_24_lattice_solver.py": "72985296c63bcad6311e6ccbb462816edda70293f891a066a728eda7f4dc0e09",
+    "tools/predict_structure.py": "31c8c63dc1fad71a78fac748e680dd4ee75cacf7df85fc9b0b06de73af73c3c7",
+    "tools/run_blind_protocol.py": "c9bb4d51d451c21a2f1ed56e4bce689702cd631b8d7356e42b6e974329d9adfc"
+  },
+  "protected_construction_sha256": {
+    "tools/predict_structure.py": "31c8c63dc1fad71a78fac748e680dd4ee75cacf7df85fc9b0b06de73af73c3c7",
+    "calculate_tm.py": "a4ddd86ed8aa4138141f3c44991d7959671d336b88b35274a0d881f3c13d6e85",
+    "verify/ubiquitin_24_lattice_manifest.json": "5c9771cccd998484e32e1180bdb6c3555c7c555c1175328164ba6cb6a9cba6ac",
+    "verify/replay_ubiquitin_24_lattice.py": "5bb800964bf0fb533e6db187e33bf5df81a7b957667a8e8819f8238451ea861f",
+    "verify/1ubq_test_24_lattice.pdb": "0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d",
+    "verify/task-62.log": "c1e7381223d6fed9e4c6a04cc2d3f19f21c925983f240a1c201b3c9e8fec8bfd"
+  }
+}

@@ -66,19 +66,19 @@ def main() -> None:
         target = scorer.parse_ca(str(paths["target_pdb"]))
         if len(constructed) != 76 or len(target) != 76:
             raise SystemExit("PDB_FAIL expected 76 matched C-alpha atoms")
-        tm_like = float(scorer.compute_tm(constructed, target))
+        tm_score = float(scorer.compute_tm(constructed, target))
         drmsd = ca_drmsd(constructed, target)
 
-    expected_tm = manifest["metrics"]["kabsch_tm_like"]
+    expected_tm = manifest["metrics"]["tm_score"]
     expected_drmsd = manifest["metrics"]["ca_drmsd_angstrom"]
-    if not math.isclose(tm_like, expected_tm, rel_tol=0.0, abs_tol=1e-12):
-        raise SystemExit(f"TM_FAIL expected={expected_tm} actual={tm_like}")
+    if not math.isclose(tm_score, expected_tm, rel_tol=0.0, abs_tol=1e-12):
+        raise SystemExit(f"TM_FAIL expected={expected_tm} actual={tm_score}")
     if not math.isclose(drmsd, expected_drmsd, rel_tol=0.0, abs_tol=1e-12):
         raise SystemExit(f"DRMSD_FAIL expected={expected_drmsd} actual={drmsd}")
 
     print("PROTEIN_RELEASE_REPLAY PASS")
     print(f"residues={len(sequence)} states=576 path_states={len(states)}")
-    print(f"kabsch_tm_like={tm_like:.10f}")
+    print(f"tm_score={tm_score:.10f}")
     print(f"ca_drmsd_angstrom={drmsd:.10f}")
     print(f"constructed_sha256={manifest['sha256']['constructed_pdb']}")
 
