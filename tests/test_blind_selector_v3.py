@@ -48,11 +48,27 @@ class BlindSelectorV3Tests(unittest.TestCase):
                 self.assertNotIn(prohibited, text)
 
     def test_lattice_has_exact_declared_census(self):
-        from tools.blind_24_lattice_selector_v3 import LATTICE_DEGREES, LATTICE_STATES
+        from tools.blind_24_lattice_selector_v3 import (
+            LATTICE_DEGREES, LATTICE_STATES, forced_beam_width)
         self.assertEqual(len(LATTICE_DEGREES), 24)
         self.assertEqual(len(LATTICE_STATES), 576)
         self.assertEqual(LATTICE_DEGREES[0], -180)
         self.assertEqual(LATTICE_DEGREES[-1], 165)
+        self.assertEqual(forced_beam_width(), 24)
+
+    def test_protocol_rejects_a_caller_selected_beam_width(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            temporary = Path(tmp)
+            manifest = json.loads((ROOT / "verify/blind_selector_v3.json").read_text())
+            manifest["selector_config"]["beam_width"] = 23
+            manifest_path = temporary / "manifest.json"
+            manifest_path.write_text(json.dumps(manifest))
+            selector_input = temporary / "input.json"
+            selector_input.write_text(json.dumps({
+                "run_id": "v3-reject-beam", "sequence": "MQ",
+            }))
+            with self.assertRaisesRegex(RuntimeError, "forced lattice-axis census"):
+                run_protocol_v3(manifest_path, selector_input, temporary / "sealed")
 
     def test_v3_protocol_seals_immutable_target_free_input(self):
         with tempfile.TemporaryDirectory() as tmp:

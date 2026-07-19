@@ -11,10 +11,10 @@ import shutil
 import tempfile
 
 try:
-    from tools.blind_24_lattice_selector_v3 import SelectorV3Config, select_state_path_v3
+    from tools.blind_24_lattice_selector_v3 import forced_beam_width, select_state_path_v3
     from tools.protein_backbone_geometry_v1 import write_pdb
 except ImportError:
-    from blind_24_lattice_selector_v3 import SelectorV3Config, select_state_path_v3
+    from blind_24_lattice_selector_v3 import forced_beam_width, select_state_path_v3
     from protein_backbone_geometry_v1 import write_pdb
 
 
@@ -60,13 +60,14 @@ def run_protocol_v3(manifest_path: Path, input_path: Path, output_dir: Path) -> 
         raise ValueError("unsupported selector-v3 manifest")
     _check_source_hashes(manifest)
     selector_input, input_raw = _load_input(input_path)
-    config = SelectorV3Config(**manifest["selector_config"])
+    if manifest.get("selector_config") != {"beam_width": forced_beam_width()}:
+        raise RuntimeError("selector-v3 beam width is not the forced lattice-axis census")
 
     output_dir.parent.mkdir(parents=True, exist_ok=True)
     stage = Path(tempfile.mkdtemp(prefix="fold-protein-v3-sealed-", dir=output_dir.parent))
     try:
         (stage / "selector_input.json").write_bytes(input_raw)
-        result = select_state_path_v3(selector_input["sequence"], config)
+        result = select_state_path_v3(selector_input["sequence"])
         state_record = {
             "schema": "fold-protein-selected-states/v3",
             "run_id": selector_input["run_id"],

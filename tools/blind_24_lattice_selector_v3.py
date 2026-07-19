@@ -7,7 +7,6 @@ project dependency is the target-incapable backbone geometry constitution.
 """
 from __future__ import annotations
 
-from dataclasses import dataclass
 import math
 
 import numpy as np
@@ -29,9 +28,12 @@ AMINO_ACIDS = frozenset("ACDEFGHIKLMNPQRSTVWY")
 HYDROPHOBICS = frozenset("VILMFWCY")
 
 
-@dataclass(frozen=True)
-class SelectorV3Config:
-    beam_width: int = len(LATTICE_DEGREES)
+def forced_beam_width() -> int:
+    """The finite path capacity is the counted 24-state lattice axis."""
+    axis = len(LATTICE_DEGREES)
+    if axis * axis != len(LATTICE_STATES):
+        raise RuntimeError("24-lattice axis/state census did not close")
+    return axis
 
 
 def validate_sequence(sequence: str) -> str:
@@ -115,11 +117,9 @@ def _candidate_key(sequence: str, state_path: list[int]):
     return dimensionless_topology_key(sequence[:len(ca)], ca)
 
 
-def select_state_path_v3(sequence: str, config: SelectorV3Config | None = None) -> dict:
+def select_state_path_v3(sequence: str) -> dict:
     sequence = validate_sequence(sequence)
-    config = config or SelectorV3Config()
-    if not isinstance(config.beam_width, int) or config.beam_width < 1:
-        raise ValueError("beam width must be a positive integer")
+    beam_width = forced_beam_width()
     if len(sequence) == 1:
         phi, psi = angles_for_state(CANONICAL_STATE)
         atoms = build_backbone_coordinates(sequence, [phi], [psi])
@@ -137,7 +137,7 @@ def select_state_path_v3(sequence: str, config: SelectorV3Config | None = None) 
                 candidate = list(path) + [state]
                 expanded.append((_candidate_key(sequence, candidate), tuple(candidate)))
         expanded.sort(key=lambda item: (item[0], item[1]))
-        beam = expanded[:config.beam_width]
+        beam = expanded[:beam_width]
         score_trace.append({
             "active_state": index,
             "retained": len(beam),

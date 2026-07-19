@@ -94,6 +94,13 @@ route:
   geometry relations;
 - beam capacity: the 24-state lattice-axis census.
 
+The active selector now computes that capacity directly from the 24-axis
+census and verifies `axis × axis = 576` before selection. The protocol rejects
+any manifest that attempts to substitute a caller-selected beam width. This
+closes the configurable-width boundary; it does not by prose decide the
+separate engine question of whether finite frontier retention is the admitted
+causal selection form.
+
 The v3 protocol accepts exactly `run_id` and `sequence`, checks all source
 hashes, refuses an existing output directory, and seals its state path and PDB
 before any comparison.
