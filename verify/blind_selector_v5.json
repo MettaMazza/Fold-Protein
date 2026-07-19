@@ -1,0 +1,84 @@
+{
+  "schema": "fold-protein-blind-selector/v5",
+  "version": "5.0.0-development",
+  "execution": "sequence-only four-residue inter-window orientation selector",
+  "foundation": {
+    "theorem": "one machine-checked self-proven theorem: there is no nothing",
+    "axioms": 0,
+    "trace": "One -> fold spectrum -> b = 2 and c = 3 -> two c-windows minus their b-overlap form four residues -> terminal orientation quartet -> v3 generated-geometry selector"
+  },
+  "lattice": {
+    "states": 576,
+    "axis_states": 24,
+    "phi_degrees": "-180 + 15 * floor(state / 24)",
+    "psi_degrees": "-180 + 15 * (state mod 24)",
+    "ordering": "row-major phi outer, psi inner",
+    "forward_forcing_anchor": "verify/ubiquitin_24_lattice_manifest.json"
+  },
+  "selector_config": {
+    "beam_width": 24,
+    "orientation_residues": 4,
+    "overlap_residues": 3
+  },
+  "orientation_relation": {
+    "local_plane": "one colour_count() window = three residues",
+    "adjacent_plane_overlap": "binary_count() = two residues",
+    "orientation_union": "colour_count() + colour_count() - binary_count() = 4 residues",
+    "quartet_overlap": "one colour_count() window = three residues",
+    "advance": "4 - colour_count() = the One residue",
+    "machine_check": "constants/protein_interwindow_orientation.ep and tests/test_protein_interwindow_orientation.ep",
+    "geometric_readout": "dimensionless topology of the terminal four-residue union",
+    "purpose": "select the relative orientation of two overlapping local three-residue planes"
+  },
+  "score": {
+    "ordering": "lexicographic",
+    "primary": [
+      "terminal orientation-quartet self-exclusion count",
+      "terminal orientation-quartet hydrophobic dispersion relative to its generated background",
+      "terminal orientation-quartet radius squared relative to its endogenous adjacent step"
+    ],
+    "secondary": [
+      "complete-prefix self-exclusion count",
+      "complete-prefix hydrophobic dispersion relative to its generated background",
+      "complete-prefix radius squared relative to its endogenous adjacent step"
+    ],
+    "tie_break": "ascending complete state tuple",
+    "external_length_scale": null,
+    "angstrom_cutoff": null,
+    "reward_scale": null,
+    "fitted_weight": null
+  },
+  "frontier_optimization": {
+    "rule": "sort all candidates by the primary orientation key; compute the complete-prefix secondary key only for candidates at or below the 24th local-key boundary, including every boundary tie",
+    "exactness": "a candidate above the 24th primary-key boundary cannot enter a 24-state frontier under any secondary key",
+    "purpose": "avoid complete-prefix construction for candidates mathematically excluded by the primary orientation relation"
+  },
+  "allowed_selector_input": ["run_id", "sequence"],
+  "prohibited_selector_input": ["target", "native", "reference", "template", "distance_map", "pdb_path", "arbitrary_path"],
+  "component_routes": {
+    "One_and_fold": "engine-traced foundation",
+    "binary_and_colour_counts": "DIRECT fold-period spectrum in foundation/structural_counts.ep",
+    "interwindow_orientation": "FORWARD protein relation in constants/protein_interwindow_orientation.ep",
+    "24_lattice": "forward-forced exact finite state constitution from the protected construction",
+    "peptide_geometry": "named forward-forcing constitution with byte-exact protected-witness replay",
+    "dimensionless_topology_order": "v3 registered generated-geometry relation",
+    "two_stage_frontier": "CONSTITUTIONAL exact lexicographic selection optimization",
+    "target_isolation_and_sealing": "CONSTITUTIONAL experimental protocol"
+  },
+  "source_sha256": {
+    "foundation/structural_counts.ep": "d2bae850fe45cda4ee1c3282b48d85b54be11918ffb565d4881f9b338cd9a028",
+    "constants/protein_interwindow_orientation.ep": "da5a126a9f678e40a657a850908978b0e11d772a9a8a0460ee12729ce7d1dad4",
+    "tools/blind_24_lattice_selector_v3.py": "062c2e4174e42494d3631e0c6aa38a708ec1a5952dc321ce66328620ff305cb5",
+    "tools/blind_24_lattice_selector_v5.py": "3a98c254240b5ce94ab54351c703282621b7c98863e7b3ac82e6d6f1fd784652",
+    "tools/protein_backbone_geometry_v1.py": "a043e5d05a26fdf063c4703dac619f5fe918b65779a96df6d3cfa2f536fdc315",
+    "tools/residue_partition_v1.py": "f48e0ebc2c3dbc1d6d7a37370e0a2329968524d169d7b43022dce30ceacd3814",
+    "tools/run_blind_protocol_v5.py": "fb474da7cfa0b0afa8c97781ce6a0cb283d80da989fae62d71976a67f0007f82",
+    "verify/protein_backbone_geometry_v1.json": "47da7e3f3c58a88e53b36157c5d5ed4dfa2c8b2c6e2cba91a5da34e5746571fd",
+    "verify/replay_protein_backbone_geometry_v1.py": "c441fac4b7afde843ff260fadcd62430aa8937f3881d2e778de32c27c3b80b62",
+    "verify/evaluate_sealed_blind_v5.py": "1c0b1321d511486544047dd8a257f50afe0c71ed10124c46f414f94147937898",
+    "verify/evaluate_sealed_blind_local_v5.py": "87b388fcce56c5addf1c5238e80fb8f3be42b75e7ba06e0a63c654263c3b8f8b"
+  },
+  "legacy_runtime_imports": [],
+  "protected_construction": "verify/ubiquitin_24_lattice_manifest.json",
+  "status": "development relation awaiting source-bound applied protein data"
+}

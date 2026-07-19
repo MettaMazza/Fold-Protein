@@ -7,5 +7,7 @@ compiler/target/
 # compiled binaries — rebuild with `cc` / `ernos` (see AGENT.md §3)
 /verify/test_protein_folding
 /verify/test_protein_folding_3d
+/tests/test_protein_window_orientation
+/tests/test_protein_interwindow_orientation
 
 .DS_Store

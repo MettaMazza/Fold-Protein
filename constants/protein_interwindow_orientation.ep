@@ -1,0 +1,42 @@
+# Four-residue orientation of two overlapping colour windows.
+#
+# A three-residue colour window fixes a local C-alpha plane.  Two consecutive
+# colour windows share the binary count of two residues.  Their union therefore
+# contains c + c - b = 3 + 3 - 2 = 4 residues.  This quartet is the first local
+# object that contains the relative orientation of the two planes.  Consecutive
+# orientation quartets share one colour window (three residues) and advance by
+# the One residue.
+
+import "../foundation/structural_counts.ep"
+
+
+define protein_local_plane_window returning Int:
+    return colour_count()
+
+
+define protein_plane_overlap returning Int:
+    return binary_count()
+
+
+define protein_orientation_quartet returning Int:
+    return protein_local_plane_window() + protein_local_plane_window() - protein_plane_overlap()
+
+
+define protein_orientation_quartet_overlap returning Int:
+    return protein_local_plane_window()
+
+
+define protein_orientation_quartet_advance returning Int:
+    return protein_orientation_quartet() - protein_orientation_quartet_overlap()
+
+
+define protein_orientation_quartet_closes returning Bool:
+    return protein_orientation_quartet() == 4
+
+
+define protein_orientation_overlap_closes returning Bool:
+    return protein_orientation_quartet_overlap() == 3
+
+
+define protein_orientation_advance_is_the_one returning Bool:
+    return protein_orientation_quartet_advance() == 1

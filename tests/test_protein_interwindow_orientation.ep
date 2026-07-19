@@ -1,0 +1,18 @@
+import "../constants/protein_interwindow_orientation.ep"
+
+
+define expect_bool with label as Str and got as Bool:
+    if got:
+        display concat("  ok    " and label)
+    else:
+        display concat("  FAIL  " and label)
+    return 0
+
+
+define main:
+    display "=== protein inter-window orientation ==="
+    set ok to expect_bool("two colour windows minus binary overlap form four residues" and protein_orientation_quartet_closes())
+    set ok to expect_bool("orientation quartets overlap by one colour window" and protein_orientation_overlap_closes())
+    set ok to expect_bool("each orientation quartet advances by the One" and protein_orientation_advance_is_the_one())
+    display "=== done ==="
+    return 0

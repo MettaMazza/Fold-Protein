@@ -16,7 +16,9 @@
     "theorem_and_protein_law": "engine-traced One route",
     "ubiquitin_24_lattice_construction": "protected target-assisted forward-forcing construction",
     "blind_selector_v2": "preserved development evidence with mixed legacy dependencies; not the clean continuation route",
-    "blind_selector_v3": "active provenance-isolated forward-forcing continuation route",
+    "blind_selector_v3": "secured provenance-isolated forward-forcing baseline",
+    "blind_selector_v4": "preserved agent-authored three-residue compactness development relation; applied 24-residue evidence did not support promotion",
+    "blind_selector_v5": "active target-incapable four-residue inter-window orientation development relation with sealed 24-residue applied evidence",
     "legacy_engines": "retained history only; excluded from promoted and active continuation routes"
   },
   "inherited_toolchain_boundary": {
@@ -94,6 +96,24 @@
       "verify/evaluate_sealed_blind_local_v3.py",
       "verify/evaluate_sealed_blind_v3.py"
     ],
+    "blind_v4_preserved_development_evidence": [
+      "constants/protein_window_orientation.ep",
+      "tests/test_blind_selector_v4.py",
+      "tests/test_protein_window_orientation.ep",
+      "tools/blind_24_lattice_selector_v4.py",
+      "tools/run_blind_protocol_v4.py",
+      "verify/evaluate_sealed_blind_local_v4.py",
+      "verify/evaluate_sealed_blind_v4.py"
+    ],
+    "blind_v5_active_interwindow_development": [
+      "constants/protein_interwindow_orientation.ep",
+      "tests/test_blind_selector_v5.py",
+      "tests/test_protein_interwindow_orientation.ep",
+      "tools/blind_24_lattice_selector_v5.py",
+      "tools/run_blind_protocol_v5.py",
+      "verify/evaluate_sealed_blind_local_v5.py",
+      "verify/evaluate_sealed_blind_v5.py"
+    ],
     "legacy_agent_development_unpromoted": [
       "tests/test_blind_protocol.py",
       "tools/beam_search_engine.py",
@@ -146,6 +166,13 @@
       "tools/protein_backbone_geometry_v1.py",
       "tools/residue_partition_v1.py",
       "tools/run_blind_protocol_v3.py"
+    ],
+    "v5_runtime_roots": [
+      "tools/blind_24_lattice_selector_v3.py",
+      "tools/blind_24_lattice_selector_v5.py",
+      "tools/protein_backbone_geometry_v1.py",
+      "tools/residue_partition_v1.py",
+      "tools/run_blind_protocol_v5.py"
     ]
   },
   "generated_evidence": {
@@ -153,11 +180,13 @@
     "v2_receipts": "Preserved under verify/blind_selector_v2_* and checked by their registered seal verifiers.",
     "continuation_receipt": "verify/blind_selector_v2_continuation_lineage_20260718.json when the registered replay completes.",
     "v3_blind_predictions": "Target-isolated sequence-only inputs, sealed selected states and PDBs, and post-seal evaluations are preserved under verify/development_runs/ubiquitin_v3_l{8,16,24}_20260719/; Maria Smith has declared them blind predictions for publication.",
+    "v4_orientation_probe": "verify/development_runs/ubiquitin_v4_overlap_l24_20260719/ is preserved as agent-authored applied development evidence and is not a Maria finding, loss or failed prediction.",
+    "v5_orientation_development": "verify/development_runs/ubiquitin_v5_orientation_l24_20260719/ is a source-bound target-isolated prediction sealed before post-seal comparison; Maria alone determines the conclusion and whether it enters the official campaign.",
     "classification": "A recorded development execution is not a Maria finding, loss or failed prediction."
   },
   "artifact_inventory": {
-    "tracked_pdb_files": 57,
-    "tracked_pdb_file_set_sha256": "6ba6a2e4d0d66f02811f39b8048db03649ba0d5a15cbc67917410f3d6ade4181",
+    "tracked_pdb_files": 60,
+    "tracked_pdb_file_set_sha256": "e2a0ceacabd9bba2d8f92a4bf672c55a3d1594388ebe864ef8021919ca0732e0",
     "classes": {
       "experimental_reference": [
         "verify/1cop.pdb",
@@ -179,11 +208,18 @@
         "verify/blind_selector_v2_panel_run_20260718/mixed-alphabet-8/prediction.pdb",
         "verify/blind_selector_v2_panel_run_20260718/turn-rich-8/prediction.pdb"
       ],
-    "sealed_v3_blind_prediction": [
+      "sealed_v3_blind_prediction": [
       "verify/development_runs/ubiquitin_v3_current_20260719/prediction.pdb",
       "verify/development_runs/ubiquitin_v3_l16_20260719/prediction.pdb",
         "verify/development_runs/ubiquitin_v3_l24_20260719/prediction.pdb",
         "verify/development_runs/ubiquitin_v3_l8_20260719/prediction.pdb"
+      ],
+      "sealed_v4_agent_development_output": [
+        "verify/development_runs/ubiquitin_v4_overlap_l24_20260719/prediction.pdb"
+      ],
+      "sealed_v5_agent_development_output": [
+        "verify/development_runs/ubiquitin_v5_orientation_l24_20260719/prediction.pdb",
+        "verify/development_runs/ubiquitin_v5_orientation_l76_20260719/prediction.pdb"
       ],
       "legacy_preproject_development_artifact": [
         "1ubq_autonomous.pdb",
@@ -230,7 +266,7 @@
   },
   "other_tracked_artifacts": {
     ".gitignore": {
-      "sha256": "7eb09e6eb8ff1fa9f20ddf58437c0d7be3c649d7c04cf03d9a97aab3695073b4",
+      "sha256": "cf1dfa5069ff7485417a59c3a81e756c1c29d8d68c94077ba7aa0cb600c12af6",
       "class": "repository configuration"
     },
     "tests/test_protein_folding_3d": {

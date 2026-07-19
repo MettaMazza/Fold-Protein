@@ -1,0 +1,25 @@
+{
+  "execution": "sequence-only inter-window orientation selector output",
+  "path_length": 24,
+  "prediction_pdb_sha256": "100b350cb01adb8dd139f98eee2cd05c83429c13cfc319ad91c4070e742f6e9f",
+  "protocol_manifest_sha256": "15970fdb964e80c527baf2f93a17c50c0442ce13968c60e71c4b07dc86aacccd",
+  "run_id": "development-ubiquitin-v5-orientation-l24-20260719",
+  "schema": "fold-protein-blind-seal/v5",
+  "selected_states_sha256": "0ba58a6e5d6db345ce5ef5de5bf57028f49df49a77882e4cef9410bd3cff4215",
+  "selector_input_sha256": "eaddbf9f9ef9e4612af25cfe2505212b77a2096852c9a8c94991df35e8b453ee",
+  "sequence_sha256": "31b12152ecf937f3f9fb63d7346d54e03d058a50667be18b0aa22e9270049d6e",
+  "source_sha256": {
+    "constants/protein_interwindow_orientation.ep": "da5a126a9f678e40a657a850908978b0e11d772a9a8a0460ee12729ce7d1dad4",
+    "foundation/structural_counts.ep": "d2bae850fe45cda4ee1c3282b48d85b54be11918ffb565d4881f9b338cd9a028",
+    "tools/blind_24_lattice_selector_v3.py": "062c2e4174e42494d3631e0c6aa38a708ec1a5952dc321ce66328620ff305cb5",
+    "tools/blind_24_lattice_selector_v5.py": "3a98c254240b5ce94ab54351c703282621b7c98863e7b3ac82e6d6f1fd784652",
+    "tools/protein_backbone_geometry_v1.py": "a043e5d05a26fdf063c4703dac619f5fe918b65779a96df6d3cfa2f536fdc315",
+    "tools/residue_partition_v1.py": "f48e0ebc2c3dbc1d6d7a37370e0a2329968524d169d7b43022dce30ceacd3814",
+    "tools/run_blind_protocol_v5.py": "fb474da7cfa0b0afa8c97781ce6a0cb283d80da989fae62d71976a67f0007f82",
+    "verify/evaluate_sealed_blind_local_v5.py": "87b388fcce56c5addf1c5238e80fb8f3be42b75e7ba06e0a63c654263c3b8f8b",
+    "verify/evaluate_sealed_blind_v5.py": "1c0b1321d511486544047dd8a257f50afe0c71ed10124c46f414f94147937898",
+    "verify/protein_backbone_geometry_v1.json": "47da7e3f3c58a88e53b36157c5d5ed4dfa2c8b2c6e2cba91a5da34e5746571fd",
+    "verify/replay_protein_backbone_geometry_v1.py": "c441fac4b7afde843ff260fadcd62430aa8937f3881d2e778de32c27c3b80b62"
+  },
+  "status": "completed"
+}

@@ -144,25 +144,32 @@ def verify_registry() -> dict:
 
     legacy = set(registry["legacy_exclusion"]["forbidden_runtime_modules"])
     runtime_hashes = {}
-    for relative in registry["legacy_exclusion"]["v3_runtime_roots"]:
-        path = ROOT / relative
-        imports = imported_modules(path)
-        forbidden = sorted(imports & legacy)
-        if forbidden:
-            raise RuntimeError(
-                f"legacy runtime dependency entered selector-v3: {relative}: {forbidden}"
-            )
-        runtime_hashes[relative] = sha256(path)
+    for selector in ("v3", "v5"):
+        runtime_hashes[selector] = {}
+        roots = registry["legacy_exclusion"][f"{selector}_runtime_roots"]
+        for relative in roots:
+            path = ROOT / relative
+            imports = imported_modules(path)
+            forbidden = sorted(imports & legacy)
+            if forbidden:
+                raise RuntimeError(
+                    f"legacy runtime dependency entered selector-{selector}: "
+                    f"{relative}: {forbidden}"
+                )
+            runtime_hashes[selector][relative] = sha256(path)
 
-    v3_manifest = json.loads((ROOT / "verify/blind_selector_v3.json").read_text())
-    if v3_manifest.get("legacy_runtime_imports") != []:
-        raise RuntimeError("selector-v3 manifest admits legacy runtime imports")
-    for relative, expected_hash in v3_manifest["source_sha256"].items():
-        actual_hash = sha256(ROOT / relative)
-        if actual_hash != expected_hash:
+        manifest_path = ROOT / f"verify/blind_selector_{selector}.json"
+        manifest = json.loads(manifest_path.read_text())
+        if manifest.get("legacy_runtime_imports") != []:
             raise RuntimeError(
-                f"selector-v3 source drift: {relative}: {actual_hash} != {expected_hash}"
-            )
+                f"selector-{selector} manifest admits legacy runtime imports")
+        for relative, expected_hash in manifest["source_sha256"].items():
+            actual_hash = sha256(ROOT / relative)
+            if actual_hash != expected_hash:
+                raise RuntimeError(
+                    f"selector-{selector} source drift: {relative}: "
+                    f"{actual_hash} != {expected_hash}"
+                )
 
     geometry = replay_geometry()
     if geometry.get("status") != "verified":

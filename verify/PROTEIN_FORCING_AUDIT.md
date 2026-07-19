@@ -147,6 +147,53 @@ the complete 76-residue trace at TM `0.9891211351` / dRMSD `0.2608575408 Å`,
 and the structural law independently forces the canonical α-helix and β-sheet
 coordinates.
 
+### Four-residue inter-window orientation development
+
+The next relation is now executable rather than prose-only.  Three C-alpha
+points define one local plane.  Two consecutive colour-count windows share the
+binary count of two residues, so their union is exactly
+`c + c - b = 3 + 3 - 2 = 4` residues.  Consecutive orientation quartets share
+one colour window and advance by the One residue.  The Ernos source
+`constants/protein_interwindow_orientation.ep` and its test close all three
+relations.
+
+Selector v5 makes the generated topology of that terminal four-residue union
+primary and retains the complete-prefix v3 topology as its secondary exact
+order.  It accepts only run ID and sequence, carries no target import, fitted
+weight, reward scale, cutoff or caller-selected beam width, and preserves every
+candidate tied at the exact 24th local-key boundary.  Six implementation and
+protocol tests pass, including source-hash sealing and complete seal
+verification before target access.  The forcing registry now classifies 85
+sources and checks both v3 and v5 runtime roots against the prohibited legacy
+imports.
+
+The source-bound v5 route produced and sealed real ubiquitin predictions before
+comparison.  At 24 residues it measured TM `0.04392860627693118` and C-alpha
+dRMSD `6.635927337975497 Å`; its best length-four window was `LEVE` at TM
+`0.4695859044249241` / dRMSD `0.2849076209440542 Å`.  At all 76 residues it
+measured whole-chain TM `0.12321119756884483` and dRMSD
+`8.362531771197228 Å`; `DKE` measured TM `0.9991809284761722` / dRMSD
+`0.012524856080253319 Å`, `DKEG` measured TM `0.8460707854249027` / dRMSD
+`0.07659930003598996 Å`, and `QDKEG` measured TM `0.3332405586263601` /
+dRMSD `0.3430673089924402 Å`.  The complete run took `141.99 s` and a
+maximum resident set of `73138176` bytes.
+
+These are agent-generated applied development measurements.  Maria Smith alone
+decides their interpretation, publication status and relationship to the
+official benchmark campaign.  The preceding v4 three-residue compactness probe
+is preserved separately as auxiliary evidence and is not attributed to Maria
+as a finding, loss or failed prediction.
+
+Post-seal diagnostics identify the next constructive relation.  V5's quartet
+key uses distances only, so it cannot distinguish a four-point orientation
+from its reflection.  The target's mean absolute normalized signed quartet
+volume is `0.5520106181`, while the v5 output's is `0.0001530513`; the current
+order therefore selects nearly coplanar quartets even while improving the
+declared four-residue and whole-chain measurements.  The next target-incapable
+candidate is to order signed orientation against the already forced alpha and
+beta orbit geometries, without feeding this post-seal target measurement into
+selection.  This is a traced development direction, not a theoretical wall.
+
 ## Preserved development evidence, not attributed conclusions
 
 Selector v2 receipts remain intact because they contain useful target-isolation,
@@ -192,10 +239,11 @@ The registry verifier halts if:
 
 Generated PDBs and campaign receipts are evidence rather than forcing source.
 They are bound by the protected construction manifest or their immutable seals.
-All 57 tracked PDBs are also exhaustively classified: two experimental
+All 60 tracked PDBs are also exhaustively classified: two experimental
 references, one protected target-assisted construction, eleven sealed v2
-development outputs, four sealed v3 blind predictions, and thirty-nine legacy
-pre-project development artifacts.
+development outputs, four sealed v3 blind predictions, one sealed v4 auxiliary
+development output, two sealed v5 applied development outputs, and thirty-nine
+legacy pre-project development artifacts.
 Their complete path-and-content census is hash-bound by the registry; both v2
 aggregate seals are reverified. Legacy filenames such as `predicted`,
 `optimized`, or `autonomous` do not confer result or authorship status.
@@ -206,8 +254,8 @@ inventories are also bound: repository configuration, the historical compiled
 ## Remaining forward work
 
 The audit removes silent inheritance; it does not declare development complete.
-The clean v3 route now provides the correct base for the active blind benchmark
-campaign. New selector relations must be named in the v3 manifest, traced through
-the engine standard, source-bound, and tested before a registered execution.
-Maria decides when that development earns a real run and what conclusion the
-result supports.
+The secured v3 route remains the blind baseline and v5 is the active applied
+inter-window development route.  New relations must be named in their own
+immutable manifest, traced through the engine standard, source-bound, and tested
+before a registered execution.  Maria decides when development evidence earns
+an official run and what conclusion the data supports.
