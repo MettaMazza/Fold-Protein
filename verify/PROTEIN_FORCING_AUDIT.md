@@ -323,6 +323,43 @@ retained as mixed local development data. They do not establish a theoretical ob
 must preserve the whole-prefix orientation advance while recovering the local
 geometry retained by v11. Maria determines the conclusion and next direction.
 
+### Retained local plus topology-separated complete-chain continuation
+
+V13 retains v11's undifferentiated unit-capacity local backbone assembly beside
+v12's independent alpha and longer inter-strand relations. All fifteen
+relations enter the same permutation-invariant ordinal balance. No target,
+template, fitted weight, empirical cutoff, reward, learned parameter or mixing
+coefficient enters selection.
+
+The 24-residue execution was sealed before comparison and recovered the best
+local geometry while retaining a whole-prefix advance over v11. It reached
+whole-prefix TM `0.025439036509863604` / dRMSD
+`7.016435338321138 Å`; best length-three TM `0.9991385703352215`, best
+length-four TM `0.6488923284461807`, and best length-five TM
+`0.25764238229583347`. Relative to v12 it improved 14/22 length-three,
+12/21 length-four and 12/20 length-five windows.
+
+The same source-bound protocol then completed all 76 residues and sealed the
+states and prediction before target access. Post-seal evaluation records
+whole-chain TM `0.14226877551271516` and C-alpha dRMSD
+`7.872750334234049 Å`. Relative to v10, TM advances by
+`0.05193613924244425` (**57.4943%**), hard exclusions fall from 76 to 48,
+and the strongest local rows advance to `TLE` at
+`0.9984764349723149` TM / `0.014272729737428871 Å` dRMSD and `IFAG` at
+`0.7777978001921849` TM. The advance propagates across 43/53 length-24,
+40/45 length-32 and **29/29 length-48** same-index windows. The complete
+pairwise-distance construction remains the active development requirement;
+these applied results establish a constructive advance and do not establish a
+theoretical obstruction.
+
+The sealed V13 source is preserved unchanged. A separate single-build
+execution candidate reuses one identical coordinate construction across the
+unchanged v9/v12/v13 relations. It matched all 23 selected-path prefix relation
+tuples and every complete 24-residue selection field exactly, while reducing
+wall time from `310.17 s` to `240.21 s` (**22.5554%**). This is a lossless
+computational implementation improvement and may enter only through a new
+source-bound protocol version.
+
 ## Preserved development evidence, not attributed conclusions
 
 Selector v2 receipts remain intact because they contain useful target-isolation,

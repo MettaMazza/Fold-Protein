@@ -75,17 +75,36 @@ local TM recovered from `0.9864217459` to **`0.9991385703`**; the best
 four-residue TM advanced beyond both predecessors to **`0.6488923284`**, and
 the best five-residue TM likewise advanced to **`0.2576423823`**. Across all
 windows, v13 improved 14/22 length-3, 12/21 length-4, and 12/20 length-5 rows
-relative to v12. Whole-prefix TM and dRMSD remain below v12's topology-only
-values, so the complete evidence shows a strong local recovery with partial
-retention of the global advance—not a theoretical limit or failed prediction.
+relative to v12.
+
+V13 has now completed and sealed the full 76-residue blind sequence before
+target access. Post-seal comparison reaches **TM 0.1422687755**, improving the
+v10 whole-chain TM of `0.0903326363` by **57.49%**. The hard-exclusion count
+falls from 76 to **48** and the selected local-mode balance changes from
+33 alpha / 40 beta to **40 alpha / 33 beta**. The strongest three-residue
+window advances to `TLE` at **0.9984764350 TM / 0.0142727297 Å dRMSD** and the
+strongest four-residue window advances to `IFAG` at **0.7777978002 TM**. The
+propagation is broad: relative to v10, v13 improves 43/53 length-24 windows,
+40/45 length-32 windows, and **29/29 length-48 windows**. The whole-chain
+C-alpha dRMSD is `7.8727503342 Å`, so the continuing construction must convert
+the secured global TM and long-window gains into tighter complete pairwise
+assembly. This is an active derivation frontier, not a theoretical wall.
+
+The applied single-build execution candidate preserves every selected state,
+score trace, constitutional relation, mode trace, and orientation trace of the
+sealed 24-residue v13 result while reducing wall time from `310.17 s` to
+`240.21 s` (**22.56% faster**). V13 itself remains immutable so its sealed
+source hashes stay valid; the lossless execution improvement will enter a new
+source-bound protocol version.
 
 These are target-isolated, seal-before-score implemented development results. They extend the executable forcing chain; they are not agent-declared failures, limits, or substitutions for Maria Smith's conclusions. The current next state is to retain the secured signed geometry, dual-mode preservation, formal charge, exact side-chain graph, and weight-free balance while forward-forcing backbone hydrogen-bond assembly and a more spatially complete side-chain hard-exclusion relation. The secured lattice containment, forced secondary-structure coordinates, complete blind execution, and successive local and whole-chain advances establish a constructive route forward and no theorem-derived obstruction at this stage.
 
-The previously recommended combined 24-residue execution is complete and its
-positive local and whole-prefix evidence supports proceeding. A complete
-76-residue v13 blind cumulative development benchmark is now recommended and
-has begun under the same target-isolated seal-before-score protocol. It is not
-an official run unless Maria explicitly registers it as one.
+The previously recommended complete 76-residue v13 blind cumulative
+development benchmark is complete. Its whole-chain TM, hard-exclusion,
+short-window and long-window advances support proceeding to the next
+continuity relation and to a matched full-chain development comparison after
+that relation passes the 24-residue gate. It remains a cumulative development
+benchmark unless Maria explicitly registers it as an official run.
 
 ## Governing law
 
@@ -134,6 +153,8 @@ python3 -m tools.verify_protein_forcing_registry
 | `verify/development_runs/ubiquitin_v11_hbond_assembly_l24_20260719/` | sealed v11 hydrogen-bond applied evidence and post-seal local windows |
 | `verify/development_runs/ubiquitin_v12_topology_hbond_l24_20260719/` | sealed v12 topology-separated applied evidence and post-seal local windows |
 | `verify/development_runs/ubiquitin_v13_retained_topology_l24_20260719/` | sealed v13 cumulative 24-residue combined-relation benchmark and post-seal local windows |
+| `verify/development_runs/ubiquitin_v13_retained_topology_l76_20260719/` | complete sealed v13 76-residue blind benchmark, global/local measurements, and v10/v13 propagation delta |
+| `verify/development_runs/v13_single_build_candidate_20260719.json` | exact-output identity and 22.56% runtime-improvement receipt for the lossless execution candidate |
 | `verify/development_runs/ubiquitin_v12_topology_hbond_l24_20260719/v11_v12_state_delta.json` | source-bound sealed-path and local-window delta locating the next combined relation |
 | `verify/evaluate_sealed_blind_v3.py` | seal verifier and target-isolated evaluation boundary |
 | `verify/evaluate_sealed_blind_local_v3.py` | all-window post-seal local evaluator; reproduces the published IFV/TLT measurements |

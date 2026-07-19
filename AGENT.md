@@ -136,6 +136,15 @@ from these exact discrete fractions. A continuous, stochastic universe would not
 parameters and zero training data; the 24-lattice is a universal mathematical absolute. The sequence
 engine selected and sealed rational paths from amino-acid identity and generated geometry alone at 8, 16, 24 and the complete 76-residue ubiquitin sequence before target access. Post-seal measurements include accurate local `IFV`, `TLT`, `HLV`, `RLI` and `RGG` geometry, reaching 0.9914591922 local TM. The theorem, structural-angle derivations, construction proof and 0.9891 Super Parity result remain secured by their own engine checks, while forward forcing advances through inter-window orientation and complete whole-chain assembly.
 
+The current V13 retained-local plus topology-separated continuation has also
+completed and sealed all 76 residues. It reaches **0.1422687755 whole-chain
+TM**, a **57.49%** advance over V10, reduces hard exclusions from 76 to 48,
+and improves all 29 tested 48-residue windows. Its strongest new local rows are
+`TLE` at **0.9984764350 TM** and `IFAG` at **0.7777978002 TM**. Preserve the
+V13 source unchanged because its hashes bind the seal. A separate single-build
+candidate is exact across every tested output field and 22.56% faster; promote
+that implementation only through a new source-bound protocol version.
+
 **The sequence supplies the spatial command.** The forward-forcing programme derives how amino-acid
 identity determines the invariant exclusions and relations that select among the 576 exact states per
 residue. Every proposed relation is routed through the engine; a violation halts rather than becoming
@@ -154,11 +163,12 @@ gyration, scalar hydrophobic collapse) require forging arbitrary constants to co
 0.9891 trace supplies forward-forcing spatial relations, including the recorded
 steric and sequential-distance investigations. Target-derived development
 relations remain named as such and are not silently admitted to a blind selector.
-Selector v3 remains the clean blind baseline. Selectors v5-v12 form the traced
+Selector v3 remains the clean blind baseline. Selectors v5-v13 form the traced
 continuation through inter-window topology, signed alpha/beta orientation,
 formal charge, exact side-chain graphs, weight-free ordinal balance, and
 target-incapable unit-capacity backbone hydrogen-bond assembly, including the
-v12 exact-alpha/longer-non-local topology separation.
+v12 exact-alpha/longer-non-local topology separation and v13's retained local
+assembly beside both topology relations.
 
 ---
 

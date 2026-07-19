@@ -1,0 +1,338 @@
+{
+  "execution": "post-seal same-index contiguous local comparison",
+  "matched_ca_atoms": 76,
+  "maximum_local_tm_window": {
+    "ca_drmsd_angstrom": 5.139789290342664,
+    "kabsch_ca_rmsd_angstrom": 6.83324409681191,
+    "local_tm_score": 0.17102677082491513,
+    "residue_positions_one_based": [
+      13,
+      60
+    ],
+    "sequence": "ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYN"
+  },
+  "minimum_kabsch_rmsd_window": {
+    "ca_drmsd_angstrom": 5.228935496910017,
+    "kabsch_ca_rmsd_angstrom": 6.817202477075116,
+    "local_tm_score": 0.17046892287414975,
+    "residue_positions_one_based": [
+      12,
+      59
+    ],
+    "sequence": "TITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDY"
+  },
+  "official_run": false,
+  "prediction_pdb_sha256": "2a7500350ef448f5a7833fd5e73229e0072f5c2d27c0021afb3759e7cf64c186",
+  "provenance": {
+    "agent": "Codex",
+    "authority": "Maria Smith alone assigns conclusions and official status.",
+    "model": "gpt-5.6-sol",
+    "origin": "Codex post-seal cumulative development measurement",
+    "reasoning_level": "high"
+  },
+  "result_type": "cumulative development benchmark",
+  "run_id": "development-ubiquitin-v13-retained-topology-l76-20260719",
+  "schema": "fold-protein-blind-local-evaluation/v13",
+  "seal_sha256": "e5559926107a00ad936696964eb34de1d3d8d708fed9e54f1abb2363ee563b5e",
+  "source_sha256": {
+    "verify/evaluate_sealed_blind_local_v13.py": "04a8c662c503778249b9d4729177f521ba221efb7e1e75519519c48012d7a551"
+  },
+  "status": "completed",
+  "target_id": "1ubq.pdb",
+  "target_sha256": "d4a6812d8951cf6594e6a0763f089e35f5a80b62acb3c117b2c5565228a7b161",
+  "window_count": 29,
+  "window_length_residues": 48,
+  "window_rule": "After complete seal verification, report every same-index contiguous window; no target measurement enters selection.",
+  "windows": [
+    {
+      "ca_drmsd_angstrom": 6.376620738083785,
+      "kabsch_ca_rmsd_angstrom": 7.762123951905879,
+      "local_tm_score": 0.1381678571874951,
+      "residue_positions_one_based": [
+        1,
+        48
+      ],
+      "sequence": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGK"
+    },
+    {
+      "ca_drmsd_angstrom": 6.247582744103048,
+      "kabsch_ca_rmsd_angstrom": 7.532695011837817,
+      "local_tm_score": 0.14582355271413497,
+      "residue_positions_one_based": [
+        2,
+        49
+      ],
+      "sequence": "QIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQ"
+    },
+    {
+      "ca_drmsd_angstrom": 6.101816394819804,
+      "kabsch_ca_rmsd_angstrom": 7.373041479522596,
+      "local_tm_score": 0.15104667024139923,
+      "residue_positions_one_based": [
+        3,
+        50
+      ],
+      "sequence": "IFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQL"
+    },
+    {
+      "ca_drmsd_angstrom": 5.991346170236242,
+      "kabsch_ca_rmsd_angstrom": 7.288377572767464,
+      "local_tm_score": 0.15249675672822516,
+      "residue_positions_one_based": [
+        4,
+        51
+      ],
+      "sequence": "FVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLE"
+    },
+    {
+      "ca_drmsd_angstrom": 5.97407064414212,
+      "kabsch_ca_rmsd_angstrom": 7.311434018343318,
+      "local_tm_score": 0.14989193630380263,
+      "residue_positions_one_based": [
+        5,
+        52
+      ],
+      "sequence": "VKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLED"
+    },
+    {
+      "ca_drmsd_angstrom": 6.106394225773656,
+      "kabsch_ca_rmsd_angstrom": 7.479051934936278,
+      "local_tm_score": 0.14745580581686976,
+      "residue_positions_one_based": [
+        6,
+        53
+      ],
+      "sequence": "KTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDG"
+    },
+    {
+      "ca_drmsd_angstrom": 6.159917382695894,
+      "kabsch_ca_rmsd_angstrom": 7.560894235940619,
+      "local_tm_score": 0.14009117216983671,
+      "residue_positions_one_based": [
+        7,
+        54
+      ],
+      "sequence": "TLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGR"
+    },
+    {
+      "ca_drmsd_angstrom": 6.1730895323233845,
+      "kabsch_ca_rmsd_angstrom": 7.58056158806356,
+      "local_tm_score": 0.14000580668900744,
+      "residue_positions_one_based": [
+        8,
+        55
+      ],
+      "sequence": "LTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRT"
+    },
+    {
+      "ca_drmsd_angstrom": 6.01339889054739,
+      "kabsch_ca_rmsd_angstrom": 7.423819841207167,
+      "local_tm_score": 0.14470311032213368,
+      "residue_positions_one_based": [
+        9,
+        56
+      ],
+      "sequence": "TGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTL"
+    },
+    {
+      "ca_drmsd_angstrom": 5.672197734817213,
+      "kabsch_ca_rmsd_angstrom": 7.072904139368865,
+      "local_tm_score": 0.15456028033633565,
+      "residue_positions_one_based": [
+        10,
+        57
+      ],
+      "sequence": "GKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLS"
+    },
+    {
+      "ca_drmsd_angstrom": 5.393688486088917,
+      "kabsch_ca_rmsd_angstrom": 6.843302382397959,
+      "local_tm_score": 0.16551602819770103,
+      "residue_positions_one_based": [
+        11,
+        58
+      ],
+      "sequence": "KTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSD"
+    },
+    {
+      "ca_drmsd_angstrom": 5.228935496910017,
+      "kabsch_ca_rmsd_angstrom": 6.817202477075116,
+      "local_tm_score": 0.17046892287414975,
+      "residue_positions_one_based": [
+        12,
+        59
+      ],
+      "sequence": "TITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDY"
+    },
+    {
+      "ca_drmsd_angstrom": 5.139789290342664,
+      "kabsch_ca_rmsd_angstrom": 6.83324409681191,
+      "local_tm_score": 0.17102677082491513,
+      "residue_positions_one_based": [
+        13,
+        60
+      ],
+      "sequence": "ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYN"
+    },
+    {
+      "ca_drmsd_angstrom": 5.065733265420784,
+      "kabsch_ca_rmsd_angstrom": 6.910425423543296,
+      "local_tm_score": 0.1708812018024057,
+      "residue_positions_one_based": [
+        14,
+        61
+      ],
+      "sequence": "TLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNI"
+    },
+    {
+      "ca_drmsd_angstrom": 4.9501142812963295,
+      "kabsch_ca_rmsd_angstrom": 6.958130585304251,
+      "local_tm_score": 0.16962883758216604,
+      "residue_positions_one_based": [
+        15,
+        62
+      ],
+      "sequence": "LEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQ"
+    },
+    {
+      "ca_drmsd_angstrom": 4.941318868791842,
+      "kabsch_ca_rmsd_angstrom": 6.990148052403981,
+      "local_tm_score": 0.1672178210288375,
+      "residue_positions_one_based": [
+        16,
+        63
+      ],
+      "sequence": "EVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQK"
+    },
+    {
+      "ca_drmsd_angstrom": 5.060119423378643,
+      "kabsch_ca_rmsd_angstrom": 7.121856444525111,
+      "local_tm_score": 0.15060715287703386,
+      "residue_positions_one_based": [
+        17,
+        64
+      ],
+      "sequence": "VEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKE"
+    },
+    {
+      "ca_drmsd_angstrom": 5.152893296245323,
+      "kabsch_ca_rmsd_angstrom": 7.2894813340508176,
+      "local_tm_score": 0.14599000625418798,
+      "residue_positions_one_based": [
+        18,
+        65
+      ],
+      "sequence": "EPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKES"
+    },
+    {
+      "ca_drmsd_angstrom": 5.227149377188089,
+      "kabsch_ca_rmsd_angstrom": 7.562239951207627,
+      "local_tm_score": 0.14638494021100398,
+      "residue_positions_one_based": [
+        19,
+        66
+      ],
+      "sequence": "PSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKEST"
+    },
+    {
+      "ca_drmsd_angstrom": 5.376536248505046,
+      "kabsch_ca_rmsd_angstrom": 7.902428132315101,
+      "local_tm_score": 0.15082716861520043,
+      "residue_positions_one_based": [
+        20,
+        67
+      ],
+      "sequence": "SDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTL"
+    },
+    {
+      "ca_drmsd_angstrom": 5.475099466253483,
+      "kabsch_ca_rmsd_angstrom": 8.264040125552183,
+      "local_tm_score": 0.15607394437769193,
+      "residue_positions_one_based": [
+        21,
+        68
+      ],
+      "sequence": "DTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLH"
+    },
+    {
+      "ca_drmsd_angstrom": 5.625365555740369,
+      "kabsch_ca_rmsd_angstrom": 8.654845041394442,
+      "local_tm_score": 0.15423311856033295,
+      "residue_positions_one_based": [
+        22,
+        69
+      ],
+      "sequence": "TIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHL"
+    },
+    {
+      "ca_drmsd_angstrom": 5.7349741338001685,
+      "kabsch_ca_rmsd_angstrom": 9.183192383461114,
+      "local_tm_score": 0.15118482770272235,
+      "residue_positions_one_based": [
+        23,
+        70
+      ],
+      "sequence": "IENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLV"
+    },
+    {
+      "ca_drmsd_angstrom": 5.834918214363706,
+      "kabsch_ca_rmsd_angstrom": 9.572686875109538,
+      "local_tm_score": 0.14702593931923177,
+      "residue_positions_one_based": [
+        24,
+        71
+      ],
+      "sequence": "ENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVL"
+    },
+    {
+      "ca_drmsd_angstrom": 5.973180081088484,
+      "kabsch_ca_rmsd_angstrom": 9.889630332829123,
+      "local_tm_score": 0.14237554816174872,
+      "residue_positions_one_based": [
+        25,
+        72
+      ],
+      "sequence": "NVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLR"
+    },
+    {
+      "ca_drmsd_angstrom": 6.189839155439749,
+      "kabsch_ca_rmsd_angstrom": 10.269226281562654,
+      "local_tm_score": 0.13094633064909297,
+      "residue_positions_one_based": [
+        26,
+        73
+      ],
+      "sequence": "VKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRL"
+    },
+    {
+      "ca_drmsd_angstrom": 6.579843201566144,
+      "kabsch_ca_rmsd_angstrom": 10.864857135795859,
+      "local_tm_score": 0.11993208210216717,
+      "residue_positions_one_based": [
+        27,
+        74
+      ],
+      "sequence": "KAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLR"
+    },
+    {
+      "ca_drmsd_angstrom": 7.1680534750866745,
+      "kabsch_ca_rmsd_angstrom": 11.464370632756545,
+      "local_tm_score": 0.10953397214747178,
+      "residue_positions_one_based": [
+        28,
+        75
+      ],
+      "sequence": "AKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRG"
+    },
+    {
+      "ca_drmsd_angstrom": 7.711444851396004,
+      "kabsch_ca_rmsd_angstrom": 11.870714901373939,
+      "local_tm_score": 0.09973294596859796,
+      "residue_positions_one_based": [
+        29,
+        76
+      ],
+      "sequence": "KIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG"
+    }
+  ]
+}

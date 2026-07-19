@@ -1,0 +1,58 @@
+{
+  "schema": "fold-protein-v13-single-build-development-benchmark/v1",
+  "status": "completed",
+  "result_type": "cumulative development benchmark",
+  "official_run": false,
+  "authority": "Maria Smith alone assigns conclusions and official status.",
+  "candidate": {
+    "source": "tools/blind_24_lattice_selector_v13_single_build_candidate.py",
+    "source_sha256": "b82372e8df1ed5aa4842f3af7d996886d58c3371db3e2bb68689a137e706f2eb",
+    "change": "Reuse one identical backbone coordinate construction across the unchanged v9, v12, and v13 constitutional relations.",
+    "new_parameters": null,
+    "new_selection_rules": null,
+    "new_objectives": null
+  },
+  "baseline": {
+    "source": "tools/blind_24_lattice_selector_v13.py",
+    "source_sha256": "54f54c6beb71dff829fee0a23b7c39db323e39f6285edb6d6b4883708befc91a",
+    "sealed_result": "verify/development_runs/ubiquitin_v13_retained_topology_l24_20260719/selected_states.json",
+    "sealed_result_sha256": "5e2c2a7fcbdaa033a125d93d8798a458e867b84ba77c9283b8305bf09d172952",
+    "wall_seconds": 310.17,
+    "user_cpu_seconds": 309.59,
+    "maximum_resident_bytes": 83132416
+  },
+  "applied_identity": {
+    "sequence_length": 24,
+    "selected_path_prefix_relations": {
+      "prefixes": 23,
+      "local_exact": 23,
+      "complete_exact": 23
+    },
+    "complete_selection": {
+      "exact": true,
+      "compared_fields": [
+        "states",
+        "score_trace",
+        "final_relations",
+        "orientation_modes",
+        "orientation_trace",
+        "mode_capacity",
+        "mode_balance_trace",
+        "charge_census",
+        "steric_census",
+        "hydrogen_bond_census",
+        "topology_hydrogen_bond_census"
+      ],
+      "mismatches": []
+    }
+  },
+  "runtime": {
+    "candidate_wall_seconds": 240.21,
+    "candidate_user_cpu_seconds": 239.45,
+    "seconds_saved": 69.96,
+    "runtime_improvement_fraction": 0.22555372860044492,
+    "candidate_over_baseline_ratio": 0.774446271399555
+  },
+  "decision": "The candidate establishes a lossless applied execution improvement. Preserve sealed V13 unchanged and promote only through a new source-bound protocol version.",
+  "author_audit": "Codex gpt-5.6-sol, high reasoning"
+}
