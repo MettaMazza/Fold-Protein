@@ -315,11 +315,11 @@ It generated 85 eligible rows and selected 18 pairs: five exact alpha and
 thirteen longer candidates. Relative to v11, whole-prefix TM improved from
 `0.020183289658017203` to `0.030203624938133732`, and C-alpha dRMSD improved
 from `7.074317396421713 Å` to `6.152785745760267 Å`. The best local TM rows
-were lower: length three moved from v11's `0.999701361058143` to
+were mixed: length three moved from v11's `0.999701361058143` to
 `0.9864217459387982`; length four from `0.6441498215858261` to
-`0.5711146956368334`; and the v12 length-five maximum was
-`0.24779131281385336`. The complete windows are retained as local regression
-data. They do not establish a theoretical obstruction; the next refinement
+`0.5711146956368334`; and length five improved slightly from
+`0.24626050864035634` to `0.24779131281385336`. The complete windows are
+retained as mixed local development data. They do not establish a theoretical obstruction; the next refinement
 must preserve the whole-prefix orientation advance while recovering the local
 geometry retained by v11. Maria determines the conclusion and next direction.
 

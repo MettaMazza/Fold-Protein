@@ -48,9 +48,10 @@ The continuation has now moved beyond the original v3 blind baseline:
   selected **18** pairs from **85** eligible rows—5 α and 13 longer. Against
   v11, whole-prefix TM improved from `0.0201832897` to **`0.0302036249`** and
   Cα dRMSD improved from `7.0743173964 Å` to **`6.1527857458 Å`**. The best
-  3-, 4-, and 5-residue local TM rows were lower than v11 and are preserved
-  explicitly as local regressions, not used as a theoretical limit. Maria
-  determines the conclusion and continuation.
+  3- and 4-residue local TM rows were lower than v11, while the best
+  5-residue row improved slightly from `0.2462605086` to `0.2477913128`.
+  These mixed local results are preserved explicitly and are not used as a
+  theoretical limit. Maria determines the conclusion and continuation.
 
 These are target-isolated, seal-before-score implemented development results. They extend the executable forcing chain; they are not agent-declared failures, limits, or substitutions for Maria Smith's conclusions. The current next state is to retain the secured signed geometry, dual-mode preservation, formal charge, exact side-chain graph, and weight-free balance while forward-forcing backbone hydrogen-bond assembly and a more spatially complete side-chain hard-exclusion relation. The secured lattice containment, forced secondary-structure coordinates, complete blind execution, and successive local and whole-chain advances establish a constructive route forward and no theorem-derived obstruction at this stage.
 
