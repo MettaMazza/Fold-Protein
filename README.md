@@ -53,7 +53,28 @@ The continuation has now moved beyond the original v3 blind baseline:
   These mixed local results are preserved explicitly and are not used as a
   theoretical limit. Maria determines the conclusion and continuation.
 
+The source-bound v11/v12 path-delta analysis now locates that change precisely:
+topology separation changed **23/24** selected lattice states. Across all
+same-index windows, v12 improved **9/22** length-3, **6/21** length-4, and
+**7/20** length-5 geometries, while respectively 13, 15, and 13 moved lower.
+The largest local advances include `EVE` (+0.503398 TM), `TLE` (+0.489450),
+`TIT` (+0.449918), and `DTI` (+0.326621), alongside the whole-prefix gains of
++0.010020 TM and −0.921532 Å dRMSD. This applied pattern indicates that the
+topology relation is exerting real global and local command rather than merely
+renaming the v11 path, while also identifying why the next selector should
+retain the undifferentiated local hydrogen-bond relation alongside topology-
+separated whole-prefix assembly.
+
 These are target-isolated, seal-before-score implemented development results. They extend the executable forcing chain; they are not agent-declared failures, limits, or substitutions for Maria Smith's conclusions. The current next state is to retain the secured signed geometry, dual-mode preservation, formal charge, exact side-chain graph, and weight-free balance while forward-forcing backbone hydrogen-bond assembly and a more spatially complete side-chain hard-exclusion relation. The secured lattice containment, forced secondary-structure coordinates, complete blind execution, and successive local and whole-chain advances establish a constructive route forward and no theorem-derived obstruction at this stage.
+
+A full 76-residue v12 trial is **not yet the recommended next execution** from
+this cycle: the sealed 24-residue run improved whole-prefix TM and dRMSD, but
+the 23/24 state change shows that topology separation has globally replaced
+rather than retained v11's strongest local route. The recommended next applied
+execution is a sealed 24-residue selector that carries both relations, followed
+by the complete 76-residue blind run if it retains the whole-prefix advance
+while recovering local geometry. This is an evidence-based advisory sequence,
+not a gate; Maria may order the full run at any time.
 
 ## Governing law
 
@@ -100,6 +121,7 @@ python3 -m tools.verify_protein_forcing_registry
 | `verify/development_runs/ubiquitin_v10_balanced_relations_l{24,76}_20260719/` | sealed v10 applied evidence |
 | `verify/development_runs/ubiquitin_v11_hbond_assembly_l24_20260719/` | sealed v11 hydrogen-bond applied evidence and post-seal local windows |
 | `verify/development_runs/ubiquitin_v12_topology_hbond_l24_20260719/` | sealed v12 topology-separated applied evidence and post-seal local windows |
+| `verify/development_runs/ubiquitin_v12_topology_hbond_l24_20260719/v11_v12_state_delta.json` | source-bound sealed-path and local-window delta locating the next combined relation |
 | `verify/evaluate_sealed_blind_v3.py` | seal verifier and target-isolated evaluation boundary |
 | `verify/evaluate_sealed_blind_local_v3.py` | all-window post-seal local evaluator; reproduces the published IFV/TLT measurements |
 | `verify/protein_forcing_registry_v1.json` | complete source classification and legacy exclusion gate |

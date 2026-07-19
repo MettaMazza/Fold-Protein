@@ -1,0 +1,486 @@
+{
+  "benchmark_authority": false,
+  "created_at_utc": "2026-07-19T21:05:47.017061+00:00",
+  "declared_purpose": "Locate the applied path and local-window changes associated with topology separation so the next target-isolated selector can retain both whole-prefix assembly and accurate local geometry.",
+  "governance_authority": false,
+  "local_window_delta": {
+    "3": {
+      "improved": 9,
+      "largest_improvements": [
+        {
+          "residue_positions_one_based": [
+            16,
+            18
+          ],
+          "sequence": "EVE",
+          "v11_local_tm": 0.4120520004885175,
+          "v12_local_tm": 0.9154500174599893,
+          "v12_minus_v11": 0.5033980169714718
+        },
+        {
+          "residue_positions_one_based": [
+            14,
+            16
+          ],
+          "sequence": "TLE",
+          "v11_local_tm": 0.46273008207390554,
+          "v12_local_tm": 0.9521799334333579,
+          "v12_minus_v11": 0.4894498513594524
+        },
+        {
+          "residue_positions_one_based": [
+            12,
+            14
+          ],
+          "sequence": "TIT",
+          "v11_local_tm": 0.4866737030766219,
+          "v12_local_tm": 0.9365917968103639,
+          "v12_minus_v11": 0.449918093733742
+        },
+        {
+          "residue_positions_one_based": [
+            21,
+            23
+          ],
+          "sequence": "DTI",
+          "v11_local_tm": 0.6598011356395131,
+          "v12_local_tm": 0.9864217459387982,
+          "v12_minus_v11": 0.326620610299285
+        },
+        {
+          "residue_positions_one_based": [
+            13,
+            15
+          ],
+          "sequence": "ITL",
+          "v11_local_tm": 0.43246669725599524,
+          "v12_local_tm": 0.738272948420069,
+          "v12_minus_v11": 0.30580625116407373
+        }
+      ],
+      "largest_regressions": [
+        {
+          "residue_positions_one_based": [
+            9,
+            11
+          ],
+          "sequence": "TGK",
+          "v11_local_tm": 0.9581898059241097,
+          "v12_local_tm": 0.3274871691448979,
+          "v12_minus_v11": -0.6307026367792119
+        },
+        {
+          "residue_positions_one_based": [
+            19,
+            21
+          ],
+          "sequence": "PSD",
+          "v11_local_tm": 0.9838552093963407,
+          "v12_local_tm": 0.6153059927075183,
+          "v12_minus_v11": -0.36854921668882246
+        },
+        {
+          "residue_positions_one_based": [
+            4,
+            6
+          ],
+          "sequence": "FVK",
+          "v11_local_tm": 0.9011232513416951,
+          "v12_local_tm": 0.5353097001033497,
+          "v12_minus_v11": -0.36581355123834547
+        },
+        {
+          "residue_positions_one_based": [
+            7,
+            9
+          ],
+          "sequence": "TLT",
+          "v11_local_tm": 0.89384682626081,
+          "v12_local_tm": 0.6349313668782223,
+          "v12_minus_v11": -0.25891545938258775
+        },
+        {
+          "residue_positions_one_based": [
+            22,
+            24
+          ],
+          "sequence": "TIE",
+          "v11_local_tm": 0.7925058222357656,
+          "v12_local_tm": 0.5355711435172358,
+          "v12_minus_v11": -0.2569346787185298
+        }
+      ],
+      "regressed": 13,
+      "unchanged": 0,
+      "windows": 22
+    },
+    "4": {
+      "improved": 6,
+      "largest_improvements": [
+        {
+          "residue_positions_one_based": [
+            2,
+            5
+          ],
+          "sequence": "QIFV",
+          "v11_local_tm": 0.12210237319118065,
+          "v12_local_tm": 0.33328934874890304,
+          "v12_minus_v11": 0.21118697555772237
+        },
+        {
+          "residue_positions_one_based": [
+            18,
+            21
+          ],
+          "sequence": "EPSD",
+          "v11_local_tm": 0.2166408949093805,
+          "v12_local_tm": 0.29864235313453197,
+          "v12_minus_v11": 0.08200145822515148
+        },
+        {
+          "residue_positions_one_based": [
+            17,
+            20
+          ],
+          "sequence": "VEPS",
+          "v11_local_tm": 0.10889589029956082,
+          "v12_local_tm": 0.1684808317818936,
+          "v12_minus_v11": 0.05958494148233279
+        },
+        {
+          "residue_positions_one_based": [
+            6,
+            9
+          ],
+          "sequence": "KTLT",
+          "v11_local_tm": 0.22915055025895845,
+          "v12_local_tm": 0.25506782654653803,
+          "v12_minus_v11": 0.025917276287579588
+        },
+        {
+          "residue_positions_one_based": [
+            21,
+            24
+          ],
+          "sequence": "DTIE",
+          "v11_local_tm": 0.19724933380464865,
+          "v12_local_tm": 0.21557536127834548,
+          "v12_minus_v11": 0.018326027473696826
+        }
+      ],
+      "largest_regressions": [
+        {
+          "residue_positions_one_based": [
+            14,
+            17
+          ],
+          "sequence": "TLEV",
+          "v11_local_tm": 0.33924816077888853,
+          "v12_local_tm": 0.10002567517037017,
+          "v12_minus_v11": -0.23922248560851836
+        },
+        {
+          "residue_positions_one_based": [
+            12,
+            15
+          ],
+          "sequence": "TITL",
+          "v11_local_tm": 0.31535773736068623,
+          "v12_local_tm": 0.08328742471735451,
+          "v12_minus_v11": -0.23207031264333172
+        },
+        {
+          "residue_positions_one_based": [
+            9,
+            12
+          ],
+          "sequence": "TGKT",
+          "v11_local_tm": 0.401162276177764,
+          "v12_local_tm": 0.17576935525590928,
+          "v12_minus_v11": -0.22539292092185473
+        },
+        {
+          "residue_positions_one_based": [
+            19,
+            22
+          ],
+          "sequence": "PSDT",
+          "v11_local_tm": 0.59759714838499,
+          "v12_local_tm": 0.3762664447159669,
+          "v12_minus_v11": -0.22133070366902313
+        },
+        {
+          "residue_positions_one_based": [
+            15,
+            18
+          ],
+          "sequence": "LEVE",
+          "v11_local_tm": 0.31764365080154516,
+          "v12_local_tm": 0.1311553756439008,
+          "v12_minus_v11": -0.18648827515764435
+        }
+      ],
+      "regressed": 15,
+      "unchanged": 0,
+      "windows": 21
+    },
+    "5": {
+      "improved": 7,
+      "largest_improvements": [
+        {
+          "residue_positions_one_based": [
+            11,
+            15
+          ],
+          "sequence": "KTITL",
+          "v11_local_tm": 0.05873832185977791,
+          "v12_local_tm": 0.2255861316013144,
+          "v12_minus_v11": 0.1668478097415365
+        },
+        {
+          "residue_positions_one_based": [
+            18,
+            22
+          ],
+          "sequence": "EPSDT",
+          "v11_local_tm": 0.14302194044089525,
+          "v12_local_tm": 0.24779131281385336,
+          "v12_minus_v11": 0.10476937237295811
+        },
+        {
+          "residue_positions_one_based": [
+            4,
+            8
+          ],
+          "sequence": "FVKTL",
+          "v11_local_tm": 0.07556880296967489,
+          "v12_local_tm": 0.17809514549548552,
+          "v12_minus_v11": 0.10252634252581064
+        },
+        {
+          "residue_positions_one_based": [
+            16,
+            20
+          ],
+          "sequence": "EVEPS",
+          "v11_local_tm": 0.05182680250434063,
+          "v12_local_tm": 0.07489472906517813,
+          "v12_minus_v11": 0.023067926560837504
+        },
+        {
+          "residue_positions_one_based": [
+            1,
+            5
+          ],
+          "sequence": "MQIFV",
+          "v11_local_tm": 0.05733642091992608,
+          "v12_local_tm": 0.07235565187101997,
+          "v12_minus_v11": 0.015019230951093893
+        }
+      ],
+      "largest_regressions": [
+        {
+          "residue_positions_one_based": [
+            7,
+            11
+          ],
+          "sequence": "TLTGK",
+          "v11_local_tm": 0.24626050864035634,
+          "v12_local_tm": 0.10526869175203843,
+          "v12_minus_v11": -0.1409918168883179
+        },
+        {
+          "residue_positions_one_based": [
+            3,
+            7
+          ],
+          "sequence": "IFVKT",
+          "v11_local_tm": 0.18761315846723545,
+          "v12_local_tm": 0.0628524171397971,
+          "v12_minus_v11": -0.12476074132743835
+        },
+        {
+          "residue_positions_one_based": [
+            14,
+            18
+          ],
+          "sequence": "TLEVE",
+          "v11_local_tm": 0.18913644564691062,
+          "v12_local_tm": 0.06878212657463868,
+          "v12_minus_v11": -0.12035431907227194
+        },
+        {
+          "residue_positions_one_based": [
+            8,
+            12
+          ],
+          "sequence": "LTGKT",
+          "v11_local_tm": 0.18785044150693953,
+          "v12_local_tm": 0.0732364966065378,
+          "v12_minus_v11": -0.11461394490040172
+        },
+        {
+          "residue_positions_one_based": [
+            12,
+            16
+          ],
+          "sequence": "TITLE",
+          "v11_local_tm": 0.15233077469992015,
+          "v12_local_tm": 0.06699831552417453,
+          "v12_minus_v11": -0.08533245917574563
+        }
+      ],
+      "regressed": 13,
+      "unchanged": 0,
+      "windows": 20
+    }
+  },
+  "provenance": {
+    "agent": "Codex",
+    "authority": "Maria Smith assigns conclusions and full-run timing.",
+    "model": "gpt-5.6-sol",
+    "origin": "Codex post-seal applied-development analysis",
+    "reasoning_level": "high"
+  },
+  "result_type": "measured implementation analysis",
+  "schema": "fold-protein-v11-v12-state-delta/v1",
+  "selection_boundary": "Analysis only: both paths were sealed before target access; no target measurement is fed back into either recorded selection.",
+  "sequence_length": 24,
+  "sources": {
+    "v11/seal.json": "02563468f423bd9c98174e801cb88a7d2d69853d272d066e5ff6194affca4d0d",
+    "v11/selected_states.json": "7ad7fe4b6755e336941ad21704130d168d21f19e1ae215c00810650d139c0de7",
+    "v12/seal.json": "e9edb63b41cb7ed4915d8339a9f6269190a9405b93d26d3de66fee12c6d430d8",
+    "v12/selected_states.json": "cbb47c15eee863be7e1cd8ea68e490d7d398d3d0eda42423186d0694ad803f2f",
+    "verify/analyze_v11_v12_state_delta.py": "a5315212c5581fdc432250358f19202c731233ab1a84a295405e8305954fe47c"
+  },
+  "state_delta": {
+    "changed": 23,
+    "identical": 1,
+    "rows": [
+      {
+        "residue_one_based": 1,
+        "v11_state": 11,
+        "v12_state": 10
+      },
+      {
+        "residue_one_based": 2,
+        "v11_state": 201,
+        "v12_state": 202
+      },
+      {
+        "residue_one_based": 3,
+        "v11_state": 21,
+        "v12_state": 22
+      },
+      {
+        "residue_one_based": 4,
+        "v11_state": 305,
+        "v12_state": 156
+      },
+      {
+        "residue_one_based": 5,
+        "v11_state": 284,
+        "v12_state": 75
+      },
+      {
+        "residue_one_based": 6,
+        "v11_state": 208,
+        "v12_state": 366
+      },
+      {
+        "residue_one_based": 7,
+        "v11_state": 78,
+        "v12_state": 122
+      },
+      {
+        "residue_one_based": 8,
+        "v11_state": 293,
+        "v12_state": 363
+      },
+      {
+        "residue_one_based": 9,
+        "v11_state": 274,
+        "v12_state": 300
+      },
+      {
+        "residue_one_based": 10,
+        "v11_state": 246,
+        "v12_state": 123
+      },
+      {
+        "residue_one_based": 11,
+        "v11_state": 397,
+        "v12_state": 371
+      },
+      {
+        "residue_one_based": 12,
+        "v11_state": 55,
+        "v12_state": 10
+      },
+      {
+        "residue_one_based": 13,
+        "v11_state": 210,
+        "v12_state": 571
+      },
+      {
+        "residue_one_based": 14,
+        "v11_state": 233,
+        "v12_state": 539
+      },
+      {
+        "residue_one_based": 15,
+        "v11_state": 284,
+        "v12_state": 101
+      },
+      {
+        "residue_one_based": 16,
+        "v11_state": 211,
+        "v12_state": 258
+      },
+      {
+        "residue_one_based": 17,
+        "v11_state": 57,
+        "v12_state": 506
+      },
+      {
+        "residue_one_based": 18,
+        "v11_state": 11,
+        "v12_state": 315
+      },
+      {
+        "residue_one_based": 19,
+        "v11_state": 81,
+        "v12_state": 311
+      },
+      {
+        "residue_one_based": 20,
+        "v11_state": 318,
+        "v12_state": 511
+      },
+      {
+        "residue_one_based": 21,
+        "v11_state": 342,
+        "v12_state": 222
+      },
+      {
+        "residue_one_based": 22,
+        "v11_state": 316,
+        "v12_state": 216
+      },
+      {
+        "residue_one_based": 23,
+        "v11_state": 414,
+        "v12_state": 511
+      }
+    ]
+  },
+  "status": "completed",
+  "whole_prefix": {
+    "ca_drmsd_delta_angstrom": -0.9215316506614464,
+    "tm_delta": 0.010020335280116529,
+    "v11_ca_drmsd_angstrom": 7.074317396421713,
+    "v11_tm_score": 0.020183289658017203,
+    "v12_ca_drmsd_angstrom": 6.152785745760267,
+    "v12_tm_score": 0.030203624938133732
+  }
+}

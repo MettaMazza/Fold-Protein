@@ -269,3 +269,9 @@ Do not hide or euphemize a regression, and do not convert a development
 regression into a theoretical limit, failed Maria prediction, publication
 decision, or reason to stop the campaign. Do not minimize a positive measured
 result. Maria determines the conclusion and direction from the complete data.
+
+End with a **full-trial recommendation**: recommend a full blind run now,
+recommend it conditionally under a named protocol, or recommend another
+development calculation first. Give the exact evidence for and against. This
+is advice to Maria, never an agent gate, authorization, veto, delay mechanism,
+or redefinition of when she may order the run.
