@@ -132,9 +132,17 @@ method and exact values are preserved in
 `verify/blind_local_sequence_evidence_20260719.json`.
 
 Maria Smith has declared these results for publication. Complete 76-residue
-blind sequencing and global assembly remain active forward work alongside the
-3D α/β structural law and the separate target-assisted 0.9891 Super Parity
-construction.
+blind sequencing was subsequently executed as a separate development run under
+the same target-isolated, pre-comparison-sealed protocol. It matched all 76 Cα
+atoms at TM `0.0269927379497572` and dRMSD `52.89314678065376 Å`. The post-seal
+three-residue readout found `HLV` at TM `0.9914591922414299` / dRMSD
+`0.03139535401876445 Å`, `RLI` at TM `0.9656795312222751`, and `RGG` at TM
+`0.9059580746307327`. The best four- and five-residue windows fall to TM
+`0.3534794031641911` and `0.3209890061552319`, locating the next construction
+work at inter-window orientation and global assembly. These new 76-residue
+measurements remain Codex development evidence until Maria declares a
+publishable conclusion; the already-published 8/16/24 conclusions are
+unchanged.
 
 ## Preserved development evidence, not attributed conclusions
 
@@ -181,9 +189,9 @@ The registry verifier halts if:
 
 Generated PDBs and campaign receipts are evidence rather than forcing source.
 They are bound by the protected construction manifest or their immutable seals.
-All 56 tracked PDBs are also exhaustively classified: two experimental
+All 57 tracked PDBs are also exhaustively classified: two experimental
 references, one protected target-assisted construction, eleven sealed v2
-development outputs, three sealed v3 blind predictions, and thirty-nine legacy
+development outputs, four sealed v3 blind predictions, and thirty-nine legacy
 pre-project development artifacts.
 Their complete path-and-content census is hash-bound by the registry; both v2
 aggregate seals are reverified. Legacy filenames such as `predicted`,

@@ -7,13 +7,17 @@ import hashlib
 import json
 from pathlib import Path
 import subprocess
+import sys
+
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 
 from verify.replay_protein_backbone_geometry_v1 import replay as replay_geometry
 from tools.verify_blind_length_ladder_v2 import verify_ladder
 from tools.verify_blind_panel_v2 import verify_panel
 
 
-ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = ROOT / "verify/protein_forcing_registry_v1.json"
 
 

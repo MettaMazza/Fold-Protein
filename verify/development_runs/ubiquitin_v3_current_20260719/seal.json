@@ -1,0 +1,20 @@
+{
+  "execution": "sequence-only provenance-isolated selector output",
+  "path_length": 76,
+  "prediction_pdb_sha256": "184c3987cf1b12fb2bd5624cef1f577c3e02ff327913e2e0b3b82c39c8d851b5",
+  "protocol_manifest_sha256": "c6988dc13395e59aaaf6c96e6838a14477ceda7a8ecb4d4314c61ca0e8c85ecd",
+  "run_id": "development-ubiquitin-v3-current-20260719",
+  "schema": "fold-protein-blind-seal/v3",
+  "selected_states_sha256": "ae2a423c1642a4fed367db8e6345f98bf477e0875813fad50c001cdef2d72502",
+  "selector_input_sha256": "c81ac43fe0a0f0eb01babb3c6429f99aa744ea5e9a46ccd476fb030edb19287b",
+  "sequence_sha256": "233b4b0b8c4616095bc3249f9375fc345d32af7deaef07117d0383c51d6f19aa",
+  "source_sha256": {
+    "tools/blind_24_lattice_selector_v3.py": "062c2e4174e42494d3631e0c6aa38a708ec1a5952dc321ce66328620ff305cb5",
+    "tools/protein_backbone_geometry_v1.py": "a043e5d05a26fdf063c4703dac619f5fe918b65779a96df6d3cfa2f536fdc315",
+    "tools/residue_partition_v1.py": "f48e0ebc2c3dbc1d6d7a37370e0a2329968524d169d7b43022dce30ceacd3814",
+    "tools/run_blind_protocol_v3.py": "0719db7e7b33441c15424b03fa64d08217f3be6274abe25c87850ca83c8c823e",
+    "verify/protein_backbone_geometry_v1.json": "47da7e3f3c58a88e53b36157c5d5ed4dfa2c8b2c6e2cba91a5da34e5746571fd",
+    "verify/replay_protein_backbone_geometry_v1.py": "c441fac4b7afde843ff260fadcd62430aa8937f3881d2e778de32c27c3b80b62"
+  },
+  "status": "completed"
+}

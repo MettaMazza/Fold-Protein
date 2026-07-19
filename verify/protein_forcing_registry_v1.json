@@ -90,6 +90,8 @@
       "verify/replay_protein_backbone_geometry_v1.py"
     ],
     "blind_v3_postseal_measurement_boundary": [
+      "tests/test_blind_local_evaluator_v3.py",
+      "verify/evaluate_sealed_blind_local_v3.py",
       "verify/evaluate_sealed_blind_v3.py"
     ],
     "legacy_agent_development_unpromoted": [
@@ -154,8 +156,8 @@
     "classification": "A recorded development execution is not a Maria finding, loss or failed prediction."
   },
   "artifact_inventory": {
-    "tracked_pdb_files": 56,
-    "tracked_pdb_file_set_sha256": "ea5d564953687f8aa1aa974cf7cf004b63595c31d2516f07de7be075c2736d93",
+    "tracked_pdb_files": 57,
+    "tracked_pdb_file_set_sha256": "6ba6a2e4d0d66f02811f39b8048db03649ba0d5a15cbc67917410f3d6ade4181",
     "classes": {
       "experimental_reference": [
         "verify/1cop.pdb",
@@ -177,8 +179,9 @@
         "verify/blind_selector_v2_panel_run_20260718/mixed-alphabet-8/prediction.pdb",
         "verify/blind_selector_v2_panel_run_20260718/turn-rich-8/prediction.pdb"
       ],
-      "sealed_v3_blind_prediction": [
-        "verify/development_runs/ubiquitin_v3_l16_20260719/prediction.pdb",
+    "sealed_v3_blind_prediction": [
+      "verify/development_runs/ubiquitin_v3_current_20260719/prediction.pdb",
+      "verify/development_runs/ubiquitin_v3_l16_20260719/prediction.pdb",
         "verify/development_runs/ubiquitin_v3_l24_20260719/prediction.pdb",
         "verify/development_runs/ubiquitin_v3_l8_20260719/prediction.pdb"
       ],
