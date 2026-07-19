@@ -235,14 +235,42 @@ measuring whole-prefix TM `0.017414235712281952`, dRMSD
 dRMSD `0.2358215171960537 Å`.  This did not warrant a 76-residue development
 execution under the mandatory purpose-matched data rule.
 
-The applied sequence establishes a narrower next direction without declaring a
-wall: signed geometry supplies accurate local handedness, binary balancing
-prevents frontier erasure, and exact charge changes mode selection, but those
-relations do not yet propagate the v5 complete-chain improvement.  V5 therefore
-remains the strongest full 76-residue blind continuation.  The next relation
-must add more of the sequence's actual spatial command—side-chain steric form
-and/or backbone hydrogen-bond assembly—through a named target-free
-constitution, rather than another unmeasured ordering change.
+V9 adds an exhaustive 20-residue covalent side-chain heavy-atom graph
+constitution. Its dimensionless crowding relation counts possible heavy-atom
+encounters as the Cartesian product of two side-chain graphs and divides only
+by generated C-alpha separation normalized by generated adjacent step. There
+are no inherited residue radii, distance cutoffs, rotamers, fitted weights,
+targets or empirical structures. Its sealed 24-residue execution took
+`113.85 s` and `41533440` bytes maximum resident memory. It produced the
+strongest five-residue local continuation in the 24-residue line: `GKTIT`, TM
+`0.8383894512021005`, dRMSD `0.23618646085369144 Å`; its best length-four
+window `KTIT` measured TM `0.9127952096871118`.
+
+V10 removes numerical-scale privilege between the active physical relations.
+Hard self-exclusion remains an absolute integer stratum. Signed orientation,
+side-chain crowding, charge, hydrophobic dispersion and radius become exact
+within-frontier ordinal ranks; each candidate's worst-to-best rank vector gives
+a permutation-invariant minimax order with no weights or score blend.
+
+The sealed v10 24-residue execution selected a mixed 10-alpha/11-beta path,
+measured whole-prefix TM `0.03327082818773979` and dRMSD
+`6.6076920575729385 Å`, and justified the full continuation. The sealed
+76-residue execution completed in `806.75 s` with `105873408` bytes maximum
+resident memory and selected 33 alpha plus 40 beta quartets. Whole-chain TM
+was `0.09033263627027091`; C-alpha dRMSD was
+`7.241687663489846 Å`, the strongest full-chain blind dRMSD in the
+v3/v5/v10 line. Its best length-three window `TLE` measured TM
+`0.9977831859693745`, best length-four `DTIE` measured TM
+`0.7161453983087227`, and best length-five `TLTGK` measured TM
+`0.609078001588949`.
+
+The applied sequence now supplies separately executable signed geometry,
+binary mode preservation, charge-sensitive switching, exact side-chain graph
+crowding, and weight-free multi-relation balance. These are additive pieces of
+the forward-forcing chain. The next measured implementation should retain them
+while adding backbone hydrogen-bond assembly and a hard-exclusion
+representation that resolves side-chain placement more fully. That is a
+positive engineering continuation, not a theoretical wall.
 
 ## Preserved development evidence, not attributed conclusions
 
@@ -289,12 +317,12 @@ The registry verifier halts if:
 
 Generated PDBs and campaign receipts are evidence rather than forcing source.
 They are bound by the protected construction manifest or their immutable seals.
-All 63 tracked PDBs are also exhaustively classified: two experimental
+All 66 tracked PDBs are also exhaustively classified: two experimental
 references, one protected target-assisted construction, eleven sealed v2
 development outputs, four sealed v3 blind predictions, one sealed v4 auxiliary
 development output, two sealed v5 applied development outputs, and thirty-nine
-legacy pre-project development artifacts, plus the three sealed v6-v8 applied
-development outputs described above.
+legacy pre-project development artifacts, plus the three sealed v6-v8 and
+three sealed v9-v10 applied development outputs described above.
 Their complete path-and-content census is hash-bound by the registry; both v2
 aggregate seals are reverified. Legacy filenames such as `predicted`,
 `optimized`, or `autonomous` do not confer result or authorship status.

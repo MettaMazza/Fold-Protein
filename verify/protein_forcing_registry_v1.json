@@ -21,7 +21,9 @@
     "blind_selector_v5": "active target-incapable four-residue inter-window orientation development relation with sealed 24-residue applied evidence",
     "blind_selector_v6": "preserved signed-orientation development relation with sealed 24-residue applied evidence; not extended to 76 after all-alpha mode collapse",
     "blind_selector_v7": "preserved binary-balanced mode-frontier development relation with sealed 24-residue applied evidence",
-    "blind_selector_v8": "preserved charge-aware mode-selection development relation with sealed 24-residue applied evidence; v5 remains the strongest complete-chain continuation",
+    "blind_selector_v8": "preserved charge-aware mode-selection development relation with sealed 24-residue applied evidence",
+    "blind_selector_v9": "exact side-chain heavy-atom graph constitution with sealed 24-residue applied evidence and the strongest five-residue local continuation in the 24-residue line",
+    "blind_selector_v10": "active weight-free symmetric ordinal balance with sealed 24- and 76-residue applied evidence; strongest full-chain blind dRMSD in the v3/v5/v10 line",
     "legacy_engines": "retained history only; excluded from promoted and active continuation routes"
   },
   "inherited_toolchain_boundary": {
@@ -140,6 +142,24 @@
       "verify/evaluate_sealed_blind_local_v8.py",
       "verify/evaluate_sealed_blind_v8.py"
     ],
+    "blind_v9_steric_orientation_development": [
+      "tests/test_blind_selector_v9.py",
+      "tests/test_residue_steric_constitution_v1.py",
+      "tools/blind_24_lattice_selector_v9.py",
+      "tools/residue_steric_constitution_v1.py",
+      "tools/run_blind_protocol_v9.py",
+      "verify/evaluate_sealed_blind_local_v9.py",
+      "verify/evaluate_sealed_blind_v9.py"
+    ],
+    "blind_v10_balanced_relations_development": [
+      "tests/test_blind_selector_v10.py",
+      "tests/test_constitutional_rank_balance_v1.py",
+      "tools/blind_24_lattice_selector_v10.py",
+      "tools/constitutional_rank_balance_v1.py",
+      "tools/run_blind_protocol_v10.py",
+      "verify/evaluate_sealed_blind_local_v10.py",
+      "verify/evaluate_sealed_blind_v10.py"
+    ],
     "legacy_agent_development_unpromoted": [
       "tests/test_blind_protocol.py",
       "tools/beam_search_engine.py",
@@ -210,6 +230,32 @@
       "tools/residue_partition_v1.py",
       "tools/residue_charge_constitution_v1.py",
       "tools/run_blind_protocol_v8.py"
+    ],
+    "v9_runtime_roots": [
+      "tools/blind_24_lattice_selector_v3.py",
+      "tools/blind_24_lattice_selector_v5.py",
+      "tools/blind_24_lattice_selector_v6.py",
+      "tools/blind_24_lattice_selector_v7.py",
+      "tools/blind_24_lattice_selector_v9.py",
+      "tools/protein_backbone_geometry_v1.py",
+      "tools/residue_partition_v1.py",
+      "tools/residue_charge_constitution_v1.py",
+      "tools/residue_steric_constitution_v1.py",
+      "tools/run_blind_protocol_v9.py"
+    ],
+    "v10_runtime_roots": [
+      "tools/blind_24_lattice_selector_v3.py",
+      "tools/blind_24_lattice_selector_v5.py",
+      "tools/blind_24_lattice_selector_v6.py",
+      "tools/blind_24_lattice_selector_v7.py",
+      "tools/blind_24_lattice_selector_v9.py",
+      "tools/blind_24_lattice_selector_v10.py",
+      "tools/constitutional_rank_balance_v1.py",
+      "tools/protein_backbone_geometry_v1.py",
+      "tools/residue_partition_v1.py",
+      "tools/residue_charge_constitution_v1.py",
+      "tools/residue_steric_constitution_v1.py",
+      "tools/run_blind_protocol_v10.py"
     ]
   },
   "generated_evidence": {
@@ -222,11 +268,13 @@
     "v6_signed_orientation_development": "verify/development_runs/ubiquitin_v6_signed_orientation_l24_20260719/ is preserved source-bound applied evidence; it is not a Maria finding, loss or failed prediction.",
     "v7_balanced_orientation_development": "verify/development_runs/ubiquitin_v7_balanced_orientation_l24_20260719/ is preserved source-bound applied evidence; it is not a Maria finding, loss or failed prediction.",
     "v8_charge_orientation_development": "verify/development_runs/ubiquitin_v8_charge_orientation_l24_20260719/ is preserved source-bound applied evidence; it is not a Maria finding, loss or failed prediction.",
+    "v9_steric_orientation_development": "verify/development_runs/ubiquitin_v9_steric_orientation_l24_20260719/ binds the exact 20-residue side-chain graph constitution and its sealed applied evidence; Maria alone determines publication status.",
+    "v10_balanced_relations_development": "verify/development_runs/ubiquitin_v10_balanced_relations_l{24,76}_20260719/ bind the weight-free symmetric ordinal selector and its sealed mixed-mode applied evidence; Maria alone determines publication status.",
     "classification": "A recorded development execution is not a Maria finding, loss or failed prediction."
   },
   "artifact_inventory": {
-    "tracked_pdb_files": 63,
-    "tracked_pdb_file_set_sha256": "0112b517c22f387774efe551e611c6d33188cebbc2fbef14abe0be4429cd09c7",
+    "tracked_pdb_files": 66,
+    "tracked_pdb_file_set_sha256": "ad617309a52a0d01d13d0e5bb5f9e9e02b9a08a91b559dd572348a12d6adfbb1",
     "classes": {
       "experimental_reference": [
         "verify/1cop.pdb",
@@ -265,6 +313,11 @@
         "verify/development_runs/ubiquitin_v6_signed_orientation_l24_20260719/prediction.pdb",
         "verify/development_runs/ubiquitin_v7_balanced_orientation_l24_20260719/prediction.pdb",
         "verify/development_runs/ubiquitin_v8_charge_orientation_l24_20260719/prediction.pdb"
+      ],
+      "sealed_v9_v10_agent_development_output": [
+        "verify/development_runs/ubiquitin_v9_steric_orientation_l24_20260719/prediction.pdb",
+        "verify/development_runs/ubiquitin_v10_balanced_relations_l24_20260719/prediction.pdb",
+        "verify/development_runs/ubiquitin_v10_balanced_relations_l76_20260719/prediction.pdb"
       ],
       "legacy_preproject_development_artifact": [
         "1ubq_autonomous.pdb",
