@@ -1,0 +1,15 @@
+{
+  "ca_drmsd_angstrom": 5.983598069677243,
+  "execution": "post-seal structural comparison",
+  "matched_ca_atoms": 32,
+  "official_run": false,
+  "result_type": "cumulative development benchmark",
+  "run_id": "development-ubiquitin-v13-retained-topology-l32-20260719",
+  "schema": "fold-protein-blind-evaluation/v13",
+  "seal_sha256": "b32c4777ccbe3090fe849132319971d182615866522f46a48e75be241a843333",
+  "sequence_length": 32,
+  "status": "completed",
+  "target_id": "1ubq.pdb",
+  "target_sha256": "d4a6812d8951cf6594e6a0763f089e35f5a80b62acb3c117b2c5565228a7b161",
+  "tm_score": 0.07299987461043171
+}

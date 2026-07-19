@@ -97,6 +97,19 @@ sealed 24-residue v13 result while reducing wall time from `310.17 s` to
 source hashes stay valid; the lossless execution improvement will enter a new
 source-bound protocol version.
 
+V14 tested the next exact continuity constitution: two held hydrogen bonds are
+continuous when their donor and acceptor residues are both integer successors,
+with alpha and inter-strand continuity retained as independent objectives. The
+relation is target-incapable, parameter-free and active, but the sealed 24- and
+32-residue development gates selected byte-identical structures to v13. The
+32-residue prediction therefore retains **TM 0.0729998746 / 5.9835980697 Å
+dRMSD** with zero predictive delta. This applied gate does not justify a
+76-residue v14 run in its present form. It does preserve the constitution for
+future assembly work and confirms the single-build execution path at 32
+residues: `283.38 s` versus v13's `513.96 s` (**44.86% faster**). The active
+predictive direction is now spatial side-chain exclusion, retaining v13 and
+the lossless execution improvement.
+
 These are target-isolated, seal-before-score implemented development results. They extend the executable forcing chain; they are not agent-declared failures, limits, or substitutions for Maria Smith's conclusions. The current next state is to retain the secured signed geometry, dual-mode preservation, formal charge, exact side-chain graph, and weight-free balance while forward-forcing backbone hydrogen-bond assembly and a more spatially complete side-chain hard-exclusion relation. The secured lattice containment, forced secondary-structure coordinates, complete blind execution, and successive local and whole-chain advances establish a constructive route forward and no theorem-derived obstruction at this stage.
 
 The previously recommended complete 76-residue v13 blind cumulative
@@ -155,6 +168,7 @@ python3 -m tools.verify_protein_forcing_registry
 | `verify/development_runs/ubiquitin_v13_retained_topology_l24_20260719/` | sealed v13 cumulative 24-residue combined-relation benchmark and post-seal local windows |
 | `verify/development_runs/ubiquitin_v13_retained_topology_l76_20260719/` | complete sealed v13 76-residue blind benchmark, global/local measurements, and v10/v13 propagation delta |
 | `verify/development_runs/v13_single_build_candidate_20260719.json` | exact-output identity and 22.56% runtime-improvement receipt for the lossless execution candidate |
+| `verify/development_runs/ubiquitin_v14_hbond_continuity_l{24,32}_20260719/` | sealed successor-continuity activation gates and matched v13/v14 delta receipts |
 | `verify/development_runs/ubiquitin_v12_topology_hbond_l24_20260719/v11_v12_state_delta.json` | source-bound sealed-path and local-window delta locating the next combined relation |
 | `verify/evaluate_sealed_blind_v3.py` | seal verifier and target-isolated evaluation boundary |
 | `verify/evaluate_sealed_blind_local_v3.py` | all-window post-seal local evaluator; reproduces the published IFV/TLT measurements |

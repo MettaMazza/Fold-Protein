@@ -1,0 +1,30 @@
+{
+  "schema": "fold-protein-v13-v14-l32-development-delta/v1",
+  "status": "completed",
+  "result_type": "cumulative development benchmark",
+  "official_run": false,
+  "authority": "Maria Smith alone assigns conclusions and official status.",
+  "applied_comparison": {
+    "sequence_length": 32,
+    "selected_state_identity": "32/32",
+    "selected_state_differences": 0,
+    "prediction_pdb_byte_identity": true,
+    "prediction_pdb_sha256": "a339edaf8f6f095d8c7146aac74d4734e09e99e8d0d831113628e1fb8d995cf2",
+    "v13_tm_score": 0.07299987461043171,
+    "v14_tm_score": 0.07299987461043171,
+    "v13_ca_drmsd_angstrom": 5.983598069677243,
+    "v14_ca_drmsd_angstrom": 5.983598069677243,
+    "predictive_delta": 0,
+    "v14_continuity_counts": {"alpha": 1, "interstrand": 2},
+    "v14_continuity_edge_count": 3
+  },
+  "runtime": {
+    "v13_wall_seconds": 513.96,
+    "v14_wall_seconds": 283.38,
+    "seconds_saved": 230.58,
+    "runtime_improvement_fraction": 0.4486341349521364,
+    "v14_over_v13_ratio": 0.5513658650478636
+  },
+  "decision": "Preserve exact successor continuity as a valid development constitution, but do not spend a complete 76-residue predictive run because it produced zero structural delta at both 24 and 32 residues. Retain the lossless single-build execution improvement for the next predictive relation.",
+  "author_audit": "Codex gpt-5.6-sol, high reasoning"
+}

@@ -360,6 +360,27 @@ wall time from `310.17 s` to `240.21 s` (**22.5554%**). This is a lossless
 computational implementation improvement and may enter only through a new
 source-bound protocol version.
 
+### Exact hydrogen-bond successor continuity gate
+
+V14 derives two additional integer relations from the already assembled
+unit-capacity topology pairs. Alpha continuity counts same-direction successor
+bonds; inter-strand continuity counts parallel or antiparallel successor
+bonds. One is the exact successor of residue order. No distance or angular
+cutoff, weight, target, template, reward, fitted energy or learned quantity is
+introduced.
+
+The source-bound selector passed sealed 24- and 32-residue blind gates before
+comparison. At 24 residues it held one alpha and one inter-strand continuity
+edge; at 32 residues it held one alpha and two inter-strand edges. Both gates
+selected state paths and PDB files byte-identical to matched v13, so the formal
+post-seal 32-residue comparison remains TM `0.07299987461043171` / dRMSD
+`5.983598069677243 Å`. This is zero predictive delta for the current relation,
+not a theoretical limit. It does not justify spending a complete 76-residue
+run in its present form. The single-build implementation remains a secured
+engineering advance: matched 32-residue wall time falls from `513.96 s` to
+`283.38 s` (**44.8634%**). The next predictive derivation moves to spatial
+side-chain exclusion while retaining v13 and this lossless execution route.
+
 ## Preserved development evidence, not attributed conclusions
 
 Selector v2 receipts remain intact because they contain useful target-isolation,

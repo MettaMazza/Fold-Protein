@@ -1,0 +1,285 @@
+{
+  "binary_mode_count": 2,
+  "charge_census": {
+    "alphabet": "ACDEFGHIKLMNPQRSTVWY",
+    "alphabet_count": 20,
+    "classes": {
+      "negative": "DE",
+      "positive": "KR",
+      "uncharged": "ACFGHILMNPQSTVWY"
+    },
+    "signs": {
+      "A": 0,
+      "C": 0,
+      "D": -1,
+      "E": -1,
+      "F": 0,
+      "G": 0,
+      "H": 0,
+      "I": 0,
+      "K": 1,
+      "L": 0,
+      "M": 0,
+      "N": 0,
+      "P": 0,
+      "Q": 0,
+      "R": 1,
+      "S": 0,
+      "T": 0,
+      "V": 0,
+      "W": 0,
+      "Y": 0
+    }
+  },
+  "constitutional_objectives": 17,
+  "execution": "sequence-only symmetric ordinal selector retaining v13 assembly and adding exact alpha/inter-strand continuity",
+  "hydrogen_bond_census": {
+    "acceptor_capacity": 1,
+    "acceptor_residues": "ACDEFGHIKLMNPQRSTVWY",
+    "alphabet": "ACDEFGHIKLMNPQRSTVWY",
+    "alphabet_count": 20,
+    "angular_cutoff": null,
+    "distance_cutoff": null,
+    "donor_capacity": 1,
+    "donor_residues": "ACDEFGHIKLMNQRSTVWY",
+    "fitted_energy": null,
+    "interwindow_residues": 4,
+    "minimum_sequence_separation": 3,
+    "non_donor_residues": "P",
+    "overlap_residues": 3
+  },
+  "hydrogen_bond_continuity_census": {
+    "alpha_orientation": "parallel successor",
+    "angular_cutoff": null,
+    "continuity_weight": null,
+    "distance_cutoff": null,
+    "fitted_energy": null,
+    "interstrand_orientations": [
+      "parallel successor",
+      "antiparallel successor"
+    ],
+    "reward": null,
+    "successor_distance": 1,
+    "target": null,
+    "topology_classes": [
+      "alpha",
+      "interstrand"
+    ]
+  },
+  "mode_capacity": 12,
+  "official_run": false,
+  "orientation_quartets": 29,
+  "path_length": 32,
+  "prediction_pdb_sha256": "a339edaf8f6f095d8c7146aac74d4734e09e99e8d0d831113628e1fb8d995cf2",
+  "protocol_manifest_sha256": "4781ec738d2cde679a35138286907a62771d180116ea96c6251691efc92f539a",
+  "result_type": "cumulative development benchmark",
+  "run_id": "development-ubiquitin-v14-hbond-continuity-l32-20260719",
+  "schema": "fold-protein-blind-seal/v14",
+  "selected_states_sha256": "4a7f1d7e318de1b632cdf0da012b7f738967e5ee76785173a06dfd03b78bb624",
+  "selector_input_sha256": "01dd733ca309a4be1b184da5c139cf683ed7a82fa6e0ca9b845836c479eaf191",
+  "sequence_sha256": "111ce91ce082b13e5de20b4e3faa1914243bddb33f1c35da4a585d9d2e80bb1f",
+  "source_sha256": {
+    "constants/protein_folding_3d.ep": "4f70c494aaff364b116d887899ac63b11b5df9d72d6b1f9beec00b36dbb3cc9f",
+    "constants/protein_interwindow_orientation.ep": "da5a126a9f678e40a657a850908978b0e11d772a9a8a0460ee12729ce7d1dad4",
+    "foundation/exact_fractions.ep": "fcf464b0a5db6974c62916208280ab31e5fe30fc7d73467c27711f42f2c80809",
+    "foundation/structural_counts.ep": "d2bae850fe45cda4ee1c3282b48d85b54be11918ffb565d4881f9b338cd9a028",
+    "foundation/the_one_and_the_fold.ep": "c630e359c3e6cfde0c6c96b605570e021e3098b3a8f4ea401f2d675ae56fff40",
+    "tools/backbone_hydrogen_bond_constitution_v1.py": "a94df5fc0ccc7babef7ac4d5109809834c1b86578f04241c973fbde3fd160cd2",
+    "tools/backbone_hydrogen_bond_constitution_v2.py": "be51b740ffe1912817aaeed9d77c490f55a2fe0383f57bd90a178518313a78fd",
+    "tools/backbone_hydrogen_bond_continuity_v1.py": "c5f363770683508acadb420be3979fd368644aaf2868348b8d07e2b9b78eceae",
+    "tools/blind_24_lattice_selector_v12.py": "51fbab30ec0705f492440930980540e9b8928e8e3dca8359ca34e2c1425a5ecf",
+    "tools/blind_24_lattice_selector_v13.py": "54f54c6beb71dff829fee0a23b7c39db323e39f6285edb6d6b4883708befc91a",
+    "tools/blind_24_lattice_selector_v13_single_build_candidate.py": "b82372e8df1ed5aa4842f3af7d996886d58c3371db3e2bb68689a137e706f2eb",
+    "tools/blind_24_lattice_selector_v14.py": "add92ff62de933c4a836efb7aab9ad9c2ddf871112867cbdfa423cdb30b4654e",
+    "tools/blind_24_lattice_selector_v3.py": "062c2e4174e42494d3631e0c6aa38a708ec1a5952dc321ce66328620ff305cb5",
+    "tools/blind_24_lattice_selector_v5.py": "3a98c254240b5ce94ab54351c703282621b7c98863e7b3ac82e6d6f1fd784652",
+    "tools/blind_24_lattice_selector_v6.py": "b593f6a4aac5d8c14c418dc1870897a778d0769d3150ba125364b8d1114c219a",
+    "tools/blind_24_lattice_selector_v7.py": "34cfd622ca984dc4755d44d517e76f69f5f92ab2f3243a7dc373f97489ec61ff",
+    "tools/blind_24_lattice_selector_v9.py": "de6e4f8057c3e0e33fe651e5107147e21087041b132520581055ff2acb2b14d3",
+    "tools/constitutional_rank_balance_v1.py": "ea4cc390793b1cf6cbaf2e61f411a6529ba6dea4dcab81f4eb36d7bb94a7224a",
+    "tools/protein_backbone_geometry_v1.py": "a043e5d05a26fdf063c4703dac619f5fe918b65779a96df6d3cfa2f536fdc315",
+    "tools/residue_charge_constitution_v1.py": "d23f9e3280550aa997d59d819bd437f8921e2a9d0d4fab19ab8026de669b786f",
+    "tools/residue_partition_v1.py": "f48e0ebc2c3dbc1d6d7a37370e0a2329968524d169d7b43022dce30ceacd3814",
+    "tools/residue_steric_constitution_v1.py": "68edf2aec5ec25fc72b220e65fcdb5256ccf5cfa0814a459bdb637db8dfbd11d",
+    "tools/run_blind_protocol_v14.py": "ff62400de3df61e588d902267a9b285dc276d61c004f45ef256ba16c8857fd5f",
+    "verify/evaluate_sealed_blind_local_v14.py": "37aa81efb6ee393dd15b83fb05ca34debdce9153ada411a645cd2486e3a8a20f",
+    "verify/evaluate_sealed_blind_v14.py": "7f85f79737d63c1b0b43e6b806efdf7ded32878f277bd1798197e2c49c357159",
+    "verify/protein_backbone_geometry_v1.json": "47da7e3f3c58a88e53b36157c5d5ed4dfa2c8b2c6e2cba91a5da34e5746571fd",
+    "verify/replay_protein_backbone_geometry_v1.py": "c441fac4b7afde843ff260fadcd62430aa8937f3881d2e778de32c27c3b80b62"
+  },
+  "status": "completed",
+  "steric_census": {
+    "alphabet": "ACDEFGHIKLMNPQRSTVWY",
+    "alphabet_count": 20,
+    "sidechain_heavy_atom_counts": {
+      "A": 1,
+      "C": 2,
+      "D": 4,
+      "E": 5,
+      "F": 7,
+      "G": 0,
+      "H": 6,
+      "I": 4,
+      "K": 5,
+      "L": 4,
+      "M": 4,
+      "N": 4,
+      "P": 3,
+      "Q": 5,
+      "R": 7,
+      "S": 2,
+      "T": 3,
+      "V": 3,
+      "W": 10,
+      "Y": 8
+    },
+    "sidechain_heavy_atoms": {
+      "A": [
+        "CB"
+      ],
+      "C": [
+        "CB",
+        "SG"
+      ],
+      "D": [
+        "CB",
+        "CG",
+        "OD1",
+        "OD2"
+      ],
+      "E": [
+        "CB",
+        "CG",
+        "CD",
+        "OE1",
+        "OE2"
+      ],
+      "F": [
+        "CB",
+        "CG",
+        "CD1",
+        "CD2",
+        "CE1",
+        "CE2",
+        "CZ"
+      ],
+      "G": [],
+      "H": [
+        "CB",
+        "CG",
+        "ND1",
+        "CD2",
+        "CE1",
+        "NE2"
+      ],
+      "I": [
+        "CB",
+        "CG1",
+        "CG2",
+        "CD1"
+      ],
+      "K": [
+        "CB",
+        "CG",
+        "CD",
+        "CE",
+        "NZ"
+      ],
+      "L": [
+        "CB",
+        "CG",
+        "CD1",
+        "CD2"
+      ],
+      "M": [
+        "CB",
+        "CG",
+        "SD",
+        "CE"
+      ],
+      "N": [
+        "CB",
+        "CG",
+        "OD1",
+        "ND2"
+      ],
+      "P": [
+        "CB",
+        "CG",
+        "CD"
+      ],
+      "Q": [
+        "CB",
+        "CG",
+        "CD",
+        "OE1",
+        "NE2"
+      ],
+      "R": [
+        "CB",
+        "CG",
+        "CD",
+        "NE",
+        "CZ",
+        "NH1",
+        "NH2"
+      ],
+      "S": [
+        "CB",
+        "OG"
+      ],
+      "T": [
+        "CB",
+        "OG1",
+        "CG2"
+      ],
+      "V": [
+        "CB",
+        "CG1",
+        "CG2"
+      ],
+      "W": [
+        "CB",
+        "CG",
+        "CD1",
+        "CD2",
+        "NE1",
+        "CE2",
+        "CE3",
+        "CZ2",
+        "CZ3",
+        "CH2"
+      ],
+      "Y": [
+        "CB",
+        "CG",
+        "CD1",
+        "CD2",
+        "CE1",
+        "CE2",
+        "CZ",
+        "OH"
+      ]
+    }
+  },
+  "topology_hydrogen_bond_census": {
+    "acceptor_residues": "ACDEFGHIKLMNPQRSTVWY",
+    "alpha_sequence_separation": 4,
+    "alphabet": "ACDEFGHIKLMNPQRSTVWY",
+    "alphabet_count": 20,
+    "angular_cutoff": null,
+    "distance_cutoff": null,
+    "donor_residues": "ACDEFGHIKLMNQRSTVWY",
+    "fitted_energy": null,
+    "global_acceptor_capacity": 1,
+    "global_donor_capacity": 1,
+    "interstrand_minimum_separation": 5,
+    "interwindow_residues": 4,
+    "non_donor_residues": "P",
+    "topology_classes": [
+      "alpha",
+      "interstrand"
+    ],
+    "topology_weight": null
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schema": "fold-protein-v13-v14-l24-development-delta/v1",
+  "status": "completed",
+  "result_type": "cumulative development benchmark",
+  "official_run": false,
+  "authority": "Maria Smith alone assigns conclusions and official status.",
+  "applied_comparison": {
+    "sequence_length": 24,
+    "v13_states_sha256": "5e2c2a7fcbdaa033a125d93d8798a458e867b84ba77c9283b8305bf09d172952",
+    "v14_states_sha256": "c6042fef2ceb2873e8af1d5d54ce77df444f688035ef76c97c780d6ad16c1abc",
+    "selected_state_identity": "24/24",
+    "selected_state_differences": 0,
+    "prediction_pdb_byte_identity": true,
+    "v13_tm_score": 0.025439036509863604,
+    "v14_tm_score": 0.025439036509863604,
+    "v13_ca_drmsd_angstrom": 7.016435338321138,
+    "v14_ca_drmsd_angstrom": 7.016435338321138,
+    "predictive_delta": 0,
+    "v13_continuity_counts": {"alpha": 1, "interstrand": 1},
+    "v14_continuity_counts": {"alpha": 1, "interstrand": 1}
+  },
+  "interpretation": "The exact successor continuity constitution is active and valid but does not discriminate the sealed 24-residue winner. This result justifies an intermediate longer-sequence activation check rather than a complete 76-residue trial.",
+  "author_audit": "Codex gpt-5.6-sol, high reasoning"
+}
