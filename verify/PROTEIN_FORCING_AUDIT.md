@@ -300,6 +300,29 @@ with spatially complete side-chain hard exclusion. This is a refinement of an
 already executable relation, not a theorem-derived wall. Maria decides whether
 and when the development relation is promoted or extended to the full chain.
 
+### Topology-separated global-capacity continuation
+
+V12 executes the first topology separation without altering the v11 seal. The
+alpha class is exactly donor `i+4` to acceptor `i`; the longer class contains
+non-local inter-strand candidates at sequence separation greater than four.
+Both use generated peptide frames and endogenous adjacent-step normalization,
+then enter as independent ordinal relations. A single global matching retains
+one capacity for every donor and acceptor across both classes; there is no
+topology weight, empirical cutoff, fitted energy, target or template.
+
+The source-bound target-isolated 24-residue run was sealed before comparison.
+It generated 85 eligible rows and selected 18 pairs: five exact alpha and
+thirteen longer candidates. Relative to v11, whole-prefix TM improved from
+`0.020183289658017203` to `0.030203624938133732`, and C-alpha dRMSD improved
+from `7.074317396421713 Å` to `6.152785745760267 Å`. The best local TM rows
+were lower: length three moved from v11's `0.999701361058143` to
+`0.9864217459387982`; length four from `0.6441498215858261` to
+`0.5711146956368334`; and the v12 length-five maximum was
+`0.24779131281385336`. The complete windows are retained as local regression
+data. They do not establish a theoretical obstruction; the next refinement
+must preserve the whole-prefix orientation advance while recovering the local
+geometry retained by v11. Maria determines the conclusion and next direction.
+
 ## Preserved development evidence, not attributed conclusions
 
 Selector v2 receipts remain intact because they contain useful target-isolation,
@@ -367,10 +390,11 @@ four-residue inter-window continuation; and v10 is the current active applied
 route, carrying signed alpha/beta geometry, binary mode preservation, formal
 charge, exact side-chain graph crowding, and weight-free ordinal balance.
 
-The next state is to retain those constitutions while refining the active v11
-backbone hydrogen-bond assembly into distinct alpha and longer inter-strand
-topologies and adding a more spatially complete side-chain hard-exclusion
-relation. New relations must be named in their own immutable manifest, traced
+The next state is to retain those constitutions and the executed v12 topology
+separation while adding a more spatially complete side-chain hard-exclusion
+relation, continuing whole-chain inter-window assembly, and preserving the
+strong v11 local geometry inside that global continuation. New relations must
+be named in their own immutable manifest, traced
 through the engine standard, source-bound, tested, and executed on sealed real
 sequence before comparison. The protected complete-lattice construction, the
 forced secondary-structure coordinates, and the successive sealed blind local

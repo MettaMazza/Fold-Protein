@@ -42,6 +42,15 @@ The continuation has now moved beyond the original v3 blind baseline:
 - v9 constitutes the exact covalent side-chain heavy-atom graphs of all 20 amino acids and a scale-free crowding relation with no residue radii, cutoffs, rotamers, fitted weights, target, or empirical structure. Its sealed 24-residue output reached **0.9127952097 local TM** over `KTIT` and **0.8383894512** over `GKTIT`, the strongest five-residue continuation in the 24-residue line;
 - v10 gives hard exclusion absolute priority and balances signed orientation, side-chain crowding, charge, hydrophobic dispersion, and radius through permutation-invariant ordinal ranks rather than a weighted score. Its sealed 76-residue output selected 33 alpha and 40 beta quartets and reached **7.2416876635 Å whole-chain dRMSD**, the strongest full-chain blind dRMSD in the v3/v5/v10 line, while retaining local `TLE` at **0.9977831860 TM**, `DTIE` at **0.7161453983**, and `TLTGK` at **0.6090780016**.
 - v11 adds a target-incapable, unit-capacity backbone hydrogen-bond assembly relation with no empirical distance or angular cutoff, fitted energy, reward, or target coordinate. Its sealed 24-residue run formed **17** donor/acceptor pairs from **108** eligible relations and advanced the best three-residue local geometry to `KTI` at **0.9997013611 TM / 0.0066159825 Å dRMSD** and the best four-residue geometry to `TLTG` at **0.6441498216 TM**. This is the active hydrogen-bond development continuation; v10 remains the current whole-chain route until Maria directs otherwise.
+- v12 separates exact α `i+4 → i` pairs from longer non-local
+  inter-strand candidates under one global donor/acceptor capacity and
+  independent weight-free ordinal relations. Its sealed 24-residue run
+  selected **18** pairs from **85** eligible rows—5 α and 13 longer. Against
+  v11, whole-prefix TM improved from `0.0201832897` to **`0.0302036249`** and
+  Cα dRMSD improved from `7.0743173964 Å` to **`6.1527857458 Å`**. The best
+  3-, 4-, and 5-residue local TM rows were lower than v11 and are preserved
+  explicitly as local regressions, not used as a theoretical limit. Maria
+  determines the conclusion and continuation.
 
 These are target-isolated, seal-before-score implemented development results. They extend the executable forcing chain; they are not agent-declared failures, limits, or substitutions for Maria Smith's conclusions. The current next state is to retain the secured signed geometry, dual-mode preservation, formal charge, exact side-chain graph, and weight-free balance while forward-forcing backbone hydrogen-bond assembly and a more spatially complete side-chain hard-exclusion relation. The secured lattice containment, forced secondary-structure coordinates, complete blind execution, and successive local and whole-chain advances establish a constructive route forward and no theorem-derived obstruction at this stage.
 
@@ -85,9 +94,11 @@ python3 -m tools.verify_protein_forcing_registry
 | `tools/blind_24_lattice_selector_v9.py` | exact side-chain graph and crowding continuation |
 | `tools/blind_24_lattice_selector_v10.py` | active weight-free symmetric ordinal continuation |
 | `tools/blind_24_lattice_selector_v11.py` | target-incapable unit-capacity backbone hydrogen-bond development continuation |
+| `tools/blind_24_lattice_selector_v12.py` | target-incapable alpha/longer non-local topology-separated backbone assembly continuation |
 | `verify/development_runs/ubiquitin_v9_steric_orientation_l24_20260719/` | sealed v9 applied evidence |
 | `verify/development_runs/ubiquitin_v10_balanced_relations_l{24,76}_20260719/` | sealed v10 applied evidence |
 | `verify/development_runs/ubiquitin_v11_hbond_assembly_l24_20260719/` | sealed v11 hydrogen-bond applied evidence and post-seal local windows |
+| `verify/development_runs/ubiquitin_v12_topology_hbond_l24_20260719/` | sealed v12 topology-separated applied evidence and post-seal local windows |
 | `verify/evaluate_sealed_blind_v3.py` | seal verifier and target-isolated evaluation boundary |
 | `verify/evaluate_sealed_blind_local_v3.py` | all-window post-seal local evaluator; reproduces the published IFV/TLT measurements |
 | `verify/protein_forcing_registry_v1.json` | complete source classification and legacy exclusion gate |

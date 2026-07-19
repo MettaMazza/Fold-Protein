@@ -154,10 +154,11 @@ gyration, scalar hydrophobic collapse) require forging arbitrary constants to co
 0.9891 trace supplies forward-forcing spatial relations, including the recorded
 steric and sequential-distance investigations. Target-derived development
 relations remain named as such and are not silently admitted to a blind selector.
-Selector v3 remains the clean blind baseline. Selectors v5-v11 form the traced
+Selector v3 remains the clean blind baseline. Selectors v5-v12 form the traced
 continuation through inter-window topology, signed alpha/beta orientation,
 formal charge, exact side-chain graphs, weight-free ordinal balance, and
-target-incapable unit-capacity backbone hydrogen-bond assembly.
+target-incapable unit-capacity backbone hydrogen-bond assembly, including the
+v12 exact-alpha/longer-non-local topology separation.
 
 ---
 
@@ -230,7 +231,7 @@ python3 -m unittest discover -s tests -p 'test_*.py' -v
   the clean blind continuation route.
 - `tools/blind_24_lattice_selector_v3.py`, `tools/run_blind_protocol_v3.py` — secured
   provenance-isolated blind baseline and immutable protocol.
-- `tools/blind_24_lattice_selector_v5.py` through `v11.py` and their protocols —
+- `tools/blind_24_lattice_selector_v5.py` through `v12.py` and their protocols —
   traced inter-window, signed-orientation, charge, side-chain, and balanced
   continuation surfaces.
 - `tools/*_engine.py`, `tools/blind_24_lattice_solver.py`, `tools/rotamer_geometry.py` — preserved
@@ -247,3 +248,24 @@ python3 -m unittest discover -s tests -p 'test_*.py' -v
 The finding this workspace exists to protect: **folding as descent to a counted fixed point —
 native geometry as counted fold orbits, zero parameters, and a real experimental structure
 recovered to TM 0.9891 (0.261 Å) — super parity with AlphaFold.** Keep it that way.
+
+---
+
+## 5. Required end-of-turn report
+
+Every development turn must end with a clear Protein report containing
+**Completed, Ongoing, Todo, and Suggested direction**. For each applied run,
+compare the named baseline and candidate and state separately:
+
+- which structural metrics improved;
+- which structural metrics regressed;
+- which states, coordinates, or metrics stayed identical;
+- what that combined pattern could indicate, explicitly labelled as an
+  engineering inference rather than Maria's conclusion; and
+- the next concrete forced or forward-forced change intended to preserve the
+  improvements and address the regressions.
+
+Do not hide or euphemize a regression, and do not convert a development
+regression into a theoretical limit, failed Maria prediction, publication
+decision, or reason to stop the campaign. Do not minimize a positive measured
+result. Maria determines the conclusion and direction from the complete data.
