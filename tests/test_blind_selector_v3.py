@@ -8,6 +8,7 @@ import unittest
 from tools.blind_24_lattice_selector_v2 import select_state_path_v2
 from tools.blind_24_lattice_selector_v3 import select_state_path_v3
 from tools.run_blind_protocol_v3 import run_protocol_v3
+from verify.evaluate_sealed_blind_v3 import evaluate_v3, verify_v3_seal
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -103,6 +104,50 @@ class BlindSelectorV3Tests(unittest.TestCase):
                 run_protocol_v3(
                     ROOT / "verify/blind_selector_v3.json", selector_input, output
                 )
+
+    def test_v3_post_seal_evaluation_rejects_tampering_before_target_access(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            temporary = Path(tmp)
+            selector_input = temporary / "input.json"
+            selector_input.write_text(json.dumps({
+                "run_id": "v3-tamper-test", "sequence": "MQ",
+            }))
+            output = temporary / "sealed"
+            run_protocol_v3(
+                ROOT / "verify/blind_selector_v3.json", selector_input, output
+            )
+            states = json.loads((output / "selected_states.json").read_text())
+            states["states"][0] = 23
+            (output / "selected_states.json").write_text(json.dumps(states))
+            missing_target = temporary / "target-must-not-be-opened.pdb"
+            with self.assertRaisesRegex(RuntimeError, "seal mismatch"):
+                evaluate_v3(
+                    ROOT / "verify/blind_selector_v3.json", output,
+                    missing_target, temporary / "evaluation.json"
+                )
+
+    def test_v3_post_seal_evaluation_accepts_complete_seal(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            temporary = Path(tmp)
+            selector_input = temporary / "input.json"
+            selector_input.write_text(json.dumps({
+                "run_id": "v3-evaluation-test", "sequence": "MQ",
+            }))
+            output = temporary / "sealed"
+            run_protocol_v3(
+                ROOT / "verify/blind_selector_v3.json", selector_input, output
+            )
+            seal, states = verify_v3_seal(
+                ROOT / "verify/blind_selector_v3.json", output
+            )
+            self.assertEqual(seal["run_id"], "v3-evaluation-test")
+            self.assertEqual(states["sequence"], "MQ")
+            evidence = evaluate_v3(
+                ROOT / "verify/blind_selector_v3.json", output,
+                output / "prediction.pdb", temporary / "evaluation.json"
+            )
+            self.assertEqual(evidence["schema"], "fold-protein-blind-evaluation/v3")
+            self.assertAlmostEqual(evidence["tm_score"], 1.0)
 
 
 if __name__ == "__main__":

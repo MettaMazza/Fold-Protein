@@ -1,6 +1,6 @@
 {
   "schema": "fold-protein-forcing-registry/v1",
-  "date": "2026-07-18",
+  "date": "2026-07-19",
   "authority": {
     "validity": "Forcing and derivation are admitted by the engine's trace, closure and halt standards; this registry cannot declare them valid by prose.",
     "publication": "Maria Smith alone declares publishable conclusions, benchmark findings, victories, losses and real-run status.",
@@ -89,6 +89,9 @@
       "verify/protein_backbone_geometry_v1.json",
       "verify/replay_protein_backbone_geometry_v1.py"
     ],
+    "blind_v3_postseal_measurement_boundary": [
+      "verify/evaluate_sealed_blind_v3.py"
+    ],
     "legacy_agent_development_unpromoted": [
       "tests/test_blind_protocol.py",
       "tools/beam_search_engine.py",
@@ -147,11 +150,12 @@
     "pdb_files": "Targets, constructions and development outputs are data, not forcing source; protected or sealed routes bind them by SHA-256.",
     "v2_receipts": "Preserved under verify/blind_selector_v2_* and checked by their registered seal verifiers.",
     "continuation_receipt": "verify/blind_selector_v2_continuation_lineage_20260718.json when the registered replay completes.",
+    "v3_blind_predictions": "Target-isolated sequence-only inputs, sealed selected states and PDBs, and post-seal evaluations are preserved under verify/development_runs/ubiquitin_v3_l{8,16,24}_20260719/.",
     "classification": "A recorded development execution is not a Maria finding, loss or failed prediction."
   },
   "artifact_inventory": {
-    "tracked_pdb_files": 53,
-    "tracked_pdb_file_set_sha256": "dfbcb42730ab680f806017ef22057781046dddfd4d3e16faf0c1e378284ef80e",
+    "tracked_pdb_files": 56,
+    "tracked_pdb_file_set_sha256": "ea5d564953687f8aa1aa974cf7cf004b63595c31d2516f07de7be075c2736d93",
     "classes": {
       "experimental_reference": [
         "verify/1cop.pdb",
@@ -172,6 +176,11 @@
         "verify/blind_selector_v2_panel_run_20260718/hydrophobic-8/prediction.pdb",
         "verify/blind_selector_v2_panel_run_20260718/mixed-alphabet-8/prediction.pdb",
         "verify/blind_selector_v2_panel_run_20260718/turn-rich-8/prediction.pdb"
+      ],
+      "sealed_v3_blind_prediction": [
+        "verify/development_runs/ubiquitin_v3_l16_20260719/prediction.pdb",
+        "verify/development_runs/ubiquitin_v3_l24_20260719/prediction.pdb",
+        "verify/development_runs/ubiquitin_v3_l8_20260719/prediction.pdb"
       ],
       "legacy_preproject_development_artifact": [
         "1ubq_autonomous.pdb",

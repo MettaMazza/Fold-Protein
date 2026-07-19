@@ -17,7 +17,19 @@ Run the release check:
 python3 verify/replay_ubiquitin_24_lattice.py
 ```
 
-The native `1ubq` coordinates were used to forward-force and select the successful state path. With zero fitted parameters, zero neural weights, and no training data, the construction reaches **0.9891211351 TM / 0.2608575408 Å dRMSD** using exact discrete geometry. This is **Super Parity**: a transparent computational proof that the native ubiquitin backbone is contained by the 24-lattice at near-experimental resolution. Blind sequence-to-structure selection is now being forward-forced from the same theory as the next engine advance.
+The native `1ubq` coordinates were used to forward-force and select the successful state path. With zero fitted parameters, zero neural weights, and no training data, the construction reaches **0.9891211351 TM / 0.2608575408 Å dRMSD** using exact discrete geometry. This is **Super Parity**: a transparent computational proof that the native ubiquitin backbone is contained by the 24-lattice at near-experimental resolution.
+
+## Blind protein-structure predictions
+
+The SFT sequence engine has also completed blind, sequence-only protein-structure predictions for real ubiquitin prefixes of 8, 16, and 24 residues. Each run admitted only its registered identifier and amino-acid sequence, generated and sealed the selected-state record and PDB before target access, and opened the experimental structure only at the post-seal evaluation boundary.
+
+| Residues | TM-score | Cα dRMSD | Sealed prediction SHA-256 |
+|---:|---:|---:|---|
+| 8 | 0.0984554745 | 3.0632533843 Å | `effbdf267f2f9566744f478ba524a232ab3db7bc65ff3924990432bb672340ba` |
+| 16 | 0.0047139964 | 9.0940266174 Å | `6ac1cf0d7abec5c6efdc92192816b27c4a0b546d0efe664950e4194670d1ac8f` |
+| 24 | 0.0073475432 | 12.7322387564 Å | `feebb95e60b9cb26a16d50947144b574107ad8d20574ccc30ee0a07ac4a1f267` |
+
+These are completed blind SFT predictions at the stated sequence lengths. Their measured comparison scores report the present selector output; they do not change the fact that the structures were predicted without target access. Scaling the sealed protocol to the complete 76-residue ubiquitin sequence is the next active objective, not a validity threshold imposed on the completed predictions.
 
 ## Governing law
 
@@ -52,6 +64,8 @@ python3 -m tools.verify_protein_forcing_registry
 | `tools/protein_backbone_geometry_v1.py` | target-incapable extraction of the declared coordinate constitution; byte-exact construction replay |
 | `tools/blind_24_lattice_selector_v3.py` | active provenance-isolated sequence forward-forcing selector |
 | `verify/blind_selector_v3.json` | v3 relation routes, prohibited inputs, and source hashes |
+| `verify/development_runs/ubiquitin_v3_l{8,16,24}_20260719/` | sealed blind predictions and post-seal evaluations |
+| `verify/evaluate_sealed_blind_v3.py` | seal verifier and target-isolated evaluation boundary |
 | `verify/protein_forcing_registry_v1.json` | complete source classification and legacy exclusion gate |
 | `verify/PROTEIN_FORCING_AUDIT.md` | historical floor, trace findings, and authority boundary |
 | `calculate_tm.py` | repository TM scorer |

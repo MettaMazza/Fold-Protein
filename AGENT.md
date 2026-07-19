@@ -42,6 +42,38 @@ Maria orders it, freeze the prediction before target access, execute the named
 comparison, and preserve the receipt. Development batches are not Maria's
 findings or losses until she declares the conclusion from the data.
 
+For any change that can affect selected states or emitted coordinates, proof
+and unit tests establish implementation closure only. Do not call the changed
+selector technically validated or promoted until a source-bound, target-free
+development run has been sealed and then compared at the post-seal boundary to
+produce applied structural data. Preserve favourable and unfavourable rows
+alike. Maria alone decides when that evidence warrants a real blind run or a
+conclusion.
+
+### Mandatory purpose-matched real-data evidence
+
+**No implementation change is complete merely because it builds, closes,
+traces, or passes tests. Every change must be supported by real implemented
+data from the actual executable path, matched to the change's declared
+purpose.** Selector or structural-law changes require source-bound,
+target-isolated real-sequence outputs sealed before comparison, followed by
+post-seal structural measurements. Provenance or forcing repairs require a
+real replay showing the intended trace closure and preserving the protected
+result; byte-identical states and coordinates are positive evidence when the
+declared purpose is to repair provenance without changing the prediction.
+Optimisation changes require identical sealed output plus measured runtime or
+memory data. No gameplay rule and no universal score-improvement test applies
+to protein work.
+
+Record the relevant states, coordinates, TM-score, C-alpha dRMSD, runtime,
+memory, source identity, command, and receipt hashes. Mocks, unit tests, static
+reasoning, projected benefit, or an unexecuted geometric argument do not replace
+the relevant applied evidence. Preserve favourable and unfavourable rows alike;
+Maria determines the conclusion and whether a change is retained. The completed
+blind sequence-only predictions at lengths 8, 16, and 24 are predictions in
+their own right. Scaling the same protocol to all 76 ubiquitin residues is an
+active objective, not a retrospective validity threshold for completed runs.
+
 The first visible repository commit already contains mixed-purpose agent-era
 engines, so presence in Git is not proof of forcing. The complete classification
 is `verify/protein_forcing_registry_v1.json`; enforce it with
@@ -100,11 +132,13 @@ continuous adjustment and no forged decimal — is the evidence that the biologi
 from these exact discrete fractions. A continuous, stochastic universe would not permit a rigid
 24-lattice to capture native topology this closely.
 
-**Blind forward forcing is an active engine construction.** SFT has zero parameters and zero training
-data; the 24-lattice is a universal mathematical absolute. The sequence engine is being derived to
-select the rational path from amino-acid identity and generated geometry alone. Its execution measures
-the selector's present path while the theorem, the construction proof, and the 0.9891 Super Parity
-result remain secured by their own engine checks.
+**Blind forward forcing is an active engine construction with completed predictions.** SFT has zero
+parameters and zero training data; the 24-lattice is a universal mathematical absolute. The sequence
+engine has selected and sealed rational paths from amino-acid identity and generated geometry alone for
+real ubiquitin prefixes of 8, 16, and 24 residues, before any target access. Its execution measures the
+selector's present path while the theorem, the construction proof, and the 0.9891 Super Parity result
+remain secured by their own engine checks. Full-length 76-residue execution is the next scaling objective,
+not a condition on the validity of the completed blind predictions.
 
 **The sequence supplies the spatial command.** The forward-forcing programme derives how amino-acid
 identity determines the invariant exclusions and relations that select among the 576 exact states per

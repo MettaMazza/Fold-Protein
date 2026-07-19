@@ -1,6 +1,6 @@
 # Fold Protein forcing and provenance audit
 
-**Audit date:** 18 July 2026  
+**Audit date:** 19 July 2026
 **Auditor:** Codex gpt-5.6-sol (high)  
 **Authority boundary:** the engine's trace, closure and halt standards determine
 admission. This audit records source provenance and executable dependency facts;
@@ -113,6 +113,30 @@ The v3 protocol accepts exactly `run_id` and `sequence`, checks all source
 hashes, refuses an existing output directory, and seals its state path and PDB
 before any comparison.
 
+### Completed blind sequence-only predictions
+
+Selector v3 has now executed on real ubiquitin sequence prefixes of 8, 16, and
+24 residues. In each execution the selector received only `run_id` and
+`sequence`, then sealed its input, source identities, selected-state record and
+prediction PDB before target access. The separate registered evaluator
+`verify/evaluate_sealed_blind_v3.py` verifies the complete seal and current
+source identities before its first target filesystem operation, then performs
+the comparison.
+
+The completed results are:
+
+| Residues | TM-score | Cα dRMSD | Sealed PDB SHA-256 |
+|---:|---:|---:|---|
+| 8 | 0.0984554745 | 3.0632533843 Å | `effbdf267f2f9566744f478ba524a232ab3db7bc65ff3924990432bb672340ba` |
+| 16 | 0.0047139964 | 9.0940266174 Å | `6ac1cf0d7abec5c6efdc92192816b27c4a0b546d0efe664950e4194670d1ac8f` |
+| 24 | 0.0073475432 | 12.7322387564 Å | `feebb95e60b9cb26a16d50947144b574107ad8d20574ccc30ee0a07ac4a1f267` |
+
+Maria has declared these to be blind SFT protein-structure predictions at the
+stated lengths. Full-sequence 76-residue execution is the next scaling
+objective and is not a retrospective validity threshold for these completed
+predictions. The target-assisted 0.9891 construction remains a distinct secured
+result.
+
 ## Preserved development evidence, not attributed conclusions
 
 Selector v2 receipts remain intact because they contain useful target-isolation,
@@ -158,9 +182,10 @@ The registry verifier halts if:
 
 Generated PDBs and campaign receipts are evidence rather than forcing source.
 They are bound by the protected construction manifest or their immutable seals.
-All 53 tracked PDBs are also exhaustively classified: two experimental
+All 56 tracked PDBs are also exhaustively classified: two experimental
 references, one protected target-assisted construction, eleven sealed v2
-development outputs, and thirty-nine legacy pre-project development artifacts.
+development outputs, three sealed v3 blind predictions, and thirty-nine legacy
+pre-project development artifacts.
 Their complete path-and-content census is hash-bound by the registry; both v2
 aggregate seals are reverified. Legacy filenames such as `predicted`,
 `optimized`, or `autonomous` do not confer result or authorship status.

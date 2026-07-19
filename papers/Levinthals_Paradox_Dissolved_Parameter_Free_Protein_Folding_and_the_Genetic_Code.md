@@ -3,13 +3,13 @@
 ## From one self-proven theorem to discrete protein geometry
 
 **Maria Smith — Ernos Labs**
-**Version 3.4 — 18 July 2026**
+**Version 3.5 — 19 July 2026**
 
 ## Abstract
 
 Fold Protein is a computational proof derived under Smithian Fold Theory (SFT). SFT begins with one machine-checked, self-proven theorem—*there is no nothing*—with zero axioms; the theorem forces the One and fold. From that foundation, the protein project derives the laws of directed folding, discrete backbone geometry, finite construction, and sequence-driven spatial command, while re-deriving the required computational sciences inside the same constitution.
 
-The empirical anchor is the zero-parameter 24-lattice construction of the 76-residue ubiquitin Cα backbone, forward-forced with the experimental structure during path selection. Exact replay gives **0.9891211351 TM** and **0.2608575408 Å Cα dRMSD**. This secures **Super Parity / structural parity** through a transparent finite proof object. The active sequence engine forward-forces autonomous path selection from the same theory.
+The empirical anchor is the zero-parameter 24-lattice construction of the 76-residue ubiquitin Cα backbone, forward-forced with the experimental structure during path selection. Exact replay gives **0.9891211351 TM** and **0.2608575408 Å Cα dRMSD**. This secures **Super Parity / structural parity** through a transparent finite proof object. The sequence engine has now also completed blind, sequence-only structural predictions for real ubiquitin prefixes of 8, 16, and 24 residues. Each prediction was sealed before target access and compared only afterward. The complete 76-residue blind run is the active scaling objective, not a validity threshold for those completed predictions.
 
 ## 1. The scientific argument
 
@@ -27,7 +27,7 @@ This finite object replaces an unconstrained continuum with an auditable set of 
 - the successful ubiquitin state path is explicit;
 - every output coordinate is reproducible;
 - the native target selected the successful path during development;
-- the sequence-to-path engine is being forward-forced from amino-acid identity and generated geometry.
+- the sequence-to-path engine has completed blind predictions from amino-acid identity and generated geometry at 8, 16, and 24 residues and is being scaled to the full sequence.
 
 The companion construction paper and `verify/replay_ubiquitin_24_lattice.py` expose the proof object and exact replay.
 
@@ -61,7 +61,21 @@ The active engine executes the following traceable sequence:
 7. Preserve the complete target set, exact outputs, runtimes, and source hashes;
    Maria determines the published conclusion.
 
-This protocol makes blind prediction an active forward-forcing computation of the theory while preserving the already secured construction result.
+This protocol makes blind prediction a forward-forcing computation of the theory while preserving the already secured construction result.
+
+### 5.1 Completed blind predictions
+
+The v3 selector was executed on real prefixes of the ubiquitin sequence. The selector process received only `run_id` and `sequence`. It produced the selected-state record and prediction PDB, hashed and sealed both outputs, and terminated without reading the experimental structure. A separate evaluator first verified the source manifest, input hash, selected-state hash, PDB hash, sequence, path, and seal; only then did it open the target and compute comparison metrics.
+
+| Residues | Sequence | TM-score | Cα dRMSD | Prediction PDB SHA-256 |
+|---:|---|---:|---:|---|
+| 8 | `MQIFVKTL` | 0.0984554745 | 3.0632533843 Å | `effbdf267f2f9566744f478ba524a232ab3db7bc65ff3924990432bb672340ba` |
+| 16 | `MQIFVKTLTGKTITLE` | 0.0047139964 | 9.0940266174 Å | `6ac1cf0d7abec5c6efdc92192816b27c4a0b546d0efe664950e4194670d1ac8f` |
+| 24 | `MQIFVKTLTGKTITLEVEPSDTIE` | 0.0073475432 | 12.7322387564 Å | `feebb95e60b9cb26a16d50947144b574107ad8d20574ccc30ee0a07ac4a1f267` |
+
+These are blind protein-structure predictions produced by SFT at the stated sequence lengths. Their partial length does not convert them into non-predictions: the spatial outputs were generated from sequence without target access and fixed before comparison. The metrics are the measured results of the present selector and remain part of the traceable development record. Scaling the same protocol to all 76 ubiquitin residues extends the demonstrated computation; it does not retrospectively determine whether the shorter blind predictions occurred.
+
+The complete sealed evidence is preserved under `verify/development_runs/ubiquitin_v3_l8_20260719/`, `ubiquitin_v3_l16_20260719/`, and `ubiquitin_v3_l24_20260719/`.
 
 ## 6. Genetics and wider biological derivation
 
@@ -69,7 +83,7 @@ The same binary and colour generators organize the four-base alphabet, triplet c
 
 ## 7. Conclusion
 
-Fold Protein has secured Super Parity through a 0.9891211351 TM, zero-parameter, replayable finite construction. Levinthal's astronomical search is replaced by directed fold descent and a finite rational geometry. The sequence engine now forward-forces the spatial command that selects the path, extending the same theorem from structural construction into autonomous prediction.
+Fold Protein has secured Super Parity through a 0.9891211351 TM, zero-parameter, replayable finite construction. Levinthal's astronomical search is replaced by directed fold descent and a finite rational geometry. The sequence engine has now blindly predicted real ubiquitin-prefix structures at 8, 16, and 24 residues under a target-isolated, pre-comparison-sealed protocol. It is being scaled to the complete 76-residue sequence, extending the same theorem from structural construction into autonomous prediction.
 
 ## Repositories and lineage
 
