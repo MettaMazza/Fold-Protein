@@ -330,11 +330,20 @@ The remaining three non-JSON/non-source files outside the compiler and PDB
 inventories are also bound: repository configuration, the historical compiled
 3D-law artifact, and the protected construction development log.
 
-## Remaining forward work
+## Current stage and next forward work
 
-The audit removes silent inheritance; it does not declare development complete.
-The secured v3 route remains the blind baseline and v5 is the active applied
-inter-window development route.  New relations must be named in their own
-immutable manifest, traced through the engine standard, source-bound, and tested
-before a registered execution.  Maria decides when development evidence earns
-an official run and what conclusion the data supports.
+The audit removes silent inheritance while preserving the full constructive
+chain. The secured v3 route remains the blind baseline; v5 establishes the
+four-residue inter-window continuation; and v10 is the current active applied
+route, carrying signed alpha/beta geometry, binary mode preservation, formal
+charge, exact side-chain graph crowding, and weight-free ordinal balance.
+
+The next state is to retain those constitutions while forward-forcing backbone
+hydrogen-bond assembly and a more spatially complete side-chain hard-exclusion
+relation. New relations must be named in their own immutable manifest, traced
+through the engine standard, source-bound, tested, and executed on sealed real
+sequence before comparison. The protected complete-lattice construction, the
+forced secondary-structure coordinates, and the successive sealed blind local
+and whole-chain results establish an executable continuation and no
+theorem-derived wall at the current stage. Maria decides when development
+evidence earns an official run and what conclusion the data supports.

@@ -154,7 +154,9 @@ gyration, scalar hydrophobic collapse) require forging arbitrary constants to co
 0.9891 trace supplies forward-forcing spatial relations, including the recorded
 steric and sequential-distance investigations. Target-derived development
 relations remain named as such and are not silently admitted to a blind selector.
-Selector v3 currently orders only One-normalised, generated geometry.
+Selector v3 remains the clean blind baseline. Selectors v5-v10 form the traced
+continuation through inter-window topology, signed alpha/beta orientation,
+formal charge, exact side-chain graphs, and weight-free ordinal balance.
 
 ---
 
@@ -210,8 +212,7 @@ python3 calculate_tm.py verify/1ubq_test_24_lattice.pdb verify/1ubq.pdb   # -> T
 **D. Full Protein provenance and clean blind closure:**
 ```sh
 python3 -m tools.verify_protein_forcing_registry
-python3 -m unittest tests.test_protein_forcing_registry \
-  tests.test_protein_backbone_geometry_v1 tests.test_blind_selector_v3 -v
+python3 -m unittest discover -s tests -p 'test_*.py' -v
 ```
 
 ---
@@ -226,8 +227,11 @@ python3 -m unittest tests.test_protein_forcing_registry \
 - `tools/predict_structure.py` — the folding pipeline (sequence → 3D backbone → PDB).
 - `tools/protein_backbone_geometry_v1.py` — target-incapable coordinate constitution used by
   the clean blind continuation route.
-- `tools/blind_24_lattice_selector_v3.py`, `tools/run_blind_protocol_v3.py` — provenance-isolated
-  blind forward-forcing selector and immutable protocol.
+- `tools/blind_24_lattice_selector_v3.py`, `tools/run_blind_protocol_v3.py` — secured
+  provenance-isolated blind baseline and immutable protocol.
+- `tools/blind_24_lattice_selector_v5.py` through `v10.py` and their protocols —
+  traced inter-window, signed-orientation, charge, side-chain, and balanced
+  continuation surfaces.
 - `tools/*_engine.py`, `tools/blind_24_lattice_solver.py`, `tools/rotamer_geometry.py` — preserved
   legacy development engines excluded from selector-v3 runtime.
 - `verify/protein_forcing_registry_v1.json`, `verify/PROTEIN_FORCING_AUDIT.md` — complete source
