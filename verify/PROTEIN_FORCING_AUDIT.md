@@ -132,17 +132,20 @@ method and exact values are preserved in
 `verify/blind_local_sequence_evidence_20260719.json`.
 
 Maria Smith has declared these results for publication. Complete 76-residue
-blind sequencing was subsequently executed as a separate development run under
+blind sequencing was subsequently executed under
 the same target-isolated, pre-comparison-sealed protocol. It matched all 76 Cα
 atoms at TM `0.0269927379497572` and dRMSD `52.89314678065376 Å`. The post-seal
 three-residue readout found `HLV` at TM `0.9914591922414299` / dRMSD
 `0.03139535401876445 Å`, `RLI` at TM `0.9656795312222751`, and `RGG` at TM
-`0.9059580746307327`. The best four- and five-residue windows fall to TM
-`0.3534794031641911` and `0.3209890061552319`, locating the next construction
-work at inter-window orientation and global assembly. These new 76-residue
-measurements remain Codex development evidence until Maria declares a
-publishable conclusion; the already-published 8/16/24 conclusions are
-unchanged.
+`0.9059580746307327`. Maria has declared the completed blind execution and
+these positive local empirical results for publication. The four- and
+five-residue extension measurements, TM `0.3534794031641911` and
+`0.3209890061552319`, locate the next constructive frontier at inter-window
+orientation and complete global assembly. They do not establish a
+theorem-derived wall: the protected 24-lattice construction already contains
+the complete 76-residue trace at TM `0.9891211351` / dRMSD `0.2608575408 Å`,
+and the structural law independently forces the canonical α-helix and β-sheet
+coordinates.
 
 ## Preserved development evidence, not attributed conclusions
 

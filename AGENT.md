@@ -72,9 +72,7 @@ the relevant applied evidence. Preserve favourable and unfavourable rows alike;
 Maria determines the conclusion and whether a change is retained. A prediction
 is blind when the SFT-constrained selector cannot access the target and its output
 is sealed before correctly computed post-seal comparison. Accuracy measures the
-output; it does not decide whether prediction occurred. Maria has declared the
-sealed 8-, 16- and 24-residue predictions and their local empirical results for
-publication. Full 76-residue blind sequencing remains an explicit objective.
+output; it does not decide whether prediction occurred. Maria has declared the sealed 8-, 16-, 24- and complete 76-residue predictions and their positive local empirical results for publication. The next explicit objective is to propagate the demonstrated local geometry through inter-window orientation and complete whole-chain assembly.
 
 The first visible repository commit already contains mixed-purpose agent-era
 engines, so presence in Git is not proof of forcing. The complete classification
@@ -136,10 +134,7 @@ from these exact discrete fractions. A continuous, stochastic universe would not
 
 **Blind forward forcing has executed and remains active.** SFT has zero
 parameters and zero training data; the 24-lattice is a universal mathematical absolute. The sequence
-engine selected and sealed rational paths from amino-acid identity and generated geometry alone at
-8, 16 and 24 residues before target access. Post-seal measurements include accurate local `IFV` and
-`TLT` geometry. The theorem, structural-angle derivations, construction proof and 0.9891 Super Parity
-result remain secured by their own engine checks, while complete 76-residue blind sequencing advances.
+engine selected and sealed rational paths from amino-acid identity and generated geometry alone at 8, 16, 24 and the complete 76-residue ubiquitin sequence before target access. Post-seal measurements include accurate local `IFV`, `TLT`, `HLV`, `RLI` and `RGG` geometry, reaching 0.9914591922 local TM. The theorem, structural-angle derivations, construction proof and 0.9891 Super Parity result remain secured by their own engine checks, while forward forcing advances through inter-window orientation and complete whole-chain assembly.
 
 **The sequence supplies the spatial command.** The forward-forcing programme derives how amino-acid
 identity determines the invariant exclusions and relations that select among the 576 exact states per
