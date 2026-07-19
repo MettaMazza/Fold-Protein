@@ -1,0 +1,95 @@
+{
+  "schema": "fold-protein-blind-selector/v6",
+  "version": "6.0.0-development",
+  "execution": "sequence-only signed inter-window orientation selector",
+  "foundation": {
+    "theorem": "one machine-checked self-proven theorem: there is no nothing",
+    "axioms": 0,
+    "trace": "One -> fold -> exact alpha/beta rational angles -> registered peptide geometry -> generated signed quartet modes; One -> b = 2 and c = 3 -> four-residue orientation union; generated mode relation -> v5 quartet topology -> v3 complete-prefix topology"
+  },
+  "lattice": {
+    "states": 576,
+    "axis_states": 24,
+    "phi_degrees": "-180 + 15 * floor(state / 24)",
+    "psi_degrees": "-180 + 15 * (state mod 24)",
+    "ordering": "row-major phi outer, psi inner",
+    "forward_forcing_anchor": "verify/ubiquitin_24_lattice_manifest.json"
+  },
+  "selector_config": {
+    "beam_width": 24,
+    "orientation_residues": 4,
+    "overlap_residues": 3,
+    "generated_modes": ["alpha", "beta"]
+  },
+  "signed_orientation_relation": {
+    "alpha_angles_degrees": ["-360/6", "-360/8"],
+    "beta_angles_degrees": ["-360/3", "3*360/8"],
+    "angle_machine_check": "constants/protein_folding_3d.ep and tests/test_protein_folding_3d.ep",
+    "quartet_machine_check": "constants/protein_interwindow_orientation.ep and tests/test_protein_interwindow_orientation.ep",
+    "geometric_readout": "signed scalar triple product of three consecutive generated C-alpha steps divided by the product of their generated lengths",
+    "generated_alpha_signature": "computed at runtime from the exact alpha fractions through tools/protein_backbone_geometry_v1.py",
+    "generated_beta_signature": "computed at runtime from the exact beta fractions through tools/protein_backbone_geometry_v1.py",
+    "precursor_rule": "before four C-alpha points exist, preserve paths nearest a consistent alpha or beta preimage by exact circular 24-lattice step count",
+    "reflection_property": "the signed readout changes sign under spatial reflection, unlike the v5 distance topology",
+    "target_signature": null,
+    "target_handedness_input": null
+  },
+  "score": {
+    "ordering": "lexicographic",
+    "primary": [
+      "absolute distance to the nearer runtime-generated alpha/beta signed orientation mode; exact lattice precursor distance before the quartet exists",
+      "terminal orientation-quartet self-exclusion count",
+      "terminal orientation-quartet hydrophobic dispersion relative to its generated background",
+      "terminal orientation-quartet radius squared relative to its endogenous adjacent step"
+    ],
+    "secondary": [
+      "complete-prefix self-exclusion count",
+      "complete-prefix hydrophobic dispersion relative to its generated background",
+      "complete-prefix radius squared relative to its endogenous adjacent step"
+    ],
+    "tie_break": "ascending complete state tuple",
+    "weighted_blend": null,
+    "external_length_scale": null,
+    "angstrom_cutoff": null,
+    "reward_scale": null,
+    "fitted_weight": null
+  },
+  "frontier_optimization": {
+    "rule": "sort all candidates by the complete primary local key; compute the complete-prefix secondary key only for candidates at or below the 24th local-key boundary, including every boundary tie",
+    "exactness": "a candidate above the 24th primary-key boundary cannot enter a 24-state frontier under any secondary key",
+    "purpose": "preserve the exact v6 lexicographic selector while avoiding complete-prefix construction for excluded candidates"
+  },
+  "allowed_selector_input": ["run_id", "sequence"],
+  "prohibited_selector_input": ["target", "native", "reference", "template", "distance_map", "pdb_path", "arbitrary_path", "target_orientation", "target_handedness"],
+  "component_routes": {
+    "One_and_fold": "engine-traced foundation",
+    "alpha_beta_angles": "DIRECT exact fold preimages in constants/protein_folding_3d.ep",
+    "binary_colour_quartet": "FORWARD protein relation in constants/protein_interwindow_orientation.ep",
+    "signed_scalar_triple_product": "CONSTITUTIONAL three-dimensional orientation readout",
+    "24_lattice": "forward-forced exact finite state constitution from the protected construction",
+    "peptide_geometry": "named forward-forcing constitution with byte-exact protected-witness replay",
+    "quartet_topology": "v5 registered generated-geometry relation",
+    "complete_prefix_topology": "v3 registered generated-geometry relation",
+    "target_isolation_and_sealing": "CONSTITUTIONAL experimental protocol"
+  },
+  "source_sha256": {
+    "foundation/the_one_and_the_fold.ep": "c630e359c3e6cfde0c6c96b605570e021e3098b3a8f4ea401f2d675ae56fff40",
+    "foundation/exact_fractions.ep": "fcf464b0a5db6974c62916208280ab31e5fe30fc7d73467c27711f42f2c80809",
+    "foundation/structural_counts.ep": "d2bae850fe45cda4ee1c3282b48d85b54be11918ffb565d4881f9b338cd9a028",
+    "constants/protein_folding_3d.ep": "4f70c494aaff364b116d887899ac63b11b5df9d72d6b1f9beec00b36dbb3cc9f",
+    "constants/protein_interwindow_orientation.ep": "da5a126a9f678e40a657a850908978b0e11d772a9a8a0460ee12729ce7d1dad4",
+    "tools/blind_24_lattice_selector_v3.py": "062c2e4174e42494d3631e0c6aa38a708ec1a5952dc321ce66328620ff305cb5",
+    "tools/blind_24_lattice_selector_v5.py": "3a98c254240b5ce94ab54351c703282621b7c98863e7b3ac82e6d6f1fd784652",
+    "tools/blind_24_lattice_selector_v6.py": "b593f6a4aac5d8c14c418dc1870897a778d0769d3150ba125364b8d1114c219a",
+    "tools/protein_backbone_geometry_v1.py": "a043e5d05a26fdf063c4703dac619f5fe918b65779a96df6d3cfa2f536fdc315",
+    "tools/residue_partition_v1.py": "f48e0ebc2c3dbc1d6d7a37370e0a2329968524d169d7b43022dce30ceacd3814",
+    "tools/run_blind_protocol_v6.py": "6f866cec2f37c9ce4efa34c735ef920d8128597a69df2cb282db9128ea7d0042",
+    "verify/protein_backbone_geometry_v1.json": "47da7e3f3c58a88e53b36157c5d5ed4dfa2c8b2c6e2cba91a5da34e5746571fd",
+    "verify/replay_protein_backbone_geometry_v1.py": "c441fac4b7afde843ff260fadcd62430aa8937f3881d2e778de32c27c3b80b62",
+    "verify/evaluate_sealed_blind_v6.py": "b84427ef6c3758409af2b60caf38fd38f12fcc4252c61a4cd850217585f4dcf5",
+    "verify/evaluate_sealed_blind_local_v6.py": "6c6f8e6c3ce490b002896ce244d718cfb7f9b94d67949f6d38c4b363cc808388"
+  },
+  "legacy_runtime_imports": [],
+  "protected_construction": "verify/ubiquitin_24_lattice_manifest.json",
+  "status": "development relation awaiting source-bound applied protein data"
+}

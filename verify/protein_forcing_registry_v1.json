@@ -19,6 +19,9 @@
     "blind_selector_v3": "secured provenance-isolated forward-forcing baseline",
     "blind_selector_v4": "preserved agent-authored three-residue compactness development relation; applied 24-residue evidence did not support promotion",
     "blind_selector_v5": "active target-incapable four-residue inter-window orientation development relation with sealed 24-residue applied evidence",
+    "blind_selector_v6": "preserved signed-orientation development relation with sealed 24-residue applied evidence; not extended to 76 after all-alpha mode collapse",
+    "blind_selector_v7": "preserved binary-balanced mode-frontier development relation with sealed 24-residue applied evidence",
+    "blind_selector_v8": "preserved charge-aware mode-selection development relation with sealed 24-residue applied evidence; v5 remains the strongest complete-chain continuation",
     "legacy_engines": "retained history only; excluded from promoted and active continuation routes"
   },
   "inherited_toolchain_boundary": {
@@ -114,6 +117,29 @@
       "verify/evaluate_sealed_blind_local_v5.py",
       "verify/evaluate_sealed_blind_v5.py"
     ],
+    "blind_v6_signed_orientation_development": [
+      "tests/test_blind_selector_v6.py",
+      "tools/blind_24_lattice_selector_v6.py",
+      "tools/run_blind_protocol_v6.py",
+      "verify/evaluate_sealed_blind_local_v6.py",
+      "verify/evaluate_sealed_blind_v6.py"
+    ],
+    "blind_v7_balanced_orientation_development": [
+      "tests/test_blind_selector_v7.py",
+      "tools/blind_24_lattice_selector_v7.py",
+      "tools/run_blind_protocol_v7.py",
+      "verify/evaluate_sealed_blind_local_v7.py",
+      "verify/evaluate_sealed_blind_v7.py"
+    ],
+    "blind_v8_charge_orientation_development": [
+      "tests/test_blind_selector_v8.py",
+      "tests/test_residue_charge_constitution_v1.py",
+      "tools/blind_24_lattice_selector_v8.py",
+      "tools/residue_charge_constitution_v1.py",
+      "tools/run_blind_protocol_v8.py",
+      "verify/evaluate_sealed_blind_local_v8.py",
+      "verify/evaluate_sealed_blind_v8.py"
+    ],
     "legacy_agent_development_unpromoted": [
       "tests/test_blind_protocol.py",
       "tools/beam_search_engine.py",
@@ -173,6 +199,17 @@
       "tools/protein_backbone_geometry_v1.py",
       "tools/residue_partition_v1.py",
       "tools/run_blind_protocol_v5.py"
+    ],
+    "v8_runtime_roots": [
+      "tools/blind_24_lattice_selector_v3.py",
+      "tools/blind_24_lattice_selector_v5.py",
+      "tools/blind_24_lattice_selector_v6.py",
+      "tools/blind_24_lattice_selector_v7.py",
+      "tools/blind_24_lattice_selector_v8.py",
+      "tools/protein_backbone_geometry_v1.py",
+      "tools/residue_partition_v1.py",
+      "tools/residue_charge_constitution_v1.py",
+      "tools/run_blind_protocol_v8.py"
     ]
   },
   "generated_evidence": {
@@ -182,11 +219,14 @@
     "v3_blind_predictions": "Target-isolated sequence-only inputs, sealed selected states and PDBs, and post-seal evaluations are preserved under verify/development_runs/ubiquitin_v3_l{8,16,24}_20260719/; Maria Smith has declared them blind predictions for publication.",
     "v4_orientation_probe": "verify/development_runs/ubiquitin_v4_overlap_l24_20260719/ is preserved as agent-authored applied development evidence and is not a Maria finding, loss or failed prediction.",
     "v5_orientation_development": "verify/development_runs/ubiquitin_v5_orientation_l24_20260719/ is a source-bound target-isolated prediction sealed before post-seal comparison; Maria alone determines the conclusion and whether it enters the official campaign.",
+    "v6_signed_orientation_development": "verify/development_runs/ubiquitin_v6_signed_orientation_l24_20260719/ is preserved source-bound applied evidence; it is not a Maria finding, loss or failed prediction.",
+    "v7_balanced_orientation_development": "verify/development_runs/ubiquitin_v7_balanced_orientation_l24_20260719/ is preserved source-bound applied evidence; it is not a Maria finding, loss or failed prediction.",
+    "v8_charge_orientation_development": "verify/development_runs/ubiquitin_v8_charge_orientation_l24_20260719/ is preserved source-bound applied evidence; it is not a Maria finding, loss or failed prediction.",
     "classification": "A recorded development execution is not a Maria finding, loss or failed prediction."
   },
   "artifact_inventory": {
-    "tracked_pdb_files": 60,
-    "tracked_pdb_file_set_sha256": "e2a0ceacabd9bba2d8f92a4bf672c55a3d1594388ebe864ef8021919ca0732e0",
+    "tracked_pdb_files": 63,
+    "tracked_pdb_file_set_sha256": "0112b517c22f387774efe551e611c6d33188cebbc2fbef14abe0be4429cd09c7",
     "classes": {
       "experimental_reference": [
         "verify/1cop.pdb",
@@ -220,6 +260,11 @@
       "sealed_v5_agent_development_output": [
         "verify/development_runs/ubiquitin_v5_orientation_l24_20260719/prediction.pdb",
         "verify/development_runs/ubiquitin_v5_orientation_l76_20260719/prediction.pdb"
+      ],
+      "sealed_v6_v8_agent_development_output": [
+        "verify/development_runs/ubiquitin_v6_signed_orientation_l24_20260719/prediction.pdb",
+        "verify/development_runs/ubiquitin_v7_balanced_orientation_l24_20260719/prediction.pdb",
+        "verify/development_runs/ubiquitin_v8_charge_orientation_l24_20260719/prediction.pdb"
       ],
       "legacy_preproject_development_artifact": [
         "1ubq_autonomous.pdb",

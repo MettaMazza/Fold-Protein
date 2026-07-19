@@ -1,0 +1,13 @@
+{
+  "ca_drmsd_angstrom": 7.6816338204616015,
+  "execution": "post-seal structural comparison",
+  "matched_ca_atoms": 24,
+  "run_id": "development-ubiquitin-v7-balanced-orientation-l24-20260719",
+  "schema": "fold-protein-blind-evaluation/v7",
+  "seal_sha256": "dc85550a8b4bb396fc3354cdddf05f44ca79d5d8b8246da8ae98e714f8107ab3",
+  "sequence_length": 24,
+  "status": "completed",
+  "target_id": "1ubq.pdb",
+  "target_sha256": "d4a6812d8951cf6594e6a0763f089e35f5a80b62acb3c117b2c5565228a7b161",
+  "tm_score": 0.018838872206853943
+}

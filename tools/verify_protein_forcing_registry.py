@@ -144,7 +144,7 @@ def verify_registry() -> dict:
 
     legacy = set(registry["legacy_exclusion"]["forbidden_runtime_modules"])
     runtime_hashes = {}
-    for selector in ("v3", "v5"):
+    for selector in ("v3", "v5", "v8"):
         runtime_hashes[selector] = {}
         roots = registry["legacy_exclusion"][f"{selector}_runtime_roots"]
         for relative in roots:

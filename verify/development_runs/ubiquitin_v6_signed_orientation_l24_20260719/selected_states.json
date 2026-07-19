@@ -1,0 +1,821 @@
+{
+  "final_key": [
+    0.0,
+    0,
+    1.0,
+    0.5606968026506542,
+    0,
+    1.0808819946252743,
+    8.073997045333256
+  ],
+  "orientation_modes": {
+    "alpha": 0.7682042835361056,
+    "beta": -0.18257647754674627,
+    "source_angles_degrees": {
+      "alpha": [
+        "-60",
+        "-45"
+      ],
+      "beta": [
+        "-120",
+        "135"
+      ]
+    }
+  },
+  "orientation_trace": [
+    {
+      "mode_distance": 1.1102230246251565e-16,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.7682042835361057,
+      "residue_positions_one_based": [
+        1,
+        4
+      ],
+      "sequence": "MQIF"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.7682042835361056,
+      "residue_positions_one_based": [
+        2,
+        5
+      ],
+      "sequence": "QIFV"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.7682042835361056,
+      "residue_positions_one_based": [
+        3,
+        6
+      ],
+      "sequence": "IFVK"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.7682042835361056,
+      "residue_positions_one_based": [
+        4,
+        7
+      ],
+      "sequence": "FVKT"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.7682042835361056,
+      "residue_positions_one_based": [
+        5,
+        8
+      ],
+      "sequence": "VKTL"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.7682042835361056,
+      "residue_positions_one_based": [
+        6,
+        9
+      ],
+      "sequence": "KTLT"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.7682042835361056,
+      "residue_positions_one_based": [
+        7,
+        10
+      ],
+      "sequence": "TLTG"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.7682042835361056,
+      "residue_positions_one_based": [
+        8,
+        11
+      ],
+      "sequence": "LTGK"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.7682042835361056,
+      "residue_positions_one_based": [
+        9,
+        12
+      ],
+      "sequence": "TGKT"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.7682042835361056,
+      "residue_positions_one_based": [
+        10,
+        13
+      ],
+      "sequence": "GKTI"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.7682042835361056,
+      "residue_positions_one_based": [
+        11,
+        14
+      ],
+      "sequence": "KTIT"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.7682042835361056,
+      "residue_positions_one_based": [
+        12,
+        15
+      ],
+      "sequence": "TITL"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.7682042835361056,
+      "residue_positions_one_based": [
+        13,
+        16
+      ],
+      "sequence": "ITLE"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.7682042835361056,
+      "residue_positions_one_based": [
+        14,
+        17
+      ],
+      "sequence": "TLEV"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.7682042835361056,
+      "residue_positions_one_based": [
+        15,
+        18
+      ],
+      "sequence": "LEVE"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.7682042835361056,
+      "residue_positions_one_based": [
+        16,
+        19
+      ],
+      "sequence": "EVEP"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.7682042835361056,
+      "residue_positions_one_based": [
+        17,
+        20
+      ],
+      "sequence": "VEPS"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.7682042835361056,
+      "residue_positions_one_based": [
+        18,
+        21
+      ],
+      "sequence": "EPSD"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.7682042835361056,
+      "residue_positions_one_based": [
+        19,
+        22
+      ],
+      "sequence": "PSDT"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.7682042835361056,
+      "residue_positions_one_based": [
+        20,
+        23
+      ],
+      "sequence": "SDTI"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.7682042835361056,
+      "residue_positions_one_based": [
+        21,
+        24
+      ],
+      "sequence": "DTIE"
+    }
+  ],
+  "run_id": "development-ubiquitin-v6-signed-orientation-l24-20260719",
+  "schema": "fold-protein-selected-states/v6",
+  "score_trace": [
+    {
+      "active_state": 0,
+      "best_key": [
+        0,
+        0,
+        1.0,
+        0.0,
+        0,
+        1.0,
+        0.25
+      ],
+      "expanded": 24,
+      "locally_eligible": 24,
+      "retained": 24,
+      "worst_key": [
+        6,
+        0,
+        1.0,
+        0.0,
+        0,
+        1.0,
+        0.25
+      ]
+    },
+    {
+      "active_state": 1,
+      "best_key": [
+        0,
+        0,
+        1.0,
+        0.0,
+        0,
+        1.0,
+        0.451296787126223
+      ],
+      "expanded": 13824,
+      "locally_eligible": 50,
+      "retained": 24,
+      "worst_key": [
+        2,
+        0,
+        1.0,
+        0.0,
+        0,
+        1.0,
+        0.45129678712622306
+      ]
+    },
+    {
+      "active_state": 2,
+      "best_key": [
+        0.0,
+        0,
+        0.9820918540433486,
+        0.5606968026506545,
+        0,
+        0.9820918540433486,
+        0.5606968026506545
+      ],
+      "expanded": 13824,
+      "locally_eligible": 24,
+      "retained": 24,
+      "worst_key": [
+        0.0007936551179361651,
+        0,
+        1.1784654161309072,
+        0.6303129869772809,
+        0,
+        1.1784654161309072,
+        0.6303129869772809
+      ]
+    },
+    {
+      "active_state": 3,
+      "best_key": [
+        0.0,
+        0,
+        0.6981111150337861,
+        1.0434293464264774,
+        0,
+        1.073386693221401,
+        1.6378755130602725
+      ],
+      "expanded": 13824,
+      "locally_eligible": 24,
+      "retained": 24,
+      "worst_key": [
+        0.0006921650798963619,
+        0,
+        0.7947168397712037,
+        0.8680285425975117,
+        0,
+        1.0451907792293997,
+        1.2159209912253204
+      ]
+    },
+    {
+      "active_state": 4,
+      "best_key": [
+        0.0,
+        0,
+        0.698111115033786,
+        1.0434293464264774,
+        0,
+        0.8244728561947048,
+        2.3658055052401408
+      ],
+      "expanded": 13824,
+      "locally_eligible": 24,
+      "retained": 24,
+      "worst_key": [
+        0.000581299292846893,
+        0,
+        0.8160732449568844,
+        0.8515749956125707,
+        0,
+        0.8549226628488216,
+        1.2649431697309979
+      ]
+    },
+    {
+      "active_state": 5,
+      "best_key": [
+        0.0,
+        0,
+        1.0,
+        0.5606968026506542,
+        0,
+        0.7518493962662782,
+        1.0062476538490472
+      ],
+      "expanded": 13824,
+      "locally_eligible": 24,
+      "retained": 24,
+      "worst_key": [
+        0.0004575677179066151,
+        0,
+        1.0,
+        0.9771390117405503,
+        0,
+        0.6473662121300843,
+        2.296956439675545
+      ]
+    },
+    {
+      "active_state": 6,
+      "best_key": [
+        0.0,
+        0,
+        0.928367416173395,
+        0.5606968026506542,
+        0,
+        0.9911139613824405,
+        1.2048095813739765
+      ],
+      "expanded": 13824,
+      "locally_eligible": 26,
+      "retained": 24,
+      "worst_key": [
+        0.0008567572194313477,
+        0,
+        1.519129164699893,
+        0.7845670757801803,
+        0,
+        1.1789215695313884,
+        1.4549535231110216
+      ]
+    },
+    {
+      "active_state": 7,
+      "best_key": [
+        0.0,
+        0,
+        1.0,
+        0.5606968026506542,
+        0,
+        0.8601947494075945,
+        1.4284448463962869
+      ],
+      "expanded": 13824,
+      "locally_eligible": 26,
+      "retained": 24,
+      "worst_key": [
+        0.0006684962647788284,
+        0,
+        1.0,
+        0.8498209712857746,
+        0,
+        0.8898679464748573,
+        1.976793542429609
+      ]
+    },
+    {
+      "active_state": 8,
+      "best_key": [
+        0.0,
+        0,
+        1.0,
+        0.5606968026506542,
+        0,
+        0.745510366448582,
+        1.687789394054604
+      ],
+      "expanded": 13824,
+      "locally_eligible": 25,
+      "retained": 24,
+      "worst_key": [
+        0.00023543818740939804,
+        0,
+        1.0,
+        0.6100375480393102,
+        1,
+        0.8269550567007617,
+        1.5304271997823182
+      ]
+    },
+    {
+      "active_state": 9,
+      "best_key": [
+        0.0,
+        0,
+        1.0,
+        0.5606968026506542,
+        0,
+        0.6510981598358698,
+        1.9725993315915777
+      ],
+      "expanded": 13824,
+      "locally_eligible": 25,
+      "retained": 24,
+      "worst_key": [
+        0.0005204956488582546,
+        0,
+        1.0,
+        0.7591352132339761,
+        0,
+        0.6786064664162392,
+        2.732143807370747
+      ]
+    },
+    {
+      "active_state": 10,
+      "best_key": [
+        0.0,
+        0,
+        1.0,
+        0.5606968026506542,
+        0,
+        0.5739531476477376,
+        2.2782730906904938
+      ],
+      "expanded": 13824,
+      "locally_eligible": 24,
+      "retained": 24,
+      "worst_key": [
+        0.000327747422310648,
+        0,
+        1.0,
+        0.7564756995205442,
+        0,
+        0.5752947524577667,
+        3.286088756548097
+      ]
+    },
+    {
+      "active_state": 11,
+      "best_key": [
+        0.0,
+        0,
+        1.0,
+        0.5606968026506542,
+        0,
+        1.1576167647220497,
+        2.612858394088553
+      ],
+      "expanded": 13824,
+      "locally_eligible": 24,
+      "retained": 24,
+      "worst_key": [
+        0.0008567572194313477,
+        0,
+        1.0,
+        0.7845670757801803,
+        0,
+        1.2691794776724499,
+        2.853276886581446
+      ]
+    },
+    {
+      "active_state": 12,
+      "best_key": [
+        0.0,
+        0,
+        1.0,
+        0.5606968026506542,
+        0,
+        1.0298644508673622,
+        2.977823767452776
+      ],
+      "expanded": 13824,
+      "locally_eligible": 24,
+      "retained": 24,
+      "worst_key": [
+        0.00023543818740939804,
+        0,
+        1.0,
+        0.6100375480393102,
+        1,
+        1.1035413338673656,
+        2.78344043563703
+      ]
+    },
+    {
+      "active_state": 13,
+      "best_key": [
+        0.0,
+        0,
+        0.6981111150337861,
+        1.0434293464264774,
+        0,
+        1.3267510113958354,
+        14.862153033648758
+      ],
+      "expanded": 13824,
+      "locally_eligible": 24,
+      "retained": 24,
+      "worst_key": [
+        0.00023543818740939804,
+        0,
+        1.2077386005289559,
+        0.6100375480393102,
+        1,
+        1.1997989742413113,
+        3.1679482143528492
+      ]
+    },
+    {
+      "active_state": 14,
+      "best_key": [
+        0.0,
+        0,
+        0.698111115033786,
+        1.0434293464264774,
+        0,
+        1.1815797729527648,
+        16.911566718301007
+      ],
+      "expanded": 13824,
+      "locally_eligible": 24,
+      "retained": 24,
+      "worst_key": [
+        0.00033341295381505986,
+        0,
+        0.6444152546190183,
+        0.6925942924178836,
+        0,
+        1.2474509790195674,
+        4.4486542371098645
+      ]
+    },
+    {
+      "active_state": 15,
+      "best_key": [
+        0.0,
+        0,
+        0.6981111150337861,
+        1.0434293464264774,
+        0,
+        1.3507177525703988,
+        19.093457302272903
+      ],
+      "expanded": 13824,
+      "locally_eligible": 24,
+      "retained": 24,
+      "worst_key": [
+        0.000327747422310648,
+        0,
+        0.7484018984614563,
+        0.7564756995205442,
+        0,
+        1.4179791978924878,
+        5.280730808088004
+      ]
+    },
+    {
+      "active_state": 16,
+      "best_key": [
+        0.0,
+        0,
+        0.698111115033786,
+        1.0434293464264774,
+        0,
+        1.217305818027384,
+        21.407434500718953
+      ],
+      "expanded": 13824,
+      "locally_eligible": 24,
+      "retained": 24,
+      "worst_key": [
+        0.0008567572194313477,
+        0,
+        0.6474370199870487,
+        0.7845670757801803,
+        0,
+        1.1460942850104037,
+        4.934370402707774
+      ]
+    },
+    {
+      "active_state": 17,
+      "best_key": [
+        0.0,
+        0,
+        1.0,
+        0.5606968026506542,
+        0,
+        1.0989093114363433,
+        5.190745634929943
+      ],
+      "expanded": 13824,
+      "locally_eligible": 24,
+      "retained": 24,
+      "worst_key": [
+        0.00023543818740939804,
+        0,
+        1.0,
+        0.6100375480393102,
+        1,
+        1.148369336335504,
+        4.969328840282476
+      ]
+    },
+    {
+      "active_state": 18,
+      "best_key": [
+        0.0,
+        0,
+        1.0,
+        0.5606968026506542,
+        0,
+        1.0058134749665355,
+        5.7129460736966955
+      ],
+      "expanded": 13824,
+      "locally_eligible": 24,
+      "retained": 24,
+      "worst_key": [
+        0.00023543818740939804,
+        0,
+        1.0,
+        0.6100375480393102,
+        1,
+        1.047915812997149,
+        5.485324233534963
+      ]
+    },
+    {
+      "active_state": 19,
+      "best_key": [
+        0.0,
+        0,
+        1.0,
+        0.5606968026506542,
+        0,
+        0.9235274737802989,
+        6.263779791953861
+      ],
+      "expanded": 13824,
+      "locally_eligible": 24,
+      "retained": 24,
+      "worst_key": [
+        0.00033341295381505986,
+        0,
+        1.0,
+        0.6925942924178836,
+        0,
+        0.8343902482975017,
+        6.928089386012426
+      ]
+    },
+    {
+      "active_state": 20,
+      "best_key": [
+        0.0,
+        0,
+        1.0,
+        0.5606968026506542,
+        0,
+        0.8508004314200023,
+        6.84108339176511
+      ],
+      "expanded": 13824,
+      "locally_eligible": 24,
+      "retained": 24,
+      "worst_key": [
+        0.000327747422310648,
+        0,
+        1.0,
+        0.7564756995205442,
+        0,
+        0.7375432288060104,
+        7.884938023672152
+      ]
+    },
+    {
+      "active_state": 21,
+      "best_key": [
+        0.0,
+        0,
+        1.0,
+        0.5606968026506542,
+        0,
+        1.1663015403127401,
+        7.443793182452888
+      ],
+      "expanded": 13824,
+      "locally_eligible": 24,
+      "retained": 24,
+      "worst_key": [
+        0.0008567572194313477,
+        0,
+        1.0,
+        0.7845670757801803,
+        0,
+        1.2295593108266576,
+        7.685084614218447
+      ]
+    },
+    {
+      "active_state": 22,
+      "best_key": [
+        0.0,
+        0,
+        1.0,
+        0.5606968026506542,
+        0,
+        1.0808819946252743,
+        8.073997045333256
+      ],
+      "expanded": 13824,
+      "locally_eligible": 24,
+      "retained": 24,
+      "worst_key": [
+        0.00023543818740939804,
+        0,
+        1.0,
+        0.6100375480393102,
+        1,
+        1.1141889360430373,
+        7.8338311513227135
+      ]
+    }
+  ],
+  "sequence": "MQIFVKTLTGKTITLEVEPSDTIE",
+  "states": [
+    11,
+    201,
+    201,
+    201,
+    201,
+    201,
+    201,
+    201,
+    201,
+    201,
+    201,
+    201,
+    201,
+    201,
+    201,
+    201,
+    201,
+    201,
+    201,
+    201,
+    201,
+    201,
+    201,
+    0
+  ],
+  "status": "completed"
+}

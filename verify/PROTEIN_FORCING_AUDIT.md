@@ -194,6 +194,56 @@ candidate is to order signed orientation against the already forced alpha and
 beta orbit geometries, without feeding this post-seal target measurement into
 selection.  This is a traced development direction, not a theoretical wall.
 
+### Signed orientation and sequence-mode investigation
+
+Selectors v6-v8 execute the next three target-incapable relations and preserve
+their applied data without converting an agent development decision into
+Maria's finding or loss.
+
+V6 generates signed orientation modes at runtime from the already checked exact
+alpha angles `(-60,-45)` and beta angles `(-120,+135)` through the registered
+peptide geometry.  Its normalized scalar triple product distinguishes a
+quartet from its reflection without a target signature.  Exact 24-lattice
+precursor distance preserves the required angle preimages before four C-alpha
+points exist.  The sealed 24-residue execution took `42.29 s` and
+`42811392` bytes maximum resident memory.  It raised the best length-three
+window to TM `0.9997317192086165` / dRMSD `0.008048135329553634 Å` and the
+best length-four window to TM `0.8233174803435775` / dRMSD
+`0.13222259310265932 Å`.  Its selected path used the generated alpha mode for
+all 21 quartets; whole-prefix TM was `0.013229042104232267` and dRMSD
+`7.6987200275234 Å`.  That exact all-alpha observation prevented an
+unnecessary 76-residue development execution.
+
+V7 divides the counted 24-state frontier by the fold-derived binary count,
+preserving 12 alpha and 12 beta candidates at every complete frontier.  Its
+sealed 24-residue execution took `62.43 s` and `42090496` bytes maximum
+resident memory.  The final path contained 20 alpha quartets and one beta
+quartet; whole-prefix TM was `0.018838872206853943` and dRMSD
+`7.6816338204616015 Å`.  Its best length-four window measured TM
+`0.7992362769952934` / dRMSD `0.23589752864348937 Å`.
+
+V8 adds an exhaustive formal side-chain charge constitution: `KR` positive,
+`DE` negative, and the remaining registered residues uncharged.  Histidine is
+left uncharged because protonation is environment-dependent and the selector
+has no pH input or fitted fractional charge.  The dimensionless relation sums
+signed inverse generated distances using endogenous adjacent step length; it
+has no dielectric, cutoff, or weight.  Its sealed 24-residue execution took
+`113.35 s` and `42336256` bytes maximum resident memory.  It changed the path
+and selected two beta quartets, proving the charge relation is active, while
+measuring whole-prefix TM `0.017414235712281952`, dRMSD
+`7.906006815779378 Å`, and best length-four TM `0.7994283891088441` /
+dRMSD `0.2358215171960537 Å`.  This did not warrant a 76-residue development
+execution under the mandatory purpose-matched data rule.
+
+The applied sequence establishes a narrower next direction without declaring a
+wall: signed geometry supplies accurate local handedness, binary balancing
+prevents frontier erasure, and exact charge changes mode selection, but those
+relations do not yet propagate the v5 complete-chain improvement.  V5 therefore
+remains the strongest full 76-residue blind continuation.  The next relation
+must add more of the sequence's actual spatial command—side-chain steric form
+and/or backbone hydrogen-bond assembly—through a named target-free
+constitution, rather than another unmeasured ordering change.
+
 ## Preserved development evidence, not attributed conclusions
 
 Selector v2 receipts remain intact because they contain useful target-isolation,
@@ -239,11 +289,12 @@ The registry verifier halts if:
 
 Generated PDBs and campaign receipts are evidence rather than forcing source.
 They are bound by the protected construction manifest or their immutable seals.
-All 60 tracked PDBs are also exhaustively classified: two experimental
+All 63 tracked PDBs are also exhaustively classified: two experimental
 references, one protected target-assisted construction, eleven sealed v2
 development outputs, four sealed v3 blind predictions, one sealed v4 auxiliary
 development output, two sealed v5 applied development outputs, and thirty-nine
-legacy pre-project development artifacts.
+legacy pre-project development artifacts, plus the three sealed v6-v8 applied
+development outputs described above.
 Their complete path-and-content census is hash-bound by the registry; both v2
 aggregate seals are reverified. Legacy filenames such as `predicted`,
 `optimized`, or `autonomous` do not confer result or authorship status.

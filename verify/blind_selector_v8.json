@@ -1,0 +1,71 @@
+{
+  "schema": "fold-protein-blind-selector/v8",
+  "version": "8.0.0-development",
+  "execution": "sequence-only charge-aware balanced orientation selector",
+  "foundation": {
+    "theorem": "one machine-checked self-proven theorem: there is no nothing",
+    "axioms": 0,
+    "trace": "One -> forced alpha/beta orientation modes and binary-balanced frontier; registered amino-acid identity -> exact formal charge signs -> dimensionless generated electrostatic relation -> sequence-wide mode selection"
+  },
+  "selector_config": {
+    "beam_width": 24,
+    "binary_mode_count": 2,
+    "mode_capacity": 12,
+    "orientation_residues": 4,
+    "overlap_residues": 3,
+    "generated_modes": ["alpha", "beta"],
+    "charge_signs": [-1, 0, 1]
+  },
+  "charge_constitution": {
+    "positive_formal_sidechains": "KR",
+    "negative_formal_sidechains": "DE",
+    "uncharged": "all other registered amino acids; histidine remains uncharged because its protonation is environment-dependent and this selector has no pH input",
+    "relation": "sum over generated non-neighbour pairs of sign_i * sign_j * sqrt(endogenous adjacent-step squared / pair-distance squared)",
+    "ordering": "hard self-exclusion, signed electrostatic relation, hydrophobic dispersion, radius",
+    "negative_meaning": "opposite-sign generated relation",
+    "positive_meaning": "like-sign generated relation",
+    "dielectric": null,
+    "cutoff": null,
+    "fractional_charge": null,
+    "fitted_weight": null
+  },
+  "mode_preservation": {
+    "source": "selector v7 immutable 12/12 alpha/beta frontier",
+    "within_mode_order": "signed orbit, hard exclusion, charge, packing, radius, then complete-prefix relations",
+    "cross_mode_order": "complete-prefix hard exclusion, charge, packing, radius, then local relations",
+    "target_mode_label": null
+  },
+  "allowed_selector_input": ["run_id", "sequence"],
+  "prohibited_selector_input": ["target", "native", "reference", "template", "distance_map", "pdb_path", "arbitrary_path", "target_orientation", "target_handedness", "mode_prior", "pH", "dielectric", "charge_weight"],
+  "component_routes": {
+    "One_and_fold": "engine-traced foundation",
+    "orientation_and_balance": "v6/v7 target-incapable generated-mode relation",
+    "residue_charge_classes": "named biochemical constitution with exhaustive executable alphabet closure",
+    "inverse_distance_relation": "CONSTITUTIONAL Coulomb-sign ordering normalized by generated geometry",
+    "packing_and_radius": "v3 registered generated-geometry relation",
+    "target_isolation_and_sealing": "CONSTITUTIONAL experimental protocol"
+  },
+  "source_sha256": {
+    "foundation/the_one_and_the_fold.ep": "c630e359c3e6cfde0c6c96b605570e021e3098b3a8f4ea401f2d675ae56fff40",
+    "foundation/exact_fractions.ep": "fcf464b0a5db6974c62916208280ab31e5fe30fc7d73467c27711f42f2c80809",
+    "foundation/structural_counts.ep": "d2bae850fe45cda4ee1c3282b48d85b54be11918ffb565d4881f9b338cd9a028",
+    "constants/protein_folding_3d.ep": "4f70c494aaff364b116d887899ac63b11b5df9d72d6b1f9beec00b36dbb3cc9f",
+    "constants/protein_interwindow_orientation.ep": "da5a126a9f678e40a657a850908978b0e11d772a9a8a0460ee12729ce7d1dad4",
+    "tools/blind_24_lattice_selector_v3.py": "062c2e4174e42494d3631e0c6aa38a708ec1a5952dc321ce66328620ff305cb5",
+    "tools/blind_24_lattice_selector_v5.py": "3a98c254240b5ce94ab54351c703282621b7c98863e7b3ac82e6d6f1fd784652",
+    "tools/blind_24_lattice_selector_v6.py": "b593f6a4aac5d8c14c418dc1870897a778d0769d3150ba125364b8d1114c219a",
+    "tools/blind_24_lattice_selector_v7.py": "34cfd622ca984dc4755d44d517e76f69f5f92ab2f3243a7dc373f97489ec61ff",
+    "tools/blind_24_lattice_selector_v8.py": "2147e2cf26f487782f383722c693671b5353819f9f08b3622e660831b18c13d4",
+    "tools/protein_backbone_geometry_v1.py": "a043e5d05a26fdf063c4703dac619f5fe918b65779a96df6d3cfa2f536fdc315",
+    "tools/residue_partition_v1.py": "f48e0ebc2c3dbc1d6d7a37370e0a2329968524d169d7b43022dce30ceacd3814",
+    "tools/residue_charge_constitution_v1.py": "d23f9e3280550aa997d59d819bd437f8921e2a9d0d4fab19ab8026de669b786f",
+    "tools/run_blind_protocol_v8.py": "0831e301b7420ab9001734bb3c461e3ac92a2408a60b2cd49d02f538eaae6165",
+    "verify/protein_backbone_geometry_v1.json": "47da7e3f3c58a88e53b36157c5d5ed4dfa2c8b2c6e2cba91a5da34e5746571fd",
+    "verify/replay_protein_backbone_geometry_v1.py": "c441fac4b7afde843ff260fadcd62430aa8937f3881d2e778de32c27c3b80b62",
+    "verify/evaluate_sealed_blind_v8.py": "abc7cd16be9694e534e260ea39cd99ff654cddf4b6b9c3c143183a7264b569f3",
+    "verify/evaluate_sealed_blind_local_v8.py": "f0bdad7e59a2acbf43995b9156add45c9c913f066fe28a746b9832123f3d7e66"
+  },
+  "legacy_runtime_imports": [],
+  "protected_construction": "verify/ubiquitin_24_lattice_manifest.json",
+  "status": "development relation awaiting source-bound applied protein data"
+}
