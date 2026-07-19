@@ -24,6 +24,7 @@
     "blind_selector_v8": "preserved charge-aware mode-selection development relation with sealed 24-residue applied evidence",
     "blind_selector_v9": "exact side-chain heavy-atom graph constitution with sealed 24-residue applied evidence and the strongest five-residue local continuation in the 24-residue line",
     "blind_selector_v10": "active weight-free symmetric ordinal balance with sealed 24- and 76-residue applied evidence; strongest full-chain blind dRMSD in the v3/v5/v10 line",
+    "blind_selector_v11": "sealed target-incapable backbone hydrogen-bond assembly development continuation with active 24-residue applied evidence; v10 remains the current whole-chain route pending Maria's direction",
     "legacy_engines": "retained history only; excluded from promoted and active continuation routes"
   },
   "inherited_toolchain_boundary": {
@@ -160,6 +161,14 @@
       "verify/evaluate_sealed_blind_local_v10.py",
       "verify/evaluate_sealed_blind_v10.py"
     ],
+    "blind_v11_hydrogen_bond_assembly_development": [
+      "tests/test_blind_selector_v11.py",
+      "tools/backbone_hydrogen_bond_constitution_v1.py",
+      "tools/blind_24_lattice_selector_v11.py",
+      "tools/run_blind_protocol_v11.py",
+      "verify/evaluate_sealed_blind_local_v11.py",
+      "verify/evaluate_sealed_blind_v11.py"
+    ],
     "legacy_agent_development_unpromoted": [
       "tests/test_blind_protocol.py",
       "tools/beam_search_engine.py",
@@ -256,6 +265,22 @@
       "tools/residue_charge_constitution_v1.py",
       "tools/residue_steric_constitution_v1.py",
       "tools/run_blind_protocol_v10.py"
+    ],
+    "v11_runtime_roots": [
+      "tools/backbone_hydrogen_bond_constitution_v1.py",
+      "tools/blind_24_lattice_selector_v3.py",
+      "tools/blind_24_lattice_selector_v5.py",
+      "tools/blind_24_lattice_selector_v6.py",
+      "tools/blind_24_lattice_selector_v7.py",
+      "tools/blind_24_lattice_selector_v9.py",
+      "tools/blind_24_lattice_selector_v10.py",
+      "tools/blind_24_lattice_selector_v11.py",
+      "tools/constitutional_rank_balance_v1.py",
+      "tools/protein_backbone_geometry_v1.py",
+      "tools/residue_partition_v1.py",
+      "tools/residue_charge_constitution_v1.py",
+      "tools/residue_steric_constitution_v1.py",
+      "tools/run_blind_protocol_v11.py"
     ]
   },
   "generated_evidence": {
@@ -270,11 +295,12 @@
     "v8_charge_orientation_development": "verify/development_runs/ubiquitin_v8_charge_orientation_l24_20260719/ is preserved source-bound applied evidence; it is not a Maria finding, loss or failed prediction.",
     "v9_steric_orientation_development": "verify/development_runs/ubiquitin_v9_steric_orientation_l24_20260719/ binds the exact 20-residue side-chain graph constitution and its sealed applied evidence; Maria alone determines publication status.",
     "v10_balanced_relations_development": "verify/development_runs/ubiquitin_v10_balanced_relations_l{24,76}_20260719/ bind the weight-free symmetric ordinal selector and its sealed mixed-mode applied evidence; Maria alone determines publication status.",
+    "v11_hydrogen_bond_assembly_development": "verify/development_runs/ubiquitin_v11_hbond_assembly_l24_20260719/ binds the target-incapable unit-capacity backbone hydrogen-bond relation and sealed 24-residue applied evidence; Maria alone determines promotion, publication and whole-chain continuation.",
     "classification": "A recorded development execution is not a Maria finding, loss or failed prediction."
   },
   "artifact_inventory": {
-    "tracked_pdb_files": 66,
-    "tracked_pdb_file_set_sha256": "ad617309a52a0d01d13d0e5bb5f9e9e02b9a08a91b559dd572348a12d6adfbb1",
+    "tracked_pdb_files": 67,
+    "tracked_pdb_file_set_sha256": "6df1e009c30eaa4163497c3880e1ffd8c205fde7f8218dd5a800447267929cde",
     "classes": {
       "experimental_reference": [
         "verify/1cop.pdb",
@@ -318,6 +344,9 @@
         "verify/development_runs/ubiquitin_v9_steric_orientation_l24_20260719/prediction.pdb",
         "verify/development_runs/ubiquitin_v10_balanced_relations_l24_20260719/prediction.pdb",
         "verify/development_runs/ubiquitin_v10_balanced_relations_l76_20260719/prediction.pdb"
+      ],
+      "sealed_v11_agent_development_output": [
+        "verify/development_runs/ubiquitin_v11_hbond_assembly_l24_20260719/prediction.pdb"
       ],
       "legacy_preproject_development_artifact": [
         "1ubq_autonomous.pdb",

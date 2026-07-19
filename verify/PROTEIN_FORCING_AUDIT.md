@@ -272,6 +272,34 @@ while adding backbone hydrogen-bond assembly and a hard-exclusion
 representation that resolves side-chain placement more fully. That is a
 positive engineering continuation, not a theoretical wall.
 
+### Target-incapable backbone hydrogen-bond assembly
+
+V11 retains the complete v10 relation and adds a generated backbone
+donor/acceptor constitution. Donor and acceptor directions are constructed from
+the generated N/CA/C frames; proline is exactly non-donor; the endogenous
+adjacent C-alpha step supplies normalization; deterministic strongest-first
+selection gives each donor and acceptor unit capacity. The runtime contains no
+target coordinate, O/H target atom, empirical distance cutoff, angular cutoff,
+fitted energy, reward, template or learned parameter.
+
+The sealed 24-residue target-isolated development run generated 108 eligible
+relations and selected 17 donor/acceptor pairs. Post-seal same-index comparison
+measured `KTI` at TM `0.999701361058143`, dRMSD
+`0.006615982459036663 Å`, and Kabsch RMSD `0.008642163509649983 Å`;
+`TLTG` measured TM `0.6441498215858261`. These advance the best length-three
+and length-four local values of the matched v10 24-residue route. The complete
+receipt also preserves whole-prefix TM `0.020183289658017203`, dRMSD
+`7.074317396421713 Å`, and every length-three, -four and -five window as
+development data, not as a Maria conclusion, failed prediction or theoretical
+limit.
+
+V10 therefore remains the current whole-chain route while v11 supplies the
+active hydrogen-bond continuation. The next generated relation separates the
+alpha `i -> i+4` topology from longer inter-strand pairings and combines it
+with spatially complete side-chain hard exclusion. This is a refinement of an
+already executable relation, not a theorem-derived wall. Maria decides whether
+and when the development relation is promoted or extended to the full chain.
+
 ## Preserved development evidence, not attributed conclusions
 
 Selector v2 receipts remain intact because they contain useful target-isolation,
@@ -317,12 +345,13 @@ The registry verifier halts if:
 
 Generated PDBs and campaign receipts are evidence rather than forcing source.
 They are bound by the protected construction manifest or their immutable seals.
-All 66 tracked PDBs are also exhaustively classified: two experimental
+All 67 tracked PDBs are also exhaustively classified: two experimental
 references, one protected target-assisted construction, eleven sealed v2
 development outputs, four sealed v3 blind predictions, one sealed v4 auxiliary
 development output, two sealed v5 applied development outputs, and thirty-nine
 legacy pre-project development artifacts, plus the three sealed v6-v8 and
-three sealed v9-v10 applied development outputs described above.
+three sealed v9-v10 and one sealed v11 applied development output described
+above.
 Their complete path-and-content census is hash-bound by the registry; both v2
 aggregate seals are reverified. Legacy filenames such as `predicted`,
 `optimized`, or `autonomous` do not confer result or authorship status.
@@ -338,8 +367,9 @@ four-residue inter-window continuation; and v10 is the current active applied
 route, carrying signed alpha/beta geometry, binary mode preservation, formal
 charge, exact side-chain graph crowding, and weight-free ordinal balance.
 
-The next state is to retain those constitutions while forward-forcing backbone
-hydrogen-bond assembly and a more spatially complete side-chain hard-exclusion
+The next state is to retain those constitutions while refining the active v11
+backbone hydrogen-bond assembly into distinct alpha and longer inter-strand
+topologies and adding a more spatially complete side-chain hard-exclusion
 relation. New relations must be named in their own immutable manifest, traced
 through the engine standard, source-bound, tested, and executed on sealed real
 sequence before comparison. The protected complete-lattice construction, the
