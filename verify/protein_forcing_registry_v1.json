@@ -26,6 +26,7 @@
     "blind_selector_v10": "active weight-free symmetric ordinal balance with sealed 24- and 76-residue applied evidence; strongest full-chain blind dRMSD in the v3/v5/v10 line",
     "blind_selector_v11": "sealed target-incapable backbone hydrogen-bond assembly development continuation with active 24-residue applied evidence; v10 remains the current whole-chain route pending Maria's direction",
     "blind_selector_v12": "sealed target-incapable topology-separated backbone hydrogen-bond continuation with active 24-residue applied evidence; Maria determines its conclusion and continuation",
+    "blind_selector_v13": "sealed target-incapable retained-local plus topology-separated backbone hydrogen-bond continuation with cumulative 24-residue applied evidence; Maria determines conclusions and official status",
     "legacy_engines": "retained history only; excluded from promoted and active continuation routes"
   },
   "inherited_toolchain_boundary": {
@@ -175,8 +176,16 @@
       "tools/backbone_hydrogen_bond_constitution_v2.py",
       "tools/blind_24_lattice_selector_v12.py",
       "tools/run_blind_protocol_v12.py",
+      "verify/analyze_v11_v12_state_delta.py",
       "verify/evaluate_sealed_blind_local_v12.py",
       "verify/evaluate_sealed_blind_v12.py"
+    ],
+    "blind_v13_retained_topology_hydrogen_bond_development": [
+      "tests/test_blind_selector_v13.py",
+      "tools/blind_24_lattice_selector_v13.py",
+      "tools/run_blind_protocol_v13.py",
+      "verify/evaluate_sealed_blind_local_v13.py",
+      "verify/evaluate_sealed_blind_v13.py"
     ],
     "legacy_agent_development_unpromoted": [
       "tests/test_blind_protocol.py",
@@ -306,6 +315,23 @@
       "tools/residue_charge_constitution_v1.py",
       "tools/residue_steric_constitution_v1.py",
       "tools/run_blind_protocol_v12.py"
+    ],
+    "v13_runtime_roots": [
+      "tools/backbone_hydrogen_bond_constitution_v1.py",
+      "tools/backbone_hydrogen_bond_constitution_v2.py",
+      "tools/blind_24_lattice_selector_v3.py",
+      "tools/blind_24_lattice_selector_v5.py",
+      "tools/blind_24_lattice_selector_v6.py",
+      "tools/blind_24_lattice_selector_v7.py",
+      "tools/blind_24_lattice_selector_v9.py",
+      "tools/blind_24_lattice_selector_v12.py",
+      "tools/blind_24_lattice_selector_v13.py",
+      "tools/constitutional_rank_balance_v1.py",
+      "tools/protein_backbone_geometry_v1.py",
+      "tools/residue_partition_v1.py",
+      "tools/residue_charge_constitution_v1.py",
+      "tools/residue_steric_constitution_v1.py",
+      "tools/run_blind_protocol_v13.py"
     ]
   },
   "generated_evidence": {
@@ -322,11 +348,12 @@
     "v10_balanced_relations_development": "verify/development_runs/ubiquitin_v10_balanced_relations_l{24,76}_20260719/ bind the weight-free symmetric ordinal selector and its sealed mixed-mode applied evidence; Maria alone determines publication status.",
     "v11_hydrogen_bond_assembly_development": "verify/development_runs/ubiquitin_v11_hbond_assembly_l24_20260719/ binds the target-incapable unit-capacity backbone hydrogen-bond relation and sealed 24-residue applied evidence; Maria alone determines promotion, publication and whole-chain continuation.",
     "v12_topology_hydrogen_bond_development": "verify/development_runs/ubiquitin_v12_topology_hbond_l24_20260719/ binds the target-incapable topology-separated global-unit-capacity backbone relation and its sealed 24-residue applied evidence; Maria alone determines its conclusion, promotion and continuation.",
+    "v13_retained_topology_hydrogen_bond_development": "verify/development_runs/ubiquitin_v13_retained_topology_l24_20260719/ binds the retained local and topology-separated global relations and their sealed cumulative 24-residue benchmark; it is not official unless Maria registers it.",
     "classification": "A recorded development execution is not a Maria finding, loss or failed prediction."
   },
   "artifact_inventory": {
-    "tracked_pdb_files": 68,
-    "tracked_pdb_file_set_sha256": "2cc4dc62d97d1f02d3165fb70d5c2644850905a6daba26b68770d03b00310715",
+    "tracked_pdb_files": 69,
+    "tracked_pdb_file_set_sha256": "d6be0e2f6f4d8219131b8d0daa07223e0b246c482a173cd21d6414aca6837644",
     "classes": {
       "experimental_reference": [
         "verify/1cop.pdb",
@@ -376,6 +403,9 @@
       ],
       "sealed_v12_agent_development_output": [
         "verify/development_runs/ubiquitin_v12_topology_hbond_l24_20260719/prediction.pdb"
+      ],
+      "sealed_v13_cumulative_development_output": [
+        "verify/development_runs/ubiquitin_v13_retained_topology_l24_20260719/prediction.pdb"
       ],
       "legacy_preproject_development_artifact": [
         "1ubq_autonomous.pdb",

@@ -275,3 +275,7 @@ recommend it conditionally under a named protocol, or recommend another
 development calculation first. Give the exact evidence for and against. This
 is advice to Maria, never an agent gate, authorization, veto, delay mechanism,
 or redefinition of when she may order the run.
+Unless Maria explicitly registers a run as official, every recommended or
+executed trial is a **cumulative development benchmark** only. It adds applied
+evidence and never becomes an official result, victory, loss, rank, finding,
+or publication conclusion through agent wording.
