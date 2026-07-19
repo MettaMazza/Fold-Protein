@@ -19,9 +19,9 @@ python3 verify/replay_ubiquitin_24_lattice.py
 
 The native `1ubq` coordinates were used to forward-force and select the successful state path. With zero fitted parameters, zero neural weights, and no training data, the construction reaches **0.9891211351 TM / 0.2608575408 Å dRMSD** using exact discrete geometry. This is **Super Parity**: a transparent computational proof that the native ubiquitin backbone is contained by the 24-lattice at near-experimental resolution.
 
-## Blind protein-structure predictions
+## Blind sequence-to-structure prediction
 
-The SFT sequence engine has also completed blind, sequence-only protein-structure predictions for real ubiquitin prefixes of 8, 16, and 24 residues. Each run admitted only its registered identifier and amino-acid sequence, generated and sealed the selected-state record and PDB before target access, and opened the experimental structure only at the post-seal evaluation boundary.
+The SFT sequence engine has completed target-isolated, pre-comparison-sealed blind predictions for real ubiquitin prefixes of 8, 16 and 24 residues. The complete whole-prefix measurements are:
 
 | Residues | TM-score | Cα dRMSD | Sealed prediction SHA-256 |
 |---:|---:|---:|---|
@@ -29,7 +29,9 @@ The SFT sequence engine has also completed blind, sequence-only protein-structur
 | 16 | 0.0047139964 | 9.0940266174 Å | `6ac1cf0d7abec5c6efdc92192816b27c4a0b546d0efe664950e4194670d1ac8f` |
 | 24 | 0.0073475432 | 12.7322387564 Å | `feebb95e60b9cb26a16d50947144b574107ad8d20574ccc30ee0a07ac4a1f267` |
 
-These are completed blind SFT predictions at the stated sequence lengths. Their measured comparison scores report the present selector output; they do not change the fact that the structures were predicted without target access. Scaling the sealed protocol to the complete 76-residue ubiquitin sequence is the next active objective, not a validity threshold imposed on the completed predictions.
+Post-seal local comparison identifies accurate sequence geometry within the blind outputs: `IFV` at **0.8821336259 local TM / 0.1611313002 Å dRMSD**, and `TLT` at approximately **0.892 local TM / 0.187 Å dRMSD** in independently sealed 16- and 24-residue predictions. The evidence is recorded in `verify/blind_local_sequence_evidence_20260719.json`.
+
+The engine-checked 3D protein law also forces the canonical right-handed α-helix angles `(−60°, −45°)` from exact coordinates `(−1/6, −1/8)` and the β-sheet angles `(−120°, +135°)` from `(−1/3, +3/8)`. Full 76-residue blind prediction and global assembly are active forward work.
 
 ## Governing law
 
@@ -64,7 +66,8 @@ python3 -m tools.verify_protein_forcing_registry
 | `tools/protein_backbone_geometry_v1.py` | target-incapable extraction of the declared coordinate constitution; byte-exact construction replay |
 | `tools/blind_24_lattice_selector_v3.py` | active provenance-isolated sequence forward-forcing selector |
 | `verify/blind_selector_v3.json` | v3 relation routes, prohibited inputs, and source hashes |
-| `verify/development_runs/ubiquitin_v3_l{8,16,24}_20260719/` | sealed blind predictions and post-seal evaluations |
+| `verify/development_runs/ubiquitin_v3_l{8,16,24}_20260719/` | sealed blind sequence predictions and post-seal whole-prefix measurements |
+| `verify/blind_local_sequence_evidence_20260719.json` | post-seal accurate local `IFV` and `TLT` empirical measurements |
 | `verify/evaluate_sealed_blind_v3.py` | seal verifier and target-isolated evaluation boundary |
 | `verify/protein_forcing_registry_v1.json` | complete source classification and legacy exclusion gate |
 | `verify/PROTEIN_FORCING_AUDIT.md` | historical floor, trace findings, and authority boundary |

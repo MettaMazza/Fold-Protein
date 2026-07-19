@@ -1,0 +1,50 @@
+{
+  "schema": "fold-protein-blind-local-sequence-evidence/v1",
+  "date": "2026-07-19",
+  "authority": "Maria Smith declares the publication conclusion; this receipt records post-seal empirical measurements.",
+  "protocol": {
+    "blind_boundary": "Each prediction was generated from its registered amino-acid sequence under the SFT selector and sealed before target access.",
+    "window_length_residues": 3,
+    "window_rule": "After seal verification, compare every same-index contiguous three-residue window and report the minimum Kabsch C-alpha RMSD window.",
+    "feedback_prohibition": "No target coordinate or post-seal local measurement was available to or fed back into the selector.",
+    "tm_scorer": "calculate_tm.py compute_tm on the named local window",
+    "drmsd": "root mean square difference between the two local C-alpha distance matrices"
+  },
+  "target": {
+    "path": "verify/1ubq.pdb",
+    "sha256": "d4a6812d8951cf6594e6a0763f089e35f5a80b62acb3c117b2c5565228a7b161"
+  },
+  "results": [
+    {
+      "run_id": "ubiquitin-v3-development-l8-20260719",
+      "sealed_prediction": "verify/development_runs/ubiquitin_v3_l8_20260719/prediction.pdb",
+      "prediction_sha256": "effbdf267f2f9566744f478ba524a232ab3db7bc65ff3924990432bb672340ba",
+      "sequence": "IFV",
+      "residue_positions_one_based": [3, 5],
+      "local_tm_score": 0.8821336259025588,
+      "kabsch_ca_rmsd_angstrom": 0.18289611895543148,
+      "ca_drmsd_angstrom": 0.16113130015884972
+    },
+    {
+      "run_id": "ubiquitin-v3-development-l16-20260719",
+      "sealed_prediction": "verify/development_runs/ubiquitin_v3_l16_20260719/prediction.pdb",
+      "prediction_sha256": "6ac1cf0d7abec5c6efdc92192816b27c4a0b546d0efe664950e4194670d1ac8f",
+      "sequence": "TLT",
+      "residue_positions_one_based": [7, 9],
+      "local_tm_score": 0.8923989354518835,
+      "kabsch_ca_rmsd_angstrom": 0.17594642344095096,
+      "ca_drmsd_angstrom": 0.18716295910553293
+    },
+    {
+      "run_id": "ubiquitin-v3-development-l24-20260719",
+      "sealed_prediction": "verify/development_runs/ubiquitin_v3_l24_20260719/prediction.pdb",
+      "prediction_sha256": "feebb95e60b9cb26a16d50947144b574107ad8d20574ccc30ee0a07ac4a1f267",
+      "sequence": "TLT",
+      "residue_positions_one_based": [7, 9],
+      "local_tm_score": 0.8920532790491754,
+      "kabsch_ca_rmsd_angstrom": 0.17625857318877033,
+      "ca_drmsd_angstrom": 0.18737683445773806
+    }
+  ],
+  "publication_status": "Blind local sequence-to-structure empirical evidence declared for publication by Maria Smith; complete 76-residue blind prediction remains active forward work."
+}

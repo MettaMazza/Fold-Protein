@@ -150,7 +150,7 @@
     "pdb_files": "Targets, constructions and development outputs are data, not forcing source; protected or sealed routes bind them by SHA-256.",
     "v2_receipts": "Preserved under verify/blind_selector_v2_* and checked by their registered seal verifiers.",
     "continuation_receipt": "verify/blind_selector_v2_continuation_lineage_20260718.json when the registered replay completes.",
-    "v3_blind_predictions": "Target-isolated sequence-only inputs, sealed selected states and PDBs, and post-seal evaluations are preserved under verify/development_runs/ubiquitin_v3_l{8,16,24}_20260719/.",
+    "v3_blind_predictions": "Target-isolated sequence-only inputs, sealed selected states and PDBs, and post-seal evaluations are preserved under verify/development_runs/ubiquitin_v3_l{8,16,24}_20260719/; Maria Smith has declared them blind predictions for publication.",
     "classification": "A recorded development execution is not a Maria finding, loss or failed prediction."
   },
   "artifact_inventory": {

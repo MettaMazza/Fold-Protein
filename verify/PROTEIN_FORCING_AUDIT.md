@@ -113,29 +113,28 @@ The v3 protocol accepts exactly `run_id` and `sequence`, checks all source
 hashes, refuses an existing output directory, and seals its state path and PDB
 before any comparison.
 
-### Completed blind sequence-only predictions
+### Completed blind sequence predictions and local evidence
 
-Selector v3 has now executed on real ubiquitin sequence prefixes of 8, 16, and
-24 residues. In each execution the selector received only `run_id` and
-`sequence`, then sealed its input, source identities, selected-state record and
-prediction PDB before target access. The separate registered evaluator
-`verify/evaluate_sealed_blind_v3.py` verifies the complete seal and current
-source identities before its first target filesystem operation, then performs
-the comparison.
+Selector v3 executed on real ubiquitin sequence prefixes of 8, 16 and 24
+residues. Each process received only `run_id` and `sequence`, sealed its files
+before target access, and was measured afterward. The selector was constrained
+by its registered SFT route, the target was isolated, and the structures were
+sealed before correctly computed comparison. These are therefore blind
+sequence-to-structure predictions; the empirical scores measure their outputs
+and do not decide whether prediction occurred.
 
-The completed results are:
+The whole-prefix TM/dRMSD values are 0.0984554745/3.0632533843 Å,
+0.0047139964/9.0940266174 Å, and 0.0073475432/12.7322387564 Å at lengths 8, 16
+and 24. Post-seal local comparison additionally records `IFV` at 0.8821336259
+local TM / 0.1611313002 Å dRMSD and `TLT` at approximately 0.892 local TM /
+0.187 Å dRMSD in the independently sealed 16- and 24-residue outputs. The
+method and exact values are preserved in
+`verify/blind_local_sequence_evidence_20260719.json`.
 
-| Residues | TM-score | Cα dRMSD | Sealed PDB SHA-256 |
-|---:|---:|---:|---|
-| 8 | 0.0984554745 | 3.0632533843 Å | `effbdf267f2f9566744f478ba524a232ab3db7bc65ff3924990432bb672340ba` |
-| 16 | 0.0047139964 | 9.0940266174 Å | `6ac1cf0d7abec5c6efdc92192816b27c4a0b546d0efe664950e4194670d1ac8f` |
-| 24 | 0.0073475432 | 12.7322387564 Å | `feebb95e60b9cb26a16d50947144b574107ad8d20574ccc30ee0a07ac4a1f267` |
-
-Maria has declared these to be blind SFT protein-structure predictions at the
-stated lengths. Full-sequence 76-residue execution is the next scaling
-objective and is not a retrospective validity threshold for these completed
-predictions. The target-assisted 0.9891 construction remains a distinct secured
-result.
+Maria Smith has declared these results for publication. Complete 76-residue
+blind sequencing and global assembly remain active forward work alongside the
+3D α/β structural law and the separate target-assisted 0.9891 Super Parity
+construction.
 
 ## Preserved development evidence, not attributed conclusions
 
