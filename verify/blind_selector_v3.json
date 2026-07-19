@@ -44,15 +44,16 @@
     "deterministic_nerf_builder": "constitutional computational re-derivation in the target-incapable geometry module",
     "target_isolation_and_sealing": "constitutional experimental protocol",
     "self_exclusion_at_the_one": "One-normalised generated-geometry relation",
-    "hydrophobic_alphabet": "registered established sequence classification used by the forward-forcing selector",
+    "hydrophobic_alphabet": "complete executable constitution of the registered sequence classification in tools/residue_partition_v1.py",
     "dimensionless_topology_order": "registered generated-geometry forward-forcing relation",
     "lexicographic_priority": "registered exact ordering",
     "beam_width": "forced at runtime from the lattice axis census; caller selection is rejected",
     "neutral_secondary_structure": "removed; v3 geometry receives sequence and exact dihedrals only"
   },
   "source_sha256": {
-    "tools/blind_24_lattice_selector_v3.py": "4d874257de55a30e81699a2f559c5ce505650ec58795aa1b352b26a9fab064b7",
+    "tools/blind_24_lattice_selector_v3.py": "062c2e4174e42494d3631e0c6aa38a708ec1a5952dc321ce66328620ff305cb5",
     "tools/protein_backbone_geometry_v1.py": "a043e5d05a26fdf063c4703dac619f5fe918b65779a96df6d3cfa2f536fdc315",
+    "tools/residue_partition_v1.py": "f48e0ebc2c3dbc1d6d7a37370e0a2329968524d169d7b43022dce30ceacd3814",
     "tools/run_blind_protocol_v3.py": "0719db7e7b33441c15424b03fa64d08217f3be6274abe25c87850ca83c8c823e",
     "verify/protein_backbone_geometry_v1.json": "47da7e3f3c58a88e53b36157c5d5ed4dfa2c8b2c6e2cba91a5da34e5746571fd",
     "verify/replay_protein_backbone_geometry_v1.py": "c441fac4b7afde843ff260fadcd62430aa8937f3881d2e778de32c27c3b80b62"

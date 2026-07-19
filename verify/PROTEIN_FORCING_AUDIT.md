@@ -101,6 +101,14 @@ closes the configurable-width boundary; it does not by prose decide the
 separate engine question of whether finite frontier retention is the admitted
 causal selection form.
 
+The registered residue relation is now executable in
+`tools/residue_partition_v1.py`. The selector no longer owns an unexplained
+alphabet literal: the module enumerates the complete 20-residue alphabet,
+proves the two registered classes disjoint and exhaustive, and supplies the
+sealed packing class to v3. This is deliberately recorded as a constitutional
+re-expression of the registered biochemical relation, not relabelled by prose
+as a theorem-only derivation.
+
 The v3 protocol accepts exactly `run_id` and `sequence`, checks all source
 hashes, refuses an existing output directory, and seals its state path and PDB
 before any comparison.

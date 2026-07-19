@@ -82,6 +82,7 @@
       "tests/test_protein_forcing_registry.py",
       "tools/blind_24_lattice_selector_v3.py",
       "tools/protein_backbone_geometry_v1.py",
+      "tools/residue_partition_v1.py",
       "tools/run_blind_protocol_v3.py",
       "tools/verify_protein_forcing_registry.py",
       "verify/blind_selector_v3.json",
@@ -138,6 +139,7 @@
     "v3_runtime_roots": [
       "tools/blind_24_lattice_selector_v3.py",
       "tools/protein_backbone_geometry_v1.py",
+      "tools/residue_partition_v1.py",
       "tools/run_blind_protocol_v3.py"
     ]
   },

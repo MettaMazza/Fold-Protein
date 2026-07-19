@@ -13,8 +13,12 @@ import numpy as np
 
 try:
     from tools.protein_backbone_geometry_v1 import build_backbone_coordinates
+    from tools.residue_partition_v1 import (
+        AMINO_ACIDS, HYDROPHOBIC_PACKING, verify_registered_partition)
 except ImportError:  # direct execution from tools/
     from protein_backbone_geometry_v1 import build_backbone_coordinates
+    from residue_partition_v1 import (
+        AMINO_ACIDS, HYDROPHOBIC_PACKING, verify_registered_partition)
 
 
 LATTICE_DEGREES = tuple(range(-180, 180, 15))
@@ -24,8 +28,8 @@ LATTICE_STATES = tuple(
     for psi in LATTICE_DEGREES
 )
 CANONICAL_STATE = 0
-AMINO_ACIDS = frozenset("ACDEFGHIKLMNPQRSTVWY")
-HYDROPHOBICS = frozenset("VILMFWCY")
+HYDROPHOBICS = HYDROPHOBIC_PACKING
+RESIDUE_PARTITION = verify_registered_partition()
 
 
 def forced_beam_width() -> int:

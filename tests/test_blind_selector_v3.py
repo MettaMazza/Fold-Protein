@@ -27,10 +27,13 @@ class BlindSelectorV3Tests(unittest.TestCase):
         allowed_project_modules = {
             "tools.protein_backbone_geometry_v1",
             "protein_backbone_geometry_v1",
+            "tools.residue_partition_v1",
+            "residue_partition_v1",
         }
         for relative in (
             "tools/blind_24_lattice_selector_v3.py",
             "tools/protein_backbone_geometry_v1.py",
+            "tools/residue_partition_v1.py",
         ):
             tree = ast.parse((ROOT / relative).read_text())
             imported = {
@@ -55,6 +58,17 @@ class BlindSelectorV3Tests(unittest.TestCase):
         self.assertEqual(LATTICE_DEGREES[0], -180)
         self.assertEqual(LATTICE_DEGREES[-1], 165)
         self.assertEqual(forced_beam_width(), 24)
+
+    def test_registered_residue_partition_is_exhaustive_and_disjoint(self):
+        from tools.residue_partition_v1 import (
+            AMINO_ACIDS, HYDROPHOBIC_PACKING, REGISTERED_PARTITION,
+            verify_registered_partition)
+        census = verify_registered_partition()
+        self.assertEqual(census["alphabet_count"], 20)
+        self.assertEqual(set().union(*REGISTERED_PARTITION.values()), AMINO_ACIDS)
+        classes = list(REGISTERED_PARTITION.values())
+        self.assertFalse(classes[0] & classes[1])
+        self.assertEqual(HYDROPHOBIC_PACKING, frozenset("VILMFWCY"))
 
     def test_protocol_rejects_a_caller_selected_beam_width(self):
         with tempfile.TemporaryDirectory() as tmp:
