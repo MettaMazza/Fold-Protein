@@ -1,0 +1,39 @@
+{
+  "schema": "fold-protein-blind-selector/v33",
+  "version": "33.0.0-development",
+  "execution": "exact minimax cross-topology consensus",
+  "foundation": {
+    "theorem": "one machine-checked self-proven theorem: there is no nothing",
+    "axioms": 0,
+    "trace": "sealed V25-V30 branches plus V23.2 domains -> independent counted degree-2/3/4 frontiers -> minimum distance to every complete family -> exact minimum worst-family stratum -> symmetric family-distance resolution -> established whole-chain constitution"
+  },
+  "selector_config": {
+    "body_residues": 4,
+    "degree_frontier": [2, 3, 4],
+    "topology": "complete counted bounded-degree ordinal frontier",
+    "consensus": "exact minimum worst-family state distance then symmetric family distance",
+    "branch_sources": ["V25", "V26.1", "V27", "V28", "V29", "V30"],
+    "domain_capacity": 24,
+    "frontier_capacity": 24,
+    "assembly_directions": ["forward", "reverse"],
+    "target": null,
+    "template": null,
+    "reward": null,
+    "weight": null,
+    "trained_parameter": null,
+    "continuity_lock": null
+  },
+  "source_sha256": {
+    "verify/blind_selector_v29.json": "bd1294b8c15d6da0d480ef1adc39f8b5bbbe59828674358a3f1dc1baac1be7b1",
+    "verify/blind_selector_v32.json": "68a5f8a1c7b7456662e8a0c6a08ffbe8a7a833ec4a19776920e491131eb1d653",
+    "tools/blind_24_lattice_selector_v29.py": "ea64f91a4c994046e774b895ecbfddf4157f0f74a2783652bec58fe802201ca2",
+    "tools/blind_24_lattice_selector_v31.py": "4bb2021bd9d4195f6068e7c22163cc15b0806c936be90f485d17030a6cfb9469",
+    "tools/blind_24_lattice_selector_v32.py": "e11061f7792a0631e8563ce25ebf85bbfacc7c7d4364a58a0331077dbbf6182f",
+    "tools/blind_24_lattice_selector_v33.py": "dc166c9d124f8e34688ad411ba17dfb0c7319bf135d9a80a965718eb15ab154c",
+    "tools/tertiary_segment_body_constitution_v3.py": "486b858d834aeed4e2964fb6a43a410f1ccdfe2b3f14ab6b91d01c994c26f67a",
+    "tools/run_blind_protocol_v32.py": "e3ca002a2bb73ee274894afad3c53a4232583a7f8c81d1d8cfa26ed3dfe300a1",
+    "tools/run_blind_protocol_v33.py": "004ff24a57646850c093bc5238997602027e36b191ceacf280542c514b1257d9",
+    "verify/evaluate_sealed_blind_v33.py": "9eabacf56fdb471694b3db598838749b121e780264c100d72afcc4b441d8775b"
+  },
+  "status": "cumulative development architecture awaiting sealed applied data"
+}

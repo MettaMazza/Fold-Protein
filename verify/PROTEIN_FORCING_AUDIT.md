@@ -614,7 +614,7 @@ The registry verifier halts if:
 
 Generated PDBs and campaign receipts are evidence rather than forcing source.
 They are bound by the protected construction manifest or their immutable seals.
-All 123 tracked PDBs are also exhaustively classified: two experimental
+All 125 tracked PDBs are also exhaustively classified: two experimental
 references, one protected target-assisted construction, eleven sealed v2
 development outputs, four sealed v3 blind predictions, one sealed v4 auxiliary
 development output, two sealed v5 applied development outputs, and thirty-nine
@@ -627,7 +627,7 @@ six sealed V26/V26.1 outputs, three sealed V27 reconciliation outputs and
 three sealed V28 multiscale outputs, three sealed V29 tertiary-body-tree
 outputs, three sealed V30 degree-two-tertiary-path outputs and two sealed V31
 bounded-topology-frontier gate outputs plus two sealed V32 cross-topology
-consensus gate outputs
+consensus gate outputs and two sealed V33 minimax-consensus gate outputs
 described above.
 Their complete path-and-content census is hash-bound by the registry; both v2
 aggregate seals are reverified. Legacy filenames such as `predicted`,
@@ -723,3 +723,13 @@ was started. This trace isolates the next implementation at an outer minimax
 consensus stratum—exact worst-family distance followed by symmetric family
 distances—before physical reconciliation. It remains development evidence,
 not a limit or failed Maria prediction.
+
+V33 implements exact minimum worst-family distance as the outer consensus
+stratum. L24 closes to two equally distant candidates and selects V26.1 at TM
+`0.0264163231` / dRMSD `6.2909406819 Å`. L32 closes to one candidate and
+selects V28 byte-exactly at TM `0.0444462491` / dRMSD `5.6156347475 Å`,
+removing the V31/V32 regression but not retaining V29/V30's stronger L32 row.
+The conditional L76 execution was not started. This completes the applied
+global-degree consensus diagnosis and directs the next architecture to
+sequence-heterogeneous per-body degree capacity; it is not evidence of a
+theoretical wall.

@@ -276,6 +276,18 @@ exact worst-family distance the outer minimax consensus stratum before
 physical reconciliation, followed by symmetric family distances; this is a
 counted constitutional order, not a weight, reward, quota or lock.
 
+V33 makes exact worst-family distance the outer minimax stratum. At L24 the
+minimum closes to two paths at equal `[9,9,9]` family distance and physical
+reconciliation selects V26.1, reaching **TM `0.0264163231` / dRMSD
+`6.2909406819 Å`**. This strongly recovers TM over V31/V32 but remains behind
+V29's L24 distance result. At L32 the minimax stratum contains one candidate,
+the sealed V28 path, restoring **TM `0.0444462491` / dRMSD `5.6156347475 Å`**
+and eliminating the V31/V32 regression, but not retaining V29/V30's stronger
+L32 row. Do not run V33 at L76. The next large architecture derives
+heterogeneous degree capacity per four-residue body from its exact sequence
+constitution, rather than imposing one degree on every body or reconciling
+global degrees.
+
 **The sequence supplies the spatial command.** The forward-forcing programme derives how amino-acid
 identity determines the invariant exclusions and relations that select among the 576 exact states per
 residue. Every proposed relation is routed through the engine; a violation halts rather than becoming

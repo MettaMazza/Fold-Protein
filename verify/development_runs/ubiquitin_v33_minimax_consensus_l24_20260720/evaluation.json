@@ -1,0 +1,38 @@
+{
+  "ca_drmsd_angstrom": 6.290940681880365,
+  "consensus_relation": {
+    "family_minimum_state_distances": [
+      9,
+      9,
+      9
+    ],
+    "total_family_distance": 27,
+    "worst_family_distance": 9
+  },
+  "degree_frontier": [
+    2,
+    3,
+    4
+  ],
+  "execution": "post-seal structural comparison",
+  "matched_ca_atoms": 24,
+  "minimax_candidate_count": 2,
+  "minimax_worst_family_distance": 9,
+  "official_run": false,
+  "result_type": "cumulative development benchmark",
+  "run_id": "development-ubiquitin-v33-minimax-consensus-l24-20260720",
+  "schema": "fold-protein-blind-evaluation/v33",
+  "seal_sha256": "630a105de26c0ac72cc04331f922e60ec4a4858f3d5d645bc3f0fcd23b0fd9e7",
+  "selected_family_membership": [],
+  "sequence_length": 24,
+  "status": "completed",
+  "target_id": "1ubq.pdb",
+  "target_sha256": "d4a6812d8951cf6594e6a0763f089e35f5a80b62acb3c117b2c5565228a7b161",
+  "tm_score": 0.026416323055637445,
+  "v25_departures": 8,
+  "v26_1_departures": 0,
+  "v27_departures": 3,
+  "v28_departures": 1,
+  "v29_departures": 7,
+  "v30_departures": 9
+}

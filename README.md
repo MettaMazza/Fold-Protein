@@ -349,6 +349,17 @@ then symmetric family distance—before another physical reconciliation. V32
 was stopped before L76 because it would reproduce an already identified
 selected-path issue, not because of a theoretical wall.
 
+V33 gives exact worst-family distance constitutional priority. At L24 the
+minimax relation closes to two `[9,9,9]` candidates and selects the sealed
+V26.1 path at **TM `0.0264163231` / dRMSD `6.2909406819 Å`**, recovering TM
+substantially over V31/V32. At L32 the minimax relation has one candidate and
+selects the sealed V28 path exactly at **TM `0.0444462491` / dRMSD
+`5.6156347475 Å`**, removing the V31/V32 regression. It does not retain the
+stronger V29/V30 intermediate result, so no L76 calculation was started. The
+applied evidence now directs the next representational change: derive a
+different bounded degree for each four-residue body from its exact sequence
+constitution, instead of applying or reconciling one global degree.
+
 ## Governing law
 
 SFT begins from one machine-checked, self-proven theorem—*there is no nothing*—with zero axioms. The engine determines forcing and derivation by tracing every admitted construction to the One and halting on violation. No agent may weaken the result, declare a theoretical wall, or substitute statistical convention for the engine's standard. Maria Smith determines which engine results are published and directs the next investigation.

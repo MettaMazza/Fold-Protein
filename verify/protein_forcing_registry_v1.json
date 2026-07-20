@@ -50,6 +50,7 @@
     "blind_selector_v30": "sealed sequence-forced degree-two tertiary body path at 24, 32 and 76 residues; preserves the intermediate-length advance at TM 0.0502723476 and 4.9045982349 Å dRMSD, while its short- and full-chain rows supply applied evidence that one fixed path is too restrictive",
     "blind_selector_v31": "sealed complete degree-2/3/4 tertiary-topology frontier gate at 24 and 32 residues; recovers V30 short-length distance geometry to 5.5047257155 Å but the L32 final frontier collapses to degree-4 candidates, supplying the applied basis for explicit cross-topology consensus before another complete-length run",
     "blind_selector_v32": "sealed constitutional cross-topology consensus gate at 24 and 32 residues; preserves degree-2/3/4 provenance in its 24-path consensus frontier and improves L24 TM over V31, while L32 final physical reconciliation remains byte-identical to V31 and supplies the applied basis for an exact minimax consensus stratum",
+    "blind_selector_v33": "sealed exact minimax cross-topology consensus gate at 24 and 32 residues; recovers L24 TM to 0.0264163231 and selects the V28 L32 path exactly at TM 0.0444462491 and 5.6156347475 Å dRMSD, eliminating the V31/V32 regression while establishing the next architecture at sequence-heterogeneous body degree capacity",
     "legacy_engines": "retained history only; excluded from promoted and active continuation routes"
   },
   "inherited_toolchain_boundary": {
@@ -366,6 +367,12 @@
       "tools/blind_24_lattice_selector_v32.py",
       "tools/run_blind_protocol_v32.py",
       "verify/evaluate_sealed_blind_v32.py"
+    ],
+    "blind_v33_minimax_topology_consensus_development": [
+      "tests/test_blind_selector_v33.py",
+      "tools/blind_24_lattice_selector_v33.py",
+      "tools/run_blind_protocol_v33.py",
+      "verify/evaluate_sealed_blind_v33.py"
     ],
     "legacy_agent_development_unpromoted": [
       "tests/test_blind_protocol.py",
@@ -859,6 +866,31 @@
       "tools/run_blind_protocol_v30.py",
       "tools/run_blind_protocol_v31.py",
       "tools/run_blind_protocol_v32.py"
+    ],
+    "v33_runtime_roots": [
+      "tools/blind_24_lattice_selector_v23.py",
+      "tools/blind_24_lattice_selector_v24.py",
+      "tools/blind_24_lattice_selector_v25.py",
+      "tools/blind_24_lattice_selector_v26.py",
+      "tools/blind_24_lattice_selector_v26_1.py",
+      "tools/blind_24_lattice_selector_v27.py",
+      "tools/blind_24_lattice_selector_v28.py",
+      "tools/blind_24_lattice_selector_v29.py",
+      "tools/blind_24_lattice_selector_v30.py",
+      "tools/blind_24_lattice_selector_v31.py",
+      "tools/blind_24_lattice_selector_v32.py",
+      "tools/blind_24_lattice_selector_v33.py",
+      "tools/global_sequence_constraint_graph_v1.py",
+      "tools/tertiary_segment_body_constitution_v1.py",
+      "tools/tertiary_segment_body_constitution_v2.py",
+      "tools/tertiary_segment_body_constitution_v3.py",
+      "tools/run_blind_protocol_v21.py",
+      "tools/run_blind_protocol_v28.py",
+      "tools/run_blind_protocol_v29.py",
+      "tools/run_blind_protocol_v30.py",
+      "tools/run_blind_protocol_v31.py",
+      "tools/run_blind_protocol_v32.py",
+      "tools/run_blind_protocol_v33.py"
     ]
   },
   "generated_evidence": {
@@ -899,11 +931,12 @@
     "v30_degree_two_tertiary_path_development": "verify/development_runs/ubiquitin_v30_tertiary_path_l{24,32,76}_20260720/ bind the counted two-boundary degree relation and a connected acyclic body path; L32 retains a 13.11% TM and 12.66% dRMSD advance over V28, while the short- and full-chain measurements establish the applied basis for retaining multiple admissible tertiary topologies.",
     "v31_bounded_topology_frontier_development": "verify/development_runs/ubiquitin_v31_topology_frontier_l{24,32}_20260720/ bind the complete counted degree interval 2/3/4 and independent bidirectional assembly for each sequence-only topology; L24 recovers V30 dRMSD to 5.5047257155 Å, while L32 final retention is 24/24 degree-4 candidates and supplies the applied basis for constitutional cross-topology consensus before complete-length execution.",
     "v32_cross_topology_consensus_development": "verify/development_runs/ubiquitin_v32_topology_consensus_l{24,32}_20260720/ bind exact minimum state distances to all three complete topology-family frontiers before whole-chain reconciliation; all families survive the L24 consensus frontier, but L32 selects the same bytes as V31, isolating the next correction at minimax consensus priority rather than topology construction.",
+    "v33_minimax_topology_consensus_development": "verify/development_runs/ubiquitin_v33_minimax_consensus_l{24,32}_20260720/ bind exact minimum worst-family distance as the outer consensus stratum before symmetric family distance and physical reconciliation; L24 selects V26.1 and recovers TM to 0.0264163231, while L32 uniquely selects V28 and removes the V31/V32 regression without retaining V29/V30's stronger intermediate row.",
     "classification": "A recorded development execution is not a Maria finding, loss or failed prediction."
   },
   "artifact_inventory": {
-    "tracked_pdb_files": 123,
-    "tracked_pdb_file_set_sha256": "6e17d1e4b62b8f9047c9062739570f5a04cec522dce3c9a4d2ec3f72516028c6",
+    "tracked_pdb_files": 125,
+    "tracked_pdb_file_set_sha256": "a5d5052205883b468b6ee6b9d08f6fc680cf81d7d2ef59ca74b9cf95f8c35257",
     "classes": {
       "experimental_reference": [
         "verify/1cop.pdb",
@@ -1056,6 +1089,10 @@
       "sealed_v32_cross_topology_consensus_development_output": [
         "verify/development_runs/ubiquitin_v32_topology_consensus_l24_20260720/prediction.pdb",
         "verify/development_runs/ubiquitin_v32_topology_consensus_l32_20260720/prediction.pdb"
+      ],
+      "sealed_v33_minimax_topology_consensus_development_output": [
+        "verify/development_runs/ubiquitin_v33_minimax_consensus_l24_20260720/prediction.pdb",
+        "verify/development_runs/ubiquitin_v33_minimax_consensus_l32_20260720/prediction.pdb"
       ],
       "legacy_preproject_development_artifact": [
         "1ubq_autonomous.pdb",
