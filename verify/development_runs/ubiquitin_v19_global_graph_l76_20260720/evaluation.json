@@ -1,0 +1,15 @@
+{
+  "ca_drmsd_angstrom": 7.872750334234049,
+  "execution": "post-seal structural comparison",
+  "matched_ca_atoms": 76,
+  "official_run": false,
+  "result_type": "cumulative development benchmark",
+  "run_id": "development-ubiquitin-v19-global-graph-l76-20260720",
+  "schema": "fold-protein-blind-evaluation/v19",
+  "seal_sha256": "c9d505518d7a34c03761744cffe5dd86d50ec0865532106fb981ad04d25ae27f",
+  "sequence_length": 76,
+  "status": "completed",
+  "target_id": "1ubq.pdb",
+  "target_sha256": "d4a6812d8951cf6594e6a0763f089e35f5a80b62acb3c117b2c5565228a7b161",
+  "tm_score": 0.14226877551271516
+}

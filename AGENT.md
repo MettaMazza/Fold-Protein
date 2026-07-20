@@ -145,15 +145,19 @@ V13 source unchanged because its hashes bind the seal. A separate single-build
 candidate is exact across every tested output field and 22.56% faster; promote
 that implementation only through a new source-bound protocol version.
 
-The current L24 global continuation candidate is V19. It preserves V13's
-local selection, applies the explicit covalent side-chain graph only at
-complete-prefix assembly, retains 22/24 V13 states, and improves both sealed
-global measures: **TM 0.0255448548** (+0.416%) and **7.0054033965 Å dRMSD**
-(0.157% improvement). Its strongest length-four and length-five rows remain
-exactly preserved. V13 remains the current complete 76-residue route; the next
-recommended cumulative development calculation is a matched sealed V19 L32
-gate, followed by L76 if the global advance and local preservation propagate.
-Maria alone decides whether and when those runs occur.
+V19 is the measured global-graph continuation. It preserves V13's local
+selection, applies the explicit covalent side-chain graph only at
+complete-prefix assembly, retains 22/24 V13 states at L24, and improves both
+sealed L24 global measures: **TM 0.0255448548** (+0.416%) and **7.0054033965 Å
+dRMSD** (0.157% improvement). At the matched L32 and L76 continuations it
+selects every V13 state and produces byte-identical PDBs and measurements. The
+complete V19 trace still records an active hard vector of **(48 backbone, 30
+graph)** and 110 atom encounters. V20 adds the exact atom-encounter count as a
+child stratum and preserves V19 exactly at L24. Preserve V13 as the current
+complete-sequence predictive route, retain V19/V20 as source-bound applied
+evidence, and direct the next construction toward graph-derived inter-window
+orientation or long-range contact topology rather than extending V20
+unchanged. Maria alone decides whether and when further runs occur.
 
 **The sequence supplies the spatial command.** The forward-forcing programme derives how amino-acid
 identity determines the invariant exclusions and relations that select among the 576 exact states per

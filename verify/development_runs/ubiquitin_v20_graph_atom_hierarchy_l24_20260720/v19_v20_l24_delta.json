@@ -1,0 +1,49 @@
+{
+  "schema": "fold-protein-v19-v20-l24-development-delta/v1",
+  "status": "completed",
+  "result_type": "cumulative development benchmark",
+  "official_run": false,
+  "authority": "Maria Smith alone assigns conclusions and official status.",
+  "applied_comparison": {
+    "sequence_length": 24,
+    "relation": "exact atom-encounter count as a child stratum of the already-counted graph-pair exclusion",
+    "v19_hard_exclusion_vector": [
+      5,
+      5
+    ],
+    "v20_hard_exclusion_vector": [
+      5,
+      5,
+      12
+    ],
+    "selected_state_identity": "24/24",
+    "selected_state_differences": 0,
+    "prediction_pdb_byte_identity": true,
+    "prediction_pdb_sha256": "a11dd85348ffa645fff4dad4f9ae3b6ea4cfe0c9381ed18f9b31df568f5fd84e",
+    "v19_tm_score": 0.025544854782528364,
+    "v20_tm_score": 0.025544854782528364,
+    "tm_delta": 0.0,
+    "v19_ca_drmsd_angstrom": 7.005403396485503,
+    "v20_ca_drmsd_angstrom": 7.005403396485503,
+    "ca_drmsd_delta_angstrom": 0.0,
+    "same_index_window_counts": {
+      "length_3": {"improved": 0, "tied": 22, "regressed": 0, "total": 22},
+      "length_4": {"improved": 0, "tied": 21, "regressed": 0, "total": 21},
+      "length_5": {"improved": 0, "tied": 20, "regressed": 0, "total": 20}
+    },
+    "wall_time_seconds": 272.62,
+    "maximum_resident_set_bytes": 85606400
+  },
+  "source_bound_evidence": {
+    "v20_selected_states_sha256": "dc5743b4870a6f32f72422b3f0394a19b478224feb802a41a5929e7bdfe79425",
+    "v20_seal_sha256": "4569ede4c936f4b03c2ee2708ff2a128ac2b8c10bf63bc7936a13fd5acf6e547",
+    "v20_evaluation_sha256": "a87d8a620b12360c1152ec660ab29b1051f1fc508812f144d0a179bcb3a135b6",
+    "v20_local_l3_sha256": "62125e3c807c341d014cb52cc85c48e95c61827b7c0642d1f2c29594d3327bca",
+    "v20_local_l4_sha256": "5ac33c095a0a42d3bb258d3730792cbbf9d7b271864cb28b1391c7c149cddb96",
+    "v20_local_l5_sha256": "a9c03d4b12b43179f8178a14f109794bb303f75a3ced734a56ecaa4eefdf8b23"
+  },
+  "development_direction": "The atom-encounter child stratum is an exact sequence-derived fact, but at L24 it preserves every V19 decision and measurement. It is retained as constitutional development evidence rather than extended unchanged. The next candidate should change how explicit graph geometry participates in long-range orientation or contact topology.",
+  "full_trial_recommendation": "Do not spend a complete-chain execution on V20 unchanged because the sealed applied L24 path is exactly V19. Continue from the measured V19 L76 evidence with a new forced propagation relation. Maria may order any run and alone assigns its status.",
+  "theoretical_status": "The exact-output tie does not establish a wall. It isolates atom-encounter multiplicity as insufficient by itself in this hierarchy and leaves other sequence-derived graph relations open to construction and execution.",
+  "author_audit": "Codex gpt-5.6-sol, high reasoning"
+}

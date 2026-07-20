@@ -1,0 +1,51 @@
+{
+  "schema": "fold-protein-v13-v19-l76-development-delta/v1",
+  "status": "completed",
+  "result_type": "cumulative development benchmark",
+  "official_run": false,
+  "authority": "Maria Smith alone assigns conclusions and official status.",
+  "applied_comparison": {
+    "sequence_length": 76,
+    "selected_state_identity": "76/76",
+    "selected_state_differences": 0,
+    "prediction_pdb_byte_identity": true,
+    "prediction_pdb_sha256": "2a7500350ef448f5a7833fd5e73229e0072f5c2d27c0021afb3759e7cf64c186",
+    "v13_tm_score": 0.14226877551271516,
+    "v19_tm_score": 0.14226877551271516,
+    "tm_delta": 0.0,
+    "v13_ca_drmsd_angstrom": 7.872750334234049,
+    "v19_ca_drmsd_angstrom": 7.872750334234049,
+    "ca_drmsd_delta_angstrom": 0.0,
+    "v19_hard_exclusion_vector": [
+      48,
+      30
+    ],
+    "v19_graph_excluded_residue_pairs": 30,
+    "v19_graph_atom_encounters": 110,
+    "same_index_window_counts": {
+      "length_3": {"improved": 0, "tied": 74, "regressed": 0, "total": 74},
+      "length_4": {"improved": 0, "tied": 73, "regressed": 0, "total": 73},
+      "length_5": {"improved": 0, "tied": 72, "regressed": 0, "total": 72},
+      "length_24": {"improved": 0, "tied": 53, "regressed": 0, "total": 53},
+      "length_32": {"improved": 0, "tied": 45, "regressed": 0, "total": 45},
+      "length_48": {"improved": 0, "tied": 29, "regressed": 0, "total": 29}
+    },
+    "wall_time_seconds": 2183.92,
+    "maximum_resident_set_bytes": 112836608
+  },
+  "source_bound_evidence": {
+    "v19_selected_states_sha256": "6eb471ede10cd41ffa0a336a4413da75bd77d50f64a23f95cdc8b2d693906ea4",
+    "v19_seal_sha256": "c9d505518d7a34c03761744cffe5dd86d50ec0865532106fb981ad04d25ae27f",
+    "v19_evaluation_sha256": "ca79ef51517fe0123f31e5cbb59f859665848f0f00cd539ed5952fc898fff040",
+    "v19_local_l3_sha256": "0c7a327efaa16a4999d2f596710c47212f51c520a65b3d360dac5d9394a419a2",
+    "v19_local_l4_sha256": "8e3b02048e3aeab9d513bb4574289cd7574e84e888b956ae9fb03d66b5aea5b9",
+    "v19_local_l5_sha256": "1b2d882b4eb920f245b67e6b046fa278061f0233652e65991f1fe12b0d99e890",
+    "v19_local_l24_sha256": "92e92acfc3f1f18560f16045934e8a69206ed037e7e97d5220fadb9d336a632d",
+    "v19_local_l32_sha256": "85168bbe5fc9f8bd86e54721a9cc12e6f3ec6c945e0cfc0ca08a17ebd87f3f97",
+    "v19_local_l48_sha256": "4e2553aaf98a7e366f8d20be59ff638c32d0ffb7f4bac4a9f0e2af1cfbf4ed98"
+  },
+  "development_direction": "V19 completes and seals all 76 residues with an active explicit graph census while preserving the complete V13 path exactly. Its L24 dual-metric improvement is real but does not propagate into a distinct L32 or L76 path under the present complete-prefix hierarchy. Preserve V13 as the current complete-sequence predictive route and use the V19 trace to construct the next sequence-derived long-range orientation or contact-topology relation.",
+  "full_trial_recommendation": "Do not repeat V19 or extend V20 unchanged. Recommend another sealed sequence-only development calculation first, built to make explicit graph topology participate in inter-window orientation while preserving the V13 local route. Maria alone decides when a development build receives a full or official trial.",
+  "theoretical_status": "The complete execution establishes no theorem-derived wall. The explicit graph relation is counted and active, the L24 path already demonstrates positive discrimination, and the protected lattice contains the 0.9891211351-TM trace. The next frontier is a new forced propagation construction, not an assumed impossibility.",
+  "author_audit": "Codex gpt-5.6-sol, high reasoning"
+}

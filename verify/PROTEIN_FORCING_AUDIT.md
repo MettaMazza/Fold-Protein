@@ -451,6 +451,27 @@ a matched sealed L32 cumulative development benchmark; successful propagation
 there supports a subsequent L76 development trial. Maria alone decides whether
 and when either run occurs.
 
+Those matched V19 continuation runs are now complete. At L32, V19 selects all
+32 V13 states and produces the byte-identical PDB at TM
+`0.07299987461043171` / dRMSD `5.983598069677243 Å`, while recording the active
+hard vector `(5 backbone, 5 sidechain_graph)` and 12 atom encounters. At L76,
+V19 selects all 76 V13 states and produces the byte-identical PDB at TM
+`0.14226877551271516` / dRMSD `7.872750334234049 Å`; its complete graph census
+records `(48 backbone, 30 sidechain_graph)` and 110 atom encounters. All tested
+same-index windows at lengths 3, 4, 5, 24, 32 and 48 are exactly preserved.
+The L24 dual-metric advance remains positive applied evidence, while the L32
+and L76 identity localises the next construction to how graph topology
+propagates across windows rather than to another complete-prefix count.
+
+V20 tests atom-encounter multiplicity as the exact child stratum
+`(backbone, sidechain_graph, sidechain_graph_atom_encounter)`. Its sealed L24
+execution records `(5, 5, 12)` but preserves all 24 V19 states, the PDB, global
+measurements and every length-3/4/5 local row exactly. The relation is retained
+as constituted source-bound evidence and is not extended unchanged. This
+exact-output measurement is not a theoretical wall: it isolates one child
+ordering while leaving graph-derived orientation and contact topology as the
+next constructive frontier.
+
 ## Preserved development evidence, not attributed conclusions
 
 Selector v2 receipts remain intact because they contain useful target-isolation,
@@ -496,14 +517,14 @@ The registry verifier halts if:
 
 Generated PDBs and campaign receipts are evidence rather than forcing source.
 They are bound by the protected construction manifest or their immutable seals.
-All 78 tracked PDBs are also exhaustively classified: two experimental
+All 81 tracked PDBs are also exhaustively classified: two experimental
 references, one protected target-assisted construction, eleven sealed v2
 development outputs, four sealed v3 blind predictions, one sealed v4 auxiliary
 development output, two sealed v5 applied development outputs, and thirty-nine
 legacy pre-project development artifacts, plus the three sealed v6-v8 and
 three sealed v9-v10, one sealed v11, one sealed v12, three sealed v13, two
-sealed v14, one sealed v15, one sealed v16, one sealed v17, one sealed v18 and
-one sealed v19 development outputs described above.
+sealed v14, one sealed v15, one sealed v16, one sealed v17, one sealed v18,
+three sealed v19 and one sealed v20 development outputs described above.
 Their complete path-and-content census is hash-bound by the registry; both v2
 aggregate seals are reverified. Legacy filenames such as `predicted`,
 `optimized`, or `autonomous` do not confer result or authorship status.
@@ -521,21 +542,23 @@ formal charge, exact side-chain graph crowding, weight-free ordinal balance,
 and retained local plus topology-separated hydrogen-bond assembly. Its sealed
 76-residue prediction improves whole-chain TM by 57.49% over v10.
 
-V17 has now spatially instantiated the exact side-chain graph and branch
-topology; V18 has separated its hard fact from the parent backbone exclusion;
-and V19 has located that graph relation at complete-prefix assembly while
-preserving V13's secured local frontier. V19 is the current L24 global
-continuation candidate: it improves both whole-prefix TM and dRMSD over V13,
-retains 22/24 states, and preserves the strongest length-four and length-five
-local rows. V13 remains the current complete 76-residue route until a longer
-V19 development execution is completed.
+V17 has spatially instantiated the exact side-chain graph and branch topology;
+V18 has separated its hard fact from the parent backbone exclusion; V19 has
+located that graph relation at complete-prefix assembly while preserving
+V13's secured local frontier; and V20 has tested atom-encounter multiplicity as
+an exact child stratum. V19 improves both whole-prefix TM and dRMSD over V13 at
+L24, retains 22/24 states, and preserves the strongest length-four and
+length-five local rows. Its completed L32 and L76 routes converge exactly to
+V13 while retaining an active graph census. V13 therefore remains the current
+complete-sequence predictive route, with V19/V20 retained as fully traced
+applied development evidence.
 
-The next state is to test V19 at a matched sealed L32 cumulative development
-gate, preserve the exact hard vector and local/global separation, and measure
-whether the improvement propagates beyond the final L24 region. A successful
-L32 gate supports proceeding to L76. The single-build reuse path and cached
-complete-prefix graph calculations are also the measured optimisation
-direction, provided exact sealed output identity is preserved. New relations must
+The next state is to derive how explicit sequence-sidechain graph topology
+participates in inter-window orientation or long-range contact assembly,
+preserve the V13 local route, and test the new relation first on matched sealed
+sequence-only data. The single-build reuse path and cached complete-prefix
+graph calculations remain the measured optimisation direction, provided exact
+sealed output identity is preserved. New relations must
 be named in their own immutable manifest, traced
 through the engine standard, source-bound, tested, and executed on sealed real
 sequence before comparison. The protected complete-lattice construction, the

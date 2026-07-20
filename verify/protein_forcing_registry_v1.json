@@ -32,7 +32,8 @@
     "blind_selector_v16": "sealed binary-pair spatial exclusion correction; small whole-prefix recovery over v15 while retaining v13 as the current complete-sequence route",
     "blind_selector_v17": "sealed explicit covalent side-chain graph spatial gate with active global and local discrimination",
     "blind_selector_v18": "sealed lexicographic backbone-before-sidechain hard-exclusion route; exact-output equivalent to v17 at 24 residues",
-    "blind_selector_v19": "current 24-residue global continuation candidate; preserves v13 local selection while explicit graph assembly improves both global TM and dRMSD over v13",
+    "blind_selector_v19": "sealed global-graph continuation at 24, 32 and 76 residues; improves both global measures at L24 and exactly preserves the complete v13 path at L32/L76 while retaining an active explicit graph census",
+    "blind_selector_v20": "sealed exact atom-encounter child hierarchy at 24 residues; preserves every v19 state and measurement and is retained as constituted development evidence",
     "legacy_engines": "retained history only; excluded from promoted and active continuation routes"
   },
   "inherited_toolchain_boundary": {
@@ -247,6 +248,13 @@
       "tools/run_blind_protocol_v19.py",
       "verify/evaluate_sealed_blind_local_v19.py",
       "verify/evaluate_sealed_blind_v19.py"
+    ],
+    "blind_v20_graph_atom_hierarchy_development": [
+      "tests/test_blind_selector_v20.py",
+      "tools/blind_24_lattice_selector_v20.py",
+      "tools/run_blind_protocol_v20.py",
+      "verify/evaluate_sealed_blind_local_v20.py",
+      "verify/evaluate_sealed_blind_v20.py"
     ],
     "legacy_agent_development_unpromoted": [
       "tests/test_blind_protocol.py",
@@ -512,6 +520,27 @@
       "tools/residue_steric_constitution_v1.py",
       "tools/sidechain_graph_spatial_exclusion_v1.py",
       "tools/run_blind_protocol_v19.py"
+    ],
+    "v20_runtime_roots": [
+      "tools/backbone_hydrogen_bond_constitution_v1.py",
+      "tools/backbone_hydrogen_bond_constitution_v2.py",
+      "tools/blind_24_lattice_selector_v3.py",
+      "tools/blind_24_lattice_selector_v5.py",
+      "tools/blind_24_lattice_selector_v6.py",
+      "tools/blind_24_lattice_selector_v7.py",
+      "tools/blind_24_lattice_selector_v9.py",
+      "tools/blind_24_lattice_selector_v12.py",
+      "tools/blind_24_lattice_selector_v13.py",
+      "tools/blind_24_lattice_selector_v18.py",
+      "tools/blind_24_lattice_selector_v20.py",
+      "tools/constitutional_lexicographic_exclusion_v1.py",
+      "tools/constitutional_rank_balance_v1.py",
+      "tools/protein_backbone_geometry_v1.py",
+      "tools/residue_charge_constitution_v1.py",
+      "tools/residue_partition_v1.py",
+      "tools/residue_steric_constitution_v1.py",
+      "tools/sidechain_graph_spatial_exclusion_v1.py",
+      "tools/run_blind_protocol_v20.py"
     ]
   },
   "generated_evidence": {
@@ -534,12 +563,13 @@
     "v16_binary_spatial_sidechain_development": "verify/development_runs/ubiquitin_v16_binary_sidechain_spatial_l24_20260720/ binds the binary hard-pair correction and its small whole-prefix recovery over v15; Maria determines all conclusions and official status.",
     "v17_explicit_graph_development": "verify/development_runs/ubiquitin_v17_graph_spatial_l24_20260720/ binds the explicit integer side-chain graph embedding, active graph-pair discrimination, and its local and global applied measurements.",
     "v18_hierarchical_exclusion_development": "verify/development_runs/ubiquitin_v18_hierarchical_graph_l24_20260720/ binds the exact backbone-before-sidechain hard-exclusion hierarchy and its byte-identical applied output relative to v17.",
-    "v19_global_graph_development": "verify/development_runs/ubiquitin_v19_global_graph_l24_20260720/ binds the v13-local/global-graph separation and the first explicit graph route to improve both sealed L24 global measures over v13; Maria determines all conclusions and official status.",
+    "v19_global_graph_development": "verify/development_runs/ubiquitin_v19_global_graph_l{24,32,76}_20260720/ bind the v13-local/global-graph separation, the first explicit graph route to improve both sealed L24 global measures over v13, and exact V13 path preservation at L32/L76 with an active complete graph census; Maria determines all conclusions and official status.",
+    "v20_graph_atom_hierarchy_development": "verify/development_runs/ubiquitin_v20_graph_atom_hierarchy_l24_20260720/ binds the exact atom-encounter child stratum and its sealed 24/24 state and measurement identity with V19; Maria determines all conclusions and official status.",
     "classification": "A recorded development execution is not a Maria finding, loss or failed prediction."
   },
   "artifact_inventory": {
-    "tracked_pdb_files": 78,
-    "tracked_pdb_file_set_sha256": "6ce0e058fcc7ee686e28b316ba3ec7da00d478d74848b7780afcd4a0e3d8d369",
+    "tracked_pdb_files": 81,
+    "tracked_pdb_file_set_sha256": "349c7fdcc2e46cfaf6899f33ed127f99204f13615a08b2eadc6a87338840475e",
     "classes": {
       "experimental_reference": [
         "verify/1cop.pdb",
@@ -612,7 +642,12 @@
         "verify/development_runs/ubiquitin_v18_hierarchical_graph_l24_20260720/prediction.pdb"
       ],
       "sealed_v19_global_graph_development_output": [
-        "verify/development_runs/ubiquitin_v19_global_graph_l24_20260720/prediction.pdb"
+        "verify/development_runs/ubiquitin_v19_global_graph_l24_20260720/prediction.pdb",
+        "verify/development_runs/ubiquitin_v19_global_graph_l32_20260720/prediction.pdb",
+        "verify/development_runs/ubiquitin_v19_global_graph_l76_20260720/prediction.pdb"
+      ],
+      "sealed_v20_graph_atom_hierarchy_development_output": [
+        "verify/development_runs/ubiquitin_v20_graph_atom_hierarchy_l24_20260720/prediction.pdb"
       ],
       "legacy_preproject_development_artifact": [
         "1ubq_autonomous.pdb",

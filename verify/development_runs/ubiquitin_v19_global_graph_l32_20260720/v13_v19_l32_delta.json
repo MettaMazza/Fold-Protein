@@ -1,0 +1,37 @@
+{
+  "schema": "fold-protein-v13-v19-l32-development-delta/v1",
+  "status": "completed",
+  "result_type": "cumulative development benchmark",
+  "official_run": false,
+  "authority": "Maria Smith alone assigns conclusions and official status.",
+  "applied_comparison": {
+    "sequence_length": 32,
+    "selected_state_identity": "32/32",
+    "selected_state_differences": 0,
+    "prediction_pdb_byte_identity": true,
+    "prediction_pdb_sha256": "a339edaf8f6f095d8c7146aac74d4734e09e99e8d0d831113628e1fb8d995cf2",
+    "v13_tm_score": 0.07299987461043171,
+    "v19_tm_score": 0.07299987461043171,
+    "tm_delta": 0.0,
+    "v13_ca_drmsd_angstrom": 5.983598069677243,
+    "v19_ca_drmsd_angstrom": 5.983598069677243,
+    "ca_drmsd_delta_angstrom": 0.0,
+    "v19_hard_exclusion_vector": [
+      5,
+      5
+    ],
+    "v19_graph_excluded_residue_pairs": 5,
+    "v19_graph_atom_encounters": 12,
+    "wall_time_seconds": 448.4,
+    "maximum_resident_set_bytes": 91996160
+  },
+  "source_bound_evidence": {
+    "v19_selected_states_sha256": "3f35a15e1ad577a240ecfc59ff62706dc9cbbe5e0309fd3a70c91e44139f59cc",
+    "v19_seal_sha256": "4c3b2ce96eae5d7cdccfe3097f5ba91f07d57fa12924c5d578c275598094c53a",
+    "v19_evaluation_sha256": "ec12f16918ceef349398925664a2c894d2d48a2e6979eb5bee0d601f2d337642"
+  },
+  "development_direction": "V19's explicit graph relation remains fully counted and active at 32 residues while the selected path converges exactly to V13. The L24 improvement is therefore horizon-local in the present complete-prefix hierarchy. The next construction should act on propagation or inter-window orientation rather than add another scalar child count.",
+  "full_trial_recommendation": "The exact L32 preservation supports executing the already-requested sealed L76 cumulative development comparison to determine complete-chain propagation. Maria alone decides official status and conclusions.",
+  "theoretical_status": "Exact preservation at this gate is a measured development result, not a theorem-derived wall. The graph relation is active and the protected lattice contains the high-parity trace; the constructive frontier is how the sequence-derived graph relation influences longer-range assembly.",
+  "author_audit": "Codex gpt-5.6-sol, high reasoning"
+}
