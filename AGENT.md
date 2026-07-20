@@ -178,17 +178,20 @@ quantity unchanged. Maria alone decides whether and when further runs occur.
 V23 is the first complete-domain global architecture. It evaluates all 576
 lattice states at every active residue, retains 24-state domains, assembles
 four-residue segments in both chain directions, reconciles whole-chain
-frontiers, and applies the explicit graph relation before emission. Its sealed
-L32 prediction improves TM from V19's `0.0729998746` to `0.1073563785`
-(47.06%) and improves dRMSD from `5.9835980697 Å` to `4.8501653531 Å`
-(18.94%). At L24 it improves dRMSD 31.92%. The matched L76 execution exposed
-loss of local-domain continuity; V23.2 restores V13/V19 local admission before
-global assembly, recovers both L76 measures over V23, and reaches
-`7.6581678292 Å` dRMSD—2.73% better than V13—while TM remains the active
-topology-development frontier. The next construction must form coherent
-locally admitted four-residue segment tuples rather than independently weaving
-residue-domain ranks. Preserve V23/V23.1/V23.2 source hashes and receipts as
-the applied causal record.
+frontiers, and applies the explicit graph relation before emission. V23.2
+restores V13/V19 local admission before that global assembly. V24 and V24.1
+then supplied sealed applied data for coherent complete-segment replacement
+and overlapping-window boundary closure. V25 uses those data to change the
+search basis: it starts from the sealed V23.2 path and propagates every
+locally admitted one-coordinate transition through 24-path forward and reverse
+beams, with no departure score, fitted limit, target, reward or weight. Its
+sealed L76 result improves V23.2 TM from `0.1017436531` to `0.1291502547`
+(26.94%) and dRMSD from `7.6581678292 Å` to `7.1461955341 Å` (6.69%), with
+11 parent departures. At L24 and L32 TM also improves over V23.2, while dRMSD
+moves lower in performance; report both measures explicitly. Preserve
+V23-V25 source hashes and receipts as the applied causal record. The next
+substantive construction should extend joint long-range topology inside the
+successful parent-anchored search basis, followed by the same sealed ladder.
 
 **The sequence supplies the spatial command.** The forward-forcing programme derives how amino-acid
 identity determines the invariant exclusions and relations that select among the 576 exact states per

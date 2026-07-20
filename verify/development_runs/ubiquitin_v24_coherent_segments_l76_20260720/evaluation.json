@@ -1,0 +1,16 @@
+{
+  "ca_drmsd_angstrom": 14.713849872707696,
+  "execution": "post-seal structural comparison",
+  "matched_ca_atoms": 76,
+  "official_run": false,
+  "parent_departures": 67,
+  "result_type": "cumulative development benchmark",
+  "run_id": "development-ubiquitin-v24-coherent-segments-l76-20260720",
+  "schema": "fold-protein-blind-evaluation/v24",
+  "seal_sha256": "703c8ba36a9381712d957f35ff7c4b007b6f16d8cce94bd01fe86a0669256d9b",
+  "sequence_length": 76,
+  "status": "completed",
+  "target_id": "1ubq.pdb",
+  "target_sha256": "d4a6812d8951cf6594e6a0763f089e35f5a80b62acb3c117b2c5565228a7b161",
+  "tm_score": 0.052312483422749904
+}

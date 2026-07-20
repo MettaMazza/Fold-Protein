@@ -1,0 +1,38 @@
+{
+  "complete_domain_states": 576,
+  "domain_capacity": 24,
+  "execution": "coherent local segment frontiers with bidirectional global assembly",
+  "frontier_capacity": 24,
+  "hard_exclusion_strata": [
+    "backbone",
+    "sidechain_graph"
+  ],
+  "official_run": false,
+  "parent_departures": 22,
+  "parent_run_id": "development-ubiquitin-v23-2-local-domains-l24-20260720",
+  "parent_selected_states_sha256": "eb026b9ebd95600f5db039d119d71634d9f42f6f87dc0dde6ddf4ca59893d541",
+  "path_length": 24,
+  "prediction_pdb_sha256": "103c752b42d866ae0abadd532850956dc6d0ebacd0024d372fe85d99c3fa067d",
+  "protocol_manifest_sha256": "401b45f588758414933ec6b0eb8cc450cb73b7d5c4c77e56a826cd0ade04d09d",
+  "result_type": "cumulative development benchmark",
+  "run_id": "development-ubiquitin-v24-coherent-segments-l24-20260720",
+  "runtime_seconds": 11.011741166,
+  "schema": "fold-protein-blind-seal/v24",
+  "segment_count": 6,
+  "segment_frontier_capacity": 24,
+  "segment_residues": 4,
+  "selected_states_sha256": "c81eb9a58a4771f9b0bbbd9b38cf30d84cdb84c0dcfa9ee17541c9e94a2c9ff3",
+  "selector_input_sha256": "a9761450311a84040478e2d4044b095a908f0addfeeb5877f7ca17cbc22f1928",
+  "sequence_sha256": "31b12152ecf937f3f9fb63d7346d54e03d058a50667be18b0aa22e9270049d6e",
+  "source_sha256": {
+    "tools/blind_24_lattice_selector_v23.py": "88c28f5bce3c66c22d457d1096b76b925834955a2c92ea896821efa720814033",
+    "tools/blind_24_lattice_selector_v24.py": "555e3d385cb7090ad7861eddd8715907b7a633abe65ef9e50baf349625bd31e9",
+    "tools/global_sequence_constraint_graph_v1.py": "f7e412ce5cb8863281ec13afe76e2617aacff5de922125cb855094c00c6d5cac",
+    "tools/run_blind_protocol_v21.py": "19a070f41e7666940cbc418d3b4b90c94db5cad69ee4ac3e0756b374dba712bc",
+    "tools/run_blind_protocol_v24.py": "629a4837fe10a601c68796aa9a1b945044c77451d1573bddfe53f8248d07b108",
+    "verify/blind_selector_v23_2.json": "14c4a6b77e22778fdaa75e4148b6adf2e2f7611c9b477f77fda451dac99b408e",
+    "verify/evaluate_sealed_blind_v24.py": "bc2116f94aac04355e30fdf2d7e7457522467739f2d7e86042935904e7479e5b"
+  },
+  "status": "completed",
+  "whole_chain_evaluations": 5834
+}

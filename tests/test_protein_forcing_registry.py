@@ -13,7 +13,7 @@ class ProteinForcingRegistryTests(unittest.TestCase):
             "6b08f5288034d0958a15c8b4b0af0edb59715e37",
         )
         self.assertEqual(receipt["inherited_compiler"]["tracked_files"], 315)
-        self.assertEqual(receipt["artifact_inventory"]["tracked_pdb_files"], 92)
+        self.assertEqual(receipt["artifact_inventory"]["tracked_pdb_files"], 101)
         self.assertEqual(
             receipt["artifact_inventory"]["class_counts"]["sealed_v3_blind_prediction"],
             4,

@@ -247,13 +247,29 @@ parent-departure axis cannot alter the preceding hard stratum. V23.2 then
 restored V13/V19 local eligibility before global domain assembly. Its sealed
 L76 output improves TM from V23's `0.0928040310` to **`0.1017436531`** and
 improves dRMSD from `8.7367333419 Å` to **`7.6581678292 Å`**. That dRMSD is
-also **2.73% better than V13's `7.8727503342 Å`**. The topology measure remains
-below V13's `0.1422687755`, so V13 remains the complete-sequence route while
-V23 supplies the active global architecture. The next state is not another
-single contact counter: it is a coherent locally admitted segment frontier,
-replacing independent rank-weaving of residue domains. These cumulative
-development benchmarks do not establish a theoretical wall and are not
-official runs unless Maria registers them.
+also **2.73% better than V13's `7.8727503342 Å`**.
+
+V24 made the next architectural move by constructing coherent locally
+admitted four-residue tuples; V24.1 re-evaluated every overlapping local
+window crossing their assembly boundaries. Their sealed data showed that
+complete tuple replacement displaced 67-71 of the stronger V23.2 parent
+states at L76. V25 therefore preserves the sealed V23.2 complete path as the
+starting candidate and expands every admitted one-coordinate transition in
+each derived four-residue unit through independent 24-path forward and reverse
+beams. This is a new global search basis, not a fitted continuity penalty.
+
+The sealed V25 L76 development result changes **11** V23.2 states and improves
+both measures: TM rises from `0.1017436531` to **`0.1291502547`**
+(**26.94%**) and dRMSD falls from `7.6581678292 Å` to
+**`7.1461955341 Å`** (**6.69% improvement**). At L24, TM rises **48.85%** to
+`0.0298230532` while dRMSD is `6.3456312175 Å`; at L32, TM rises **0.83%** to
+`0.0479008287` while dRMSD is `5.5215159800 Å`. Thus V25 advances topology at
+all three lengths and advances both full-length measures, while the short-
+prefix distance objective remains available for the next joint-topology
+construction. These are sealed cumulative development benchmarks, not
+official runs unless Maria registers them. They establish an implemented
+continuation through the represented relations and do not impose a
+theorem-derived wall on the blind benchmark objective.
 
 ## Governing law
 
@@ -309,6 +325,9 @@ python3 -m tools.verify_protein_forcing_registry
 | `tools/blind_24_lattice_selector_v22.py` | ordered exact graph-contact deficit assembly |
 | `tools/blind_24_lattice_selector_v23.py` | complete 576-state domains, bidirectional segment assembly and whole-chain reconciliation |
 | `tools/blind_24_lattice_selector_v23_2.py` | locally closed domain correction for the V23 global architecture |
+| `tools/blind_24_lattice_selector_v24.py` | coherent locally admitted four-residue tuple architecture |
+| `tools/blind_24_lattice_selector_v24_1.py` | overlapping-window boundary closure for coherent tuple assembly |
+| `tools/blind_24_lattice_selector_v25.py` | parent-anchored bidirectional constitutional coordinate beam |
 | `verify/development_runs/ubiquitin_v9_steric_orientation_l24_20260719/` | sealed v9 applied evidence |
 | `verify/development_runs/ubiquitin_v10_balanced_relations_l{24,76}_20260719/` | sealed v10 applied evidence |
 | `verify/development_runs/ubiquitin_v11_hbond_assembly_l24_20260719/` | sealed v11 hydrogen-bond applied evidence and post-seal local windows |
@@ -328,6 +347,9 @@ python3 -m tools.verify_protein_forcing_registry
 | `verify/development_runs/ubiquitin_v22_contact_deficit_l24_20260720/` | sealed active contact-deficit path, global/local measurements and V19 delta receipt |
 | `verify/development_runs/ubiquitin_v23_global_domains_l{24,32,76}_20260720/` | sealed complete-domain bidirectional global development benchmarks |
 | `verify/development_runs/ubiquitin_v23_2_local_domains_l{24,32,76}_20260720/` | sealed locally closed correction and L76 geometric recovery |
+| `verify/development_runs/ubiquitin_v24_coherent_segments_l{24,32,76}_20260720/` | sealed coherent-segment architecture evidence |
+| `verify/development_runs/ubiquitin_v24_1_boundary_closed_l{24,32,76}_20260720/` | sealed overlapping-window boundary-closure evidence |
+| `verify/development_runs/ubiquitin_v25_coordinate_beam_l{24,32,76}_20260720/` | sealed parent-anchored coordinate-beam evidence and L76 dual-metric advance |
 | `verify/development_runs/ubiquitin_v12_topology_hbond_l24_20260719/v11_v12_state_delta.json` | source-bound sealed-path and local-window delta locating the next combined relation |
 | `verify/evaluate_sealed_blind_v3.py` | seal verifier and target-isolated evaluation boundary |
 | `verify/evaluate_sealed_blind_local_v3.py` | all-window post-seal local evaluator; reproduces the published IFV/TLT measurements |

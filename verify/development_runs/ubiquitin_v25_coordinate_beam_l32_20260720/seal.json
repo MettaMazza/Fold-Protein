@@ -1,0 +1,38 @@
+{
+  "complete_domain_states": 576,
+  "domain_capacity": 24,
+  "execution": "parent-anchored bidirectional constitutional coordinate beam",
+  "frontier_capacity": 24,
+  "hard_exclusion_strata": [
+    "backbone",
+    "sidechain_graph"
+  ],
+  "official_run": false,
+  "parent_departures": 6,
+  "parent_run_id": "development-ubiquitin-v23-2-local-domains-l32-20260720",
+  "parent_selected_states_sha256": "306c489ddfef299ccedc8a0562552ddc1e1cf79fcf63049f31fdcf8cc8bb4af0",
+  "path_length": 32,
+  "prediction_pdb_sha256": "f7fd4ebb94620976658272813dd33c5e5647117aabed169e8b923edb9825dd4a",
+  "protocol_manifest_sha256": "095a8bc2d75dcd691ded58f52701e5f31a432f48851f83f67deb412f3023a6c1",
+  "result_type": "cumulative development benchmark",
+  "run_id": "development-ubiquitin-v25-coordinate-beam-l32-20260720",
+  "runtime_seconds": 18.141435833,
+  "schema": "fold-protein-blind-seal/v25",
+  "segment_count": 8,
+  "segment_residues": 4,
+  "selected_states_sha256": "fb4949818feb2ee8d3579306de12586d6c748969763c9d3f13bcf56fdf9f2f48",
+  "selector_input_sha256": "c15715ba479e465546be740a05f6d08bb2e92cee7b8d00ef65d83a5a327b860d",
+  "sequence_sha256": "111ce91ce082b13e5de20b4e3faa1914243bddb33f1c35da4a585d9d2e80bb1f",
+  "source_sha256": {
+    "tools/blind_24_lattice_selector_v23.py": "88c28f5bce3c66c22d457d1096b76b925834955a2c92ea896821efa720814033",
+    "tools/blind_24_lattice_selector_v24.py": "555e3d385cb7090ad7861eddd8715907b7a633abe65ef9e50baf349625bd31e9",
+    "tools/blind_24_lattice_selector_v25.py": "312ee496765a14739ea05fbce7acc7aa5ee2be9546d02baf5cc960fa0b6a9f5b",
+    "tools/global_sequence_constraint_graph_v1.py": "f7e412ce5cb8863281ec13afe76e2617aacff5de922125cb855094c00c6d5cac",
+    "tools/run_blind_protocol_v21.py": "19a070f41e7666940cbc418d3b4b90c94db5cad69ee4ac3e0756b374dba712bc",
+    "tools/run_blind_protocol_v25.py": "84db4132bfcead011bba5caa1da4778069726d2b27196ebc5d3b791c88e1c92a",
+    "verify/blind_selector_v23_2.json": "14c4a6b77e22778fdaa75e4148b6adf2e2f7611c9b477f77fda451dac99b408e",
+    "verify/evaluate_sealed_blind_v25.py": "c5594b6f9409a1f72ba5474a6d0670ab593db2f37011675dd4754dace5d96c0c"
+  },
+  "status": "completed",
+  "whole_chain_evaluations": 30895
+}

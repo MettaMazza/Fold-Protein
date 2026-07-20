@@ -38,7 +38,10 @@
     "blind_selector_v22": "sealed ordered contact-deficit hierarchy at 24 residues; active 22-state path change and 0.701% dRMSD improvement with mixed TM/local measurements",
     "blind_selector_v23": "sealed complete-domain bidirectional global architecture at 24, 32 and 76 residues; L32 improves TM 47.06% and dRMSD 18.94% over V19, while L24 improves dRMSD 31.92%",
     "blind_selector_v23_1": "sealed weight-free parent-continuity diagnosis; byte-identical applied outputs establish that the soft continuity axis does not alter the hard-stratum selection",
-    "blind_selector_v23_2": "sealed local-domain correction at 24, 32 and 76 residues; L76 recovers over V23 and improves dRMSD 2.73% over V13 while the coherent-segment topology continuation remains active",
+    "blind_selector_v23_2": "sealed local-domain correction at 24, 32 and 76 residues; L76 recovers over V23 and improves dRMSD 2.73% over V13",
+    "blind_selector_v24": "sealed coherent four-residue tuple architecture at 24, 32 and 76 residues; preserved as applied development evidence that complete tuple replacement over-displaced the stronger V23.2 path",
+    "blind_selector_v24_1": "sealed overlapping-window boundary-closure correction at 24, 32 and 76 residues; improved both V24 measures at L76 but did not recover V23.2",
+    "blind_selector_v25": "sealed parent-anchored constitutional coordinate-beam architecture at 24, 32 and 76 residues; improves TM at all three lengths over V23.2 and at L76 improves TM 26.94% and dRMSD 6.69% with 11 parent departures",
     "legacy_engines": "retained history only; excluded from promoted and active continuation routes"
   },
   "inherited_toolchain_boundary": {
@@ -291,6 +294,20 @@
       "verify/evaluate_sealed_blind_v23.py",
       "verify/evaluate_sealed_blind_v23_1.py",
       "verify/evaluate_sealed_blind_v23_2.py"
+    ],
+    "blind_v24_v25_segment_search_development": [
+      "tests/test_blind_selector_v24.py",
+      "tests/test_blind_selector_v24_1.py",
+      "tests/test_blind_selector_v25.py",
+      "tools/blind_24_lattice_selector_v24.py",
+      "tools/blind_24_lattice_selector_v24_1.py",
+      "tools/blind_24_lattice_selector_v25.py",
+      "tools/run_blind_protocol_v24.py",
+      "tools/run_blind_protocol_v24_1.py",
+      "tools/run_blind_protocol_v25.py",
+      "verify/evaluate_sealed_blind_v24.py",
+      "verify/evaluate_sealed_blind_v24_1.py",
+      "verify/evaluate_sealed_blind_v25.py"
     ],
     "legacy_agent_development_unpromoted": [
       "tests/test_blind_protocol.py",
@@ -644,6 +661,27 @@
       "tools/global_sequence_constraint_graph_v1.py",
       "tools/run_blind_protocol_v23.py",
       "tools/run_blind_protocol_v23_2.py"
+    ],
+    "v24_runtime_roots": [
+      "tools/blind_24_lattice_selector_v23.py",
+      "tools/blind_24_lattice_selector_v24.py",
+      "tools/global_sequence_constraint_graph_v1.py",
+      "tools/run_blind_protocol_v24.py"
+    ],
+    "v24_1_runtime_roots": [
+      "tools/blind_24_lattice_selector_v23.py",
+      "tools/blind_24_lattice_selector_v24.py",
+      "tools/blind_24_lattice_selector_v24_1.py",
+      "tools/global_sequence_constraint_graph_v1.py",
+      "tools/run_blind_protocol_v24.py",
+      "tools/run_blind_protocol_v24_1.py"
+    ],
+    "v25_runtime_roots": [
+      "tools/blind_24_lattice_selector_v23.py",
+      "tools/blind_24_lattice_selector_v24.py",
+      "tools/blind_24_lattice_selector_v25.py",
+      "tools/global_sequence_constraint_graph_v1.py",
+      "tools/run_blind_protocol_v25.py"
     ]
   },
   "generated_evidence": {
@@ -673,11 +711,14 @@
     "v23_global_domain_development": "verify/development_runs/ubiquitin_v23_global_domains_l{24,32,76}_20260720/ bind all-576-state residue domains, bidirectional four-residue segment assembly, and post-seal measurements including the L32 two-metric advance.",
     "v23_1_parent_continuity_development": "verify/development_runs/ubiquitin_v23_1_parent_continuity_l{24,32,76}_20260720/ bind the exact parent-departure relation and byte-identical applied evidence showing that it does not alter hard-stratum selection.",
     "v23_2_local_domain_development": "verify/development_runs/ubiquitin_v23_2_local_domains_l{24,32,76}_20260720/ bind complete 576-state local admission before global assembly; the L76 correction improves both measures over V23 and improves dRMSD over V13.",
+    "v24_coherent_segment_development": "verify/development_runs/ubiquitin_v24_coherent_segments_l{24,32,76}_20260720/ bind locally coherent tuple construction and its sealed applied development measurements; the displacement pattern motivates the later parent-anchored search basis.",
+    "v24_1_boundary_closure_development": "verify/development_runs/ubiquitin_v24_1_boundary_closed_l{24,32,76}_20260720/ bind complete overlapping-window boundary re-evaluation and its sealed applied measurements; L76 improves both measures over V24.",
+    "v25_coordinate_beam_development": "verify/development_runs/ubiquitin_v25_coordinate_beam_l{24,32,76}_20260720/ bind the parent-anchored one-coordinate transition basis and sealed applied measurements; TM improves over V23.2 at every length and the 76-residue route improves TM 26.94% and dRMSD 6.69% with 11 parent departures.",
     "classification": "A recorded development execution is not a Maria finding, loss or failed prediction."
   },
   "artifact_inventory": {
-    "tracked_pdb_files": 92,
-    "tracked_pdb_file_set_sha256": "5ce2c97f9f2fd0e1e79083b4fd4102d61b88b919bd221388a472b6bceed5a8b2",
+    "tracked_pdb_files": 101,
+    "tracked_pdb_file_set_sha256": "3e8719adad9af61a3c78d332ccb5a2a26766987c76b65828e68f018e9c19c1ff",
     "classes": {
       "experimental_reference": [
         "verify/1cop.pdb",
@@ -777,6 +818,21 @@
         "verify/development_runs/ubiquitin_v23_2_local_domains_l24_20260720/prediction.pdb",
         "verify/development_runs/ubiquitin_v23_2_local_domains_l32_20260720/prediction.pdb",
         "verify/development_runs/ubiquitin_v23_2_local_domains_l76_20260720/prediction.pdb"
+      ],
+      "sealed_v24_coherent_segment_development_output": [
+        "verify/development_runs/ubiquitin_v24_coherent_segments_l24_20260720/prediction.pdb",
+        "verify/development_runs/ubiquitin_v24_coherent_segments_l32_20260720/prediction.pdb",
+        "verify/development_runs/ubiquitin_v24_coherent_segments_l76_20260720/prediction.pdb"
+      ],
+      "sealed_v24_1_boundary_closure_development_output": [
+        "verify/development_runs/ubiquitin_v24_1_boundary_closed_l24_20260720/prediction.pdb",
+        "verify/development_runs/ubiquitin_v24_1_boundary_closed_l32_20260720/prediction.pdb",
+        "verify/development_runs/ubiquitin_v24_1_boundary_closed_l76_20260720/prediction.pdb"
+      ],
+      "sealed_v25_coordinate_beam_development_output": [
+        "verify/development_runs/ubiquitin_v25_coordinate_beam_l24_20260720/prediction.pdb",
+        "verify/development_runs/ubiquitin_v25_coordinate_beam_l32_20260720/prediction.pdb",
+        "verify/development_runs/ubiquitin_v25_coordinate_beam_l76_20260720/prediction.pdb"
       ],
       "legacy_preproject_development_artifact": [
         "1ubq_autonomous.pdb",

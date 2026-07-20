@@ -514,6 +514,38 @@ locally admitted four-residue tuples instead of independently weaving domain
 ranks. These are source-bound cumulative development measurements, not a
 theoretical limit or an agent-authored publication conclusion.
 
+V24 executes that coherent-tuple construction over the sealed V23.2 domains,
+and V24.1 adds complete overlapping-window re-evaluation at every segment
+boundary and at final reconciliation. Both routes are target-incapable and
+source-bound before evaluation. Their applied traces show 67 and 71 departures
+from the L76 V23.2 path respectively. V24.1 improves V24 at L76 from TM
+`0.0523124834` / dRMSD `14.713849873 Å` to TM `0.0580608840` / dRMSD
+`11.774996842 Å`. The receipts preserve the causal development path: complete
+tuple replacement and boundary closure are implemented, measured stages that
+motivate a different search basis; they are not Maria-authored findings or
+theoretical limits.
+
+V25 makes that architectural change. It starts from the sealed V23.2 selected
+path and, inside every derived four-residue unit, enumerates the unchanged path
+and every one-coordinate transition into the complete 24-state locally
+admitted domains. A 24-path beam propagates these transitions from each chain
+direction before the existing rich local/global constitution reconciles the
+complete paths. No departure score, limit, scalar weight, target, template,
+reward, trained parameter or target-derived relation enters selection.
+
+The sealed V25 results improve TM over V23.2 at every tested length. L24 moves
+from `0.0200360644` to `0.0298230532` (**48.85%**) with dRMSD
+`6.3456312175 Å`; L32 moves from `0.0475073928` to `0.0479008287`
+(**0.83%**) with dRMSD `5.5215159800 Å`. At the complete 76-residue length,
+V25 changes only 11 parent states and improves both measures: TM advances from
+`0.1017436531` to `0.1291502547` (**26.94%**) and dRMSD improves from
+`7.6581678292 Å` to `7.1461955341 Å` (**6.69%**). This is positive applied
+evidence that the parent-anchored coordinate basis propagates long-range
+structure more effectively than complete tuple replacement. The next
+substantive frontier is joint long-range topology within this successful basis,
+followed by the same sealed real-sequence ladder. Nothing in these implemented
+relations establishes a theorem-derived obstruction to the benchmark goal.
+
 ## Preserved development evidence, not attributed conclusions
 
 Selector v2 receipts remain intact because they contain useful target-isolation,
@@ -559,15 +591,15 @@ The registry verifier halts if:
 
 Generated PDBs and campaign receipts are evidence rather than forcing source.
 They are bound by the protected construction manifest or their immutable seals.
-All 92 tracked PDBs are also exhaustively classified: two experimental
+All 101 tracked PDBs are also exhaustively classified: two experimental
 references, one protected target-assisted construction, eleven sealed v2
 development outputs, four sealed v3 blind predictions, one sealed v4 auxiliary
 development output, two sealed v5 applied development outputs, and thirty-nine
 legacy pre-project development artifacts, plus the three sealed v6-v8 and
 three sealed v9-v10, one sealed v11, one sealed v12, three sealed v13, two
 sealed v14, one sealed v15, one sealed v16, one sealed v17, one sealed v18,
-three sealed v19, one each sealed v20, v21 and v22, and nine sealed
-V23/V23.1/V23.2 development outputs
+three sealed v19, one each sealed v20, v21 and v22, nine sealed
+V23/V23.1/V23.2 development outputs, and nine sealed V24/V24.1/V25 outputs
 described above.
 Their complete path-and-content census is hash-bound by the registry; both v2
 aggregate seals are reverified. Legacy filenames such as `predicted`,
@@ -599,22 +631,22 @@ improves dRMSD while producing mixed TM/local measurements. V13 therefore
 remains the current complete-sequence predictive route, with V19-V22 retained
 as fully traced applied development evidence.
 
-V23 now supplies the complete-domain bidirectional global architecture. Its
-L32 two-metric advance and L24/L76 pairwise-distance advances establish that
-the architecture can propagate substantial global change. V23.2's L76
-recovery localises the next work to coherent segment alternatives. V13 remains
-the current complete-sequence topology route while this segment construction
-is completed and remeasured on the same sealed cumulative development ladder.
+V23 supplies the complete-domain bidirectional global architecture and V23.2
+supplies its locally admitted domains. V24/V24.1 implement and measure coherent
+segment replacement and complete boundary-window closure. V25 then preserves
+the V23.2 path as the starting whole-chain candidate while exploring admitted
+one-coordinate transitions through bidirectional beams. Its L76 dual-metric
+advance to TM `0.1291502547` / dRMSD `7.1461955341 Å` establishes the current
+successful development direction, while V13's TM `0.1422687755` remains the
+top complete-sequence topology measurement in this line.
 
-The next state is to generate 24 coherent four-residue segment tuples through
-the existing V13/V19 local constitution, then assemble those tuples through
-V23's bidirectional whole-chain reconciliation. The cached vectorised sequence
-graph has already reduced the complete L76 global pass to about 94 seconds;
-local-domain closure currently completes in about 175 seconds. New relations must
-be named in their own immutable manifest, traced
-through the engine standard, source-bound, tested, and executed on sealed real
-sequence before comparison. The protected complete-lattice construction, the
-forced secondary-structure coordinates, and the successive sealed blind local
-and whole-chain results establish an executable continuation and no
-theorem-derived wall at the current stage. Maria decides when development
-evidence earns an official run and what conclusion the data supports.
+The next state is a substantive joint long-range topology expansion inside
+V25's parent-anchored search basis, with the short-prefix distance relation
+retained in the same applied ladder. New relations must be named in their own
+immutable manifest, traced through the engine standard, source-bound, tested,
+and executed on sealed real sequence before comparison. The protected
+complete-lattice construction, forced secondary-structure coordinates, and
+successive sealed blind local and whole-chain advances establish an executable
+continuation and no theorem-derived wall at the current stage. Maria decides
+when development evidence earns an official run and what conclusion the data
+supports.
