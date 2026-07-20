@@ -1,0 +1,48 @@
+{
+  "schema": "fold-protein-selector-v34-applied-evidence/v1",
+  "date": "2026-07-20",
+  "status": "completed",
+  "result_type": "cumulative development benchmark",
+  "official_run": false,
+  "purpose": "Measure the complete 76-residue structural effect of replacing V3's unrestricted per-residue lattice domain with the two engine-closed V2 canonical forms while retaining the V3 ordering.",
+  "protocol": {
+    "command": "python3 -m tools.run_blind_protocol_v34 verify/blind_selector_v34.json verify/development_inputs/ubiquitin_v34_closed_domain_l76_20260720.json verify/development_runs/ubiquitin_v34_closed_domain_l76_20260720",
+    "manifest_sha256": "c81c9e515baf4c67b9bb5c468ec27af44f8a90fee336cafbab36bcdb26bd0b05",
+    "selector_input_sha256": "293aad5b1c8a2970fe113a232440656a01717ff39376d786677c9ecdcfebc942",
+    "seal_sha256": "374b5ede9e82c8c44eb07133cbe8c8cb1347509bc935ff432e4ce6c3e6ee82f5",
+    "selected_states_sha256": "48203400e6350d206e2a2383dac86e07859e24c7c251bb595c0ef58b0b90a349",
+    "prediction_pdb_sha256": "2abfcc7f1774a3e2261c1acc1713582b6718b30ca0f4c660cf80bd9b407ae4bf",
+    "evaluation_sha256": "50769b43cc42385aaf9025a05a8336eb88b3db33484c7b41c77efc240a8c7060"
+  },
+  "resources": {
+    "wall_seconds_primary": 9.16,
+    "wall_seconds_resource_replay": 9.11,
+    "user_seconds_resource_replay": 9.04,
+    "system_seconds_resource_replay": 0.02,
+    "maximum_resident_set_bytes": 27312128,
+    "peak_memory_footprint_bytes": 21169600
+  },
+  "complete_length_measurement": {
+    "sequence_length": 76,
+    "matched_ca_atoms": 76,
+    "tm_score": 0.017143534964929905,
+    "ca_drmsd_angstrom": 34.22980811158944,
+    "mode_census": {
+      "alpha": 20,
+      "beta": 55,
+      "inactive": 1
+    }
+  },
+  "v3_named_baseline": {
+    "evaluation_sha256": "61cbe909d4e86570951823b4f6fa20cc7706bd115a43480f55b54d35f1efa7a3",
+    "tm_score": 0.0269927379497572,
+    "ca_drmsd_angstrom": 52.89314678065376
+  },
+  "deltas_from_v3": {
+    "tm_score_absolute": -0.009849202984827294,
+    "tm_score_percent": -36.48834365435644,
+    "ca_drmsd_angstrom_absolute": -18.663338669064316,
+    "ca_drmsd_performance_improvement_percent": 35.28498454905813
+  },
+  "engineering_inference_not_maria_conclusion": "The uniquely closed canonical domain materially improves complete-chain pairwise distance geometry relative to V3, while the lower TM indicates that the unchanged residue-level V3 ordering does not propagate the correct global topology through that domain. The next derivational correction is complete boundary-state propagation over the forced eight colour-window paths and sixteen orientation quartets, without adding a local score or target feedback."
+}

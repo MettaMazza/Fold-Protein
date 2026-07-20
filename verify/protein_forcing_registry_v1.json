@@ -6,7 +6,7 @@
     "publication": "Maria Smith alone declares publishable conclusions, benchmark findings, victories, losses and real-run status.",
     "agent_evidence": "Agent-created probes and development executions remain auxiliary evidence unless Maria adopts a conclusion from them."
   },
-  "route_status_interpretation": "Every blind_selector_v4 through blind_selector_v33 route-status entry describes archived non-admitted agent development implementation and applied evidence only. Terms inside immutable historical manifests or source-bound descriptions do not promote an assembled selector form to forced or derived status. The separate derivation-admission gate is authoritative.",
+  "route_status_interpretation": "Every blind_selector_v4 through blind_selector_v33 route-status entry describes archived non-admitted agent development implementation and applied evidence only. V34 is separately admitted as a named forward-forcing composition of the engine-closed V2 domain and the admitted V3 order. Terms inside immutable historical manifests or source-bound descriptions do not promote an assembled selector form to forced or derived status. The separate derivation-admission gate is authoritative.",
   "visible_history": {
     "first_commit": "6b08f5288034d0958a15c8b4b0af0edb59715e37",
     "first_commit_date": "2026-07-15T10:58:26+01:00",
@@ -54,6 +54,7 @@
     "blind_selector_v31": "archived non-admitted agent degree-2/3/4 tertiary-topology-frontier development architecture with sealed applied outputs at 24 and 32 residues; its L24 dRMSD is 5.5047257155 Å and its L32 final frontier contains only degree-4 candidates",
     "blind_selector_v32": "archived non-admitted agent cross-topology-consensus development architecture with sealed applied outputs at 24 and 32 residues; multiple topology families survive admission while the L32 emitted path is byte-identical to V31",
     "blind_selector_v33": "archived non-admitted agent minimax-consensus development architecture with sealed applied outputs at 24, 32 and 76 residues; its L24 row is TM 0.0264163231 / 6.2909406819 Å dRMSD, its L32 output reproduces V28 at TM 0.0444462491 / 5.6156347475 Å dRMSD, and its L76 output reproduces V29 at TM 0.0938366517 / 8.7716502163 Å dRMSD",
+    "blind_selector_v34": "engine-admitted named forward-forcing composition of the two uniquely closed V2 alpha/beta forms and the admitted target-free V3 order; its sealed L76 development output improves C-alpha dRMSD 35.28% over V3 to 34.2298081116 Å while TM measures 0.0171435350",
     "legacy_engines": "retained history only; excluded from promoted and active continuation routes"
   },
   "inherited_toolchain_boundary": {
@@ -407,6 +408,19 @@
       "tools/run_blind_protocol_v33.py",
       "verify/evaluate_sealed_blind_v33.py"
     ],
+    "blind_v34_closed_domain_forward_forcing": [
+      "constants/protein_blind_selector_v34_admission.ep",
+      "tests/test_blind_selector_v34.py",
+      "tests/test_protein_blind_selector_v34_admission.ep",
+      "tests/test_protein_selector_v34_admission.py",
+      "tools/blind_24_lattice_selector_v34.py",
+      "tools/run_blind_protocol_v34.py",
+      "tools/verify_protein_selector_v34_admission.py",
+      "verify/blind_selector_v34.json",
+      "verify/evaluate_sealed_blind_v34.py",
+      "verify/protein_selector_v34_admission_v1.json",
+      "verify/protein_selector_v34_applied_evidence_v1.json"
+    ],
     "legacy_agent_development_unpromoted": [
       "tests/test_blind_protocol.py",
       "tools/beam_search_engine.py",
@@ -439,7 +453,8 @@
       "engine_foundation_trace",
       "protein_engine_closed_relations",
       "protected_target_assisted_forward_forcing",
-      "blind_v3_named_forward_forcing_development"
+      "blind_v3_named_forward_forcing_development",
+      "blind_v34_closed_domain_forward_forcing"
     ],
     "forbidden_runtime_modules": [
       "tools.predict_structure",
@@ -927,6 +942,13 @@
       "tools/run_blind_protocol_v31.py",
       "tools/run_blind_protocol_v32.py",
       "tools/run_blind_protocol_v33.py"
+    ],
+    "v34_runtime_roots": [
+      "tools/blind_24_lattice_selector_v3.py",
+      "tools/blind_24_lattice_selector_v34.py",
+      "tools/protein_backbone_geometry_v1.py",
+      "tools/residue_partition_v1.py",
+      "tools/run_blind_protocol_v34.py"
     ]
   },
   "generated_evidence": {
@@ -968,11 +990,12 @@
     "v31_bounded_topology_frontier_development": "verify/development_runs/ubiquitin_v31_topology_frontier_l{24,32}_20260720/ bind the archived non-admitted agent 2/3/4 degree-frontier architecture and its applied outputs; L24 dRMSD is 5.5047257155 Å and L32 final retention is 24/24 degree-4 candidates.",
     "v32_cross_topology_consensus_development": "verify/development_runs/ubiquitin_v32_topology_consensus_l{24,32}_20260720/ bind the archived non-admitted agent cross-topology-consensus architecture and its applied outputs; all families survive the L24 admission frontier and L32 selects the same bytes as V31.",
     "v33_minimax_topology_consensus_development": "verify/development_runs/ubiquitin_v33_minimax_consensus_l{24,32,76}_20260720/ bind the archived non-admitted agent minimax-consensus architecture and its applied outputs; L24 selects V26.1, L32 selects V28, and L76 selects V29 byte-exactly at TM 0.0938366517 / 8.7716502163 Å dRMSD.",
+    "v34_closed_domain_forward_forcing": "verify/development_runs/ubiquitin_v34_closed_domain_l76_20260720/ binds the admitted V2 alpha/beta domain, unchanged V3 target-free order, complete 76-residue seal and post-seal measurement; C-alpha dRMSD improves 35.28% over V3 to 34.2298081116 Å while TM measures 0.0171435350. Maria determines the conclusion and official status.",
     "classification": "A recorded development execution is not a Maria finding, loss or failed prediction."
   },
   "artifact_inventory": {
-    "tracked_pdb_files": 126,
-    "tracked_pdb_file_set_sha256": "b0163458ac7562e119b54bb5d5bc46fe06409776c6948b260f57b3e023f247c9",
+    "tracked_pdb_files": 127,
+    "tracked_pdb_file_set_sha256": "29167b05fa764b24d4814a3666ec8a8f44b21999cdca1a7ab93e8e64f5092339",
     "classes": {
       "experimental_reference": [
         "verify/1cop.pdb",
@@ -1130,6 +1153,9 @@
         "verify/development_runs/ubiquitin_v33_minimax_consensus_l24_20260720/prediction.pdb",
         "verify/development_runs/ubiquitin_v33_minimax_consensus_l32_20260720/prediction.pdb",
         "verify/development_runs/ubiquitin_v33_minimax_consensus_l76_20260720/prediction.pdb"
+      ],
+      "sealed_v34_closed_domain_forward_forcing_output": [
+        "verify/development_runs/ubiquitin_v34_closed_domain_l76_20260720/prediction.pdb"
       ],
       "legacy_preproject_development_artifact": [
         "1ubq_autonomous.pdb",

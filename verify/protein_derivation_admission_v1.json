@@ -39,6 +39,14 @@
       "source_class": "protein_engine_closed_relations",
       "closure_receipt": "verify/protein_engine_closure_v1.json",
       "boundary": "The 3/4 input is explicitly supposed rather than promoted as a derived biological conformation; the exact orbit from that declared query is executed. No measured angle enters the canonical-angle derivation."
+    },
+    "blind_selector_v34": {
+      "status": "named_forward_forcing_constitution",
+      "scope": "The two uniquely engine-closed V2 alpha/beta forms composed with the admitted V3 sequence-only order, target-incapable geometry, counted 24-path capacity, and seal-before-comparison protocol.",
+      "source_class": "blind_v34_closed_domain_forward_forcing",
+      "closure_receipt": "verify/protein_selector_v34_admission_v1.json",
+      "applied_evidence": "verify/protein_selector_v34_applied_evidence_v1.json",
+      "target_boundary": "Selector input is exactly run_id and sequence. The complete 76-residue structure is sealed before the separate evaluator can open the target."
     }
   },
   "archived_development": {

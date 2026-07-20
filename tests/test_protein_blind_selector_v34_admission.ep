@@ -1,0 +1,20 @@
+import "../constants/protein_blind_selector_v34_admission.ep"
+
+define expect_number with label as Str and got as Int and want as Int:
+    if got equals want:
+        display concat("  ok    " and concat(label and concat(" = " and int_to_string(got))))
+    else:
+        return halt_violation(concat("V34 admission count failed: " and label))
+    return 0
+
+define main:
+    display "=== Protein V34 closed-domain admission ==="
+    set ok to expect_number("closed alpha/beta modes" and protein_selector_closed_domain_count() and binary_count())
+    set ok to expect_number("complete colour-window paths" and protein_selector_window_path_count() and 8)
+    set ok to expect_number("complete orientation-quartet paths" and protein_selector_quartet_path_count() and 16)
+    set admitted to enforce_protein_selector_v34_domain()
+    if admitted == 1:
+        display "  ok    V34 domain and propagation close through the engine"
+        display "=== done ==="
+        return 0
+    return halt_violation("V34 admission returned without closure")

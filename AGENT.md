@@ -259,6 +259,20 @@ that the tree, degree path, degree frontier, consensus order, or minimax order w
 forced. No next selector relation is authorized by those diagnostics alone. A new
 relation must first satisfy the admission rule below.
 
+V34 is the first successor admitted after that audit. It adds no selector score:
+the runtime composes the two uniquely engine-closed V2 canonical forms with the
+already-admitted V3 target-free ordering and counted 24-path capacity. The engine
+closes the complete binary residue domain, all `2^3 = 8` colour-window paths and
+all `2^4 = 16` orientation quartets. Its sealed 76-residue cumulative development
+benchmark completes in 9.16 seconds with 20 alpha and 55 beta active states. Against
+the named V3 baseline, C-alpha dRMSD improves 35.28% from `52.8931467807 Å` to
+`34.2298081116 Å`; TM measures `0.0171435350` versus V3's `0.0269927379`. Preserve
+both measurements. The engineering inference—not Maria's conclusion—is that the
+closed domain materially improves pairwise distance geometry while the unchanged
+residue-level V3 order does not yet carry the correct complete-chain topology. The
+next derivational correction is complete boundary-state propagation over the eight
+window and sixteen quartet paths, without introducing another local score.
+
 **The sequence must supply the spatial command.** The forward-forcing programme investigates how
 amino-acid identity can determine the invariant exclusions and relations that select among the 576
 exact states per residue. V4-V33 are archived development evidence and excluded from active
@@ -373,6 +387,8 @@ python3 -m unittest discover -s tests -p 'test_*.py' -v
   the clean blind continuation route.
 - `tools/blind_24_lattice_selector_v3.py`, `tools/run_blind_protocol_v3.py` — secured
   provenance-isolated blind baseline and immutable protocol.
+- `tools/blind_24_lattice_selector_v34.py`, `tools/run_blind_protocol_v34.py` — admitted
+  V2 closed-domain/V3-order composition and sealed complete-length protocol.
 - `tools/blind_24_lattice_selector_v5.py` through `v12.py` and their protocols —
   traced inter-window, signed-orientation, charge, side-chain, and balanced
   continuation surfaces.

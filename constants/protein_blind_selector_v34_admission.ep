@@ -1,0 +1,65 @@
+# Engine admission for the V34 closed-domain composition.
+#
+# V34 adds no selector score or physical constant.  It composes the already
+# admitted V3 target-free ordering with the two uniquely closed V2 backbone
+# forms.  This law closes the complete named residue domain and the window /
+# inter-window propagation used by the runtime constitution.
+
+import "protein_folding_3d_v2.ep"
+import "protein_interwindow_orientation_v2.ep"
+
+
+define protein_selector_mode_count returning Int:
+    return binary_count()
+
+
+define protein_selector_closed_mode_candidates returning Int:
+    set matching to 0
+    set candidate to 1
+    repeat while candidate <= protein_selector_mode_count():
+        if candidate == 1:
+            if alpha_phi_form_candidate_count() == 1:
+                if alpha_psi_form_candidate_count() == 1:
+                    set matching to matching + 1
+        if candidate == binary_count():
+            if beta_phi_form_candidate_count() == 1:
+                if beta_psi_form_candidate_count() == 1:
+                    set matching to matching + 1
+        set candidate to candidate + 1
+    return matching
+
+
+define protein_selector_closed_domain_count returning Int:
+    set from_complete_forms to protein_selector_closed_mode_candidates()
+    set from_binary_generator to binary_count()
+    return forced_to_be("complete alpha/beta residue domain" and from_complete_forms and from_binary_generator)
+
+
+define protein_selector_window_path_count returning Int:
+    set from_modes to whole_power(protein_selector_closed_domain_count() and protein_orientation_window())
+    set from_generators to whole_power(binary_count() and colour_count())
+    return forced_to_be("complete colour-window alpha/beta path grammar" and from_modes and from_generators)
+
+
+define protein_selector_quartet_path_count returning Int:
+    set from_modes to whole_power(protein_selector_closed_domain_count() and protein_orientation_quartet())
+    set from_generators to whole_power(binary_count() and binary_count() * binary_count())
+    return forced_to_be("complete quartet alpha/beta path grammar" and from_modes and from_generators)
+
+
+define enforce_protein_selector_v34_domain returning Int:
+    set angle_guard to enforce_canonical_angle_form_uniqueness()
+    set domain_count to protein_selector_closed_domain_count()
+    set window_guard to 0
+    if protein_orientation_overlap_is_unique():
+        set window_guard to 1
+    set quartet_guard to 0
+    if protein_orientation_quartet_overlap_is_unique():
+        set quartet_guard to 1
+    set domain_guard to forced_unique("binary closed-form residue domain" and 1 and domain_count - binary_count())
+    if angle_guard == 1:
+        if window_guard == 1:
+            if quartet_guard == 1:
+                if domain_guard == 1:
+                    return 1
+    return halt_violation("V34 closed-domain composition did not close")

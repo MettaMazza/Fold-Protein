@@ -46,6 +46,18 @@ seals and real applied scores remain evidence about the executed builds; they do
 not by themselves convert a selector form into a derivation. This boundary is
 machine-checked by `python3 -m tools.verify_protein_derivation_admission`.
 
+V34 is separately admitted as a named forward-forcing composition rather than an
+agent-invented selector: both unique V2 canonical forms are enumerated at every
+active residue under the unchanged V3 target-free order. The engine closes the
+two-form domain, all eight three-residue windows and all sixteen four-residue
+orientation quartets. Its sealed 76-residue cumulative development benchmark uses
+20 alpha and 55 beta active forms and improves C-alpha dRMSD **35.28%** over V3,
+from **52.8931467807 Å** to **34.2298081116 Å**. TM measures **0.0171435350** versus
+V3's **0.0269927379**. This mixed applied row is preserved without converting it
+into a Maria finding or theoretical boundary. The next forced construction is
+complete window/quartet boundary-state propagation, retaining the closed domain
+without adding a fitted or local selector mechanism.
+
 ### Current forward-forcing stage
 
 The continuation has now moved beyond the original v3 blind baseline:
@@ -404,6 +416,7 @@ python3 -m tools.verify_protein_forcing_registry
 | `tools/predict_structure.py` | committed NeRF backbone builder |
 | `tools/protein_backbone_geometry_v1.py` | target-incapable extraction of the declared coordinate constitution; byte-exact construction replay |
 | `tools/blind_24_lattice_selector_v3.py` | secured provenance-isolated blind baseline |
+| `tools/blind_24_lattice_selector_v34.py` | engine-admitted V2 canonical-domain composition with the unchanged V3 target-free order |
 | `verify/blind_selector_v3.json` | v3 relation routes, prohibited inputs, and source hashes |
 | `verify/development_runs/ubiquitin_v3_l{8,16,24}_20260719/` | sealed blind sequence predictions and post-seal whole-prefix measurements |
 | `verify/development_runs/ubiquitin_v3_current_20260719/` | complete sealed 76-residue blind prediction and post-seal global/local measurements |

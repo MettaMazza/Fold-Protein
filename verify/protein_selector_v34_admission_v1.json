@@ -1,0 +1,41 @@
+{
+  "schema": "fold-protein-selector-v34-admission/v1",
+  "date": "2026-07-20",
+  "status": "engine_admitted_named_forward_forcing_constitution",
+  "authority": "The engine and executable guards determine admission. This receipt records their source-bound composition and does not convert the V3 constitution into a theorem derivation.",
+  "composition": {
+    "candidate_domain": "The two unique V2 canonical Protein forms: alpha state 201 and beta state 117.",
+    "selection_order": "The admitted V3 sequence-only dimensionless topology ordering, deterministic tie break, and counted 24-path capacity, unchanged.",
+    "propagation": "The engine-closed colour window has three residues, the orientation quartet has four, and each advances by the One.",
+    "new_selector_relation": "none",
+    "new_parameter": "none"
+  },
+  "required_derivation_guards": {
+    "dependency_trace_to_the_One_or_an_engine_closed_result": "V2 closure receipt plus the admitted V3 constitution are hash-bound below.",
+    "generated_complete_candidate_space": "Both and only both unique V2 forms are enumerated at every C-alpha-active residue; the engine closes 2^3 = 8 window paths and 2^4 = 16 quartet paths.",
+    "assembled_form_minimality": "The composition contains exactly the closed candidate domain, the existing V3 order, target-incapable geometry, and seal-before-comparison protocol; it adds no scoring or selection relation.",
+    "named_shape_uniqueness": "All six V2 sign/angle candidate counts equal one and the V34 runtime deterministically replays one path under the registered V3 ordering.",
+    "measured_provenance_excluded_from_derivation": "Selector input is exactly run_id and sequence; target access exists only in the separate post-seal evaluator.",
+    "engine_halt_on_violation": "Ernos and Python admission checks halt on domain, overlap, source, import, configuration, or deterministic-replay drift.",
+    "purpose_matched_real_execution": "Required before runtime promotion; recorded separately after the sealed 76-residue development execution and post-seal measurement."
+  },
+  "minimal_composition_roles": [
+    "engine_closed_candidate_domain",
+    "admitted_v3_target_free_order",
+    "target_incapable_geometry",
+    "seal_before_comparison"
+  ],
+  "source_sha256": {
+    "constants/protein_blind_selector_v34_admission.ep": "0ce9f9524b716aebd47727ae2bec915a71f05a4675840506459f703c7eed1cd7",
+    "tools/blind_24_lattice_selector_v34.py": "bf2bcd1f03a55e29c660d0c5b95f1ea17f3ac8d463eb9647d2d02f0b077ab5a2",
+    "tools/run_blind_protocol_v34.py": "a0c4d38001784cce157c15f117f31133c5523ea0aa288f5925580d4396771146",
+    "tools/verify_protein_selector_v34_admission.py": "19807e509926c7caf684f7f4c18b0c800435d1261246622241c2059f9d5471bb",
+    "verify/evaluate_sealed_blind_v34.py": "ebca2226027cc9796faa9553ac56781669cd5561edbaa752db9eff32ece51bfc",
+    "verify/protein_engine_closure_v1.json": "a0e0593c9a12020cb532b9c214ed703adc695ea46086a3328f490b3a3db11220",
+    "verify/blind_selector_v3.json": "c6988dc13395e59aaaf6c96e6838a14477ceda7a8ecb4d4314c61ca0e8c85ecd",
+    "tools/blind_24_lattice_selector_v3.py": "062c2e4174e42494d3631e0c6aa38a708ec1a5952dc321ce66328620ff305cb5",
+    "tools/protein_backbone_geometry_v1.py": "a043e5d05a26fdf063c4703dac619f5fe918b65779a96df6d3cfa2f536fdc315",
+    "tools/residue_partition_v1.py": "f48e0ebc2c3dbc1d6d7a37370e0a2329968524d169d7b43022dce30ceacd3814",
+    "verify/protein_backbone_geometry_v1.json": "47da7e3f3c58a88e53b36157c5d5ed4dfa2c8b2c6e2cba91a5da34e5746571fd"
+  }
+}

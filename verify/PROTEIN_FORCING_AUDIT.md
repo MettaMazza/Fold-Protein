@@ -40,6 +40,12 @@ admission is `verify/protein_derivation_admission_v1.json`, enforced by
   and excluded from the active route. A successor may enter only when its entire assembled form passes the corpus's dependency,
   generated-candidate, minimality, named-shape uniqueness, target-exclusion and
   halt guards.
+- V34 is separately admitted as a named forward-forcing composition. It reuses
+  the V3 order without alteration and replaces its residue domain with both and
+  only both unique V2 canonical forms. The Ernos guard closes 2 modes, 8 complete
+  colour-window paths and 16 complete orientation-quartet paths; the Python guard
+  source-binds the composition, rejects target-capable imports and replays its
+  deterministic complete-domain expansion.
 
 This correction does not erase or invalidate sealed predictions, scores, state
 paths or applied comparisons. It prevents those measurements from being used as
@@ -766,3 +772,19 @@ relative to V28, 26.96% lower in TM and 26.00% poorer in dRMSD. The
 applied consensus measurements do not force a heterogeneous-degree architecture;
 such a relation must first pass the complete corpus admission guard. They are not
 evidence of a theoretical wall.
+
+### V34 closed-domain applied execution
+
+`verify/protein_selector_v34_admission_v1.json` binds the engine-admitted
+V2-domain/V3-order composition. The target-free L76 execution sealed before target
+access in 9.16 seconds with maximum resident set size 27,312,128 bytes. It selects
+20 alpha and 55 beta active forms. Post-seal comparison measures TM
+`0.017143534964929905` and C-alpha dRMSD `34.22980811158944 Å`. Relative to the
+named V3 baseline, dRMSD improves `35.2849845491%` while TM changes
+`-36.4883436544%`. The exact applied receipt is
+`verify/protein_selector_v34_applied_evidence_v1.json`. These two metrics are
+reported separately. Engineering inference only: canonical-domain restriction
+improves pairwise distance geometry, while complete-chain topology requires the
+next already-counted layer—boundary propagation over all 8 window states and 16
+quartet transitions. This is a cumulative development benchmark, not an official
+run or Maria-declared conclusion.
