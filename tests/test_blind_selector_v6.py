@@ -19,7 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class BlindSelectorV6Tests(unittest.TestCase):
-    def test_generated_modes_use_exact_forced_angle_fractions(self):
+    def test_generated_modes_use_exact_checked_angle_fractions(self):
         self.assertEqual(
             tuple(str(value) for value in ALPHA_ANGLES_DEGREES),
             ("-60", "-45"))

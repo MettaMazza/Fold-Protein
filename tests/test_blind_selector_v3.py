@@ -15,7 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class BlindSelectorV3Tests(unittest.TestCase):
-    def test_v3_rederives_v2_path_without_legacy_runtime_imports(self):
+    def test_v3_recomputes_v2_path_without_legacy_runtime_imports(self):
         for sequence in ("MQ", "MQIF", "VILM"):
             v2 = select_state_path_v2(sequence)
             v3 = select_state_path_v3(sequence)

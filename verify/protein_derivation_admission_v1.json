@@ -1,0 +1,67 @@
+{
+  "schema": "fold-protein-derivation-admission/v1",
+  "authority": {
+    "forcing": "Only an executed engine derivation with a complete dependency trace and every applicable halt guard may be called forced or derived.",
+    "forward_forcing": "A forward-forcing constitution must be named as such, source-bound, target-provenance explicit, and must never be relabelled as a theorem derivation.",
+    "development": "Exact arithmetic, zero fitted parameters, target isolation, source sealing, tests, and applied scores do not by themselves close an assembled selector form.",
+    "measurement": "Post-seal measurements describe an executed output; they neither confer nor remove derivation status."
+  },
+  "required_derivation_guards": [
+    "dependency_trace_to_the_One_or_an_engine_closed_result",
+    "generated_complete_candidate_space",
+    "assembled_form_minimality",
+    "named_shape_uniqueness",
+    "measured_provenance_excluded_from_derivation",
+    "engine_halt_on_violation",
+    "purpose_matched_real_execution"
+  ],
+  "admitted_relations": {
+    "foundation": {
+      "status": "engine_closed_foundation",
+      "scope": "The copied exact arithmetic, One/fold, counted structural generators, enforcement, measured-value boundary, assembly enumeration, and form-enforcement machinery.",
+      "source_class": "engine_foundation_trace"
+    },
+    "protected_24_lattice": {
+      "status": "named_forward_forcing_constitution",
+      "scope": "The target-assisted, hash-bound 76-state 24-lattice construction and its byte-exact replay.",
+      "source_class": "protected_target_assisted_forward_forcing",
+      "target_boundary": "The experimental structure selected the recorded state path; this is declared construction evidence, not a blind theorem derivation."
+    },
+    "blind_selector_v3": {
+      "status": "named_forward_forcing_constitution",
+      "scope": "The provenance-isolated sequence-only development baseline and its target-incapable peptide-geometry bridge.",
+      "source_class": "blind_v3_named_forward_forcing_development",
+      "target_boundary": "Selector execution cannot access the target; comparison occurs only after sealing. The complete selector form remains a named constitution, not an engine-derived theorem."
+    }
+  },
+  "open_relations": {
+    "protein_engine_modules": {
+      "status": "open_engine_form_closure",
+      "scope": "The current Protein fixed-point/descent, canonical-angle, colour-window, and inter-window modules execute exact checks but do not yet carry every applicable generated-form and uniqueness guard.",
+      "source_class": "protein_engine_checks_open_form_closure",
+      "runtime_admission": "development_and_audit_only",
+      "claim_status": "must_not_be_called_a_finished_forced_derivation"
+    },
+    "blind_selector_v1_v2": {
+      "status": "preserved_legacy_development",
+      "scope": "Historical mixed or superseded selector evidence.",
+      "runtime_admission": "history_only",
+      "claim_status": "not_a_current_forced_route"
+    },
+    "blind_selector_v4_v33": {
+      "status": "open_agent_development_architecture",
+      "scope": "Every selector architecture from V4 through V33, including point releases V23.1, V23.2, V24.1, and V26.1.",
+      "runtime_admission": "development_only",
+      "claim_status": "applied_results_are_preserved_but_the_selector_forms_are_not_engine_closed_derivations"
+    }
+  },
+  "forbidden_promotions": [
+    "exact_implies_forced",
+    "counted_ingredients_imply_forced_form",
+    "zero_parameters_imply_forced_form",
+    "target_isolation_implies_forced_form",
+    "passing_tests_implies_forced_form",
+    "a_score_implies_forcing",
+    "an_agent_declares_a_development_architecture_derived"
+  ]
+}

@@ -16,6 +16,7 @@ if str(ROOT) not in sys.path:
 from verify.replay_protein_backbone_geometry_v1 import replay as replay_geometry
 from tools.verify_blind_length_ladder_v2 import verify_ladder
 from tools.verify_blind_panel_v2 import verify_panel
+from tools.verify_protein_derivation_admission import verify_admission
 
 
 REGISTRY = ROOT / "verify/protein_forcing_registry_v1.json"
@@ -34,6 +35,7 @@ def source_scope() -> set[str]:
         "verify/blind_selector_v2_panel.json",
         "verify/blind_selector_v3.json",
         "verify/protein_backbone_geometry_v1.json",
+        "verify/protein_derivation_admission_v1.json",
         "verify/ubiquitin_24_lattice_manifest.json",
         "verify/test_protein_folding.c",
         "verify/test_protein_folding_3d.c",
@@ -72,6 +74,15 @@ def tracked_compiler_digest() -> tuple[int, str]:
         file_hash = sha256(ROOT / relative)
         compiler_relative = relative.removeprefix("compiler/")
         digest_input.extend(f"{file_hash}  {compiler_relative}\n".encode())
+    return len(paths), hashlib.sha256(digest_input).hexdigest()
+
+
+def foundation_digest() -> tuple[int, str]:
+    paths = sorted(ROOT.glob("foundation/*.ep"))
+    digest_input = bytearray()
+    for path in paths:
+        relative = str(path.relative_to(ROOT))
+        digest_input.extend(f"{sha256(path)}  {relative}\n".encode())
     return len(paths), hashlib.sha256(digest_input).hexdigest()
 
 
@@ -118,6 +129,13 @@ def verify_registry() -> dict:
         raise RuntimeError("inherited compiler tracked-file census changed")
     if compiler_digest != compiler_boundary["tracked_file_set_sha256"]:
         raise RuntimeError("inherited compiler file-set digest changed")
+
+    foundation_boundary = registry["inherited_foundation_boundary"]
+    foundation_count, local_foundation_digest = foundation_digest()
+    if foundation_count != foundation_boundary["tracked_files"]:
+        raise RuntimeError("inherited foundation file census changed")
+    if local_foundation_digest != foundation_boundary["tracked_file_set_sha256"]:
+        raise RuntimeError("inherited foundation file-set digest changed")
 
     artifact_inventory = registry["artifact_inventory"]
     classified_artifacts = {}
@@ -211,6 +229,7 @@ def verify_registry() -> dict:
         raise RuntimeError("target-incapable geometry replay did not verify")
     ladder = verify_ladder(ROOT / "verify/blind_selector_v2_length_ladder_run_20260718")
     panel = verify_panel(ROOT / "verify/blind_selector_v2_panel_run_20260718")
+    admission = verify_admission()
     return {
         "schema": "fold-protein-forcing-registry-verification/v1",
         "status": "verified",
@@ -226,6 +245,10 @@ def verify_registry() -> dict:
             "tracked_files": compiler_count,
             "tracked_file_set_sha256": compiler_digest,
         },
+        "inherited_foundation": {
+            "tracked_files": foundation_count,
+            "tracked_file_set_sha256": local_foundation_digest,
+        },
         "artifact_inventory": {
             "tracked_pdb_files": len(tracked_pdbs),
             "tracked_pdb_file_set_sha256": pdb_digest,
@@ -237,6 +260,7 @@ def verify_registry() -> dict:
             "v2_panel": panel,
         },
         "other_tracked_artifacts": len(registry["other_tracked_artifacts"]),
+        "derivation_admission": admission,
     }
 
 

@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class BlindSelectorV21Tests(unittest.TestCase):
-    def test_contact_shell_is_forced_and_target_incapable(self):
+    def test_contact_shell_is_exact_and_target_incapable(self):
         self.assertEqual(CONTACT_SHELL["inner_boundary"][:3], "1/2")
         self.assertEqual(CONTACT_SHELL["outer_boundary"][:3], "one")
         for key in ("empirical_radius", "empirical_cutoff", "fitted_weight",

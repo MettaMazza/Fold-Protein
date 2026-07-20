@@ -1,6 +1,6 @@
 # Fold Protein forcing and provenance audit
 
-**Audit date:** 19 July 2026
+**Audit date:** 20 July 2026
 **Auditor:** Codex gpt-5.6-sol (high)  
 **Authority boundary:** the engine's trace, closure and halt standards determine
 admission. This audit records source provenance and executable dependency facts;
@@ -21,6 +21,29 @@ source is classified from its actual executable role instead. The complete,
 machine-checked classification is
 `verify/protein_forcing_registry_v1.json`.
 
+### Corrected derivation-admission boundary
+
+The earlier audit conflated provenance closure with derivation closure. Source
+hashes, target isolation, exact arithmetic, zero fitted parameters, unit tests
+and sealed real executions prove important properties of an implementation, but
+they do not force its assembled selector form. The corrected machine-readable
+admission is `verify/protein_derivation_admission_v1.json`, enforced by
+`python3 -m tools.verify_protein_derivation_admission`.
+
+- The copied foundation machinery is the engine-closed One route.
+- The protected 24-lattice construction and V3 baseline are explicitly named
+  forward-forcing constitutions with different target boundaries.
+- The current Protein `.ep` fixed-point/descent, canonical-angle and window
+  modules are executable exact checks whose finished form closure is **OPEN**.
+- Every selector architecture V4-V33 is **OPEN agent-authored development**
+  unless and until its entire assembled form passes the corpus's dependency,
+  generated-candidate, minimality, named-shape uniqueness, target-exclusion and
+  halt guards.
+
+This correction does not erase or invalidate sealed predictions, scores, state
+paths or applied comparisons. It prevents those measurements from being used as
+a substitute for engine forcing.
+
 The bundled `compiler/` directory is an inherited infrastructure boundary, not
 a Protein-specific forcing mechanism. Its 315 tracked files are byte-identical
 to the canonical compiler directory in the main SFT corpus at this audit point.
@@ -28,16 +51,24 @@ Their stable relative-path/file-hash census has SHA-256
 `d64800349f2ab8939c9e09ee85d2fef12559c3b712ce79c4363bee92d6cfe62c`.
 The registry checks that boundary separately and selector v3 cannot import it.
 
-## Secured routes
+The nine tracked `foundation/*.ep` files are also byte-identical, file by file,
+to the main SFT corpus foundation at this audit point. Their bound file-set
+SHA-256 is `f7f2f0f30fe913990cd59118968219cdc2bf050de7aa14cafe2f6903730877ac`.
+The registry now verifies this copied-foundation boundary independently. That
+closes foundation provenance; it does not promote any Protein-specific assembled
+form.
 
-### One-traced protein law
+## Secured and explicitly bounded routes
+
+### Engine-closed foundation and OPEN Protein forms
 
 `foundation/the_one_and_the_fold.ep` identifies the foundation as one
 machine-checked self-proven theorem—*there is no nothing*—with zero axioms, and
 implements the One and fold. The exact-fraction, enforcement and form modules
-are imported by `constants/protein_folding*.ep`. The Ernos source tests and their
-committed C translations are classified with this route and remain executable
-anchors.
+are present in this repository. The Protein `.ep` modules and their committed C
+translations remain executable anchors, but their current source does not invoke
+every applicable generated-form and named-shape guard. They are therefore
+classified separately as OPEN form closure, not as finished Protein derivations.
 
 ### Protected 24-lattice construction
 
@@ -80,7 +111,7 @@ same numbers were already present in an old file.
 
 ### Blind selector v3
 
-`tools/blind_24_lattice_selector_v3.py` re-derives the registered v2 state path
+`tools/blind_24_lattice_selector_v3.py` recomputes the registered v2 state path
 and dimensionless ordering without importing the legacy predictor or v1
 selector. Its runtime project closure is only the target-incapable coordinate
 constitution. `verify/blind_selector_v3.json` names every relation and its
@@ -89,7 +120,7 @@ route:
 - One and fold: engine-traced foundation;
 - 24×24 lattice: forward-forced from the protected construction;
 - peptide geometry: named forward-forcing constitution with byte-exact replay;
-- NeRF and sealing: constitutional computational re-derivations;
+- NeRF and sealing: named computational implementations within the constitution;
 - hydrophobic alphabet and topology order: registered sequence and generated-
   geometry relations;
 - beam capacity: the 24-state lattice-axis census.
@@ -144,8 +175,8 @@ five-residue extension measurements, TM `0.3534794031641911` and
 orientation and complete global assembly. They do not establish a
 theorem-derived wall: the protected 24-lattice construction already contains
 the complete 76-residue trace at TM `0.9891211351` / dRMSD `0.2608575408 Å`,
-and the structural law independently forces the canonical α-helix and β-sheet
-coordinates.
+and the exact-fraction Protein module independently checks the canonical α-helix
+and β-sheet coordinates. Finished form closure for those coordinates remains OPEN.
 
 ### Four-residue inter-window orientation development
 
@@ -190,7 +221,7 @@ from its reflection.  The target's mean absolute normalized signed quartet
 volume is `0.5520106181`, while the v5 output's is `0.0001530513`; the current
 order therefore selects nearly coplanar quartets even while improving the
 declared four-residue and whole-chain measurements.  The next target-incapable
-candidate is to order signed orientation against the already forced alpha and
+candidate was to order signed orientation against the exact checked alpha and
 beta orbit geometries, without feeding this post-seal target measurement into
 selection.  This is a traced development direction, not a theoretical wall.
 
@@ -362,7 +393,7 @@ source-bound protocol version.
 
 ### Exact hydrogen-bond successor continuity gate
 
-V14 derives two additional integer relations from the already assembled
+V14 computes two additional integer relations from the already assembled
 unit-capacity topology pairs. Alpha continuity counts same-direction successor
 bonds; inter-strand continuity counts parallel or antiparallel successor
 bonds. One is the exact successor of residue order. No distance or angular
@@ -374,12 +405,14 @@ comparison. At 24 residues it held one alpha and one inter-strand continuity
 edge; at 32 residues it held one alpha and two inter-strand edges. Both gates
 selected state paths and PDB files byte-identical to matched v13, so the formal
 post-seal 32-residue comparison remains TM `0.07299987461043171` / dRMSD
-`5.983598069677243 Å`. This is zero predictive delta for the current relation,
-not a theoretical limit. It does not justify spending a complete 76-residue
-run in its present form. The single-build implementation remains a secured
+`5.983598069677243 Å`. This is byte-identical applied output for the named
+development relation, not a theoretical limit. No full-length output was
+recorded for that version; the short result neither authorizes nor vetoes a run
+ordered by Maria. The single-build implementation remains a measured
 engineering advance: matched 32-residue wall time falls from `513.96 s` to
-`283.38 s` (**44.8634%**). The next predictive derivation moves to spatial
-side-chain exclusion while retaining v13 and this lossless execution route.
+`283.38 s` (**44.8634%**). The agent subsequently tested spatial side-chain
+exclusion while retaining v13 and this lossless execution route; that choice was
+development history, not an engine-derived next step.
 
 ### Spatial side-chain exclusion gates
 
@@ -469,7 +502,7 @@ execution records `(5, 5, 12)` but preserves all 24 V19 states, the PDB, global
 measurements and every length-3/4/5 local row exactly. The relation is retained
 as constituted source-bound evidence and is not extended unchanged. This
 exact-output measurement is not a theoretical wall: it isolates one child
-ordering while leaving graph-derived orientation and contact topology as the
+ordering while leaving graph-based orientation and contact topology as the
 next constructive frontier.
 
 V21 constitutes the explicit non-neighbour contact map between the fold of the
@@ -487,9 +520,9 @@ strata from `(5, 5)` to `(4, 2)`, and improves C-alpha dRMSD from
 TM changes from `0.025544854782528364` to `0.023237568885348853`. The local
 comparison is mixed: 8/22 length-three, 10/21 length-four and 9/20 length-five
 rows improve, while the maximum at each length is lower. This active applied
-result proves that graph-derived contacts can drive global path selection and
+result shows that graph-based contacts can drive global path selection and
 improve pairwise-distance geometry. V22 is retained rather than extended
-unchanged; the next refinement is sequence-derived contact type or topology,
+unchanged; the next refinement investigated sequence-counted contact type or topology,
 not a theoretical limit on contact propagation.
 
 V23 advances the construction at the architectural level. It binds the
@@ -526,7 +559,7 @@ motivate a different search basis; they are not Maria-authored findings or
 theoretical limits.
 
 V25 makes that architectural change. It starts from the sealed V23.2 selected
-path and, inside every derived four-residue unit, enumerates the unchanged path
+path and, inside every four-residue development unit, enumerates the unchanged path
 and every one-coordinate transition into the complete 24-state locally
 admitted domains. A 24-path beam propagates these transitions from each chain
 direction before the existing rich local/global constitution reconciles the
@@ -614,7 +647,7 @@ The registry verifier halts if:
 
 Generated PDBs and campaign receipts are evidence rather than forcing source.
 They are bound by the protected construction manifest or their immutable seals.
-All 125 tracked PDBs are also exhaustively classified: two experimental
+All 126 tracked PDBs are also exhaustively classified: two experimental
 references, one protected target-assisted construction, eleven sealed v2
 development outputs, four sealed v3 blind predictions, one sealed v4 auxiliary
 development output, two sealed v5 applied development outputs, and thirty-nine
@@ -627,7 +660,7 @@ six sealed V26/V26.1 outputs, three sealed V27 reconciliation outputs and
 three sealed V28 multiscale outputs, three sealed V29 tertiary-body-tree
 outputs, three sealed V30 degree-two-tertiary-path outputs and two sealed V31
 bounded-topology-frontier gate outputs plus two sealed V32 cross-topology
-consensus gate outputs and two sealed V33 minimax-consensus gate outputs
+consensus gate outputs and three sealed V33 minimax-consensus development outputs
 described above.
 Their complete path-and-content census is hash-bound by the registry; both v2
 aggregate seals are reverified. Legacy filenames such as `predicted`,
@@ -688,31 +721,28 @@ complete-length multiscale route, without target-selected weights or target
 feedback. New relations must be named in their own immutable
 manifest, traced through the engine standard, source-bound, tested, and
 executed on sealed real sequence before comparison. The protected complete-
-lattice construction, forced secondary-structure coordinates, and successive
+lattice construction, exact checked secondary-structure coordinates, and successive
 sealed blind local and whole-chain advances establish an executable
 continuation and no theorem-derived wall at the current stage. Maria decides
 when development evidence earns an official run and what conclusion the data
 supports.
 
-V29/V30 now implement the first explicit sequence-derived tertiary-body
-topologies. V29's unrestricted tree advances L32 to TM `0.0499243401` / dRMSD
+V29/V30 are OPEN agent-authored tertiary-body development architectures. V29's
+unrestricted tree output advances L32 to TM `0.0499243401` / dRMSD
 `4.5466887676 Å` and L24 dRMSD to `5.4137342407 Å`, but forms a high-degree
-hub at full length. V30 forces the body's counted two-boundary capacity and
+hub at full length. V30 implements the agent's two-boundary interpretation and
 retains an L32 advance at TM `0.0502723476` / dRMSD `4.9045982349 Å`; one
 fixed path is lower at L24 and L76. These are measured development artifacts,
-not agent-declared findings or limits. They supply the applied basis for the
-next weight-free topology-frontier architecture, which must retain multiple
-admissible bounded-degree tertiary closures before whole-chain reconciliation.
+not agent-declared findings or limits. They do not prove the tree or degree-two
+form and do not authorize a next selector relation.
 
 V31 constructs the complete counted degree interval `2,3,4` and performs
 independent bidirectional assembly for every topology. Its L24 gate recovers
 V30 distance geometry to `5.5047257155 Å` dRMSD. At L32, however, all 24 final
 paths originate in the degree-4 frontier and the measured row is below V28-V30.
-The planned L76 execution was therefore not started. This is an implemented
-development gate identifying topology-family collapse, not a Maria finding,
-failed prediction or theoretical wall. The next registered architecture must
-derive cross-topology consensus from the exact three-family/24-path census and
-preserve family provenance through final selection.
+No L76 output was recorded for that version. This is OPEN implemented
+development evidence, not a Maria finding, failed prediction, theoretical wall,
+or engine authorization for cross-topology consensus.
 
 V32 implements that provenance-preserving admission through exact minimum
 state distances to all three complete family frontiers. All three families
@@ -729,7 +759,9 @@ stratum. L24 closes to two equally distant candidates and selects V26.1 at TM
 `0.0264163231` / dRMSD `6.2909406819 Å`. L32 closes to one candidate and
 selects V28 byte-exactly at TM `0.0444462491` / dRMSD `5.6156347475 Å`,
 removing the V31/V32 regression but not retaining V29/V30's stronger L32 row.
-The conditional L76 execution was not started. This completes the applied
-global-degree consensus diagnosis and directs the next architecture to
-sequence-heterogeneous per-body degree capacity; it is not evidence of a
-theoretical wall.
+The completed L76 development output selects V29 byte-exactly at TM
+`0.0938366517` / dRMSD `8.7716502163 Å`. This is unchanged from V29 and,
+relative to V28, 26.96% lower in TM and 26.00% poorer in dRMSD. The
+applied consensus measurements do not force a heterogeneous-degree architecture;
+such a relation must first pass the complete corpus admission guard. They are not
+evidence of a theoretical wall.

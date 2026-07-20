@@ -4,7 +4,7 @@ Fold Protein is the protein-structure computational-proof project of the [Smithi
 
 ## Super Parity result
 
-The repository contains a reproducible **Super Parity proof by construction** for the 76-residue ubiquitin Cα backbone on the theorem-forced 24×24 dihedral lattice:
+The repository contains a reproducible **Super Parity proof by construction** for the 76-residue ubiquitin Cα backbone on the exact 24×24 dihedral lattice used by the named forward-forcing construction:
 
 - repository TM-score: **0.9891211351**;
 - Cα distance-matrix RMSD: **0.2608575408 Å**;
@@ -32,7 +32,19 @@ The SFT sequence engine has completed target-isolated, pre-comparison-sealed bli
 
 Post-seal local comparison identifies accurate sequence geometry within the blind outputs: `IFV` at **0.8821336259 local TM / 0.1611313002 Å dRMSD**, and `TLT` at approximately **0.892 local TM / 0.187 Å dRMSD** in independently sealed 16- and 24-residue predictions. In the complete 76-residue blind prediction, the strongest same-index three-residue windows include `HLV` at **0.9914591922 local TM / 0.0313953540 Å dRMSD**, `RLI` at **0.9656795312 local TM / 0.0606832279 Å dRMSD**, and `RGG` at **0.9059580746 local TM / 0.0958017776 Å dRMSD**. All 74 windows are preserved in `verify/development_runs/ubiquitin_v3_current_20260719/local_windows_l3.json`.
 
-Maria Smith has declared the completed 76-residue blind execution and its positive local empirical results for publication. Sealed blind reach has advanced from 8 to 16 to 24 to all 76 residues, and the strongest local agreement has advanced to **0.9914591922 TM**. The next constructive frontier is to propagate that accurate local geometry through inter-window orientation and complete global assembly. No theoretical wall is established: the protected construction proves that the same 24×24 lattice contains a 76-residue ubiquitin trace at **0.9891211351 TM / 0.2608575408 Å dRMSD**, while the engine-checked 3D protein law separately forces the canonical right-handed α-helix angles `(−60°, −45°)` and β-sheet angles `(−120°, +135°)`.
+Maria Smith has declared the completed 76-residue blind execution and its positive local empirical results for publication. Sealed blind reach has advanced from 8 to 16 to 24 to all 76 residues, and the strongest local agreement has advanced to **0.9914591922 TM**. The next constructive frontier is to propagate that accurate local geometry through inter-window orientation and complete global assembly. No theoretical wall is established: the protected construction proves that the same 24×24 lattice contains a 76-residue ubiquitin trace at **0.9891211351 TM / 0.2608575408 Å dRMSD**, while the exact-fraction 3D Protein module separately checks the canonical right-handed α-helix angles `(−60°, −45°)` and β-sheet angles `(−120°, +135°)`. Those coordinate forms remain OPEN for the corpus's finished form guards.
+
+### Derivation admission boundary
+
+The engine-closed foundation, the named target-assisted 24-lattice construction,
+and the named target-isolated V3 forward-forcing constitution have distinct
+provenance. V4-V33 are preserved as **OPEN agent-authored development
+architectures** unless and until their complete assembled selector forms pass the
+corpus's dependency, generated-candidate, minimality, named-shape uniqueness,
+target-exclusion and halt guards. Exact counts, zero fitted parameters, source
+seals and real applied scores remain evidence about the executed builds; they do
+not by themselves convert a selector form into a derivation. This boundary is
+machine-checked by `python3 -m tools.verify_protein_derivation_admission`.
 
 ### Current forward-forcing stage
 
@@ -111,7 +123,7 @@ predictive direction is now spatial side-chain exclusion, retaining v13 and
 the lossless execution improvement.
 
 V15 executes that spatial side-chain direction. From each generated N/CA/C
-frame it derives the positive L-chiral half-space, uses the exact constituted
+frame it computes the positive L-chiral half-space, uses the exact constituted
 side-chain heavy-atom graph count to place a target-incapable command point,
 and admits no target, template, rotamer, empirical radius, distance table,
 fitted weight, reward or learned parameter. Its sealed 24-residue run changed
@@ -151,7 +163,7 @@ and the measured whole-prefix result is `8.2512076135 Å` dRMSD. This causal
 evidence identifies early local graph pruning—not the explicit graph relation
 itself—as the assembly placement to refine.
 
-V18 separates the already-forced hard facts into the exact lexicographic
+V18 separates the previously implemented hard relations into the exact lexicographic
 vector `(backbone, sidechain_graph)`, preventing a child side-chain exclusion
 from trading against its parent backbone exclusion. It selects all **24/24**
 v17 states and an identical PDB, with zero global or local predictive delta.
@@ -190,7 +202,7 @@ and shows that encounter multiplicity alone does not supply the next
 discriminator in this hierarchy. It is retained as source-bound development
 evidence rather than extended unchanged.
 
-V21 re-derived an explicit non-neighbour contact map in the generated shell
+V21 implemented an explicit non-neighbour contact map in the generated shell
 between the folded Cα step and the complete step. Its sealed L24 path records
 **19 residue-pair contacts / 123 atom contacts** but preserves all **24/24** V19
 states and every measurement exactly when contact count enters as one soft
@@ -208,16 +220,16 @@ evidence rather than promoted or extended unchanged.
 These are target-isolated, seal-before-score implemented development results.
 They extend the executable forcing chain; they are not agent-declared
 findings, limits, or substitutions for Maria Smith's conclusions. The current
-next state is to separate sequence-derived contact type or contact topology
+next state investigated sequence-counted contact type or contact topology
 inside inter-window assembly while retaining v13's secured local relations and
 lossless single-build execution. The secured
-lattice containment, forced secondary-structure coordinates, complete blind
+lattice containment, exact checked secondary-structure coordinates, complete blind
 execution, and successive local and whole-chain advances establish a
 constructive route forward and no theorem-derived obstruction at this stage.
 
 The matched complete 76-residue V19 blind cumulative development benchmark is
 also complete. Its exact preservation of V13, active explicit graph census and
-the preceding L24 advance support proceeding to a new graph-derived
+the preceding L24 advance supported testing a new graph-based
 propagation relation rather than repeating V19 or extending V20-V22 unchanged. It
 remains a cumulative development benchmark unless Maria explicitly registers
 it as an official run.
@@ -255,7 +267,7 @@ window crossing their assembly boundaries. Their sealed data showed that
 complete tuple replacement displaced 67-71 of the stronger V23.2 parent
 states at L76. V25 therefore preserves the sealed V23.2 complete path as the
 starting candidate and expands every admitted one-coordinate transition in
-each derived four-residue unit through independent 24-path forward and reverse
+each four-residue development unit through independent 24-path forward and reverse
 beams. This is a new global search basis, not a fitted continuity penalty.
 
 The sealed V25 L76 development result changes **11** V23.2 states and improves
@@ -309,56 +321,56 @@ data therefore support multiscale propagation at complete length and locate
 the next correction in intermediate-scale admission. V25 and V26.1 remain the
 individual leading full-length TM and dRMSD parent branches.
 
-V29 changes the represented object to a sequence-forced tertiary graph of
-four-residue bodies. Exact sidechain-atom, hydrophobic and formal-charge counts
-order the body edges before coordinates exist; complete body grafts and paired
-boundary states are then assembled in both directions. This produces a large
-intermediate-length advance: L32 reaches **TM `0.0499243401` / dRMSD
+V29 is an OPEN agent-authored development architecture that represents
+four-residue bodies as an ordinal tertiary graph. Exact sidechain-atom,
+hydrophobic and formal-charge counts order its edges before coordinates exist;
+complete body grafts and paired boundary states are then assembled in both
+directions. Its sealed L32 output reaches **TM `0.0499243401` / dRMSD
 `4.5466887676 Å`**, improving V28 by **12.33% TM** and **19.04% dRMSD**. L24
 dRMSD improves **12.77%** to **`5.4137342407 Å`**, with a 2.37% TM tradeoff.
-The 76-residue tree exposes an unbounded hub and is lower than V28 on both
-measures. V30 replaces that hub with the body's counted two-boundary relation,
-forcing a connected degree-two tertiary path. It retains the L32 advance at
-**TM `0.0502723476` / dRMSD `4.9045982349 Å`**, but its L24 and L76 rows are
-lower. These cumulative development benchmarks establish active tertiary
-topology discrimination and locate the next architecture at a retained
-frontier of admissible bounded-degree topologies, rather than one fixed tree
-or path. They do not establish a theoretical wall or an official result.
+V30 is a separate OPEN development architecture implementing a degree-two
+tertiary path from the body's two-boundary interpretation. Its L32 output reaches
+**TM `0.0502723476` / dRMSD `4.9045982349 Å`**. These are real applied
+measurements of the named builds, but neither the tree nor the degree-two path
+is an engine-closed derivation. They do not establish a theoretical wall or an
+official result.
 
-V31 executes that complete bounded-degree frontier over the counted capacities
+V31 is an OPEN agent-authored bounded-degree frontier over the counted capacities
 `2,3,4`. Each topology receives an independent 24-path forward/reverse
 assembly before joint constitutional reconciliation. At L24 it recovers V30's
 distance regression to **`5.5047257155 Å` dRMSD**, remaining **11.30%** better
 than V28, with lower TM. At L32 the final frontier collapses to 24/24 degree-4
 paths and reaches **TM `0.0363843691` / dRMSD `5.7052176785 Å`**, below the
-V28-V30 rows. This gate was therefore stopped before L76. The next implemented
-direction is cross-topology consensus that retains the exact provenance of all
-three topology families through final selection; V31 is applied development
-evidence, not a finding, prediction failure or theoretical limit.
+V28-V30 rows. No L76 output was recorded for that version. V31 is applied
+development evidence, not a finding, prediction failure, theoretical limit, or
+engine-derived authorization for another selector.
 
-V32 adds a separate cross-topology consensus stage. Every candidate receives
+V32 is an OPEN agent-authored cross-topology consensus stage. Every candidate receives
 three exact minimum state distances—one to each complete degree-family
 frontier—and these enter permutation-invariant admission before the established
 whole-chain constitution. At L24 all three topology families survive the
 24-path consensus frontier and TM improves over V31 to **`0.0196520134`**,
 while dRMSD is **`6.3312973879 Å`**. At L32 consensus admission preserves
 multiple families, but final physical reconciliation selects the byte-identical
-V31 degree-4 path at **TM `0.0363843691` / dRMSD `5.7052176785 Å`**. The next
-correction is therefore exact minimax consensus—worst family distance first,
-then symmetric family distance—before another physical reconciliation. V32
-was stopped before L76 because it would reproduce an already identified
-selected-path issue, not because of a theoretical wall.
+V31 degree-4 path at **TM `0.0363843691` / dRMSD `5.7052176785 Å`**.
+The agent subsequently implemented exact minimax consensus—worst family distance
+first, then symmetric family distance—before another physical reconciliation.
+That development choice was not an engine derivation or a gate on Maria's
+authority to order a run.
 
-V33 gives exact worst-family distance constitutional priority. At L24 the
+V33 is an OPEN agent-authored architecture giving exact worst-family distance
+outer priority. At L24 the
 minimax relation closes to two `[9,9,9]` candidates and selects the sealed
 V26.1 path at **TM `0.0264163231` / dRMSD `6.2909406819 Å`**, recovering TM
 substantially over V31/V32. At L32 the minimax relation has one candidate and
 selects the sealed V28 path exactly at **TM `0.0444462491` / dRMSD
 `5.6156347475 Å`**, removing the V31/V32 regression. It does not retain the
-stronger V29/V30 intermediate result, so no L76 calculation was started. The
-applied evidence now directs the next representational change: derive a
-different bounded degree for each four-residue body from its exact sequence
-constitution, instead of applying or reconciling one global degree.
+stronger V29/V30 intermediate result. The completed L76 development run selects
+V29 byte-exactly at **TM `0.0938366517` /
+dRMSD `8.7716502163 Å`**. It is unchanged from V29 and, relative to V28, TM is
+26.96% lower and dRMSD is 26.00% poorer. No
+heterogeneous-degree selector is authorized unless its complete form first
+passes the corpus admission guards.
 
 ## Governing law
 
