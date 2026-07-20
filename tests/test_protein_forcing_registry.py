@@ -13,7 +13,7 @@ class ProteinForcingRegistryTests(unittest.TestCase):
             "6b08f5288034d0958a15c8b4b0af0edb59715e37",
         )
         self.assertEqual(receipt["inherited_compiler"]["tracked_files"], 315)
-        self.assertEqual(receipt["artifact_inventory"]["tracked_pdb_files"], 69)
+        self.assertEqual(receipt["artifact_inventory"]["tracked_pdb_files"], 75)
         self.assertEqual(
             receipt["artifact_inventory"]["class_counts"]["sealed_v3_blind_prediction"],
             4,
@@ -41,6 +41,21 @@ class ProteinForcingRegistryTests(unittest.TestCase):
         self.assertEqual(
             receipt["artifact_inventory"]["class_counts"][
                 "sealed_v13_cumulative_development_output"],
+            3,
+        )
+        self.assertEqual(
+            receipt["artifact_inventory"]["class_counts"][
+                "sealed_v14_continuity_development_output"],
+            2,
+        )
+        self.assertEqual(
+            receipt["artifact_inventory"]["class_counts"][
+                "sealed_v15_spatial_development_output"],
+            1,
+        )
+        self.assertEqual(
+            receipt["artifact_inventory"]["class_counts"][
+                "sealed_v16_binary_spatial_development_output"],
             1,
         )
         self.assertEqual(receipt["artifact_inventory"]["v2_ladder"]["failed_runs"], 0)

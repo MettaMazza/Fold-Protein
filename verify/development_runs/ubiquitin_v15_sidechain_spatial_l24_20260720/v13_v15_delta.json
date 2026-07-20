@@ -1,0 +1,48 @@
+{
+  "schema": "fold-protein-v13-v15-l24-development-delta/v1",
+  "status": "completed",
+  "result_type": "cumulative development benchmark",
+  "official_run": false,
+  "authority": "Maria Smith alone assigns conclusions and official status.",
+  "applied_comparison": {
+    "sequence_length": 24,
+    "v13_states_sha256": "5e2c2a7fcbdaa033a125d93d8798a458e867b84ba77c9283b8305bf09d172952",
+    "v15_states_sha256": "f107a3b9e8f7c86fedb59c87cadaa6294e645e2075684daaa02aff648786a38a",
+    "selected_state_identity": "3/24",
+    "selected_state_differences": 21,
+    "prediction_pdb_byte_identity": false,
+    "v13_spatial_excluded_residue_pairs": 10,
+    "v15_spatial_excluded_residue_pairs": 3,
+    "spatial_pair_reduction_percent": 70.0,
+    "v13_possible_heavy_atom_encounters": 145,
+    "v15_possible_heavy_atom_encounters": 39,
+    "encounter_reduction_percent": 73.10344827586206,
+    "v13_tm_score": 0.025439036509863604,
+    "v15_tm_score": 0.012423768859676975,
+    "tm_delta": -0.013015267650186629,
+    "v13_ca_drmsd_angstrom": 7.016435338321138,
+    "v15_ca_drmsd_angstrom": 7.68413561682186,
+    "ca_drmsd_delta_angstrom": 0.667700278500722,
+    "best_local_tm": {
+      "length_3": {"v13": 0.9991385703352215, "v15": 0.9955319778644727},
+      "length_4": {"v13": 0.6488923284461807, "v15": 0.602180655762043},
+      "length_5": {"v13": 0.25764238229583347, "v15": 0.28845209836335417, "improvement_percent": 11.958326030437005}
+    },
+    "same_index_window_counts": {
+      "length_3": {"improved": 7, "regressed": 15, "total": 22},
+      "length_4": {"improved": 8, "regressed": 13, "total": 21},
+      "length_5": {"improved": 7, "regressed": 13, "total": 20}
+    },
+    "wall_time_seconds": 183.93
+  },
+  "source_bound_evidence": {
+    "v15_seal_sha256": "b3e9b75a4c85645be2031909c677e7450a572b5ae88f0ebad591636b7feee8c2",
+    "v15_evaluation_sha256": "b744bf35f91891c9d713c5d3242d4999bbaff2e8717e656e747380e2849341ab",
+    "v15_local_l3_sha256": "df2a6cc63a60d85f7613e39cd4dff9d8d08d27fe2f5054bc845cc1319e2d9c42",
+    "v15_local_l4_sha256": "2014edba7cf3f95b2ded5d46166a59137150b1d2bb29c7a7d4644ae037081c6b",
+    "v15_local_l5_sha256": "743b2994e840e66efef103a2f469acbb4761bc01c42d7dd3409a7bba195ecb07"
+  },
+  "development_direction": "The spatial relation is active and strongly reduces its constituted encounter census, while the mixed post-seal structural measurements do not support replacing v13 or extending v15 unchanged to 76 residues. The next derivation separates binary spatial hard-exclusion existence from the retained heavy-atom encounter census so graph cardinality cannot multiply the hard-exclusion stratum.",
+  "theoretical_status": "This applied development result establishes discrimination and supplies the next exact refinement; it is not evidence of a theorem-derived obstruction.",
+  "author_audit": "Codex gpt-5.6-sol, high reasoning"
+}

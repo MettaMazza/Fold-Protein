@@ -1,0 +1,15 @@
+{
+  "ca_drmsd_angstrom": 7.522769416858055,
+  "execution": "post-seal structural comparison",
+  "matched_ca_atoms": 24,
+  "official_run": false,
+  "result_type": "cumulative development benchmark",
+  "run_id": "development-ubiquitin-v16-binary-sidechain-spatial-l24-20260720",
+  "schema": "fold-protein-blind-evaluation/v16",
+  "seal_sha256": "30267ce800b3b7d411246dd179de7b1b997c1452ba2b51a9dde14b52132088b7",
+  "sequence_length": 24,
+  "status": "completed",
+  "target_id": "1ubq.pdb",
+  "target_sha256": "d4a6812d8951cf6594e6a0763f089e35f5a80b62acb3c117b2c5565228a7b161",
+  "tm_score": 0.0126289266228606
+}

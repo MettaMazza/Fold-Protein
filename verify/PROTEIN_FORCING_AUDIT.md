@@ -381,6 +381,37 @@ engineering advance: matched 32-residue wall time falls from `513.96 s` to
 `283.38 s` (**44.8634%**). The next predictive derivation moves to spatial
 side-chain exclusion while retaining v13 and this lossless execution route.
 
+### Spatial side-chain exclusion gates
+
+V15 constitutes the first target-incapable spatial side-chain exclusion. Each
+generated N/CA/C residue frame supplies the positive L-chiral half-space; the
+exact side-chain heavy-atom graph count and its integer successor supply a
+dimensionless share of the generated adjacent C-alpha step. Non-neighbour
+command points inside that same generated step are excluded. No target,
+template, rotamer, empirical radius, imported distance table, fitted weight,
+reward or learned parameter enters the selector.
+
+The sealed 24-residue V15 gate is active: it changes 21/24 states relative to
+v13 and reduces the spatial census from 10 excluded pairs / 145 possible
+heavy-atom encounters in the v13 structure to 3 pairs / 39 encounters. Its
+strongest five-residue window advances by 11.96% to TM
+`0.28845209836335417`. Whole-prefix TM is `0.012423768859676975` and dRMSD is
+`7.68413561682186 Å`, so this version is retained as discriminating development
+evidence rather than substituted for the stronger complete-sequence v13
+route.
+
+V16 separates two exact facts that V15 combined: existence of an excluded
+residue pair is one binary hard exclusion, while the side-chain graph
+Cartesian product is a recorded encounter census. Its sealed 24-residue gate
+improves over V15 to TM `0.0126289266228606` and dRMSD
+`7.522769416858055 Å`, while preserving the same best local scores. Identity
+at 23/24 selected states localises the next work beyond exclusion
+multiplicity: spatially instantiate the exact side-chain graph and branches
+rather than representing a whole residue by one command point. A 76-residue
+V15/V16 trial is not recommended before that continuation passes the same
+24-residue gate. This is cumulative development evidence and resource
+direction, not a theorem-derived obstruction or a Maria-declared loss.
+
 ## Preserved development evidence, not attributed conclusions
 
 Selector v2 receipts remain intact because they contain useful target-isolation,
@@ -426,12 +457,13 @@ The registry verifier halts if:
 
 Generated PDBs and campaign receipts are evidence rather than forcing source.
 They are bound by the protected construction manifest or their immutable seals.
-All 67 tracked PDBs are also exhaustively classified: two experimental
+All 75 tracked PDBs are also exhaustively classified: two experimental
 references, one protected target-assisted construction, eleven sealed v2
 development outputs, four sealed v3 blind predictions, one sealed v4 auxiliary
 development output, two sealed v5 applied development outputs, and thirty-nine
 legacy pre-project development artifacts, plus the three sealed v6-v8 and
-three sealed v9-v10 and one sealed v11 applied development output described
+three sealed v9-v10, one sealed v11, one sealed v12, three sealed v13, two
+sealed v14, one sealed v15 and one sealed v16 development outputs described
 above.
 Their complete path-and-content census is hash-bound by the registry; both v2
 aggregate seals are reverified. Legacy filenames such as `predicted`,
@@ -444,14 +476,16 @@ inventories are also bound: repository configuration, the historical compiled
 
 The audit removes silent inheritance while preserving the full constructive
 chain. The secured v3 route remains the blind baseline; v5 establishes the
-four-residue inter-window continuation; and v10 is the current active applied
-route, carrying signed alpha/beta geometry, binary mode preservation, formal
-charge, exact side-chain graph crowding, and weight-free ordinal balance.
+four-residue inter-window continuation; and v13 is the current complete-
+sequence route, carrying signed alpha/beta geometry, binary mode preservation,
+formal charge, exact side-chain graph crowding, weight-free ordinal balance,
+and retained local plus topology-separated hydrogen-bond assembly. Its sealed
+76-residue prediction improves whole-chain TM by 57.49% over v10.
 
-The next state is to retain those constitutions and the executed v12 topology
-separation while adding a more spatially complete side-chain hard-exclusion
-relation, continuing whole-chain inter-window assembly, and preserving the
-strong v11 local geometry inside that global continuation. New relations must
+The next state is to retain those constitutions and the executed v13 assembly
+while spatially instantiating the exact side-chain graph and branch topology,
+continuing whole-chain inter-window assembly, and preserving the secured local
+geometry inside that global continuation. New relations must
 be named in their own immutable manifest, traced
 through the engine standard, source-bound, tested, and executed on sealed real
 sequence before comparison. The protected complete-lattice construction, the

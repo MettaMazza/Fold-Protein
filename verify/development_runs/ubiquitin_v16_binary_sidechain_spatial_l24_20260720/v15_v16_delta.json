@@ -1,0 +1,48 @@
+{
+  "schema": "fold-protein-v15-v16-l24-development-delta/v1",
+  "status": "completed",
+  "result_type": "cumulative development benchmark",
+  "official_run": false,
+  "authority": "Maria Smith alone assigns conclusions and official status.",
+  "applied_comparison": {
+    "sequence_length": 24,
+    "v15_states_sha256": "f107a3b9e8f7c86fedb59c87cadaa6294e645e2075684daaa02aff648786a38a",
+    "v16_states_sha256": "72fd9b63dd23c982f609c9ae3570388f8275a3d070a73856b8b4b5d4f4dc2d82",
+    "selected_state_identity": "23/24",
+    "selected_state_differences": 1,
+    "prediction_pdb_byte_identity": false,
+    "v15_spatial_excluded_residue_pairs": 3,
+    "v16_spatial_excluded_residue_pairs": 3,
+    "v15_possible_heavy_atom_encounters": 39,
+    "v16_possible_heavy_atom_encounters": 44,
+    "v15_tm_score": 0.012423768859676975,
+    "v16_tm_score": 0.0126289266228606,
+    "tm_improvement_percent": 1.6513327437175152,
+    "v15_ca_drmsd_angstrom": 7.68413561682186,
+    "v16_ca_drmsd_angstrom": 7.522769416858055,
+    "ca_drmsd_improvement_percent": 2.0999915671783165,
+    "best_local_tm": {
+      "length_3": {"v15": 0.9955319778644727, "v16": 0.9955319778644727},
+      "length_4": {"v15": 0.602180655762043, "v16": 0.602180655762043},
+      "length_5": {"v15": 0.28845209836335417, "v16": 0.28845209836335417}
+    },
+    "v13_reference": {
+      "tm_score": 0.025439036509863604,
+      "ca_drmsd_angstrom": 7.016435338321138,
+      "v16_tm_delta": -0.012810109887003004,
+      "v16_ca_drmsd_delta_angstrom": 0.5063340785369173
+    },
+    "wall_time_seconds": 183.20
+  },
+  "source_bound_evidence": {
+    "v16_seal_sha256": "30267ce800b3b7d411246dd179de7b1b997c1452ba2b51a9dde14b52132088b7",
+    "v16_evaluation_sha256": "7e0a64174f8ceef2a93c2c9eec9d5afdeba01c3f5bef756a196323189752aa1b",
+    "v16_local_l3_sha256": "00496477f207e4964780ebc084a690f8698e3ff065b1d3882a054ac19786fc76",
+    "v16_local_l4_sha256": "9a1acad795cda3489e3b0e1d92c944191bd991afff93941cafcaa5ecd131121a",
+    "v16_local_l5_sha256": "7788f64f5f72044c4857184607a0e19a8e55147dfb6539dfe17c0de0fad6d034"
+  },
+  "development_direction": "Binary pair existence is the correct hard-exclusion unit and gives a small whole-prefix recovery over v15, but the near-identical selected path and retained gap to v13 show that encounter multiplicity is not the main predictive frontier. The next construction should spatially instantiate the exact side-chain graph and branch topology rather than representing each residue by one command point.",
+  "full_trial_recommendation": "Do not spend a complete 76-residue development run on v15 or v16 unchanged; retain v13 as the current complete-sequence route and first gate the graph-spatial continuation at 24 residues.",
+  "theoretical_status": "The active discrimination, five-residue improvement over v13, and partial v16 recovery over v15 provide constructive development evidence; none establishes a theorem-derived obstruction.",
+  "author_audit": "Codex gpt-5.6-sol, high reasoning"
+}

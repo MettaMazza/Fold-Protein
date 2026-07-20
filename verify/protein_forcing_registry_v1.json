@@ -1,6 +1,6 @@
 {
   "schema": "fold-protein-forcing-registry/v1",
-  "date": "2026-07-19",
+  "date": "2026-07-20",
   "authority": {
     "validity": "Forcing and derivation are admitted by the engine's trace, closure and halt standards; this registry cannot declare them valid by prose.",
     "publication": "Maria Smith alone declares publishable conclusions, benchmark findings, victories, losses and real-run status.",
@@ -26,7 +26,10 @@
     "blind_selector_v10": "active weight-free symmetric ordinal balance with sealed 24- and 76-residue applied evidence; strongest full-chain blind dRMSD in the v3/v5/v10 line",
     "blind_selector_v11": "sealed target-incapable backbone hydrogen-bond assembly development continuation with active 24-residue applied evidence; v10 remains the current whole-chain route pending Maria's direction",
     "blind_selector_v12": "sealed target-incapable topology-separated backbone hydrogen-bond continuation with active 24-residue applied evidence; Maria determines its conclusion and continuation",
-    "blind_selector_v13": "sealed target-incapable retained-local plus topology-separated backbone hydrogen-bond continuation with cumulative 24-residue applied evidence; Maria determines conclusions and official status",
+    "blind_selector_v13": "current complete-sequence route with sealed target-incapable retained-local plus topology-separated assembly evidence at 24, 32 and 76 residues; full-sequence TM improves 57.49% over v10; Maria determines conclusions and official status",
+    "blind_selector_v14": "sealed exact hydrogen-bond successor-continuity gate at 24 and 32 residues; relation is active and preserves byte-identical v13 predictions at both gates",
+    "blind_selector_v15": "sealed target-incapable L-chiral spatial side-chain exclusion gate; active 24-residue discrimination and strongest five-residue TM 0.2884520984",
+    "blind_selector_v16": "sealed binary-pair spatial exclusion correction; small whole-prefix recovery over v15 while retaining v13 as the current complete-sequence route",
     "legacy_engines": "retained history only; excluded from promoted and active continuation routes"
   },
   "inherited_toolchain_boundary": {
@@ -187,6 +190,36 @@
       "verify/evaluate_sealed_blind_local_v13.py",
       "verify/evaluate_sealed_blind_v13.py"
     ],
+    "blind_v13_lossless_execution_development": [
+      "tools/blind_24_lattice_selector_v13_single_build_candidate.py"
+    ],
+    "blind_v14_hydrogen_bond_continuity_development": [
+      "tests/test_backbone_hydrogen_bond_continuity_v1.py",
+      "tests/test_blind_selector_v14.py",
+      "tools/backbone_hydrogen_bond_continuity_v1.py",
+      "tools/blind_24_lattice_selector_v14.py",
+      "tools/run_blind_protocol_v14.py",
+      "verify/evaluate_sealed_blind_local_v14.py",
+      "verify/evaluate_sealed_blind_v14.py"
+    ],
+    "blind_v15_spatial_sidechain_development": [
+      "tests/test_blind_selector_v15.py",
+      "tests/test_sidechain_spatial_exclusion_v1.py",
+      "tools/blind_24_lattice_selector_v15.py",
+      "tools/run_blind_protocol_v15.py",
+      "tools/sidechain_spatial_exclusion_v1.py",
+      "verify/evaluate_sealed_blind_local_v15.py",
+      "verify/evaluate_sealed_blind_v15.py"
+    ],
+    "blind_v16_binary_spatial_sidechain_development": [
+      "tests/test_blind_selector_v16.py",
+      "tests/test_sidechain_spatial_exclusion_v2.py",
+      "tools/blind_24_lattice_selector_v16.py",
+      "tools/run_blind_protocol_v16.py",
+      "tools/sidechain_spatial_exclusion_v2.py",
+      "verify/evaluate_sealed_blind_local_v16.py",
+      "verify/evaluate_sealed_blind_v16.py"
+    ],
     "legacy_agent_development_unpromoted": [
       "tests/test_blind_protocol.py",
       "tools/beam_search_engine.py",
@@ -332,6 +365,65 @@
       "tools/residue_charge_constitution_v1.py",
       "tools/residue_steric_constitution_v1.py",
       "tools/run_blind_protocol_v13.py"
+    ],
+    "v14_runtime_roots": [
+      "tools/backbone_hydrogen_bond_constitution_v1.py",
+      "tools/backbone_hydrogen_bond_constitution_v2.py",
+      "tools/backbone_hydrogen_bond_continuity_v1.py",
+      "tools/blind_24_lattice_selector_v3.py",
+      "tools/blind_24_lattice_selector_v5.py",
+      "tools/blind_24_lattice_selector_v6.py",
+      "tools/blind_24_lattice_selector_v7.py",
+      "tools/blind_24_lattice_selector_v9.py",
+      "tools/blind_24_lattice_selector_v12.py",
+      "tools/blind_24_lattice_selector_v13.py",
+      "tools/blind_24_lattice_selector_v13_single_build_candidate.py",
+      "tools/blind_24_lattice_selector_v14.py",
+      "tools/constitutional_rank_balance_v1.py",
+      "tools/protein_backbone_geometry_v1.py",
+      "tools/residue_partition_v1.py",
+      "tools/residue_charge_constitution_v1.py",
+      "tools/residue_steric_constitution_v1.py",
+      "tools/run_blind_protocol_v14.py"
+    ],
+    "v15_runtime_roots": [
+      "tools/backbone_hydrogen_bond_constitution_v1.py",
+      "tools/backbone_hydrogen_bond_constitution_v2.py",
+      "tools/blind_24_lattice_selector_v3.py",
+      "tools/blind_24_lattice_selector_v5.py",
+      "tools/blind_24_lattice_selector_v6.py",
+      "tools/blind_24_lattice_selector_v7.py",
+      "tools/blind_24_lattice_selector_v9.py",
+      "tools/blind_24_lattice_selector_v12.py",
+      "tools/blind_24_lattice_selector_v13.py",
+      "tools/blind_24_lattice_selector_v15.py",
+      "tools/constitutional_rank_balance_v1.py",
+      "tools/protein_backbone_geometry_v1.py",
+      "tools/residue_partition_v1.py",
+      "tools/residue_charge_constitution_v1.py",
+      "tools/residue_steric_constitution_v1.py",
+      "tools/sidechain_spatial_exclusion_v1.py",
+      "tools/run_blind_protocol_v15.py"
+    ],
+    "v16_runtime_roots": [
+      "tools/backbone_hydrogen_bond_constitution_v1.py",
+      "tools/backbone_hydrogen_bond_constitution_v2.py",
+      "tools/blind_24_lattice_selector_v3.py",
+      "tools/blind_24_lattice_selector_v5.py",
+      "tools/blind_24_lattice_selector_v6.py",
+      "tools/blind_24_lattice_selector_v7.py",
+      "tools/blind_24_lattice_selector_v9.py",
+      "tools/blind_24_lattice_selector_v12.py",
+      "tools/blind_24_lattice_selector_v13.py",
+      "tools/blind_24_lattice_selector_v16.py",
+      "tools/constitutional_rank_balance_v1.py",
+      "tools/protein_backbone_geometry_v1.py",
+      "tools/residue_partition_v1.py",
+      "tools/residue_charge_constitution_v1.py",
+      "tools/residue_steric_constitution_v1.py",
+      "tools/sidechain_spatial_exclusion_v1.py",
+      "tools/sidechain_spatial_exclusion_v2.py",
+      "tools/run_blind_protocol_v16.py"
     ]
   },
   "generated_evidence": {
@@ -348,12 +440,15 @@
     "v10_balanced_relations_development": "verify/development_runs/ubiquitin_v10_balanced_relations_l{24,76}_20260719/ bind the weight-free symmetric ordinal selector and its sealed mixed-mode applied evidence; Maria alone determines publication status.",
     "v11_hydrogen_bond_assembly_development": "verify/development_runs/ubiquitin_v11_hbond_assembly_l24_20260719/ binds the target-incapable unit-capacity backbone hydrogen-bond relation and sealed 24-residue applied evidence; Maria alone determines promotion, publication and whole-chain continuation.",
     "v12_topology_hydrogen_bond_development": "verify/development_runs/ubiquitin_v12_topology_hbond_l24_20260719/ binds the target-incapable topology-separated global-unit-capacity backbone relation and its sealed 24-residue applied evidence; Maria alone determines its conclusion, promotion and continuation.",
-    "v13_retained_topology_hydrogen_bond_development": "verify/development_runs/ubiquitin_v13_retained_topology_l24_20260719/ binds the retained local and topology-separated global relations and their sealed cumulative 24-residue benchmark; it is not official unless Maria registers it.",
+    "v13_retained_topology_hydrogen_bond_development": "verify/development_runs/ubiquitin_v13_retained_topology_l{24,32,76}_20260719/ bind the retained local and topology-separated global relations; the sealed 76-residue benchmark improves whole-sequence TM 57.49% over v10 and is not official unless Maria registers it.",
+    "v14_hydrogen_bond_continuity_development": "verify/development_runs/ubiquitin_v14_hbond_continuity_l{24,32}_20260719/ bind exact successor-continuity activation evidence and byte-identical matched v13 predictions.",
+    "v15_spatial_sidechain_development": "verify/development_runs/ubiquitin_v15_sidechain_spatial_l24_20260720/ binds active L-chiral spatial exclusion evidence, its 70% excluded-pair reduction relative to the v13 structure, and its 11.96% best length-five TM advance.",
+    "v16_binary_spatial_sidechain_development": "verify/development_runs/ubiquitin_v16_binary_sidechain_spatial_l24_20260720/ binds the binary hard-pair correction and its small whole-prefix recovery over v15; Maria determines all conclusions and official status.",
     "classification": "A recorded development execution is not a Maria finding, loss or failed prediction."
   },
   "artifact_inventory": {
-    "tracked_pdb_files": 69,
-    "tracked_pdb_file_set_sha256": "d6be0e2f6f4d8219131b8d0daa07223e0b246c482a173cd21d6414aca6837644",
+    "tracked_pdb_files": 75,
+    "tracked_pdb_file_set_sha256": "ae965f87c59f7e59da2d389758680e5311a5b0c6b65faec1b2f710b1a5810c18",
     "classes": {
       "experimental_reference": [
         "verify/1cop.pdb",
@@ -405,7 +500,19 @@
         "verify/development_runs/ubiquitin_v12_topology_hbond_l24_20260719/prediction.pdb"
       ],
       "sealed_v13_cumulative_development_output": [
-        "verify/development_runs/ubiquitin_v13_retained_topology_l24_20260719/prediction.pdb"
+        "verify/development_runs/ubiquitin_v13_retained_topology_l24_20260719/prediction.pdb",
+        "verify/development_runs/ubiquitin_v13_retained_topology_l32_20260719/prediction.pdb",
+        "verify/development_runs/ubiquitin_v13_retained_topology_l76_20260719/prediction.pdb"
+      ],
+      "sealed_v14_continuity_development_output": [
+        "verify/development_runs/ubiquitin_v14_hbond_continuity_l24_20260719/prediction.pdb",
+        "verify/development_runs/ubiquitin_v14_hbond_continuity_l32_20260719/prediction.pdb"
+      ],
+      "sealed_v15_spatial_development_output": [
+        "verify/development_runs/ubiquitin_v15_sidechain_spatial_l24_20260720/prediction.pdb"
+      ],
+      "sealed_v16_binary_spatial_development_output": [
+        "verify/development_runs/ubiquitin_v16_binary_sidechain_spatial_l24_20260720/prediction.pdb"
       ],
       "legacy_preproject_development_artifact": [
         "1ubq_autonomous.pdb",

@@ -110,6 +110,35 @@ residues: `283.38 s` versus v13's `513.96 s` (**44.86% faster**). The active
 predictive direction is now spatial side-chain exclusion, retaining v13 and
 the lossless execution improvement.
 
+V15 executes that spatial side-chain direction. From each generated N/CA/C
+frame it derives the positive L-chiral half-space, uses the exact constituted
+side-chain heavy-atom graph count to place a target-incapable command point,
+and admits no target, template, rotamer, empirical radius, distance table,
+fitted weight, reward or learned parameter. Its sealed 24-residue run changed
+21/24 selected states and reduced the constituted spatial census from the 10
+excluded residue pairs / 145 possible heavy-atom encounters present in the
+v13 structure to **3 pairs / 39 encounters**. Its strongest five-residue
+window advanced from v13's `0.2576423823` to **`0.2884520984 TM`**
+(**11.96%**), while the whole-prefix comparison measured TM `0.0124237689`
+and dRMSD `7.6841356168 Å`. This applied gate proves the new relation is
+active and supplies real discrimination data; it does not replace v13 as the
+current complete-sequence route.
+
+V16 then makes the hard-exclusion fact exact as set membership: one excluded
+non-neighbour residue pair is one hard exclusion. The exact heavy-atom
+Cartesian product remains recorded as an encounter census but no longer
+multiplies the absolute hard stratum. Its sealed 24-residue prediction improves
+on v15 to **TM `0.0126289266` / dRMSD `7.5227694169 Å`** (respectively
+**1.65%** and **2.10%**), while preserving the same strongest local scores:
+`0.9955319779` at length 3, `0.6021806558` at length 4 and
+`0.2884520984` at length 5. The v16 path is identical to v15 at 23/24 states,
+so binary counting is a precise correction but not the principal predictive
+advance. The next state is a spatial instantiation of the exact side-chain
+graph and branch topology rather than a single command point. V15 and v16 are
+therefore retained as source-bound development evidence, while a 76-residue
+trial waits for that graph-spatial continuation to pass the 24-residue gate.
+This is a resource-directed development decision, not a theoretical wall.
+
 These are target-isolated, seal-before-score implemented development results. They extend the executable forcing chain; they are not agent-declared failures, limits, or substitutions for Maria Smith's conclusions. The current next state is to retain the secured signed geometry, dual-mode preservation, formal charge, exact side-chain graph, and weight-free balance while forward-forcing backbone hydrogen-bond assembly and a more spatially complete side-chain hard-exclusion relation. The secured lattice containment, forced secondary-structure coordinates, complete blind execution, and successive local and whole-chain advances establish a constructive route forward and no theorem-derived obstruction at this stage.
 
 The previously recommended complete 76-residue v13 blind cumulative
@@ -161,6 +190,8 @@ python3 -m tools.verify_protein_forcing_registry
 | `tools/blind_24_lattice_selector_v11.py` | target-incapable unit-capacity backbone hydrogen-bond development continuation |
 | `tools/blind_24_lattice_selector_v12.py` | target-incapable alpha/longer non-local topology-separated backbone assembly continuation |
 | `tools/blind_24_lattice_selector_v13.py` | target-incapable retained-local plus topology-separated backbone assembly continuation |
+| `tools/blind_24_lattice_selector_v15.py` | target-incapable L-chiral spatial side-chain encounter continuation |
+| `tools/blind_24_lattice_selector_v16.py` | binary-pair spatial hard-exclusion continuation with separate atom encounter census |
 | `verify/development_runs/ubiquitin_v9_steric_orientation_l24_20260719/` | sealed v9 applied evidence |
 | `verify/development_runs/ubiquitin_v10_balanced_relations_l{24,76}_20260719/` | sealed v10 applied evidence |
 | `verify/development_runs/ubiquitin_v11_hbond_assembly_l24_20260719/` | sealed v11 hydrogen-bond applied evidence and post-seal local windows |
@@ -169,6 +200,8 @@ python3 -m tools.verify_protein_forcing_registry
 | `verify/development_runs/ubiquitin_v13_retained_topology_l76_20260719/` | complete sealed v13 76-residue blind benchmark, global/local measurements, and v10/v13 propagation delta |
 | `verify/development_runs/v13_single_build_candidate_20260719.json` | exact-output identity and 22.56% runtime-improvement receipt for the lossless execution candidate |
 | `verify/development_runs/ubiquitin_v14_hbond_continuity_l{24,32}_20260719/` | sealed successor-continuity activation gates and matched v13/v14 delta receipts |
+| `verify/development_runs/ubiquitin_v15_sidechain_spatial_l24_20260720/` | sealed spatial side-chain development evidence and v13/v15 delta receipt |
+| `verify/development_runs/ubiquitin_v16_binary_sidechain_spatial_l24_20260720/` | sealed binary spatial-exclusion evidence and v15/v16 delta receipt |
 | `verify/development_runs/ubiquitin_v12_topology_hbond_l24_20260719/v11_v12_state_delta.json` | source-bound sealed-path and local-window delta locating the next combined relation |
 | `verify/evaluate_sealed_blind_v3.py` | seal verifier and target-isolated evaluation boundary |
 | `verify/evaluate_sealed_blind_local_v3.py` | all-window post-seal local evaluator; reproduces the published IFV/TLT measurements |
