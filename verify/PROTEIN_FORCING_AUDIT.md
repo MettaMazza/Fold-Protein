@@ -412,6 +412,45 @@ V15/V16 trial is not recommended before that continuation passes the same
 24-residue gate. This is cumulative development evidence and resource
 direction, not a theorem-derived obstruction or a Maria-declared loss.
 
+V17 spatially instantiates the exact covalent side-chain graph. Integer graph
+depth supplies the outward coordinate in each generated positive L-chiral
+residue frame; centered sibling rank supplies branch coordinates, alternating
+the remaining frame axes by depth parity. Atom reach is the exact `n/(n+1)`
+share of the generated adjacent C-alpha step, and the encounter unit is its
+`1/2` fold. One non-neighbour residue pair with any atom encounter is one
+binary hard exclusion. No target, template, rotamer, empirical bond geometry,
+radius, fitted cutoff, weight, reward, or learned value enters selection.
+
+The sealed V17 L24 route records 6 excluded graph pairs and 16 atom
+encounters. It advances whole-prefix TM over V15/V16 to
+`0.016764131428767547` and advances V13's strongest length-five local TM by
+9.21% to `0.28138048245022396`. Its first divergence from V13 is residue 5,
+with whole-prefix dRMSD `8.251207613480005 Å`; applied comparison therefore
+locates early local graph pruning as the next placement question.
+
+V18 makes the hard relation constitutional and hierarchical. Backbone and
+side-chain graph exclusions remain the exact lexicographic vector
+`(backbone, sidechain_graph)` rather than a sum, multiplier, fitted scalar, or
+weighted score. The sealed L24 execution selects all 24 V17 states and a
+byte-identical PDB, preserving every global and local measurement. This exact
+output closes the hard-fact ordering and demonstrates that scalar hard-stratum
+combination did not cause the final V17 path.
+
+V19 retains V13's local relations unchanged and moves the explicit graph hard
+relation to complete-prefix assembly only. The sealed L24 output retains
+22/24 V13 states and first diverges at residue 22. Whole-prefix TM advances
+from `0.025439036509863604` to `0.025544854782528364` (**0.415968%**) and
+C-alpha dRMSD improves from `7.016435338321138 Å` to
+`7.005403396485503 Å` (**0.157230%**). The best length-four and length-five
+TM rows remain exactly `0.6488923284461807` and `0.25764238229583347`, while
+two same-index rows improve at each length. Its final hard vector is
+`(5 backbone, 5 sidechain_graph)`. This is the first explicit graph route to
+improve both sealed L24 global measures over V13 while preserving its strongest
+length-four and length-five local geometry. The next resource-directed gate is
+a matched sealed L32 cumulative development benchmark; successful propagation
+there supports a subsequent L76 development trial. Maria alone decides whether
+and when either run occurs.
+
 ## Preserved development evidence, not attributed conclusions
 
 Selector v2 receipts remain intact because they contain useful target-isolation,
@@ -457,14 +496,14 @@ The registry verifier halts if:
 
 Generated PDBs and campaign receipts are evidence rather than forcing source.
 They are bound by the protected construction manifest or their immutable seals.
-All 75 tracked PDBs are also exhaustively classified: two experimental
+All 78 tracked PDBs are also exhaustively classified: two experimental
 references, one protected target-assisted construction, eleven sealed v2
 development outputs, four sealed v3 blind predictions, one sealed v4 auxiliary
 development output, two sealed v5 applied development outputs, and thirty-nine
 legacy pre-project development artifacts, plus the three sealed v6-v8 and
 three sealed v9-v10, one sealed v11, one sealed v12, three sealed v13, two
-sealed v14, one sealed v15 and one sealed v16 development outputs described
-above.
+sealed v14, one sealed v15, one sealed v16, one sealed v17, one sealed v18 and
+one sealed v19 development outputs described above.
 Their complete path-and-content census is hash-bound by the registry; both v2
 aggregate seals are reverified. Legacy filenames such as `predicted`,
 `optimized`, or `autonomous` do not confer result or authorship status.
@@ -482,10 +521,21 @@ formal charge, exact side-chain graph crowding, weight-free ordinal balance,
 and retained local plus topology-separated hydrogen-bond assembly. Its sealed
 76-residue prediction improves whole-chain TM by 57.49% over v10.
 
-The next state is to retain those constitutions and the executed v13 assembly
-while spatially instantiating the exact side-chain graph and branch topology,
-continuing whole-chain inter-window assembly, and preserving the secured local
-geometry inside that global continuation. New relations must
+V17 has now spatially instantiated the exact side-chain graph and branch
+topology; V18 has separated its hard fact from the parent backbone exclusion;
+and V19 has located that graph relation at complete-prefix assembly while
+preserving V13's secured local frontier. V19 is the current L24 global
+continuation candidate: it improves both whole-prefix TM and dRMSD over V13,
+retains 22/24 states, and preserves the strongest length-four and length-five
+local rows. V13 remains the current complete 76-residue route until a longer
+V19 development execution is completed.
+
+The next state is to test V19 at a matched sealed L32 cumulative development
+gate, preserve the exact hard vector and local/global separation, and measure
+whether the improvement propagates beyond the final L24 region. A successful
+L32 gate supports proceeding to L76. The single-build reuse path and cached
+complete-prefix graph calculations are also the measured optimisation
+direction, provided exact sealed output identity is preserved. New relations must
 be named in their own immutable manifest, traced
 through the engine standard, source-bound, tested, and executed on sealed real
 sequence before comparison. The protected complete-lattice construction, the

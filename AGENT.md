@@ -145,6 +145,16 @@ V13 source unchanged because its hashes bind the seal. A separate single-build
 candidate is exact across every tested output field and 22.56% faster; promote
 that implementation only through a new source-bound protocol version.
 
+The current L24 global continuation candidate is V19. It preserves V13's
+local selection, applies the explicit covalent side-chain graph only at
+complete-prefix assembly, retains 22/24 V13 states, and improves both sealed
+global measures: **TM 0.0255448548** (+0.416%) and **7.0054033965 Å dRMSD**
+(0.157% improvement). Its strongest length-four and length-five rows remain
+exactly preserved. V13 remains the current complete 76-residue route; the next
+recommended cumulative development calculation is a matched sealed V19 L32
+gate, followed by L76 if the global advance and local preservation propagate.
+Maria alone decides whether and when those runs occur.
+
 **The sequence supplies the spatial command.** The forward-forcing programme derives how amino-acid
 identity determines the invariant exclusions and relations that select among the 576 exact states per
 residue. Every proposed relation is routed through the engine; a violation halts rather than becoming
@@ -163,12 +173,14 @@ gyration, scalar hydrophobic collapse) require forging arbitrary constants to co
 0.9891 trace supplies forward-forcing spatial relations, including the recorded
 steric and sequential-distance investigations. Target-derived development
 relations remain named as such and are not silently admitted to a blind selector.
-Selector v3 remains the clean blind baseline. Selectors v5-v13 form the traced
+Selector v3 remains the clean blind baseline. Selectors v5-v19 form the traced
 continuation through inter-window topology, signed alpha/beta orientation,
 formal charge, exact side-chain graphs, weight-free ordinal balance, and
 target-incapable unit-capacity backbone hydrogen-bond assembly, including the
 v12 exact-alpha/longer-non-local topology separation and v13's retained local
-assembly beside both topology relations.
+assembly beside both topology relations, v17's explicit integer graph spatial
+embedding, v18's lexicographic backbone/sidechain hard strata, and v19's
+local-preserving complete-prefix graph assembly.
 
 ---
 

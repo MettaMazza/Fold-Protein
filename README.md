@@ -139,7 +139,46 @@ therefore retained as source-bound development evidence, while a 76-residue
 trial waits for that graph-spatial continuation to pass the 24-residue gate.
 This is a resource-directed development decision, not a theoretical wall.
 
-These are target-isolated, seal-before-score implemented development results. They extend the executable forcing chain; they are not agent-declared failures, limits, or substitutions for Maria Smith's conclusions. The current next state is to retain the secured signed geometry, dual-mode preservation, formal charge, exact side-chain graph, and weight-free balance while forward-forcing backbone hydrogen-bond assembly and a more spatially complete side-chain hard-exclusion relation. The secured lattice containment, forced secondary-structure coordinates, complete blind execution, and successive local and whole-chain advances establish a constructive route forward and no theorem-derived obstruction at this stage.
+V17 now spatially instantiates the exact covalent side-chain graphs rather
+than collapsing each residue to one command point. Integer graph depth and
+branch rank place every constituted heavy atom in the generated L-chiral
+residue frame; one non-neighbour residue pair with any atom encounter is one
+binary hard exclusion. The sealed L24 route is active, recording **6 graph
+pairs / 16 atom encounters**. It improves whole-prefix TM over v15 and v16 to
+**`0.0167641314`** and advances v13's strongest length-five row by **9.21%**
+to **`0.2813804825 TM`**. Its first divergence from v13 occurs at residue 5,
+and the measured whole-prefix result is `8.2512076135 Å` dRMSD. This causal
+evidence identifies early local graph pruning—not the explicit graph relation
+itself—as the assembly placement to refine.
+
+V18 separates the already-forced hard facts into the exact lexicographic
+vector `(backbone, sidechain_graph)`, preventing a child side-chain exclusion
+from trading against its parent backbone exclusion. It selects all **24/24**
+v17 states and an identical PDB, with zero global or local predictive delta.
+That exact-output evidence closes the hard-stratum semantics and localises the
+next change to where graph geometry enters selection.
+
+V19 preserves v13's secured local frontier exactly and applies the explicit
+graph relation only at complete-prefix assembly. Its sealed L24 output retains
+**22/24** v13 states, first diverging at residue 22, and improves both global
+measures: TM advances from `0.0254390365` to **`0.0255448548`**
+(**+0.416%**) while dRMSD falls from `7.0164353383 Å` to
+**`7.0054033965 Å`** (**0.157% improvement**). The best length-four and
+length-five rows are preserved exactly; two same-index rows improve at each
+of those lengths. The final hard vector is **`(5 backbone, 5 graph)`**, so
+the explicit graph relation contributes independent global discrimination
+without displacing the secured local construction. This is the first explicit
+side-chain-graph route to improve both sealed L24 global measures over v13.
+
+These are target-isolated, seal-before-score implemented development results.
+They extend the executable forcing chain; they are not agent-declared
+findings, limits, or substitutions for Maria Smith's conclusions. The current
+next state is to propagate v19's global-only graph separation through a matched
+sealed 32-residue cumulative development gate while retaining v13's secured
+local relations and lossless single-build execution. The secured lattice
+containment, forced secondary-structure coordinates, complete blind execution,
+and successive local and whole-chain advances establish a constructive route
+forward and no theorem-derived obstruction at this stage.
 
 The previously recommended complete 76-residue v13 blind cumulative
 development benchmark is complete. Its whole-chain TM, hard-exclusion,
@@ -192,6 +231,11 @@ python3 -m tools.verify_protein_forcing_registry
 | `tools/blind_24_lattice_selector_v13.py` | target-incapable retained-local plus topology-separated backbone assembly continuation |
 | `tools/blind_24_lattice_selector_v15.py` | target-incapable L-chiral spatial side-chain encounter continuation |
 | `tools/blind_24_lattice_selector_v16.py` | binary-pair spatial hard-exclusion continuation with separate atom encounter census |
+| `tools/sidechain_graph_spatial_exclusion_v1.py` | explicit integer side-chain graph embedding and binary spatial exclusion |
+| `tools/blind_24_lattice_selector_v17.py` | explicit graph-spatial local and global continuation |
+| `tools/constitutional_lexicographic_exclusion_v1.py` | exact backbone-before-sidechain hard-exclusion hierarchy |
+| `tools/blind_24_lattice_selector_v18.py` | hierarchical explicit graph-spatial continuation |
+| `tools/blind_24_lattice_selector_v19.py` | v13-local, explicit-graph global assembly continuation |
 | `verify/development_runs/ubiquitin_v9_steric_orientation_l24_20260719/` | sealed v9 applied evidence |
 | `verify/development_runs/ubiquitin_v10_balanced_relations_l{24,76}_20260719/` | sealed v10 applied evidence |
 | `verify/development_runs/ubiquitin_v11_hbond_assembly_l24_20260719/` | sealed v11 hydrogen-bond applied evidence and post-seal local windows |
@@ -202,6 +246,9 @@ python3 -m tools.verify_protein_forcing_registry
 | `verify/development_runs/ubiquitin_v14_hbond_continuity_l{24,32}_20260719/` | sealed successor-continuity activation gates and matched v13/v14 delta receipts |
 | `verify/development_runs/ubiquitin_v15_sidechain_spatial_l24_20260720/` | sealed spatial side-chain development evidence and v13/v15 delta receipt |
 | `verify/development_runs/ubiquitin_v16_binary_sidechain_spatial_l24_20260720/` | sealed binary spatial-exclusion evidence and v15/v16 delta receipt |
+| `verify/development_runs/ubiquitin_v17_graph_spatial_l24_20260720/` | sealed explicit graph-spatial evidence and v13/v17 delta receipt |
+| `verify/development_runs/ubiquitin_v18_hierarchical_graph_l24_20260720/` | sealed hard-hierarchy exact-output evidence and v17/v18 delta receipt |
+| `verify/development_runs/ubiquitin_v19_global_graph_l24_20260720/` | sealed global-only graph advance and v13/v19 delta receipt |
 | `verify/development_runs/ubiquitin_v12_topology_hbond_l24_20260719/v11_v12_state_delta.json` | source-bound sealed-path and local-window delta locating the next combined relation |
 | `verify/evaluate_sealed_blind_v3.py` | seal verifier and target-isolated evaluation boundary |
 | `verify/evaluate_sealed_blind_local_v3.py` | all-window post-seal local evaluator; reproduces the published IFV/TLT measurements |

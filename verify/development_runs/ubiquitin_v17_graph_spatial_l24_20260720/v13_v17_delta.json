@@ -1,0 +1,46 @@
+{
+  "schema": "fold-protein-v13-v17-l24-development-delta/v1",
+  "status": "completed",
+  "result_type": "cumulative development benchmark",
+  "official_run": false,
+  "authority": "Maria Smith alone assigns conclusions and official status.",
+  "applied_comparison": {
+    "sequence_length": 24,
+    "selected_state_identity": "5/24",
+    "selected_state_differences": 19,
+    "first_divergence_residue_one_based": 5,
+    "v17_hard_exclusions": 17,
+    "v17_backbone_hard_exclusions": 11,
+    "v17_graph_hard_exclusions": 6,
+    "v17_graph_atom_encounters": 16,
+    "v13_tm_score": 0.025439036509863604,
+    "v17_tm_score": 0.016764131428767547,
+    "tm_delta": -0.008674905081096057,
+    "v13_ca_drmsd_angstrom": 7.016435338321138,
+    "v17_ca_drmsd_angstrom": 8.251207613480005,
+    "ca_drmsd_delta_angstrom": 1.2347722751588677,
+    "best_local_tm": {
+      "length_3": {"v13": 0.9991385703352215, "v17": 0.9968757335119708},
+      "length_4": {"v13": 0.6488923284461807, "v17": 0.599317288780619},
+      "length_5": {"v13": 0.25764238229583347, "v17": 0.28138048245022396, "improvement_percent": 9.213585103064915}
+    },
+    "same_index_window_counts": {
+      "length_3": {"improved": 9, "tied": 3, "regressed": 10, "total": 22},
+      "length_4": {"improved": 7, "tied": 2, "regressed": 12, "total": 21},
+      "length_5": {"improved": 8, "tied": 1, "regressed": 11, "total": 20}
+    },
+    "wall_time_seconds": 242.16,
+    "maximum_resident_set_bytes": 81330176
+  },
+  "source_bound_evidence": {
+    "v17_selected_states_sha256": "a6b96ba21082aa5fd6f0921e38e75ffd7b74b347ad61c65782ddf7ad4539c420",
+    "v17_seal_sha256": "8b28ca71bba05b77bebfe7266fe3e6fdaba69ada605e870bee512ff086bc6560",
+    "v17_evaluation_sha256": "05ef248e39626525180c02d7ff423139008e4bfd3816340c4a8095d18803068e",
+    "v17_local_l3_sha256": "4920fc8585b87abf9bff2f87255578155583f8ecb7df4fc435999f66f7b7dd67",
+    "v17_local_l4_sha256": "bfbfd877d7633dca9de9385647e29ef58c7251fced8e3c9f921d1c9ef2434bfc",
+    "v17_local_l5_sha256": "ccf6acf659824ba1fb39492f7bcf86b1ce4e2060f33f74e063edbf2e9df9999c"
+  },
+  "development_direction": "The explicit graph relation is active and retains a strong five-residue advance, while first divergence at residue 5 identifies local graph pruning as the next assembly question. Preserve the relation and test its hard fact at complete-prefix assembly without replacing the secured v13 local frontier.",
+  "theoretical_status": "This implemented discrimination supplies a causal next step and does not establish a theorem-derived obstruction.",
+  "author_audit": "Codex gpt-5.6-sol, high reasoning"
+}

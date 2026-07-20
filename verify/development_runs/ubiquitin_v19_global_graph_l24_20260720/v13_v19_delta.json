@@ -1,0 +1,51 @@
+{
+  "schema": "fold-protein-v13-v19-l24-development-delta/v1",
+  "status": "completed",
+  "result_type": "cumulative development benchmark",
+  "official_run": false,
+  "authority": "Maria Smith alone assigns conclusions and official status.",
+  "applied_comparison": {
+    "sequence_length": 24,
+    "local_route": "exact v13 local relations",
+    "complete_prefix_route": "hierarchical backbone and explicit sidechain graph hard exclusions",
+    "local_graph_pruning": false,
+    "v19_hard_exclusion_vector": [5, 5],
+    "v19_graph_atom_encounters": 12,
+    "selected_state_identity": "22/24",
+    "selected_state_differences": 2,
+    "first_divergence_residue_one_based": 22,
+    "prediction_pdb_byte_identity": false,
+    "v13_tm_score": 0.025439036509863604,
+    "v19_tm_score": 0.025544854782528364,
+    "tm_delta": 0.0001058182726647594,
+    "tm_improvement_percent": 0.4159680836329338,
+    "v13_ca_drmsd_angstrom": 7.016435338321138,
+    "v19_ca_drmsd_angstrom": 7.005403396485503,
+    "ca_drmsd_delta_angstrom": -0.011031941835634385,
+    "ca_drmsd_improvement_percent": 0.1572300078842348,
+    "best_local_tm": {
+      "length_3": {"v13": 0.9991385703352215, "v19": 0.9984764349723149},
+      "length_4": {"v13": 0.6488923284461807, "v19": 0.6488923284461807},
+      "length_5": {"v13": 0.25764238229583347, "v19": 0.25764238229583347}
+    },
+    "same_index_window_counts": {
+      "length_3": {"improved": 0, "tied": 20, "regressed": 2, "total": 22},
+      "length_4": {"improved": 2, "tied": 19, "regressed": 0, "total": 21},
+      "length_5": {"improved": 2, "tied": 18, "regressed": 0, "total": 20}
+    },
+    "wall_time_seconds": 271.54,
+    "maximum_resident_set_bytes": 89309184
+  },
+  "source_bound_evidence": {
+    "v19_selected_states_sha256": "c4007dceea139fc5aa67677dde47535dd7b254d2b023aae66fe56720a3be6625",
+    "v19_seal_sha256": "a960e3235bad5fefb5bbb7029378e8a3e32b1aeacc3f4a0b47eeeae7a36f9ee6",
+    "v19_evaluation_sha256": "7e11a568fe25a5277d9fece4124ced61b5c407c2dc18c6adcdaa71d09d7914e7",
+    "v19_local_l3_sha256": "c2d8311f6e23d389dcf101c42127b84e5839d0cf3f65442cce356579fb48d6f4",
+    "v19_local_l4_sha256": "8de47a42f477a384a1d5ef0d4903a8334ce6972a132a1d5365d71c541b40022a",
+    "v19_local_l5_sha256": "ca449ce4cebce32ca77ce3a05da3e4299da1561d5416bdd1708b0865426a5f1d"
+  },
+  "development_direction": "V19 is the first explicit sidechain-graph route to improve both sealed L24 global measures over v13 while preserving its strongest length-four and length-five local windows. The next matched cumulative development gate should test whether that global-only separation propagates through 32 residues before spending a complete 76-residue execution.",
+  "full_trial_recommendation": "Recommend a sealed matched 32-residue cumulative development benchmark next. If the global advance and local preservation propagate at 32 residues, proceed to a 76-residue cumulative development trial. Maria alone decides whether and when either run occurs.",
+  "theoretical_status": "The measured dual global advance demonstrates a constructive continuation from explicit graph geometry; it establishes no theorem-derived wall on longer propagation.",
+  "author_audit": "Codex gpt-5.6-sol, high reasoning"
+}

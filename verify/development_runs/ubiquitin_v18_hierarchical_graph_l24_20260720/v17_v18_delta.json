@@ -1,0 +1,39 @@
+{
+  "schema": "fold-protein-v17-v18-l24-development-delta/v1",
+  "status": "completed",
+  "result_type": "cumulative development benchmark",
+  "official_run": false,
+  "authority": "Maria Smith alone assigns conclusions and official status.",
+  "applied_comparison": {
+    "sequence_length": 24,
+    "v18_hard_exclusion_vector": [11, 6],
+    "v18_hard_exclusion_strata": ["backbone", "sidechain_graph"],
+    "selected_state_identity": "24/24",
+    "selected_state_differences": 0,
+    "prediction_pdb_byte_identity": true,
+    "v17_tm_score": 0.016764131428767547,
+    "v18_tm_score": 0.016764131428767547,
+    "tm_delta": 0.0,
+    "v17_ca_drmsd_angstrom": 8.251207613480005,
+    "v18_ca_drmsd_angstrom": 8.251207613480005,
+    "ca_drmsd_delta_angstrom": 0.0,
+    "same_index_window_counts": {
+      "length_3": {"improved": 0, "tied": 22, "regressed": 0, "total": 22},
+      "length_4": {"improved": 0, "tied": 21, "regressed": 0, "total": 21},
+      "length_5": {"improved": 0, "tied": 20, "regressed": 0, "total": 20}
+    },
+    "wall_time_seconds": 244.73,
+    "maximum_resident_set_bytes": 82722816
+  },
+  "source_bound_evidence": {
+    "v18_selected_states_sha256": "660cf261d75897a7e376067563b65348f52d22b8c2890073ab18071f81fce292",
+    "v18_seal_sha256": "4796398397c152027aecae0950a6b65572e8f3bb351902bf78efadbda8766680",
+    "v18_evaluation_sha256": "b4a28ea58180b29c3cf32ce370318229618e330b29914877cf47d05bdfaa8e9b",
+    "v18_local_l3_sha256": "f52a79db370e77d52e551c9b517dcd731a3ba345aa86ee7d179390fd305bf000",
+    "v18_local_l4_sha256": "7706f192e5fe1d64f5b328dcd48812430a4d1bf1c90999e481b1e431fb010ce3",
+    "v18_local_l5_sha256": "3ee794ab4a5dbaeb938a4d79eaf3ca1cd9535b320540f37b61c88de547e0124c"
+  },
+  "development_direction": "The exact backbone-before-sidechain hierarchy closes the hard-fact semantics without changing the applied V17 prediction. The byte-identical output localises the next predictive work to where the graph relation enters selection rather than how its hard strata are ordered.",
+  "theoretical_status": "Zero predictive delta is positive evidence for an exact semantic repair and does not establish a theoretical obstruction.",
+  "author_audit": "Codex gpt-5.6-sol, high reasoning"
+}
