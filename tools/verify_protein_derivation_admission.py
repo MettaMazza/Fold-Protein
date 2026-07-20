@@ -78,6 +78,7 @@ def verify_admission() -> dict:
         if re.fullmatch(r"blind_selector_v(?:[4-9]|[12]\d|3[0-3])(?:_\d+)?\.json", path.name)
     )
     expected_manifests.add("blind_selector_v34")
+    expected_manifests.add("blind_selector_v35")
     actual_manifests = selector_manifests()
     if actual_manifests != expected_manifests:
         raise RuntimeError(
@@ -106,6 +107,7 @@ def verify_admission() -> dict:
         "protected_target_assisted_forward_forcing",
         "blind_v3_named_forward_forcing_development",
         "blind_v34_closed_domain_forward_forcing",
+        "blind_v35_complete_boundary_forward_forcing",
     }
     if active != allowed_active:
         raise RuntimeError(

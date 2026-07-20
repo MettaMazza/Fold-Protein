@@ -1,0 +1,21 @@
+import "../constants/protein_blind_selector_v35_admission.ep"
+
+define expect_number with label as Str and got as Int and want as Int:
+    if got equals want:
+        display concat("  ok    " and concat(label and concat(" = " and int_to_string(got))))
+    else:
+        return halt_violation(concat("V35 admission count failed: " and label))
+    return 0
+
+define main:
+    display "=== Protein V35 complete-boundary admission ==="
+    set ok to expect_number("three-residue boundary contexts" and protein_selector_boundary_context_count() and 8)
+    set ok to expect_number("four-residue transitions" and protein_selector_boundary_transition_count() and 16)
+    set ok to expect_number("outgoing transitions per context" and protein_selector_transitions_from_context_count() and 2)
+    set ok to expect_number("incoming transitions per context" and protein_selector_transitions_into_context_count() and 2)
+    set admitted to enforce_protein_selector_v35_boundary_graph()
+    if admitted == 1:
+        display "  ok    complete boundary propagation closes through the engine"
+        display "=== done ==="
+        return 0
+    return halt_violation("V35 admission returned without closure")

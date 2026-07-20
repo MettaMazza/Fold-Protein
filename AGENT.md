@@ -269,9 +269,22 @@ the named V3 baseline, C-alpha dRMSD improves 35.28% from `52.8931467807 Å` to
 `34.2298081116 Å`; TM measures `0.0171435350` versus V3's `0.0269927379`. Preserve
 both measurements. The engineering inference—not Maria's conclusion—is that the
 closed domain materially improves pairwise distance geometry while the unchanged
-residue-level V3 order does not yet carry the correct complete-chain topology. The
-next derivational correction is complete boundary-state propagation over the eight
-window and sixteen quartet paths, without introducing another local score.
+residue-level V3 order does not yet carry the correct complete-chain topology. That
+measured pattern supplied the purpose-matched basis for V35's complete boundary graph.
+
+V35 executes the complete engine-closed propagation: all 8 three-residue boundary
+contexts and all 16 four-residue transitions remain live through each of 72 mature
+steps, with one representative per context under the unchanged V3 total order and no
+beam width. Its sealed L76 cumulative development benchmark reaches TM
+`0.0804845764` and C-alpha dRMSD `11.2596910135 Å`, improving V34 by **369.47% TM**
+and **67.11% dRMSD**, and improving V3 by **198.17% TM** and **78.71% dRMSD**.
+Runtime falls **65.94%** from V34 to 3.12 seconds. The simultaneous two-metric advance
+is positive applied evidence that complete forced boundary propagation carries the
+closed canonical domain into materially better whole-chain topology and distance
+geometry. It is a cumulative development benchmark, not an official run or a Maria
+publication conclusion. No theoretical wall is established. Before another selector,
+derive the next complete-chain reconciliation relation through the engine; V35 itself
+is ready for a frozen multi-protein sequence-only development panel if Maria orders it.
 
 **The sequence must supply the spatial command.** The forward-forcing programme investigates how
 amino-acid identity can determine the invariant exclusions and relations that select among the 576
@@ -389,6 +402,8 @@ python3 -m unittest discover -s tests -p 'test_*.py' -v
   provenance-isolated blind baseline and immutable protocol.
 - `tools/blind_24_lattice_selector_v34.py`, `tools/run_blind_protocol_v34.py` — admitted
   V2 closed-domain/V3-order composition and sealed complete-length protocol.
+- `tools/blind_24_lattice_selector_v35.py`, `tools/run_blind_protocol_v35.py` — admitted
+  complete 8-context/16-transition boundary propagation and sealed L76 protocol.
 - `tools/blind_24_lattice_selector_v5.py` through `v12.py` and their protocols —
   traced inter-window, signed-orientation, charge, side-chain, and balanced
   continuation surfaces.

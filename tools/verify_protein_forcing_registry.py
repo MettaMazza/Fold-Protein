@@ -35,11 +35,14 @@ def source_scope() -> set[str]:
         "verify/blind_selector_v2_panel.json",
         "verify/blind_selector_v3.json",
         "verify/blind_selector_v34.json",
+        "verify/blind_selector_v35.json",
         "verify/protein_backbone_geometry_v1.json",
         "verify/protein_derivation_admission_v1.json",
         "verify/protein_engine_closure_v1.json",
         "verify/protein_selector_v34_admission_v1.json",
         "verify/protein_selector_v34_applied_evidence_v1.json",
+        "verify/protein_selector_v35_admission_v1.json",
+        "verify/protein_selector_v35_applied_evidence_v1.json",
         "verify/ubiquitin_24_lattice_manifest.json",
         "verify/test_protein_folding.c",
         "verify/test_protein_folding_3d.c",
@@ -175,7 +178,7 @@ def verify_registry() -> dict:
     selectors = (
             "v3", "v5", "v8", "v9", "v10", "v11", "v12", "v13",
             "v14", "v15", "v16", "v17", "v18", "v19", "v20", "v21",
-            "v22", "v34")
+            "v22", "v34", "v35")
     for selector in selectors:
         runtime_hashes[selector] = {}
         roots = registry["legacy_exclusion"][f"{selector}_runtime_roots"]

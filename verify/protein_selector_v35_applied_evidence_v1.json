@@ -1,0 +1,59 @@
+{
+  "schema": "fold-protein-selector-v35-applied-evidence/v1",
+  "date": "2026-07-21",
+  "status": "completed",
+  "result_type": "cumulative development benchmark",
+  "official_run": false,
+  "purpose": "Measure complete propagation over all eight engine-closed three-residue boundary contexts and all sixteen four-residue transitions under the admitted V3 order.",
+  "protocol": {
+    "command": "python3 -m tools.run_blind_protocol_v35 verify/blind_selector_v35.json verify/development_inputs/ubiquitin_v35_complete_boundary_l76_20260721.json verify/development_runs/ubiquitin_v35_complete_boundary_l76_20260721",
+    "manifest_sha256": "f556848f09c2980a2247a58af80a57221730ebdfc8405633adb374cb3a34b071",
+    "selector_input_sha256": "72382fda2b3ec42d66db3d817089cba457d0a9cf1d548530b71a707e886f52c6",
+    "seal_sha256": "da9ccdafb7f9669f296403a6939e2541e3432fa2f17c36cbc90d5cdeab72aeff",
+    "selected_states_sha256": "81a2d4939668c562477ceebc1af669ff51ca2328dd6e1db86e078030a25d5714",
+    "prediction_pdb_sha256": "df53cbe45c27b904d3fbf06e0673ebfb057a1c1dbf31b95e1d6e8f0f81c0059f",
+    "evaluation_sha256": "e2ec00eb4356980d1c8e7e49ea29ca31c56fe4e520342790d34301dc75b2325d"
+  },
+  "resources": {
+    "wall_seconds": 3.12,
+    "user_seconds": 3.10,
+    "system_seconds": 0.01,
+    "maximum_resident_set_bytes": 25722880,
+    "peak_memory_footprint_bytes": 19448832,
+    "wall_time_improvement_over_v34_percent": 65.93886462882097,
+    "maximum_resident_set_improvement_over_v34_percent": 5.8188362327534495
+  },
+  "complete_length_measurement": {
+    "sequence_length": 76,
+    "matched_ca_atoms": 76,
+    "tm_score": 0.08048457640231105,
+    "ca_drmsd_angstrom": 11.25969101353946,
+    "mode_census": {
+      "alpha": 31,
+      "beta": 44,
+      "inactive": 1
+    },
+    "mature_boundary_steps": 72,
+    "retained_contexts_each_mature_step": 8,
+    "expanded_transitions_each_mature_step": 16
+  },
+  "deltas_from_v34": {
+    "v34_evaluation_sha256": "50769b43cc42385aaf9025a05a8336eb88b3db33484c7b41c77efc240a8c7060",
+    "tm_score_absolute": 0.06334104143738115,
+    "tm_score_improvement_percent": 369.47479949121526,
+    "ca_drmsd_angstrom_absolute": -22.970117098049982,
+    "ca_drmsd_performance_improvement_percent": 67.10559703743364,
+    "states_changed": 27,
+    "states_unchanged": 49,
+    "ca_coordinates_changed": 75,
+    "ca_coordinates_unchanged": 1
+  },
+  "deltas_from_v3": {
+    "v3_evaluation_sha256": "61cbe909d4e86570951823b4f6fa20cc7706bd115a43480f55b54d35f1efa7a3",
+    "tm_score_absolute": 0.05349183845255385,
+    "tm_score_improvement_percent": 198.17122128225978,
+    "ca_drmsd_angstrom_absolute": -41.6334557671143,
+    "ca_drmsd_performance_improvement_percent": 78.71238204028009
+  },
+  "engineering_inference_not_maria_conclusion": "The simultaneous TM and dRMSD advances support the intended causal correction: preserving every forced three-residue boundary context and four-residue transition carries the closed canonical domain into substantially better complete-chain topology and distance geometry. This does not establish a theoretical wall, official run, publication conclusion or final blind-victory result."
+}

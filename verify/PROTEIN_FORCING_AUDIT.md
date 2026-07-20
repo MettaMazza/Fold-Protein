@@ -788,3 +788,29 @@ improves pairwise distance geometry, while complete-chain topology requires the
 next already-counted layer—boundary propagation over all 8 window states and 16
 quartet transitions. This is a cumulative development benchmark, not an official
 run or Maria-declared conclusion.
+
+### V35 complete-boundary applied execution
+
+`verify/protein_selector_v35_admission_v1.json` closes the complete boundary
+graph: 8 binary three-residue contexts, 16 four-residue transitions, two incoming
+and two outgoing transitions per context, exact colour-window overlap and One-residue
+advance. The runtime preserves all 8 contexts and expands all 16 transitions through
+each of 72 mature L76 steps, retaining one deterministic representative per context
+under the already-admitted V3 total order. There is no beam width or added score.
+
+The target-free L76 execution sealed before comparison in 3.12 seconds with maximum
+resident set size 25,722,880 bytes. It selects 31 alpha and 44 beta active forms.
+Post-seal comparison measures TM `0.08048457640231105` and C-alpha dRMSD
+`11.25969101353946 Å`. Both measures improve over V34: TM by
+`369.4747994912%` and dRMSD by `67.1055970374%`. Both also improve over V3:
+TM by `198.1712212823%` and dRMSD by `78.7123820403%`. Runtime improves
+`65.9388646288%` over V34. The exact source, seal, resource and comparison hashes
+are preserved in `verify/protein_selector_v35_applied_evidence_v1.json`.
+
+Engineering inference only: the simultaneous two-metric advance supports the intended
+causal correction—complete forced boundary propagation materially improves both
+whole-chain topology and distance geometry. It is not an official run or Maria-declared
+publication conclusion and establishes no theoretical wall. The frozen V35 protocol is
+technically ready for a multi-protein sequence-only cumulative development panel;
+continued single-target architecture work must first engine-close a complete-chain
+reconciliation relation rather than add another local selector.

@@ -1,0 +1,52 @@
+# Engine admission for complete V35 boundary propagation.
+#
+# The closed residue domain is binary. A colour window therefore has b^c = 8
+# complete boundary contexts. The first object that carries relative orientation
+# between consecutive windows is the four-residue quartet, so it has b^(b*b) =
+# 16 complete transitions. Every transition advances by the One and consecutive
+# quartets overlap in exactly one colour window.
+
+import "protein_blind_selector_v34_admission.ep"
+
+
+define protein_selector_boundary_context_count returning Int:
+    set from_closed_domain to whole_power(protein_selector_closed_domain_count() and protein_orientation_window())
+    set from_generators to whole_power(binary_count() and colour_count())
+    return forced_to_be("complete three-residue boundary contexts" and from_closed_domain and from_generators)
+
+
+define protein_selector_boundary_transition_count returning Int:
+    set from_closed_domain to whole_power(protein_selector_closed_domain_count() and protein_orientation_quartet())
+    set from_generators to whole_power(binary_count() and binary_count() * binary_count())
+    return forced_to_be("complete four-residue boundary transitions" and from_closed_domain and from_generators)
+
+
+define protein_selector_transitions_from_context_count returning Int:
+    set by_partition to protein_selector_boundary_transition_count() / protein_selector_boundary_context_count()
+    set by_next_mode to protein_selector_closed_domain_count()
+    return forced_to_be("each boundary context has one transition per next mode" and by_partition and by_next_mode)
+
+
+define protein_selector_transitions_into_context_count returning Int:
+    set by_predecessor to protein_selector_closed_domain_count()
+    set by_complete_graph to protein_selector_boundary_transition_count() / protein_selector_boundary_context_count()
+    return forced_to_be("each boundary context has one transition per predecessor mode" and by_predecessor and by_complete_graph)
+
+
+define enforce_protein_selector_v35_boundary_graph returning Int:
+    set domain_guard to enforce_protein_selector_v34_domain()
+    set context_count to protein_selector_boundary_context_count()
+    set transition_count to protein_selector_boundary_transition_count()
+    set edge_count to context_count * protein_selector_transitions_from_context_count()
+    set edge_guard to forced_to_be("boundary contexts times outgoing modes exhaust the quartet graph" and edge_count and transition_count)
+    set overlap_guard to 0
+    if protein_orientation_quartet_overlap_is_unique():
+        if protein_orientation_quartet_advance() == protein_interwindow_one_count():
+            set overlap_guard to 1
+    set context_guard to forced_unique("complete boundary-context census" and 1 and context_count - whole_power(binary_count() and colour_count()))
+    if domain_guard == 1:
+        if edge_guard == transition_count:
+            if overlap_guard == 1:
+                if context_guard == 1:
+                    return 1
+    return halt_violation("V35 complete boundary graph did not close")

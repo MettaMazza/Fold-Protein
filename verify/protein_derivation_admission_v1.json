@@ -47,6 +47,14 @@
       "closure_receipt": "verify/protein_selector_v34_admission_v1.json",
       "applied_evidence": "verify/protein_selector_v34_applied_evidence_v1.json",
       "target_boundary": "Selector input is exactly run_id and sequence. The complete 76-residue structure is sealed before the separate evaluator can open the target."
+    },
+    "blind_selector_v35": {
+      "status": "named_forward_forcing_constitution",
+      "scope": "Complete propagation over all eight engine-closed three-residue boundary contexts and all sixteen four-residue transitions, retaining one representative per context under the admitted V3 order.",
+      "source_class": "blind_v35_complete_boundary_forward_forcing",
+      "closure_receipt": "verify/protein_selector_v35_admission_v1.json",
+      "applied_evidence": "verify/protein_selector_v35_applied_evidence_v1.json",
+      "target_boundary": "Selector input is exactly run_id and sequence; 76-residue states and coordinates are sealed before the separate evaluator can open the target."
     }
   },
   "archived_development": {

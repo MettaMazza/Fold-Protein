@@ -54,9 +54,15 @@ orientation quartets. Its sealed 76-residue cumulative development benchmark use
 20 alpha and 55 beta active forms and improves C-alpha dRMSD **35.28%** over V3,
 from **52.8931467807 Å** to **34.2298081116 Å**. TM measures **0.0171435350** versus
 V3's **0.0269927379**. This mixed applied row is preserved without converting it
-into a Maria finding or theoretical boundary. The next forced construction is
-complete window/quartet boundary-state propagation, retaining the closed domain
-without adding a fitted or local selector mechanism.
+into a Maria finding or theoretical boundary. V35 then implements the required
+complete propagation rather than adding a local selector: all **8** three-residue
+contexts and **16** four-residue transitions remain live at every mature step.
+Its sealed L76 structure reaches **TM 0.0804845764 / 11.2596910135 Å dRMSD**,
+improving V34 by **369.47% TM** and **67.11% dRMSD**, and V3 by **198.17% TM**
+and **78.71% dRMSD**. Runtime improves **65.94%** to **3.12 seconds**. This is
+positive cumulative development evidence for complete forced boundary propagation;
+Maria determines its publication and official-run status. No theoretical wall is
+established.
 
 ### Current forward-forcing stage
 
@@ -417,6 +423,7 @@ python3 -m tools.verify_protein_forcing_registry
 | `tools/protein_backbone_geometry_v1.py` | target-incapable extraction of the declared coordinate constitution; byte-exact construction replay |
 | `tools/blind_24_lattice_selector_v3.py` | secured provenance-isolated blind baseline |
 | `tools/blind_24_lattice_selector_v34.py` | engine-admitted V2 canonical-domain composition with the unchanged V3 target-free order |
+| `tools/blind_24_lattice_selector_v35.py` | engine-admitted complete propagation over all 8 boundary contexts and 16 quartet transitions |
 | `verify/blind_selector_v3.json` | v3 relation routes, prohibited inputs, and source hashes |
 | `verify/development_runs/ubiquitin_v3_l{8,16,24}_20260719/` | sealed blind sequence predictions and post-seal whole-prefix measurements |
 | `verify/development_runs/ubiquitin_v3_current_20260719/` | complete sealed 76-residue blind prediction and post-seal global/local measurements |

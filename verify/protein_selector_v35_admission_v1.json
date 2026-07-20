@@ -1,0 +1,45 @@
+{
+  "schema": "fold-protein-selector-v35-admission/v1",
+  "date": "2026-07-21",
+  "status": "engine_admitted_named_forward_forcing_constitution",
+  "authority": "The engine and executable guards determine admission. V35 is a named forward-forcing composition of admitted relations, not a relabelled theorem derivation.",
+  "composition": {
+    "candidate_domain": "The two unique V2 canonical Protein forms inherited through V34.",
+    "boundary_graph": "All 2^3 = 8 three-residue contexts and all 2^4 = 16 four-residue transitions, with colour-window overlap and One-residue advance.",
+    "context_reconciliation": "Exactly one representative per complete boundary context under the unchanged admitted V3 order and deterministic state-tuple tie break.",
+    "beam_width": "none",
+    "new_selector_relation": "none",
+    "new_parameter": "none"
+  },
+  "required_derivation_guards": {
+    "dependency_trace_to_the_One_or_an_engine_closed_result": "The V2 engine closure, admitted V34 domain and admitted V3 order are source-bound.",
+    "generated_complete_candidate_space": "The engine and runtime enumerate all 8 contexts, all 16 quartet transitions and both predecessor modes for every mature context.",
+    "assembled_form_minimality": "The form contains exactly the closed domain, closed boundary graph, existing V3 order, target-incapable geometry and seal boundary; it contains no beam or new score.",
+    "named_shape_uniqueness": "Every boundary context retains exactly one deterministic representative under the registered V3 total order.",
+    "measured_provenance_excluded_from_derivation": "Selector input is exactly run_id and sequence; the target is available only after seal verification.",
+    "engine_halt_on_violation": "Ernos and Python guards halt on count, overlap, transition, context, source, import, configuration or deterministic-replay drift.",
+    "purpose_matched_real_execution": "Required before runtime promotion and recorded separately after the sealed L76 execution."
+  },
+  "minimal_composition_roles": [
+    "engine_closed_candidate_domain",
+    "engine_closed_boundary_graph",
+    "admitted_v3_target_free_order",
+    "target_incapable_geometry",
+    "seal_before_comparison"
+  ],
+  "source_sha256": {
+    "constants/protein_blind_selector_v35_admission.ep": "488b693599f2387b716c0e28e2194c0d9d2794cc00010569b47dfea2a51853d1",
+    "tools/blind_24_lattice_selector_v35.py": "14e3ac555e1648c75e4ed9bbf508afa2369c0d41924dcb9b01e2122a586e6131",
+    "tools/run_blind_protocol_v35.py": "bde4c42aba92174d06b5d5900981c66401e4f230302431366136cc84ccb9fe31",
+    "tools/verify_protein_selector_v35_admission.py": "5cd264dde6ea94ccd2bfc046f2954fd9630735f16eb1385bb523548c6ce48cac",
+    "verify/evaluate_sealed_blind_v35.py": "dfde96a30bb8179b514aaace2ff50b29af54f2a4c0db996e7194be1e2912d280",
+    "verify/protein_engine_closure_v1.json": "a0e0593c9a12020cb532b9c214ed703adc695ea46086a3328f490b3a3db11220",
+    "verify/protein_selector_v34_admission_v1.json": "d9f87b03d5fe7027f364f8527c4b9462e98f4e379eb81ac205fb489e1e31901f",
+    "verify/blind_selector_v34.json": "c81c9e515baf4c67b9bb5c468ec27af44f8a90fee336cafbab36bcdb26bd0b05",
+    "verify/blind_selector_v3.json": "c6988dc13395e59aaaf6c96e6838a14477ceda7a8ecb4d4314c61ca0e8c85ecd",
+    "tools/blind_24_lattice_selector_v3.py": "062c2e4174e42494d3631e0c6aa38a708ec1a5952dc321ce66328620ff305cb5",
+    "tools/blind_24_lattice_selector_v34.py": "bf2bcd1f03a55e29c660d0c5b95f1ea17f3ac8d463eb9647d2d02f0b077ab5a2",
+    "tools/protein_backbone_geometry_v1.py": "a043e5d05a26fdf063c4703dac619f5fe918b65779a96df6d3cfa2f536fdc315",
+    "tools/residue_partition_v1.py": "f48e0ebc2c3dbc1d6d7a37370e0a2329968524d169d7b43022dce30ceacd3814"
+  }
+}
