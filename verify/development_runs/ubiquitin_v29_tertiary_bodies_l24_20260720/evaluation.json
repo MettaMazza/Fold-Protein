@@ -1,0 +1,20 @@
+{
+  "ca_drmsd_angstrom": 5.413734240696955,
+  "execution": "post-seal structural comparison",
+  "matched_ca_atoms": 24,
+  "official_run": false,
+  "result_type": "cumulative development benchmark",
+  "run_id": "development-ubiquitin-v29-tertiary-bodies-l24-20260720",
+  "schema": "fold-protein-blind-evaluation/v29",
+  "seal_sha256": "d12149b3e7f0af1e93300cc49a927c9b40c9a08d6af2de11e413f4fe98a0063e",
+  "sequence_length": 24,
+  "status": "completed",
+  "target_id": "1ubq.pdb",
+  "target_sha256": "d4a6812d8951cf6594e6a0763f089e35f5a80b62acb3c117b2c5565228a7b161",
+  "tm_score": 0.027420312412272458,
+  "tree_edge_count": 5,
+  "v25_departures": 8,
+  "v26_1_departures": 7,
+  "v27_departures": 4,
+  "v28_departures": 6
+}

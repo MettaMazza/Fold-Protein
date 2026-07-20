@@ -614,7 +614,7 @@ The registry verifier halts if:
 
 Generated PDBs and campaign receipts are evidence rather than forcing source.
 They are bound by the protected construction manifest or their immutable seals.
-All 113 tracked PDBs are also exhaustively classified: two experimental
+All 119 tracked PDBs are also exhaustively classified: two experimental
 references, one protected target-assisted construction, eleven sealed v2
 development outputs, four sealed v3 blind predictions, one sealed v4 auxiliary
 development output, two sealed v5 applied development outputs, and thirty-nine
@@ -624,7 +624,8 @@ sealed v14, one sealed v15, one sealed v16, one sealed v17, one sealed v18,
 three sealed v19, one each sealed v20, v21 and v22, nine sealed
 V23/V23.1/V23.2 development outputs, nine sealed V24/V24.1/V25 outputs, and
 six sealed V26/V26.1 outputs, three sealed V27 reconciliation outputs and
-three sealed V28 multiscale outputs
+three sealed V28 multiscale outputs, three sealed V29 tertiary-body-tree
+outputs and three sealed V30 degree-two-tertiary-path outputs
 described above.
 Their complete path-and-content census is hash-bound by the registry; both v2
 aggregate seals are reverified. Legacy filenames such as `predicted`,
@@ -690,3 +691,13 @@ sealed blind local and whole-chain advances establish an executable
 continuation and no theorem-derived wall at the current stage. Maria decides
 when development evidence earns an official run and what conclusion the data
 supports.
+
+V29/V30 now implement the first explicit sequence-derived tertiary-body
+topologies. V29's unrestricted tree advances L32 to TM `0.0499243401` / dRMSD
+`4.5466887676 Å` and L24 dRMSD to `5.4137342407 Å`, but forms a high-degree
+hub at full length. V30 forces the body's counted two-boundary capacity and
+retains an L32 advance at TM `0.0502723476` / dRMSD `4.9045982349 Å`; one
+fixed path is lower at L24 and L76. These are measured development artifacts,
+not agent-declared findings or limits. They supply the applied basis for the
+next weight-free topology-frontier architecture, which must retain multiple
+admissible bounded-degree tertiary closures before whole-chain reconciliation.

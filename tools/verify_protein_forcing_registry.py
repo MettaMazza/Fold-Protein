@@ -185,7 +185,9 @@ def verify_registry() -> dict:
             ("v26", "blind_selector_v26.json", "v26_runtime_roots"),
             ("v26.1", "blind_selector_v26_1.json", "v26_1_runtime_roots"),
             ("v27", "blind_selector_v27.json", "v27_runtime_roots"),
-            ("v28", "blind_selector_v28.json", "v28_runtime_roots")):
+            ("v28", "blind_selector_v28.json", "v28_runtime_roots"),
+            ("v29", "blind_selector_v29.json", "v29_runtime_roots"),
+            ("v30", "blind_selector_v30.json", "v30_runtime_roots")):
         runtime_hashes[selector] = {}
         for relative in registry["legacy_exclusion"][roots_name]:
             path = ROOT / relative

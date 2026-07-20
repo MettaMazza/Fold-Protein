@@ -235,6 +235,22 @@ effect before the next architecture. V25 and V26.1 remain the individual
 leading complete-length TM and dRMSD parent branches. Do not use target scores
 to select scale-frontier candidates.
 
+V29 and V30 make the next representational jump from scale blocks to explicit
+four-residue tertiary bodies. V29 derives an ordinal spanning tree entirely
+from sequence-sidechain atom counts, hydrophobic membership and formal charge,
+then jointly assembles complete body grafts and paired boundary states. Its
+sealed L32 result advances over V28 to **TM `0.0499243401` / dRMSD
+`4.5466887676 Å`**; L24 dRMSD also advances to **`5.4137342407 Å`**. At L76
+the derived tree becomes high-degree and both measures are lower than V28.
+V30 derives the counted two-boundary correction and forces a degree-two body
+path. It preserves the intermediate advance at **TM `0.0502723476` / dRMSD
+`4.9045982349 Å`**, but lowers both L24 and L76 measures. Preserve both as
+source-bound applied evidence: they establish that tertiary body topology is
+active and that neither one unbounded tree nor one fixed path is the complete
+constitution. The next architecture must retain a weight-free frontier of
+admissible bounded-degree topologies and reconcile it with V25/V26.1/V28,
+without target-selected topology, weights, rewards or locks.
+
 **The sequence supplies the spatial command.** The forward-forcing programme derives how amino-acid
 identity determines the invariant exclusions and relations that select among the 576 exact states per
 residue. Every proposed relation is routed through the engine; a violation halts rather than becoming

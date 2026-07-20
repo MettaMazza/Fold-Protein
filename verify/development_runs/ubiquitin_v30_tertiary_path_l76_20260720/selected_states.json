@@ -1,0 +1,8570 @@
+{
+  "assembly_trace": [
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "branch_retention": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "direction": "forward",
+      "edge_index": 0,
+      "expanded_unique_paths": 734,
+      "left_residues": [
+        57,
+        58,
+        59,
+        60
+      ],
+      "retained_paths": 24,
+      "right_residues": [
+        69,
+        70,
+        71,
+        72
+      ],
+      "segments": [
+        14,
+        17
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "direction": "forward",
+      "edge_index": 1,
+      "expanded_unique_paths": 3924,
+      "left_residues": [
+        41,
+        42,
+        43,
+        44
+      ],
+      "retained_paths": 24,
+      "right_residues": [
+        57,
+        58,
+        59,
+        60
+      ],
+      "segments": [
+        10,
+        14
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "direction": "forward",
+      "edge_index": 2,
+      "expanded_unique_paths": 4278,
+      "left_residues": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "retained_paths": 24,
+      "right_residues": [
+        41,
+        42,
+        43,
+        44
+      ],
+      "segments": [
+        3,
+        10
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "direction": "forward",
+      "edge_index": 3,
+      "expanded_unique_paths": 4026,
+      "left_residues": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "retained_paths": 24,
+      "right_residues": [
+        69,
+        70,
+        71,
+        72
+      ],
+      "segments": [
+        0,
+        17
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "direction": "forward",
+      "edge_index": 4,
+      "expanded_unique_paths": 3401,
+      "left_residues": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "retained_paths": 24,
+      "right_residues": [
+        61,
+        62,
+        63,
+        64
+      ],
+      "segments": [
+        0,
+        15
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "direction": "forward",
+      "edge_index": 5,
+      "expanded_unique_paths": 4354,
+      "left_residues": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "retained_paths": 24,
+      "right_residues": [
+        29,
+        30,
+        31,
+        32
+      ],
+      "segments": [
+        3,
+        7
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "direction": "forward",
+      "edge_index": 6,
+      "expanded_unique_paths": 4348,
+      "left_residues": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "retained_paths": 24,
+      "right_residues": [
+        61,
+        62,
+        63,
+        64
+      ],
+      "segments": [
+        1,
+        15
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "direction": "forward",
+      "edge_index": 7,
+      "expanded_unique_paths": 4119,
+      "left_residues": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "retained_paths": 24,
+      "right_residues": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "segments": [
+        1,
+        12
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "direction": "forward",
+      "edge_index": 8,
+      "expanded_unique_paths": 4372,
+      "left_residues": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "retained_paths": 24,
+      "right_residues": [
+        29,
+        30,
+        31,
+        32
+      ],
+      "segments": [
+        5,
+        7
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "direction": "forward",
+      "edge_index": 9,
+      "expanded_unique_paths": 4301,
+      "left_residues": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "retained_paths": 24,
+      "right_residues": [
+        65,
+        66,
+        67,
+        68
+      ],
+      "segments": [
+        12,
+        16
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "direction": "forward",
+      "edge_index": 10,
+      "expanded_unique_paths": 4274,
+      "left_residues": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "retained_paths": 24,
+      "right_residues": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "segments": [
+        5,
+        9
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "direction": "forward",
+      "edge_index": 11,
+      "expanded_unique_paths": 3648,
+      "left_residues": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "retained_paths": 24,
+      "right_residues": [
+        65,
+        66,
+        67,
+        68
+      ],
+      "segments": [
+        8,
+        16
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "direction": "forward",
+      "edge_index": 12,
+      "expanded_unique_paths": 4295,
+      "left_residues": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "retained_paths": 24,
+      "right_residues": [
+        53,
+        54,
+        55,
+        56
+      ],
+      "segments": [
+        9,
+        13
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "direction": "forward",
+      "edge_index": 13,
+      "expanded_unique_paths": 3894,
+      "left_residues": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "retained_paths": 24,
+      "right_residues": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "segments": [
+        8,
+        11
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "direction": "forward",
+      "edge_index": 14,
+      "expanded_unique_paths": 4348,
+      "left_residues": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "retained_paths": 24,
+      "right_residues": [
+        53,
+        54,
+        55,
+        56
+      ],
+      "segments": [
+        4,
+        13
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "direction": "forward",
+      "edge_index": 15,
+      "expanded_unique_paths": 4199,
+      "left_residues": [
+        25,
+        26,
+        27,
+        28
+      ],
+      "retained_paths": 24,
+      "right_residues": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "segments": [
+        6,
+        11
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "direction": "forward",
+      "edge_index": 16,
+      "expanded_unique_paths": 2690,
+      "left_residues": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "retained_paths": 24,
+      "right_residues": [
+        73,
+        74,
+        75,
+        76
+      ],
+      "segments": [
+        4,
+        18
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "direction": "forward",
+      "edge_index": 17,
+      "expanded_unique_paths": 3928,
+      "left_residues": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "retained_paths": 24,
+      "right_residues": [
+        25,
+        26,
+        27,
+        28
+      ],
+      "segments": [
+        2,
+        6
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "branch_retention": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "direction": "reverse",
+      "edge_index": 0,
+      "expanded_unique_paths": 724,
+      "left_residues": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "retained_paths": 24,
+      "right_residues": [
+        25,
+        26,
+        27,
+        28
+      ],
+      "segments": [
+        2,
+        6
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "direction": "reverse",
+      "edge_index": 1,
+      "expanded_unique_paths": 2770,
+      "left_residues": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "retained_paths": 24,
+      "right_residues": [
+        73,
+        74,
+        75,
+        76
+      ],
+      "segments": [
+        4,
+        18
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "direction": "reverse",
+      "edge_index": 2,
+      "expanded_unique_paths": 4156,
+      "left_residues": [
+        25,
+        26,
+        27,
+        28
+      ],
+      "retained_paths": 24,
+      "right_residues": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "segments": [
+        6,
+        11
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "direction": "reverse",
+      "edge_index": 3,
+      "expanded_unique_paths": 4207,
+      "left_residues": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "retained_paths": 24,
+      "right_residues": [
+        53,
+        54,
+        55,
+        56
+      ],
+      "segments": [
+        4,
+        13
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "direction": "reverse",
+      "edge_index": 4,
+      "expanded_unique_paths": 4278,
+      "left_residues": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "retained_paths": 24,
+      "right_residues": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "segments": [
+        8,
+        11
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "direction": "reverse",
+      "edge_index": 5,
+      "expanded_unique_paths": 4159,
+      "left_residues": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "retained_paths": 24,
+      "right_residues": [
+        53,
+        54,
+        55,
+        56
+      ],
+      "segments": [
+        9,
+        13
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "direction": "reverse",
+      "edge_index": 6,
+      "expanded_unique_paths": 3791,
+      "left_residues": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "retained_paths": 24,
+      "right_residues": [
+        65,
+        66,
+        67,
+        68
+      ],
+      "segments": [
+        8,
+        16
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "direction": "reverse",
+      "edge_index": 7,
+      "expanded_unique_paths": 4442,
+      "left_residues": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "retained_paths": 24,
+      "right_residues": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "segments": [
+        5,
+        9
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "direction": "reverse",
+      "edge_index": 8,
+      "expanded_unique_paths": 3648,
+      "left_residues": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "retained_paths": 24,
+      "right_residues": [
+        65,
+        66,
+        67,
+        68
+      ],
+      "segments": [
+        12,
+        16
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "direction": "reverse",
+      "edge_index": 9,
+      "expanded_unique_paths": 4154,
+      "left_residues": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "retained_paths": 24,
+      "right_residues": [
+        29,
+        30,
+        31,
+        32
+      ],
+      "segments": [
+        5,
+        7
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "direction": "reverse",
+      "edge_index": 10,
+      "expanded_unique_paths": 4348,
+      "left_residues": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "retained_paths": 24,
+      "right_residues": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "segments": [
+        1,
+        12
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "direction": "reverse",
+      "edge_index": 11,
+      "expanded_unique_paths": 4208,
+      "left_residues": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "retained_paths": 24,
+      "right_residues": [
+        61,
+        62,
+        63,
+        64
+      ],
+      "segments": [
+        1,
+        15
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "direction": "reverse",
+      "edge_index": 12,
+      "expanded_unique_paths": 4348,
+      "left_residues": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "retained_paths": 24,
+      "right_residues": [
+        29,
+        30,
+        31,
+        32
+      ],
+      "segments": [
+        3,
+        7
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "direction": "reverse",
+      "edge_index": 13,
+      "expanded_unique_paths": 4002,
+      "left_residues": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "retained_paths": 24,
+      "right_residues": [
+        61,
+        62,
+        63,
+        64
+      ],
+      "segments": [
+        0,
+        15
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "direction": "reverse",
+      "edge_index": 14,
+      "expanded_unique_paths": 2878,
+      "left_residues": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "retained_paths": 24,
+      "right_residues": [
+        69,
+        70,
+        71,
+        72
+      ],
+      "segments": [
+        0,
+        17
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "direction": "reverse",
+      "edge_index": 15,
+      "expanded_unique_paths": 4348,
+      "left_residues": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "retained_paths": 24,
+      "right_residues": [
+        41,
+        42,
+        43,
+        44
+      ],
+      "segments": [
+        3,
+        10
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "direction": "reverse",
+      "edge_index": 16,
+      "expanded_unique_paths": 4348,
+      "left_residues": [
+        41,
+        42,
+        43,
+        44
+      ],
+      "retained_paths": 24,
+      "right_residues": [
+        57,
+        58,
+        59,
+        60
+      ],
+      "segments": [
+        10,
+        14
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "direction": "reverse",
+      "edge_index": 17,
+      "expanded_unique_paths": 3982,
+      "left_residues": [
+        57,
+        58,
+        59,
+        60
+      ],
+      "retained_paths": 24,
+      "right_residues": [
+        69,
+        70,
+        71,
+        72
+      ],
+      "segments": [
+        14,
+        17
+      ]
+    }
+  ],
+  "charge_census": {
+    "alphabet": "ACDEFGHIKLMNPQRSTVWY",
+    "alphabet_count": 20,
+    "classes": {
+      "negative": "DE",
+      "positive": "KR",
+      "uncharged": "ACFGHILMNPQSTVWY"
+    },
+    "signs": {
+      "A": 0,
+      "C": 0,
+      "D": -1,
+      "E": -1,
+      "F": 0,
+      "G": 0,
+      "H": 0,
+      "I": 0,
+      "K": 1,
+      "L": 0,
+      "M": 0,
+      "N": 0,
+      "P": 0,
+      "Q": 0,
+      "R": 1,
+      "S": 0,
+      "T": 0,
+      "V": 0,
+      "W": 0,
+      "Y": 0
+    }
+  },
+  "constraint_graph_census": {
+    "edge_count": 2775,
+    "fitted_cutoff": null,
+    "learned_quantity": null,
+    "mixing_weight": null,
+    "residue_count": 76,
+    "reward": null,
+    "segment_count": 19,
+    "segment_pair_count": 190,
+    "segment_residues": 4,
+    "sidechain_reach": "n/(n+1) of generated adjacent C-alpha step",
+    "support_bridge": "left reach + spatial One + right reach",
+    "target": null,
+    "template": null
+  },
+  "domain_capacity": 24,
+  "domain_run_id": "development-ubiquitin-v23-2-local-domains-l76-20260720",
+  "domain_sha256": "06d22584e5445319df05c79b56a75724fd2782cf92b6a4840d910e8fb0161d3e",
+  "domain_state_count": 576,
+  "final_relations": {
+    "constraint_graph": {
+      "backbone_exclusions": 0,
+      "edge_count": 2775,
+      "objective_names": [
+        "hydrophobic_support_deficit",
+        "opposite_charge_support_deficit",
+        "like_charge_support",
+        "intersegment_hydrophobic_support_deficit",
+        "intersegment_opposite_charge_support_deficit",
+        "intersegment_like_charge_support"
+      ],
+      "objectives": [
+        4082,
+        2658,
+        214,
+        4082,
+        2658,
+        194
+      ],
+      "segment_pair_objectives": [
+        44,
+        0,
+        0,
+        120,
+        0,
+        0,
+        45,
+        0,
+        0,
+        60,
+        0,
+        0,
+        45,
+        0,
+        0,
+        60,
+        0,
+        0,
+        60,
+        0,
+        0,
+        120,
+        0,
+        0,
+        105,
+        0,
+        0,
+        60,
+        0,
+        0,
+        60,
+        0,
+        0,
+        120,
+        0,
+        0,
+        60,
+        0,
+        0,
+        60,
+        0,
+        0,
+        165,
+        0,
+        0,
+        60,
+        0,
+        0,
+        0,
+        0,
+        0,
+        12,
+        0,
+        0,
+        9,
+        25,
+        0,
+        28,
+        45,
+        0,
+        21,
+        0,
+        0,
+        28,
+        20,
+        0,
+        28,
+        25,
+        0,
+        0,
+        0,
+        0,
+        40,
+        0,
+        35,
+        49,
+        0,
+        0,
+        28,
+        45,
+        0,
+        28,
+        0,
+        0,
+        56,
+        20,
+        0,
+        28,
+        25,
+        0,
+        28,
+        0,
+        0,
+        77,
+        0,
+        0,
+        28,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        25,
+        0,
+        0,
+        45,
+        0,
+        0,
+        0,
+        0,
+        0,
+        20,
+        0,
+        0,
+        25,
+        0,
+        0,
+        20,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        45,
+        0,
+        0,
+        0,
+        0,
+        0,
+        20,
+        0,
+        0,
+        25,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        25,
+        32,
+        0,
+        0,
+        24,
+        25,
+        0,
+        32,
+        25,
+        0,
+        32,
+        25,
+        0,
+        0,
+        0,
+        0,
+        64,
+        0,
+        0,
+        56,
+        25,
+        0,
+        32,
+        0,
+        0,
+        32,
+        35,
+        0,
+        64,
+        0,
+        0,
+        32,
+        25,
+        0,
+        32,
+        0,
+        0,
+        88,
+        35,
+        0,
+        32,
+        35,
+        0,
+        12,
+        0,
+        20,
+        9,
+        25,
+        0,
+        12,
+        25,
+        0,
+        0,
+        25,
+        0,
+        0,
+        0,
+        0,
+        24,
+        35,
+        0,
+        21,
+        25,
+        0,
+        12,
+        0,
+        0,
+        12,
+        35,
+        0,
+        24,
+        0,
+        0,
+        12,
+        25,
+        0,
+        12,
+        0,
+        0,
+        33,
+        35,
+        0,
+        12,
+        35,
+        0,
+        0,
+        20,
+        0,
+        0,
+        20,
+        0,
+        16,
+        45,
+        0,
+        0,
+        0,
+        0,
+        0,
+        63,
+        0,
+        0,
+        45,
+        0,
+        16,
+        0,
+        0,
+        16,
+        63,
+        0,
+        32,
+        0,
+        0,
+        16,
+        45,
+        0,
+        16,
+        0,
+        0,
+        44,
+        63,
+        0,
+        16,
+        63,
+        0,
+        12,
+        20,
+        25,
+        12,
+        25,
+        0,
+        0,
+        20,
+        0,
+        12,
+        0,
+        0,
+        21,
+        0,
+        0,
+        12,
+        45,
+        0,
+        0,
+        0,
+        0,
+        24,
+        20,
+        0,
+        12,
+        25,
+        0,
+        12,
+        0,
+        0,
+        33,
+        0,
+        0,
+        12,
+        0,
+        0,
+        0,
+        25,
+        20,
+        0,
+        20,
+        0,
+        0,
+        28,
+        0,
+        0,
+        20,
+        0,
+        16,
+        25,
+        0,
+        16,
+        28,
+        0,
+        32,
+        20,
+        0,
+        16,
+        45,
+        0,
+        16,
+        0,
+        0,
+        44,
+        28,
+        0,
+        16,
+        28,
+        0,
+        0,
+        20,
+        20,
+        32,
+        0,
+        0,
+        28,
+        25,
+        0,
+        16,
+        45,
+        0,
+        16,
+        35,
+        0,
+        32,
+        20,
+        0,
+        16,
+        50,
+        0,
+        16,
+        0,
+        0,
+        44,
+        35,
+        0,
+        16,
+        35,
+        0,
+        0,
+        0,
+        0,
+        0,
+        20,
+        0,
+        0,
+        0,
+        0,
+        0,
+        28,
+        0,
+        0,
+        0,
+        0,
+        0,
+        20,
+        0,
+        0,
+        28,
+        0,
+        0,
+        28,
+        0,
+        0,
+        0,
+        0,
+        32,
+        63,
+        0,
+        16,
+        0,
+        0,
+        64,
+        28,
+        0,
+        32,
+        35,
+        0,
+        32,
+        0,
+        0,
+        88,
+        0,
+        0,
+        32,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        56,
+        20,
+        0,
+        28,
+        25,
+        0,
+        28,
+        0,
+        0,
+        77,
+        0,
+        0,
+        28,
+        0,
+        0,
+        0,
+        0,
+        0,
+        32,
+        0,
+        0,
+        16,
+        45,
+        0,
+        16,
+        0,
+        0,
+        44,
+        63,
+        0,
+        16,
+        63,
+        0,
+        0,
+        28,
+        0,
+        0,
+        35,
+        0,
+        16,
+        0,
+        0,
+        44,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        20,
+        0,
+        32,
+        0,
+        0,
+        0,
+        0,
+        0,
+        32,
+        0,
+        0,
+        16,
+        0,
+        0,
+        44,
+        35,
+        0,
+        16,
+        35,
+        0,
+        28,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        49
+      ],
+      "segment_pair_rows": [
+        {
+          "objectives": [
+            44,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            1
+          ]
+        },
+        {
+          "objectives": [
+            120,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            3
+          ]
+        },
+        {
+          "objectives": [
+            45,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            4
+          ]
+        },
+        {
+          "objectives": [
+            60,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            5
+          ]
+        },
+        {
+          "objectives": [
+            45,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            6
+          ]
+        },
+        {
+          "objectives": [
+            60,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            7
+          ]
+        },
+        {
+          "objectives": [
+            60,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            8
+          ]
+        },
+        {
+          "objectives": [
+            120,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            10
+          ]
+        },
+        {
+          "objectives": [
+            105,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            11
+          ]
+        },
+        {
+          "objectives": [
+            60,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            12
+          ]
+        },
+        {
+          "objectives": [
+            60,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            13
+          ]
+        },
+        {
+          "objectives": [
+            120,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            14
+          ]
+        },
+        {
+          "objectives": [
+            60,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            15
+          ]
+        },
+        {
+          "objectives": [
+            60,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            16
+          ]
+        },
+        {
+          "objectives": [
+            165,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            17
+          ]
+        },
+        {
+          "objectives": [
+            60,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            18
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            1,
+            2
+          ]
+        },
+        {
+          "objectives": [
+            12,
+            0,
+            0
+          ],
+          "segments": [
+            1,
+            3
+          ]
+        },
+        {
+          "objectives": [
+            9,
+            25,
+            0
+          ],
+          "segments": [
+            1,
+            4
+          ]
+        },
+        {
+          "objectives": [
+            28,
+            45,
+            0
+          ],
+          "segments": [
+            1,
+            5
+          ]
+        },
+        {
+          "objectives": [
+            21,
+            0,
+            0
+          ],
+          "segments": [
+            1,
+            6
+          ]
+        },
+        {
+          "objectives": [
+            28,
+            20,
+            0
+          ],
+          "segments": [
+            1,
+            7
+          ]
+        },
+        {
+          "objectives": [
+            28,
+            25,
+            0
+          ],
+          "segments": [
+            1,
+            8
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            1,
+            9
+          ]
+        },
+        {
+          "objectives": [
+            40,
+            0,
+            35
+          ],
+          "segments": [
+            1,
+            10
+          ]
+        },
+        {
+          "objectives": [
+            49,
+            0,
+            0
+          ],
+          "segments": [
+            1,
+            11
+          ]
+        },
+        {
+          "objectives": [
+            28,
+            45,
+            0
+          ],
+          "segments": [
+            1,
+            12
+          ]
+        },
+        {
+          "objectives": [
+            28,
+            0,
+            0
+          ],
+          "segments": [
+            1,
+            13
+          ]
+        },
+        {
+          "objectives": [
+            56,
+            20,
+            0
+          ],
+          "segments": [
+            1,
+            14
+          ]
+        },
+        {
+          "objectives": [
+            28,
+            25,
+            0
+          ],
+          "segments": [
+            1,
+            15
+          ]
+        },
+        {
+          "objectives": [
+            28,
+            0,
+            0
+          ],
+          "segments": [
+            1,
+            16
+          ]
+        },
+        {
+          "objectives": [
+            77,
+            0,
+            0
+          ],
+          "segments": [
+            1,
+            17
+          ]
+        },
+        {
+          "objectives": [
+            28,
+            0,
+            0
+          ],
+          "segments": [
+            1,
+            18
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            2,
+            3
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            25,
+            0
+          ],
+          "segments": [
+            2,
+            4
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            45,
+            0
+          ],
+          "segments": [
+            2,
+            5
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            2,
+            6
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            20,
+            0
+          ],
+          "segments": [
+            2,
+            7
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            25,
+            0
+          ],
+          "segments": [
+            2,
+            8
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            20,
+            0
+          ],
+          "segments": [
+            2,
+            9
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            2,
+            10
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            2,
+            11
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            45,
+            0
+          ],
+          "segments": [
+            2,
+            12
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            2,
+            13
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            20,
+            0
+          ],
+          "segments": [
+            2,
+            14
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            25,
+            0
+          ],
+          "segments": [
+            2,
+            15
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            2,
+            17
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            2,
+            18
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            25
+          ],
+          "segments": [
+            3,
+            4
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            0,
+            0
+          ],
+          "segments": [
+            3,
+            5
+          ]
+        },
+        {
+          "objectives": [
+            24,
+            25,
+            0
+          ],
+          "segments": [
+            3,
+            6
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            25,
+            0
+          ],
+          "segments": [
+            3,
+            7
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            25,
+            0
+          ],
+          "segments": [
+            3,
+            8
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            3,
+            9
+          ]
+        },
+        {
+          "objectives": [
+            64,
+            0,
+            0
+          ],
+          "segments": [
+            3,
+            10
+          ]
+        },
+        {
+          "objectives": [
+            56,
+            25,
+            0
+          ],
+          "segments": [
+            3,
+            11
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            0,
+            0
+          ],
+          "segments": [
+            3,
+            12
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            35,
+            0
+          ],
+          "segments": [
+            3,
+            13
+          ]
+        },
+        {
+          "objectives": [
+            64,
+            0,
+            0
+          ],
+          "segments": [
+            3,
+            14
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            25,
+            0
+          ],
+          "segments": [
+            3,
+            15
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            0,
+            0
+          ],
+          "segments": [
+            3,
+            16
+          ]
+        },
+        {
+          "objectives": [
+            88,
+            35,
+            0
+          ],
+          "segments": [
+            3,
+            17
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            35,
+            0
+          ],
+          "segments": [
+            3,
+            18
+          ]
+        },
+        {
+          "objectives": [
+            12,
+            0,
+            20
+          ],
+          "segments": [
+            4,
+            5
+          ]
+        },
+        {
+          "objectives": [
+            9,
+            25,
+            0
+          ],
+          "segments": [
+            4,
+            6
+          ]
+        },
+        {
+          "objectives": [
+            12,
+            25,
+            0
+          ],
+          "segments": [
+            4,
+            7
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            25,
+            0
+          ],
+          "segments": [
+            4,
+            8
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            4,
+            9
+          ]
+        },
+        {
+          "objectives": [
+            24,
+            35,
+            0
+          ],
+          "segments": [
+            4,
+            10
+          ]
+        },
+        {
+          "objectives": [
+            21,
+            25,
+            0
+          ],
+          "segments": [
+            4,
+            11
+          ]
+        },
+        {
+          "objectives": [
+            12,
+            0,
+            0
+          ],
+          "segments": [
+            4,
+            12
+          ]
+        },
+        {
+          "objectives": [
+            12,
+            35,
+            0
+          ],
+          "segments": [
+            4,
+            13
+          ]
+        },
+        {
+          "objectives": [
+            24,
+            0,
+            0
+          ],
+          "segments": [
+            4,
+            14
+          ]
+        },
+        {
+          "objectives": [
+            12,
+            25,
+            0
+          ],
+          "segments": [
+            4,
+            15
+          ]
+        },
+        {
+          "objectives": [
+            12,
+            0,
+            0
+          ],
+          "segments": [
+            4,
+            16
+          ]
+        },
+        {
+          "objectives": [
+            33,
+            35,
+            0
+          ],
+          "segments": [
+            4,
+            17
+          ]
+        },
+        {
+          "objectives": [
+            12,
+            35,
+            0
+          ],
+          "segments": [
+            4,
+            18
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            20,
+            0
+          ],
+          "segments": [
+            5,
+            6
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            20,
+            0
+          ],
+          "segments": [
+            5,
+            7
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            45,
+            0
+          ],
+          "segments": [
+            5,
+            8
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            5,
+            9
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            63,
+            0
+          ],
+          "segments": [
+            5,
+            10
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            45,
+            0
+          ],
+          "segments": [
+            5,
+            11
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            0,
+            0
+          ],
+          "segments": [
+            5,
+            12
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            63,
+            0
+          ],
+          "segments": [
+            5,
+            13
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            0,
+            0
+          ],
+          "segments": [
+            5,
+            14
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            45,
+            0
+          ],
+          "segments": [
+            5,
+            15
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            0,
+            0
+          ],
+          "segments": [
+            5,
+            16
+          ]
+        },
+        {
+          "objectives": [
+            44,
+            63,
+            0
+          ],
+          "segments": [
+            5,
+            17
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            63,
+            0
+          ],
+          "segments": [
+            5,
+            18
+          ]
+        },
+        {
+          "objectives": [
+            12,
+            20,
+            25
+          ],
+          "segments": [
+            6,
+            7
+          ]
+        },
+        {
+          "objectives": [
+            12,
+            25,
+            0
+          ],
+          "segments": [
+            6,
+            8
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            20,
+            0
+          ],
+          "segments": [
+            6,
+            9
+          ]
+        },
+        {
+          "objectives": [
+            12,
+            0,
+            0
+          ],
+          "segments": [
+            6,
+            10
+          ]
+        },
+        {
+          "objectives": [
+            21,
+            0,
+            0
+          ],
+          "segments": [
+            6,
+            11
+          ]
+        },
+        {
+          "objectives": [
+            12,
+            45,
+            0
+          ],
+          "segments": [
+            6,
+            12
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            6,
+            13
+          ]
+        },
+        {
+          "objectives": [
+            24,
+            20,
+            0
+          ],
+          "segments": [
+            6,
+            14
+          ]
+        },
+        {
+          "objectives": [
+            12,
+            25,
+            0
+          ],
+          "segments": [
+            6,
+            15
+          ]
+        },
+        {
+          "objectives": [
+            12,
+            0,
+            0
+          ],
+          "segments": [
+            6,
+            16
+          ]
+        },
+        {
+          "objectives": [
+            33,
+            0,
+            0
+          ],
+          "segments": [
+            6,
+            17
+          ]
+        },
+        {
+          "objectives": [
+            12,
+            0,
+            0
+          ],
+          "segments": [
+            6,
+            18
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            25,
+            20
+          ],
+          "segments": [
+            7,
+            8
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            20,
+            0
+          ],
+          "segments": [
+            7,
+            9
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            28,
+            0
+          ],
+          "segments": [
+            7,
+            10
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            20,
+            0
+          ],
+          "segments": [
+            7,
+            11
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            25,
+            0
+          ],
+          "segments": [
+            7,
+            12
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            28,
+            0
+          ],
+          "segments": [
+            7,
+            13
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            20,
+            0
+          ],
+          "segments": [
+            7,
+            14
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            45,
+            0
+          ],
+          "segments": [
+            7,
+            15
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            0,
+            0
+          ],
+          "segments": [
+            7,
+            16
+          ]
+        },
+        {
+          "objectives": [
+            44,
+            28,
+            0
+          ],
+          "segments": [
+            7,
+            17
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            28,
+            0
+          ],
+          "segments": [
+            7,
+            18
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            20,
+            20
+          ],
+          "segments": [
+            8,
+            9
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            0,
+            0
+          ],
+          "segments": [
+            8,
+            10
+          ]
+        },
+        {
+          "objectives": [
+            28,
+            25,
+            0
+          ],
+          "segments": [
+            8,
+            11
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            45,
+            0
+          ],
+          "segments": [
+            8,
+            12
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            35,
+            0
+          ],
+          "segments": [
+            8,
+            13
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            20,
+            0
+          ],
+          "segments": [
+            8,
+            14
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            50,
+            0
+          ],
+          "segments": [
+            8,
+            15
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            0,
+            0
+          ],
+          "segments": [
+            8,
+            16
+          ]
+        },
+        {
+          "objectives": [
+            44,
+            35,
+            0
+          ],
+          "segments": [
+            8,
+            17
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            35,
+            0
+          ],
+          "segments": [
+            8,
+            18
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            9,
+            10
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            20,
+            0
+          ],
+          "segments": [
+            9,
+            11
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            9,
+            12
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            28,
+            0
+          ],
+          "segments": [
+            9,
+            13
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            9,
+            14
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            20,
+            0
+          ],
+          "segments": [
+            9,
+            15
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            28,
+            0
+          ],
+          "segments": [
+            9,
+            17
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            28,
+            0
+          ],
+          "segments": [
+            9,
+            18
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            10,
+            11
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            63,
+            0
+          ],
+          "segments": [
+            10,
+            12
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            0,
+            0
+          ],
+          "segments": [
+            10,
+            13
+          ]
+        },
+        {
+          "objectives": [
+            64,
+            28,
+            0
+          ],
+          "segments": [
+            10,
+            14
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            35,
+            0
+          ],
+          "segments": [
+            10,
+            15
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            0,
+            0
+          ],
+          "segments": [
+            10,
+            16
+          ]
+        },
+        {
+          "objectives": [
+            88,
+            0,
+            0
+          ],
+          "segments": [
+            10,
+            17
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            0,
+            0
+          ],
+          "segments": [
+            10,
+            18
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            11,
+            12
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            11,
+            13
+          ]
+        },
+        {
+          "objectives": [
+            56,
+            20,
+            0
+          ],
+          "segments": [
+            11,
+            14
+          ]
+        },
+        {
+          "objectives": [
+            28,
+            25,
+            0
+          ],
+          "segments": [
+            11,
+            15
+          ]
+        },
+        {
+          "objectives": [
+            28,
+            0,
+            0
+          ],
+          "segments": [
+            11,
+            16
+          ]
+        },
+        {
+          "objectives": [
+            77,
+            0,
+            0
+          ],
+          "segments": [
+            11,
+            17
+          ]
+        },
+        {
+          "objectives": [
+            28,
+            0,
+            0
+          ],
+          "segments": [
+            11,
+            18
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            12,
+            13
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            0,
+            0
+          ],
+          "segments": [
+            12,
+            14
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            45,
+            0
+          ],
+          "segments": [
+            12,
+            15
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            0,
+            0
+          ],
+          "segments": [
+            12,
+            16
+          ]
+        },
+        {
+          "objectives": [
+            44,
+            63,
+            0
+          ],
+          "segments": [
+            12,
+            17
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            63,
+            0
+          ],
+          "segments": [
+            12,
+            18
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            28,
+            0
+          ],
+          "segments": [
+            13,
+            14
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            35,
+            0
+          ],
+          "segments": [
+            13,
+            15
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            0,
+            0
+          ],
+          "segments": [
+            13,
+            16
+          ]
+        },
+        {
+          "objectives": [
+            44,
+            0,
+            0
+          ],
+          "segments": [
+            13,
+            17
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            0,
+            0
+          ],
+          "segments": [
+            13,
+            18
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            20,
+            0
+          ],
+          "segments": [
+            14,
+            15
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            0,
+            0
+          ],
+          "segments": [
+            14,
+            16
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            14,
+            17
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            0,
+            0
+          ],
+          "segments": [
+            14,
+            18
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            0,
+            0
+          ],
+          "segments": [
+            15,
+            16
+          ]
+        },
+        {
+          "objectives": [
+            44,
+            35,
+            0
+          ],
+          "segments": [
+            15,
+            17
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            35,
+            0
+          ],
+          "segments": [
+            15,
+            18
+          ]
+        },
+        {
+          "objectives": [
+            28,
+            0,
+            0
+          ],
+          "segments": [
+            16,
+            17
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            0,
+            0
+          ],
+          "segments": [
+            16,
+            18
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            49
+          ],
+          "segments": [
+            17,
+            18
+          ]
+        }
+      ],
+      "spatial_one_squared": 14.405034636428685,
+      "supported_edge_count": 306
+    },
+    "hard_exclusion_strata": [
+      "backbone",
+      "sidechain_graph"
+    ],
+    "hard_exclusion_vector": [
+      0,
+      2
+    ],
+    "hard_exclusions": 2,
+    "hydrogen_bond_assembly": {
+      "eligible_pair_count": 1238,
+      "pair_count": 58,
+      "pairs": [
+        {
+          "acceptor_residue": 15,
+          "dimensionless_strength": 0.6557111022530714,
+          "donor_residue": 8
+        },
+        {
+          "acceptor_residue": 70,
+          "dimensionless_strength": 0.5511439167566029,
+          "donor_residue": 74
+        },
+        {
+          "acceptor_residue": 73,
+          "dimensionless_strength": 0.5434558572479539,
+          "donor_residue": 76
+        },
+        {
+          "acceptor_residue": 50,
+          "dimensionless_strength": 0.4853802759814496,
+          "donor_residue": 53
+        },
+        {
+          "acceptor_residue": 1,
+          "dimensionless_strength": 0.4516766235267086,
+          "donor_residue": 5
+        },
+        {
+          "acceptor_residue": 9,
+          "dimensionless_strength": 0.38284026240202135,
+          "donor_residue": 12
+        },
+        {
+          "acceptor_residue": 54,
+          "dimensionless_strength": 0.3480947337713223,
+          "donor_residue": 61
+        },
+        {
+          "acceptor_residue": 42,
+          "dimensionless_strength": 0.32795569971453487,
+          "donor_residue": 23
+        },
+        {
+          "acceptor_residue": 45,
+          "dimensionless_strength": 0.326466425068894,
+          "donor_residue": 49
+        },
+        {
+          "acceptor_residue": 28,
+          "dimensionless_strength": 0.3028307358169402,
+          "donor_residue": 31
+        },
+        {
+          "acceptor_residue": 40,
+          "dimensionless_strength": 0.2886869523058188,
+          "donor_residue": 36
+        },
+        {
+          "acceptor_residue": 69,
+          "dimensionless_strength": 0.2862656231882894,
+          "donor_residue": 73
+        },
+        {
+          "acceptor_residue": 56,
+          "dimensionless_strength": 0.273271112387219,
+          "donor_residue": 25
+        },
+        {
+          "acceptor_residue": 30,
+          "dimensionless_strength": 0.27108262226322444,
+          "donor_residue": 33
+        },
+        {
+          "acceptor_residue": 53,
+          "dimensionless_strength": 0.266300426629454,
+          "donor_residue": 56
+        },
+        {
+          "acceptor_residue": 36,
+          "dimensionless_strength": 0.25523907800370094,
+          "donor_residue": 14
+        },
+        {
+          "acceptor_residue": 47,
+          "dimensionless_strength": 0.2334670523876316,
+          "donor_residue": 50
+        },
+        {
+          "acceptor_residue": 39,
+          "dimensionless_strength": 0.23253155550333315,
+          "donor_residue": 10
+        },
+        {
+          "acceptor_residue": 71,
+          "dimensionless_strength": 0.22050691186446508,
+          "donor_residue": 75
+        },
+        {
+          "acceptor_residue": 51,
+          "dimensionless_strength": 0.21804603889526006,
+          "donor_residue": 55
+        },
+        {
+          "acceptor_residue": 26,
+          "dimensionless_strength": 0.21224355646599122,
+          "donor_residue": 42
+        },
+        {
+          "acceptor_residue": 44,
+          "dimensionless_strength": 0.2119647442018685,
+          "donor_residue": 26
+        },
+        {
+          "acceptor_residue": 5,
+          "dimensionless_strength": 0.2108266830937275,
+          "donor_residue": 9
+        },
+        {
+          "acceptor_residue": 55,
+          "dimensionless_strength": 0.21057527307997292,
+          "donor_residue": 59
+        },
+        {
+          "acceptor_residue": 43,
+          "dimensionless_strength": 0.17691192161838531,
+          "donor_residue": 47
+        },
+        {
+          "acceptor_residue": 16,
+          "dimensionless_strength": 0.1767059903720907,
+          "donor_residue": 32
+        },
+        {
+          "acceptor_residue": 18,
+          "dimensionless_strength": 0.17488808284441185,
+          "donor_residue": 44
+        },
+        {
+          "acceptor_residue": 63,
+          "dimensionless_strength": 0.1704094217360118,
+          "donor_residue": 66
+        },
+        {
+          "acceptor_residue": 34,
+          "dimensionless_strength": 0.16691249996231658,
+          "donor_residue": 39
+        },
+        {
+          "acceptor_residue": 61,
+          "dimensionless_strength": 0.15646415061084049,
+          "donor_residue": 27
+        },
+        {
+          "acceptor_residue": 31,
+          "dimensionless_strength": 0.15546612812175686,
+          "donor_residue": 48
+        },
+        {
+          "acceptor_residue": 24,
+          "dimensionless_strength": 0.15312136555272182,
+          "donor_residue": 20
+        },
+        {
+          "acceptor_residue": 21,
+          "dimensionless_strength": 0.1447700159369923,
+          "donor_residue": 15
+        },
+        {
+          "acceptor_residue": 52,
+          "dimensionless_strength": 0.1436346151753851,
+          "donor_residue": 24
+        },
+        {
+          "acceptor_residue": 67,
+          "dimensionless_strength": 0.14313742786762768,
+          "donor_residue": 70
+        },
+        {
+          "acceptor_residue": 7,
+          "dimensionless_strength": 0.12809141866703616,
+          "donor_residue": 46
+        },
+        {
+          "acceptor_residue": 29,
+          "dimensionless_strength": 0.12552376395879575,
+          "donor_residue": 58
+        },
+        {
+          "acceptor_residue": 10,
+          "dimensionless_strength": 0.11901295355134393,
+          "donor_residue": 13
+        },
+        {
+          "acceptor_residue": 64,
+          "dimensionless_strength": 0.11666231653648726,
+          "donor_residue": 67
+        },
+        {
+          "acceptor_residue": 4,
+          "dimensionless_strength": 0.11627012233403652,
+          "donor_residue": 18
+        },
+        {
+          "acceptor_residue": 59,
+          "dimensionless_strength": 0.10292635080269344,
+          "donor_residue": 62
+        },
+        {
+          "acceptor_residue": 2,
+          "dimensionless_strength": 0.09768291577321347,
+          "donor_residue": 7
+        },
+        {
+          "acceptor_residue": 38,
+          "dimensionless_strength": 0.0871659766555367,
+          "donor_residue": 11
+        },
+        {
+          "acceptor_residue": 60,
+          "dimensionless_strength": 0.08238490759048446,
+          "donor_residue": 63
+        },
+        {
+          "acceptor_residue": 8,
+          "dimensionless_strength": 0.07636548076806364,
+          "donor_residue": 69
+        },
+        {
+          "acceptor_residue": 6,
+          "dimensionless_strength": 0.07545713221745962,
+          "donor_residue": 45
+        },
+        {
+          "acceptor_residue": 62,
+          "dimensionless_strength": 0.07185777601879058,
+          "donor_residue": 71
+        },
+        {
+          "acceptor_residue": 14,
+          "dimensionless_strength": 0.07077026761667139,
+          "donor_residue": 4
+        },
+        {
+          "acceptor_residue": 49,
+          "dimensionless_strength": 0.07010108718863568,
+          "donor_residue": 54
+        },
+        {
+          "acceptor_residue": 41,
+          "dimensionless_strength": 0.05782898598714313,
+          "donor_residue": 34
+        },
+        {
+          "acceptor_residue": 48,
+          "dimensionless_strength": 0.0475435775073851,
+          "donor_residue": 2
+        },
+        {
+          "acceptor_residue": 17,
+          "dimensionless_strength": 0.03672650896064318,
+          "donor_residue": 21
+        },
+        {
+          "acceptor_residue": 37,
+          "dimensionless_strength": 0.03254963249298342,
+          "donor_residue": 6
+        },
+        {
+          "acceptor_residue": 33,
+          "dimensionless_strength": 0.019802612964065738,
+          "donor_residue": 30
+        },
+        {
+          "acceptor_residue": 75,
+          "dimensionless_strength": 0.018661789859002256,
+          "donor_residue": 3
+        },
+        {
+          "acceptor_residue": 58,
+          "dimensionless_strength": 0.015598794850086672,
+          "donor_residue": 28
+        },
+        {
+          "acceptor_residue": 27,
+          "dimensionless_strength": 0.008315841064896839,
+          "donor_residue": 22
+        },
+        {
+          "acceptor_residue": 20,
+          "dimensionless_strength": 0.0011390807077663427,
+          "donor_residue": 52
+        }
+      ],
+      "relation": -11.107424176681217
+    },
+    "hydrogen_bond_topologies": {
+      "eligible_pair_count": 1196,
+      "eligible_pair_counts": {
+        "alpha": 25,
+        "interstrand": 1171
+      },
+      "pair_count": 58,
+      "pair_counts": {
+        "alpha": 10,
+        "interstrand": 48
+      },
+      "pairs": [
+        {
+          "acceptor_residue": 15,
+          "dimensionless_strength": 0.6557111022530714,
+          "donor_residue": 8,
+          "sequence_separation": 7,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 70,
+          "dimensionless_strength": 0.5511439167566029,
+          "donor_residue": 74,
+          "sequence_separation": 4,
+          "topology": "alpha"
+        },
+        {
+          "acceptor_residue": 1,
+          "dimensionless_strength": 0.4516766235267086,
+          "donor_residue": 5,
+          "sequence_separation": 4,
+          "topology": "alpha"
+        },
+        {
+          "acceptor_residue": 69,
+          "dimensionless_strength": 0.362245147111205,
+          "donor_residue": 76,
+          "sequence_separation": 7,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 54,
+          "dimensionless_strength": 0.3480947337713223,
+          "donor_residue": 61,
+          "sequence_separation": 7,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 42,
+          "dimensionless_strength": 0.32795569971453487,
+          "donor_residue": 23,
+          "sequence_separation": 19,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 45,
+          "dimensionless_strength": 0.326466425068894,
+          "donor_residue": 49,
+          "sequence_separation": 4,
+          "topology": "alpha"
+        },
+        {
+          "acceptor_residue": 56,
+          "dimensionless_strength": 0.273271112387219,
+          "donor_residue": 25,
+          "sequence_separation": 31,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 36,
+          "dimensionless_strength": 0.25523907800370094,
+          "donor_residue": 14,
+          "sequence_separation": 22,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 39,
+          "dimensionless_strength": 0.23253155550333315,
+          "donor_residue": 10,
+          "sequence_separation": 29,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 30,
+          "dimensionless_strength": 0.22674447468223818,
+          "donor_residue": 39,
+          "sequence_separation": 9,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 71,
+          "dimensionless_strength": 0.22050691186446508,
+          "donor_residue": 75,
+          "sequence_separation": 4,
+          "topology": "alpha"
+        },
+        {
+          "acceptor_residue": 51,
+          "dimensionless_strength": 0.21804603889526006,
+          "donor_residue": 55,
+          "sequence_separation": 4,
+          "topology": "alpha"
+        },
+        {
+          "acceptor_residue": 26,
+          "dimensionless_strength": 0.21224355646599122,
+          "donor_residue": 42,
+          "sequence_separation": 16,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 44,
+          "dimensionless_strength": 0.2119647442018685,
+          "donor_residue": 26,
+          "sequence_separation": 18,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 5,
+          "dimensionless_strength": 0.2108266830937275,
+          "donor_residue": 9,
+          "sequence_separation": 4,
+          "topology": "alpha"
+        },
+        {
+          "acceptor_residue": 55,
+          "dimensionless_strength": 0.21057527307997292,
+          "donor_residue": 59,
+          "sequence_separation": 4,
+          "topology": "alpha"
+        },
+        {
+          "acceptor_residue": 64,
+          "dimensionless_strength": 0.20258856348164508,
+          "donor_residue": 73,
+          "sequence_separation": 9,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 28,
+          "dimensionless_strength": 0.18865874789724324,
+          "donor_residue": 20,
+          "sequence_separation": 8,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 9,
+          "dimensionless_strength": 0.1832788682786433,
+          "donor_residue": 13,
+          "sequence_separation": 4,
+          "topology": "alpha"
+        },
+        {
+          "acceptor_residue": 34,
+          "dimensionless_strength": 0.18121801683111227,
+          "donor_residue": 12,
+          "sequence_separation": 22,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 41,
+          "dimensionless_strength": 0.17757250285501947,
+          "donor_residue": 36,
+          "sequence_separation": 5,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 43,
+          "dimensionless_strength": 0.17691192161838531,
+          "donor_residue": 47,
+          "sequence_separation": 4,
+          "topology": "alpha"
+        },
+        {
+          "acceptor_residue": 16,
+          "dimensionless_strength": 0.1767059903720907,
+          "donor_residue": 32,
+          "sequence_separation": 16,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 18,
+          "dimensionless_strength": 0.17488808284441185,
+          "donor_residue": 44,
+          "sequence_separation": 26,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 53,
+          "dimensionless_strength": 0.1681729587449329,
+          "donor_residue": 63,
+          "sequence_separation": 10,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 50,
+          "dimensionless_strength": 0.1576298210334616,
+          "donor_residue": 43,
+          "sequence_separation": 7,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 61,
+          "dimensionless_strength": 0.15646415061084049,
+          "donor_residue": 27,
+          "sequence_separation": 34,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 31,
+          "dimensionless_strength": 0.15546612812175686,
+          "donor_residue": 48,
+          "sequence_separation": 17,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 21,
+          "dimensionless_strength": 0.1447700159369923,
+          "donor_residue": 15,
+          "sequence_separation": 6,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 52,
+          "dimensionless_strength": 0.1436346151753851,
+          "donor_residue": 24,
+          "sequence_separation": 28,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 67,
+          "dimensionless_strength": 0.13043379294967689,
+          "donor_residue": 62,
+          "sequence_separation": 5,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 7,
+          "dimensionless_strength": 0.12809141866703616,
+          "donor_residue": 46,
+          "sequence_separation": 39,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 29,
+          "dimensionless_strength": 0.12552376395879575,
+          "donor_residue": 58,
+          "sequence_separation": 29,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 6,
+          "dimensionless_strength": 0.11739373834541773,
+          "donor_residue": 33,
+          "sequence_separation": 27,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 4,
+          "dimensionless_strength": 0.11627012233403652,
+          "donor_residue": 18,
+          "sequence_separation": 14,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 2,
+          "dimensionless_strength": 0.09768291577321347,
+          "donor_residue": 7,
+          "sequence_separation": 5,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 8,
+          "dimensionless_strength": 0.09569808360470622,
+          "donor_residue": 67,
+          "sequence_separation": 59,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 40,
+          "dimensionless_strength": 0.09026182250462629,
+          "donor_residue": 11,
+          "sequence_separation": 29,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 59,
+          "dimensionless_strength": 0.08322948461287524,
+          "donor_residue": 28,
+          "sequence_separation": 31,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 10,
+          "dimensionless_strength": 0.07886822305750037,
+          "donor_residue": 21,
+          "sequence_separation": 11,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 20,
+          "dimensionless_strength": 0.0779967335200728,
+          "donor_residue": 31,
+          "sequence_separation": 11,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 62,
+          "dimensionless_strength": 0.07185777601879058,
+          "donor_residue": 71,
+          "sequence_separation": 9,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 14,
+          "dimensionless_strength": 0.07077026761667139,
+          "donor_residue": 4,
+          "sequence_separation": 10,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 49,
+          "dimensionless_strength": 0.07010108718863568,
+          "donor_residue": 54,
+          "sequence_separation": 5,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 46,
+          "dimensionless_strength": 0.06442421750498603,
+          "donor_residue": 50,
+          "sequence_separation": 4,
+          "topology": "alpha"
+        },
+        {
+          "acceptor_residue": 48,
+          "dimensionless_strength": 0.0475435775073851,
+          "donor_residue": 2,
+          "sequence_separation": 46,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 3,
+          "dimensionless_strength": 0.04258506195480107,
+          "donor_residue": 34,
+          "sequence_separation": 31,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 73,
+          "dimensionless_strength": 0.041525680201487426,
+          "donor_residue": 57,
+          "sequence_separation": 16,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 22,
+          "dimensionless_strength": 0.03391963835511698,
+          "donor_residue": 66,
+          "sequence_separation": 44,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 37,
+          "dimensionless_strength": 0.03254963249298342,
+          "donor_residue": 6,
+          "sequence_separation": 31,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 63,
+          "dimensionless_strength": 0.032108396671266574,
+          "donor_residue": 70,
+          "sequence_separation": 7,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 60,
+          "dimensionless_strength": 0.02748299892371744,
+          "donor_residue": 29,
+          "sequence_separation": 31,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 75,
+          "dimensionless_strength": 0.018661789859002256,
+          "donor_residue": 3,
+          "sequence_separation": 72,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 57,
+          "dimensionless_strength": 0.015766847168806768,
+          "donor_residue": 69,
+          "sequence_separation": 12,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 47,
+          "dimensionless_strength": 0.011842608651790295,
+          "donor_residue": 56,
+          "sequence_separation": 9,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 27,
+          "dimensionless_strength": 0.008315841064896839,
+          "donor_residue": 22,
+          "sequence_separation": 5,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 24,
+          "dimensionless_strength": 0.005906076213731773,
+          "donor_residue": 16,
+          "sequence_separation": 8,
+          "topology": "interstrand"
+        }
+      ],
+      "relations": {
+        "alpha": -2.6138568796876456,
+        "interstrand": -6.806158177216416
+      }
+    },
+    "objectives": [
+      6693,
+      4.730034789049602,
+      196,
+      0.03474588393263467,
+      528,
+      0.42474579136359514,
+      432,
+      0.39497117975977813,
+      528,
+      0.11951021829788655,
+      552,
+      0.05711445735856491,
+      440,
+      0.4225149068897994,
+      437,
+      0.15586115424674063,
+      418,
+      0.5671787646138161,
+      269,
+      0.6216946144415737,
+      418,
+      0.3730677836373806,
+      380,
+      0.07532007631215232,
+      342,
+      0.013498797297720078,
+      342,
+      0.30908468873018446,
+      306,
+      0.210552561697108,
+      306,
+      0.34633917701302985,
+      289,
+      0.2738441700089932,
+      255,
+      0.04451436418763055,
+      255,
+      0.2854761992610144,
+      0.10115650474876814,
+      0.0,
+      0.0,
+      1.0,
+      0.6444755846209133,
+      -0.0,
+      -0.0,
+      -0.543455857247954,
+      10157.071173278326,
+      -3.4718456945253457,
+      1.0844321466483235,
+      15.33832013050089,
+      -2.6138568796876456,
+      -6.806158177216416,
+      -11.107424176681217,
+      4082,
+      2658,
+      214,
+      4082,
+      2658,
+      194,
+      44,
+      0,
+      0,
+      120,
+      0,
+      0,
+      45,
+      0,
+      0,
+      60,
+      0,
+      0,
+      45,
+      0,
+      0,
+      60,
+      0,
+      0,
+      60,
+      0,
+      0,
+      120,
+      0,
+      0,
+      105,
+      0,
+      0,
+      60,
+      0,
+      0,
+      60,
+      0,
+      0,
+      120,
+      0,
+      0,
+      60,
+      0,
+      0,
+      60,
+      0,
+      0,
+      165,
+      0,
+      0,
+      60,
+      0,
+      0,
+      0,
+      0,
+      0,
+      12,
+      0,
+      0,
+      9,
+      25,
+      0,
+      28,
+      45,
+      0,
+      21,
+      0,
+      0,
+      28,
+      20,
+      0,
+      28,
+      25,
+      0,
+      0,
+      0,
+      0,
+      40,
+      0,
+      35,
+      49,
+      0,
+      0,
+      28,
+      45,
+      0,
+      28,
+      0,
+      0,
+      56,
+      20,
+      0,
+      28,
+      25,
+      0,
+      28,
+      0,
+      0,
+      77,
+      0,
+      0,
+      28,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      25,
+      0,
+      0,
+      45,
+      0,
+      0,
+      0,
+      0,
+      0,
+      20,
+      0,
+      0,
+      25,
+      0,
+      0,
+      20,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      45,
+      0,
+      0,
+      0,
+      0,
+      0,
+      20,
+      0,
+      0,
+      25,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      25,
+      32,
+      0,
+      0,
+      24,
+      25,
+      0,
+      32,
+      25,
+      0,
+      32,
+      25,
+      0,
+      0,
+      0,
+      0,
+      64,
+      0,
+      0,
+      56,
+      25,
+      0,
+      32,
+      0,
+      0,
+      32,
+      35,
+      0,
+      64,
+      0,
+      0,
+      32,
+      25,
+      0,
+      32,
+      0,
+      0,
+      88,
+      35,
+      0,
+      32,
+      35,
+      0,
+      12,
+      0,
+      20,
+      9,
+      25,
+      0,
+      12,
+      25,
+      0,
+      0,
+      25,
+      0,
+      0,
+      0,
+      0,
+      24,
+      35,
+      0,
+      21,
+      25,
+      0,
+      12,
+      0,
+      0,
+      12,
+      35,
+      0,
+      24,
+      0,
+      0,
+      12,
+      25,
+      0,
+      12,
+      0,
+      0,
+      33,
+      35,
+      0,
+      12,
+      35,
+      0,
+      0,
+      20,
+      0,
+      0,
+      20,
+      0,
+      16,
+      45,
+      0,
+      0,
+      0,
+      0,
+      0,
+      63,
+      0,
+      0,
+      45,
+      0,
+      16,
+      0,
+      0,
+      16,
+      63,
+      0,
+      32,
+      0,
+      0,
+      16,
+      45,
+      0,
+      16,
+      0,
+      0,
+      44,
+      63,
+      0,
+      16,
+      63,
+      0,
+      12,
+      20,
+      25,
+      12,
+      25,
+      0,
+      0,
+      20,
+      0,
+      12,
+      0,
+      0,
+      21,
+      0,
+      0,
+      12,
+      45,
+      0,
+      0,
+      0,
+      0,
+      24,
+      20,
+      0,
+      12,
+      25,
+      0,
+      12,
+      0,
+      0,
+      33,
+      0,
+      0,
+      12,
+      0,
+      0,
+      0,
+      25,
+      20,
+      0,
+      20,
+      0,
+      0,
+      28,
+      0,
+      0,
+      20,
+      0,
+      16,
+      25,
+      0,
+      16,
+      28,
+      0,
+      32,
+      20,
+      0,
+      16,
+      45,
+      0,
+      16,
+      0,
+      0,
+      44,
+      28,
+      0,
+      16,
+      28,
+      0,
+      0,
+      20,
+      20,
+      32,
+      0,
+      0,
+      28,
+      25,
+      0,
+      16,
+      45,
+      0,
+      16,
+      35,
+      0,
+      32,
+      20,
+      0,
+      16,
+      50,
+      0,
+      16,
+      0,
+      0,
+      44,
+      35,
+      0,
+      16,
+      35,
+      0,
+      0,
+      0,
+      0,
+      0,
+      20,
+      0,
+      0,
+      0,
+      0,
+      0,
+      28,
+      0,
+      0,
+      0,
+      0,
+      0,
+      20,
+      0,
+      0,
+      28,
+      0,
+      0,
+      28,
+      0,
+      0,
+      0,
+      0,
+      32,
+      63,
+      0,
+      16,
+      0,
+      0,
+      64,
+      28,
+      0,
+      32,
+      35,
+      0,
+      32,
+      0,
+      0,
+      88,
+      0,
+      0,
+      32,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      56,
+      20,
+      0,
+      28,
+      25,
+      0,
+      28,
+      0,
+      0,
+      77,
+      0,
+      0,
+      28,
+      0,
+      0,
+      0,
+      0,
+      0,
+      32,
+      0,
+      0,
+      16,
+      45,
+      0,
+      16,
+      0,
+      0,
+      44,
+      63,
+      0,
+      16,
+      63,
+      0,
+      0,
+      28,
+      0,
+      0,
+      35,
+      0,
+      16,
+      0,
+      0,
+      44,
+      0,
+      0,
+      16,
+      0,
+      0,
+      0,
+      20,
+      0,
+      32,
+      0,
+      0,
+      0,
+      0,
+      0,
+      32,
+      0,
+      0,
+      16,
+      0,
+      0,
+      44,
+      35,
+      0,
+      16,
+      35,
+      0,
+      28,
+      0,
+      0,
+      16,
+      0,
+      0,
+      0,
+      0,
+      49
+    ],
+    "raw": {
+      "complete": [
+        [
+          0,
+          2
+        ],
+        10157.071173278326,
+        -3.4718456945253457,
+        1.0844321466483235,
+        15.33832013050089,
+        -2.6138568796876456,
+        -6.806158177216416,
+        -11.107424176681217
+      ],
+      "local": [
+        0.10115650474876814,
+        [
+          0,
+          0
+        ],
+        0.0,
+        0.0,
+        1.0,
+        0.6444755846209133,
+        -0.0,
+        -0.0,
+        -0.543455857247954
+      ]
+    },
+    "sidechain_graph_spatial_exclusion": {
+      "atom_encounter_count": 3,
+      "excluded_pairs": [
+        {
+          "atom_encounter_count": 2,
+          "encounters": [
+            {
+              "dimensionless_distance_squared": 0.9225307272982217,
+              "left_atom": "OE1",
+              "right_atom": "CG1"
+            },
+            {
+              "dimensionless_distance_squared": 0.7043685698799323,
+              "left_atom": "OE2",
+              "right_atom": "CG1"
+            }
+          ],
+          "left_identity": "E",
+          "left_residue": 24,
+          "right_identity": "V",
+          "right_residue": 26
+        },
+        {
+          "atom_encounter_count": 1,
+          "encounters": [
+            {
+              "dimensionless_distance_squared": 0.42440994217934236,
+              "left_atom": "CG2",
+              "right_atom": "ND2"
+            }
+          ],
+          "left_identity": "T",
+          "left_residue": 55,
+          "right_identity": "N",
+          "right_residue": 60
+        }
+      ],
+      "excluded_residue_pair_count": 2,
+      "hard_exclusions": 2
+    },
+    "tertiary_segment_path": {
+      "edges": [
+        {
+          "body_capacity": 484,
+          "hydrophobic_capacity": 88,
+          "left_residues": [
+            57,
+            58,
+            59,
+            60
+          ],
+          "like_charge_capacity": 0,
+          "opposite_charge_capacity": 28,
+          "ordinal_vector": [
+            4,
+            4,
+            3,
+            0
+          ],
+          "orientation_deficit": 0.03474588393263467,
+          "right_residues": [
+            69,
+            70,
+            71,
+            72
+          ],
+          "segments": [
+            14,
+            17
+          ],
+          "support_deficit": 196,
+          "supported_body_capacity": 288,
+          "unsigned_axis_alignment": 0.9652541160673653
+        },
+        {
+          "body_capacity": 528,
+          "hydrophobic_capacity": 64,
+          "left_residues": [
+            41,
+            42,
+            43,
+            44
+          ],
+          "like_charge_capacity": 0,
+          "opposite_charge_capacity": 28,
+          "ordinal_vector": [
+            5,
+            4,
+            2,
+            0
+          ],
+          "orientation_deficit": 0.42474579136359514,
+          "right_residues": [
+            57,
+            58,
+            59,
+            60
+          ],
+          "segments": [
+            10,
+            14
+          ],
+          "support_deficit": 528,
+          "supported_body_capacity": 0,
+          "unsigned_axis_alignment": 0.5752542086364049
+        },
+        {
+          "body_capacity": 480,
+          "hydrophobic_capacity": 64,
+          "left_residues": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "like_charge_capacity": 0,
+          "opposite_charge_capacity": 35,
+          "ordinal_vector": [
+            5,
+            5,
+            3,
+            0
+          ],
+          "orientation_deficit": 0.39497117975977813,
+          "right_residues": [
+            41,
+            42,
+            43,
+            44
+          ],
+          "segments": [
+            3,
+            10
+          ],
+          "support_deficit": 432,
+          "supported_body_capacity": 48,
+          "unsigned_axis_alignment": 0.6050288202402219
+        },
+        {
+          "body_capacity": 528,
+          "hydrophobic_capacity": 165,
+          "left_residues": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "like_charge_capacity": 0,
+          "opposite_charge_capacity": 0,
+          "ordinal_vector": [
+            7,
+            2,
+            0,
+            0
+          ],
+          "orientation_deficit": 0.11951021829788655,
+          "right_residues": [
+            69,
+            70,
+            71,
+            72
+          ],
+          "segments": [
+            0,
+            17
+          ],
+          "support_deficit": 528,
+          "supported_body_capacity": 0,
+          "unsigned_axis_alignment": 0.8804897817021134
+        },
+        {
+          "body_capacity": 552,
+          "hydrophobic_capacity": 60,
+          "left_residues": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "like_charge_capacity": 0,
+          "opposite_charge_capacity": 0,
+          "ordinal_vector": [
+            7,
+            6,
+            1,
+            0
+          ],
+          "orientation_deficit": 0.05711445735856491,
+          "right_residues": [
+            61,
+            62,
+            63,
+            64
+          ],
+          "segments": [
+            0,
+            15
+          ],
+          "support_deficit": 552,
+          "supported_body_capacity": 0,
+          "unsigned_axis_alignment": 0.9428855426414351
+        },
+        {
+          "body_capacity": 440,
+          "hydrophobic_capacity": 32,
+          "left_residues": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "like_charge_capacity": 20,
+          "opposite_charge_capacity": 25,
+          "ordinal_vector": [
+            12,
+            8,
+            5,
+            2
+          ],
+          "orientation_deficit": 0.4225149068897994,
+          "right_residues": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "segments": [
+            3,
+            7
+          ],
+          "support_deficit": 440,
+          "supported_body_capacity": 0,
+          "unsigned_axis_alignment": 0.5774850931102006
+        },
+        {
+          "body_capacity": 437,
+          "hydrophobic_capacity": 28,
+          "left_residues": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "like_charge_capacity": 25,
+          "opposite_charge_capacity": 25,
+          "ordinal_vector": [
+            13,
+            9,
+            5,
+            3
+          ],
+          "orientation_deficit": 0.15586115424674063,
+          "right_residues": [
+            61,
+            62,
+            63,
+            64
+          ],
+          "segments": [
+            1,
+            15
+          ],
+          "support_deficit": 437,
+          "supported_body_capacity": 0,
+          "unsigned_axis_alignment": 0.8441388457532594
+        },
+        {
+          "body_capacity": 418,
+          "hydrophobic_capacity": 28,
+          "left_residues": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "like_charge_capacity": 0,
+          "opposite_charge_capacity": 45,
+          "ordinal_vector": [
+            13,
+            11,
+            2,
+            0
+          ],
+          "orientation_deficit": 0.5671787646138161,
+          "right_residues": [
+            49,
+            50,
+            51,
+            52
+          ],
+          "segments": [
+            1,
+            12
+          ],
+          "support_deficit": 418,
+          "supported_body_capacity": 0,
+          "unsigned_axis_alignment": 0.4328212353861839
+        },
+        {
+          "body_capacity": 440,
+          "hydrophobic_capacity": 16,
+          "left_residues": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "like_charge_capacity": 36,
+          "opposite_charge_capacity": 45,
+          "ordinal_vector": [
+            16,
+            8,
+            5,
+            2
+          ],
+          "orientation_deficit": 0.6216946144415737,
+          "right_residues": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "segments": [
+            5,
+            7
+          ],
+          "support_deficit": 269,
+          "supported_body_capacity": 171,
+          "unsigned_axis_alignment": 0.3783053855584263
+        },
+        {
+          "body_capacity": 418,
+          "hydrophobic_capacity": 16,
+          "left_residues": [
+            49,
+            50,
+            51,
+            52
+          ],
+          "like_charge_capacity": 0,
+          "opposite_charge_capacity": 0,
+          "ordinal_vector": [
+            16,
+            11,
+            7,
+            0
+          ],
+          "orientation_deficit": 0.3730677836373806,
+          "right_residues": [
+            65,
+            66,
+            67,
+            68
+          ],
+          "segments": [
+            12,
+            16
+          ],
+          "support_deficit": 418,
+          "supported_body_capacity": 0,
+          "unsigned_axis_alignment": 0.6269322163626194
+        },
+        {
+          "body_capacity": 380,
+          "hydrophobic_capacity": 0,
+          "left_residues": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "like_charge_capacity": 36,
+          "opposite_charge_capacity": 0,
+          "ordinal_vector": [
+            19,
+            17,
+            7,
+            5
+          ],
+          "orientation_deficit": 0.07532007631215232,
+          "right_residues": [
+            37,
+            38,
+            39,
+            40
+          ],
+          "segments": [
+            5,
+            9
+          ],
+          "support_deficit": 380,
+          "supported_body_capacity": 0,
+          "unsigned_axis_alignment": 0.9246799236878477
+        },
+        {
+          "body_capacity": 342,
+          "hydrophobic_capacity": 16,
+          "left_residues": [
+            33,
+            34,
+            35,
+            36
+          ],
+          "like_charge_capacity": 0,
+          "opposite_charge_capacity": 0,
+          "ordinal_vector": [
+            22,
+            16,
+            7,
+            0
+          ],
+          "orientation_deficit": 0.013498797297720078,
+          "right_residues": [
+            65,
+            66,
+            67,
+            68
+          ],
+          "segments": [
+            8,
+            16
+          ],
+          "support_deficit": 342,
+          "supported_body_capacity": 0,
+          "unsigned_axis_alignment": 0.9865012027022799
+        },
+        {
+          "body_capacity": 342,
+          "hydrophobic_capacity": 0,
+          "left_residues": [
+            37,
+            38,
+            39,
+            40
+          ],
+          "like_charge_capacity": 0,
+          "opposite_charge_capacity": 28,
+          "ordinal_vector": [
+            22,
+            19,
+            4,
+            0
+          ],
+          "orientation_deficit": 0.30908468873018446,
+          "right_residues": [
+            53,
+            54,
+            55,
+            56
+          ],
+          "segments": [
+            9,
+            13
+          ],
+          "support_deficit": 342,
+          "supported_body_capacity": 0,
+          "unsigned_axis_alignment": 0.6909153112698155
+        },
+        {
+          "body_capacity": 306,
+          "hydrophobic_capacity": 28,
+          "left_residues": [
+            33,
+            34,
+            35,
+            36
+          ],
+          "like_charge_capacity": 25,
+          "opposite_charge_capacity": 25,
+          "ordinal_vector": [
+            27,
+            13,
+            5,
+            3
+          ],
+          "orientation_deficit": 0.210552561697108,
+          "right_residues": [
+            45,
+            46,
+            47,
+            48
+          ],
+          "segments": [
+            8,
+            11
+          ],
+          "support_deficit": 306,
+          "supported_body_capacity": 0,
+          "unsigned_axis_alignment": 0.789447438302892
+        },
+        {
+          "body_capacity": 306,
+          "hydrophobic_capacity": 12,
+          "left_residues": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "like_charge_capacity": 0,
+          "opposite_charge_capacity": 35,
+          "ordinal_vector": [
+            27,
+            17,
+            3,
+            0
+          ],
+          "orientation_deficit": 0.34633917701302985,
+          "right_residues": [
+            53,
+            54,
+            55,
+            56
+          ],
+          "segments": [
+            4,
+            13
+          ],
+          "support_deficit": 306,
+          "supported_body_capacity": 0,
+          "unsigned_axis_alignment": 0.6536608229869701
+        },
+        {
+          "body_capacity": 289,
+          "hydrophobic_capacity": 21,
+          "left_residues": [
+            25,
+            26,
+            27,
+            28
+          ],
+          "like_charge_capacity": 25,
+          "opposite_charge_capacity": 0,
+          "ordinal_vector": [
+            29,
+            15,
+            7,
+            3
+          ],
+          "orientation_deficit": 0.2738441700089932,
+          "right_residues": [
+            45,
+            46,
+            47,
+            48
+          ],
+          "segments": [
+            6,
+            11
+          ],
+          "support_deficit": 289,
+          "supported_body_capacity": 0,
+          "unsigned_axis_alignment": 0.7261558299910068
+        },
+        {
+          "body_capacity": 255,
+          "hydrophobic_capacity": 12,
+          "left_residues": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "like_charge_capacity": 0,
+          "opposite_charge_capacity": 35,
+          "ordinal_vector": [
+            32,
+            17,
+            3,
+            0
+          ],
+          "orientation_deficit": 0.04451436418763055,
+          "right_residues": [
+            73,
+            74,
+            75,
+            76
+          ],
+          "segments": [
+            4,
+            18
+          ],
+          "support_deficit": 255,
+          "supported_body_capacity": 0,
+          "unsigned_axis_alignment": 0.9554856358123694
+        },
+        {
+          "body_capacity": 255,
+          "hydrophobic_capacity": 0,
+          "left_residues": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "like_charge_capacity": 25,
+          "opposite_charge_capacity": 0,
+          "ordinal_vector": [
+            32,
+            19,
+            7,
+            3
+          ],
+          "orientation_deficit": 0.2854761992610144,
+          "right_residues": [
+            25,
+            26,
+            27,
+            28
+          ],
+          "segments": [
+            2,
+            6
+          ],
+          "support_deficit": 255,
+          "supported_body_capacity": 0,
+          "unsigned_axis_alignment": 0.7145238007389856
+        }
+      ],
+      "objective_names": [
+        "path_support_deficit",
+        "path_orientation_deficit",
+        "path_edge_0_support_deficit",
+        "path_edge_0_orientation_deficit",
+        "path_edge_1_support_deficit",
+        "path_edge_1_orientation_deficit",
+        "path_edge_2_support_deficit",
+        "path_edge_2_orientation_deficit",
+        "path_edge_3_support_deficit",
+        "path_edge_3_orientation_deficit",
+        "path_edge_4_support_deficit",
+        "path_edge_4_orientation_deficit",
+        "path_edge_5_support_deficit",
+        "path_edge_5_orientation_deficit",
+        "path_edge_6_support_deficit",
+        "path_edge_6_orientation_deficit",
+        "path_edge_7_support_deficit",
+        "path_edge_7_orientation_deficit",
+        "path_edge_8_support_deficit",
+        "path_edge_8_orientation_deficit",
+        "path_edge_9_support_deficit",
+        "path_edge_9_orientation_deficit",
+        "path_edge_10_support_deficit",
+        "path_edge_10_orientation_deficit",
+        "path_edge_11_support_deficit",
+        "path_edge_11_orientation_deficit",
+        "path_edge_12_support_deficit",
+        "path_edge_12_orientation_deficit",
+        "path_edge_13_support_deficit",
+        "path_edge_13_orientation_deficit",
+        "path_edge_14_support_deficit",
+        "path_edge_14_orientation_deficit",
+        "path_edge_15_support_deficit",
+        "path_edge_15_orientation_deficit",
+        "path_edge_16_support_deficit",
+        "path_edge_16_orientation_deficit",
+        "path_edge_17_support_deficit",
+        "path_edge_17_orientation_deficit"
+      ],
+      "objectives": [
+        6693,
+        4.730034789049602,
+        196,
+        0.03474588393263467,
+        528,
+        0.42474579136359514,
+        432,
+        0.39497117975977813,
+        528,
+        0.11951021829788655,
+        552,
+        0.05711445735856491,
+        440,
+        0.4225149068897994,
+        437,
+        0.15586115424674063,
+        418,
+        0.5671787646138161,
+        269,
+        0.6216946144415737,
+        418,
+        0.3730677836373806,
+        380,
+        0.07532007631215232,
+        342,
+        0.013498797297720078,
+        342,
+        0.30908468873018446,
+        306,
+        0.210552561697108,
+        306,
+        0.34633917701302985,
+        289,
+        0.2738441700089932,
+        255,
+        0.04451436418763055,
+        255,
+        0.2854761992610144
+      ],
+      "path_orientation_deficit": 4.730034789049602,
+      "path_support_deficit": 6693,
+      "spatial_one_squared": 14.405034636428685
+    }
+  },
+  "frontier_capacity": 24,
+  "hydrogen_bond_census": {
+    "acceptor_capacity": 1,
+    "acceptor_residues": "ACDEFGHIKLMNPQRSTVWY",
+    "alphabet": "ACDEFGHIKLMNPQRSTVWY",
+    "alphabet_count": 20,
+    "angular_cutoff": null,
+    "distance_cutoff": null,
+    "donor_capacity": 1,
+    "donor_residues": "ACDEFGHIKLMNQRSTVWY",
+    "fitted_energy": null,
+    "interwindow_residues": 4,
+    "minimum_sequence_separation": 3,
+    "non_donor_residues": "P",
+    "overlap_residues": 3
+  },
+  "orientation_modes": {
+    "alpha": 0.7682042835361056,
+    "beta": -0.18257647754674627,
+    "source_angles_degrees": {
+      "alpha": [
+        "-60",
+        "-45"
+      ],
+      "beta": [
+        "-120",
+        "135"
+      ]
+    }
+  },
+  "orientation_trace": [
+    {
+      "mode_distance": 0.051972669561338614,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.8201769530974442,
+      "residue_positions_one_based": [
+        1,
+        4
+      ],
+      "sequence": "MQIF"
+    },
+    {
+      "mode_distance": 0.6444028723577564,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.8269793499045026,
+      "residue_positions_one_based": [
+        2,
+        5
+      ],
+      "sequence": "QIFV"
+    },
+    {
+      "mode_distance": 0.11955207721586258,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.8877563607519682,
+      "residue_positions_one_based": [
+        3,
+        6
+      ],
+      "sequence": "IFVK"
+    },
+    {
+      "mode_distance": 0.25754507760887074,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": 0.07496860006212445,
+      "residue_positions_one_based": [
+        4,
+        7
+      ],
+      "sequence": "FVKT"
+    },
+    {
+      "mode_distance": 0.008764936738451246,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.7594393467976543,
+      "residue_positions_one_based": [
+        5,
+        8
+      ],
+      "sequence": "VKTL"
+    },
+    {
+      "mode_distance": 0.5794404384716232,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.7620169160183694,
+      "residue_positions_one_based": [
+        6,
+        9
+      ],
+      "sequence": "KTLT"
+    },
+    {
+      "mode_distance": 0.7831869758784531,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.9657634534251993,
+      "residue_positions_one_based": [
+        7,
+        10
+      ],
+      "sequence": "TLTG"
+    },
+    {
+      "mode_distance": 0.1907771880537984,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": 0.008200710507052126,
+      "residue_positions_one_based": [
+        8,
+        11
+      ],
+      "sequence": "LTGK"
+    },
+    {
+      "mode_distance": 0.03138722569938959,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.15118925184735668,
+      "residue_positions_one_based": [
+        9,
+        12
+      ],
+      "sequence": "TGKT"
+    },
+    {
+      "mode_distance": 0.3034148924412762,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.4647893910948294,
+      "residue_positions_one_based": [
+        10,
+        13
+      ],
+      "sequence": "GKTI"
+    },
+    {
+      "mode_distance": 0.026064593529052438,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.7421396900070532,
+      "residue_positions_one_based": [
+        11,
+        14
+      ],
+      "sequence": "KTIT"
+    },
+    {
+      "mode_distance": 0.6821651521876413,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.8647416297343876,
+      "residue_positions_one_based": [
+        12,
+        15
+      ],
+      "sequence": "TITL"
+    },
+    {
+      "mode_distance": 0.5609380751660111,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.7435145527127575,
+      "residue_positions_one_based": [
+        13,
+        16
+      ],
+      "sequence": "ITLE"
+    },
+    {
+      "mode_distance": 0.5139844777220266,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.6965609552687728,
+      "residue_positions_one_based": [
+        14,
+        17
+      ],
+      "sequence": "TLEV"
+    },
+    {
+      "mode_distance": 0.0579675699055191,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.8261718534416247,
+      "residue_positions_one_based": [
+        15,
+        18
+      ],
+      "sequence": "LEVE"
+    },
+    {
+      "mode_distance": 0.21051396579156934,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.5576903177445363,
+      "residue_positions_one_based": [
+        16,
+        19
+      ],
+      "sequence": "EVEP"
+    },
+    {
+      "mode_distance": 0.5083103257469386,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.6908868032936848,
+      "residue_positions_one_based": [
+        17,
+        20
+      ],
+      "sequence": "VEPS"
+    },
+    {
+      "mode_distance": 0.23859250207158755,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.529611781464518,
+      "residue_positions_one_based": [
+        18,
+        21
+      ],
+      "sequence": "EPSD"
+    },
+    {
+      "mode_distance": 0.3922423291854949,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.3759619543506107,
+      "residue_positions_one_based": [
+        19,
+        22
+      ],
+      "sequence": "PSDT"
+    },
+    {
+      "mode_distance": 0.3608955258475647,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": 0.1783190483008184,
+      "residue_positions_one_based": [
+        20,
+        23
+      ],
+      "sequence": "SDTI"
+    },
+    {
+      "mode_distance": 0.2386222721744405,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": 0.056045794627694226,
+      "residue_positions_one_based": [
+        21,
+        24
+      ],
+      "sequence": "DTIE"
+    },
+    {
+      "mode_distance": 0.6610289071503892,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.8436053846971355,
+      "residue_positions_one_based": [
+        22,
+        25
+      ],
+      "sequence": "TIEN"
+    },
+    {
+      "mode_distance": 0.6868104118292382,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.8693868893759844,
+      "residue_positions_one_based": [
+        23,
+        26
+      ],
+      "sequence": "IENV"
+    },
+    {
+      "mode_distance": 0.017134141444682505,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.7510701420914231,
+      "residue_positions_one_based": [
+        24,
+        27
+      ],
+      "sequence": "ENVK"
+    },
+    {
+      "mode_distance": 0.4778692446186508,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.6604457221653971,
+      "residue_positions_one_based": [
+        25,
+        28
+      ],
+      "sequence": "NVKA"
+    },
+    {
+      "mode_distance": 0.6802946841726103,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.8628711617193566,
+      "residue_positions_one_based": [
+        26,
+        29
+      ],
+      "sequence": "VKAK"
+    },
+    {
+      "mode_distance": 0.20094592713627923,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.5672583563998264,
+      "residue_positions_one_based": [
+        27,
+        30
+      ],
+      "sequence": "KAKI"
+    },
+    {
+      "mode_distance": 0.0737468912848731,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.8419511748209787,
+      "residue_positions_one_based": [
+        28,
+        31
+      ],
+      "sequence": "AKIQ"
+    },
+    {
+      "mode_distance": 0.008158139941820464,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.7600461435942851,
+      "residue_positions_one_based": [
+        29,
+        32
+      ],
+      "sequence": "KIQD"
+    },
+    {
+      "mode_distance": 0.05687621018446576,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.7113280733516398,
+      "residue_positions_one_based": [
+        30,
+        33
+      ],
+      "sequence": "IQDK"
+    },
+    {
+      "mode_distance": 0.22292679369766488,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": 0.040350316150918594,
+      "residue_positions_one_based": [
+        31,
+        34
+      ],
+      "sequence": "QDKE"
+    },
+    {
+      "mode_distance": 0.2666018151301841,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": 0.08402533758343783,
+      "residue_positions_one_based": [
+        32,
+        35
+      ],
+      "sequence": "DKEG"
+    },
+    {
+      "mode_distance": 0.1791056500733199,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.3616821276200662,
+      "residue_positions_one_based": [
+        33,
+        36
+      ],
+      "sequence": "KEGI"
+    },
+    {
+      "mode_distance": 0.04397048130261971,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.7242338022334859,
+      "residue_positions_one_based": [
+        34,
+        37
+      ],
+      "sequence": "EGIP"
+    },
+    {
+      "mode_distance": 0.4765035167673209,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.6590799943140672,
+      "residue_positions_one_based": [
+        35,
+        38
+      ],
+      "sequence": "GIPP"
+    },
+    {
+      "mode_distance": 0.3932974045455305,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.37490687899057507,
+      "residue_positions_one_based": [
+        36,
+        39
+      ],
+      "sequence": "IPPD"
+    },
+    {
+      "mode_distance": 0.2733784719005009,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.4559549494472472,
+      "residue_positions_one_based": [
+        37,
+        40
+      ],
+      "sequence": "PPDQ"
+    },
+    {
+      "mode_distance": 0.23963851240542156,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": 0.05706203485867529,
+      "residue_positions_one_based": [
+        38,
+        41
+      ],
+      "sequence": "PDQQ"
+    },
+    {
+      "mode_distance": 0.12260438524204753,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.6455998982940581,
+      "residue_positions_one_based": [
+        39,
+        42
+      ],
+      "sequence": "DQQR"
+    },
+    {
+      "mode_distance": 0.15218168873043902,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.6160225948056666,
+      "residue_positions_one_based": [
+        40,
+        43
+      ],
+      "sequence": "QQRL"
+    },
+    {
+      "mode_distance": 0.12882109258551855,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.639383190950587,
+      "residue_positions_one_based": [
+        41,
+        44
+      ],
+      "sequence": "QRLI"
+    },
+    {
+      "mode_distance": 0.7908122858192825,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.9733887633660289,
+      "residue_positions_one_based": [
+        42,
+        45
+      ],
+      "sequence": "RLIF"
+    },
+    {
+      "mode_distance": 0.12354025792629852,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.8917445414624041,
+      "residue_positions_one_based": [
+        43,
+        46
+      ],
+      "sequence": "LIFA"
+    },
+    {
+      "mode_distance": 0.4122175000584844,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": 0.22964102251173812,
+      "residue_positions_one_based": [
+        44,
+        47
+      ],
+      "sequence": "IFAG"
+    },
+    {
+      "mode_distance": 0.44806242469527624,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.32014185884082935,
+      "residue_positions_one_based": [
+        45,
+        48
+      ],
+      "sequence": "FAGK"
+    },
+    {
+      "mode_distance": 0.04259004436398345,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.13998643318276283,
+      "residue_positions_one_based": [
+        46,
+        49
+      ],
+      "sequence": "AGKQ"
+    },
+    {
+      "mode_distance": 0.10290745749222513,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.07966902005452114,
+      "residue_positions_one_based": [
+        47,
+        50
+      ],
+      "sequence": "GKQL"
+    },
+    {
+      "mode_distance": 0.28495098062087393,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.4675274581676202,
+      "residue_positions_one_based": [
+        48,
+        51
+      ],
+      "sequence": "KQLE"
+    },
+    {
+      "mode_distance": 0.04473800173338549,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.8129422852694911,
+      "residue_positions_one_based": [
+        49,
+        52
+      ],
+      "sequence": "QLED"
+    },
+    {
+      "mode_distance": 0.007952381045996937,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.7761566645821025,
+      "residue_positions_one_based": [
+        50,
+        53
+      ],
+      "sequence": "LEDG"
+    },
+    {
+      "mode_distance": 0.11952938696799986,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.6486748965681057,
+      "residue_positions_one_based": [
+        51,
+        54
+      ],
+      "sequence": "EDGR"
+    },
+    {
+      "mode_distance": 0.028370060828296517,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.7398342227078091,
+      "residue_positions_one_based": [
+        52,
+        55
+      ],
+      "sequence": "DGRT"
+    },
+    {
+      "mode_distance": 0.26960551493301954,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": 0.08702903738627324,
+      "residue_positions_one_based": [
+        53,
+        56
+      ],
+      "sequence": "GRTL"
+    },
+    {
+      "mode_distance": 0.06413557634451114,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.24671205389125742,
+      "residue_positions_one_based": [
+        54,
+        57
+      ],
+      "sequence": "RTLS"
+    },
+    {
+      "mode_distance": 0.23317127287154704,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.4157477504182933,
+      "residue_positions_one_based": [
+        55,
+        58
+      ],
+      "sequence": "TLSD"
+    },
+    {
+      "mode_distance": 0.2282596500253231,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.5399446335107825,
+      "residue_positions_one_based": [
+        56,
+        59
+      ],
+      "sequence": "LSDY"
+    },
+    {
+      "mode_distance": 0.1648994300020301,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.3474759075487764,
+      "residue_positions_one_based": [
+        57,
+        60
+      ],
+      "sequence": "SDYN"
+    },
+    {
+      "mode_distance": 0.012900835820956025,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.7553034477151496,
+      "residue_positions_one_based": [
+        58,
+        61
+      ],
+      "sequence": "DYNI"
+    },
+    {
+      "mode_distance": 0.0985869684970393,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.6696173150390663,
+      "residue_positions_one_based": [
+        59,
+        62
+      ],
+      "sequence": "YNIQ"
+    },
+    {
+      "mode_distance": 0.165603918165255,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.9338082017013606,
+      "residue_positions_one_based": [
+        60,
+        63
+      ],
+      "sequence": "NIQK"
+    },
+    {
+      "mode_distance": 0.07654950498806726,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.10602697255867902,
+      "residue_positions_one_based": [
+        61,
+        64
+      ],
+      "sequence": "IQKE"
+    },
+    {
+      "mode_distance": 0.45599864956069164,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.6385751271074379,
+      "residue_positions_one_based": [
+        62,
+        65
+      ],
+      "sequence": "QKES"
+    },
+    {
+      "mode_distance": 0.6017261918042525,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.7843026693509987,
+      "residue_positions_one_based": [
+        63,
+        66
+      ],
+      "sequence": "KEST"
+    },
+    {
+      "mode_distance": 0.06772548398008627,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.8359297675161919,
+      "residue_positions_one_based": [
+        64,
+        67
+      ],
+      "sequence": "ESTL"
+    },
+    {
+      "mode_distance": 0.21061484451272883,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.5575894390233768,
+      "residue_positions_one_based": [
+        65,
+        68
+      ],
+      "sequence": "STLH"
+    },
+    {
+      "mode_distance": 0.5664351106398782,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.7490115881866245,
+      "residue_positions_one_based": [
+        66,
+        69
+      ],
+      "sequence": "TLHL"
+    },
+    {
+      "mode_distance": 0.29309970357165327,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.47567618111839954,
+      "residue_positions_one_based": [
+        67,
+        70
+      ],
+      "sequence": "LHLV"
+    },
+    {
+      "mode_distance": 0.2411566994850587,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.42373317703180496,
+      "residue_positions_one_based": [
+        68,
+        71
+      ],
+      "sequence": "HLVL"
+    },
+    {
+      "mode_distance": 0.1871407477114846,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.581063535824621,
+      "residue_positions_one_based": [
+        69,
+        72
+      ],
+      "sequence": "LVLR"
+    },
+    {
+      "mode_distance": 0.29462257031456573,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.477199047861312,
+      "residue_positions_one_based": [
+        70,
+        73
+      ],
+      "sequence": "VLRL"
+    },
+    {
+      "mode_distance": 0.43066337218523304,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.6132398497319793,
+      "residue_positions_one_based": [
+        71,
+        74
+      ],
+      "sequence": "LRLR"
+    },
+    {
+      "mode_distance": 0.5450165663774711,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.7275930439242174,
+      "residue_positions_one_based": [
+        72,
+        75
+      ],
+      "sequence": "RLRG"
+    },
+    {
+      "mode_distance": 0.10115650474876814,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.6670477787873375,
+      "residue_positions_one_based": [
+        73,
+        76
+      ],
+      "sequence": "LRGG"
+    }
+  ],
+  "reconciliation": {
+    "branch_retention": [
+      false,
+      false,
+      false,
+      false
+    ],
+    "forward_paths": 24,
+    "retained_paths": 24,
+    "reverse_paths": 24,
+    "unique_input_paths": 52
+  },
+  "run_id": "development-ubiquitin-v30-tertiary-path-l76-20260720",
+  "runtime_seconds": 260.435352792,
+  "schema": "fold-protein-selected-states/v30",
+  "segment_residues": 4,
+  "sequence": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+  "sidechain_graph_spatial_census": {
+    "alphabet": "ACDEFGHIKLMNPQRSTVWY",
+    "alphabet_count": 20,
+    "atom_occupancy_unit": "1/(n+1) of generated adjacent C-alpha step",
+    "chirality": "L positive cross(CA-to-N, CA-to-C) half-space",
+    "empirical_bond_angle": null,
+    "empirical_bond_length": null,
+    "empirical_radius": null,
+    "fitted_cutoff": null,
+    "graphs": {
+      "A": {
+        "atoms": [
+          "CB"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ]
+        ],
+        "branch_atom_count": 0,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ]
+        }
+      },
+      "C": {
+        "atoms": [
+          "CB",
+          "SG"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "SG"
+          ]
+        ],
+        "branch_atom_count": 0,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "SG": [
+            2,
+            0,
+            0
+          ]
+        }
+      },
+      "D": {
+        "atoms": [
+          "CB",
+          "CG",
+          "OD1",
+          "OD2"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "OD1"
+          ],
+          [
+            "CG",
+            "OD2"
+          ]
+        ],
+        "branch_atom_count": 1,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ],
+          "OD1": [
+            3,
+            -1,
+            0
+          ],
+          "OD2": [
+            3,
+            1,
+            0
+          ]
+        }
+      },
+      "E": {
+        "atoms": [
+          "CB",
+          "CG",
+          "CD",
+          "OE1",
+          "OE2"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "CD"
+          ],
+          [
+            "CD",
+            "OE1"
+          ],
+          [
+            "CD",
+            "OE2"
+          ]
+        ],
+        "branch_atom_count": 1,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CD": [
+            3,
+            0,
+            0
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ],
+          "OE1": [
+            4,
+            0,
+            -1
+          ],
+          "OE2": [
+            4,
+            0,
+            1
+          ]
+        }
+      },
+      "F": {
+        "atoms": [
+          "CB",
+          "CG",
+          "CD1",
+          "CD2",
+          "CE1",
+          "CE2",
+          "CZ"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "CD1"
+          ],
+          [
+            "CG",
+            "CD2"
+          ],
+          [
+            "CD1",
+            "CE1"
+          ],
+          [
+            "CD2",
+            "CE2"
+          ],
+          [
+            "CE1",
+            "CZ"
+          ],
+          [
+            "CE2",
+            "CZ"
+          ]
+        ],
+        "branch_atom_count": 1,
+        "cycle_rank": 1,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CD1": [
+            3,
+            -1,
+            0
+          ],
+          "CD2": [
+            3,
+            1,
+            0
+          ],
+          "CE1": [
+            4,
+            -1,
+            0
+          ],
+          "CE2": [
+            4,
+            1,
+            0
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ],
+          "CZ": [
+            5,
+            -1,
+            0
+          ]
+        }
+      },
+      "G": {
+        "atoms": [],
+        "bonds": [],
+        "branch_atom_count": 0,
+        "cycle_rank": 0,
+        "integer_embedding": {}
+      },
+      "H": {
+        "atoms": [
+          "CB",
+          "CG",
+          "ND1",
+          "CD2",
+          "CE1",
+          "NE2"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "ND1"
+          ],
+          [
+            "CG",
+            "CD2"
+          ],
+          [
+            "ND1",
+            "CE1"
+          ],
+          [
+            "CD2",
+            "NE2"
+          ],
+          [
+            "CE1",
+            "NE2"
+          ]
+        ],
+        "branch_atom_count": 1,
+        "cycle_rank": 1,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CD2": [
+            3,
+            1,
+            0
+          ],
+          "CE1": [
+            4,
+            -1,
+            0
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ],
+          "ND1": [
+            3,
+            -1,
+            0
+          ],
+          "NE2": [
+            4,
+            1,
+            0
+          ]
+        }
+      },
+      "I": {
+        "atoms": [
+          "CB",
+          "CG1",
+          "CG2",
+          "CD1"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG1"
+          ],
+          [
+            "CB",
+            "CG2"
+          ],
+          [
+            "CG1",
+            "CD1"
+          ]
+        ],
+        "branch_atom_count": 1,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CD1": [
+            3,
+            0,
+            -1
+          ],
+          "CG1": [
+            2,
+            0,
+            -1
+          ],
+          "CG2": [
+            2,
+            0,
+            1
+          ]
+        }
+      },
+      "K": {
+        "atoms": [
+          "CB",
+          "CG",
+          "CD",
+          "CE",
+          "NZ"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "CD"
+          ],
+          [
+            "CD",
+            "CE"
+          ],
+          [
+            "CE",
+            "NZ"
+          ]
+        ],
+        "branch_atom_count": 0,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CD": [
+            3,
+            0,
+            0
+          ],
+          "CE": [
+            4,
+            0,
+            0
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ],
+          "NZ": [
+            5,
+            0,
+            0
+          ]
+        }
+      },
+      "L": {
+        "atoms": [
+          "CB",
+          "CG",
+          "CD1",
+          "CD2"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "CD1"
+          ],
+          [
+            "CG",
+            "CD2"
+          ]
+        ],
+        "branch_atom_count": 1,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CD1": [
+            3,
+            -1,
+            0
+          ],
+          "CD2": [
+            3,
+            1,
+            0
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ]
+        }
+      },
+      "M": {
+        "atoms": [
+          "CB",
+          "CG",
+          "SD",
+          "CE"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "SD"
+          ],
+          [
+            "SD",
+            "CE"
+          ]
+        ],
+        "branch_atom_count": 0,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CE": [
+            4,
+            0,
+            0
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ],
+          "SD": [
+            3,
+            0,
+            0
+          ]
+        }
+      },
+      "N": {
+        "atoms": [
+          "CB",
+          "CG",
+          "OD1",
+          "ND2"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "OD1"
+          ],
+          [
+            "CG",
+            "ND2"
+          ]
+        ],
+        "branch_atom_count": 1,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ],
+          "ND2": [
+            3,
+            1,
+            0
+          ],
+          "OD1": [
+            3,
+            -1,
+            0
+          ]
+        }
+      },
+      "P": {
+        "atoms": [
+          "CB",
+          "CG",
+          "CD"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "CD"
+          ]
+        ],
+        "branch_atom_count": 0,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CD": [
+            3,
+            0,
+            0
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ]
+        }
+      },
+      "Q": {
+        "atoms": [
+          "CB",
+          "CG",
+          "CD",
+          "OE1",
+          "NE2"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "CD"
+          ],
+          [
+            "CD",
+            "OE1"
+          ],
+          [
+            "CD",
+            "NE2"
+          ]
+        ],
+        "branch_atom_count": 1,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CD": [
+            3,
+            0,
+            0
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ],
+          "NE2": [
+            4,
+            0,
+            1
+          ],
+          "OE1": [
+            4,
+            0,
+            -1
+          ]
+        }
+      },
+      "R": {
+        "atoms": [
+          "CB",
+          "CG",
+          "CD",
+          "NE",
+          "CZ",
+          "NH1",
+          "NH2"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "CD"
+          ],
+          [
+            "CD",
+            "NE"
+          ],
+          [
+            "NE",
+            "CZ"
+          ],
+          [
+            "CZ",
+            "NH1"
+          ],
+          [
+            "CZ",
+            "NH2"
+          ]
+        ],
+        "branch_atom_count": 1,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CD": [
+            3,
+            0,
+            0
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ],
+          "CZ": [
+            5,
+            0,
+            0
+          ],
+          "NE": [
+            4,
+            0,
+            0
+          ],
+          "NH1": [
+            6,
+            0,
+            -1
+          ],
+          "NH2": [
+            6,
+            0,
+            1
+          ]
+        }
+      },
+      "S": {
+        "atoms": [
+          "CB",
+          "OG"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "OG"
+          ]
+        ],
+        "branch_atom_count": 0,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "OG": [
+            2,
+            0,
+            0
+          ]
+        }
+      },
+      "T": {
+        "atoms": [
+          "CB",
+          "OG1",
+          "CG2"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "OG1"
+          ],
+          [
+            "CB",
+            "CG2"
+          ]
+        ],
+        "branch_atom_count": 1,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CG2": [
+            2,
+            0,
+            1
+          ],
+          "OG1": [
+            2,
+            0,
+            -1
+          ]
+        }
+      },
+      "V": {
+        "atoms": [
+          "CB",
+          "CG1",
+          "CG2"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG1"
+          ],
+          [
+            "CB",
+            "CG2"
+          ]
+        ],
+        "branch_atom_count": 1,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CG1": [
+            2,
+            0,
+            -1
+          ],
+          "CG2": [
+            2,
+            0,
+            1
+          ]
+        }
+      },
+      "W": {
+        "atoms": [
+          "CB",
+          "CG",
+          "CD1",
+          "CD2",
+          "NE1",
+          "CE2",
+          "CE3",
+          "CZ2",
+          "CZ3",
+          "CH2"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "CD1"
+          ],
+          [
+            "CG",
+            "CD2"
+          ],
+          [
+            "CD1",
+            "NE1"
+          ],
+          [
+            "CD2",
+            "CE2"
+          ],
+          [
+            "CD2",
+            "CE3"
+          ],
+          [
+            "NE1",
+            "CE2"
+          ],
+          [
+            "CE2",
+            "CZ2"
+          ],
+          [
+            "CE3",
+            "CZ3"
+          ],
+          [
+            "CZ2",
+            "CH2"
+          ],
+          [
+            "CZ3",
+            "CH2"
+          ]
+        ],
+        "branch_atom_count": 3,
+        "cycle_rank": 2,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CD1": [
+            3,
+            -1,
+            0
+          ],
+          "CD2": [
+            3,
+            1,
+            0
+          ],
+          "CE2": [
+            4,
+            1,
+            -1
+          ],
+          "CE3": [
+            4,
+            1,
+            1
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ],
+          "CH2": [
+            6,
+            1,
+            -1
+          ],
+          "CZ2": [
+            5,
+            1,
+            -1
+          ],
+          "CZ3": [
+            5,
+            1,
+            1
+          ],
+          "NE1": [
+            4,
+            -1,
+            0
+          ]
+        }
+      },
+      "Y": {
+        "atoms": [
+          "CB",
+          "CG",
+          "CD1",
+          "CD2",
+          "CE1",
+          "CE2",
+          "CZ",
+          "OH"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "CD1"
+          ],
+          [
+            "CG",
+            "CD2"
+          ],
+          [
+            "CD1",
+            "CE1"
+          ],
+          [
+            "CD2",
+            "CE2"
+          ],
+          [
+            "CE1",
+            "CZ"
+          ],
+          [
+            "CE2",
+            "CZ"
+          ],
+          [
+            "CZ",
+            "OH"
+          ]
+        ],
+        "branch_atom_count": 2,
+        "cycle_rank": 1,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CD1": [
+            3,
+            -1,
+            0
+          ],
+          "CD2": [
+            3,
+            1,
+            0
+          ],
+          "CE1": [
+            4,
+            -1,
+            0
+          ],
+          "CE2": [
+            4,
+            1,
+            0
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ],
+          "CZ": [
+            5,
+            -1,
+            0
+          ],
+          "OH": [
+            6,
+            -1,
+            0
+          ]
+        }
+      }
+    },
+    "hard_exclusion_unit": "one non-neighbour residue pair with at least one atom encounter",
+    "pair_exclusion_unit": "1/2 fold of generated adjacent C-alpha step",
+    "reach": "n/(n+1) of generated adjacent C-alpha step",
+    "reward": null,
+    "rotamer": null,
+    "target": null
+  },
+  "states": [
+    9,
+    226,
+    292,
+    107,
+    139,
+    136,
+    124,
+    60,
+    466,
+    344,
+    396,
+    57,
+    197,
+    81,
+    11,
+    518,
+    59,
+    263,
+    116,
+    557,
+    161,
+    166,
+    380,
+    243,
+    61,
+    164,
+    388,
+    56,
+    308,
+    7,
+    214,
+    6,
+    148,
+    207,
+    257,
+    9,
+    523,
+    103,
+    102,
+    171,
+    334,
+    8,
+    136,
+    354,
+    36,
+    277,
+    231,
+    274,
+    80,
+    79,
+    315,
+    301,
+    100,
+    350,
+    519,
+    270,
+    68,
+    558,
+    102,
+    312,
+    351,
+    38,
+    524,
+    240,
+    115,
+    15,
+    569,
+    311,
+    68,
+    223,
+    352,
+    464,
+    546,
+    254,
+    203,
+    0
+  ],
+  "status": "completed",
+  "steric_census": {
+    "alphabet": "ACDEFGHIKLMNPQRSTVWY",
+    "alphabet_count": 20,
+    "sidechain_heavy_atom_counts": {
+      "A": 1,
+      "C": 2,
+      "D": 4,
+      "E": 5,
+      "F": 7,
+      "G": 0,
+      "H": 6,
+      "I": 4,
+      "K": 5,
+      "L": 4,
+      "M": 4,
+      "N": 4,
+      "P": 3,
+      "Q": 5,
+      "R": 7,
+      "S": 2,
+      "T": 3,
+      "V": 3,
+      "W": 10,
+      "Y": 8
+    },
+    "sidechain_heavy_atoms": {
+      "A": [
+        "CB"
+      ],
+      "C": [
+        "CB",
+        "SG"
+      ],
+      "D": [
+        "CB",
+        "CG",
+        "OD1",
+        "OD2"
+      ],
+      "E": [
+        "CB",
+        "CG",
+        "CD",
+        "OE1",
+        "OE2"
+      ],
+      "F": [
+        "CB",
+        "CG",
+        "CD1",
+        "CD2",
+        "CE1",
+        "CE2",
+        "CZ"
+      ],
+      "G": [],
+      "H": [
+        "CB",
+        "CG",
+        "ND1",
+        "CD2",
+        "CE1",
+        "NE2"
+      ],
+      "I": [
+        "CB",
+        "CG1",
+        "CG2",
+        "CD1"
+      ],
+      "K": [
+        "CB",
+        "CG",
+        "CD",
+        "CE",
+        "NZ"
+      ],
+      "L": [
+        "CB",
+        "CG",
+        "CD1",
+        "CD2"
+      ],
+      "M": [
+        "CB",
+        "CG",
+        "SD",
+        "CE"
+      ],
+      "N": [
+        "CB",
+        "CG",
+        "OD1",
+        "ND2"
+      ],
+      "P": [
+        "CB",
+        "CG",
+        "CD"
+      ],
+      "Q": [
+        "CB",
+        "CG",
+        "CD",
+        "OE1",
+        "NE2"
+      ],
+      "R": [
+        "CB",
+        "CG",
+        "CD",
+        "NE",
+        "CZ",
+        "NH1",
+        "NH2"
+      ],
+      "S": [
+        "CB",
+        "OG"
+      ],
+      "T": [
+        "CB",
+        "OG1",
+        "CG2"
+      ],
+      "V": [
+        "CB",
+        "CG1",
+        "CG2"
+      ],
+      "W": [
+        "CB",
+        "CG",
+        "CD1",
+        "CD2",
+        "NE1",
+        "CE2",
+        "CE3",
+        "CZ2",
+        "CZ3",
+        "CH2"
+      ],
+      "Y": [
+        "CB",
+        "CG",
+        "CD1",
+        "CD2",
+        "CE1",
+        "CE2",
+        "CZ",
+        "OH"
+      ]
+    }
+  },
+  "tertiary_census": {
+    "body_boundary_capacity": 2,
+    "body_degrees": [
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1
+    ],
+    "connected_acyclic_degree_two": true,
+    "energy": null,
+    "expected_path_edge_count": 18,
+    "fitted_cutoff": null,
+    "orientation_symmetry": [
+      "parallel",
+      "antiparallel"
+    ],
+    "path_edge_count": 18,
+    "residue_count": 76,
+    "reward": null,
+    "segment_count": 19,
+    "segment_residues": 4,
+    "target": null,
+    "template": null,
+    "trained_parameter": null,
+    "weight": null
+  },
+  "tertiary_topology": [
+    {
+      "body_capacity": 484,
+      "hydrophobic_capacity": 88,
+      "left_residues": [
+        57,
+        58,
+        59,
+        60
+      ],
+      "like_charge_capacity": 0,
+      "opposite_charge_capacity": 28,
+      "ordinal_vector": [
+        4,
+        4,
+        3,
+        0
+      ],
+      "right_residues": [
+        69,
+        70,
+        71,
+        72
+      ],
+      "segments": [
+        14,
+        17
+      ]
+    },
+    {
+      "body_capacity": 528,
+      "hydrophobic_capacity": 64,
+      "left_residues": [
+        41,
+        42,
+        43,
+        44
+      ],
+      "like_charge_capacity": 0,
+      "opposite_charge_capacity": 28,
+      "ordinal_vector": [
+        5,
+        4,
+        2,
+        0
+      ],
+      "right_residues": [
+        57,
+        58,
+        59,
+        60
+      ],
+      "segments": [
+        10,
+        14
+      ]
+    },
+    {
+      "body_capacity": 480,
+      "hydrophobic_capacity": 64,
+      "left_residues": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "like_charge_capacity": 0,
+      "opposite_charge_capacity": 35,
+      "ordinal_vector": [
+        5,
+        5,
+        3,
+        0
+      ],
+      "right_residues": [
+        41,
+        42,
+        43,
+        44
+      ],
+      "segments": [
+        3,
+        10
+      ]
+    },
+    {
+      "body_capacity": 528,
+      "hydrophobic_capacity": 165,
+      "left_residues": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "like_charge_capacity": 0,
+      "opposite_charge_capacity": 0,
+      "ordinal_vector": [
+        7,
+        2,
+        0,
+        0
+      ],
+      "right_residues": [
+        69,
+        70,
+        71,
+        72
+      ],
+      "segments": [
+        0,
+        17
+      ]
+    },
+    {
+      "body_capacity": 552,
+      "hydrophobic_capacity": 60,
+      "left_residues": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "like_charge_capacity": 0,
+      "opposite_charge_capacity": 0,
+      "ordinal_vector": [
+        7,
+        6,
+        1,
+        0
+      ],
+      "right_residues": [
+        61,
+        62,
+        63,
+        64
+      ],
+      "segments": [
+        0,
+        15
+      ]
+    },
+    {
+      "body_capacity": 440,
+      "hydrophobic_capacity": 32,
+      "left_residues": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "like_charge_capacity": 20,
+      "opposite_charge_capacity": 25,
+      "ordinal_vector": [
+        12,
+        8,
+        5,
+        2
+      ],
+      "right_residues": [
+        29,
+        30,
+        31,
+        32
+      ],
+      "segments": [
+        3,
+        7
+      ]
+    },
+    {
+      "body_capacity": 437,
+      "hydrophobic_capacity": 28,
+      "left_residues": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "like_charge_capacity": 25,
+      "opposite_charge_capacity": 25,
+      "ordinal_vector": [
+        13,
+        9,
+        5,
+        3
+      ],
+      "right_residues": [
+        61,
+        62,
+        63,
+        64
+      ],
+      "segments": [
+        1,
+        15
+      ]
+    },
+    {
+      "body_capacity": 418,
+      "hydrophobic_capacity": 28,
+      "left_residues": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "like_charge_capacity": 0,
+      "opposite_charge_capacity": 45,
+      "ordinal_vector": [
+        13,
+        11,
+        2,
+        0
+      ],
+      "right_residues": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "segments": [
+        1,
+        12
+      ]
+    },
+    {
+      "body_capacity": 440,
+      "hydrophobic_capacity": 16,
+      "left_residues": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "like_charge_capacity": 36,
+      "opposite_charge_capacity": 45,
+      "ordinal_vector": [
+        16,
+        8,
+        5,
+        2
+      ],
+      "right_residues": [
+        29,
+        30,
+        31,
+        32
+      ],
+      "segments": [
+        5,
+        7
+      ]
+    },
+    {
+      "body_capacity": 418,
+      "hydrophobic_capacity": 16,
+      "left_residues": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "like_charge_capacity": 0,
+      "opposite_charge_capacity": 0,
+      "ordinal_vector": [
+        16,
+        11,
+        7,
+        0
+      ],
+      "right_residues": [
+        65,
+        66,
+        67,
+        68
+      ],
+      "segments": [
+        12,
+        16
+      ]
+    },
+    {
+      "body_capacity": 380,
+      "hydrophobic_capacity": 0,
+      "left_residues": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "like_charge_capacity": 36,
+      "opposite_charge_capacity": 0,
+      "ordinal_vector": [
+        19,
+        17,
+        7,
+        5
+      ],
+      "right_residues": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "segments": [
+        5,
+        9
+      ]
+    },
+    {
+      "body_capacity": 342,
+      "hydrophobic_capacity": 16,
+      "left_residues": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "like_charge_capacity": 0,
+      "opposite_charge_capacity": 0,
+      "ordinal_vector": [
+        22,
+        16,
+        7,
+        0
+      ],
+      "right_residues": [
+        65,
+        66,
+        67,
+        68
+      ],
+      "segments": [
+        8,
+        16
+      ]
+    },
+    {
+      "body_capacity": 342,
+      "hydrophobic_capacity": 0,
+      "left_residues": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "like_charge_capacity": 0,
+      "opposite_charge_capacity": 28,
+      "ordinal_vector": [
+        22,
+        19,
+        4,
+        0
+      ],
+      "right_residues": [
+        53,
+        54,
+        55,
+        56
+      ],
+      "segments": [
+        9,
+        13
+      ]
+    },
+    {
+      "body_capacity": 306,
+      "hydrophobic_capacity": 28,
+      "left_residues": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "like_charge_capacity": 25,
+      "opposite_charge_capacity": 25,
+      "ordinal_vector": [
+        27,
+        13,
+        5,
+        3
+      ],
+      "right_residues": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "segments": [
+        8,
+        11
+      ]
+    },
+    {
+      "body_capacity": 306,
+      "hydrophobic_capacity": 12,
+      "left_residues": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "like_charge_capacity": 0,
+      "opposite_charge_capacity": 35,
+      "ordinal_vector": [
+        27,
+        17,
+        3,
+        0
+      ],
+      "right_residues": [
+        53,
+        54,
+        55,
+        56
+      ],
+      "segments": [
+        4,
+        13
+      ]
+    },
+    {
+      "body_capacity": 289,
+      "hydrophobic_capacity": 21,
+      "left_residues": [
+        25,
+        26,
+        27,
+        28
+      ],
+      "like_charge_capacity": 25,
+      "opposite_charge_capacity": 0,
+      "ordinal_vector": [
+        29,
+        15,
+        7,
+        3
+      ],
+      "right_residues": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "segments": [
+        6,
+        11
+      ]
+    },
+    {
+      "body_capacity": 255,
+      "hydrophobic_capacity": 12,
+      "left_residues": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "like_charge_capacity": 0,
+      "opposite_charge_capacity": 35,
+      "ordinal_vector": [
+        32,
+        17,
+        3,
+        0
+      ],
+      "right_residues": [
+        73,
+        74,
+        75,
+        76
+      ],
+      "segments": [
+        4,
+        18
+      ]
+    },
+    {
+      "body_capacity": 255,
+      "hydrophobic_capacity": 0,
+      "left_residues": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "like_charge_capacity": 25,
+      "opposite_charge_capacity": 0,
+      "ordinal_vector": [
+        32,
+        19,
+        7,
+        3
+      ],
+      "right_residues": [
+        25,
+        26,
+        27,
+        28
+      ],
+      "segments": [
+        2,
+        6
+      ]
+    }
+  ],
+  "topology_hydrogen_bond_census": {
+    "acceptor_residues": "ACDEFGHIKLMNPQRSTVWY",
+    "alpha_sequence_separation": 4,
+    "alphabet": "ACDEFGHIKLMNPQRSTVWY",
+    "alphabet_count": 20,
+    "angular_cutoff": null,
+    "distance_cutoff": null,
+    "donor_residues": "ACDEFGHIKLMNQRSTVWY",
+    "fitted_energy": null,
+    "global_acceptor_capacity": 1,
+    "global_donor_capacity": 1,
+    "interstrand_minimum_separation": 5,
+    "interwindow_residues": 4,
+    "non_donor_residues": "P",
+    "topology_classes": [
+      "alpha",
+      "interstrand"
+    ],
+    "topology_weight": null
+  },
+  "v25_departures": 20,
+  "v25_run_id": "development-ubiquitin-v25-coordinate-beam-l76-20260720",
+  "v25_sha256": "aa5ca2beded2e743546a2c98d80c6e7cd37dc75881fde58a5f331e7b16bece47",
+  "v25_states": [
+    201,
+    226,
+    292,
+    107,
+    4,
+    136,
+    124,
+    60,
+    466,
+    344,
+    396,
+    57,
+    270,
+    81,
+    11,
+    518,
+    59,
+    263,
+    116,
+    557,
+    161,
+    166,
+    381,
+    243,
+    61,
+    164,
+    388,
+    56,
+    308,
+    7,
+    214,
+    29,
+    124,
+    207,
+    257,
+    10,
+    523,
+    103,
+    102,
+    171,
+    312,
+    8,
+    136,
+    339,
+    543,
+    277,
+    231,
+    274,
+    80,
+    79,
+    315,
+    301,
+    101,
+    350,
+    519,
+    318,
+    291,
+    558,
+    102,
+    312,
+    351,
+    38,
+    524,
+    264,
+    115,
+    15,
+    569,
+    287,
+    44,
+    223,
+    375,
+    488,
+    187,
+    254,
+    201,
+    0
+  ],
+  "v26_1_departures": 19,
+  "v26_1_run_id": "development-ubiquitin-v26-1-focal-topology-l76-20260720",
+  "v26_1_sha256": "1324a31daa67d45ede0c1fbe1b00316adaedab343abac9ffae3cfb2c134a60ff",
+  "v26_1_states": [
+    9,
+    226,
+    292,
+    12,
+    4,
+    136,
+    124,
+    60,
+    466,
+    344,
+    396,
+    57,
+    270,
+    81,
+    11,
+    518,
+    59,
+    263,
+    116,
+    557,
+    161,
+    166,
+    380,
+    243,
+    61,
+    164,
+    388,
+    56,
+    308,
+    7,
+    214,
+    29,
+    124,
+    207,
+    257,
+    10,
+    523,
+    103,
+    102,
+    171,
+    312,
+    8,
+    136,
+    339,
+    543,
+    277,
+    231,
+    274,
+    80,
+    79,
+    315,
+    301,
+    101,
+    350,
+    519,
+    318,
+    291,
+    558,
+    102,
+    312,
+    351,
+    38,
+    524,
+    264,
+    115,
+    15,
+    569,
+    287,
+    124,
+    177,
+    352,
+    468,
+    187,
+    254,
+    201,
+    0
+  ],
+  "v27_departures": 19,
+  "v27_run_id": "development-ubiquitin-v27-branch-reconciliation-l76-20260720",
+  "v27_sha256": "0dde85ca381ed7680a54c0f5b88fa89b7a4abcae5443b3566a36051b60a5d468",
+  "v27_states": [
+    21,
+    226,
+    292,
+    107,
+    4,
+    136,
+    124,
+    60,
+    466,
+    344,
+    396,
+    57,
+    270,
+    81,
+    11,
+    518,
+    59,
+    263,
+    116,
+    557,
+    161,
+    166,
+    381,
+    243,
+    61,
+    164,
+    388,
+    56,
+    308,
+    7,
+    214,
+    29,
+    124,
+    207,
+    257,
+    10,
+    523,
+    103,
+    125,
+    171,
+    312,
+    8,
+    136,
+    339,
+    543,
+    277,
+    231,
+    250,
+    80,
+    79,
+    315,
+    301,
+    101,
+    350,
+    519,
+    318,
+    291,
+    558,
+    102,
+    312,
+    351,
+    38,
+    524,
+    264,
+    115,
+    15,
+    569,
+    311,
+    68,
+    223,
+    352,
+    488,
+    197,
+    254,
+    201,
+    0
+  ],
+  "v28_departures": 14,
+  "v28_run_id": "development-ubiquitin-v28-multiscale-reconciliation-l76-20260720",
+  "v28_sha256": "929c580e3f2734fc620b46af42ba97f1177a9c8d688c0d44b5d28964918b8af2",
+  "v28_states": [
+    9,
+    226,
+    292,
+    12,
+    4,
+    136,
+    124,
+    60,
+    466,
+    344,
+    396,
+    57,
+    270,
+    81,
+    11,
+    518,
+    59,
+    263,
+    116,
+    557,
+    161,
+    166,
+    380,
+    243,
+    61,
+    164,
+    388,
+    56,
+    308,
+    7,
+    214,
+    29,
+    124,
+    207,
+    257,
+    10,
+    523,
+    103,
+    102,
+    171,
+    312,
+    8,
+    136,
+    339,
+    543,
+    277,
+    231,
+    274,
+    80,
+    79,
+    315,
+    301,
+    101,
+    350,
+    519,
+    318,
+    291,
+    558,
+    102,
+    312,
+    351,
+    38,
+    524,
+    264,
+    115,
+    15,
+    569,
+    311,
+    68,
+    223,
+    352,
+    464,
+    196,
+    254,
+    203,
+    0
+  ],
+  "whole_chain_cache_hits": 1,
+  "whole_chain_evaluations": 137975
+}

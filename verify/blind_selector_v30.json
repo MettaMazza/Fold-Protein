@@ -1,0 +1,36 @@
+{
+  "schema": "fold-protein-blind-selector/v30",
+  "version": "30.0.0-development",
+  "execution": "degree-two tertiary segment-path assembly",
+  "foundation": {
+    "theorem": "one machine-checked self-proven theorem: there is no nothing",
+    "axioms": 0,
+    "trace": "sealed V25/V26.1/V27/V28 paths plus sealed V23.2 domains -> four-residue bodies -> exact sequence-capacity edge vectors -> counted two-boundary degree constraint -> connected acyclic tertiary path -> complete body and paired-boundary transitions -> bidirectional whole-chain reconciliation"
+  },
+  "selector_config": {
+    "body_residues": 4,
+    "body_boundary_capacity": 2,
+    "topology": "sequence-only ordinal degree-two spanning path",
+    "branch_sources": ["V25", "V26.1", "V27", "V28"],
+    "edge_transition": "complete ordered body grafts plus all boundary states plus coordinated paired boundaries",
+    "domain_capacity": 24,
+    "frontier_capacity": 24,
+    "assembly_directions": ["forward", "reverse"],
+    "target": null,
+    "template": null,
+    "reward": null,
+    "weight": null,
+    "trained_parameter": null,
+    "continuity_lock": null
+  },
+  "source_sha256": {
+    "verify/blind_selector_v29.json": "bd1294b8c15d6da0d480ef1adc39f8b5bbbe59828674358a3f1dc1baac1be7b1",
+    "tools/blind_24_lattice_selector_v29.py": "ea64f91a4c994046e774b895ecbfddf4157f0f74a2783652bec58fe802201ca2",
+    "tools/tertiary_segment_body_constitution_v1.py": "111d3d42dc514035f09bb997181b75dcd9feb14bd96acdba07d8718b15d162de",
+    "tools/tertiary_segment_body_constitution_v2.py": "63c9c0cd9f3df6eb805cfc5c051ba1ebc37f978c85f080434f7b378a172de5ce",
+    "tools/blind_24_lattice_selector_v30.py": "0ba662ca72a7f2718e2235f5510c5ca5a77842493194ebf570a7b2e4573b39e9",
+    "tools/run_blind_protocol_v30.py": "4fd06c2fa4e1707b141205dc63ddcdbcf6ee856762a2887eb653861519ab13b2",
+    "verify/evaluate_sealed_blind_v30.py": "3a67ac390c8f310f7c56b2a9df5c8e875624596bb53fdc6a71a6e0bbb6aeec5c"
+  },
+  "status": "cumulative development architecture awaiting sealed applied data"
+}

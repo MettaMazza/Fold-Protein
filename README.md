@@ -309,6 +309,22 @@ data therefore support multiscale propagation at complete length and locate
 the next correction in intermediate-scale admission. V25 and V26.1 remain the
 individual leading full-length TM and dRMSD parent branches.
 
+V29 changes the represented object to a sequence-forced tertiary graph of
+four-residue bodies. Exact sidechain-atom, hydrophobic and formal-charge counts
+order the body edges before coordinates exist; complete body grafts and paired
+boundary states are then assembled in both directions. This produces a large
+intermediate-length advance: L32 reaches **TM `0.0499243401` / dRMSD
+`4.5466887676 Å`**, improving V28 by **12.33% TM** and **19.04% dRMSD**. L24
+dRMSD improves **12.77%** to **`5.4137342407 Å`**, with a 2.37% TM tradeoff.
+The 76-residue tree exposes an unbounded hub and is lower than V28 on both
+measures. V30 replaces that hub with the body's counted two-boundary relation,
+forcing a connected degree-two tertiary path. It retains the L32 advance at
+**TM `0.0502723476` / dRMSD `4.9045982349 Å`**, but its L24 and L76 rows are
+lower. These cumulative development benchmarks establish active tertiary
+topology discrimination and locate the next architecture at a retained
+frontier of admissible bounded-degree topologies, rather than one fixed tree
+or path. They do not establish a theoretical wall or an official result.
+
 ## Governing law
 
 SFT begins from one machine-checked, self-proven theorem—*there is no nothing*—with zero axioms. The engine determines forcing and derivation by tracing every admitted construction to the One and halting on violation. No agent may weaken the result, declare a theoretical wall, or substitute statistical convention for the engine's standard. Maria Smith determines which engine results are published and directs the next investigation.

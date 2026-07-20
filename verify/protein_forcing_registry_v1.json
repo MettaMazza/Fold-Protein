@@ -46,6 +46,8 @@
     "blind_selector_v26_1": "sealed focal segment-pair admission correction at 24, 32 and 76 residues; L76 reaches 6.7648477959 Å dRMSD, a 5.34% advance over V25 and 14.07% over V13, while retaining TM 0.1287565476 with seven V25 departures",
     "blind_selector_v27": "sealed constitutional reconciliation of the complete V25/V26.1 disagreement cube at 24, 32 and 76 residues; improves both V26.1 measures at L24 and L32, reaches the strongest L24 dRMSD of the three reconciled branches, and preserves V25/V26.1 as the leading complete-length TM/dRMSD frontiers",
     "blind_selector_v28": "sealed multiscale segment/domain propagation at 24, 32 and 76 residues; improves both complete-length measures over V27 to TM 0.1284665482 and 6.9615228794 Å dRMSD, and advances L24 dRMSD to 6.2059676701 Å",
+    "blind_selector_v29": "sealed sequence-forced tertiary four-residue body tree at 24, 32 and 76 residues; materially improves L32 to TM 0.0499243401 and 4.5466887676 Å dRMSD and L24 dRMSD to 5.4137342407 Å, while its high-degree full-chain hub supplies applied evidence for bounded topology",
+    "blind_selector_v30": "sealed sequence-forced degree-two tertiary body path at 24, 32 and 76 residues; preserves the intermediate-length advance at TM 0.0502723476 and 4.9045982349 Å dRMSD, while its short- and full-chain rows supply applied evidence that one fixed path is too restrictive",
     "legacy_engines": "retained history only; excluded from promoted and active continuation routes"
   },
   "inherited_toolchain_boundary": {
@@ -334,6 +336,21 @@
       "tools/blind_24_lattice_selector_v28.py",
       "tools/run_blind_protocol_v28.py",
       "verify/evaluate_sealed_blind_v28.py"
+    ],
+    "blind_v29_tertiary_body_tree_development": [
+      "tests/test_blind_selector_v29.py",
+      "tests/test_tertiary_segment_body_constitution_v1.py",
+      "tools/blind_24_lattice_selector_v29.py",
+      "tools/run_blind_protocol_v29.py",
+      "tools/tertiary_segment_body_constitution_v1.py",
+      "verify/evaluate_sealed_blind_v29.py"
+    ],
+    "blind_v30_degree_two_tertiary_path_development": [
+      "tests/test_blind_selector_v30.py",
+      "tools/blind_24_lattice_selector_v30.py",
+      "tools/run_blind_protocol_v30.py",
+      "tools/tertiary_segment_body_constitution_v2.py",
+      "verify/evaluate_sealed_blind_v30.py"
     ],
     "legacy_agent_development_unpromoted": [
       "tests/test_blind_protocol.py",
@@ -750,6 +767,39 @@
       "tools/run_blind_protocol_v21.py",
       "tools/run_blind_protocol_v27.py",
       "tools/run_blind_protocol_v28.py"
+    ],
+    "v29_runtime_roots": [
+      "tools/blind_24_lattice_selector_v23.py",
+      "tools/blind_24_lattice_selector_v24.py",
+      "tools/blind_24_lattice_selector_v25.py",
+      "tools/blind_24_lattice_selector_v26.py",
+      "tools/blind_24_lattice_selector_v26_1.py",
+      "tools/blind_24_lattice_selector_v27.py",
+      "tools/blind_24_lattice_selector_v28.py",
+      "tools/blind_24_lattice_selector_v29.py",
+      "tools/global_sequence_constraint_graph_v1.py",
+      "tools/tertiary_segment_body_constitution_v1.py",
+      "tools/run_blind_protocol_v21.py",
+      "tools/run_blind_protocol_v28.py",
+      "tools/run_blind_protocol_v29.py"
+    ],
+    "v30_runtime_roots": [
+      "tools/blind_24_lattice_selector_v23.py",
+      "tools/blind_24_lattice_selector_v24.py",
+      "tools/blind_24_lattice_selector_v25.py",
+      "tools/blind_24_lattice_selector_v26.py",
+      "tools/blind_24_lattice_selector_v26_1.py",
+      "tools/blind_24_lattice_selector_v27.py",
+      "tools/blind_24_lattice_selector_v28.py",
+      "tools/blind_24_lattice_selector_v29.py",
+      "tools/blind_24_lattice_selector_v30.py",
+      "tools/global_sequence_constraint_graph_v1.py",
+      "tools/tertiary_segment_body_constitution_v1.py",
+      "tools/tertiary_segment_body_constitution_v2.py",
+      "tools/run_blind_protocol_v21.py",
+      "tools/run_blind_protocol_v28.py",
+      "tools/run_blind_protocol_v29.py",
+      "tools/run_blind_protocol_v30.py"
     ]
   },
   "generated_evidence": {
@@ -786,11 +836,13 @@
     "v26_1_focal_topology_development": "verify/development_runs/ubiquitin_v26_1_focal_topology_l{24,32,76}_20260720/ bind focal relation admission before whole-chain balance; the complete 76-residue route improves V25 dRMSD 5.34% to 6.7648477959 Å while retaining TM 0.1287565476 with seven departures.",
     "v27_branch_reconciliation_development": "verify/development_runs/ubiquitin_v27_branch_reconciliation_l{24,32,76}_20260720/ bind every combination in the complete V25/V26.1 disagreement cube before parent-anchored continuation; L24 and L32 improve both V26.1 measures, while the L76 row retains V25 and V26.1 as the leading TM and dRMSD branches.",
     "v28_multiscale_reconciliation_development": "verify/development_runs/ubiquitin_v28_multiscale_reconciliation_l{24,32,76}_20260720/ bind repeated 4/8/16/... block propagation, complete branch grafts and binary boundary domains in both directions; L76 improves both V27 measures and L24 advances dRMSD to 6.2059676701 Å.",
+    "v29_tertiary_body_tree_development": "verify/development_runs/ubiquitin_v29_tertiary_bodies_l{24,32,76}_20260720/ bind a sequence-only ordinal spanning tree over four-residue bodies and complete joint edge assembly; L32 improves both V28 measures by 12.33% TM and 19.04% dRMSD, and L24 improves dRMSD by 12.77%, while the L76 hub behavior remains development evidence rather than a Maria finding or limit.",
+    "v30_degree_two_tertiary_path_development": "verify/development_runs/ubiquitin_v30_tertiary_path_l{24,32,76}_20260720/ bind the counted two-boundary degree relation and a connected acyclic body path; L32 retains a 13.11% TM and 12.66% dRMSD advance over V28, while the short- and full-chain measurements establish the applied basis for retaining multiple admissible tertiary topologies.",
     "classification": "A recorded development execution is not a Maria finding, loss or failed prediction."
   },
   "artifact_inventory": {
-    "tracked_pdb_files": 113,
-    "tracked_pdb_file_set_sha256": "01c8f12bc3863a3170d0ff08d2f63b980ace3f15b0cf11079af7c11cfa795d90",
+    "tracked_pdb_files": 119,
+    "tracked_pdb_file_set_sha256": "e467fbdcdda0ff7a8d4f33fcfd651ebe400ec473e3b9e6eca0e8d33deca54bd7",
     "classes": {
       "experimental_reference": [
         "verify/1cop.pdb",
@@ -925,6 +977,16 @@
         "verify/development_runs/ubiquitin_v28_multiscale_reconciliation_l24_20260720/prediction.pdb",
         "verify/development_runs/ubiquitin_v28_multiscale_reconciliation_l32_20260720/prediction.pdb",
         "verify/development_runs/ubiquitin_v28_multiscale_reconciliation_l76_20260720/prediction.pdb"
+      ],
+      "sealed_v29_tertiary_body_tree_development_output": [
+        "verify/development_runs/ubiquitin_v29_tertiary_bodies_l24_20260720/prediction.pdb",
+        "verify/development_runs/ubiquitin_v29_tertiary_bodies_l32_20260720/prediction.pdb",
+        "verify/development_runs/ubiquitin_v29_tertiary_bodies_l76_20260720/prediction.pdb"
+      ],
+      "sealed_v30_degree_two_tertiary_path_development_output": [
+        "verify/development_runs/ubiquitin_v30_tertiary_path_l24_20260720/prediction.pdb",
+        "verify/development_runs/ubiquitin_v30_tertiary_path_l32_20260720/prediction.pdb",
+        "verify/development_runs/ubiquitin_v30_tertiary_path_l76_20260720/prediction.pdb"
       ],
       "legacy_preproject_development_artifact": [
         "1ubq_autonomous.pdb",
