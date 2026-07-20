@@ -36,9 +36,16 @@ def source_scope() -> set[str]:
         "verify/blind_selector_v3.json",
         "verify/protein_backbone_geometry_v1.json",
         "verify/protein_derivation_admission_v1.json",
+        "verify/protein_engine_closure_v1.json",
         "verify/ubiquitin_24_lattice_manifest.json",
         "verify/test_protein_folding.c",
         "verify/test_protein_folding_3d.c",
+        "verify/test_protein_folding_v2.c",
+        "verify/test_protein_folding_3d_v2.c",
+        "verify/test_protein_interwindow_orientation_v2.c",
+        "verify/test_protein_window_orientation_v2.c",
+        "verify/protein_angle_form_admission.c",
+        "verify/protein_angle_form_admission.ep",
     }
     for pattern in (
         "papers/*.md", "foundation/*.ep", "constants/*.ep", "tests/*.ep",

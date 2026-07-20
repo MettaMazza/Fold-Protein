@@ -13,22 +13,22 @@ REGISTRY = ROOT / "verify/protein_forcing_registry_v1.json"
 
 ALLOWED_STATUSES = {
     "engine_closed_foundation",
+    "engine_closed_protein_relation",
     "named_forward_forcing_constitution",
-    "open_engine_form_closure",
-    "preserved_legacy_development",
-    "open_agent_development_architecture",
+    "archived_legacy_development",
+    "archived_non_admitted_development",
 }
 
 FORBIDDEN_CLAIMS = {
     "sequence-forced tertiary": "V29/V30 topology was never engine-closed",
-    "V29 derives": "V29 is an open development architecture",
-    "v29 derives": "V29 is an open development architecture",
-    "V30 derives": "V30 is an open development architecture",
-    "v30 derives": "V30 is an open development architecture",
-    "V30 forces": "V30 is an open development architecture",
-    "v30 forces": "V30 is an open development architecture",
-    "V32 derives": "V32 is an open development architecture",
-    "v32 derives": "V32 is an open development architecture",
+    "V29 derives": "V29 is a non-admitted development architecture",
+    "v29 derives": "V29 is a non-admitted development architecture",
+    "V30 derives": "V30 is a non-admitted development architecture",
+    "v30 derives": "V30 is a non-admitted development architecture",
+    "V30 forces": "V30 is a non-admitted development architecture",
+    "v30 forces": "V30 is a non-admitted development architecture",
+    "V32 derives": "V32 is a non-admitted development architecture",
+    "v32 derives": "V32 is a non-admitted development architecture",
     "next architecture derives": "an unimplemented agent proposal cannot be a derivation",
     "next state derives": "an unimplemented agent proposal cannot be a derivation",
     "next representational state derives": "an unimplemented agent proposal cannot be a derivation",
@@ -61,7 +61,7 @@ def verify_admission() -> dict:
 
     statuses = {
         item["status"]
-        for section in ("admitted_relations", "open_relations")
+        for section in ("admitted_relations", "archived_development")
         for item in admission[section].values()
     }
     unexpected = statuses - ALLOWED_STATUSES
@@ -86,7 +86,7 @@ def verify_admission() -> dict:
         )
 
     class_names = set(registry["classes"])
-    for section in ("admitted_relations", "open_relations"):
+    for section in ("admitted_relations", "archived_development"):
         for name, item in admission[section].items():
             source_class = item.get("source_class")
             if source_class and source_class not in class_names:
@@ -94,17 +94,20 @@ def verify_admission() -> dict:
 
     interpretation = registry.get("route_status_interpretation", "")
     if "Every blind_selector_v4 through blind_selector_v33" not in interpretation:
-        raise RuntimeError("V4-V33 route-status interpretation is not explicitly OPEN")
+        raise RuntimeError("V4-V33 route-status interpretation is not explicit")
+    if "archived non-admitted" not in interpretation:
+        raise RuntimeError("V4-V33 are not explicitly excluded from active admission")
 
     active = set(registry["legacy_exclusion"]["promoted_or_active_classes"])
     allowed_active = {
         "engine_foundation_trace",
+        "protein_engine_closed_relations",
         "protected_target_assisted_forward_forcing",
         "blind_v3_named_forward_forcing_development",
     }
     if active != allowed_active:
         raise RuntimeError(
-            "active admission contains an open or historical class; "
+            "active admission contains an unclosed or historical class; "
             f"actual={sorted(active)} expected={sorted(allowed_active)}"
         )
 
@@ -122,7 +125,7 @@ def verify_admission() -> dict:
         "status": "verified",
         "selector_manifests_classified": len(actual_manifests),
         "active_classes": sorted(active),
-        "open_selector_range": "V4-V33 development-only",
+        "archived_selector_range": "V4-V33 non-admitted development evidence",
         "required_derivation_guards": len(required),
     }
 

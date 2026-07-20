@@ -1,0 +1,99 @@
+# ENGINE-CLOSED V2: historical source remains at protein_folding.ep.
+# ============================================================================
+#  PROTEIN FOLDING  --  why a protein finds its native shape fast, forced.
+# ============================================================================
+#
+#  ── WHY ─ (significance; skip if you only want to verify) ────────────────────
+#  A protein has astronomically many possible shapes (Levinthal's estimate: ~10^50),
+#  yet it folds to its one correct "native" shape in a fraction of a second. If it
+#  searched at random it would take longer than the age of the universe. The paradox
+#  dissolves if folding is not a search but a directed DESCENT to a fixed point.
+#
+#  ── DERIVATION ─ (check every line; uses ONLY the fold) ──────────────────────
+#  The fold has a unique fixed point: fold(1) = 1.  Its two exhaustive affine
+#  branches have fixed solutions 0 and 1; zero is outside the no-nothing domain,
+#  leaving only the theorem-forced One.  The engine counts those branch solutions
+#  and halts if the admitted fixed point is not unique.
+#    Repeated folding of the explicitly supposed demonstration input 3/4 gives:
+#       fold(3/4) = 1/2 ,   fold(1/2) = 1 .
+#  Two steps, and the example is at the fixed point -- a directed exact orbit, not
+#  a search over 10^50 shapes.  The example input is not promoted as a forced
+#  biological conformation; it demonstrates the descent law from a declared query.
+#
+#  ── CHECK ─ (measurement; comparison only) ──────────────────────────────────
+#  Proteins fold reliably and fast to a single native state -- exactly a funnelled
+#  descent to a unique fixed point, not a random search. The forced content is exact:
+#  the fold has ONE fixed point (the One) and reaches it in a bounded number of steps,
+#  which is what makes fast, repeatable folding possible.
+# ============================================================================
+
+import "../foundation/the_one_and_the_fold.ep"
+import "../foundation/structural_counts.ep"
+import "../foundation/enforcement.ep"
+
+
+# Fold a fraction once: double it (via a twin) and cast out whole Ones.
+define fold_fraction with size as Fraction returning Fraction:
+    set size_again to fraction_make(fraction_numerator(size) and fraction_denominator(size))
+    set doubled to fraction_add(size and size_again)
+    return cast_out_whole_ones(doubled)
+
+# The native state: the fold's unique fixed point, the One.
+define native_state returning Fraction:
+    return fold_value_size(the_one())
+
+# The native state is fixed: fold(1) = 1 -- once folded to unison, it stays.
+define native_state_is_fixed returning Bool:
+    set one to the_one()
+    set folded to fold(one)
+    return fold_value_is_equal(folded and one)
+
+
+# The fold has two exhaustive affine branches on its exact domain.  Solving
+# x = 2x on the non-wrapping branch gives zero, excluded by the theorem's
+# no-nothing domain.  Solving x = 2x - One on the wrapping branch gives One.
+# This guard counts the branch solutions that actually inhabit (0, One].
+define fold_fixed_point_candidate_count returning Int:
+    set b to binary_count()
+    set one to fold_period(the_one() and b)
+    set candidates to 0
+    set lower_solution to 0
+    if lower_solution > 0:
+        if lower_solution <= one:
+            set candidates to candidates + 1
+    set upper_solution to one / (b - one)
+    if upper_solution > 0:
+        if upper_solution <= one:
+            set candidates to candidates + 1
+    return candidates
+
+
+define native_state_is_unique_fixed_point returning Bool:
+    set claimed_satisfies to 0
+    if native_state_is_fixed():
+        set claimed_satisfies to 1
+    set alternatives to fold_fixed_point_candidate_count() - 1
+    set guarded to forced_unique("the One is the unique fixed point across both fold branches" and claimed_satisfies and alternatives)
+    return guarded == 1
+
+# A declared demonstration query, away from the fixed point.  supposed_value
+# records that this input is offered to the theory rather than derived by it.
+define starting_conformation returning Fraction:
+    return fold_value_size(supposed_value(colour_count() and binary_count() * binary_count()))
+
+# One step of the descent: fold(3/4) = 1/2.
+define descent_after_one_step returning Fraction:
+    set start to supposed_value(colour_count() and binary_count() * binary_count())
+    return fold_value_size(fold(start))
+
+# Two steps of the descent: fold(1/2) = 1 -- arrived at the native fixed point.
+define descent_after_two_steps returning Fraction:
+    set start to supposed_value(colour_count() and binary_count() * binary_count())
+    set once to fold(start)
+    return fold_value_size(fold(once))
+
+# The descent converges to the native state in two steps -- directed, not a search.
+define descent_reaches_native returning Bool:
+    set reached to descent_after_two_steps()
+    set native to native_state()
+    return fraction_is_equal(reached and native)

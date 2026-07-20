@@ -32,27 +32,27 @@
       "scope": "The provenance-isolated sequence-only development baseline and its target-incapable peptide-geometry bridge.",
       "source_class": "blind_v3_named_forward_forcing_development",
       "target_boundary": "Selector execution cannot access the target; comparison occurs only after sealing. The complete selector form remains a named constitution, not an engine-derived theorem."
+    },
+    "protein_engine_relations": {
+      "status": "engine_closed_protein_relation",
+      "scope": "The fold fixed-point identity and uniqueness, the declared 3/4 descent query, the colour-window overlap, the inter-window quartet, and all four canonical alpha/beta angle forms, with complete applicable candidate spaces and executed halt guards.",
+      "source_class": "protein_engine_closed_relations",
+      "closure_receipt": "verify/protein_engine_closure_v1.json",
+      "boundary": "The 3/4 input is explicitly supposed rather than promoted as a derived biological conformation; the exact orbit from that declared query is executed. No measured angle enters the canonical-angle derivation."
     }
   },
-  "open_relations": {
-    "protein_engine_modules": {
-      "status": "open_engine_form_closure",
-      "scope": "The current Protein fixed-point/descent, canonical-angle, colour-window, and inter-window modules execute exact checks but do not yet carry every applicable generated-form and uniqueness guard.",
-      "source_class": "protein_engine_checks_open_form_closure",
-      "runtime_admission": "development_and_audit_only",
-      "claim_status": "must_not_be_called_a_finished_forced_derivation"
-    },
+  "archived_development": {
     "blind_selector_v1_v2": {
-      "status": "preserved_legacy_development",
+      "status": "archived_legacy_development",
       "scope": "Historical mixed or superseded selector evidence.",
       "runtime_admission": "history_only",
       "claim_status": "not_a_current_forced_route"
     },
     "blind_selector_v4_v33": {
-      "status": "open_agent_development_architecture",
+      "status": "archived_non_admitted_development",
       "scope": "Every selector architecture from V4 through V33, including point releases V23.1, V23.2, V24.1, and V26.1.",
       "runtime_admission": "development_only",
-      "claim_status": "applied_results_are_preserved_but_the_selector_forms_are_not_engine_closed_derivations"
+      "claim_status": "applied_results_are_preserved_as_cumulative_development_evidence_but_the_architectures_are_excluded_from_active_admission"
     }
   },
   "forbidden_promotions": [

@@ -17,12 +17,11 @@ the commands in §3:
 
 - **Levinthal dissolved (the law):** the native state is the fold's fixed point `fold(1) = 1`;
   folding is **descent** — `fold(3/4)=1/2`, `fold(1/2)=1` — reaching native in **two steps, not
-  a 10^50 search** (`verify/test_protein_folding`).
-- **Backbone orbit check:** the executable exact-fraction module checks α-helix φ against **1/3**
-  and β-sheet φ against **2/3**, with each ψ decaying to native `1`
-  (`verify/test_protein_folding_3d`). Its current form-closure status is **OPEN** in
-  `verify/protein_derivation_admission_v1.json`; do not promote the checked coordinates to a
-  finished forced derivation until every applicable corpus guard executes.
+  a 10^50 search** (`verify/test_protein_folding_v2.c`).
+- **Backbone angle derivation:** the V2 exact-fraction engine generates the complete signed
+  24-lattice spaces, uniquely admits α-helix `(−1/6, −1/8)` and β-sheet `(−1/3, +3/8)`,
+  and executes every applicable route, uniqueness and halt guard
+  (`verify/test_protein_folding_3d_v2.c`, `verify/protein_angle_form_admission.c`).
 - **The finding, refereed against experiment:** the 24-lattice Dihedral Orbit result scores
   **TM = 0.9891 · 0.261 Å dRMSD** against the experimental ubiquitin structure `verify/1ubq.pdb` —
   near-experimental accuracy at **zero fitted parameters** (the angle set is the 24-lattice). The
@@ -116,9 +115,11 @@ result a fitted one.
    or an explicitly named forward-forcing constitution. An executable check is not automatically an
    admitted derivation; `tools/verify_protein_derivation_admission.py` enforces the current status.
 4. **The form is forced, not just its parts** (`foundation/assembly_enumeration.ep`,
-   `foundation/form_enforcement.ep`): `forced_to_be` **halts** on any un-forced value. The current
-   Protein modules do not yet execute every applicable form guard and are therefore OPEN; their C
-   translations are executable checks, not a substitute for that missing closure.
+   `foundation/form_enforcement.ep`): `forced_to_be` **halts** on any un-forced value. The active
+   Protein V2 modules execute complete applicable candidate enumeration, independent route checks,
+   named-shape uniqueness and halt guards. Historical source paths remain byte-exact because sealed
+   selector manifests bind them; the V2 modules and `verify/protein_engine_closure_v1.json` are the
+   current admission authority.
 5. **A zero-parameter framework cannot be over-fitted.** With no fitted force field, no trained
    potential, and no free parameter of any kind, there is nothing to tune to the data — a single-theorem,
    zero-parameter framework cannot over-fit or forge a result by construction. **Forward-forcing the
@@ -152,7 +153,7 @@ from these exact discrete fractions. A continuous, stochastic universe would not
 
 **Blind forward forcing has executed and remains active.** SFT has zero
 parameters and zero training data; the 24-lattice is a universal mathematical absolute. The sequence
-engine selected and sealed rational paths from amino-acid identity and generated geometry alone at 8, 16, 24 and the complete 76-residue ubiquitin sequence before target access. Post-seal measurements include accurate local `IFV`, `TLT`, `HLV`, `RLI` and `RGG` geometry, reaching 0.9914591922 local TM. The theorem, protected construction, 0.9891 Super Parity result and sealed blind measurements retain their separate evidence. The exact structural-angle checks remain OPEN for finished form closure, and forward forcing advances through inter-window orientation and complete whole-chain assembly.
+engine selected and sealed rational paths from amino-acid identity and generated geometry alone at 8, 16, 24 and the complete 76-residue ubiquitin sequence before target access. Post-seal measurements include accurate local `IFV`, `TLT`, `HLV`, `RLI` and `RGG` geometry, reaching 0.9914591922 local TM. The theorem, protected construction, 0.9891 Super Parity result and sealed blind measurements retain their separate evidence. The V2 engine now uniquely forces the canonical α/β coordinates across their complete signed 24-lattice spaces, while forward forcing advances through whole-chain assembly.
 
 The current V13 retained-local plus topology-separated continuation has also
 completed and sealed all 76 residues. It reaches **0.1422687755 whole-chain
@@ -240,8 +241,8 @@ effect before the next architecture. V25 and V26.1 remain the individual
 leading complete-length TM and dRMSD parent branches. Do not use target scores
 to select scale-frontier candidates.
 
-V29-V33 are preserved as **OPEN agent-authored development architectures**, not
-finished derivations. Their exact counts, zero fitted parameters, target isolation,
+V29-V33 are preserved as **archived non-admitted agent development architectures**, not
+active derivations. Their exact counts, zero fitted parameters, target isolation,
 source seals and applied scores remain valid properties of the executed builds; those
 properties do not force the assembled selector forms. V29 measured **TM
 `0.0499243401` / dRMSD `4.5466887676 Å`** at L32 and **`5.4137342407 Å`** L24
@@ -260,8 +261,8 @@ relation must first satisfy the admission rule below.
 
 **The sequence must supply the spatial command.** The forward-forcing programme investigates how
 amino-acid identity can determine the invariant exclusions and relations that select among the 576
-exact states per residue. V4-V33 are OPEN development architectures until their complete assembled
-forms pass the admission guard. Every future proposed relation must route through the engine; a
+exact states per residue. V4-V33 are archived development evidence and excluded from active
+admission. Every future proposed relation must route through the engine; a
 violation halts rather than becoming an agent-authored substitute output.
 
 **No silent inherited mechanism.** The protected construction retains its
@@ -278,7 +279,7 @@ gyration, scalar hydrophobic collapse) require forging arbitrary constants to co
 steric and sequential-distance investigations. Target-derived development
 relations remain named as such and are not silently admitted to a blind selector.
 Selector v3 remains the clean named forward-forcing blind baseline. Selectors v5-v19 preserve an
-OPEN applied development continuation through inter-window topology, signed alpha/beta orientation,
+archived applied development continuation through inter-window topology, signed alpha/beta orientation,
 formal charge, exact side-chain graphs, weight-free ordinal balance, and
 target-incapable unit-capacity backbone hydrogen-bond assembly, including the
 v12 exact-alpha/longer-non-local topology separation and v13's retained local
@@ -309,7 +310,7 @@ term, a bigger protein, a better search, a new lattice:
    orbit proofs must still pass, and the result must be scored by TM/dRMSD against the experimental
    structure — the anchor score must not regress.
 5. Only a change that **passes every applicable guard, stays parameter-free, and has purpose-matched
-   implemented evidence** is admitted to the forced route. Otherwise preserve it as OPEN development
+   implemented evidence** is admitted to the forced route. Otherwise preserve it as archived non-admitted development
    history and exclude it from active forced closure; never disguise the missing proof with
    derivational language.
 
@@ -324,20 +325,27 @@ All commands run from this folder (`/Users/mettamazza/Desktop/Fold Protein`). `e
 (`~/.local/bin`); the ErnosPlain toolchain is bundled in `compiler/`. The Python pipeline needs
 `python3` + `numpy` (installed).
 
-**A. The current executable Protein checks — self-contained C translations (need only a C compiler):**
+**A. The active engine-closed Protein checks — self-contained C translations (need only a C compiler):**
 ```sh
 cd verify
-cc -O2 -o test_protein_folding    test_protein_folding.c    && ./test_protein_folding
-cc -O2 -o test_protein_folding_3d test_protein_folding_3d.c && ./test_protein_folding_3d
+cc -O2 -o /tmp/protein-fold-v2 test_protein_folding_v2.c && /tmp/protein-fold-v2
+cc -O2 -o /tmp/protein-window-v2 test_protein_window_orientation_v2.c && /tmp/protein-window-v2
+cc -O2 -o /tmp/protein-interwindow-v2 test_protein_interwindow_orientation_v2.c && /tmp/protein-interwindow-v2
+cc -O2 -o /tmp/protein-angles-v2 test_protein_folding_3d_v2.c && /tmp/protein-angles-v2
+cc -O2 -o /tmp/protein-angle-admission protein_angle_form_admission.c && /tmp/protein-angle-admission
 ```
-Every line must read `ok`, ending `=== done ===`. A single `FAIL` is a stop-the-line event.
+Every executable must return zero and print its `ok` closure lines. A single `FAIL` or non-zero exit is a stop-the-line event.
 
-**B. The current Protein checks in source (needs `ernos`):**
+**B. The active Protein checks in source (needs `ernos`):**
 ```sh
 cd tests
-ernos test_protein_folding.ep       # -> binary; run it, expect all ok
-ernos test_protein_folding_3d.ep
+ernos test_protein_folding_v2.ep && ./test_protein_folding_v2
+ernos test_protein_window_orientation_v2.ep && ./test_protein_window_orientation_v2
+ernos test_protein_interwindow_orientation_v2.ep && ./test_protein_interwindow_orientation_v2
+ernos test_protein_folding_3d_v2.ep && ./test_protein_folding_3d_v2
 ```
+Do not use `ernos test` for these `main`-driven proof programs: that subcommand builds a separate
+test harness and can report `0 tests`. Compile the source directly and run the produced executable.
 
 **C. Reproduce the protected construction measurement (needs `python3` + `numpy`):**
 ```sh
@@ -355,11 +363,11 @@ python3 -m unittest discover -s tests -p 'test_*.py' -v
 
 ## 4. Where things live
 
-- `constants/protein_folding.ep`, `constants/protein_folding_3d.ep` — the current exact fold/descent
-  and backbone-orbit checks. Their finished form closure remains OPEN.
+- `constants/protein_*_v2.ep` — the active engine-closed fixed-point, window, inter-window and
+  canonical-angle derivations; historical unsuffixed paths remain byte-exact for sealed provenance.
 - `foundation/*.ep` — exact integers/fractions, the One and the fold, the enforcement guards.
-- `verify/test_protein_folding*.c` — the self-contained C translations of those checks.
-- `tests/test_protein_folding*.ep` — the same in source.
+- `verify/test_protein_*_v2.c`, `verify/protein_angle_form_admission.c` — self-contained executed C proofs.
+- `tests/test_protein_*_v2.ep` — the active Ernos proof entrypoints.
 - `tools/predict_structure.py` — the folding pipeline (sequence → 3D backbone → PDB).
 - `tools/protein_backbone_geometry_v1.py` — target-incapable coordinate constitution used by
   the clean blind continuation route.
@@ -383,7 +391,7 @@ python3 -m unittest discover -s tests -p 'test_*.py' -v
 The project claim this workspace exists to secure is **folding as descent to a counted fixed point,
 native geometry through fold orbits, zero parameters, and a real experimental structure recovered to
 TM 0.9891 (0.261 Å)—Super Parity with AlphaFold.** Preserve the protected construction and evidence;
-keep any still-open derivation form explicitly OPEN until the corpus guards close it.
+an unclosed form must halt development admission while its missing derivation is found and machine-checked.
 
 ---
 
@@ -397,8 +405,8 @@ relation, not automatically from the newest selector. Before implementation,
 the proposed form must be admitted by the complete routing guard in §2. A prose
 trace or counted ingredients are insufficient: the generated candidate space,
 minimality, named-shape uniqueness, measured-value exclusion and halt checks
-must execute. If any part is absent, record the relation as OPEN and do not build
-another selector around it merely because a local diagnostic can be named.
+must execute. If any part is absent, exclude the relation from active admission and derive the
+missing closure before building another selector around it.
 
 Short L24/L32 executions are diagnostic gates only. They never substitute for
 the complete 76-residue applied development trial. Once a material engine can

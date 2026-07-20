@@ -1,0 +1,106 @@
+{
+  "schema": "fold-protein-engine-closure/v1",
+  "date": "2026-07-20",
+  "authority": "This receipt records executed engine outcomes. The engine guards, not this prose, determine admission.",
+  "closed_relations": {
+    "fold_fixed_point": {
+      "status": "engine_closed_relation",
+      "result": "The theorem-forced One is fixed by the foundation fold and is the only in-domain solution across the fold's two exhaustive affine branches.",
+      "candidate_space": "Both exact affine branches: x = 2x and x = 2x - One.",
+      "candidate_count": 1,
+      "assembly_minimality": "not_applicable_reuses_the_engine_closed_One_and_fold_without_assembling_a_new_constant",
+      "measured_input": false,
+      "halt_guard": "forced_unique"
+    },
+    "declared_descent_query": {
+      "status": "executed_exact_demonstration",
+      "result": "The explicitly supposed 3/4 query follows 3/4 -> 1/2 -> One.",
+      "claim_boundary": "3/4 is a declared query recorded by supposed_value, not a forced biological conformation. The executed orbit is the result.",
+      "measured_input": false
+    },
+    "colour_window_overlap": {
+      "status": "engine_closed_relation",
+      "result": "A colour-count window and binary-count overlap advance by the One.",
+      "candidate_space": "Every integer overlap from zero through the colour-count window.",
+      "candidate_count": 1,
+      "independent_route": "colour_count - binary_count = fold period of the theorem-forced One",
+      "assembly_minimality": "not_applicable_set_cardinality_relation_reuses_engine_closed_counts",
+      "measured_input": false,
+      "halt_guards": ["forced_to_be", "forced_unique"]
+    },
+    "interwindow_quartet": {
+      "status": "engine_closed_relation",
+      "result": "Two colour-count windows with binary overlap form the binary square; consecutive quartets uniquely overlap by the colour count and advance by the One.",
+      "candidate_space": "Every integer overlap from zero through the derived quartet.",
+      "candidate_count": 1,
+      "independent_routes": [
+        "colour_count + colour_count - binary_count = binary_count * binary_count",
+        "quartet - colour_count = fold period of the theorem-forced One"
+      ],
+      "assembly_minimality": "not_applicable_set_cardinality_relation_reuses_engine_closed_counts",
+      "measured_input": false,
+      "halt_guards": ["forced_to_be", "forced_unique"]
+    },
+    "canonical_angle_forms": {
+      "status": "engine_closed_relation",
+      "result": "The canonical alpha-helix and beta-sheet phi/psi coordinates are the unique forms in their complete signed 24-lattice candidate spaces.",
+      "lattice_count": 24,
+      "lattice_derivation": "binary_count^colour_count * colour_count",
+      "complete_candidate_counts": {
+        "homochiral_chart_sign": 1,
+        "opposite_chart_sign": 1,
+        "right_handed_alpha_phi": 1,
+        "right_handed_alpha_psi": 1,
+        "beta_phi": 1,
+        "beta_psi": 1
+      },
+      "derivation": [
+        "The main SFT corpus homochirality result supplies one global biological hand; the signed chart uses its negative-phi canonical representative and generates the opposite mirror exactly.",
+        "The two ordered period-two phi images take their unique lower preimages.",
+        "The depth-colour psi transient is generated completely; its first positive member supplies the primitive branch.",
+        "The closed Protein One-advance ranks the local helical turn and the closed colour window ranks the sheet-plane span.",
+        "The common homochiral phi orientation and binary same/opposite sign parity distinguish alpha and beta signs."
+      ],
+      "independent_index_routes": [
+        "alpha_phi: lattice/(binary*colour) = binary*binary",
+        "alpha_psi: lattice/(binary^colour) = colour",
+        "beta_phi: lattice/colour = binary^colour",
+        "beta_psi: colour_window*alpha_psi_index = colour*colour"
+      ],
+      "measured_input": false,
+      "halt_guards": ["forced_to_be", "forced_unique"]
+    }
+  },
+  "executables": {
+    "passing": [
+      "verify/test_protein_folding_v2.c",
+      "verify/test_protein_window_orientation_v2.c",
+      "verify/test_protein_interwindow_orientation_v2.c",
+      "verify/test_protein_folding_3d_v2.c",
+      "verify/protein_angle_form_admission.c"
+    ]
+  },
+  "main_corpus_dependencies": {
+    "constants/homochirality.ep": {
+      "sha256": "c00d45924978e4fdff114d3e30bd67754b9b55d52e8b467ef76b2f9fca8c2a5c",
+      "role": "engine-closed SFT homochirality result; the local V1 bridge canonicalizes its fixed global hand in the signed Ramachandran chart"
+    }
+  },
+  "source_sha256": {
+    "constants/protein_folding_v2.ep": "c7dbc6922180fa7bde7c674b86cde49cf839107864c09ff8a62d604bb04ac766",
+    "constants/protein_folding_3d_v2.ep": "ea37ac782e84ec9107edfdcb59c826d4b804d56a579609318f6013a57094455e",
+    "constants/protein_homochiral_orientation_v1.ep": "f36a88143276ee78a12d4e8175e85a3974703732e10707fb1401003cf95659d4",
+    "constants/protein_interwindow_orientation_v2.ep": "4c75ff7f9ed0d0b7d27cad1ee94b3b6ab3e7ff345df82aaec1aa862456419422",
+    "constants/protein_window_orientation_v2.ep": "fc517dba47098d53e4ed45d8539750766e4b6c9eab74f66c8a1f295f344aa2a5",
+    "tests/test_protein_folding_v2.ep": "0e1d3c0a7c3e068b198ec94dacdb09de98a29402ed02aa80e4eed23b923e945d",
+    "tests/test_protein_folding_3d_v2.ep": "a3a03db3a56a54fe7dee60f5c151d1f9688ab368198405731d005063ceaa8c4a",
+    "tests/test_protein_interwindow_orientation_v2.ep": "443175959a95bd29d2e95cc691fe86307bf1bab725665cdb14a5dec6dfa708b1",
+    "tests/test_protein_window_orientation_v2.ep": "774ea827a193072d9ca494ea631ce5d88ad59fe890555badedb76c02d0ceddd9",
+    "verify/protein_angle_form_admission.ep": "3b8cf53fde44977bea91fd5125256870458fd701709e622f1dea3be2045ed8c2",
+    "verify/protein_angle_form_admission.c": "43cf18b914a87e76f5190379e2fc91fc6a03d42d3a4b2721668c4422e4b1e517",
+    "verify/test_protein_folding_v2.c": "3a80c9c16965d6fda0ac79d95d4cc219f9b36b97cc9b87234195686e1b400661",
+    "verify/test_protein_folding_3d_v2.c": "45f2004a43d0d4d27902674873cd837409572f39779505e6e55a358ca70c0dba",
+    "verify/test_protein_interwindow_orientation_v2.c": "5c7e703f0dee737966525f105f8e41b071e2403367599931786c60f47cec53ab",
+    "verify/test_protein_window_orientation_v2.c": "414126cb4a064c25b9402ae86fee464129fa4641955735bf55e5bae20d3935a4"
+  }
+}

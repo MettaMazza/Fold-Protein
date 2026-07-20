@@ -1,0 +1,19 @@
+import "../constants/protein_window_orientation_v2.ep"
+
+
+define expect_bool with label as Str and got as Bool:
+    if got:
+        display concat("  ok    " and label)
+    else:
+        set halted to halt_violation(concat("protein window closure failed: " and label))
+    return 0
+
+
+define main:
+    display "=== protein colour-window orientation ==="
+    set ok to expect_bool("window is the fold-derived colour count" and protein_orientation_window_closes())
+    set ok to expect_bool("overlap is the fold-derived binary count" and protein_orientation_overlap_closes())
+    set ok to expect_bool("complete overlap space has one candidate with One advance" and protein_orientation_overlap_candidates() == 1)
+    set ok to expect_bool("each overlapping window advances by the One" and protein_orientation_advance_is_the_one())
+    display "=== done ==="
+    return 0

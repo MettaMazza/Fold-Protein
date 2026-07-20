@@ -1,0 +1,306 @@
+# ENGINE-CLOSED V2: historical source remains at protein_folding_3d.ep.
+# ============================================================================
+#  3D PROTEIN FOLDING  --  why dihedral angles map to simple rational points.
+# ============================================================================
+#
+#  ── WHY ─ (significance; skip if you only want to verify) ────────────────────
+#  In structural biology, the peptide backbone's allowed conformations are
+#  described by the Ramachandran dihedral angles phi and psi. These angles
+#  cluster tightly around specific regions for alpha-helices (phi ≈ -60, psi ≈ -45)
+#  and beta-sheets (phi ≈ -120, psi ≈ +135).
+#  The current Protein development represents these regions as exact rational
+#  fractions of the 360-degree circle and checks their fold-orbit relations.
+#  Exactness, orbit membership and form uniqueness are established together by
+#  complete signed-lattice enumeration below.
+#
+#  ── DERIVATION ─ (check every line; uses ONLY the fold) ──────────────────────
+#  The fold maps angles on the circle [0, 1) via fold(x) = 2x (mod 1).
+#  ALPHA-HELIX: phi is -1/6 (folds to 1/3, locking into the period-2 orbit 1/3 <-> 2/3);
+#  psi is -1/8 (folds to 1/4 -> 1/2 -> 1, the somatic decay transient).
+#  BETA-SHEET: phi is -1/3 (folds to 2/3, locking into the period-2 orbit);
+#  psi is 3/8 (folds to 3/4 -> 1/2 -> 1, the somatic decay transient).
+#  The engine generates every signed candidate on the counted 24 lattice.  The
+#  period-two phi images are ordered and take their unique lower preimages.  The
+#  depth-colour psi transient is ranked by the already-closed protein geometry:
+#  the helical local turn advances by the One, while the sheet plane spans the
+#  colour window.  Binary sign parity then gives same-hand helix and opposite-hand
+#  sheet orientation.  These relations select one coordinate in every full space.
+#
+#  ── CHECK ─ (measurement; comparison only) ──────────────────────────────────
+#  Measured: right-handed alpha-helix phi = -60° (exactly -1/6 of 360°), psi = -45°
+#  (exactly -1/8 of 360°). Beta-sheet phi = -120° (exactly -1/3 of 360°), psi = +135°
+#  (exactly +3/8 of 360°). These measurements are comparison-only.  The checked
+#  coordinates are zero-parameter, uniquely admitted orbit forms.
+# ============================================================================
+
+import "../foundation/the_one_and_the_fold.ep"
+import "../foundation/exact_fractions.ep"
+import "../foundation/structural_counts.ep"
+import "../foundation/enforcement.ep"
+import "protein_window_orientation_v2.ep"
+import "protein_homochiral_orientation_v1.ep"
+
+
+# Fold a fraction once: double it (via a twin) and cast out whole Ones.
+define fold_fraction with size as Fraction returning Fraction:
+    set size_again to fraction_make(fraction_numerator(size) and fraction_denominator(size))
+    set doubled to fraction_add(size and size_again)
+    return cast_out_whole_ones(doubled)
+
+# The right-handed alpha-helix phi coordinate: -1/6 of a circle.
+define alpha_phi_coord returning Fraction:
+    set f to fraction_from_ratio(alpha_phi_lattice_index() and protein_angle_lattice_count())
+    set f.numerator_sign to protein_homochiral_phi_sign()
+    return f
+
+# The right-handed alpha-helix psi coordinate: -1/8 of a circle.
+define alpha_psi_coord returning Fraction:
+    set f to fraction_from_ratio(alpha_psi_lattice_index() and protein_angle_lattice_count())
+    set f.numerator_sign to protein_homochiral_phi_sign()
+    return f
+
+# The beta-sheet phi coordinate: -1/3 of a circle.
+define beta_phi_coord returning Fraction:
+    set f to fraction_from_ratio(beta_phi_lattice_index() and protein_angle_lattice_count())
+    set f.numerator_sign to protein_homochiral_phi_sign()
+    return f
+
+# The beta-sheet psi coordinate: 3/8 of a circle.
+define beta_psi_coord returning Fraction:
+    set f to fraction_from_ratio(beta_psi_lattice_index() and protein_angle_lattice_count())
+    set f.numerator_sign to protein_opposite_orientation_sign()
+    return f
+
+# The left-handed alpha-helix phi coordinate: 1/6 of a circle.
+define left_alpha_phi_coord returning Fraction:
+    set f to fraction_from_ratio(alpha_phi_lattice_index() and protein_angle_lattice_count())
+    set f.numerator_sign to protein_opposite_orientation_sign()
+    return f
+
+# The left-handed alpha-helix psi coordinate: 1/8 of a circle.
+define left_alpha_psi_coord returning Fraction:
+    set f to fraction_from_ratio(alpha_psi_lattice_index() and protein_angle_lattice_count())
+    set f.numerator_sign to protein_opposite_orientation_sign()
+    return f
+
+# Alpha phi folds to the period-2 orbit: absolute(2 * -1/6) = 1/3 -> 2/3.
+define alpha_phi_folds_to_orbit returning Bool:
+    set x to alpha_phi_coord()
+    set x.numerator_sign to 1   # absolute magnitude
+    set folded to fold_fraction(x)
+    set target to fraction_from_ratio(1 and 3)
+    return fraction_is_equal(folded and target)
+
+# Alpha psi decays to the One: absolute(2^3 * -1/8) = 1.
+define alpha_psi_folds_to_native returning Bool:
+    set x to alpha_psi_coord()
+    set x.numerator_sign to 1   # absolute magnitude
+    set step1 to fold_fraction(x)     # 1/8 -> 1/4
+    set step2 to fold_fraction(step1) # 1/4 -> 1/2
+    set step3 to fold_fraction(step2) # 1/2 -> 1
+    set target to fraction_from_whole_number(1)
+    return fraction_is_equal(step3 and target)
+
+# Beta phi folds to the period-2 orbit: absolute(2 * -1/3) = 2/3.
+define beta_phi_folds_to_orbit returning Bool:
+    set x to beta_phi_coord()
+    set x.numerator_sign to 1   # absolute magnitude
+    set folded to fold_fraction(x)
+    set target to fraction_from_ratio(2 and 3)
+    return fraction_is_equal(folded and target)
+
+# Beta psi decays to the One: 3/8 -> 3/4 -> 1/2 -> 1.
+define beta_psi_folds_to_native returning Bool:
+    set x to beta_psi_coord()
+    set step1 to fold_fraction(x)     # 3/8 -> 3/4
+    set step2 to fold_fraction(step1) # 3/4 -> 1/2
+    set step3 to fold_fraction(step2) # 1/2 -> 1
+    set target to fraction_from_whole_number(1)
+    return fraction_is_equal(step3 and target)
+
+
+# The angle grid is b^c * c = 2^3 * 3 = 24, assembled only from the two
+# theorem-counted structural generators.
+define protein_angle_lattice_count returning Int:
+    return whole_power(binary_count() and colour_count()) * colour_count()
+
+
+# Each index is forced by two independent assemblies from the counted generators.
+# These are indices on the generated lattice; no measured angle enters either route.
+define alpha_phi_lattice_index returning Int:
+    set lattice_route to protein_angle_lattice_count() / (binary_count() * colour_count())
+    set generator_route to binary_count() * binary_count()
+    return forced_to_be("alpha phi lattice index" and lattice_route and generator_route)
+
+
+define alpha_psi_lattice_index returning Int:
+    set lattice_route to protein_angle_lattice_count() / whole_power(binary_count() and colour_count())
+    set generator_route to colour_count()
+    return forced_to_be("alpha psi lattice index" and lattice_route and generator_route)
+
+
+define beta_phi_lattice_index returning Int:
+    set lattice_route to protein_angle_lattice_count() / colour_count()
+    set generator_route to whole_power(binary_count() and colour_count())
+    return forced_to_be("beta phi lattice index" and lattice_route and generator_route)
+
+
+define beta_psi_lattice_index returning Int:
+    set window_route to protein_orientation_window() * alpha_psi_lattice_index()
+    set generator_route to colour_count() * colour_count()
+    return forced_to_be("beta psi lattice index" and window_route and generator_route)
+
+
+# Fold an integer lattice index around the One.  A zero remainder is the One,
+# matching cast_out_whole_ones rather than introducing a zero state.
+define fold_angle_lattice_index with index as Int returning Int:
+    set lattice to protein_angle_lattice_count()
+    set folded to (binary_count() * index) % lattice
+    if folded == 0:
+        return lattice
+    return folded
+
+
+define fold_angle_lattice_index_to_colour_depth with index as Int returning Int:
+    set current to index
+    set step to 0
+    repeat while step < colour_count():
+        set current to fold_angle_lattice_index(current)
+        set step to step + 1
+    return current
+
+
+define protein_angle_absolute_index with index as Int returning Int:
+    if index < 0:
+        return 0 - index
+    return index
+
+
+define protein_angle_index_sign with index as Int returning Int:
+    set magnitude to protein_angle_absolute_index(index)
+    if magnitude == 0:
+        return 0
+    return index / magnitude
+
+
+# The first positive member of the complete depth-colour transient to the One.
+# It is generated, not inserted: on the 24 lattice this is index 3 (= 1/8).
+define protein_angle_transient_base_index returning Int:
+    set lattice to protein_angle_lattice_count()
+    set candidate to 1
+    repeat while candidate <= lattice:
+        if fold_angle_lattice_index_to_colour_depth(candidate) == lattice:
+            return candidate
+        set candidate to candidate + 1
+    return 0
+
+
+# Complete signed candidate spaces.  Phi takes the unique lower preimage of its
+# ordered period-two image.  Psi takes the transient-base rank fixed by the
+# closed One-advance/colour-window geometry.  The common negative phi fixes the
+# homochiral orientation; binary sign parity distinguishes same-hand alpha from
+# opposite-hand beta.
+define alpha_phi_form_candidate_count returning Int:
+    set lattice to protein_angle_lattice_count()
+    set target to lattice / colour_count()
+    set half to lattice / binary_count()
+    set matching to 0
+    set candidate to 0 - lattice
+    repeat while candidate <= lattice:
+        if protein_angle_index_sign(candidate) == protein_homochiral_phi_sign():
+            set magnitude to protein_angle_absolute_index(candidate)
+            if magnitude < half:
+                if fold_angle_lattice_index(magnitude) == target:
+                    set matching to matching + 1
+        set candidate to candidate + 1
+    return matching
+
+
+define beta_phi_form_candidate_count returning Int:
+    set lattice to protein_angle_lattice_count()
+    set target to binary_count() * lattice / colour_count()
+    set half to lattice / binary_count()
+    set matching to 0
+    set candidate to 0 - lattice
+    repeat while candidate <= lattice:
+        if protein_angle_index_sign(candidate) == protein_homochiral_phi_sign():
+            set magnitude to protein_angle_absolute_index(candidate)
+            if magnitude < half:
+                if fold_angle_lattice_index(magnitude) == target:
+                    set matching to matching + 1
+        set candidate to candidate + 1
+    return matching
+
+
+define alpha_psi_form_candidate_count returning Int:
+    set lattice to protein_angle_lattice_count()
+    set required to protein_orientation_advance() * protein_angle_transient_base_index()
+    set matching to 0
+    set candidate to 0 - lattice
+    repeat while candidate <= lattice:
+        if protein_angle_index_sign(candidate) == protein_homochiral_phi_sign():
+            set magnitude to protein_angle_absolute_index(candidate)
+            if magnitude == required:
+                if fold_angle_lattice_index_to_colour_depth(magnitude) == lattice:
+                    set matching to matching + 1
+        set candidate to candidate + 1
+    return matching
+
+
+define beta_psi_form_candidate_count returning Int:
+    set lattice to protein_angle_lattice_count()
+    set required to protein_orientation_window() * protein_angle_transient_base_index()
+    set matching to 0
+    set candidate to 0 - lattice
+    repeat while candidate <= lattice:
+        if protein_angle_index_sign(candidate) == protein_opposite_orientation_sign():
+            set magnitude to protein_angle_absolute_index(candidate)
+            if magnitude == required:
+                if fold_angle_lattice_index_to_colour_depth(magnitude) == lattice:
+                    set matching to matching + 1
+        set candidate to candidate + 1
+    return matching
+
+
+define canonical_angle_forms_are_unique returning Bool:
+    if alpha_phi_form_candidate_count() == 1:
+        if beta_phi_form_candidate_count() == 1:
+            if alpha_psi_form_candidate_count() == 1:
+                if beta_psi_form_candidate_count() == 1:
+                    return true
+    return false
+
+
+define canonical_angle_coordinates_match_forced_indices returning Bool:
+    set alpha_phi_expected to fraction_from_ratio(alpha_phi_lattice_index() and protein_angle_lattice_count())
+    set alpha_phi_expected.numerator_sign to protein_homochiral_phi_sign()
+    if fraction_is_equal(alpha_phi_coord() and alpha_phi_expected):
+        set alpha_psi_expected to fraction_from_ratio(alpha_psi_lattice_index() and protein_angle_lattice_count())
+        set alpha_psi_expected.numerator_sign to protein_homochiral_phi_sign()
+        if fraction_is_equal(alpha_psi_coord() and alpha_psi_expected):
+            set beta_phi_expected to fraction_from_ratio(beta_phi_lattice_index() and protein_angle_lattice_count())
+            set beta_phi_expected.numerator_sign to protein_homochiral_phi_sign()
+            if fraction_is_equal(beta_phi_coord() and beta_phi_expected):
+                set beta_psi_expected to fraction_from_ratio(beta_psi_lattice_index() and protein_angle_lattice_count())
+                set beta_psi_expected.numerator_sign to protein_opposite_orientation_sign()
+                if fraction_is_equal(beta_psi_coord() and beta_psi_expected):
+                    return true
+    return false
+
+
+define enforce_canonical_angle_form_uniqueness returning Int:
+    set sign_guard to enforce_protein_orientation_signs()
+    set coordinates_match to 0
+    if canonical_angle_coordinates_match_forced_indices():
+        set coordinates_match to 1
+    set alpha_phi_guard to forced_unique("right-handed alpha phi coordinate form" and coordinates_match and alpha_phi_form_candidate_count() - 1)
+    set alpha_psi_guard to forced_unique("right-handed alpha psi coordinate form" and coordinates_match and alpha_psi_form_candidate_count() - 1)
+    set beta_phi_guard to forced_unique("beta phi coordinate form" and coordinates_match and beta_phi_form_candidate_count() - 1)
+    set beta_psi_guard to forced_unique("beta psi coordinate form" and coordinates_match and beta_psi_form_candidate_count() - 1)
+    if sign_guard == 1:
+        if alpha_phi_guard == 1:
+            if alpha_psi_guard == 1:
+                if beta_phi_guard == 1:
+                    if beta_psi_guard == 1:
+                        return 1
+    return halt_violation("canonical Protein angle form admission did not close")

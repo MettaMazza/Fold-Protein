@@ -6,7 +6,7 @@
     "publication": "Maria Smith alone declares publishable conclusions, benchmark findings, victories, losses and real-run status.",
     "agent_evidence": "Agent-created probes and development executions remain auxiliary evidence unless Maria adopts a conclusion from them."
   },
-  "route_status_interpretation": "Every blind_selector_v4 through blind_selector_v33 route-status entry describes preserved OPEN agent-authored development implementation and applied evidence only. Terms inside immutable historical manifests or source-bound descriptions do not promote an assembled selector form to forced or derived status. The separate derivation-admission gate is authoritative.",
+  "route_status_interpretation": "Every blind_selector_v4 through blind_selector_v33 route-status entry describes archived non-admitted agent development implementation and applied evidence only. Terms inside immutable historical manifests or source-bound descriptions do not promote an assembled selector form to forced or derived status. The separate derivation-admission gate is authoritative.",
   "visible_history": {
     "first_commit": "6b08f5288034d0958a15c8b4b0af0edb59715e37",
     "first_commit_date": "2026-07-15T10:58:26+01:00",
@@ -15,7 +15,8 @@
   },
   "route_status": {
     "theorem_foundation": "engine-closed One/fold, exact-arithmetic, structural-count, target-boundary, assembly-enumeration and form-enforcement foundation",
-    "protein_engine_modules": "OPEN form closure: the executable Protein fixed-point/descent, canonical-angle and window relations do not yet carry every applicable generated-form and uniqueness guard",
+    "protein_engine_closed_relations": "engine-closed fold fixed-point, declared descent-query, colour-window overlap, inter-window quartet and canonical alpha/beta angle forms with complete applicable candidate enumeration and executable halt guards",
+    "protein_historical_engine_checks": "immutable source-bound predecessors retained for sealed-selector provenance; the V2 successors are the current admission authority",
     "ubiquitin_24_lattice_construction": "protected target-assisted forward-forcing construction",
     "blind_selector_v2": "preserved development evidence with mixed legacy dependencies; not the clean continuation route",
     "blind_selector_v3": "named provenance-isolated forward-forcing development constitution; target-isolated and source-bound, but not relabelled as an engine-derived theorem",
@@ -48,11 +49,11 @@
     "blind_selector_v26_1": "sealed focal segment-pair admission correction at 24, 32 and 76 residues; L76 reaches 6.7648477959 Å dRMSD, a 5.34% advance over V25 and 14.07% over V13, while retaining TM 0.1287565476 with seven V25 departures",
     "blind_selector_v27": "sealed constitutional reconciliation of the complete V25/V26.1 disagreement cube at 24, 32 and 76 residues; improves both V26.1 measures at L24 and L32, reaches the strongest L24 dRMSD of the three reconciled branches, and preserves V25/V26.1 as the leading complete-length TM/dRMSD frontiers",
     "blind_selector_v28": "sealed multiscale segment/domain propagation at 24, 32 and 76 residues; improves both complete-length measures over V27 to TM 0.1284665482 and 6.9615228794 Å dRMSD, and advances L24 dRMSD to 6.2059676701 Å",
-    "blind_selector_v29": "OPEN agent-authored tertiary four-residue body-tree development architecture with sealed applied outputs at 24, 32 and 76 residues; its measured L32 row is TM 0.0499243401 and 4.5466887676 Å dRMSD and its L24 dRMSD is 5.4137342407 Å",
-    "blind_selector_v30": "OPEN agent-authored degree-two tertiary-body-path development architecture with sealed applied outputs at 24, 32 and 76 residues; its measured L32 row is TM 0.0502723476 and 4.9045982349 Å dRMSD",
-    "blind_selector_v31": "OPEN agent-authored degree-2/3/4 tertiary-topology-frontier development architecture with sealed applied outputs at 24 and 32 residues; its L24 dRMSD is 5.5047257155 Å and its L32 final frontier contains only degree-4 candidates",
-    "blind_selector_v32": "OPEN agent-authored cross-topology-consensus development architecture with sealed applied outputs at 24 and 32 residues; multiple topology families survive admission while the L32 emitted path is byte-identical to V31",
-    "blind_selector_v33": "OPEN agent-authored minimax-consensus development architecture with sealed applied outputs at 24, 32 and 76 residues; its L24 row is TM 0.0264163231 / 6.2909406819 Å dRMSD, its L32 output reproduces V28 at TM 0.0444462491 / 5.6156347475 Å dRMSD, and its L76 output reproduces V29 at TM 0.0938366517 / 8.7716502163 Å dRMSD",
+    "blind_selector_v29": "archived non-admitted agent tertiary four-residue body-tree development architecture with sealed applied outputs at 24, 32 and 76 residues; its measured L32 row is TM 0.0499243401 and 4.5466887676 Å dRMSD and its L24 dRMSD is 5.4137342407 Å",
+    "blind_selector_v30": "archived non-admitted agent degree-two tertiary-body-path development architecture with sealed applied outputs at 24, 32 and 76 residues; its measured L32 row is TM 0.0502723476 and 4.9045982349 Å dRMSD",
+    "blind_selector_v31": "archived non-admitted agent degree-2/3/4 tertiary-topology-frontier development architecture with sealed applied outputs at 24 and 32 residues; its L24 dRMSD is 5.5047257155 Å and its L32 final frontier contains only degree-4 candidates",
+    "blind_selector_v32": "archived non-admitted agent cross-topology-consensus development architecture with sealed applied outputs at 24 and 32 residues; multiple topology families survive admission while the L32 emitted path is byte-identical to V31",
+    "blind_selector_v33": "archived non-admitted agent minimax-consensus development architecture with sealed applied outputs at 24, 32 and 76 residues; its L24 row is TM 0.0264163231 / 6.2909406819 Å dRMSD, its L32 output reproduces V28 at TM 0.0444462491 / 5.6156347475 Å dRMSD, and its L76 output reproduces V29 at TM 0.0938366517 / 8.7716502163 Å dRMSD",
     "legacy_engines": "retained history only; excluded from promoted and active continuation routes"
   },
   "inherited_toolchain_boundary": {
@@ -83,7 +84,27 @@
       "foundation/structural_counts.ep",
       "foundation/the_one_and_the_fold.ep"
     ],
-    "protein_engine_checks_open_form_closure": [
+    "protein_engine_closed_relations": [
+      "constants/protein_folding_v2.ep",
+      "constants/protein_folding_3d_v2.ep",
+      "constants/protein_homochiral_orientation_v1.ep",
+      "constants/protein_interwindow_orientation_v2.ep",
+      "constants/protein_window_orientation_v2.ep",
+      "tests/test_protein_engine_closure.py",
+      "tests/test_protein_folding_v2.ep",
+      "tests/test_protein_folding_3d_v2.ep",
+      "tests/test_protein_interwindow_orientation_v2.ep",
+      "tests/test_protein_window_orientation_v2.ep",
+      "tools/verify_protein_engine_closure.py",
+      "verify/protein_angle_form_admission.c",
+      "verify/protein_angle_form_admission.ep",
+      "verify/protein_engine_closure_v1.json",
+      "verify/test_protein_folding_3d_v2.c",
+      "verify/test_protein_folding_v2.c",
+      "verify/test_protein_interwindow_orientation_v2.c",
+      "verify/test_protein_window_orientation_v2.c"
+    ],
+    "protein_historical_engine_checks": [
       "constants/protein_folding.ep",
       "constants/protein_folding_3d.ep",
       "constants/protein_interwindow_orientation.ep",
@@ -416,6 +437,7 @@
   "legacy_exclusion": {
     "promoted_or_active_classes": [
       "engine_foundation_trace",
+      "protein_engine_closed_relations",
       "protected_target_assisted_forward_forcing",
       "blind_v3_named_forward_forcing_development"
     ],
@@ -941,11 +963,11 @@
     "v26_1_focal_topology_development": "verify/development_runs/ubiquitin_v26_1_focal_topology_l{24,32,76}_20260720/ bind focal relation admission before whole-chain balance; the complete 76-residue route improves V25 dRMSD 5.34% to 6.7648477959 Å while retaining TM 0.1287565476 with seven departures.",
     "v27_branch_reconciliation_development": "verify/development_runs/ubiquitin_v27_branch_reconciliation_l{24,32,76}_20260720/ bind every combination in the complete V25/V26.1 disagreement cube before parent-anchored continuation; L24 and L32 improve both V26.1 measures, while the L76 row retains V25 and V26.1 as the leading TM and dRMSD branches.",
     "v28_multiscale_reconciliation_development": "verify/development_runs/ubiquitin_v28_multiscale_reconciliation_l{24,32,76}_20260720/ bind repeated 4/8/16/... block propagation, complete branch grafts and binary boundary domains in both directions; L76 improves both V27 measures and L24 advances dRMSD to 6.2059676701 Å.",
-    "v29_tertiary_body_tree_development": "verify/development_runs/ubiquitin_v29_tertiary_bodies_l{24,32,76}_20260720/ bind the OPEN agent-authored ordinal body-tree architecture and its applied outputs; L32 improves both V28 measures by 12.33% TM and 19.04% dRMSD, and L24 improves dRMSD by 12.77%.",
-    "v30_degree_two_tertiary_path_development": "verify/development_runs/ubiquitin_v30_tertiary_path_l{24,32,76}_20260720/ bind the OPEN agent-authored degree-two body-path architecture and its applied outputs; L32 retains a 13.11% TM and 12.66% dRMSD advance over V28.",
-    "v31_bounded_topology_frontier_development": "verify/development_runs/ubiquitin_v31_topology_frontier_l{24,32}_20260720/ bind the OPEN agent-authored 2/3/4 degree-frontier architecture and its applied outputs; L24 dRMSD is 5.5047257155 Å and L32 final retention is 24/24 degree-4 candidates.",
-    "v32_cross_topology_consensus_development": "verify/development_runs/ubiquitin_v32_topology_consensus_l{24,32}_20260720/ bind the OPEN agent-authored cross-topology-consensus architecture and its applied outputs; all families survive the L24 admission frontier and L32 selects the same bytes as V31.",
-    "v33_minimax_topology_consensus_development": "verify/development_runs/ubiquitin_v33_minimax_consensus_l{24,32,76}_20260720/ bind the OPEN agent-authored minimax-consensus architecture and its applied outputs; L24 selects V26.1, L32 selects V28, and L76 selects V29 byte-exactly at TM 0.0938366517 / 8.7716502163 Å dRMSD.",
+    "v29_tertiary_body_tree_development": "verify/development_runs/ubiquitin_v29_tertiary_bodies_l{24,32,76}_20260720/ bind the archived non-admitted agent ordinal body-tree architecture and its applied outputs; L32 improves both V28 measures by 12.33% TM and 19.04% dRMSD, and L24 improves dRMSD by 12.77%.",
+    "v30_degree_two_tertiary_path_development": "verify/development_runs/ubiquitin_v30_tertiary_path_l{24,32,76}_20260720/ bind the archived non-admitted agent degree-two body-path architecture and its applied outputs; L32 retains a 13.11% TM and 12.66% dRMSD advance over V28.",
+    "v31_bounded_topology_frontier_development": "verify/development_runs/ubiquitin_v31_topology_frontier_l{24,32}_20260720/ bind the archived non-admitted agent 2/3/4 degree-frontier architecture and its applied outputs; L24 dRMSD is 5.5047257155 Å and L32 final retention is 24/24 degree-4 candidates.",
+    "v32_cross_topology_consensus_development": "verify/development_runs/ubiquitin_v32_topology_consensus_l{24,32}_20260720/ bind the archived non-admitted agent cross-topology-consensus architecture and its applied outputs; all families survive the L24 admission frontier and L32 selects the same bytes as V31.",
+    "v33_minimax_topology_consensus_development": "verify/development_runs/ubiquitin_v33_minimax_consensus_l{24,32,76}_20260720/ bind the archived non-admitted agent minimax-consensus architecture and its applied outputs; L24 selects V26.1, L32 selects V28, and L76 selects V29 byte-exactly at TM 0.0938366517 / 8.7716502163 Å dRMSD.",
     "classification": "A recorded development execution is not a Maria finding, loss or failed prediction."
   },
   "artifact_inventory": {

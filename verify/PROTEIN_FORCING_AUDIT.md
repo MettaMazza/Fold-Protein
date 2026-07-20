@@ -33,10 +33,11 @@ admission is `verify/protein_derivation_admission_v1.json`, enforced by
 - The copied foundation machinery is the engine-closed One route.
 - The protected 24-lattice construction and V3 baseline are explicitly named
   forward-forcing constitutions with different target boundaries.
-- The current Protein `.ep` fixed-point/descent, canonical-angle and window
-  modules are executable exact checks whose finished form closure is **OPEN**.
-- Every selector architecture V4-V33 is **OPEN agent-authored development**
-  unless and until its entire assembled form passes the corpus's dependency,
+- The active Protein V2 fixed-point/descent, canonical-angle and window modules
+  are engine-closed by complete candidate enumeration, independent routes,
+  named-shape uniqueness and executable halt guards.
+- Every selector architecture V4-V33 is **archived non-admitted agent development**
+  and excluded from the active route. A successor may enter only when its entire assembled form passes the corpus's dependency,
   generated-candidate, minimality, named-shape uniqueness, target-exclusion and
   halt guards.
 
@@ -60,15 +61,15 @@ form.
 
 ## Secured and explicitly bounded routes
 
-### Engine-closed foundation and OPEN Protein forms
+### Engine-closed foundation and Protein V2 forms
 
 `foundation/the_one_and_the_fold.ep` identifies the foundation as one
 machine-checked self-proven theorem—*there is no nothing*—with zero axioms, and
 implements the One and fold. The exact-fraction, enforcement and form modules
-are present in this repository. The Protein `.ep` modules and their committed C
-translations remain executable anchors, but their current source does not invoke
-every applicable generated-form and named-shape guard. They are therefore
-classified separately as OPEN form closure, not as finished Protein derivations.
+are present in this repository. The active Protein V2 modules invoke the applicable
+generated-space, independent-route, named-shape and halt guards. Historical
+unsuffixed paths are retained byte-exactly for sealed-manifest provenance; V2 is
+classified separately as the current engine-closed Protein relation set.
 
 ### Protected 24-lattice construction
 
@@ -175,8 +176,8 @@ five-residue extension measurements, TM `0.3534794031641911` and
 orientation and complete global assembly. They do not establish a
 theorem-derived wall: the protected 24-lattice construction already contains
 the complete 76-residue trace at TM `0.9891211351` / dRMSD `0.2608575408 Å`,
-and the exact-fraction Protein module independently checks the canonical α-helix
-and β-sheet coordinates. Finished form closure for those coordinates remains OPEN.
+and the V2 exact-fraction Protein module uniquely forces the canonical α-helix
+and β-sheet coordinates across the complete signed 24-lattice candidate spaces.
 
 ### Four-residue inter-window orientation development
 
@@ -727,7 +728,7 @@ continuation and no theorem-derived wall at the current stage. Maria decides
 when development evidence earns an official run and what conclusion the data
 supports.
 
-V29/V30 are OPEN agent-authored tertiary-body development architectures. V29's
+V29/V30 are archived non-admitted agent tertiary-body development architectures. V29's
 unrestricted tree output advances L32 to TM `0.0499243401` / dRMSD
 `4.5466887676 Å` and L24 dRMSD to `5.4137342407 Å`, but forms a high-degree
 hub at full length. V30 implements the agent's two-boundary interpretation and
@@ -740,7 +741,7 @@ V31 constructs the complete counted degree interval `2,3,4` and performs
 independent bidirectional assembly for every topology. Its L24 gate recovers
 V30 distance geometry to `5.5047257155 Å` dRMSD. At L32, however, all 24 final
 paths originate in the degree-4 frontier and the measured row is below V28-V30.
-No L76 output was recorded for that version. This is OPEN implemented
+No L76 output was recorded for that version. This is archived non-admitted implemented
 development evidence, not a Maria finding, failed prediction, theoretical wall,
 or engine authorization for cross-topology consensus.
 

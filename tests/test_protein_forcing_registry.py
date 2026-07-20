@@ -95,8 +95,8 @@ class ProteinForcingRegistryTests(unittest.TestCase):
             3,
         )
         self.assertEqual(
-            receipt["derivation_admission"]["open_selector_range"],
-            "V4-V33 development-only",
+            receipt["derivation_admission"]["archived_selector_range"],
+            "V4-V33 non-admitted development evidence",
         )
         self.assertEqual(receipt["artifact_inventory"]["v2_ladder"]["failed_runs"], 0)
         self.assertEqual(receipt["other_tracked_artifacts"], 3)

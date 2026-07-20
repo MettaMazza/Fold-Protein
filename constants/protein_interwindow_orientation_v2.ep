@@ -1,0 +1,84 @@
+# ENGINE-CLOSED V2: historical source remains at protein_interwindow_orientation.ep.
+# Four-residue orientation of two overlapping colour windows.
+#
+# A three-residue colour window fixes a local C-alpha plane.  Two consecutive
+# colour windows share the binary count of two residues.  Their union therefore
+# contains c + c - b = 3 + 3 - 2 = 4 residues.  This quartet is the first local
+# object that contains the relative orientation of the two planes.  Consecutive
+# orientation quartets share one colour window (three residues) and advance by
+# the One residue.
+
+import "../foundation/structural_counts.ep"
+import "../foundation/the_one_and_the_fold.ep"
+import "../foundation/enforcement.ep"
+
+
+define protein_local_plane_window returning Int:
+    return colour_count()
+
+
+define protein_plane_overlap returning Int:
+    return binary_count()
+
+
+define protein_interwindow_one_count returning Int:
+    return fold_period(the_one() and binary_count())
+
+
+define protein_orientation_quartet returning Int:
+    set from_union to protein_local_plane_window() + protein_local_plane_window() - protein_plane_overlap()
+    set from_binary_square to binary_count() * binary_count()
+    return forced_to_be("two colour windows with binary overlap form the binary square" and from_union and from_binary_square)
+
+
+define protein_orientation_quartet_overlap returning Int:
+    return protein_local_plane_window()
+
+
+define protein_orientation_quartet_advance returning Int:
+    set from_overlap to protein_orientation_quartet() - protein_orientation_quartet_overlap()
+    set from_the_one to protein_interwindow_one_count()
+    return forced_to_be("orientation quartet advance" and from_overlap and from_the_one)
+
+
+# Generate every integer overlap admitted by a quartet.  The colour-count
+# overlap is accepted only if it is the unique candidate leaving One advance.
+define protein_orientation_quartet_overlap_candidates returning Int:
+    set quartet to protein_orientation_quartet()
+    set one to protein_interwindow_one_count()
+    set matching to 0
+    set candidate to 0
+    repeat while candidate <= quartet:
+        if quartet - candidate == one:
+            set matching to matching + 1
+        set candidate to candidate + 1
+    return matching
+
+
+define protein_orientation_quartet_overlap_is_unique returning Bool:
+    set quartet to protein_orientation_quartet()
+    set overlap to protein_orientation_quartet_overlap()
+    set one to protein_interwindow_one_count()
+    set claimed_satisfies to 0
+    if quartet - overlap == one:
+        set claimed_satisfies to 1
+    set alternatives to protein_orientation_quartet_overlap_candidates() - 1
+    set guarded to forced_unique("colour count is the unique quartet overlap with One advance" and claimed_satisfies and alternatives)
+    set independently_forced to quartet - one
+    set closed_overlap to forced_to_be("quartet overlap equals quartet less the One" and overlap and independently_forced)
+    if guarded == 1:
+        if closed_overlap == overlap:
+            return true
+    return false
+
+
+define protein_orientation_quartet_closes returning Bool:
+    return protein_orientation_quartet() == binary_count() * binary_count()
+
+
+define protein_orientation_overlap_closes returning Bool:
+    return protein_orientation_quartet_overlap_is_unique()
+
+
+define protein_orientation_advance_is_the_one returning Bool:
+    return protein_orientation_quartet_advance() == protein_interwindow_one_count()

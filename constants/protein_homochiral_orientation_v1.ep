@@ -1,0 +1,67 @@
+# Protein homochiral orientation bridge.
+#
+# The main SFT corpus closes homochirality in constants/homochirality.ep: the
+# fold supplies a binary mirror pair and the one-handed bias fixes one global
+# biological hand.  A signed Ramachandran chart still needs a coordinate
+# convention for that already-fixed hand.  This module canonicalizes it as the
+# negative-phi representative.  The mirror is then the exact opposite sign.
+# This is a symmetry quotient/readout convention, not a fitted physical number.
+# The main-corpus source hash is bound in verify/protein_engine_closure_v1.json.
+
+import "../foundation/structural_counts.ep"
+import "../foundation/the_one_and_the_fold.ep"
+import "../foundation/enforcement.ep"
+
+
+define protein_orientation_one_count returning Int:
+    return fold_period(the_one() and binary_count())
+
+
+define protein_homochiral_phi_sign returning Int:
+    set one to protein_orientation_one_count()
+    set from_chart_orientation to 0 - one
+    set from_binary_mirror to (0 - binary_count()) + one
+    return forced_to_be("canonical signed-chart representative of the SFT homochiral hand" and from_chart_orientation and from_binary_mirror)
+
+
+define protein_opposite_orientation_sign returning Int:
+    set from_antipode to 0 - protein_homochiral_phi_sign()
+    set from_the_one to protein_orientation_one_count()
+    return forced_to_be("opposite signed-chart orientation" and from_antipode and from_the_one)
+
+
+# Generate the complete non-zero integer sign space {-One,+One}.  Each named
+# orientation must have exactly one representative.
+define protein_homochiral_sign_candidate_count returning Int:
+    set one to protein_orientation_one_count()
+    set required to protein_homochiral_phi_sign()
+    set matching to 0
+    set candidate to 0 - one
+    repeat while candidate <= one:
+        if candidate != 0:
+            if candidate == required:
+                set matching to matching + 1
+        set candidate to candidate + 1
+    return matching
+
+
+define protein_opposite_sign_candidate_count returning Int:
+    set one to protein_orientation_one_count()
+    set required to protein_opposite_orientation_sign()
+    set matching to 0
+    set candidate to 0 - one
+    repeat while candidate <= one:
+        if candidate != 0:
+            if candidate == required:
+                set matching to matching + 1
+        set candidate to candidate + 1
+    return matching
+
+
+define enforce_protein_orientation_signs returning Int:
+    set homochiral_guard to forced_unique("Protein homochiral signed-chart representative" and 1 and protein_homochiral_sign_candidate_count() - 1)
+    set opposite_guard to forced_unique("Protein opposite signed-chart representative" and 1 and protein_opposite_sign_candidate_count() - 1)
+    if homochiral_guard == 1:
+        if opposite_guard == 1:
+            return 1
+    return halt_violation("Protein orientation sign admission did not close")

@@ -1,0 +1,76 @@
+# ENGINE-CLOSED V2: historical source remains at protein_window_orientation.ep.
+# Binary-overlap propagation of colour-window protein geometry.
+#
+# The counts are not selected for this application.  They are read from the
+# fold period spectrum by foundation/structural_counts.ep.  A colour-count
+# window contains three residues; the next window shares the binary count of
+# two residues and therefore advances by exactly the One residue.  The shared
+# pair carries the local backbone bend into the next window.
+
+import "../foundation/structural_counts.ep"
+import "../foundation/the_one_and_the_fold.ep"
+import "../foundation/enforcement.ep"
+
+
+define protein_orientation_window returning Int:
+    return colour_count()
+
+
+define protein_orientation_overlap returning Int:
+    return binary_count()
+
+
+# The One counted independently as the period of the theorem-forced fixed point.
+# The binary count is only the scan limit; the One returns on the first fold.
+define protein_orientation_one_count returning Int:
+    return fold_period(the_one() and binary_count())
+
+
+define protein_orientation_advance returning Int:
+    set from_overlap to protein_orientation_window() - protein_orientation_overlap()
+    set from_the_one to protein_orientation_one_count()
+    return forced_to_be("protein colour-window advance" and from_overlap and from_the_one)
+
+
+# Generate every integer overlap admitted by a colour-count window.  Exactly one
+# can leave a one-residue advance.  This is the complete named-shape candidate
+# space 0..window, not a hand-written neighbour list.
+define protein_orientation_overlap_candidates returning Int:
+    set window to protein_orientation_window()
+    set one to protein_orientation_one_count()
+    set matching to 0
+    set candidate to 0
+    repeat while candidate <= window:
+        if window - candidate == one:
+            set matching to matching + 1
+        set candidate to candidate + 1
+    return matching
+
+
+define protein_orientation_overlap_is_unique returning Bool:
+    set window to protein_orientation_window()
+    set overlap to protein_orientation_overlap()
+    set one to protein_orientation_one_count()
+    set claimed_satisfies to 0
+    if window - overlap == one:
+        set claimed_satisfies to 1
+    set alternatives to protein_orientation_overlap_candidates() - 1
+    set guarded to forced_unique("binary overlap is the unique colour-window overlap with One advance" and claimed_satisfies and alternatives)
+    set independently_forced to window - one
+    set closed_overlap to forced_to_be("binary overlap equals colour window less the One" and overlap and independently_forced)
+    if guarded == 1:
+        if closed_overlap == overlap:
+            return true
+    return false
+
+
+define protein_orientation_window_closes returning Bool:
+    return protein_orientation_window() == colour_count()
+
+
+define protein_orientation_overlap_closes returning Bool:
+    return protein_orientation_overlap_is_unique()
+
+
+define protein_orientation_advance_is_the_one returning Bool:
+    return protein_orientation_advance() == protein_orientation_one_count()

@@ -32,14 +32,14 @@ The SFT sequence engine has completed target-isolated, pre-comparison-sealed bli
 
 Post-seal local comparison identifies accurate sequence geometry within the blind outputs: `IFV` at **0.8821336259 local TM / 0.1611313002 Å dRMSD**, and `TLT` at approximately **0.892 local TM / 0.187 Å dRMSD** in independently sealed 16- and 24-residue predictions. In the complete 76-residue blind prediction, the strongest same-index three-residue windows include `HLV` at **0.9914591922 local TM / 0.0313953540 Å dRMSD**, `RLI` at **0.9656795312 local TM / 0.0606832279 Å dRMSD**, and `RGG` at **0.9059580746 local TM / 0.0958017776 Å dRMSD**. All 74 windows are preserved in `verify/development_runs/ubiquitin_v3_current_20260719/local_windows_l3.json`.
 
-Maria Smith has declared the completed 76-residue blind execution and its positive local empirical results for publication. Sealed blind reach has advanced from 8 to 16 to 24 to all 76 residues, and the strongest local agreement has advanced to **0.9914591922 TM**. The next constructive frontier is to propagate that accurate local geometry through inter-window orientation and complete global assembly. No theoretical wall is established: the protected construction proves that the same 24×24 lattice contains a 76-residue ubiquitin trace at **0.9891211351 TM / 0.2608575408 Å dRMSD**, while the exact-fraction 3D Protein module separately checks the canonical right-handed α-helix angles `(−60°, −45°)` and β-sheet angles `(−120°, +135°)`. Those coordinate forms remain OPEN for the corpus's finished form guards.
+Maria Smith has declared the completed 76-residue blind execution and its positive local empirical results for publication. Sealed blind reach has advanced from 8 to 16 to 24 to all 76 residues, and the strongest local agreement has advanced to **0.9914591922 TM**. The next constructive frontier is to propagate that accurate local geometry through complete global assembly. No theoretical wall is established: the protected construction proves that the same 24×24 lattice contains a 76-residue ubiquitin trace at **0.9891211351 TM / 0.2608575408 Å dRMSD**, while the V2 exact-fraction engine uniquely forces the canonical right-handed α-helix angles `(−60°, −45°)` and β-sheet angles `(−120°, +135°)` across the complete signed lattice.
 
 ### Derivation admission boundary
 
 The engine-closed foundation, the named target-assisted 24-lattice construction,
 and the named target-isolated V3 forward-forcing constitution have distinct
-provenance. V4-V33 are preserved as **OPEN agent-authored development
-architectures** unless and until their complete assembled selector forms pass the
+provenance. V4-V33 are preserved as **archived non-admitted agent development
+architectures** and are excluded from the active route; a successor may enter only when its complete assembled selector form passes the
 corpus's dependency, generated-candidate, minimality, named-shape uniqueness,
 target-exclusion and halt guards. Exact counts, zero fitted parameters, source
 seals and real applied scores remain evidence about the executed builds; they do
@@ -321,21 +321,21 @@ data therefore support multiscale propagation at complete length and locate
 the next correction in intermediate-scale admission. V25 and V26.1 remain the
 individual leading full-length TM and dRMSD parent branches.
 
-V29 is an OPEN agent-authored development architecture that represents
+V29 is an archived non-admitted agent development architecture that represents
 four-residue bodies as an ordinal tertiary graph. Exact sidechain-atom,
 hydrophobic and formal-charge counts order its edges before coordinates exist;
 complete body grafts and paired boundary states are then assembled in both
 directions. Its sealed L32 output reaches **TM `0.0499243401` / dRMSD
 `4.5466887676 Å`**, improving V28 by **12.33% TM** and **19.04% dRMSD**. L24
 dRMSD improves **12.77%** to **`5.4137342407 Å`**, with a 2.37% TM tradeoff.
-V30 is a separate OPEN development architecture implementing a degree-two
+V30 is a separate archived non-admitted development architecture implementing a degree-two
 tertiary path from the body's two-boundary interpretation. Its L32 output reaches
 **TM `0.0502723476` / dRMSD `4.9045982349 Å`**. These are real applied
 measurements of the named builds, but neither the tree nor the degree-two path
 is an engine-closed derivation. They do not establish a theoretical wall or an
 official result.
 
-V31 is an OPEN agent-authored bounded-degree frontier over the counted capacities
+V31 is an archived non-admitted agent development frontier over the counted capacities
 `2,3,4`. Each topology receives an independent 24-path forward/reverse
 assembly before joint constitutional reconciliation. At L24 it recovers V30's
 distance regression to **`5.5047257155 Å` dRMSD**, remaining **11.30%** better
@@ -345,7 +345,7 @@ V28-V30 rows. No L76 output was recorded for that version. V31 is applied
 development evidence, not a finding, prediction failure, theoretical limit, or
 engine-derived authorization for another selector.
 
-V32 is an OPEN agent-authored cross-topology consensus stage. Every candidate receives
+V32 is an archived non-admitted agent cross-topology consensus stage. Every candidate receives
 three exact minimum state distances—one to each complete degree-family
 frontier—and these enter permutation-invariant admission before the established
 whole-chain constitution. At L24 all three topology families survive the
@@ -358,7 +358,7 @@ first, then symmetric family distance—before another physical reconciliation.
 That development choice was not an engine derivation or a gate on Maria's
 authority to order a run.
 
-V33 is an OPEN agent-authored architecture giving exact worst-family distance
+V33 is an archived non-admitted agent architecture giving exact worst-family distance
 outer priority. At L24 the
 minimax relation closes to two `[9,9,9]` candidates and selects the sealed
 V26.1 path at **TM `0.0264163231` / dRMSD `6.2909406819 Å`**, recovering TM

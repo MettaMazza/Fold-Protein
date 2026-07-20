@@ -1,0 +1,16 @@
+# Executable admission probe for the uniquely derived Protein angle forms.
+#
+# Every coordinate is generated from the counted lattice and the closed
+# lower-preimage/transient-rank/sign-parity relations.  The program exits zero
+# only if all four full candidate spaces contain exactly one form.
+
+import "../constants/protein_folding_3d_v2.ep"
+
+
+define main:
+    display "=== Protein canonical-angle admission ==="
+    set admitted to enforce_canonical_angle_form_uniqueness()
+    if admitted == 1:
+        display "  ok    all four canonical angle forms are uniquely admitted"
+        return 0
+    return halt_violation("canonical Protein angle admission returned without closure")

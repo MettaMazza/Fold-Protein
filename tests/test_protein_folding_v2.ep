@@ -1,0 +1,22 @@
+import "../constants/protein_folding_v2.ep"
+define expect_equal with label as Str and got as Str and want as Str:
+    if got equals want:
+        display concat("  ok    " and label)
+    else:
+        set halted to halt_violation(concat("protein fold equality failed: " and concat(label and concat(" got " and got))))
+    return 0
+define expect_bool with label as Str and got as Bool:
+    if got:
+        display concat("  ok    " and label)
+    else:
+        set halted to halt_violation(concat("protein fold closure failed: " and label))
+    return 0
+define main:
+    display "=== protein folding ==="
+    set ok to expect_bool("native state is the fold's fixed point (fold(1) = 1)" and native_state_is_fixed())
+    set ok to expect_bool("the One is the unique fixed point across both exact fold branches" and native_state_is_unique_fixed_point())
+    set ok to expect_equal("descent step one: fold(3/4) = 1/2" and fraction_to_text(descent_after_one_step()) and "1/2")
+    set ok to expect_equal("descent step two: fold(1/2) = 1" and fraction_to_text(descent_after_two_steps()) and "1")
+    set ok to expect_bool("declared 3/4 query reaches the One in two exact folds" and descent_reaches_native())
+    display "=== done ==="
+    return 0
