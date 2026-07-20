@@ -271,6 +271,21 @@ official runs unless Maria registers them. They establish an implemented
 continuation through the represented relations and do not impose a
 theorem-derived wall on the blind benchmark objective.
 
+V26 then expands joint long-range topology inside the V25 basis. It retains up
+to 24 unresolved segment-pair relations through the same weight-free ordinal
+constitution and exhausts all **576** paired domain states for every
+participating residue pair. V26.1 adds focal admission: a paired state must
+first pass the exact segment-pair relation that caused its expansion before it
+enters whole-chain balance. The complete L76 execution evaluates **221,208**
+focal paired states, changes seven V25 states, and reaches **TM
+`0.1287565476` / dRMSD `6.7648477959 Å`**. This improves V25 dRMSD by
+**5.34%** and V13 dRMSD by **14.07%**, while retaining TM within **0.31%** of
+V25. At L24 dRMSD also improves over V25 while TM is lower; L32 is lower on
+both measures. V25 therefore remains the strongest full-length TM branch and
+V26.1 the strongest full-length distance-geometry branch. The next
+development state is their constitutional frontier reconciliation, not a
+target-selected blend.
+
 ## Governing law
 
 SFT begins from one machine-checked, self-proven theorem—*there is no nothing*—with zero axioms. The engine determines forcing and derivation by tracing every admitted construction to the One and halting on violation. No agent may weaken the result, declare a theoretical wall, or substitute statistical convention for the engine's standard. Maria Smith determines which engine results are published and directs the next investigation.
@@ -328,6 +343,8 @@ python3 -m tools.verify_protein_forcing_registry
 | `tools/blind_24_lattice_selector_v24.py` | coherent locally admitted four-residue tuple architecture |
 | `tools/blind_24_lattice_selector_v24_1.py` | overlapping-window boundary closure for coherent tuple assembly |
 | `tools/blind_24_lattice_selector_v25.py` | parent-anchored bidirectional constitutional coordinate beam |
+| `tools/blind_24_lattice_selector_v26.py` | exhaustive joint long-range segment-topology transitions |
+| `tools/blind_24_lattice_selector_v26_1.py` | focal segment-pair admission before whole-chain balance |
 | `verify/development_runs/ubiquitin_v9_steric_orientation_l24_20260719/` | sealed v9 applied evidence |
 | `verify/development_runs/ubiquitin_v10_balanced_relations_l{24,76}_20260719/` | sealed v10 applied evidence |
 | `verify/development_runs/ubiquitin_v11_hbond_assembly_l24_20260719/` | sealed v11 hydrogen-bond applied evidence and post-seal local windows |
@@ -350,6 +367,8 @@ python3 -m tools.verify_protein_forcing_registry
 | `verify/development_runs/ubiquitin_v24_coherent_segments_l{24,32,76}_20260720/` | sealed coherent-segment architecture evidence |
 | `verify/development_runs/ubiquitin_v24_1_boundary_closed_l{24,32,76}_20260720/` | sealed overlapping-window boundary-closure evidence |
 | `verify/development_runs/ubiquitin_v25_coordinate_beam_l{24,32,76}_20260720/` | sealed parent-anchored coordinate-beam evidence and L76 dual-metric advance |
+| `verify/development_runs/ubiquitin_v26_joint_topology_l{24,32,76}_20260720/` | sealed exhaustive paired-topology development evidence |
+| `verify/development_runs/ubiquitin_v26_1_focal_topology_l{24,32,76}_20260720/` | sealed focal-topology evidence and strongest L76 dRMSD branch |
 | `verify/development_runs/ubiquitin_v12_topology_hbond_l24_20260719/v11_v12_state_delta.json` | source-bound sealed-path and local-window delta locating the next combined relation |
 | `verify/evaluate_sealed_blind_v3.py` | seal verifier and target-isolated evaluation boundary |
 | `verify/evaluate_sealed_blind_local_v3.py` | all-window post-seal local evaluator; reproduces the published IFV/TLT measurements |

@@ -1,0 +1,62 @@
+{
+  "schema": "fold-protein-blind-selector/v26.1",
+  "version": "26.1.0-development",
+  "execution": "focally admitted joint topology over parent-anchored basis",
+  "foundation": {
+    "theorem": "one machine-checked self-proven theorem: there is no nothing",
+    "axioms": 0,
+    "trace": "sealed V25 path plus sealed V23.2 domains -> unresolved segment pairs -> complete paired domains -> focal relation admission -> whole-chain balance -> bidirectional reconciliation"
+  },
+  "selector_config": {
+    "paired_domain_states": 576,
+    "domain_capacity": 24,
+    "topology_capacity": 24,
+    "frontier_capacity": 24,
+    "segment_residues": 4,
+    "topology_selection": "weight-free ordinal unresolved segment relations",
+    "paired_transition": "all 24x24 admitted states for every participating residue pair",
+    "admission": "focal segment-pair relation then complete-chain balance",
+    "assembly_directions": ["forward", "reverse"],
+    "target": null,
+    "template": null,
+    "reward": null,
+    "weight": null,
+    "trained_parameter": null
+  },
+  "parent_records": {
+    "development-ubiquitin-v25-coordinate-beam-l24-20260720": {
+      "path": "verify/development_runs/ubiquitin_v25_coordinate_beam_l24_20260720/selected_states.json",
+      "sha256": "df465f42e2807959b2b90b15342712e07f4030f0b63635c14b0643add4b84124",
+      "domain_path": "verify/development_runs/ubiquitin_v23_2_local_domains_l24_20260720/selected_states.json",
+      "domain_sha256": "eb026b9ebd95600f5db039d119d71634d9f42f6f87dc0dde6ddf4ca59893d541"
+    },
+    "development-ubiquitin-v25-coordinate-beam-l32-20260720": {
+      "path": "verify/development_runs/ubiquitin_v25_coordinate_beam_l32_20260720/selected_states.json",
+      "sha256": "fb4949818feb2ee8d3579306de12586d6c748969763c9d3f13bcf56fdf9f2f48",
+      "domain_path": "verify/development_runs/ubiquitin_v23_2_local_domains_l32_20260720/selected_states.json",
+      "domain_sha256": "306c489ddfef299ccedc8a0562552ddc1e1cf79fcf63049f31fdcf8cc8bb4af0"
+    },
+    "development-ubiquitin-v25-coordinate-beam-l76-20260720": {
+      "path": "verify/development_runs/ubiquitin_v25_coordinate_beam_l76_20260720/selected_states.json",
+      "sha256": "aa5ca2beded2e743546a2c98d80c6e7cd37dc75881fde58a5f331e7b16bece47",
+      "domain_path": "verify/development_runs/ubiquitin_v23_2_local_domains_l76_20260720/selected_states.json",
+      "domain_sha256": "06d22584e5445319df05c79b56a75724fd2782cf92b6a4840d910e8fb0161d3e"
+    }
+  },
+  "source_sha256": {
+    "verify/blind_selector_v23_2.json": "14c4a6b77e22778fdaa75e4148b6adf2e2f7611c9b477f77fda451dac99b408e",
+    "verify/blind_selector_v25.json": "095a8bc2d75dcd691ded58f52701e5f31a432f48851f83f67deb412f3023a6c1",
+    "verify/blind_selector_v26.json": "17b9612604b48fcbe57e0245090bf28281bfb0b164741e4ebed01c5398b99599",
+    "tools/blind_24_lattice_selector_v23.py": "88c28f5bce3c66c22d457d1096b76b925834955a2c92ea896821efa720814033",
+    "tools/blind_24_lattice_selector_v24.py": "555e3d385cb7090ad7861eddd8715907b7a633abe65ef9e50baf349625bd31e9",
+    "tools/blind_24_lattice_selector_v25.py": "312ee496765a14739ea05fbce7acc7aa5ee2be9546d02baf5cc960fa0b6a9f5b",
+    "tools/blind_24_lattice_selector_v26.py": "8e6a1514782ce2338089d9364834e13a86ff80809a69cecb99c334161993703d",
+    "tools/blind_24_lattice_selector_v26_1.py": "bca6a4a88d39f960325f47ef33b471e95f524b58e271d57b611c3912a885955e",
+    "tools/global_sequence_constraint_graph_v1.py": "f7e412ce5cb8863281ec13afe76e2617aacff5de922125cb855094c00c6d5cac",
+    "tools/run_blind_protocol_v21.py": "19a070f41e7666940cbc418d3b4b90c94db5cad69ee4ac3e0756b374dba712bc",
+    "tools/run_blind_protocol_v26.py": "6e4269643bdff0e77ba2c9a74d735a818f8a77df5991c028049ccfc1c148d756",
+    "tools/run_blind_protocol_v26_1.py": "16e0edc797301359ba0ea67860a478ace384af2265534295a25fa178c59a9794",
+    "verify/evaluate_sealed_blind_v26_1.py": "dcbf4d39c7cb2c5282868bf3a6b8d366670e4156c01228e883d304d5fec41e49"
+  },
+  "status": "cumulative development correction awaiting sealed applied data"
+}

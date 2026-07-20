@@ -1,0 +1,17 @@
+{
+  "ca_drmsd_angstrom": 6.7648477959302,
+  "execution": "post-seal structural comparison",
+  "matched_ca_atoms": 76,
+  "official_run": false,
+  "parent_departures": 7,
+  "result_type": "cumulative development benchmark",
+  "run_id": "development-ubiquitin-v26-1-focal-topology-l76-20260720",
+  "schema": "fold-protein-blind-evaluation/v26.1",
+  "seal_sha256": "510a8ab51fd9dc722d0c3cbe2ead302ebfc4e4479fcfa5e71c7ffa1085c06832",
+  "sequence_length": 76,
+  "status": "completed",
+  "target_id": "1ubq.pdb",
+  "target_sha256": "d4a6812d8951cf6594e6a0763f089e35f5a80b62acb3c117b2c5565228a7b161",
+  "tm_score": 0.12875654762806402,
+  "topology_pair_count": 24
+}

@@ -546,6 +546,29 @@ substantive frontier is joint long-range topology within this successful basis,
 followed by the same sealed real-sequence ladder. Nothing in these implemented
 relations establishes a theorem-derived obstruction to the benchmark goal.
 
+V26 performs the joint long-range expansion inside that basis. The weight-free
+ordinal relation retains up to 24 unresolved segment pairs. For every
+participating residue pair, the selector exhausts all 576 combinations of the
+two admitted 24-state domains and then propagates 24 paired alternatives
+through forward and reverse complete-chain beams. At L76 this changes nine V25
+states and reaches TM `0.1267651561` / dRMSD `7.1043316569 Å`: the distance
+geometry improves while TM is lower. This applied development pattern
+localises the ordering correction without becoming a theoretical conclusion.
+
+V26.1 applies that correction by requiring each complete paired domain to pass
+the exact focal segment-pair relation that caused its expansion before
+whole-chain balance. Its sealed L76 execution performs 221,208 focal
+evaluations, changes seven V25 states, and reaches **TM `0.1287565476` /
+dRMSD `6.7648477959 Å`**. Relative to V25, dRMSD improves **5.34%** while TM
+is retained within **0.31%**; relative to V26, both measures improve. The
+dRMSD is **14.07% better than V13**. At L24 V26.1 improves dRMSD over V25 with
+lower TM, while L32 is lower on both measures. V25 is therefore preserved as
+the strongest full-length TM branch and V26.1 as the strongest full-length
+distance-geometry branch. The next substantive construction is a
+constitutional reconciliation of those single- and pair-coordinate frontiers,
+followed by the same sealed real-sequence ladder. No target measurement enters
+that selection rule.
+
 ## Preserved development evidence, not attributed conclusions
 
 Selector v2 receipts remain intact because they contain useful target-isolation,
@@ -591,7 +614,7 @@ The registry verifier halts if:
 
 Generated PDBs and campaign receipts are evidence rather than forcing source.
 They are bound by the protected construction manifest or their immutable seals.
-All 101 tracked PDBs are also exhaustively classified: two experimental
+All 107 tracked PDBs are also exhaustively classified: two experimental
 references, one protected target-assisted construction, eleven sealed v2
 development outputs, four sealed v3 blind predictions, one sealed v4 auxiliary
 development output, two sealed v5 applied development outputs, and thirty-nine
@@ -599,7 +622,8 @@ legacy pre-project development artifacts, plus the three sealed v6-v8 and
 three sealed v9-v10, one sealed v11, one sealed v12, three sealed v13, two
 sealed v14, one sealed v15, one sealed v16, one sealed v17, one sealed v18,
 three sealed v19, one each sealed v20, v21 and v22, nine sealed
-V23/V23.1/V23.2 development outputs, and nine sealed V24/V24.1/V25 outputs
+V23/V23.1/V23.2 development outputs, nine sealed V24/V24.1/V25 outputs, and
+six sealed V26/V26.1 outputs
 described above.
 Their complete path-and-content census is hash-bound by the registry; both v2
 aggregate seals are reverified. Legacy filenames such as `predicted`,
@@ -640,13 +664,19 @@ advance to TM `0.1291502547` / dRMSD `7.1461955341 Å` establishes the current
 successful development direction, while V13's TM `0.1422687755` remains the
 top complete-sequence topology measurement in this line.
 
-The next state is a substantive joint long-range topology expansion inside
-V25's parent-anchored search basis, with the short-prefix distance relation
-retained in the same applied ladder. New relations must be named in their own
-immutable manifest, traced through the engine standard, source-bound, tested,
-and executed on sealed real sequence before comparison. The protected
-complete-lattice construction, forced secondary-structure coordinates, and
-successive sealed blind local and whole-chain advances establish an executable
+V26 adds complete paired transitions across unresolved long-range segment
+relations; V26.1 admits those transitions first through their focal relation.
+The resulting L76 dRMSD of `6.7648477959 Å` is the strongest complete-sequence
+distance geometry in the V13-V26 line while retaining TM `0.1287565476`.
+
+The next state is a constitutional reconciliation of V25's strongest
+full-length TM frontier and V26.1's strongest distance-geometry frontier,
+without target-selected weights or target feedback, followed by the same
+sealed L24/L32/L76 ladder. New relations must be named in their own immutable
+manifest, traced through the engine standard, source-bound, tested, and
+executed on sealed real sequence before comparison. The protected complete-
+lattice construction, forced secondary-structure coordinates, and successive
+sealed blind local and whole-chain advances establish an executable
 continuation and no theorem-derived wall at the current stage. Maria decides
 when development evidence earns an official run and what conclusion the data
 supports.

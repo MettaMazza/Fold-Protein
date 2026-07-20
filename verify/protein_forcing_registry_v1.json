@@ -42,6 +42,8 @@
     "blind_selector_v24": "sealed coherent four-residue tuple architecture at 24, 32 and 76 residues; preserved as applied development evidence that complete tuple replacement over-displaced the stronger V23.2 path",
     "blind_selector_v24_1": "sealed overlapping-window boundary-closure correction at 24, 32 and 76 residues; improved both V24 measures at L76 but did not recover V23.2",
     "blind_selector_v25": "sealed parent-anchored constitutional coordinate-beam architecture at 24, 32 and 76 residues; improves TM at all three lengths over V23.2 and at L76 improves TM 26.94% and dRMSD 6.69% with 11 parent departures",
+    "blind_selector_v26": "sealed complete 24x24 joint segment-topology transition architecture at 24, 32 and 76 residues; improves V25 dRMSD at L24 and L76 and supplies the applied basis for focal admission",
+    "blind_selector_v26_1": "sealed focal segment-pair admission correction at 24, 32 and 76 residues; L76 reaches 6.7648477959 Å dRMSD, a 5.34% advance over V25 and 14.07% over V13, while retaining TM 0.1287565476 with seven V25 departures",
     "legacy_engines": "retained history only; excluded from promoted and active continuation routes"
   },
   "inherited_toolchain_boundary": {
@@ -308,6 +310,16 @@
       "verify/evaluate_sealed_blind_v24.py",
       "verify/evaluate_sealed_blind_v24_1.py",
       "verify/evaluate_sealed_blind_v25.py"
+    ],
+    "blind_v26_joint_topology_development": [
+      "tests/test_blind_selector_v26.py",
+      "tests/test_blind_selector_v26_1.py",
+      "tools/blind_24_lattice_selector_v26.py",
+      "tools/blind_24_lattice_selector_v26_1.py",
+      "tools/run_blind_protocol_v26.py",
+      "tools/run_blind_protocol_v26_1.py",
+      "verify/evaluate_sealed_blind_v26.py",
+      "verify/evaluate_sealed_blind_v26_1.py"
     ],
     "legacy_agent_development_unpromoted": [
       "tests/test_blind_protocol.py",
@@ -682,6 +694,24 @@
       "tools/blind_24_lattice_selector_v25.py",
       "tools/global_sequence_constraint_graph_v1.py",
       "tools/run_blind_protocol_v25.py"
+    ],
+    "v26_runtime_roots": [
+      "tools/blind_24_lattice_selector_v23.py",
+      "tools/blind_24_lattice_selector_v24.py",
+      "tools/blind_24_lattice_selector_v25.py",
+      "tools/blind_24_lattice_selector_v26.py",
+      "tools/global_sequence_constraint_graph_v1.py",
+      "tools/run_blind_protocol_v26.py"
+    ],
+    "v26_1_runtime_roots": [
+      "tools/blind_24_lattice_selector_v23.py",
+      "tools/blind_24_lattice_selector_v24.py",
+      "tools/blind_24_lattice_selector_v25.py",
+      "tools/blind_24_lattice_selector_v26.py",
+      "tools/blind_24_lattice_selector_v26_1.py",
+      "tools/global_sequence_constraint_graph_v1.py",
+      "tools/run_blind_protocol_v26.py",
+      "tools/run_blind_protocol_v26_1.py"
     ]
   },
   "generated_evidence": {
@@ -714,11 +744,13 @@
     "v24_coherent_segment_development": "verify/development_runs/ubiquitin_v24_coherent_segments_l{24,32,76}_20260720/ bind locally coherent tuple construction and its sealed applied development measurements; the displacement pattern motivates the later parent-anchored search basis.",
     "v24_1_boundary_closure_development": "verify/development_runs/ubiquitin_v24_1_boundary_closed_l{24,32,76}_20260720/ bind complete overlapping-window boundary re-evaluation and its sealed applied measurements; L76 improves both measures over V24.",
     "v25_coordinate_beam_development": "verify/development_runs/ubiquitin_v25_coordinate_beam_l{24,32,76}_20260720/ bind the parent-anchored one-coordinate transition basis and sealed applied measurements; TM improves over V23.2 at every length and the 76-residue route improves TM 26.94% and dRMSD 6.69% with 11 parent departures.",
+    "v26_joint_topology_development": "verify/development_runs/ubiquitin_v26_joint_topology_l{24,32,76}_20260720/ bind exhaustive 24x24 paired transition domains over weight-free unresolved segment relations and their sealed applied measurements.",
+    "v26_1_focal_topology_development": "verify/development_runs/ubiquitin_v26_1_focal_topology_l{24,32,76}_20260720/ bind focal relation admission before whole-chain balance; the complete 76-residue route improves V25 dRMSD 5.34% to 6.7648477959 Å while retaining TM 0.1287565476 with seven departures.",
     "classification": "A recorded development execution is not a Maria finding, loss or failed prediction."
   },
   "artifact_inventory": {
-    "tracked_pdb_files": 101,
-    "tracked_pdb_file_set_sha256": "3e8719adad9af61a3c78d332ccb5a2a26766987c76b65828e68f018e9c19c1ff",
+    "tracked_pdb_files": 107,
+    "tracked_pdb_file_set_sha256": "3142d740b15d3290ba11ec27ff906914dac4c57bc508f7319d11b793b67caa94",
     "classes": {
       "experimental_reference": [
         "verify/1cop.pdb",
@@ -833,6 +865,16 @@
         "verify/development_runs/ubiquitin_v25_coordinate_beam_l24_20260720/prediction.pdb",
         "verify/development_runs/ubiquitin_v25_coordinate_beam_l32_20260720/prediction.pdb",
         "verify/development_runs/ubiquitin_v25_coordinate_beam_l76_20260720/prediction.pdb"
+      ],
+      "sealed_v26_joint_topology_development_output": [
+        "verify/development_runs/ubiquitin_v26_joint_topology_l24_20260720/prediction.pdb",
+        "verify/development_runs/ubiquitin_v26_joint_topology_l32_20260720/prediction.pdb",
+        "verify/development_runs/ubiquitin_v26_joint_topology_l76_20260720/prediction.pdb"
+      ],
+      "sealed_v26_1_focal_topology_development_output": [
+        "verify/development_runs/ubiquitin_v26_1_focal_topology_l24_20260720/prediction.pdb",
+        "verify/development_runs/ubiquitin_v26_1_focal_topology_l32_20260720/prediction.pdb",
+        "verify/development_runs/ubiquitin_v26_1_focal_topology_l76_20260720/prediction.pdb"
       ],
       "legacy_preproject_development_artifact": [
         "1ubq_autonomous.pdb",

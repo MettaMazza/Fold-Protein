@@ -193,6 +193,19 @@ V23-V25 source hashes and receipts as the applied causal record. The next
 substantive construction should extend joint long-range topology inside the
 successful parent-anchored search basis, followed by the same sealed ladder.
 
+V26 executes that joint topology expansion. For 24 weight-free unresolved
+segment relations it exhausts every participating residue pair's full 24x24
+domain and propagates paired transitions bidirectionally. V26.1 requires each
+paired domain to pass its own focal segment-pair relation before whole-chain
+balance. At L76 it reaches **TM `0.1287565476` / dRMSD `6.7648477959 Å`** with
+seven V25 departures: dRMSD improves **5.34% over V25** and **14.07% over
+V13**, while TM is 0.31% below V25 and 1.57% above V26. At L24 dRMSD improves
+over V25 with lower TM; L32 regresses on both measures. Preserve V25 as the
+strongest full-length TM branch and V26.1 as the strongest full-length dRMSD
+branch. The next construction should reconcile their single-coordinate and
+focally admitted pair-coordinate frontiers constitutionally, then repeat the
+sealed ladder. Do not use target measurements to choose candidates.
+
 **The sequence supplies the spatial command.** The forward-forcing programme derives how amino-acid
 identity determines the invariant exclusions and relations that select among the 576 exact states per
 residue. Every proposed relation is routed through the engine; a violation halts rather than becoming
