@@ -153,11 +153,14 @@ dRMSD** (0.157% improvement). At the matched L32 and L76 continuations it
 selects every V13 state and produces byte-identical PDBs and measurements. The
 complete V19 trace still records an active hard vector of **(48 backbone, 30
 graph)** and 110 atom encounters. V20 adds the exact atom-encounter count as a
-child stratum and preserves V19 exactly at L24. Preserve V13 as the current
-complete-sequence predictive route, retain V19/V20 as source-bound applied
-evidence, and direct the next construction toward graph-derived inter-window
-orientation or long-range contact topology rather than extending V20
-unchanged. Maria alone decides whether and when further runs occur.
+child stratum and preserves V19 exactly at L24. V21's explicit fold-to-One
+contact map also preserves V19 at L24 as a soft objective. V22 places the exact
+contact deficit after parent exclusions, changes 22/24 states and improves
+dRMSD by 0.701%, while TM and the local-window comparison are mixed. Preserve
+V13 as the current complete-sequence predictive route, retain V19-V22 as
+source-bound applied evidence, and direct the next construction toward
+sequence-derived contact type/topology rather than extending total contact
+quantity unchanged. Maria alone decides whether and when further runs occur.
 
 **The sequence supplies the spatial command.** The forward-forcing programme derives how amino-acid
 identity determines the invariant exclusions and relations that select among the 576 exact states per

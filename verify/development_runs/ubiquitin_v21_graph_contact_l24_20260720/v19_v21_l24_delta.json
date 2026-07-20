@@ -1,0 +1,32 @@
+{
+  "schema": "fold-protein-v19-v21-l24-development-delta/v1",
+  "status": "completed",
+  "result_type": "cumulative development benchmark",
+  "official_run": false,
+  "authority": "Maria Smith alone assigns conclusions and official status.",
+  "applied_comparison": {
+    "sequence_length": 24,
+    "relation": "explicit fold-to-One sidechain atom-contact count as one symmetric ordinal objective",
+    "selected_state_identity": "24/24",
+    "selected_state_differences": 0,
+    "prediction_pdb_byte_identity": true,
+    "prediction_pdb_sha256": "a11dd85348ffa645fff4dad4f9ae3b6ea4cfe0c9381ed18f9b31df568f5fd84e",
+    "v19_tm_score": 0.025544854782528364,
+    "v21_tm_score": 0.025544854782528364,
+    "v19_ca_drmsd_angstrom": 7.005403396485503,
+    "v21_ca_drmsd_angstrom": 7.005403396485503,
+    "contact_residue_pair_count": 19,
+    "atom_contact_count": 123,
+    "wall_time_seconds": 273.39,
+    "maximum_resident_set_bytes": 90685440
+  },
+  "source_bound_evidence": {
+    "v21_selected_states_sha256": "14b1617ce3b696e2ab1faf5ae69c25ce573402ad3ae2c82438a6ec5bae1262c9",
+    "v21_seal_sha256": "a2aea662345b7ed7f65663f02fa82da641d34b499efd2915bcbf83a36377335f",
+    "v21_evaluation_sha256": "7b3ad8d32ba5ca3273dc047fe42e7dfacdb1c76b6a0ebadd1dadf6c267a7849e"
+  },
+  "development_direction": "The explicit contact map is counted and active, but as one of sixteen symmetric objectives it preserves every V19 decision. The next calculation should test contact topology in an ordered assembly stratum after parent exclusions rather than add another soft objective.",
+  "full_trial_recommendation": "Do not extend V21 unchanged. Run the contact-deficit hierarchy first on the matched sealed L24 sequence. Maria alone decides official status and conclusions.",
+  "theoretical_status": "Exact preservation is neutral applied evidence, not a theoretical wall. It confirms the contact map constitution and localises its effective placement in the assembly order.",
+  "author_audit": "Codex gpt-5.6-sol, high reasoning"
+}

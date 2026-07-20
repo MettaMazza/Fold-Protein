@@ -1,0 +1,50 @@
+{
+  "schema": "fold-protein-v19-v22-l24-development-delta/v1",
+  "status": "completed",
+  "result_type": "cumulative development benchmark",
+  "official_run": false,
+  "authority": "Maria Smith alone assigns conclusions and official status.",
+  "applied_comparison": {
+    "sequence_length": 24,
+    "relation": "exact contact deficit after backbone and graph exclusions",
+    "selected_state_identity": "2/24",
+    "selected_state_differences": 22,
+    "difference_positions_one_based": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+    "prediction_pdb_byte_identity": false,
+    "v19_tm_score": 0.025544854782528364,
+    "v22_tm_score": 0.023237568885348853,
+    "tm_change_percent": -9.032292087084404,
+    "v19_ca_drmsd_angstrom": 7.005403396485503,
+    "v22_ca_drmsd_angstrom": 6.956315035936626,
+    "ca_drmsd_improvement_percent": 0.7007213970505077,
+    "v22_hard_assembly_vector": [4, 2, 3547],
+    "contact_residue_pair_count": 17,
+    "atom_contact_count": 83,
+    "possible_atom_pair_count": 3630,
+    "contact_deficit": 3547,
+    "same_index_window_counts": {
+      "length_3": {"improved": 8, "tied": 0, "regressed": 14, "total": 22},
+      "length_4": {"improved": 10, "tied": 0, "regressed": 11, "total": 21},
+      "length_5": {"improved": 9, "tied": 0, "regressed": 11, "total": 20}
+    },
+    "best_local_tm": {
+      "length_3": {"v19": 0.9984764349723149, "v22": 0.9972255354783549},
+      "length_4": {"v19": 0.6488923284461807, "v22": 0.610548794122667},
+      "length_5": {"v19": 0.25764238229583347, "v22": 0.24444830118686628}
+    },
+    "wall_time_seconds": 274.8,
+    "maximum_resident_set_bytes": 89210880
+  },
+  "source_bound_evidence": {
+    "v22_selected_states_sha256": "be643389df705a62da19d73f1dbac692346a159f183c0c1c16fba14f833aa9e5",
+    "v22_seal_sha256": "229eb463a3229997ca30313cbdc08c854f32b4f20efa094c7a8c5a0d30b36ba4",
+    "v22_evaluation_sha256": "99a8977a6f35c1f453e6c635fc46cf22b5414522d5e7894d56ceba724a2353db",
+    "v22_local_l3_sha256": "909448e89442b014c1875435c65b0f52050e40f735a4658a58125006b7e91b87",
+    "v22_local_l4_sha256": "43066d4b0b0ee527c15ab6597c8ae6ee05aac811464d08dd57bca587f138e591",
+    "v22_local_l5_sha256": "01fa9b204ed75dc9c7a3b5435bec8c4aeee1880d84959c1e0b5ebe9f7137af1a"
+  },
+  "development_direction": "The ordered contact deficit actively changes global assembly and improves whole-prefix pairwise-distance geometry by 0.701%, demonstrating that explicit graph contacts can drive the path. The simultaneous TM decrease and mixed local rows mean this indiscriminate contact quantity is not promoted or extended unchanged. The next construction should separate contact type or topology while retaining V13 local geometry.",
+  "full_trial_recommendation": "Recommend another matched L24 development calculation first, using sequence-derived contact type/topology rather than total contact deficit. Do not spend an L32/L76 execution on V22 unchanged. Maria may order any run and alone assigns its status.",
+  "theoretical_status": "The active path change and dRMSD improvement are constructive evidence that graph-derived contact propagation is available. The mixed measurements establish no theorem-derived wall and instead locate the next refinement in contact constitution.",
+  "author_audit": "Codex gpt-5.6-sol, high reasoning"
+}

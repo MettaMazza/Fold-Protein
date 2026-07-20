@@ -472,6 +472,26 @@ exact-output measurement is not a theoretical wall: it isolates one child
 ordering while leaving graph-derived orientation and contact topology as the
 next constructive frontier.
 
+V21 constitutes the explicit non-neighbour contact map between the fold of the
+generated adjacent C-alpha step and that complete step. Its sealed L24 output
+records 19 contacted residue pairs and 123 atom contacts, while preserving all
+24 V19 states, the PDB and both global measurements exactly. As one of sixteen
+symmetric objectives the contact relation is counted but has zero predictive
+delta.
+
+V22 takes the exact finite contact complement—possible non-neighbour atom pairs
+minus occupied contacts—and places it after backbone and graph exclusions.
+The sealed L24 path changes 22/24 V19 states, reduces its first two exclusion
+strata from `(5, 5)` to `(4, 2)`, and improves C-alpha dRMSD from
+`7.005403396485503 Å` to `6.956315035936626 Å` (**0.700721%**). Whole-prefix
+TM changes from `0.025544854782528364` to `0.023237568885348853`. The local
+comparison is mixed: 8/22 length-three, 10/21 length-four and 9/20 length-five
+rows improve, while the maximum at each length is lower. This active applied
+result proves that graph-derived contacts can drive global path selection and
+improve pairwise-distance geometry. V22 is retained rather than extended
+unchanged; the next refinement is sequence-derived contact type or topology,
+not a theoretical limit on contact propagation.
+
 ## Preserved development evidence, not attributed conclusions
 
 Selector v2 receipts remain intact because they contain useful target-isolation,
@@ -517,14 +537,15 @@ The registry verifier halts if:
 
 Generated PDBs and campaign receipts are evidence rather than forcing source.
 They are bound by the protected construction manifest or their immutable seals.
-All 81 tracked PDBs are also exhaustively classified: two experimental
+All 83 tracked PDBs are also exhaustively classified: two experimental
 references, one protected target-assisted construction, eleven sealed v2
 development outputs, four sealed v3 blind predictions, one sealed v4 auxiliary
 development output, two sealed v5 applied development outputs, and thirty-nine
 legacy pre-project development artifacts, plus the three sealed v6-v8 and
 three sealed v9-v10, one sealed v11, one sealed v12, three sealed v13, two
 sealed v14, one sealed v15, one sealed v16, one sealed v17, one sealed v18,
-three sealed v19 and one sealed v20 development outputs described above.
+three sealed v19 and one each sealed v20, v21 and v22 development outputs
+described above.
 Their complete path-and-content census is hash-bound by the registry; both v2
 aggregate seals are reverified. Legacy filenames such as `predicted`,
 `optimized`, or `autonomous` do not confer result or authorship status.
@@ -549,12 +570,14 @@ V13's secured local frontier; and V20 has tested atom-encounter multiplicity as
 an exact child stratum. V19 improves both whole-prefix TM and dRMSD over V13 at
 L24, retains 22/24 states, and preserves the strongest length-four and
 length-five local rows. Its completed L32 and L76 routes converge exactly to
-V13 while retaining an active graph census. V13 therefore remains the current
-complete-sequence predictive route, with V19/V20 retained as fully traced
-applied development evidence.
+V13 while retaining an active graph census. V21 preserves that path with an
+explicit contact census; V22 activates a distinct contact-driven path and
+improves dRMSD while producing mixed TM/local measurements. V13 therefore
+remains the current complete-sequence predictive route, with V19-V22 retained
+as fully traced applied development evidence.
 
-The next state is to derive how explicit sequence-sidechain graph topology
-participates in inter-window orientation or long-range contact assembly,
+The next state is to derive how sequence-sidechain contact type or topology
+participates in inter-window orientation and long-range assembly,
 preserve the V13 local route, and test the new relation first on matched sealed
 sequence-only data. The single-build reuse path and cached complete-prefix
 graph calculations remain the measured optimisation direction, provided exact

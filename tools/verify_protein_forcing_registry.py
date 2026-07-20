@@ -146,7 +146,8 @@ def verify_registry() -> dict:
     runtime_hashes = {}
     for selector in (
             "v3", "v5", "v8", "v9", "v10", "v11", "v12", "v13",
-            "v14", "v15", "v16", "v17", "v18", "v19", "v20"):
+            "v14", "v15", "v16", "v17", "v18", "v19", "v20", "v21",
+            "v22"):
         runtime_hashes[selector] = {}
         roots = registry["legacy_exclusion"][f"{selector}_runtime_roots"]
         for relative in roots:

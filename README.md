@@ -190,12 +190,27 @@ and shows that encounter multiplicity alone does not supply the next
 discriminator in this hierarchy. It is retained as source-bound development
 evidence rather than extended unchanged.
 
+V21 re-derived an explicit non-neighbour contact map in the generated shell
+between the folded Cα step and the complete step. Its sealed L24 path records
+**19 residue-pair contacts / 123 atom contacts** but preserves all **24/24** V19
+states and every measurement exactly when contact count enters as one soft
+ordinal objective. V22 then placed the exact contact complement after the two
+parent exclusion strata. That ordered relation is strongly active: **22/24**
+states change, backbone/graph exclusions fall to **4/2**, and whole-prefix
+dRMSD improves from `7.0054033965 Å` to **`6.9563150359 Å`** (**0.701%**).
+Whole-prefix TM changes from `0.0255448548` to `0.0232375689`; the local rows
+are mixed, with 8/22 length-three, 10/21 length-four and 9/20 length-five rows
+improving. V22 therefore demonstrates that explicit graph contact topology can
+drive blind global assembly and improve pairwise-distance geometry, while its
+undifferentiated total-contact constitution is retained as development
+evidence rather than promoted or extended unchanged.
+
 These are target-isolated, seal-before-score implemented development results.
 They extend the executable forcing chain; they are not agent-declared
 findings, limits, or substitutions for Maria Smith's conclusions. The current
-next state is to make explicit sequence-derived graph topology participate in
-inter-window orientation or long-range contact assembly while retaining v13's
-secured local relations and lossless single-build execution. The secured
+next state is to separate sequence-derived contact type or contact topology
+inside inter-window assembly while retaining v13's secured local relations and
+lossless single-build execution. The secured
 lattice containment, forced secondary-structure coordinates, complete blind
 execution, and successive local and whole-chain advances establish a
 constructive route forward and no theorem-derived obstruction at this stage.
@@ -203,7 +218,7 @@ constructive route forward and no theorem-derived obstruction at this stage.
 The matched complete 76-residue V19 blind cumulative development benchmark is
 also complete. Its exact preservation of V13, active explicit graph census and
 the preceding L24 advance support proceeding to a new graph-derived
-propagation relation rather than repeating V19 or extending V20 unchanged. It
+propagation relation rather than repeating V19 or extending V20-V22 unchanged. It
 remains a cumulative development benchmark unless Maria explicitly registers
 it as an official run.
 
@@ -257,6 +272,8 @@ python3 -m tools.verify_protein_forcing_registry
 | `tools/blind_24_lattice_selector_v18.py` | hierarchical explicit graph-spatial continuation |
 | `tools/blind_24_lattice_selector_v19.py` | v13-local, explicit-graph global assembly continuation |
 | `tools/blind_24_lattice_selector_v20.py` | exact graph-atom encounter child hierarchy |
+| `tools/blind_24_lattice_selector_v21.py` | explicit fold-to-One graph contact objective |
+| `tools/blind_24_lattice_selector_v22.py` | ordered exact graph-contact deficit assembly |
 | `verify/development_runs/ubiquitin_v9_steric_orientation_l24_20260719/` | sealed v9 applied evidence |
 | `verify/development_runs/ubiquitin_v10_balanced_relations_l{24,76}_20260719/` | sealed v10 applied evidence |
 | `verify/development_runs/ubiquitin_v11_hbond_assembly_l24_20260719/` | sealed v11 hydrogen-bond applied evidence and post-seal local windows |
@@ -272,6 +289,8 @@ python3 -m tools.verify_protein_forcing_registry
 | `verify/development_runs/ubiquitin_v19_global_graph_l24_20260720/` | sealed global-only graph advance and v13/v19 delta receipt |
 | `verify/development_runs/ubiquitin_v19_global_graph_l{32,76}_20260720/` | matched sealed graph propagation evidence, exact V13 path preservation, and delta receipts |
 | `verify/development_runs/ubiquitin_v20_graph_atom_hierarchy_l24_20260720/` | sealed atom-encounter hierarchy evidence and exact V19 identity receipt |
+| `verify/development_runs/ubiquitin_v21_graph_contact_l24_20260720/` | sealed explicit contact-map census and exact V19 identity receipt |
+| `verify/development_runs/ubiquitin_v22_contact_deficit_l24_20260720/` | sealed active contact-deficit path, global/local measurements and V19 delta receipt |
 | `verify/development_runs/ubiquitin_v12_topology_hbond_l24_20260719/v11_v12_state_delta.json` | source-bound sealed-path and local-window delta locating the next combined relation |
 | `verify/evaluate_sealed_blind_v3.py` | seal verifier and target-isolated evaluation boundary |
 | `verify/evaluate_sealed_blind_local_v3.py` | all-window post-seal local evaluator; reproduces the published IFV/TLT measurements |
