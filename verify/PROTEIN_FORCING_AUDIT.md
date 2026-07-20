@@ -614,7 +614,7 @@ The registry verifier halts if:
 
 Generated PDBs and campaign receipts are evidence rather than forcing source.
 They are bound by the protected construction manifest or their immutable seals.
-All 110 tracked PDBs are also exhaustively classified: two experimental
+All 113 tracked PDBs are also exhaustively classified: two experimental
 references, one protected target-assisted construction, eleven sealed v2
 development outputs, four sealed v3 blind predictions, one sealed v4 auxiliary
 development output, two sealed v5 applied development outputs, and thirty-nine
@@ -623,7 +623,8 @@ three sealed v9-v10, one sealed v11, one sealed v12, three sealed v13, two
 sealed v14, one sealed v15, one sealed v16, one sealed v17, one sealed v18,
 three sealed v19, one each sealed v20, v21 and v22, nine sealed
 V23/V23.1/V23.2 development outputs, nine sealed V24/V24.1/V25 outputs, and
-six sealed V26/V26.1 outputs and three sealed V27 reconciliation outputs
+six sealed V26/V26.1 outputs, three sealed V27 reconciliation outputs and
+three sealed V28 multiscale outputs
 described above.
 Their complete path-and-content census is hash-bound by the registry; both v2
 aggregate seals are reverified. Legacy filenames such as `predicted`,
@@ -675,9 +676,13 @@ It improves both V26.1 measures at L24 and L32 and reaches the strongest L24
 dRMSD of those three branches. At L76 it improves dRMSD over V25 but does not
 retain V26.1's strongest complete-chain distance relation; V25 and V26.1
 therefore remain the leading complete-length TM and dRMSD frontiers. The next
-state is multiscale segment/domain reconciliation that preserves both parent
-frontiers through full-chain selection, without target-selected weights or
-target feedback. New relations must be named in their own immutable
+V28 now executes multiscale segment/domain reconciliation through repeated
+4/8/16/... residue scales. Its L76 result improves both V27 measures to TM
+`0.1284665482` / dRMSD `6.9615228794 Å`, and L24 dRMSD advances to
+`6.2059676701 Å`; L32 is lower than V27. The next correction isolates the
+intermediate-scale admission effect while preserving the successful
+complete-length multiscale route, without target-selected weights or target
+feedback. New relations must be named in their own immutable
 manifest, traced through the engine standard, source-bound, tested, and
 executed on sealed real sequence before comparison. The protected complete-
 lattice construction, forced secondary-structure coordinates, and successive

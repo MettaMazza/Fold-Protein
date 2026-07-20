@@ -1,0 +1,26 @@
+{
+  "ca_drmsd_angstrom": 6.96152287936987,
+  "execution": "post-seal structural comparison",
+  "matched_ca_atoms": 76,
+  "official_run": false,
+  "result_type": "cumulative development benchmark",
+  "run_id": "development-ubiquitin-v28-multiscale-reconciliation-l76-20260720",
+  "scales": [
+    4,
+    8,
+    16,
+    32,
+    64,
+    128
+  ],
+  "schema": "fold-protein-blind-evaluation/v28",
+  "seal_sha256": "8824c53743c8a4128c31c6675c55db5f439ea7a8b8841b90ac2a48c1b743f94e",
+  "sequence_length": 76,
+  "status": "completed",
+  "target_id": "1ubq.pdb",
+  "target_sha256": "d4a6812d8951cf6594e6a0763f089e35f5a80b62acb3c117b2c5565228a7b161",
+  "tm_score": 0.1284665482398503,
+  "v25_departures": 9,
+  "v26_1_departures": 6,
+  "v27_departures": 8
+}

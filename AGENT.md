@@ -222,6 +222,19 @@ relation through the complete chain. The next architectural correction is a
 multiscale segment/domain reconciliation that retains both parent frontiers
 through complete-length selection. Do not tune it from target measurements.
 
+V28 executes that multiscale correction. It propagates sealed V25, V26.1 and
+V27 blocks through 4/8/16/... residue scales, exposes both locally admitted
+boundary domains at every block, and reconciles forward and reverse frontiers
+after each scale. Its sealed L76 result reaches **TM `0.1284665482` / dRMSD
+`6.9615228794 Å`**, improving both V27 complete-length measures and recovering
+TM to within 0.53% of V25 while retaining 2.58% better dRMSD than V25. L24
+advances dRMSD again to **`6.2059676701 Å`**, with a small TM tradeoff; L32
+is lower than V27 on both measures. Preserve V28 as the leading reconciled
+complete-length branch and isolate the intermediate 8/16/32-residue admission
+effect before the next architecture. V25 and V26.1 remain the individual
+leading complete-length TM and dRMSD parent branches. Do not use target scores
+to select scale-frontier candidates.
+
 **The sequence supplies the spatial command.** The forward-forcing programme derives how amino-acid
 identity determines the invariant exclusions and relations that select among the 576 exact states per
 residue. Every proposed relation is routed through the engine; a violation halts rather than becoming

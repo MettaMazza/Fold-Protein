@@ -1,0 +1,76 @@
+{
+  "schema": "fold-protein-blind-selector/v28",
+  "version": "28.0.0-development",
+  "execution": "multiscale constitutional propagation of the sealed V25, V26.1 and V27 branches",
+  "foundation": {
+    "theorem": "one machine-checked self-proven theorem: there is no nothing",
+    "axioms": 0,
+    "trace": "sealed V25 plus V26.1 plus V27 paths and sealed V23.2 domains -> four-residue blocks -> repeated binary scale doubling -> complete branch block grafts plus binary boundary-domain transitions -> bidirectional constitutional reconciliation at every scale"
+  },
+  "selector_config": {
+    "base_segment_residues": 4,
+    "scale_progression": "repeated doubling through complete chain",
+    "branch_sources": ["V25", "V26.1", "V27"],
+    "block_transition": "unchanged plus complete branch grafts plus both boundary domains",
+    "domain_capacity": 24,
+    "frontier_capacity": 24,
+    "assembly_directions": ["forward", "reverse"],
+    "target": null,
+    "template": null,
+    "reward": null,
+    "weight": null,
+    "trained_parameter": null,
+    "continuity_lock": null
+  },
+  "parent_records": {
+    "development-ubiquitin-v27-branch-reconciliation-l24-20260720": {
+      "v25_path": "verify/development_runs/ubiquitin_v25_coordinate_beam_l24_20260720/selected_states.json",
+      "v25_sha256": "df465f42e2807959b2b90b15342712e07f4030f0b63635c14b0643add4b84124",
+      "v26_1_path": "verify/development_runs/ubiquitin_v26_1_focal_topology_l24_20260720/selected_states.json",
+      "v26_1_sha256": "dd6e424c59bbafb5ccd21c920f8f63c5eea578d9a57d9f468f62069701f37a7e",
+      "v27_path": "verify/development_runs/ubiquitin_v27_branch_reconciliation_l24_20260720/selected_states.json",
+      "v27_sha256": "af234e81f7088c9c0814b69eb22fa11ca8e3a937a677132b1cecbda403c4787f",
+      "domain_path": "verify/development_runs/ubiquitin_v23_2_local_domains_l24_20260720/selected_states.json",
+      "domain_sha256": "eb026b9ebd95600f5db039d119d71634d9f42f6f87dc0dde6ddf4ca59893d541"
+    },
+    "development-ubiquitin-v27-branch-reconciliation-l32-20260720": {
+      "v25_path": "verify/development_runs/ubiquitin_v25_coordinate_beam_l32_20260720/selected_states.json",
+      "v25_sha256": "fb4949818feb2ee8d3579306de12586d6c748969763c9d3f13bcf56fdf9f2f48",
+      "v26_1_path": "verify/development_runs/ubiquitin_v26_1_focal_topology_l32_20260720/selected_states.json",
+      "v26_1_sha256": "1269b36eee2f73ebda16b2fc11e468907353d0e253c7b66b7b05b34ab7cabadd",
+      "v27_path": "verify/development_runs/ubiquitin_v27_branch_reconciliation_l32_20260720/selected_states.json",
+      "v27_sha256": "15f1e932eebd75c06fbd6bdea36802ec66231d94b545e3544511f72b6f91a76d",
+      "domain_path": "verify/development_runs/ubiquitin_v23_2_local_domains_l32_20260720/selected_states.json",
+      "domain_sha256": "306c489ddfef299ccedc8a0562552ddc1e1cf79fcf63049f31fdcf8cc8bb4af0"
+    },
+    "development-ubiquitin-v27-branch-reconciliation-l76-20260720": {
+      "v25_path": "verify/development_runs/ubiquitin_v25_coordinate_beam_l76_20260720/selected_states.json",
+      "v25_sha256": "aa5ca2beded2e743546a2c98d80c6e7cd37dc75881fde58a5f331e7b16bece47",
+      "v26_1_path": "verify/development_runs/ubiquitin_v26_1_focal_topology_l76_20260720/selected_states.json",
+      "v26_1_sha256": "1324a31daa67d45ede0c1fbe1b00316adaedab343abac9ffae3cfb2c134a60ff",
+      "v27_path": "verify/development_runs/ubiquitin_v27_branch_reconciliation_l76_20260720/selected_states.json",
+      "v27_sha256": "0dde85ca381ed7680a54c0f5b88fa89b7a4abcae5443b3566a36051b60a5d468",
+      "domain_path": "verify/development_runs/ubiquitin_v23_2_local_domains_l76_20260720/selected_states.json",
+      "domain_sha256": "06d22584e5445319df05c79b56a75724fd2782cf92b6a4840d910e8fb0161d3e"
+    }
+  },
+  "source_sha256": {
+    "verify/blind_selector_v23_2.json": "14c4a6b77e22778fdaa75e4148b6adf2e2f7611c9b477f77fda451dac99b408e",
+    "verify/blind_selector_v25.json": "095a8bc2d75dcd691ded58f52701e5f31a432f48851f83f67deb412f3023a6c1",
+    "verify/blind_selector_v26_1.json": "dcbc26cc0d9e5bb607584b0151081006f1afe24cf01134983753610c24338a52",
+    "verify/blind_selector_v27.json": "38c562a0e81fed640681ccdfa212c291fb9b4444c650a240e0df5c1baa8dd0a6",
+    "tools/blind_24_lattice_selector_v23.py": "88c28f5bce3c66c22d457d1096b76b925834955a2c92ea896821efa720814033",
+    "tools/blind_24_lattice_selector_v24.py": "555e3d385cb7090ad7861eddd8715907b7a633abe65ef9e50baf349625bd31e9",
+    "tools/blind_24_lattice_selector_v25.py": "312ee496765a14739ea05fbce7acc7aa5ee2be9546d02baf5cc960fa0b6a9f5b",
+    "tools/blind_24_lattice_selector_v26.py": "8e6a1514782ce2338089d9364834e13a86ff80809a69cecb99c334161993703d",
+    "tools/blind_24_lattice_selector_v26_1.py": "bca6a4a88d39f960325f47ef33b471e95f524b58e271d57b611c3912a885955e",
+    "tools/blind_24_lattice_selector_v27.py": "8720ceb3e5d24accb9999beb2deede08831a5e0f6c8ce3d1bce16466cc703188",
+    "tools/blind_24_lattice_selector_v28.py": "c2a8a4495f978f0f62b3f91181a44c0958e91332efcf1a8b00ac2b93f28239c0",
+    "tools/global_sequence_constraint_graph_v1.py": "f7e412ce5cb8863281ec13afe76e2617aacff5de922125cb855094c00c6d5cac",
+    "tools/run_blind_protocol_v21.py": "19a070f41e7666940cbc418d3b4b90c94db5cad69ee4ac3e0756b374dba712bc",
+    "tools/run_blind_protocol_v27.py": "af1675190f3e0bc196d83cd21455aaccd4c109df7c0338919b682d1bf7dc2883",
+    "tools/run_blind_protocol_v28.py": "801d9025e2b7f061b521631e30a5bce24d20975ae99d7d4d8d3971e907393a74",
+    "verify/evaluate_sealed_blind_v28.py": "7ccad5d7fc507c16229a6a25017bb768851ea291b987109c2e221f8ebf027ef4"
+  },
+  "status": "cumulative development advance awaiting sealed applied data"
+}

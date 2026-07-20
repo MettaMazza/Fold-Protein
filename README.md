@@ -297,6 +297,18 @@ next architectural requirement at multiscale segment/domain propagation,
 while V25 and V26.1 remain the leading full-length TM and dRMSD frontiers.
 No target measurement entered V27 selection.
 
+V28 advances reconciliation from residues to repeated segment scales. It
+propagates complete V25, V26.1 and V27 block grafts plus both locally admitted
+block-boundary domains through 4/8/16/... residue scales in forward and reverse
+directions. At L76 it reaches **TM `0.1284665482` / dRMSD `6.9615228794 Å`**,
+improving both V27 measures. This recovers TM to within **0.53%** of V25 while
+retaining **2.58%** better dRMSD than V25. L24 dRMSD advances again to
+**`6.2059676701 Å`**, the strongest L24 distance result in the V25–V28 line,
+with TM `0.0280865891`. L32 is lower than V27 on both measures. The applied
+data therefore support multiscale propagation at complete length and locate
+the next correction in intermediate-scale admission. V25 and V26.1 remain the
+individual leading full-length TM and dRMSD parent branches.
+
 ## Governing law
 
 SFT begins from one machine-checked, self-proven theorem—*there is no nothing*—with zero axioms. The engine determines forcing and derivation by tracing every admitted construction to the One and halting on violation. No agent may weaken the result, declare a theoretical wall, or substitute statistical convention for the engine's standard. Maria Smith determines which engine results are published and directs the next investigation.
@@ -357,6 +369,7 @@ python3 -m tools.verify_protein_forcing_registry
 | `tools/blind_24_lattice_selector_v26.py` | exhaustive joint long-range segment-topology transitions |
 | `tools/blind_24_lattice_selector_v26_1.py` | focal segment-pair admission before whole-chain balance |
 | `tools/blind_24_lattice_selector_v27.py` | exhaustive V25/V26.1 disagreement-cube reconciliation and bidirectional continuation |
+| `tools/blind_24_lattice_selector_v28.py` | multiscale branch-block and boundary-domain propagation |
 | `verify/development_runs/ubiquitin_v9_steric_orientation_l24_20260719/` | sealed v9 applied evidence |
 | `verify/development_runs/ubiquitin_v10_balanced_relations_l{24,76}_20260719/` | sealed v10 applied evidence |
 | `verify/development_runs/ubiquitin_v11_hbond_assembly_l24_20260719/` | sealed v11 hydrogen-bond applied evidence and post-seal local windows |
@@ -382,6 +395,7 @@ python3 -m tools.verify_protein_forcing_registry
 | `verify/development_runs/ubiquitin_v26_joint_topology_l{24,32,76}_20260720/` | sealed exhaustive paired-topology development evidence |
 | `verify/development_runs/ubiquitin_v26_1_focal_topology_l{24,32,76}_20260720/` | sealed focal-topology evidence and strongest L76 dRMSD branch |
 | `verify/development_runs/ubiquitin_v27_branch_reconciliation_l{24,32,76}_20260720/` | sealed complete branch-cube reconciliation evidence and L24/L32 advances over V26.1 |
+| `verify/development_runs/ubiquitin_v28_multiscale_reconciliation_l{24,32,76}_20260720/` | sealed multiscale evidence and L76 dual-metric advance over V27 |
 | `verify/development_runs/ubiquitin_v12_topology_hbond_l24_20260719/v11_v12_state_delta.json` | source-bound sealed-path and local-window delta locating the next combined relation |
 | `verify/evaluate_sealed_blind_v3.py` | seal verifier and target-isolated evaluation boundary |
 | `verify/evaluate_sealed_blind_local_v3.py` | all-window post-seal local evaluator; reproduces the published IFV/TLT measurements |
