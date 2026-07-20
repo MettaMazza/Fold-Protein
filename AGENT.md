@@ -251,6 +251,19 @@ constitution. The next architecture must retain a weight-free frontier of
 admissible bounded-degree topologies and reconcile it with V25/V26.1/V28,
 without target-selected topology, weights, rewards or locks.
 
+V31 implements the complete counted degree frontier `2,3,4` and independently
+assembles all three sequence-derived topologies before one constitutional
+reconciliation. Its L24 gate recovers V30's distance regression to **dRMSD
+`5.5047257155 Å`**, still 11.30% better than V28, but with lower TM. At L32
+the final 24-path frontier contains 24 degree-4 paths and no degree-2/3 paths,
+and reaches **TM `0.0363843691` / dRMSD `5.7052176785 Å`**, below V28-V30.
+Do not run or promote V31 at L76: the registered short/intermediate gate has
+already exposed topology-family collapse. The next correction is an explicit
+cross-topology consensus constitution derived from the exact three-family and
+24-path counts; it must preserve topology-family provenance through final
+selection without a reward, fitted weight, target comparison or continuity
+lock.
+
 **The sequence supplies the spatial command.** The forward-forcing programme derives how amino-acid
 identity determines the invariant exclusions and relations that select among the 576 exact states per
 residue. Every proposed relation is routed through the engine; a violation halts rather than becoming

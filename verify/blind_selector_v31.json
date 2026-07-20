@@ -1,0 +1,66 @@
+{
+  "schema": "fold-protein-blind-selector/v31",
+  "version": "31.0.0-development",
+  "execution": "bounded tertiary topology-frontier assembly",
+  "foundation": {
+    "theorem": "one machine-checked self-proven theorem: there is no nothing",
+    "axioms": 0,
+    "trace": "sealed V25-V30 branches plus sealed V23.2 domains -> four-residue bodies -> complete integer degree frontier from two boundaries through four residues -> independent sequence-only ordinal closures -> complete bidirectional assembly per topology -> permutation-invariant constitutional reconciliation of every retained topology frontier"
+  },
+  "selector_config": {
+    "body_residues": 4,
+    "degree_frontier": [2, 3, 4],
+    "topology": "complete counted bounded-degree ordinal frontier",
+    "branch_sources": ["V25", "V26.1", "V27", "V28", "V29", "V30"],
+    "domain_capacity": 24,
+    "frontier_capacity": 24,
+    "assembly_directions": ["forward", "reverse"],
+    "target": null,
+    "template": null,
+    "reward": null,
+    "weight": null,
+    "trained_parameter": null,
+    "continuity_lock": null
+  },
+  "parent_records": {
+    "development-ubiquitin-v30-tertiary-path-l24-20260720": {
+      "v28_run_id": "development-ubiquitin-v28-multiscale-reconciliation-l24-20260720",
+      "v29_run_id": "development-ubiquitin-v29-tertiary-bodies-l24-20260720",
+      "v29_path": "verify/development_runs/ubiquitin_v29_tertiary_bodies_l24_20260720/selected_states.json",
+      "v29_sha256": "78224272a71f47cb109be33665babb24967f2a66715ed25aa8c0e4386b3c69dd",
+      "v30_run_id": "development-ubiquitin-v30-tertiary-path-l24-20260720",
+      "v30_path": "verify/development_runs/ubiquitin_v30_tertiary_path_l24_20260720/selected_states.json",
+      "v30_sha256": "cdee1313732b9b3fa7a8f0c5b9e558b39fb0fbca6bc4a234e20b6a77d11821be"
+    },
+    "development-ubiquitin-v30-tertiary-path-l32-20260720": {
+      "v28_run_id": "development-ubiquitin-v28-multiscale-reconciliation-l32-20260720",
+      "v29_run_id": "development-ubiquitin-v29-tertiary-bodies-l32-20260720",
+      "v29_path": "verify/development_runs/ubiquitin_v29_tertiary_bodies_l32_20260720/selected_states.json",
+      "v29_sha256": "192982df0d8c856bd71cc80d0dbc416d1cd0af1b9ad3e557a60ab6975f04c4f9",
+      "v30_run_id": "development-ubiquitin-v30-tertiary-path-l32-20260720",
+      "v30_path": "verify/development_runs/ubiquitin_v30_tertiary_path_l32_20260720/selected_states.json",
+      "v30_sha256": "9a9a50108c9b39677ca88d861a5c4cbd8325a26b3c6e75976483b0b71aff1e1a"
+    },
+    "development-ubiquitin-v30-tertiary-path-l76-20260720": {
+      "v28_run_id": "development-ubiquitin-v28-multiscale-reconciliation-l76-20260720",
+      "v29_run_id": "development-ubiquitin-v29-tertiary-bodies-l76-20260720",
+      "v29_path": "verify/development_runs/ubiquitin_v29_tertiary_bodies_l76_20260720/selected_states.json",
+      "v29_sha256": "2e6b4f87ce9637456751aa99e4975c9a058149c0c20551bd328a5d99dcd00c44",
+      "v30_run_id": "development-ubiquitin-v30-tertiary-path-l76-20260720",
+      "v30_path": "verify/development_runs/ubiquitin_v30_tertiary_path_l76_20260720/selected_states.json",
+      "v30_sha256": "c5a5c8335de4125d4e5ccd4328c67c8636920fe8fff892a79de2a957a311020e"
+    }
+  },
+  "source_sha256": {
+    "verify/blind_selector_v29.json": "bd1294b8c15d6da0d480ef1adc39f8b5bbbe59828674358a3f1dc1baac1be7b1",
+    "tools/blind_24_lattice_selector_v29.py": "ea64f91a4c994046e774b895ecbfddf4157f0f74a2783652bec58fe802201ca2",
+    "tools/blind_24_lattice_selector_v30.py": "0ba662ca72a7f2718e2235f5510c5ca5a77842493194ebf570a7b2e4573b39e9",
+    "tools/tertiary_segment_body_constitution_v1.py": "111d3d42dc514035f09bb997181b75dcd9feb14bd96acdba07d8718b15d162de",
+    "tools/tertiary_segment_body_constitution_v2.py": "63c9c0cd9f3df6eb805cfc5c051ba1ebc37f978c85f080434f7b378a172de5ce",
+    "tools/tertiary_segment_body_constitution_v3.py": "486b858d834aeed4e2964fb6a43a410f1ccdfe2b3f14ab6b91d01c994c26f67a",
+    "tools/blind_24_lattice_selector_v31.py": "4bb2021bd9d4195f6068e7c22163cc15b0806c936be90f485d17030a6cfb9469",
+    "tools/run_blind_protocol_v31.py": "9de7b82bfd60202956bcaabce8bedcb33d426cf42b59115c5aaaea8c3b4bbf1d",
+    "verify/evaluate_sealed_blind_v31.py": "f51730d390066186c78771fb7636a60e7d33587d31c24444c53e6170ee86c6f7"
+  },
+  "status": "cumulative development architecture awaiting sealed applied data"
+}

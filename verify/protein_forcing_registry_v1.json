@@ -48,6 +48,7 @@
     "blind_selector_v28": "sealed multiscale segment/domain propagation at 24, 32 and 76 residues; improves both complete-length measures over V27 to TM 0.1284665482 and 6.9615228794 Å dRMSD, and advances L24 dRMSD to 6.2059676701 Å",
     "blind_selector_v29": "sealed sequence-forced tertiary four-residue body tree at 24, 32 and 76 residues; materially improves L32 to TM 0.0499243401 and 4.5466887676 Å dRMSD and L24 dRMSD to 5.4137342407 Å, while its high-degree full-chain hub supplies applied evidence for bounded topology",
     "blind_selector_v30": "sealed sequence-forced degree-two tertiary body path at 24, 32 and 76 residues; preserves the intermediate-length advance at TM 0.0502723476 and 4.9045982349 Å dRMSD, while its short- and full-chain rows supply applied evidence that one fixed path is too restrictive",
+    "blind_selector_v31": "sealed complete degree-2/3/4 tertiary-topology frontier gate at 24 and 32 residues; recovers V30 short-length distance geometry to 5.5047257155 Å but the L32 final frontier collapses to degree-4 candidates, supplying the applied basis for explicit cross-topology consensus before another complete-length run",
     "legacy_engines": "retained history only; excluded from promoted and active continuation routes"
   },
   "inherited_toolchain_boundary": {
@@ -351,6 +352,13 @@
       "tools/run_blind_protocol_v30.py",
       "tools/tertiary_segment_body_constitution_v2.py",
       "verify/evaluate_sealed_blind_v30.py"
+    ],
+    "blind_v31_bounded_topology_frontier_development": [
+      "tests/test_blind_selector_v31.py",
+      "tools/blind_24_lattice_selector_v31.py",
+      "tools/run_blind_protocol_v31.py",
+      "tools/tertiary_segment_body_constitution_v3.py",
+      "verify/evaluate_sealed_blind_v31.py"
     ],
     "legacy_agent_development_unpromoted": [
       "tests/test_blind_protocol.py",
@@ -800,6 +808,27 @@
       "tools/run_blind_protocol_v28.py",
       "tools/run_blind_protocol_v29.py",
       "tools/run_blind_protocol_v30.py"
+    ],
+    "v31_runtime_roots": [
+      "tools/blind_24_lattice_selector_v23.py",
+      "tools/blind_24_lattice_selector_v24.py",
+      "tools/blind_24_lattice_selector_v25.py",
+      "tools/blind_24_lattice_selector_v26.py",
+      "tools/blind_24_lattice_selector_v26_1.py",
+      "tools/blind_24_lattice_selector_v27.py",
+      "tools/blind_24_lattice_selector_v28.py",
+      "tools/blind_24_lattice_selector_v29.py",
+      "tools/blind_24_lattice_selector_v30.py",
+      "tools/blind_24_lattice_selector_v31.py",
+      "tools/global_sequence_constraint_graph_v1.py",
+      "tools/tertiary_segment_body_constitution_v1.py",
+      "tools/tertiary_segment_body_constitution_v2.py",
+      "tools/tertiary_segment_body_constitution_v3.py",
+      "tools/run_blind_protocol_v21.py",
+      "tools/run_blind_protocol_v28.py",
+      "tools/run_blind_protocol_v29.py",
+      "tools/run_blind_protocol_v30.py",
+      "tools/run_blind_protocol_v31.py"
     ]
   },
   "generated_evidence": {
@@ -838,11 +867,12 @@
     "v28_multiscale_reconciliation_development": "verify/development_runs/ubiquitin_v28_multiscale_reconciliation_l{24,32,76}_20260720/ bind repeated 4/8/16/... block propagation, complete branch grafts and binary boundary domains in both directions; L76 improves both V27 measures and L24 advances dRMSD to 6.2059676701 Å.",
     "v29_tertiary_body_tree_development": "verify/development_runs/ubiquitin_v29_tertiary_bodies_l{24,32,76}_20260720/ bind a sequence-only ordinal spanning tree over four-residue bodies and complete joint edge assembly; L32 improves both V28 measures by 12.33% TM and 19.04% dRMSD, and L24 improves dRMSD by 12.77%, while the L76 hub behavior remains development evidence rather than a Maria finding or limit.",
     "v30_degree_two_tertiary_path_development": "verify/development_runs/ubiquitin_v30_tertiary_path_l{24,32,76}_20260720/ bind the counted two-boundary degree relation and a connected acyclic body path; L32 retains a 13.11% TM and 12.66% dRMSD advance over V28, while the short- and full-chain measurements establish the applied basis for retaining multiple admissible tertiary topologies.",
+    "v31_bounded_topology_frontier_development": "verify/development_runs/ubiquitin_v31_topology_frontier_l{24,32}_20260720/ bind the complete counted degree interval 2/3/4 and independent bidirectional assembly for each sequence-only topology; L24 recovers V30 dRMSD to 5.5047257155 Å, while L32 final retention is 24/24 degree-4 candidates and supplies the applied basis for constitutional cross-topology consensus before complete-length execution.",
     "classification": "A recorded development execution is not a Maria finding, loss or failed prediction."
   },
   "artifact_inventory": {
-    "tracked_pdb_files": 119,
-    "tracked_pdb_file_set_sha256": "e467fbdcdda0ff7a8d4f33fcfd651ebe400ec473e3b9e6eca0e8d33deca54bd7",
+    "tracked_pdb_files": 121,
+    "tracked_pdb_file_set_sha256": "df93aba769d6bf6c4d6e9d770c119108dd90bf9d5b4cc6885689689c7e4e622c",
     "classes": {
       "experimental_reference": [
         "verify/1cop.pdb",
@@ -987,6 +1017,10 @@
         "verify/development_runs/ubiquitin_v30_tertiary_path_l24_20260720/prediction.pdb",
         "verify/development_runs/ubiquitin_v30_tertiary_path_l32_20260720/prediction.pdb",
         "verify/development_runs/ubiquitin_v30_tertiary_path_l76_20260720/prediction.pdb"
+      ],
+      "sealed_v31_bounded_topology_frontier_development_output": [
+        "verify/development_runs/ubiquitin_v31_topology_frontier_l24_20260720/prediction.pdb",
+        "verify/development_runs/ubiquitin_v31_topology_frontier_l32_20260720/prediction.pdb"
       ],
       "legacy_preproject_development_artifact": [
         "1ubq_autonomous.pdb",

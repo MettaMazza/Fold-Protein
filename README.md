@@ -325,6 +325,17 @@ topology discrimination and locate the next architecture at a retained
 frontier of admissible bounded-degree topologies, rather than one fixed tree
 or path. They do not establish a theoretical wall or an official result.
 
+V31 executes that complete bounded-degree frontier over the counted capacities
+`2,3,4`. Each topology receives an independent 24-path forward/reverse
+assembly before joint constitutional reconciliation. At L24 it recovers V30's
+distance regression to **`5.5047257155 Å` dRMSD**, remaining **11.30%** better
+than V28, with lower TM. At L32 the final frontier collapses to 24/24 degree-4
+paths and reaches **TM `0.0363843691` / dRMSD `5.7052176785 Å`**, below the
+V28-V30 rows. This gate was therefore stopped before L76. The next implemented
+direction is cross-topology consensus that retains the exact provenance of all
+three topology families through final selection; V31 is applied development
+evidence, not a finding, prediction failure or theoretical limit.
+
 ## Governing law
 
 SFT begins from one machine-checked, self-proven theorem—*there is no nothing*—with zero axioms. The engine determines forcing and derivation by tracing every admitted construction to the One and halting on violation. No agent may weaken the result, declare a theoretical wall, or substitute statistical convention for the engine's standard. Maria Smith determines which engine results are published and directs the next investigation.
