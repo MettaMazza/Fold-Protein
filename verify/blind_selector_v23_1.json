@@ -1,0 +1,65 @@
+{
+  "schema": "fold-protein-blind-selector/v23.1",
+  "version": "23.1.0-development",
+  "execution": "V23 complete-domain bidirectional assembly with weight-free registered-parent continuity",
+  "foundation": {
+    "theorem": "one machine-checked self-proven theorem: there is no nothing",
+    "axioms": 0,
+    "trace": "sealed V23 architecture -> measured L76 continuity regression -> exact parent-departure relation -> unchanged complete-domain global assembly"
+  },
+  "selector_config": {
+    "lattice_axis": 24,
+    "complete_domain_states": 576,
+    "domain_capacity": 24,
+    "frontier_capacity": 24,
+    "cache_capacity": 576,
+    "segment_residues": 4,
+    "assembly_directions": ["forward", "reverse"],
+    "parent_continuity_relation": "exact state departures from registered sealed V13 path",
+    "parent_departure_limit": null,
+    "parent_departure_weight": null,
+    "hard_exclusion_strata": ["backbone", "sidechain_graph"],
+    "target": null,
+    "template": null,
+    "reward": null,
+    "weight": null,
+    "trained_parameter": null
+  },
+  "correction": {
+    "observed_development_fact": "V23 retained one of 75 registered parent states at L76 before full-chain replacement",
+    "relation": "count state inequality against the registered sealed parent path",
+    "selection": "one additional axis in the existing symmetric ordinal balance",
+    "lock": null,
+    "limit": null,
+    "weight": null,
+    "target_runtime_access": null
+  },
+  "allowed_selector_input": ["run_id", "sequence", "seed_run_id"],
+  "seed_records": {
+    "development-ubiquitin-v13-retained-topology-l24-20260719": {
+      "path": "verify/development_runs/ubiquitin_v13_retained_topology_l24_20260719/selected_states.json",
+      "sha256": "5e2c2a7fcbdaa033a125d93d8798a458e867b84ba77c9283b8305bf09d172952"
+    },
+    "development-ubiquitin-v13-retained-topology-l32-20260719": {
+      "path": "verify/development_runs/ubiquitin_v13_retained_topology_l32_20260719/selected_states.json",
+      "sha256": "825b5ca0ff0a271a2299df9c4a2af33dbf1f6874908028eeede1c09e30f3e0bf"
+    },
+    "development-ubiquitin-v13-retained-topology-l76-20260719": {
+      "path": "verify/development_runs/ubiquitin_v13_retained_topology_l76_20260719/selected_states.json",
+      "sha256": "f5528d58482e76d8fab3390381a7bb1821aeb605ef0252aee9e553ed3be4b063"
+    }
+  },
+  "source_sha256": {
+    "verify/blind_selector_v23.json": "2b08e3d8d71246f218b8843c909fca4a899ab9685d2dc617864bc261dcf03a45",
+    "tools/blind_24_lattice_selector_v23.py": "88c28f5bce3c66c22d457d1096b76b925834955a2c92ea896821efa720814033",
+    "tools/blind_24_lattice_selector_v23_1.py": "3cb0c3f7dc87b1a530bb283d67dd0d4c7c6b3d4b2869431caa7be2b055166310",
+    "tools/global_sequence_constraint_graph_v1.py": "f7e412ce5cb8863281ec13afe76e2617aacff5de922125cb855094c00c6d5cac",
+    "tools/protein_backbone_geometry_v1.py": "a043e5d05a26fdf063c4703dac619f5fe918b65779a96df6d3cfa2f536fdc315",
+    "tools/sidechain_graph_spatial_exclusion_v1.py": "88509bac8510a1278f06eaaa8f2259307ee29b796ceea27052be2c1bf3ce0407",
+    "tools/run_blind_protocol_v21.py": "19a070f41e7666940cbc418d3b4b90c94db5cad69ee4ac3e0756b374dba712bc",
+    "tools/run_blind_protocol_v23.py": "30d70f1ff510515efff4ba89875c1e9173e9df2b34a7e2a7fa45935211701e9a",
+    "tools/run_blind_protocol_v23_1.py": "82901745be58e3b92a6e185d6f17e5670b11d951d57235d38cf368af9bf7c3e8",
+    "verify/evaluate_sealed_blind_v23_1.py": "5da0b369403879d8bddd2c5335d4c0105a13bd7bb7ed1234d50db7f605a49d59"
+  },
+  "status": "cumulative development correction awaiting sealed applied data"
+}

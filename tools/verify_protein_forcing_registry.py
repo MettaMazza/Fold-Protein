@@ -144,10 +144,11 @@ def verify_registry() -> dict:
 
     legacy = set(registry["legacy_exclusion"]["forbidden_runtime_modules"])
     runtime_hashes = {}
-    for selector in (
+    selectors = (
             "v3", "v5", "v8", "v9", "v10", "v11", "v12", "v13",
             "v14", "v15", "v16", "v17", "v18", "v19", "v20", "v21",
-            "v22"):
+            "v22")
+    for selector in selectors:
         runtime_hashes[selector] = {}
         roots = registry["legacy_exclusion"][f"{selector}_runtime_roots"]
         for relative in roots:
@@ -173,6 +174,25 @@ def verify_registry() -> dict:
                     f"selector-{selector} source drift: {relative}: "
                     f"{actual_hash} != {expected_hash}"
                 )
+
+    for selector, manifest_name, roots_name in (
+            ("v23", "blind_selector_v23.json", "v23_runtime_roots"),
+            ("v23.1", "blind_selector_v23_1.json", "v23_1_runtime_roots"),
+            ("v23.2", "blind_selector_v23_2.json", "v23_2_runtime_roots")):
+        runtime_hashes[selector] = {}
+        for relative in registry["legacy_exclusion"][roots_name]:
+            path = ROOT / relative
+            forbidden = sorted(imported_modules(path) & legacy)
+            if forbidden:
+                raise RuntimeError(
+                    f"legacy runtime dependency entered selector-{selector}: "
+                    f"{relative}: {forbidden}")
+            runtime_hashes[selector][relative] = sha256(path)
+        manifest = json.loads((ROOT / "verify" / manifest_name).read_text())
+        for relative, expected_hash in manifest["source_sha256"].items():
+            if sha256(ROOT / relative) != expected_hash:
+                raise RuntimeError(
+                    f"selector-{selector} source drift: {relative}")
 
     geometry = replay_geometry()
     if geometry.get("status") != "verified":

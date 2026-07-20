@@ -222,6 +222,39 @@ propagation relation rather than repeating V19 or extending V20-V22 unchanged. I
 remains a cumulative development benchmark unless Maria explicitly registers
 it as an official run.
 
+### V23 complete-domain global architecture
+
+V23 replaces residue-by-residue prefix commitment with one complete global
+development block. Every active residue is expanded over all **576** exact
+24-lattice states; a **24-state** domain is retained; theorem-counted
+four-residue segments are assembled independently from both chain directions;
+and the two full-chain frontiers are reconciled before explicit side-chain
+graph and retained V13 relations select the emitted path. The inputs contain
+only sequence identity and a hash-bound, previously sealed V13 state path.
+Targets remain inaccessible until the new output is sealed.
+
+The sealed L32 result advances both whole-prefix measures over V19/V13:
+TM rises from `0.0729998746` to **`0.1073563785`** (**47.06%**) and dRMSD falls
+from `5.9835980697 Å` to **`4.8501653531 Å`** (**18.94% improvement**). At L24,
+dRMSD falls from V19's `7.0054033965 Å` to **`4.7690709196 Å`** (**31.92%**),
+while TM is `0.0223392975`. This is direct applied evidence that complete
+domains and bidirectional assembly can make large global changes unavailable
+to the preceding incremental prefix variants.
+
+The first L76 execution identified a continuity placement to correct inside
+the architecture. V23.1 proved by byte-identical sealed replay that a soft
+parent-departure axis cannot alter the preceding hard stratum. V23.2 then
+restored V13/V19 local eligibility before global domain assembly. Its sealed
+L76 output improves TM from V23's `0.0928040310` to **`0.1017436531`** and
+improves dRMSD from `8.7367333419 Å` to **`7.6581678292 Å`**. That dRMSD is
+also **2.73% better than V13's `7.8727503342 Å`**. The topology measure remains
+below V13's `0.1422687755`, so V13 remains the complete-sequence route while
+V23 supplies the active global architecture. The next state is not another
+single contact counter: it is a coherent locally admitted segment frontier,
+replacing independent rank-weaving of residue domains. These cumulative
+development benchmarks do not establish a theoretical wall and are not
+official runs unless Maria registers them.
+
 ## Governing law
 
 SFT begins from one machine-checked, self-proven theorem—*there is no nothing*—with zero axioms. The engine determines forcing and derivation by tracing every admitted construction to the One and halting on violation. No agent may weaken the result, declare a theoretical wall, or substitute statistical convention for the engine's standard. Maria Smith determines which engine results are published and directs the next investigation.
@@ -274,6 +307,8 @@ python3 -m tools.verify_protein_forcing_registry
 | `tools/blind_24_lattice_selector_v20.py` | exact graph-atom encounter child hierarchy |
 | `tools/blind_24_lattice_selector_v21.py` | explicit fold-to-One graph contact objective |
 | `tools/blind_24_lattice_selector_v22.py` | ordered exact graph-contact deficit assembly |
+| `tools/blind_24_lattice_selector_v23.py` | complete 576-state domains, bidirectional segment assembly and whole-chain reconciliation |
+| `tools/blind_24_lattice_selector_v23_2.py` | locally closed domain correction for the V23 global architecture |
 | `verify/development_runs/ubiquitin_v9_steric_orientation_l24_20260719/` | sealed v9 applied evidence |
 | `verify/development_runs/ubiquitin_v10_balanced_relations_l{24,76}_20260719/` | sealed v10 applied evidence |
 | `verify/development_runs/ubiquitin_v11_hbond_assembly_l24_20260719/` | sealed v11 hydrogen-bond applied evidence and post-seal local windows |
@@ -291,6 +326,8 @@ python3 -m tools.verify_protein_forcing_registry
 | `verify/development_runs/ubiquitin_v20_graph_atom_hierarchy_l24_20260720/` | sealed atom-encounter hierarchy evidence and exact V19 identity receipt |
 | `verify/development_runs/ubiquitin_v21_graph_contact_l24_20260720/` | sealed explicit contact-map census and exact V19 identity receipt |
 | `verify/development_runs/ubiquitin_v22_contact_deficit_l24_20260720/` | sealed active contact-deficit path, global/local measurements and V19 delta receipt |
+| `verify/development_runs/ubiquitin_v23_global_domains_l{24,32,76}_20260720/` | sealed complete-domain bidirectional global development benchmarks |
+| `verify/development_runs/ubiquitin_v23_2_local_domains_l{24,32,76}_20260720/` | sealed locally closed correction and L76 geometric recovery |
 | `verify/development_runs/ubiquitin_v12_topology_hbond_l24_20260719/v11_v12_state_delta.json` | source-bound sealed-path and local-window delta locating the next combined relation |
 | `verify/evaluate_sealed_blind_v3.py` | seal verifier and target-isolated evaluation boundary |
 | `verify/evaluate_sealed_blind_local_v3.py` | all-window post-seal local evaluator; reproduces the published IFV/TLT measurements |

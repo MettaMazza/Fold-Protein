@@ -1,0 +1,9309 @@
+{
+  "assembly_trace": [
+    {
+      "best_hard_vector": [
+        38
+      ],
+      "direction": "forward",
+      "expanded_unique_paths": 24,
+      "retained_paths": 24,
+      "segment_residues": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "best_hard_vector": [
+        34
+      ],
+      "direction": "forward",
+      "expanded_unique_paths": 576,
+      "retained_paths": 24,
+      "segment_residues": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "best_hard_vector": [
+        26
+      ],
+      "direction": "forward",
+      "expanded_unique_paths": 576,
+      "retained_paths": 24,
+      "segment_residues": [
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "best_hard_vector": [
+        24
+      ],
+      "direction": "forward",
+      "expanded_unique_paths": 576,
+      "retained_paths": 24,
+      "segment_residues": [
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "best_hard_vector": [
+        22
+      ],
+      "direction": "forward",
+      "expanded_unique_paths": 576,
+      "retained_paths": 24,
+      "segment_residues": [
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "best_hard_vector": [
+        16
+      ],
+      "direction": "forward",
+      "expanded_unique_paths": 576,
+      "retained_paths": 24,
+      "segment_residues": [
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "best_hard_vector": [
+        14
+      ],
+      "direction": "forward",
+      "expanded_unique_paths": 576,
+      "retained_paths": 24,
+      "segment_residues": [
+        25,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "best_hard_vector": [
+        8
+      ],
+      "direction": "forward",
+      "expanded_unique_paths": 576,
+      "retained_paths": 24,
+      "segment_residues": [
+        29,
+        30,
+        31,
+        32
+      ]
+    },
+    {
+      "best_hard_vector": [
+        8
+      ],
+      "direction": "forward",
+      "expanded_unique_paths": 576,
+      "retained_paths": 24,
+      "segment_residues": [
+        33,
+        34,
+        35,
+        36
+      ]
+    },
+    {
+      "best_hard_vector": [
+        4
+      ],
+      "direction": "forward",
+      "expanded_unique_paths": 576,
+      "retained_paths": 24,
+      "segment_residues": [
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "best_hard_vector": [
+        4
+      ],
+      "direction": "forward",
+      "expanded_unique_paths": 576,
+      "retained_paths": 24,
+      "segment_residues": [
+        41,
+        42,
+        43,
+        44
+      ]
+    },
+    {
+      "best_hard_vector": [
+        4
+      ],
+      "direction": "forward",
+      "expanded_unique_paths": 576,
+      "retained_paths": 24,
+      "segment_residues": [
+        45,
+        46,
+        47,
+        48
+      ]
+    },
+    {
+      "best_hard_vector": [
+        4
+      ],
+      "direction": "forward",
+      "expanded_unique_paths": 576,
+      "retained_paths": 24,
+      "segment_residues": [
+        49,
+        50,
+        51,
+        52
+      ]
+    },
+    {
+      "best_hard_vector": [
+        4
+      ],
+      "direction": "forward",
+      "expanded_unique_paths": 576,
+      "retained_paths": 24,
+      "segment_residues": [
+        53,
+        54,
+        55,
+        56
+      ]
+    },
+    {
+      "best_hard_vector": [
+        3
+      ],
+      "direction": "forward",
+      "expanded_unique_paths": 576,
+      "retained_paths": 24,
+      "segment_residues": [
+        57,
+        58,
+        59,
+        60
+      ]
+    },
+    {
+      "best_hard_vector": [
+        3
+      ],
+      "direction": "forward",
+      "expanded_unique_paths": 576,
+      "retained_paths": 24,
+      "segment_residues": [
+        61,
+        62,
+        63,
+        64
+      ]
+    },
+    {
+      "best_hard_vector": [
+        1
+      ],
+      "direction": "forward",
+      "expanded_unique_paths": 576,
+      "retained_paths": 24,
+      "segment_residues": [
+        65,
+        66,
+        67,
+        68
+      ]
+    },
+    {
+      "best_hard_vector": [
+        1
+      ],
+      "direction": "forward",
+      "expanded_unique_paths": 576,
+      "retained_paths": 24,
+      "segment_residues": [
+        69,
+        70,
+        71,
+        72
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "direction": "forward",
+      "expanded_unique_paths": 576,
+      "retained_paths": 24,
+      "segment_residues": [
+        73,
+        74,
+        75
+      ]
+    },
+    {
+      "best_hard_vector": [
+        42
+      ],
+      "direction": "reverse",
+      "expanded_unique_paths": 24,
+      "retained_paths": 24,
+      "segment_residues": [
+        73,
+        74,
+        75
+      ]
+    },
+    {
+      "best_hard_vector": [
+        42
+      ],
+      "direction": "reverse",
+      "expanded_unique_paths": 576,
+      "retained_paths": 24,
+      "segment_residues": [
+        69,
+        70,
+        71,
+        72
+      ]
+    },
+    {
+      "best_hard_vector": [
+        42
+      ],
+      "direction": "reverse",
+      "expanded_unique_paths": 576,
+      "retained_paths": 24,
+      "segment_residues": [
+        65,
+        66,
+        67,
+        68
+      ]
+    },
+    {
+      "best_hard_vector": [
+        38
+      ],
+      "direction": "reverse",
+      "expanded_unique_paths": 576,
+      "retained_paths": 24,
+      "segment_residues": [
+        61,
+        62,
+        63,
+        64
+      ]
+    },
+    {
+      "best_hard_vector": [
+        37
+      ],
+      "direction": "reverse",
+      "expanded_unique_paths": 576,
+      "retained_paths": 24,
+      "segment_residues": [
+        57,
+        58,
+        59,
+        60
+      ]
+    },
+    {
+      "best_hard_vector": [
+        36
+      ],
+      "direction": "reverse",
+      "expanded_unique_paths": 576,
+      "retained_paths": 24,
+      "segment_residues": [
+        53,
+        54,
+        55,
+        56
+      ]
+    },
+    {
+      "best_hard_vector": [
+        32
+      ],
+      "direction": "reverse",
+      "expanded_unique_paths": 576,
+      "retained_paths": 24,
+      "segment_residues": [
+        49,
+        50,
+        51,
+        52
+      ]
+    },
+    {
+      "best_hard_vector": [
+        25
+      ],
+      "direction": "reverse",
+      "expanded_unique_paths": 576,
+      "retained_paths": 24,
+      "segment_residues": [
+        45,
+        46,
+        47,
+        48
+      ]
+    },
+    {
+      "best_hard_vector": [
+        17
+      ],
+      "direction": "reverse",
+      "expanded_unique_paths": 576,
+      "retained_paths": 24,
+      "segment_residues": [
+        41,
+        42,
+        43,
+        44
+      ]
+    },
+    {
+      "best_hard_vector": [
+        11
+      ],
+      "direction": "reverse",
+      "expanded_unique_paths": 576,
+      "retained_paths": 24,
+      "segment_residues": [
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "best_hard_vector": [
+        5
+      ],
+      "direction": "reverse",
+      "expanded_unique_paths": 576,
+      "retained_paths": 24,
+      "segment_residues": [
+        33,
+        34,
+        35,
+        36
+      ]
+    },
+    {
+      "best_hard_vector": [
+        5
+      ],
+      "direction": "reverse",
+      "expanded_unique_paths": 576,
+      "retained_paths": 24,
+      "segment_residues": [
+        29,
+        30,
+        31,
+        32
+      ]
+    },
+    {
+      "best_hard_vector": [
+        5
+      ],
+      "direction": "reverse",
+      "expanded_unique_paths": 576,
+      "retained_paths": 24,
+      "segment_residues": [
+        25,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "best_hard_vector": [
+        5
+      ],
+      "direction": "reverse",
+      "expanded_unique_paths": 576,
+      "retained_paths": 24,
+      "segment_residues": [
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "best_hard_vector": [
+        3
+      ],
+      "direction": "reverse",
+      "expanded_unique_paths": 576,
+      "retained_paths": 24,
+      "segment_residues": [
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "best_hard_vector": [
+        3
+      ],
+      "direction": "reverse",
+      "expanded_unique_paths": 576,
+      "retained_paths": 24,
+      "segment_residues": [
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "best_hard_vector": [
+        3
+      ],
+      "direction": "reverse",
+      "expanded_unique_paths": 576,
+      "retained_paths": 24,
+      "segment_residues": [
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "direction": "reverse",
+      "expanded_unique_paths": 576,
+      "retained_paths": 24,
+      "segment_residues": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "best_hard_vector": [
+        0
+      ],
+      "direction": "reverse",
+      "expanded_unique_paths": 576,
+      "retained_paths": 24,
+      "segment_residues": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "charge_census": {
+    "alphabet": "ACDEFGHIKLMNPQRSTVWY",
+    "alphabet_count": 20,
+    "classes": {
+      "negative": "DE",
+      "positive": "KR",
+      "uncharged": "ACFGHILMNPQSTVWY"
+    },
+    "signs": {
+      "A": 0,
+      "C": 0,
+      "D": -1,
+      "E": -1,
+      "F": 0,
+      "G": 0,
+      "H": 0,
+      "I": 0,
+      "K": 1,
+      "L": 0,
+      "M": 0,
+      "N": 0,
+      "P": 0,
+      "Q": 0,
+      "R": 1,
+      "S": 0,
+      "T": 0,
+      "V": 0,
+      "W": 0,
+      "Y": 0
+    }
+  },
+  "constraint_graph_census": {
+    "edge_count": 2775,
+    "fitted_cutoff": null,
+    "learned_quantity": null,
+    "mixing_weight": null,
+    "residue_count": 76,
+    "reward": null,
+    "segment_count": 19,
+    "segment_pair_count": 190,
+    "segment_residues": 4,
+    "sidechain_reach": "n/(n+1) of generated adjacent C-alpha step",
+    "support_bridge": "left reach + spatial One + right reach",
+    "target": null,
+    "template": null
+  },
+  "domain_capacity": 24,
+  "domain_state_count": 576,
+  "domain_trace": [
+    {
+      "best_hard_vector": [
+        48
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 8,
+      "parent_state_retained": true,
+      "residue": 1,
+      "retained_state_count": 24,
+      "retained_states": [
+        8,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "best_hard_vector": [
+        47
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 225,
+      "parent_state_retained": false,
+      "residue": 2,
+      "retained_state_count": 24,
+      "retained_states": [
+        26,
+        99,
+        481,
+        505,
+        529,
+        100,
+        124,
+        148,
+        172,
+        410,
+        434,
+        458,
+        482,
+        267,
+        291,
+        196,
+        220,
+        244,
+        315,
+        339,
+        362,
+        386,
+        75,
+        457
+      ]
+    },
+    {
+      "best_hard_vector": [
+        44
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 21,
+      "parent_state_retained": false,
+      "residue": 3,
+      "retained_state_count": 24,
+      "retained_states": [
+        196,
+        125,
+        149,
+        172,
+        197,
+        220,
+        291,
+        315,
+        410,
+        424,
+        434,
+        435,
+        448,
+        459,
+        422,
+        447,
+        423,
+        386,
+        411,
+        376,
+        398,
+        399,
+        400,
+        352
+      ]
+    },
+    {
+      "best_hard_vector": [
+        38
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 228,
+      "parent_state_retained": false,
+      "residue": 4,
+      "retained_state_count": 24,
+      "retained_states": [
+        241,
+        575,
+        458,
+        481,
+        528,
+        22,
+        46,
+        169,
+        193,
+        217,
+        196,
+        197,
+        220,
+        549,
+        550,
+        573,
+        574,
+        267,
+        268,
+        292,
+        434,
+        504,
+        167,
+        168
+      ]
+    },
+    {
+      "best_hard_vector": [
+        35
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 69,
+      "parent_state_retained": false,
+      "residue": 5,
+      "retained_state_count": 24,
+      "retained_states": [
+        327,
+        328,
+        352,
+        351,
+        375,
+        376,
+        521,
+        545,
+        569,
+        278,
+        302,
+        350,
+        400,
+        16,
+        326,
+        424,
+        448,
+        568,
+        399,
+        63,
+        86,
+        277,
+        472,
+        496
+      ]
+    },
+    {
+      "best_hard_vector": [
+        34
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 437,
+      "parent_state_retained": false,
+      "residue": 6,
+      "retained_state_count": 24,
+      "retained_states": [
+        293,
+        316,
+        269,
+        222,
+        480,
+        28,
+        29,
+        292,
+        377,
+        245,
+        315,
+        127,
+        53,
+        54,
+        103,
+        27,
+        331,
+        198,
+        503,
+        79,
+        527,
+        78,
+        455,
+        479
+      ]
+    },
+    {
+      "best_hard_vector": [
+        34
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 66,
+      "parent_state_retained": false,
+      "residue": 7,
+      "retained_state_count": 24,
+      "retained_states": [
+        316,
+        315,
+        340,
+        314,
+        339,
+        338,
+        456,
+        479,
+        363,
+        364,
+        362,
+        352,
+        349,
+        432,
+        455,
+        386,
+        337,
+        360,
+        361,
+        384,
+        385,
+        409,
+        493,
+        374
+      ]
+    },
+    {
+      "best_hard_vector": [
+        43
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 333,
+      "parent_state_retained": false,
+      "residue": 8,
+      "retained_state_count": 24,
+      "retained_states": [
+        212,
+        42,
+        188,
+        488,
+        18,
+        43,
+        65,
+        66,
+        112,
+        160,
+        161,
+        185,
+        211,
+        236,
+        311,
+        387,
+        463,
+        511,
+        535,
+        512,
+        510,
+        489,
+        487,
+        521
+      ]
+    },
+    {
+      "best_hard_vector": [
+        36
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 348,
+      "parent_state_retained": false,
+      "residue": 9,
+      "retained_state_count": 24,
+      "retained_states": [
+        211,
+        165,
+        187,
+        212,
+        89,
+        113,
+        140,
+        141,
+        163,
+        186,
+        188,
+        210,
+        235,
+        236,
+        261,
+        91,
+        115,
+        117,
+        116,
+        164,
+        18,
+        234,
+        189,
+        162
+      ]
+    },
+    {
+      "best_hard_vector": [
+        31
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 149,
+      "parent_state_retained": false,
+      "residue": 10,
+      "retained_state_count": 24,
+      "retained_states": [
+        181,
+        544,
+        567,
+        568,
+        14,
+        132,
+        133,
+        156,
+        157,
+        180,
+        452,
+        476,
+        522,
+        543,
+        545,
+        546,
+        566,
+        204,
+        521,
+        205,
+        473,
+        474,
+        475,
+        498
+      ]
+    },
+    {
+      "best_hard_vector": [
+        29
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 349,
+      "parent_state_retained": false,
+      "residue": 11,
+      "retained_state_count": 24,
+      "retained_states": [
+        220,
+        196,
+        243,
+        462,
+        463,
+        486,
+        195,
+        557,
+        510,
+        219,
+        487,
+        266,
+        534,
+        511,
+        488,
+        289,
+        242,
+        265,
+        194,
+        218,
+        241,
+        170,
+        169,
+        168
+      ]
+    },
+    {
+      "best_hard_vector": [
+        29
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 561,
+      "parent_state_retained": false,
+      "residue": 12,
+      "retained_state_count": 24,
+      "retained_states": [
+        259,
+        258,
+        308,
+        380,
+        210,
+        333,
+        284,
+        235,
+        357,
+        381,
+        390,
+        438,
+        414,
+        382,
+        211,
+        260,
+        186,
+        343,
+        485,
+        461,
+        460,
+        437,
+        557,
+        484
+      ]
+    },
+    {
+      "best_hard_vector": [
+        29
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 496,
+      "parent_state_retained": false,
+      "residue": 13,
+      "retained_state_count": 24,
+      "retained_states": [
+        526,
+        369,
+        370,
+        296,
+        345,
+        283,
+        159,
+        208,
+        183,
+        207,
+        320,
+        309,
+        333,
+        307,
+        332,
+        308,
+        331,
+        502,
+        328,
+        353,
+        348,
+        232,
+        233,
+        357
+      ]
+    },
+    {
+      "best_hard_vector": [
+        29
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 307,
+      "parent_state_retained": false,
+      "residue": 14,
+      "retained_state_count": 24,
+      "retained_states": [
+        519,
+        520,
+        381,
+        405,
+        451,
+        474,
+        496,
+        497,
+        498,
+        521,
+        522,
+        134,
+        406,
+        428,
+        450,
+        452,
+        473,
+        475,
+        499,
+        542,
+        543,
+        544,
+        13,
+        566
+      ]
+    },
+    {
+      "best_hard_vector": [
+        28
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 477,
+      "parent_state_retained": false,
+      "residue": 15,
+      "retained_state_count": 24,
+      "retained_states": [
+        303,
+        326,
+        327,
+        350,
+        351,
+        374,
+        375,
+        398,
+        399,
+        422,
+        446,
+        470,
+        494,
+        492,
+        467,
+        443,
+        419,
+        468,
+        444,
+        396,
+        516,
+        420,
+        541,
+        493
+      ]
+    },
+    {
+      "best_hard_vector": [
+        27
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 210,
+      "parent_state_retained": false,
+      "residue": 16,
+      "retained_state_count": 24,
+      "retained_states": [
+        48,
+        72,
+        313,
+        73,
+        383,
+        336,
+        82,
+        83,
+        159,
+        430,
+        290,
+        407,
+        47,
+        49,
+        134,
+        360,
+        109,
+        172,
+        183,
+        148,
+        454,
+        526,
+        550,
+        24
+      ]
+    },
+    {
+      "best_hard_vector": [
+        27
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 502,
+      "parent_state_retained": false,
+      "residue": 17,
+      "retained_state_count": 24,
+      "retained_states": [
+        522,
+        314,
+        475,
+        267,
+        268,
+        337,
+        499,
+        9,
+        452,
+        196,
+        197,
+        220,
+        244,
+        498,
+        476,
+        474,
+        521,
+        407,
+        497,
+        453,
+        430,
+        290,
+        428,
+        214
+      ]
+    },
+    {
+      "best_hard_vector": [
+        27
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 315,
+      "parent_state_retained": false,
+      "residue": 18,
+      "retained_state_count": 24,
+      "retained_states": [
+        245,
+        550,
+        136,
+        241,
+        242,
+        188,
+        221,
+        164,
+        137,
+        217,
+        112,
+        575,
+        114,
+        113,
+        189,
+        198,
+        222,
+        190,
+        165,
+        549,
+        140,
+        574,
+        191,
+        215
+      ]
+    },
+    {
+      "best_hard_vector": [
+        26
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 140,
+      "parent_state_retained": false,
+      "residue": 19,
+      "retained_state_count": 24,
+      "retained_states": [
+        465,
+        466,
+        489,
+        490,
+        464,
+        513,
+        514,
+        49,
+        50,
+        488,
+        515,
+        516,
+        4,
+        27,
+        72,
+        73,
+        75,
+        441,
+        442,
+        467,
+        487,
+        491,
+        537,
+        540
+      ]
+    },
+    {
+      "best_hard_vector": [
+        26
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 13,
+      "parent_state_retained": false,
+      "residue": 20,
+      "retained_state_count": 24,
+      "retained_states": [
+        428,
+        400,
+        451,
+        474,
+        498,
+        521,
+        403,
+        425,
+        473,
+        497,
+        87,
+        353,
+        402,
+        404,
+        427,
+        452,
+        475,
+        476,
+        520,
+        544,
+        401,
+        496,
+        377,
+        450
+      ]
+    },
+    {
+      "best_hard_vector": [
+        28
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 153,
+      "parent_state_retained": false,
+      "residue": 21,
+      "retained_state_count": 24,
+      "retained_states": [
+        161,
+        207,
+        208,
+        184,
+        209,
+        230,
+        232,
+        185,
+        186,
+        210,
+        137,
+        162,
+        183,
+        206,
+        231,
+        233,
+        257,
+        258,
+        113,
+        160,
+        223,
+        291,
+        292,
+        229
+      ]
+    },
+    {
+      "best_hard_vector": [
+        29
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 170,
+      "parent_state_retained": false,
+      "residue": 22,
+      "retained_state_count": 24,
+      "retained_states": [
+        35,
+        34,
+        444,
+        445,
+        468,
+        11,
+        36,
+        516,
+        7,
+        9,
+        10,
+        295,
+        421,
+        469,
+        492,
+        540,
+        32,
+        420,
+        443,
+        8,
+        318,
+        467,
+        294,
+        33
+      ]
+    },
+    {
+      "best_hard_vector": [
+        21
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 462,
+      "parent_state_retained": false,
+      "residue": 23,
+      "retained_state_count": 24,
+      "retained_states": [
+        234,
+        210,
+        186,
+        426,
+        187,
+        235,
+        163,
+        259,
+        379,
+        260,
+        261,
+        285,
+        236,
+        211,
+        310,
+        380,
+        139,
+        71,
+        188,
+        116,
+        357,
+        70,
+        140,
+        164
+      ]
+    },
+    {
+      "best_hard_vector": [
+        21
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 17,
+      "parent_state_retained": false,
+      "residue": 24,
+      "retained_state_count": 24,
+      "retained_states": [
+        96,
+        236,
+        49,
+        120,
+        259,
+        144,
+        73,
+        411,
+        316,
+        436,
+        25,
+        437,
+        435,
+        553,
+        529,
+        339,
+        410,
+        362,
+        97,
+        386,
+        191,
+        331,
+        355,
+        214
+      ]
+    },
+    {
+      "best_hard_vector": [
+        21
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 8,
+      "parent_state_retained": false,
+      "residue": 25,
+      "retained_state_count": 24,
+      "retained_states": [
+        500,
+        477,
+        523,
+        453,
+        203,
+        202,
+        406,
+        227,
+        147,
+        122,
+        98,
+        49,
+        74,
+        226,
+        524,
+        547,
+        224,
+        198,
+        223,
+        430,
+        121,
+        201,
+        501,
+        225
+      ]
+    },
+    {
+      "best_hard_vector": [
+        21
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 100,
+      "parent_state_retained": false,
+      "residue": 26,
+      "retained_state_count": 24,
+      "retained_states": [
+        253,
+        254,
+        255,
+        256,
+        277,
+        278,
+        279,
+        280,
+        301,
+        302,
+        303,
+        325,
+        339,
+        348,
+        362,
+        363,
+        385,
+        408,
+        431,
+        454,
+        455,
+        211,
+        210,
+        233
+      ]
+    },
+    {
+      "best_hard_vector": [
+        29
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 375,
+      "parent_state_retained": false,
+      "residue": 27,
+      "retained_state_count": 24,
+      "retained_states": [
+        245,
+        435,
+        437,
+        458,
+        459,
+        461,
+        508,
+        436,
+        460,
+        484,
+        507,
+        244,
+        246,
+        269,
+        414,
+        438,
+        457,
+        455,
+        430,
+        379,
+        413,
+        427,
+        308,
+        483
+      ]
+    },
+    {
+      "best_hard_vector": [
+        20
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 4,
+      "parent_state_retained": false,
+      "residue": 28,
+      "retained_state_count": 24,
+      "retained_states": [
+        178,
+        203,
+        154,
+        179,
+        202,
+        204,
+        227,
+        251,
+        252,
+        367,
+        368,
+        390,
+        391,
+        392,
+        415,
+        324,
+        366,
+        254,
+        342,
+        369,
+        253,
+        276,
+        300,
+        228
+      ]
+    },
+    {
+      "best_hard_vector": [
+        17
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 375,
+      "parent_state_retained": false,
+      "residue": 29,
+      "retained_state_count": 24,
+      "retained_states": [
+        358,
+        288,
+        265,
+        218,
+        312,
+        242,
+        335,
+        382,
+        406,
+        145,
+        266,
+        7,
+        31,
+        553,
+        289,
+        74,
+        359,
+        2,
+        195,
+        383,
+        529,
+        219,
+        313,
+        80
+      ]
+    },
+    {
+      "best_hard_vector": [
+        16
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 6,
+      "parent_state_retained": false,
+      "residue": 30,
+      "retained_state_count": 24,
+      "retained_states": [
+        209,
+        143,
+        575,
+        46,
+        70,
+        22,
+        21,
+        11,
+        45,
+        195,
+        481,
+        551,
+        69,
+        574,
+        308,
+        331,
+        194,
+        193,
+        192,
+        545,
+        546,
+        547,
+        215,
+        216
+      ]
+    },
+    {
+      "best_hard_vector": [
+        15
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 12,
+      "parent_state_retained": false,
+      "residue": 31,
+      "retained_state_count": 24,
+      "retained_states": [
+        324,
+        350,
+        326,
+        372,
+        304,
+        327,
+        279,
+        303,
+        302,
+        313,
+        348,
+        253,
+        277,
+        301,
+        300,
+        180,
+        336,
+        360,
+        384,
+        337,
+        252,
+        276,
+        347,
+        370
+      ]
+    },
+    {
+      "best_hard_vector": [
+        16
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 78,
+      "parent_state_retained": false,
+      "residue": 32,
+      "retained_state_count": 24,
+      "retained_states": [
+        412,
+        573,
+        343,
+        367,
+        388,
+        390,
+        411,
+        435,
+        436,
+        460,
+        548,
+        572,
+        547,
+        550,
+        525,
+        549,
+        345,
+        392,
+        527,
+        574,
+        320,
+        319,
+        344,
+        366
+      ]
+    },
+    {
+      "best_hard_vector": [
+        13
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 219,
+      "parent_state_retained": false,
+      "residue": 33,
+      "retained_state_count": 24,
+      "retained_states": [
+        553,
+        0,
+        22,
+        45,
+        46,
+        552,
+        575,
+        1,
+        23,
+        47,
+        24,
+        69,
+        92,
+        140,
+        163,
+        528,
+        529,
+        505,
+        93,
+        162,
+        551,
+        70,
+        25,
+        21
+      ]
+    },
+    {
+      "best_hard_vector": [
+        17
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 346,
+      "parent_state_retained": false,
+      "residue": 34,
+      "retained_state_count": 24,
+      "retained_states": [
+        39,
+        62,
+        108,
+        15,
+        61,
+        84,
+        85,
+        109,
+        121,
+        144,
+        145,
+        169,
+        568,
+        191,
+        167,
+        86,
+        168,
+        120,
+        63,
+        132,
+        38,
+        97,
+        60,
+        16
+      ]
+    },
+    {
+      "best_hard_vector": [
+        27
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 523,
+      "parent_state_retained": false,
+      "residue": 35,
+      "retained_state_count": 24,
+      "retained_states": [
+        303,
+        328,
+        329,
+        305,
+        326,
+        327,
+        350,
+        346,
+        353,
+        280,
+        281,
+        302,
+        347,
+        348,
+        360,
+        406,
+        407,
+        354,
+        351,
+        304,
+        352,
+        374,
+        307,
+        325
+      ]
+    },
+    {
+      "best_hard_vector": [
+        34
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 229,
+      "parent_state_retained": false,
+      "residue": 36,
+      "retained_state_count": 24,
+      "retained_states": [
+        296,
+        320,
+        201,
+        247,
+        248,
+        267,
+        271,
+        290,
+        314,
+        199,
+        200,
+        224,
+        225,
+        226,
+        244,
+        246,
+        249,
+        268,
+        272,
+        291,
+        344,
+        269,
+        315,
+        270
+      ]
+    },
+    {
+      "best_hard_vector": [
+        29
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 63,
+      "parent_state_retained": false,
+      "residue": 37,
+      "retained_state_count": 24,
+      "retained_states": [
+        76,
+        244,
+        246,
+        370,
+        487,
+        532,
+        77,
+        100,
+        101,
+        222,
+        243,
+        245,
+        267,
+        268,
+        317,
+        463,
+        486,
+        538,
+        559,
+        219,
+        437,
+        438,
+        460,
+        440
+      ]
+    },
+    {
+      "best_hard_vector": [
+        15
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 55,
+      "parent_state_retained": false,
+      "residue": 38,
+      "retained_state_count": 24,
+      "retained_states": [
+        16,
+        17,
+        40,
+        41,
+        64,
+        288,
+        289,
+        312,
+        313,
+        335,
+        336,
+        337,
+        358,
+        359,
+        360,
+        384,
+        407,
+        431,
+        265,
+        111,
+        88,
+        311,
+        39,
+        383
+      ]
+    },
+    {
+      "best_hard_vector": [
+        17
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 149,
+      "parent_state_retained": false,
+      "residue": 39,
+      "retained_state_count": 24,
+      "retained_states": [
+        310,
+        289,
+        288,
+        311,
+        284,
+        309,
+        313,
+        334,
+        335,
+        312,
+        337,
+        308,
+        387,
+        333,
+        306,
+        361,
+        336,
+        331,
+        307,
+        354,
+        283,
+        332,
+        282,
+        281
+      ]
+    },
+    {
+      "best_hard_vector": [
+        19
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 195,
+      "parent_state_retained": false,
+      "residue": 40,
+      "retained_state_count": 24,
+      "retained_states": [
+        308,
+        231,
+        307,
+        358,
+        256,
+        281,
+        306,
+        331,
+        357,
+        230,
+        229,
+        254,
+        255,
+        280,
+        279,
+        304,
+        305,
+        330,
+        463,
+        442,
+        337,
+        356,
+        303,
+        382
+      ]
+    },
+    {
+      "best_hard_vector": [
+        21
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 140,
+      "parent_state_retained": false,
+      "residue": 41,
+      "retained_state_count": 24,
+      "retained_states": [
+        456,
+        457,
+        432,
+        433,
+        434,
+        481,
+        431,
+        435,
+        436,
+        458,
+        482,
+        505,
+        498,
+        459,
+        506,
+        530,
+        543,
+        460,
+        483,
+        437,
+        475,
+        507,
+        439,
+        484
+      ]
+    },
+    {
+      "best_hard_vector": [
+        28
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 541,
+      "parent_state_retained": false,
+      "residue": 42,
+      "retained_state_count": 24,
+      "retained_states": [
+        125,
+        148,
+        149,
+        100,
+        103,
+        147,
+        175,
+        79,
+        101,
+        102,
+        123,
+        124,
+        126,
+        127,
+        146,
+        150,
+        152,
+        173,
+        176,
+        174,
+        151,
+        128,
+        104,
+        80
+      ]
+    },
+    {
+      "best_hard_vector": [
+        29
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 78,
+      "parent_state_retained": false,
+      "residue": 43,
+      "retained_state_count": 24,
+      "retained_states": [
+        162,
+        161,
+        510,
+        4,
+        60,
+        86,
+        137,
+        156,
+        163,
+        164,
+        179,
+        180,
+        486,
+        487,
+        509,
+        511,
+        512,
+        513,
+        533,
+        534,
+        535,
+        556,
+        558,
+        155
+      ]
+    },
+    {
+      "best_hard_vector": [
+        29
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 259,
+      "parent_state_retained": false,
+      "residue": 44,
+      "retained_state_count": 24,
+      "retained_states": [
+        275,
+        420,
+        251,
+        540,
+        12,
+        419,
+        214,
+        215,
+        227,
+        11,
+        405,
+        84,
+        492,
+        132,
+        381,
+        516,
+        22,
+        574,
+        443,
+        190,
+        166,
+        143,
+        95,
+        119
+      ]
+    },
+    {
+      "best_hard_vector": [
+        29
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 479,
+      "parent_state_retained": false,
+      "residue": 45,
+      "retained_state_count": 24,
+      "retained_states": [
+        521,
+        520,
+        310,
+        242,
+        241,
+        243,
+        264,
+        265,
+        267,
+        244,
+        546,
+        20,
+        309,
+        19,
+        240,
+        266,
+        287,
+        21,
+        268,
+        286,
+        45,
+        569,
+        18,
+        353
+      ]
+    },
+    {
+      "best_hard_vector": [
+        29
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 252,
+      "parent_state_retained": false,
+      "residue": 46,
+      "retained_state_count": 24,
+      "retained_states": [
+        433,
+        110,
+        86,
+        60,
+        169,
+        146,
+        123,
+        456,
+        475,
+        434,
+        476,
+        111,
+        135,
+        78,
+        62,
+        61,
+        87,
+        57,
+        145,
+        435,
+        436,
+        500,
+        501,
+        502
+      ]
+    },
+    {
+      "best_hard_vector": [
+        32
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 327,
+      "parent_state_retained": false,
+      "residue": 47,
+      "retained_state_count": 24,
+      "retained_states": [
+        401,
+        402,
+        426,
+        337,
+        338,
+        357,
+        361,
+        362,
+        384,
+        385,
+        403,
+        408,
+        409,
+        425,
+        427,
+        429,
+        430,
+        450,
+        455,
+        498,
+        313,
+        386,
+        424,
+        336
+      ]
+    },
+    {
+      "best_hard_vector": [
+        32
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 277,
+      "parent_state_retained": false,
+      "residue": 48,
+      "retained_state_count": 24,
+      "retained_states": [
+        564,
+        11,
+        10,
+        33,
+        563,
+        102,
+        14,
+        565,
+        149,
+        55,
+        12,
+        125,
+        540,
+        566,
+        542,
+        541,
+        41,
+        567,
+        78,
+        148,
+        42,
+        493,
+        517,
+        518
+      ]
+    },
+    {
+      "best_hard_vector": [
+        36
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 61,
+      "parent_state_retained": false,
+      "residue": 49,
+      "retained_state_count": 24,
+      "retained_states": [
+        227,
+        251,
+        203,
+        226,
+        272,
+        271,
+        250,
+        202,
+        178,
+        249,
+        154,
+        270,
+        225,
+        174,
+        248,
+        199,
+        176,
+        177,
+        200,
+        201,
+        224,
+        197,
+        247,
+        198
+      ]
+    },
+    {
+      "best_hard_vector": [
+        40
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 103,
+      "parent_state_retained": false,
+      "residue": 50,
+      "retained_state_count": 24,
+      "retained_states": [
+        74,
+        50,
+        73,
+        161,
+        96,
+        159,
+        163,
+        160,
+        162,
+        184,
+        183,
+        164,
+        97,
+        187,
+        138,
+        139,
+        185,
+        186,
+        140,
+        114,
+        115,
+        165,
+        120,
+        166
+      ]
+    },
+    {
+      "best_hard_vector": [
+        40
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 196,
+      "parent_state_retained": false,
+      "residue": 51,
+      "retained_state_count": 24,
+      "retained_states": [
+        246,
+        174,
+        424,
+        270,
+        545,
+        400,
+        569,
+        496,
+        317,
+        77,
+        533,
+        28,
+        532,
+        306,
+        353,
+        556,
+        4,
+        472,
+        447,
+        484,
+        508,
+        376,
+        199,
+        223
+      ]
+    },
+    {
+      "best_hard_vector": [
+        40
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 324,
+      "parent_state_retained": false,
+      "residue": 52,
+      "retained_state_count": 24,
+      "retained_states": [
+        116,
+        365,
+        115,
+        371,
+        338,
+        364,
+        350,
+        339,
+        114,
+        373,
+        332,
+        331,
+        330,
+        309,
+        363,
+        262,
+        313,
+        91,
+        312,
+        395,
+        335,
+        286,
+        310,
+        264
+      ]
+    },
+    {
+      "best_hard_vector": [
+        40
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 199,
+      "parent_state_retained": false,
+      "residue": 53,
+      "retained_state_count": 24,
+      "retained_states": [
+        77,
+        227,
+        195,
+        29,
+        53,
+        250,
+        204,
+        160,
+        183,
+        207,
+        273,
+        184,
+        206,
+        231,
+        208,
+        232,
+        124,
+        171,
+        226,
+        368,
+        274,
+        297,
+        298,
+        321
+      ]
+    },
+    {
+      "best_hard_vector": [
+        40
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 348,
+      "parent_state_retained": false,
+      "residue": 54,
+      "retained_state_count": 24,
+      "retained_states": [
+        530,
+        75,
+        124,
+        554,
+        148,
+        149,
+        196,
+        172,
+        99,
+        422,
+        398,
+        445,
+        421,
+        516,
+        365,
+        101,
+        446,
+        341,
+        529,
+        505,
+        317,
+        270,
+        388,
+        294
+      ]
+    },
+    {
+      "best_hard_vector": [
+        40
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 10,
+      "parent_state_retained": false,
+      "residue": 55,
+      "retained_state_count": 24,
+      "retained_states": [
+        242,
+        494,
+        219,
+        264,
+        150,
+        243,
+        310,
+        265,
+        393,
+        266,
+        267,
+        104,
+        13,
+        566,
+        14,
+        36,
+        543,
+        445,
+        139,
+        495,
+        470,
+        471,
+        105,
+        37
+      ]
+    },
+    {
+      "best_hard_vector": [
+        40
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 272,
+      "parent_state_retained": false,
+      "residue": 56,
+      "retained_state_count": 24,
+      "retained_states": [
+        473,
+        389,
+        390,
+        321,
+        298,
+        344,
+        345,
+        259,
+        260,
+        322,
+        556,
+        5,
+        369,
+        560,
+        531,
+        557,
+        299,
+        346,
+        506,
+        275,
+        258,
+        7,
+        8,
+        561
+      ]
+    },
+    {
+      "best_hard_vector": [
+        41
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 546,
+      "parent_state_retained": false,
+      "residue": 57,
+      "retained_state_count": 24,
+      "retained_states": [
+        164,
+        188,
+        277,
+        145,
+        278,
+        231,
+        254,
+        255,
+        186,
+        141,
+        169,
+        170,
+        193,
+        140,
+        194,
+        230,
+        212,
+        208,
+        276,
+        344,
+        207,
+        298,
+        246,
+        270
+      ]
+    },
+    {
+      "best_hard_vector": [
+        42
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 32,
+      "parent_state_retained": false,
+      "residue": 58,
+      "retained_state_count": 24,
+      "retained_states": [
+        45,
+        91,
+        21,
+        46,
+        67,
+        68,
+        69,
+        70,
+        532,
+        533,
+        22,
+        92,
+        1,
+        508,
+        509,
+        462,
+        44,
+        89,
+        486,
+        112,
+        90,
+        3,
+        556,
+        485
+      ]
+    },
+    {
+      "best_hard_vector": [
+        41
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 197,
+      "parent_state_retained": false,
+      "residue": 59,
+      "retained_state_count": 24,
+      "retained_states": [
+        544,
+        282,
+        448,
+        424,
+        400,
+        520,
+        257,
+        330,
+        306,
+        296,
+        127,
+        15,
+        63,
+        87,
+        273,
+        225,
+        249,
+        297,
+        201,
+        136,
+        441,
+        393,
+        417,
+        440
+      ]
+    },
+    {
+      "best_hard_vector": [
+        41
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 390,
+      "parent_state_retained": false,
+      "residue": 60,
+      "retained_state_count": 24,
+      "retained_states": [
+        350,
+        186,
+        374,
+        209,
+        487,
+        485,
+        243,
+        314,
+        290,
+        411,
+        337,
+        313,
+        361,
+        303,
+        210,
+        233,
+        140,
+        92,
+        116,
+        437,
+        462,
+        385,
+        410,
+        488
+      ]
+    },
+    {
+      "best_hard_vector": [
+        41
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 520,
+      "parent_state_retained": false,
+      "residue": 61,
+      "retained_state_count": 24,
+      "retained_states": [
+        218,
+        123,
+        242,
+        397,
+        339,
+        170,
+        314,
+        30,
+        364,
+        76,
+        99,
+        363,
+        338,
+        266,
+        29,
+        53,
+        348,
+        372,
+        362,
+        241,
+        146,
+        265,
+        66,
+        169
+      ]
+    },
+    {
+      "best_hard_vector": [
+        41
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 540,
+      "parent_state_retained": false,
+      "residue": 62,
+      "retained_state_count": 24,
+      "retained_states": [
+        2,
+        507,
+        221,
+        218,
+        217,
+        216,
+        239,
+        25,
+        219,
+        220,
+        244,
+        243,
+        240,
+        241,
+        242,
+        268,
+        292,
+        326,
+        190,
+        214,
+        238,
+        327,
+        265,
+        237
+      ]
+    },
+    {
+      "best_hard_vector": [
+        41
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 77,
+      "parent_state_retained": false,
+      "residue": 63,
+      "retained_state_count": 24,
+      "retained_states": [
+        371,
+        326,
+        372,
+        302,
+        458,
+        370,
+        391,
+        392,
+        393,
+        369,
+        347,
+        263,
+        325,
+        349,
+        278,
+        301,
+        368,
+        412,
+        435,
+        345,
+        411,
+        324,
+        348,
+        277
+      ]
+    },
+    {
+      "best_hard_vector": [
+        46
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 244,
+      "parent_state_retained": false,
+      "residue": 64,
+      "retained_state_count": 24,
+      "retained_states": [
+        204,
+        205,
+        226,
+        227,
+        228,
+        229,
+        230,
+        250,
+        251,
+        252,
+        273,
+        274,
+        225,
+        248,
+        249,
+        253,
+        270,
+        271,
+        272,
+        299,
+        245,
+        246,
+        247,
+        254
+      ]
+    },
+    {
+      "best_hard_vector": [
+        46
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 115,
+      "parent_state_retained": false,
+      "residue": 65,
+      "retained_state_count": 24,
+      "retained_states": [
+        18,
+        570,
+        42,
+        66,
+        89,
+        113,
+        114,
+        136,
+        137,
+        285,
+        309,
+        521,
+        522,
+        523,
+        546,
+        547,
+        571,
+        548,
+        524,
+        286,
+        17,
+        138,
+        545,
+        569
+      ]
+    },
+    {
+      "best_hard_vector": [
+        43
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 35,
+      "parent_state_retained": false,
+      "residue": 66,
+      "retained_state_count": 24,
+      "retained_states": [
+        197,
+        173,
+        220,
+        196,
+        172,
+        243,
+        360,
+        242,
+        43,
+        358,
+        359,
+        219,
+        335,
+        195,
+        288,
+        309,
+        21,
+        573,
+        20,
+        525,
+        549,
+        524,
+        572,
+        334
+      ]
+    },
+    {
+      "best_hard_vector": [
+        43
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 102,
+      "parent_state_retained": false,
+      "residue": 67,
+      "retained_state_count": 24,
+      "retained_states": [
+        120,
+        169,
+        144,
+        192,
+        268,
+        291,
+        168,
+        143,
+        167,
+        218,
+        190,
+        193,
+        265,
+        314,
+        264,
+        290,
+        313,
+        243,
+        288,
+        289,
+        315,
+        337,
+        191,
+        336
+      ]
+    },
+    {
+      "best_hard_vector": [
+        43
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 342,
+      "parent_state_retained": false,
+      "residue": 68,
+      "retained_state_count": 24,
+      "retained_states": [
+        219,
+        45,
+        69,
+        92,
+        22,
+        574,
+        114,
+        138,
+        115,
+        116,
+        93,
+        162,
+        139,
+        140,
+        550,
+        46,
+        186,
+        117,
+        163,
+        164,
+        70,
+        47,
+        71,
+        94
+      ]
+    },
+    {
+      "best_hard_vector": [
+        43
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 19,
+      "parent_state_retained": false,
+      "residue": 69,
+      "retained_state_count": 24,
+      "retained_states": [
+        529,
+        135,
+        15,
+        568,
+        37,
+        459,
+        483,
+        434,
+        553,
+        530,
+        1,
+        554,
+        2,
+        25,
+        531,
+        555,
+        507,
+        26,
+        3,
+        4,
+        5,
+        532,
+        533,
+        534
+      ]
+    },
+    {
+      "best_hard_vector": [
+        43
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 341,
+      "parent_state_retained": false,
+      "residue": 70,
+      "retained_state_count": 24,
+      "retained_states": [
+        441,
+        466,
+        467,
+        491,
+        463,
+        464,
+        465,
+        440,
+        382,
+        336,
+        359,
+        381,
+        492,
+        490,
+        312,
+        334,
+        335,
+        355,
+        356,
+        357,
+        358,
+        380,
+        309,
+        310
+      ]
+    },
+    {
+      "best_hard_vector": [
+        43
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 314,
+      "parent_state_retained": false,
+      "residue": 71,
+      "retained_state_count": 24,
+      "retained_states": [
+        159,
+        160,
+        161,
+        136,
+        137,
+        112,
+        138,
+        113,
+        114,
+        214,
+        216,
+        217,
+        218,
+        111,
+        135,
+        115,
+        195,
+        165,
+        89,
+        90,
+        189,
+        68,
+        116,
+        109
+      ]
+    },
+    {
+      "best_hard_vector": [
+        43
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 131,
+      "parent_state_retained": false,
+      "residue": 72,
+      "retained_state_count": 24,
+      "retained_states": [
+        54,
+        200,
+        53,
+        55,
+        78,
+        79,
+        199,
+        223,
+        224,
+        292,
+        174,
+        175,
+        222,
+        201,
+        225,
+        268,
+        291,
+        247,
+        127,
+        99,
+        103,
+        248,
+        272,
+        315
+      ]
+    },
+    {
+      "best_hard_vector": [
+        42
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 221,
+      "parent_state_retained": false,
+      "residue": 73,
+      "retained_state_count": 24,
+      "retained_states": [
+        0,
+        13,
+        22,
+        23,
+        24,
+        465,
+        466,
+        467,
+        486,
+        487,
+        488,
+        510,
+        517,
+        541,
+        549,
+        550,
+        551,
+        552,
+        565,
+        572,
+        573,
+        574,
+        575,
+        439
+      ]
+    },
+    {
+      "best_hard_vector": [
+        43
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 296,
+      "parent_state_retained": false,
+      "residue": 74,
+      "retained_state_count": 24,
+      "retained_states": [
+        110,
+        111,
+        134,
+        398,
+        399,
+        400,
+        401,
+        421,
+        422,
+        423,
+        424,
+        425,
+        443,
+        444,
+        466,
+        467,
+        489,
+        490,
+        64,
+        87,
+        88,
+        112,
+        133,
+        135
+      ]
+    },
+    {
+      "best_hard_vector": [
+        45
+      ],
+      "expanded_state_count": 576,
+      "parent_state": 84,
+      "parent_state_retained": false,
+      "residue": 75,
+      "retained_state_count": 24,
+      "retained_states": [
+        449,
+        450,
+        451,
+        452,
+        453,
+        471,
+        472,
+        473,
+        474,
+        475,
+        476,
+        477,
+        478,
+        479,
+        480,
+        481,
+        482,
+        492,
+        493,
+        494,
+        495,
+        506,
+        507,
+        508
+      ]
+    }
+  ],
+  "final_relations": {
+    "constraint_graph": {
+      "backbone_exclusions": 0,
+      "edge_count": 2775,
+      "objective_names": [
+        "hydrophobic_support_deficit",
+        "opposite_charge_support_deficit",
+        "like_charge_support",
+        "intersegment_hydrophobic_support_deficit",
+        "intersegment_opposite_charge_support_deficit",
+        "intersegment_like_charge_support"
+      ],
+      "objectives": [
+        3852,
+        2399,
+        364,
+        3852,
+        2399,
+        344
+      ],
+      "segment_pair_objectives": [
+        16,
+        0,
+        0,
+        120,
+        0,
+        0,
+        45,
+        0,
+        0,
+        0,
+        0,
+        0,
+        45,
+        0,
+        0,
+        60,
+        0,
+        0,
+        60,
+        0,
+        0,
+        120,
+        0,
+        0,
+        105,
+        0,
+        0,
+        60,
+        0,
+        0,
+        60,
+        0,
+        0,
+        32,
+        0,
+        0,
+        60,
+        0,
+        0,
+        44,
+        0,
+        0,
+        44,
+        0,
+        0,
+        44,
+        0,
+        0,
+        0,
+        0,
+        0,
+        56,
+        25,
+        0,
+        21,
+        25,
+        0,
+        16,
+        45,
+        0,
+        21,
+        0,
+        0,
+        28,
+        20,
+        0,
+        28,
+        25,
+        0,
+        0,
+        20,
+        0,
+        56,
+        0,
+        0,
+        49,
+        0,
+        0,
+        28,
+        45,
+        0,
+        28,
+        0,
+        0,
+        56,
+        20,
+        0,
+        28,
+        25,
+        0,
+        28,
+        0,
+        0,
+        77,
+        0,
+        0,
+        28,
+        0,
+        0,
+        0,
+        25,
+        0,
+        0,
+        25,
+        0,
+        0,
+        25,
+        0,
+        0,
+        0,
+        0,
+        0,
+        20,
+        0,
+        0,
+        25,
+        0,
+        0,
+        20,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        45,
+        0,
+        0,
+        0,
+        0,
+        0,
+        20,
+        0,
+        0,
+        25,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        25,
+        32,
+        0,
+        0,
+        24,
+        25,
+        0,
+        32,
+        25,
+        0,
+        32,
+        25,
+        0,
+        0,
+        0,
+        0,
+        64,
+        35,
+        0,
+        56,
+        25,
+        0,
+        32,
+        0,
+        0,
+        32,
+        35,
+        0,
+        64,
+        0,
+        0,
+        32,
+        25,
+        0,
+        32,
+        0,
+        0,
+        88,
+        35,
+        0,
+        32,
+        35,
+        0,
+        12,
+        0,
+        45,
+        0,
+        0,
+        0,
+        12,
+        0,
+        0,
+        12,
+        25,
+        0,
+        0,
+        0,
+        0,
+        24,
+        35,
+        0,
+        21,
+        25,
+        0,
+        12,
+        0,
+        0,
+        12,
+        35,
+        0,
+        24,
+        0,
+        0,
+        12,
+        25,
+        0,
+        12,
+        0,
+        0,
+        33,
+        35,
+        0,
+        12,
+        35,
+        0,
+        0,
+        0,
+        0,
+        16,
+        20,
+        0,
+        16,
+        45,
+        0,
+        0,
+        0,
+        0,
+        32,
+        63,
+        0,
+        28,
+        45,
+        0,
+        16,
+        0,
+        0,
+        16,
+        63,
+        0,
+        32,
+        0,
+        0,
+        16,
+        45,
+        0,
+        16,
+        0,
+        0,
+        0,
+        28,
+        0,
+        16,
+        28,
+        0,
+        0,
+        20,
+        25,
+        12,
+        25,
+        0,
+        0,
+        20,
+        0,
+        24,
+        0,
+        0,
+        21,
+        0,
+        0,
+        12,
+        45,
+        0,
+        12,
+        0,
+        0,
+        24,
+        20,
+        0,
+        12,
+        25,
+        0,
+        12,
+        0,
+        0,
+        33,
+        0,
+        0,
+        12,
+        0,
+        0,
+        16,
+        25,
+        45,
+        0,
+        20,
+        0,
+        32,
+        28,
+        0,
+        28,
+        20,
+        0,
+        16,
+        45,
+        0,
+        16,
+        28,
+        0,
+        32,
+        20,
+        0,
+        16,
+        45,
+        0,
+        0,
+        0,
+        0,
+        28,
+        28,
+        0,
+        16,
+        28,
+        0,
+        0,
+        20,
+        0,
+        32,
+        35,
+        0,
+        0,
+        25,
+        0,
+        16,
+        45,
+        0,
+        16,
+        35,
+        0,
+        32,
+        20,
+        0,
+        16,
+        50,
+        0,
+        16,
+        0,
+        0,
+        44,
+        35,
+        0,
+        16,
+        35,
+        0,
+        0,
+        0,
+        0,
+        0,
+        20,
+        0,
+        0,
+        0,
+        0,
+        0,
+        28,
+        0,
+        0,
+        0,
+        0,
+        0,
+        20,
+        0,
+        0,
+        28,
+        0,
+        0,
+        28,
+        0,
+        0,
+        0,
+        0,
+        0,
+        28,
+        0,
+        32,
+        0,
+        0,
+        64,
+        28,
+        0,
+        16,
+        0,
+        35,
+        32,
+        0,
+        0,
+        88,
+        0,
+        49,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        28,
+        0,
+        0,
+        56,
+        20,
+        0,
+        28,
+        25,
+        0,
+        28,
+        0,
+        0,
+        77,
+        0,
+        0,
+        28,
+        0,
+        0,
+        16,
+        0,
+        0,
+        32,
+        0,
+        36,
+        16,
+        45,
+        0,
+        16,
+        0,
+        0,
+        44,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        35,
+        0,
+        16,
+        0,
+        0,
+        44,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        20,
+        0,
+        32,
+        0,
+        0,
+        56,
+        0,
+        0,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        28,
+        0,
+        35,
+        0,
+        35,
+        0,
+        16,
+        0,
+        0,
+        16,
+        0,
+        0,
+        16,
+        0,
+        49
+      ],
+      "segment_pair_rows": [
+        {
+          "objectives": [
+            16,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            1
+          ]
+        },
+        {
+          "objectives": [
+            120,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            3
+          ]
+        },
+        {
+          "objectives": [
+            45,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            4
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            5
+          ]
+        },
+        {
+          "objectives": [
+            45,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            6
+          ]
+        },
+        {
+          "objectives": [
+            60,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            7
+          ]
+        },
+        {
+          "objectives": [
+            60,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            8
+          ]
+        },
+        {
+          "objectives": [
+            120,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            10
+          ]
+        },
+        {
+          "objectives": [
+            105,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            11
+          ]
+        },
+        {
+          "objectives": [
+            60,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            12
+          ]
+        },
+        {
+          "objectives": [
+            60,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            13
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            14
+          ]
+        },
+        {
+          "objectives": [
+            60,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            15
+          ]
+        },
+        {
+          "objectives": [
+            44,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            16
+          ]
+        },
+        {
+          "objectives": [
+            44,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            17
+          ]
+        },
+        {
+          "objectives": [
+            44,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            18
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            1,
+            2
+          ]
+        },
+        {
+          "objectives": [
+            56,
+            25,
+            0
+          ],
+          "segments": [
+            1,
+            3
+          ]
+        },
+        {
+          "objectives": [
+            21,
+            25,
+            0
+          ],
+          "segments": [
+            1,
+            4
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            45,
+            0
+          ],
+          "segments": [
+            1,
+            5
+          ]
+        },
+        {
+          "objectives": [
+            21,
+            0,
+            0
+          ],
+          "segments": [
+            1,
+            6
+          ]
+        },
+        {
+          "objectives": [
+            28,
+            20,
+            0
+          ],
+          "segments": [
+            1,
+            7
+          ]
+        },
+        {
+          "objectives": [
+            28,
+            25,
+            0
+          ],
+          "segments": [
+            1,
+            8
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            20,
+            0
+          ],
+          "segments": [
+            1,
+            9
+          ]
+        },
+        {
+          "objectives": [
+            56,
+            0,
+            0
+          ],
+          "segments": [
+            1,
+            10
+          ]
+        },
+        {
+          "objectives": [
+            49,
+            0,
+            0
+          ],
+          "segments": [
+            1,
+            11
+          ]
+        },
+        {
+          "objectives": [
+            28,
+            45,
+            0
+          ],
+          "segments": [
+            1,
+            12
+          ]
+        },
+        {
+          "objectives": [
+            28,
+            0,
+            0
+          ],
+          "segments": [
+            1,
+            13
+          ]
+        },
+        {
+          "objectives": [
+            56,
+            20,
+            0
+          ],
+          "segments": [
+            1,
+            14
+          ]
+        },
+        {
+          "objectives": [
+            28,
+            25,
+            0
+          ],
+          "segments": [
+            1,
+            15
+          ]
+        },
+        {
+          "objectives": [
+            28,
+            0,
+            0
+          ],
+          "segments": [
+            1,
+            16
+          ]
+        },
+        {
+          "objectives": [
+            77,
+            0,
+            0
+          ],
+          "segments": [
+            1,
+            17
+          ]
+        },
+        {
+          "objectives": [
+            28,
+            0,
+            0
+          ],
+          "segments": [
+            1,
+            18
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            25,
+            0
+          ],
+          "segments": [
+            2,
+            3
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            25,
+            0
+          ],
+          "segments": [
+            2,
+            4
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            25,
+            0
+          ],
+          "segments": [
+            2,
+            5
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            2,
+            6
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            20,
+            0
+          ],
+          "segments": [
+            2,
+            7
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            25,
+            0
+          ],
+          "segments": [
+            2,
+            8
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            20,
+            0
+          ],
+          "segments": [
+            2,
+            9
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            2,
+            10
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            2,
+            11
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            45,
+            0
+          ],
+          "segments": [
+            2,
+            12
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            2,
+            13
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            20,
+            0
+          ],
+          "segments": [
+            2,
+            14
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            25,
+            0
+          ],
+          "segments": [
+            2,
+            15
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            2,
+            17
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            2,
+            18
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            25
+          ],
+          "segments": [
+            3,
+            4
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            0,
+            0
+          ],
+          "segments": [
+            3,
+            5
+          ]
+        },
+        {
+          "objectives": [
+            24,
+            25,
+            0
+          ],
+          "segments": [
+            3,
+            6
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            25,
+            0
+          ],
+          "segments": [
+            3,
+            7
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            25,
+            0
+          ],
+          "segments": [
+            3,
+            8
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            3,
+            9
+          ]
+        },
+        {
+          "objectives": [
+            64,
+            35,
+            0
+          ],
+          "segments": [
+            3,
+            10
+          ]
+        },
+        {
+          "objectives": [
+            56,
+            25,
+            0
+          ],
+          "segments": [
+            3,
+            11
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            0,
+            0
+          ],
+          "segments": [
+            3,
+            12
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            35,
+            0
+          ],
+          "segments": [
+            3,
+            13
+          ]
+        },
+        {
+          "objectives": [
+            64,
+            0,
+            0
+          ],
+          "segments": [
+            3,
+            14
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            25,
+            0
+          ],
+          "segments": [
+            3,
+            15
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            0,
+            0
+          ],
+          "segments": [
+            3,
+            16
+          ]
+        },
+        {
+          "objectives": [
+            88,
+            35,
+            0
+          ],
+          "segments": [
+            3,
+            17
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            35,
+            0
+          ],
+          "segments": [
+            3,
+            18
+          ]
+        },
+        {
+          "objectives": [
+            12,
+            0,
+            45
+          ],
+          "segments": [
+            4,
+            5
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            4,
+            6
+          ]
+        },
+        {
+          "objectives": [
+            12,
+            0,
+            0
+          ],
+          "segments": [
+            4,
+            7
+          ]
+        },
+        {
+          "objectives": [
+            12,
+            25,
+            0
+          ],
+          "segments": [
+            4,
+            8
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            4,
+            9
+          ]
+        },
+        {
+          "objectives": [
+            24,
+            35,
+            0
+          ],
+          "segments": [
+            4,
+            10
+          ]
+        },
+        {
+          "objectives": [
+            21,
+            25,
+            0
+          ],
+          "segments": [
+            4,
+            11
+          ]
+        },
+        {
+          "objectives": [
+            12,
+            0,
+            0
+          ],
+          "segments": [
+            4,
+            12
+          ]
+        },
+        {
+          "objectives": [
+            12,
+            35,
+            0
+          ],
+          "segments": [
+            4,
+            13
+          ]
+        },
+        {
+          "objectives": [
+            24,
+            0,
+            0
+          ],
+          "segments": [
+            4,
+            14
+          ]
+        },
+        {
+          "objectives": [
+            12,
+            25,
+            0
+          ],
+          "segments": [
+            4,
+            15
+          ]
+        },
+        {
+          "objectives": [
+            12,
+            0,
+            0
+          ],
+          "segments": [
+            4,
+            16
+          ]
+        },
+        {
+          "objectives": [
+            33,
+            35,
+            0
+          ],
+          "segments": [
+            4,
+            17
+          ]
+        },
+        {
+          "objectives": [
+            12,
+            35,
+            0
+          ],
+          "segments": [
+            4,
+            18
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            5,
+            6
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            20,
+            0
+          ],
+          "segments": [
+            5,
+            7
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            45,
+            0
+          ],
+          "segments": [
+            5,
+            8
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            5,
+            9
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            63,
+            0
+          ],
+          "segments": [
+            5,
+            10
+          ]
+        },
+        {
+          "objectives": [
+            28,
+            45,
+            0
+          ],
+          "segments": [
+            5,
+            11
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            0,
+            0
+          ],
+          "segments": [
+            5,
+            12
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            63,
+            0
+          ],
+          "segments": [
+            5,
+            13
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            0,
+            0
+          ],
+          "segments": [
+            5,
+            14
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            45,
+            0
+          ],
+          "segments": [
+            5,
+            15
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            0,
+            0
+          ],
+          "segments": [
+            5,
+            16
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            28,
+            0
+          ],
+          "segments": [
+            5,
+            17
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            28,
+            0
+          ],
+          "segments": [
+            5,
+            18
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            20,
+            25
+          ],
+          "segments": [
+            6,
+            7
+          ]
+        },
+        {
+          "objectives": [
+            12,
+            25,
+            0
+          ],
+          "segments": [
+            6,
+            8
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            20,
+            0
+          ],
+          "segments": [
+            6,
+            9
+          ]
+        },
+        {
+          "objectives": [
+            24,
+            0,
+            0
+          ],
+          "segments": [
+            6,
+            10
+          ]
+        },
+        {
+          "objectives": [
+            21,
+            0,
+            0
+          ],
+          "segments": [
+            6,
+            11
+          ]
+        },
+        {
+          "objectives": [
+            12,
+            45,
+            0
+          ],
+          "segments": [
+            6,
+            12
+          ]
+        },
+        {
+          "objectives": [
+            12,
+            0,
+            0
+          ],
+          "segments": [
+            6,
+            13
+          ]
+        },
+        {
+          "objectives": [
+            24,
+            20,
+            0
+          ],
+          "segments": [
+            6,
+            14
+          ]
+        },
+        {
+          "objectives": [
+            12,
+            25,
+            0
+          ],
+          "segments": [
+            6,
+            15
+          ]
+        },
+        {
+          "objectives": [
+            12,
+            0,
+            0
+          ],
+          "segments": [
+            6,
+            16
+          ]
+        },
+        {
+          "objectives": [
+            33,
+            0,
+            0
+          ],
+          "segments": [
+            6,
+            17
+          ]
+        },
+        {
+          "objectives": [
+            12,
+            0,
+            0
+          ],
+          "segments": [
+            6,
+            18
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            25,
+            45
+          ],
+          "segments": [
+            7,
+            8
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            20,
+            0
+          ],
+          "segments": [
+            7,
+            9
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            28,
+            0
+          ],
+          "segments": [
+            7,
+            10
+          ]
+        },
+        {
+          "objectives": [
+            28,
+            20,
+            0
+          ],
+          "segments": [
+            7,
+            11
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            45,
+            0
+          ],
+          "segments": [
+            7,
+            12
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            28,
+            0
+          ],
+          "segments": [
+            7,
+            13
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            20,
+            0
+          ],
+          "segments": [
+            7,
+            14
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            45,
+            0
+          ],
+          "segments": [
+            7,
+            15
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            7,
+            16
+          ]
+        },
+        {
+          "objectives": [
+            28,
+            28,
+            0
+          ],
+          "segments": [
+            7,
+            17
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            28,
+            0
+          ],
+          "segments": [
+            7,
+            18
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            20,
+            0
+          ],
+          "segments": [
+            8,
+            9
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            35,
+            0
+          ],
+          "segments": [
+            8,
+            10
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            25,
+            0
+          ],
+          "segments": [
+            8,
+            11
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            45,
+            0
+          ],
+          "segments": [
+            8,
+            12
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            35,
+            0
+          ],
+          "segments": [
+            8,
+            13
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            20,
+            0
+          ],
+          "segments": [
+            8,
+            14
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            50,
+            0
+          ],
+          "segments": [
+            8,
+            15
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            0,
+            0
+          ],
+          "segments": [
+            8,
+            16
+          ]
+        },
+        {
+          "objectives": [
+            44,
+            35,
+            0
+          ],
+          "segments": [
+            8,
+            17
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            35,
+            0
+          ],
+          "segments": [
+            8,
+            18
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            9,
+            10
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            20,
+            0
+          ],
+          "segments": [
+            9,
+            11
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            9,
+            12
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            28,
+            0
+          ],
+          "segments": [
+            9,
+            13
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            9,
+            14
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            20,
+            0
+          ],
+          "segments": [
+            9,
+            15
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            28,
+            0
+          ],
+          "segments": [
+            9,
+            17
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            28,
+            0
+          ],
+          "segments": [
+            9,
+            18
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            10,
+            11
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            28,
+            0
+          ],
+          "segments": [
+            10,
+            12
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            0,
+            0
+          ],
+          "segments": [
+            10,
+            13
+          ]
+        },
+        {
+          "objectives": [
+            64,
+            28,
+            0
+          ],
+          "segments": [
+            10,
+            14
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            0,
+            35
+          ],
+          "segments": [
+            10,
+            15
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            0,
+            0
+          ],
+          "segments": [
+            10,
+            16
+          ]
+        },
+        {
+          "objectives": [
+            88,
+            0,
+            49
+          ],
+          "segments": [
+            10,
+            17
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            0,
+            0
+          ],
+          "segments": [
+            10,
+            18
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            11,
+            12
+          ]
+        },
+        {
+          "objectives": [
+            28,
+            0,
+            0
+          ],
+          "segments": [
+            11,
+            13
+          ]
+        },
+        {
+          "objectives": [
+            56,
+            20,
+            0
+          ],
+          "segments": [
+            11,
+            14
+          ]
+        },
+        {
+          "objectives": [
+            28,
+            25,
+            0
+          ],
+          "segments": [
+            11,
+            15
+          ]
+        },
+        {
+          "objectives": [
+            28,
+            0,
+            0
+          ],
+          "segments": [
+            11,
+            16
+          ]
+        },
+        {
+          "objectives": [
+            77,
+            0,
+            0
+          ],
+          "segments": [
+            11,
+            17
+          ]
+        },
+        {
+          "objectives": [
+            28,
+            0,
+            0
+          ],
+          "segments": [
+            11,
+            18
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            0,
+            0
+          ],
+          "segments": [
+            12,
+            13
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            0,
+            36
+          ],
+          "segments": [
+            12,
+            14
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            45,
+            0
+          ],
+          "segments": [
+            12,
+            15
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            0,
+            0
+          ],
+          "segments": [
+            12,
+            16
+          ]
+        },
+        {
+          "objectives": [
+            44,
+            0,
+            0
+          ],
+          "segments": [
+            12,
+            17
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            0,
+            0
+          ],
+          "segments": [
+            12,
+            18
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            13,
+            14
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            35,
+            0
+          ],
+          "segments": [
+            13,
+            15
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            0,
+            0
+          ],
+          "segments": [
+            13,
+            16
+          ]
+        },
+        {
+          "objectives": [
+            44,
+            0,
+            0
+          ],
+          "segments": [
+            13,
+            17
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            13,
+            18
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            20,
+            0
+          ],
+          "segments": [
+            14,
+            15
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            0,
+            0
+          ],
+          "segments": [
+            14,
+            16
+          ]
+        },
+        {
+          "objectives": [
+            56,
+            0,
+            0
+          ],
+          "segments": [
+            14,
+            17
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            14,
+            18
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            0,
+            0
+          ],
+          "segments": [
+            15,
+            16
+          ]
+        },
+        {
+          "objectives": [
+            28,
+            0,
+            35
+          ],
+          "segments": [
+            15,
+            17
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            35,
+            0
+          ],
+          "segments": [
+            15,
+            18
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            0,
+            0
+          ],
+          "segments": [
+            16,
+            17
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            0,
+            0
+          ],
+          "segments": [
+            16,
+            18
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            0,
+            49
+          ],
+          "segments": [
+            17,
+            18
+          ]
+        }
+      ],
+      "spatial_one_squared": 14.405034636428685,
+      "supported_edge_count": 359
+    },
+    "hard_exclusion_strata": [
+      "backbone",
+      "sidechain_graph"
+    ],
+    "hard_exclusion_vector": [
+      0,
+      3
+    ],
+    "hard_exclusions": 3,
+    "hydrogen_bond_assembly": {
+      "eligible_pair_count": 1216,
+      "pair_count": 63,
+      "pairs": [
+        {
+          "acceptor_residue": 20,
+          "dimensionless_strength": 1.0804871596334409,
+          "donor_residue": 23
+        },
+        {
+          "acceptor_residue": 1,
+          "dimensionless_strength": 0.6077882306977318,
+          "donor_residue": 70
+        },
+        {
+          "acceptor_residue": 38,
+          "dimensionless_strength": 0.5712128257800884,
+          "donor_residue": 41
+        },
+        {
+          "acceptor_residue": 35,
+          "dimensionless_strength": 0.5006027479640822,
+          "donor_residue": 39
+        },
+        {
+          "acceptor_residue": 3,
+          "dimensionless_strength": 0.41760636906090054,
+          "donor_residue": 24
+        },
+        {
+          "acceptor_residue": 5,
+          "dimensionless_strength": 0.4174633825731795,
+          "donor_residue": 9
+        },
+        {
+          "acceptor_residue": 19,
+          "dimensionless_strength": 0.4165441375770852,
+          "donor_residue": 22
+        },
+        {
+          "acceptor_residue": 33,
+          "dimensionless_strength": 0.3963025138057528,
+          "donor_residue": 36
+        },
+        {
+          "acceptor_residue": 7,
+          "dimensionless_strength": 0.3890173279749599,
+          "donor_residue": 2
+        },
+        {
+          "acceptor_residue": 56,
+          "dimensionless_strength": 0.38498724280066365,
+          "donor_residue": 60
+        },
+        {
+          "acceptor_residue": 23,
+          "dimensionless_strength": 0.368188592968646,
+          "donor_residue": 27
+        },
+        {
+          "acceptor_residue": 60,
+          "dimensionless_strength": 0.36179549722883597,
+          "donor_residue": 75
+        },
+        {
+          "acceptor_residue": 55,
+          "dimensionless_strength": 0.34554816799567756,
+          "donor_residue": 58
+        },
+        {
+          "acceptor_residue": 10,
+          "dimensionless_strength": 0.3194992571065854,
+          "donor_residue": 13
+        },
+        {
+          "acceptor_residue": 37,
+          "dimensionless_strength": 0.30973612501517134,
+          "donor_residue": 66
+        },
+        {
+          "acceptor_residue": 62,
+          "dimensionless_strength": 0.2812778799707024,
+          "donor_residue": 65
+        },
+        {
+          "acceptor_residue": 22,
+          "dimensionless_strength": 0.28106978736546057,
+          "donor_residue": 71
+        },
+        {
+          "acceptor_residue": 17,
+          "dimensionless_strength": 0.27648626802140436,
+          "donor_residue": 20
+        },
+        {
+          "acceptor_residue": 71,
+          "dimensionless_strength": 0.2747429597080496,
+          "donor_residue": 63
+        },
+        {
+          "acceptor_residue": 68,
+          "dimensionless_strength": 0.26972470802540344,
+          "donor_residue": 30
+        },
+        {
+          "acceptor_residue": 59,
+          "dimensionless_strength": 0.2695043811792938,
+          "donor_residue": 64
+        },
+        {
+          "acceptor_residue": 73,
+          "dimensionless_strength": 0.26268259550988515,
+          "donor_residue": 59
+        },
+        {
+          "acceptor_residue": 42,
+          "dimensionless_strength": 0.2603267534301924,
+          "donor_residue": 45
+        },
+        {
+          "acceptor_residue": 6,
+          "dimensionless_strength": 0.23573183637015727,
+          "donor_residue": 11
+        },
+        {
+          "acceptor_residue": 14,
+          "dimensionless_strength": 0.23022150757021276,
+          "donor_residue": 21
+        },
+        {
+          "acceptor_residue": 53,
+          "dimensionless_strength": 0.22659672592457406,
+          "donor_residue": 57
+        },
+        {
+          "acceptor_residue": 51,
+          "dimensionless_strength": 0.22148674648773356,
+          "donor_residue": 48
+        },
+        {
+          "acceptor_residue": 27,
+          "dimensionless_strength": 0.20809833213205062,
+          "donor_residue": 72
+        },
+        {
+          "acceptor_residue": 43,
+          "dimensionless_strength": 0.20238092158334867,
+          "donor_residue": 51
+        },
+        {
+          "acceptor_residue": 66,
+          "dimensionless_strength": 0.2008763072965574,
+          "donor_residue": 69
+        },
+        {
+          "acceptor_residue": 48,
+          "dimensionless_strength": 0.20071754579400733,
+          "donor_residue": 42
+        },
+        {
+          "acceptor_residue": 69,
+          "dimensionless_strength": 0.20061860901271938,
+          "donor_residue": 74
+        },
+        {
+          "acceptor_residue": 39,
+          "dimensionless_strength": 0.19170140453223403,
+          "donor_residue": 62
+        },
+        {
+          "acceptor_residue": 26,
+          "dimensionless_strength": 0.1707579518287799,
+          "donor_residue": 29
+        },
+        {
+          "acceptor_residue": 40,
+          "dimensionless_strength": 0.16429170083619254,
+          "donor_residue": 44
+        },
+        {
+          "acceptor_residue": 70,
+          "dimensionless_strength": 0.1640199428784122,
+          "donor_residue": 33
+        },
+        {
+          "acceptor_residue": 28,
+          "dimensionless_strength": 0.1636810242322924,
+          "donor_residue": 68
+        },
+        {
+          "acceptor_residue": 34,
+          "dimensionless_strength": 0.15574183828618152,
+          "donor_residue": 26
+        },
+        {
+          "acceptor_residue": 61,
+          "dimensionless_strength": 0.1449818511891245,
+          "donor_residue": 76
+        },
+        {
+          "acceptor_residue": 11,
+          "dimensionless_strength": 0.1330369646251262,
+          "donor_residue": 28
+        },
+        {
+          "acceptor_residue": 12,
+          "dimensionless_strength": 0.1329259401662824,
+          "donor_residue": 16
+        },
+        {
+          "acceptor_residue": 67,
+          "dimensionless_strength": 0.12801366491537267,
+          "donor_residue": 52
+        },
+        {
+          "acceptor_residue": 46,
+          "dimensionless_strength": 0.10677936063038908,
+          "donor_residue": 53
+        },
+        {
+          "acceptor_residue": 49,
+          "dimensionless_strength": 0.10306151225466023,
+          "donor_residue": 43
+        },
+        {
+          "acceptor_residue": 29,
+          "dimensionless_strength": 0.10197764899585458,
+          "donor_residue": 17
+        },
+        {
+          "acceptor_residue": 9,
+          "dimensionless_strength": 0.09723870218481813,
+          "donor_residue": 32
+        },
+        {
+          "acceptor_residue": 50,
+          "dimensionless_strength": 0.08813064994322009,
+          "donor_residue": 54
+        },
+        {
+          "acceptor_residue": 31,
+          "dimensionless_strength": 0.08262411256092186,
+          "donor_residue": 40
+        },
+        {
+          "acceptor_residue": 75,
+          "dimensionless_strength": 0.07757473518178885,
+          "donor_residue": 46
+        },
+        {
+          "acceptor_residue": 25,
+          "dimensionless_strength": 0.05975417188913975,
+          "donor_residue": 14
+        },
+        {
+          "acceptor_residue": 57,
+          "dimensionless_strength": 0.05709221002059901,
+          "donor_residue": 5
+        },
+        {
+          "acceptor_residue": 52,
+          "dimensionless_strength": 0.0520697312617205,
+          "donor_residue": 6
+        },
+        {
+          "acceptor_residue": 30,
+          "dimensionless_strength": 0.047781848114620065,
+          "donor_residue": 47
+        },
+        {
+          "acceptor_residue": 58,
+          "dimensionless_strength": 0.03647373501722959,
+          "donor_residue": 50
+        },
+        {
+          "acceptor_residue": 65,
+          "dimensionless_strength": 0.03494238438052194,
+          "donor_residue": 3
+        },
+        {
+          "acceptor_residue": 32,
+          "dimensionless_strength": 0.033106122107713604,
+          "donor_residue": 18
+        },
+        {
+          "acceptor_residue": 15,
+          "dimensionless_strength": 0.030834189317487715,
+          "donor_residue": 73
+        },
+        {
+          "acceptor_residue": 74,
+          "dimensionless_strength": 0.0291981271277046,
+          "donor_residue": 25
+        },
+        {
+          "acceptor_residue": 16,
+          "dimensionless_strength": 0.022342004999384053,
+          "donor_residue": 55
+        },
+        {
+          "acceptor_residue": 13,
+          "dimensionless_strength": 0.017868094665446636,
+          "donor_residue": 8
+        },
+        {
+          "acceptor_residue": 2,
+          "dimensionless_strength": 0.016058591544759488,
+          "donor_residue": 31
+        },
+        {
+          "acceptor_residue": 4,
+          "dimensionless_strength": 0.007334080649308561,
+          "donor_residue": 12
+        },
+        {
+          "acceptor_residue": 47,
+          "dimensionless_strength": 0.005088650329763465,
+          "donor_residue": 34
+        }
+      ],
+      "relation": -13.645806390231604
+    },
+    "hydrogen_bond_topologies": {
+      "eligible_pair_count": 1164,
+      "eligible_pair_counts": {
+        "alpha": 23,
+        "interstrand": 1141
+      },
+      "pair_count": 62,
+      "pair_counts": {
+        "alpha": 9,
+        "interstrand": 53
+      },
+      "pairs": [
+        {
+          "acceptor_residue": 1,
+          "dimensionless_strength": 0.6077882306977318,
+          "donor_residue": 70,
+          "sequence_separation": 69,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 35,
+          "dimensionless_strength": 0.5006027479640822,
+          "donor_residue": 39,
+          "sequence_separation": 4,
+          "topology": "alpha"
+        },
+        {
+          "acceptor_residue": 3,
+          "dimensionless_strength": 0.41760636906090054,
+          "donor_residue": 24,
+          "sequence_separation": 21,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 5,
+          "dimensionless_strength": 0.4174633825731795,
+          "donor_residue": 9,
+          "sequence_separation": 4,
+          "topology": "alpha"
+        },
+        {
+          "acceptor_residue": 19,
+          "dimensionless_strength": 0.39187283153553887,
+          "donor_residue": 23,
+          "sequence_separation": 4,
+          "topology": "alpha"
+        },
+        {
+          "acceptor_residue": 7,
+          "dimensionless_strength": 0.3890173279749599,
+          "donor_residue": 2,
+          "sequence_separation": 5,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 56,
+          "dimensionless_strength": 0.38498724280066365,
+          "donor_residue": 60,
+          "sequence_separation": 4,
+          "topology": "alpha"
+        },
+        {
+          "acceptor_residue": 23,
+          "dimensionless_strength": 0.368188592968646,
+          "donor_residue": 27,
+          "sequence_separation": 4,
+          "topology": "alpha"
+        },
+        {
+          "acceptor_residue": 60,
+          "dimensionless_strength": 0.36179549722883597,
+          "donor_residue": 75,
+          "sequence_separation": 15,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 37,
+          "dimensionless_strength": 0.30973612501517134,
+          "donor_residue": 66,
+          "sequence_separation": 29,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 22,
+          "dimensionless_strength": 0.28106978736546057,
+          "donor_residue": 71,
+          "sequence_separation": 49,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 71,
+          "dimensionless_strength": 0.2747429597080496,
+          "donor_residue": 63,
+          "sequence_separation": 8,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 68,
+          "dimensionless_strength": 0.26972470802540344,
+          "donor_residue": 30,
+          "sequence_separation": 38,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 59,
+          "dimensionless_strength": 0.2695043811792938,
+          "donor_residue": 64,
+          "sequence_separation": 5,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 31,
+          "dimensionless_strength": 0.268576666899996,
+          "donor_residue": 36,
+          "sequence_separation": 5,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 73,
+          "dimensionless_strength": 0.26268259550988515,
+          "donor_residue": 59,
+          "sequence_separation": 14,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 17,
+          "dimensionless_strength": 0.2591492441859575,
+          "donor_residue": 21,
+          "sequence_separation": 4,
+          "topology": "alpha"
+        },
+        {
+          "acceptor_residue": 6,
+          "dimensionless_strength": 0.23573183637015727,
+          "donor_residue": 11,
+          "sequence_separation": 5,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 53,
+          "dimensionless_strength": 0.22659672592457406,
+          "donor_residue": 57,
+          "sequence_separation": 4,
+          "topology": "alpha"
+        },
+        {
+          "acceptor_residue": 42,
+          "dimensionless_strength": 0.2253954186075112,
+          "donor_residue": 69,
+          "sequence_separation": 27,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 25,
+          "dimensionless_strength": 0.22506619939585018,
+          "donor_residue": 20,
+          "sequence_separation": 5,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 27,
+          "dimensionless_strength": 0.20809833213205062,
+          "donor_residue": 72,
+          "sequence_separation": 45,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 43,
+          "dimensionless_strength": 0.20238092158334867,
+          "donor_residue": 51,
+          "sequence_separation": 8,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 48,
+          "dimensionless_strength": 0.20071754579400733,
+          "donor_residue": 42,
+          "sequence_separation": 6,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 69,
+          "dimensionless_strength": 0.20061860901271938,
+          "donor_residue": 74,
+          "sequence_separation": 5,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 39,
+          "dimensionless_strength": 0.19170140453223403,
+          "donor_residue": 62,
+          "sequence_separation": 23,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 66,
+          "dimensionless_strength": 0.18278708888797127,
+          "donor_residue": 33,
+          "sequence_separation": 33,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 10,
+          "dimensionless_strength": 0.17582104156992684,
+          "donor_residue": 16,
+          "sequence_separation": 6,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 28,
+          "dimensionless_strength": 0.17033268115415034,
+          "donor_residue": 65,
+          "sequence_separation": 37,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 40,
+          "dimensionless_strength": 0.16429170083619254,
+          "donor_residue": 44,
+          "sequence_separation": 4,
+          "topology": "alpha"
+        },
+        {
+          "acceptor_residue": 29,
+          "dimensionless_strength": 0.15968035912253706,
+          "donor_residue": 13,
+          "sequence_separation": 16,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 34,
+          "dimensionless_strength": 0.15574183828618152,
+          "donor_residue": 26,
+          "sequence_separation": 8,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 70,
+          "dimensionless_strength": 0.15126378931242576,
+          "donor_residue": 46,
+          "sequence_separation": 24,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 61,
+          "dimensionless_strength": 0.1449818511891245,
+          "donor_residue": 76,
+          "sequence_separation": 15,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 11,
+          "dimensionless_strength": 0.1330369646251262,
+          "donor_residue": 28,
+          "sequence_separation": 17,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 67,
+          "dimensionless_strength": 0.12801366491537267,
+          "donor_residue": 52,
+          "sequence_separation": 15,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 20,
+          "dimensionless_strength": 0.12271388457851815,
+          "donor_residue": 73,
+          "sequence_separation": 53,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 63,
+          "dimensionless_strength": 0.11601557023261487,
+          "donor_residue": 41,
+          "sequence_separation": 22,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 46,
+          "dimensionless_strength": 0.10677936063038908,
+          "donor_residue": 53,
+          "sequence_separation": 7,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 49,
+          "dimensionless_strength": 0.10306151225466023,
+          "donor_residue": 43,
+          "sequence_separation": 6,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 9,
+          "dimensionless_strength": 0.09723870218481813,
+          "donor_residue": 32,
+          "sequence_separation": 23,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 55,
+          "dimensionless_strength": 0.09394939161765266,
+          "donor_residue": 6,
+          "sequence_separation": 49,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 50,
+          "dimensionless_strength": 0.08813064994322009,
+          "donor_residue": 54,
+          "sequence_separation": 4,
+          "topology": "alpha"
+        },
+        {
+          "acceptor_residue": 62,
+          "dimensionless_strength": 0.08642940979354391,
+          "donor_residue": 45,
+          "sequence_separation": 17,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 14,
+          "dimensionless_strength": 0.0822803367226818,
+          "donor_residue": 22,
+          "sequence_separation": 8,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 33,
+          "dimensionless_strength": 0.07149948202583592,
+          "donor_residue": 40,
+          "sequence_separation": 7,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 75,
+          "dimensionless_strength": 0.06334154879639152,
+          "donor_residue": 25,
+          "sequence_separation": 50,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 57,
+          "dimensionless_strength": 0.05709221002059901,
+          "donor_residue": 5,
+          "sequence_separation": 52,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 30,
+          "dimensionless_strength": 0.047781848114620065,
+          "donor_residue": 47,
+          "sequence_separation": 17,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 32,
+          "dimensionless_strength": 0.03867679674023278,
+          "donor_residue": 17,
+          "sequence_separation": 15,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 58,
+          "dimensionless_strength": 0.03647373501722959,
+          "donor_residue": 50,
+          "sequence_separation": 8,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 65,
+          "dimensionless_strength": 0.03494238438052194,
+          "donor_residue": 3,
+          "sequence_separation": 62,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 26,
+          "dimensionless_strength": 0.03488811082960465,
+          "donor_residue": 14,
+          "sequence_separation": 12,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 15,
+          "dimensionless_strength": 0.022819137678914036,
+          "donor_residue": 48,
+          "sequence_separation": 33,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 16,
+          "dimensionless_strength": 0.022342004999384053,
+          "donor_residue": 55,
+          "sequence_separation": 39,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 52,
+          "dimensionless_strength": 0.02040834540589099,
+          "donor_residue": 58,
+          "sequence_separation": 6,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 13,
+          "dimensionless_strength": 0.017868094665446636,
+          "donor_residue": 8,
+          "sequence_separation": 5,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 2,
+          "dimensionless_strength": 0.016058591544759488,
+          "donor_residue": 31,
+          "sequence_separation": 29,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 4,
+          "dimensionless_strength": 0.007334080649308561,
+          "donor_residue": 12,
+          "sequence_separation": 8,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 47,
+          "dimensionless_strength": 0.005088650329763465,
+          "donor_residue": 34,
+          "sequence_separation": 13,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 36,
+          "dimensionless_strength": 0.004750489189230578,
+          "donor_residue": 18,
+          "sequence_separation": 18,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 21,
+          "dimensionless_strength": 0.003634886542087621,
+          "donor_residue": 29,
+          "sequence_separation": 8,
+          "topology": "interstrand"
+        }
+      ],
+      "relations": {
+        "alpha": -2.8012831187320546,
+        "interstrand": -8.11708276010108
+      }
+    },
+    "objectives": [
+      0.5743596298139402,
+      0.0,
+      0.0,
+      1.0,
+      0.7480252649985023,
+      -0.0,
+      -0.0,
+      0.0,
+      11165.556542441087,
+      -4.446562625191813,
+      0.8808456363732616,
+      12.401753807628449,
+      -2.8012831187320546,
+      -8.11708276010108,
+      -13.645806390231604,
+      3852,
+      2399,
+      364,
+      3852,
+      2399,
+      344,
+      16,
+      0,
+      0,
+      120,
+      0,
+      0,
+      45,
+      0,
+      0,
+      0,
+      0,
+      0,
+      45,
+      0,
+      0,
+      60,
+      0,
+      0,
+      60,
+      0,
+      0,
+      120,
+      0,
+      0,
+      105,
+      0,
+      0,
+      60,
+      0,
+      0,
+      60,
+      0,
+      0,
+      32,
+      0,
+      0,
+      60,
+      0,
+      0,
+      44,
+      0,
+      0,
+      44,
+      0,
+      0,
+      44,
+      0,
+      0,
+      0,
+      0,
+      0,
+      56,
+      25,
+      0,
+      21,
+      25,
+      0,
+      16,
+      45,
+      0,
+      21,
+      0,
+      0,
+      28,
+      20,
+      0,
+      28,
+      25,
+      0,
+      0,
+      20,
+      0,
+      56,
+      0,
+      0,
+      49,
+      0,
+      0,
+      28,
+      45,
+      0,
+      28,
+      0,
+      0,
+      56,
+      20,
+      0,
+      28,
+      25,
+      0,
+      28,
+      0,
+      0,
+      77,
+      0,
+      0,
+      28,
+      0,
+      0,
+      0,
+      25,
+      0,
+      0,
+      25,
+      0,
+      0,
+      25,
+      0,
+      0,
+      0,
+      0,
+      0,
+      20,
+      0,
+      0,
+      25,
+      0,
+      0,
+      20,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      45,
+      0,
+      0,
+      0,
+      0,
+      0,
+      20,
+      0,
+      0,
+      25,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      25,
+      32,
+      0,
+      0,
+      24,
+      25,
+      0,
+      32,
+      25,
+      0,
+      32,
+      25,
+      0,
+      0,
+      0,
+      0,
+      64,
+      35,
+      0,
+      56,
+      25,
+      0,
+      32,
+      0,
+      0,
+      32,
+      35,
+      0,
+      64,
+      0,
+      0,
+      32,
+      25,
+      0,
+      32,
+      0,
+      0,
+      88,
+      35,
+      0,
+      32,
+      35,
+      0,
+      12,
+      0,
+      45,
+      0,
+      0,
+      0,
+      12,
+      0,
+      0,
+      12,
+      25,
+      0,
+      0,
+      0,
+      0,
+      24,
+      35,
+      0,
+      21,
+      25,
+      0,
+      12,
+      0,
+      0,
+      12,
+      35,
+      0,
+      24,
+      0,
+      0,
+      12,
+      25,
+      0,
+      12,
+      0,
+      0,
+      33,
+      35,
+      0,
+      12,
+      35,
+      0,
+      0,
+      0,
+      0,
+      16,
+      20,
+      0,
+      16,
+      45,
+      0,
+      0,
+      0,
+      0,
+      32,
+      63,
+      0,
+      28,
+      45,
+      0,
+      16,
+      0,
+      0,
+      16,
+      63,
+      0,
+      32,
+      0,
+      0,
+      16,
+      45,
+      0,
+      16,
+      0,
+      0,
+      0,
+      28,
+      0,
+      16,
+      28,
+      0,
+      0,
+      20,
+      25,
+      12,
+      25,
+      0,
+      0,
+      20,
+      0,
+      24,
+      0,
+      0,
+      21,
+      0,
+      0,
+      12,
+      45,
+      0,
+      12,
+      0,
+      0,
+      24,
+      20,
+      0,
+      12,
+      25,
+      0,
+      12,
+      0,
+      0,
+      33,
+      0,
+      0,
+      12,
+      0,
+      0,
+      16,
+      25,
+      45,
+      0,
+      20,
+      0,
+      32,
+      28,
+      0,
+      28,
+      20,
+      0,
+      16,
+      45,
+      0,
+      16,
+      28,
+      0,
+      32,
+      20,
+      0,
+      16,
+      45,
+      0,
+      0,
+      0,
+      0,
+      28,
+      28,
+      0,
+      16,
+      28,
+      0,
+      0,
+      20,
+      0,
+      32,
+      35,
+      0,
+      0,
+      25,
+      0,
+      16,
+      45,
+      0,
+      16,
+      35,
+      0,
+      32,
+      20,
+      0,
+      16,
+      50,
+      0,
+      16,
+      0,
+      0,
+      44,
+      35,
+      0,
+      16,
+      35,
+      0,
+      0,
+      0,
+      0,
+      0,
+      20,
+      0,
+      0,
+      0,
+      0,
+      0,
+      28,
+      0,
+      0,
+      0,
+      0,
+      0,
+      20,
+      0,
+      0,
+      28,
+      0,
+      0,
+      28,
+      0,
+      0,
+      0,
+      0,
+      0,
+      28,
+      0,
+      32,
+      0,
+      0,
+      64,
+      28,
+      0,
+      16,
+      0,
+      35,
+      32,
+      0,
+      0,
+      88,
+      0,
+      49,
+      16,
+      0,
+      0,
+      0,
+      0,
+      0,
+      28,
+      0,
+      0,
+      56,
+      20,
+      0,
+      28,
+      25,
+      0,
+      28,
+      0,
+      0,
+      77,
+      0,
+      0,
+      28,
+      0,
+      0,
+      16,
+      0,
+      0,
+      32,
+      0,
+      36,
+      16,
+      45,
+      0,
+      16,
+      0,
+      0,
+      44,
+      0,
+      0,
+      16,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      35,
+      0,
+      16,
+      0,
+      0,
+      44,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      20,
+      0,
+      32,
+      0,
+      0,
+      56,
+      0,
+      0,
+      0,
+      0,
+      0,
+      16,
+      0,
+      0,
+      28,
+      0,
+      35,
+      0,
+      35,
+      0,
+      16,
+      0,
+      0,
+      16,
+      0,
+      0,
+      16,
+      0,
+      49,
+      75
+    ],
+    "parent_departures": 75,
+    "raw": {
+      "complete": [
+        [
+          0,
+          3
+        ],
+        11165.556542441087,
+        -4.446562625191813,
+        0.8808456363732616,
+        12.401753807628449,
+        -2.8012831187320546,
+        -8.11708276010108,
+        -13.645806390231604
+      ],
+      "local": [
+        0.5743596298139402,
+        [
+          0,
+          0
+        ],
+        0.0,
+        0.0,
+        1.0,
+        0.7480252649985023,
+        -0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "sidechain_graph_spatial_exclusion": {
+      "atom_encounter_count": 14,
+      "excluded_pairs": [
+        {
+          "atom_encounter_count": 1,
+          "encounters": [
+            {
+              "dimensionless_distance_squared": 0.6377908992386563,
+              "left_atom": "CG1",
+              "right_atom": "CG2"
+            }
+          ],
+          "left_identity": "V",
+          "left_residue": 5,
+          "right_identity": "T",
+          "right_residue": 22
+        },
+        {
+          "atom_encounter_count": 10,
+          "encounters": [
+            {
+              "dimensionless_distance_squared": 0.8373200836645946,
+              "left_atom": "CB",
+              "right_atom": "CD1"
+            },
+            {
+              "dimensionless_distance_squared": 0.6755442363579945,
+              "left_atom": "CG",
+              "right_atom": "CG1"
+            },
+            {
+              "dimensionless_distance_squared": 0.9852567902791568,
+              "left_atom": "CG",
+              "right_atom": "CG2"
+            },
+            {
+              "dimensionless_distance_squared": 0.19814905314391384,
+              "left_atom": "CG",
+              "right_atom": "CD1"
+            },
+            {
+              "dimensionless_distance_squared": 0.7483471135458524,
+              "left_atom": "OD1",
+              "right_atom": "CG1"
+            },
+            {
+              "dimensionless_distance_squared": 0.48633519097922223,
+              "left_atom": "OD1",
+              "right_atom": "CD1"
+            },
+            {
+              "dimensionless_distance_squared": 0.72918443589431,
+              "left_atom": "OD2",
+              "right_atom": "CB"
+            },
+            {
+              "dimensionless_distance_squared": 0.1139134431841971,
+              "left_atom": "OD2",
+              "right_atom": "CG1"
+            },
+            {
+              "dimensionless_distance_squared": 0.9398702507705116,
+              "left_atom": "OD2",
+              "right_atom": "CG2"
+            },
+            {
+              "dimensionless_distance_squared": 0.1676208542672402,
+              "left_atom": "OD2",
+              "right_atom": "CD1"
+            }
+          ],
+          "left_identity": "D",
+          "left_residue": 39,
+          "right_identity": "I",
+          "right_residue": 44
+        },
+        {
+          "atom_encounter_count": 3,
+          "encounters": [
+            {
+              "dimensionless_distance_squared": 0.8221620046921629,
+              "left_atom": "CG",
+              "right_atom": "OD1"
+            },
+            {
+              "dimensionless_distance_squared": 0.7613084845985753,
+              "left_atom": "OD1",
+              "right_atom": "OD1"
+            },
+            {
+              "dimensionless_distance_squared": 0.4482027609742158,
+              "left_atom": "OD2",
+              "right_atom": "OD1"
+            }
+          ],
+          "left_identity": "D",
+          "left_residue": 52,
+          "right_identity": "D",
+          "right_residue": 58
+        }
+      ],
+      "excluded_residue_pair_count": 3,
+      "hard_exclusions": 3
+    }
+  },
+  "frontier_capacity": 24,
+  "hydrogen_bond_census": {
+    "acceptor_capacity": 1,
+    "acceptor_residues": "ACDEFGHIKLMNPQRSTVWY",
+    "alphabet": "ACDEFGHIKLMNPQRSTVWY",
+    "alphabet_count": 20,
+    "angular_cutoff": null,
+    "distance_cutoff": null,
+    "donor_capacity": 1,
+    "donor_residues": "ACDEFGHIKLMNQRSTVWY",
+    "fitted_energy": null,
+    "interwindow_residues": 4,
+    "minimum_sequence_separation": 3,
+    "non_donor_residues": "P",
+    "overlap_residues": 3
+  },
+  "orientation_modes": {
+    "alpha": 0.7682042835361056,
+    "beta": -0.18257647754674627,
+    "source_angles_degrees": {
+      "alpha": [
+        "-60",
+        "-45"
+      ],
+      "beta": [
+        "-120",
+        "135"
+      ]
+    }
+  },
+  "orientation_trace": [
+    {
+      "mode_distance": 0.012030087359093944,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.7561741961770116,
+      "residue_positions_one_based": [
+        1,
+        4
+      ],
+      "sequence": "MQIF"
+    },
+    {
+      "mode_distance": 0.016743558877373138,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.16583291866937314,
+      "residue_positions_one_based": [
+        2,
+        5
+      ],
+      "sequence": "QIFV"
+    },
+    {
+      "mode_distance": 0.2897914536685524,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.4784128298675532,
+      "residue_positions_one_based": [
+        3,
+        6
+      ],
+      "sequence": "IFVK"
+    },
+    {
+      "mode_distance": 0.3008448803825631,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.48342135792930935,
+      "residue_positions_one_based": [
+        4,
+        7
+      ],
+      "sequence": "FVKT"
+    },
+    {
+      "mode_distance": 0.10652414602640514,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.8747284295625107,
+      "residue_positions_one_based": [
+        5,
+        8
+      ],
+      "sequence": "VKTL"
+    },
+    {
+      "mode_distance": 0.4930367127484145,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.6756131902951608,
+      "residue_positions_one_based": [
+        6,
+        9
+      ],
+      "sequence": "KTLT"
+    },
+    {
+      "mode_distance": 0.3652395780559399,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": 0.1826631005091936,
+      "residue_positions_one_based": [
+        7,
+        10
+      ],
+      "sequence": "TLTG"
+    },
+    {
+      "mode_distance": 0.3364400077368546,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.5190164852836009,
+      "residue_positions_one_based": [
+        8,
+        11
+      ],
+      "sequence": "LTGK"
+    },
+    {
+      "mode_distance": 0.3346000165641795,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.4336042669719261,
+      "residue_positions_one_based": [
+        9,
+        12
+      ],
+      "sequence": "TGKT"
+    },
+    {
+      "mode_distance": 0.025089142118607577,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.7932934256547132,
+      "residue_positions_one_based": [
+        10,
+        13
+      ],
+      "sequence": "GKTI"
+    },
+    {
+      "mode_distance": 0.060493846255620265,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.7077104372804853,
+      "residue_positions_one_based": [
+        11,
+        14
+      ],
+      "sequence": "KTIT"
+    },
+    {
+      "mode_distance": 0.2287061581171751,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.5394981254189305,
+      "residue_positions_one_based": [
+        12,
+        15
+      ],
+      "sequence": "TITL"
+    },
+    {
+      "mode_distance": 0.12608084193973845,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.6421234415963671,
+      "residue_positions_one_based": [
+        13,
+        16
+      ],
+      "sequence": "ITLE"
+    },
+    {
+      "mode_distance": 0.36108867826963803,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.5436651558163843,
+      "residue_positions_one_based": [
+        14,
+        17
+      ],
+      "sequence": "TLEV"
+    },
+    {
+      "mode_distance": 0.10938497854220175,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.6588193049939038,
+      "residue_positions_one_based": [
+        15,
+        18
+      ],
+      "sequence": "LEVE"
+    },
+    {
+      "mode_distance": 0.5306464221930385,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.7132228997397848,
+      "residue_positions_one_based": [
+        16,
+        19
+      ],
+      "sequence": "EVEP"
+    },
+    {
+      "mode_distance": 0.14854166383552092,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.6196626197005847,
+      "residue_positions_one_based": [
+        17,
+        20
+      ],
+      "sequence": "VEPS"
+    },
+    {
+      "mode_distance": 0.525820598304797,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.7083970758515433,
+      "residue_positions_one_based": [
+        18,
+        21
+      ],
+      "sequence": "EPSD"
+    },
+    {
+      "mode_distance": 0.766541164385715,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.9491176419324613,
+      "residue_positions_one_based": [
+        19,
+        22
+      ],
+      "sequence": "PSDT"
+    },
+    {
+      "mode_distance": 0.07779385052067767,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.26037032806742394,
+      "residue_positions_one_based": [
+        20,
+        23
+      ],
+      "sequence": "SDTI"
+    },
+    {
+      "mode_distance": 0.08637370986988768,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.8545779934059933,
+      "residue_positions_one_based": [
+        21,
+        24
+      ],
+      "sequence": "DTIE"
+    },
+    {
+      "mode_distance": 0.23178366462745026,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.41436014217419653,
+      "residue_positions_one_based": [
+        22,
+        25
+      ],
+      "sequence": "TIEN"
+    },
+    {
+      "mode_distance": 0.16273598795615707,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.6054682955799485,
+      "residue_positions_one_based": [
+        23,
+        26
+      ],
+      "sequence": "IENV"
+    },
+    {
+      "mode_distance": 0.3967731848662512,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.5793496624129975,
+      "residue_positions_one_based": [
+        24,
+        27
+      ],
+      "sequence": "ENVK"
+    },
+    {
+      "mode_distance": 0.5151678025979622,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.6977442801447086,
+      "residue_positions_one_based": [
+        25,
+        28
+      ],
+      "sequence": "NVKA"
+    },
+    {
+      "mode_distance": 0.011432136749917443,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.19400861429666372,
+      "residue_positions_one_based": [
+        26,
+        29
+      ],
+      "sequence": "VKAK"
+    },
+    {
+      "mode_distance": 0.4322616967802046,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.6148381743269509,
+      "residue_positions_one_based": [
+        27,
+        30
+      ],
+      "sequence": "KAKI"
+    },
+    {
+      "mode_distance": 0.007194323281996651,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18977080082874292,
+      "residue_positions_one_based": [
+        28,
+        31
+      ],
+      "sequence": "AKIQ"
+    },
+    {
+      "mode_distance": 0.43091094813494263,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.6134874256816889,
+      "residue_positions_one_based": [
+        29,
+        32
+      ],
+      "sequence": "KIQD"
+    },
+    {
+      "mode_distance": 0.061194005969510495,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.24377048351625677,
+      "residue_positions_one_based": [
+        30,
+        33
+      ],
+      "sequence": "IQDK"
+    },
+    {
+      "mode_distance": 0.27773746292914914,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.4603139404758954,
+      "residue_positions_one_based": [
+        31,
+        34
+      ],
+      "sequence": "QDKE"
+    },
+    {
+      "mode_distance": 0.25286219876959876,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.43543867631634503,
+      "residue_positions_one_based": [
+        32,
+        35
+      ],
+      "sequence": "DKEG"
+    },
+    {
+      "mode_distance": 0.43920201318711527,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.3290022703489903,
+      "residue_positions_one_based": [
+        33,
+        36
+      ],
+      "sequence": "KEGI"
+    },
+    {
+      "mode_distance": 0.09483212025012555,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.8630364037862311,
+      "residue_positions_one_based": [
+        34,
+        37
+      ],
+      "sequence": "EGIP"
+    },
+    {
+      "mode_distance": 0.21239768162871275,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.9806019651648183,
+      "residue_positions_one_based": [
+        35,
+        38
+      ],
+      "sequence": "GIPP"
+    },
+    {
+      "mode_distance": 0.5435869129810884,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.7261633905278346,
+      "residue_positions_one_based": [
+        36,
+        39
+      ],
+      "sequence": "IPPD"
+    },
+    {
+      "mode_distance": 0.5906732628561238,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.7732497404028701,
+      "residue_positions_one_based": [
+        37,
+        40
+      ],
+      "sequence": "PPDQ"
+    },
+    {
+      "mode_distance": 0.6735252555425646,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.8561017330893108,
+      "residue_positions_one_based": [
+        38,
+        41
+      ],
+      "sequence": "PDQQ"
+    },
+    {
+      "mode_distance": 0.13942638505612007,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.04315009249062621,
+      "residue_positions_one_based": [
+        39,
+        42
+      ],
+      "sequence": "DQQR"
+    },
+    {
+      "mode_distance": 0.4548611685738055,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.6374376461205518,
+      "residue_positions_one_based": [
+        40,
+        43
+      ],
+      "sequence": "QQRL"
+    },
+    {
+      "mode_distance": 0.46261495483527326,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.30558932870083233,
+      "residue_positions_one_based": [
+        41,
+        44
+      ],
+      "sequence": "QRLI"
+    },
+    {
+      "mode_distance": 0.022311907040694634,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.745892376495411,
+      "residue_positions_one_based": [
+        42,
+        45
+      ],
+      "sequence": "RLIF"
+    },
+    {
+      "mode_distance": 0.011489209662097766,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.7796934931982034,
+      "residue_positions_one_based": [
+        43,
+        46
+      ],
+      "sequence": "LIFA"
+    },
+    {
+      "mode_distance": 0.4658042051066205,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.6483806826533668,
+      "residue_positions_one_based": [
+        44,
+        47
+      ],
+      "sequence": "IFAG"
+    },
+    {
+      "mode_distance": 0.16102179934169503,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.6071824841944106,
+      "residue_positions_one_based": [
+        45,
+        48
+      ],
+      "sequence": "FAGK"
+    },
+    {
+      "mode_distance": 0.49268465619754115,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.6752611337442874,
+      "residue_positions_one_based": [
+        46,
+        49
+      ],
+      "sequence": "AGKQ"
+    },
+    {
+      "mode_distance": 0.06828086968567591,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.11429560786107036,
+      "residue_positions_one_based": [
+        47,
+        50
+      ],
+      "sequence": "GKQL"
+    },
+    {
+      "mode_distance": 0.08885171655498719,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.27142819410173347,
+      "residue_positions_one_based": [
+        48,
+        51
+      ],
+      "sequence": "KQLE"
+    },
+    {
+      "mode_distance": 0.5305713342634089,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.7131478118101551,
+      "residue_positions_one_based": [
+        49,
+        52
+      ],
+      "sequence": "QLED"
+    },
+    {
+      "mode_distance": 0.28134035517322764,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": 0.09876387762648137,
+      "residue_positions_one_based": [
+        50,
+        53
+      ],
+      "sequence": "LEDG"
+    },
+    {
+      "mode_distance": 0.4476056170452783,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": 0.265029139498532,
+      "residue_positions_one_based": [
+        51,
+        54
+      ],
+      "sequence": "EDGR"
+    },
+    {
+      "mode_distance": 0.09069071898654013,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.6775135645495655,
+      "residue_positions_one_based": [
+        52,
+        55
+      ],
+      "sequence": "DGRT"
+    },
+    {
+      "mode_distance": 0.32832626778062196,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": 0.1457497902338757,
+      "residue_positions_one_based": [
+        53,
+        56
+      ],
+      "sequence": "GRTL"
+    },
+    {
+      "mode_distance": 0.5917448415267161,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.7743213190734624,
+      "residue_positions_one_based": [
+        54,
+        57
+      ],
+      "sequence": "RTLS"
+    },
+    {
+      "mode_distance": 0.3745217393306855,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.3936825442054201,
+      "residue_positions_one_based": [
+        55,
+        58
+      ],
+      "sequence": "TLSD"
+    },
+    {
+      "mode_distance": 0.009507663093815233,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.7586966204422904,
+      "residue_positions_one_based": [
+        56,
+        59
+      ],
+      "sequence": "LSDY"
+    },
+    {
+      "mode_distance": 0.5946548008894663,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.7772312784362125,
+      "residue_positions_one_based": [
+        57,
+        60
+      ],
+      "sequence": "SDYN"
+    },
+    {
+      "mode_distance": 0.6725914217594606,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.855167899306207,
+      "residue_positions_one_based": [
+        58,
+        61
+      ],
+      "sequence": "DYNI"
+    },
+    {
+      "mode_distance": 0.21718555471575046,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.39976203226249674,
+      "residue_positions_one_based": [
+        59,
+        62
+      ],
+      "sequence": "YNIQ"
+    },
+    {
+      "mode_distance": 0.3270148301921121,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": 0.14443835264536584,
+      "residue_positions_one_based": [
+        60,
+        63
+      ],
+      "sequence": "NIQK"
+    },
+    {
+      "mode_distance": 0.22257077873353537,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.5456335048025702,
+      "residue_positions_one_based": [
+        61,
+        64
+      ],
+      "sequence": "IQKE"
+    },
+    {
+      "mode_distance": 0.4196003048441736,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.348603978691932,
+      "residue_positions_one_based": [
+        62,
+        65
+      ],
+      "sequence": "QKES"
+    },
+    {
+      "mode_distance": 0.22583573052964784,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.4084122080763941,
+      "residue_positions_one_based": [
+        63,
+        66
+      ],
+      "sequence": "KEST"
+    },
+    {
+      "mode_distance": 0.27884912084107544,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.48935516269503015,
+      "residue_positions_one_based": [
+        64,
+        67
+      ],
+      "sequence": "ESTL"
+    },
+    {
+      "mode_distance": 0.28739616816540886,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.46997264571215513,
+      "residue_positions_one_based": [
+        65,
+        68
+      ],
+      "sequence": "STLH"
+    },
+    {
+      "mode_distance": 0.5477968274753711,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.7303733050221174,
+      "residue_positions_one_based": [
+        66,
+        69
+      ],
+      "sequence": "TLHL"
+    },
+    {
+      "mode_distance": 0.19213907237446626,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.5760652111616393,
+      "residue_positions_one_based": [
+        67,
+        70
+      ],
+      "sequence": "LHLV"
+    },
+    {
+      "mode_distance": 0.17815071902181567,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.5900535645142899,
+      "residue_positions_one_based": [
+        68,
+        71
+      ],
+      "sequence": "HLVL"
+    },
+    {
+      "mode_distance": 0.6463523512431157,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.828928828789862,
+      "residue_positions_one_based": [
+        69,
+        72
+      ],
+      "sequence": "LVLR"
+    },
+    {
+      "mode_distance": 0.6398787916005664,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.8224552691473126,
+      "residue_positions_one_based": [
+        70,
+        73
+      ],
+      "sequence": "VLRL"
+    },
+    {
+      "mode_distance": 0.656718029870303,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.8392945074170494,
+      "residue_positions_one_based": [
+        71,
+        74
+      ],
+      "sequence": "LRLR"
+    },
+    {
+      "mode_distance": 0.17680426517444803,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.9450085487105536,
+      "residue_positions_one_based": [
+        72,
+        75
+      ],
+      "sequence": "RLRG"
+    },
+    {
+      "mode_distance": 0.5743596298139402,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.7569361073606864,
+      "residue_positions_one_based": [
+        73,
+        76
+      ],
+      "sequence": "LRGG"
+    }
+  ],
+  "parent_departures": 75,
+  "parent_states_retained_in_domains": 1,
+  "reconciliation": {
+    "forward_paths": 24,
+    "parent_path_retained": false,
+    "retained_paths": 24,
+    "reverse_paths": 24,
+    "unique_input_paths": 49
+  },
+  "run_id": "development-ubiquitin-v23-1-parent-continuity-l76-20260720",
+  "runtime_seconds": 93.77589191700001,
+  "schema": "fold-protein-selected-states/v23.1",
+  "seed_run_id": "development-ubiquitin-v13-retained-topology-l76-20260719",
+  "seed_selected_states_sha256": "f5528d58482e76d8fab3390381a7bb1821aeb605ef0252aee9e553ed3be4b063",
+  "seed_states": [
+    8,
+    225,
+    21,
+    228,
+    69,
+    437,
+    66,
+    333,
+    348,
+    149,
+    349,
+    561,
+    496,
+    307,
+    477,
+    210,
+    502,
+    315,
+    140,
+    13,
+    153,
+    170,
+    462,
+    17,
+    8,
+    100,
+    375,
+    4,
+    375,
+    6,
+    12,
+    78,
+    219,
+    346,
+    523,
+    229,
+    63,
+    55,
+    149,
+    195,
+    140,
+    541,
+    78,
+    259,
+    479,
+    252,
+    327,
+    277,
+    61,
+    103,
+    196,
+    324,
+    199,
+    348,
+    10,
+    272,
+    546,
+    32,
+    197,
+    390,
+    520,
+    540,
+    77,
+    244,
+    115,
+    35,
+    102,
+    342,
+    19,
+    341,
+    314,
+    131,
+    221,
+    296,
+    84,
+    0
+  ],
+  "segment_count": 19,
+  "segment_residues": 4,
+  "sequence": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+  "sidechain_graph_spatial_census": {
+    "alphabet": "ACDEFGHIKLMNPQRSTVWY",
+    "alphabet_count": 20,
+    "atom_occupancy_unit": "1/(n+1) of generated adjacent C-alpha step",
+    "chirality": "L positive cross(CA-to-N, CA-to-C) half-space",
+    "empirical_bond_angle": null,
+    "empirical_bond_length": null,
+    "empirical_radius": null,
+    "fitted_cutoff": null,
+    "graphs": {
+      "A": {
+        "atoms": [
+          "CB"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ]
+        ],
+        "branch_atom_count": 0,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ]
+        }
+      },
+      "C": {
+        "atoms": [
+          "CB",
+          "SG"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "SG"
+          ]
+        ],
+        "branch_atom_count": 0,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "SG": [
+            2,
+            0,
+            0
+          ]
+        }
+      },
+      "D": {
+        "atoms": [
+          "CB",
+          "CG",
+          "OD1",
+          "OD2"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "OD1"
+          ],
+          [
+            "CG",
+            "OD2"
+          ]
+        ],
+        "branch_atom_count": 1,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ],
+          "OD1": [
+            3,
+            -1,
+            0
+          ],
+          "OD2": [
+            3,
+            1,
+            0
+          ]
+        }
+      },
+      "E": {
+        "atoms": [
+          "CB",
+          "CG",
+          "CD",
+          "OE1",
+          "OE2"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "CD"
+          ],
+          [
+            "CD",
+            "OE1"
+          ],
+          [
+            "CD",
+            "OE2"
+          ]
+        ],
+        "branch_atom_count": 1,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CD": [
+            3,
+            0,
+            0
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ],
+          "OE1": [
+            4,
+            0,
+            -1
+          ],
+          "OE2": [
+            4,
+            0,
+            1
+          ]
+        }
+      },
+      "F": {
+        "atoms": [
+          "CB",
+          "CG",
+          "CD1",
+          "CD2",
+          "CE1",
+          "CE2",
+          "CZ"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "CD1"
+          ],
+          [
+            "CG",
+            "CD2"
+          ],
+          [
+            "CD1",
+            "CE1"
+          ],
+          [
+            "CD2",
+            "CE2"
+          ],
+          [
+            "CE1",
+            "CZ"
+          ],
+          [
+            "CE2",
+            "CZ"
+          ]
+        ],
+        "branch_atom_count": 1,
+        "cycle_rank": 1,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CD1": [
+            3,
+            -1,
+            0
+          ],
+          "CD2": [
+            3,
+            1,
+            0
+          ],
+          "CE1": [
+            4,
+            -1,
+            0
+          ],
+          "CE2": [
+            4,
+            1,
+            0
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ],
+          "CZ": [
+            5,
+            -1,
+            0
+          ]
+        }
+      },
+      "G": {
+        "atoms": [],
+        "bonds": [],
+        "branch_atom_count": 0,
+        "cycle_rank": 0,
+        "integer_embedding": {}
+      },
+      "H": {
+        "atoms": [
+          "CB",
+          "CG",
+          "ND1",
+          "CD2",
+          "CE1",
+          "NE2"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "ND1"
+          ],
+          [
+            "CG",
+            "CD2"
+          ],
+          [
+            "ND1",
+            "CE1"
+          ],
+          [
+            "CD2",
+            "NE2"
+          ],
+          [
+            "CE1",
+            "NE2"
+          ]
+        ],
+        "branch_atom_count": 1,
+        "cycle_rank": 1,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CD2": [
+            3,
+            1,
+            0
+          ],
+          "CE1": [
+            4,
+            -1,
+            0
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ],
+          "ND1": [
+            3,
+            -1,
+            0
+          ],
+          "NE2": [
+            4,
+            1,
+            0
+          ]
+        }
+      },
+      "I": {
+        "atoms": [
+          "CB",
+          "CG1",
+          "CG2",
+          "CD1"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG1"
+          ],
+          [
+            "CB",
+            "CG2"
+          ],
+          [
+            "CG1",
+            "CD1"
+          ]
+        ],
+        "branch_atom_count": 1,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CD1": [
+            3,
+            0,
+            -1
+          ],
+          "CG1": [
+            2,
+            0,
+            -1
+          ],
+          "CG2": [
+            2,
+            0,
+            1
+          ]
+        }
+      },
+      "K": {
+        "atoms": [
+          "CB",
+          "CG",
+          "CD",
+          "CE",
+          "NZ"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "CD"
+          ],
+          [
+            "CD",
+            "CE"
+          ],
+          [
+            "CE",
+            "NZ"
+          ]
+        ],
+        "branch_atom_count": 0,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CD": [
+            3,
+            0,
+            0
+          ],
+          "CE": [
+            4,
+            0,
+            0
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ],
+          "NZ": [
+            5,
+            0,
+            0
+          ]
+        }
+      },
+      "L": {
+        "atoms": [
+          "CB",
+          "CG",
+          "CD1",
+          "CD2"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "CD1"
+          ],
+          [
+            "CG",
+            "CD2"
+          ]
+        ],
+        "branch_atom_count": 1,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CD1": [
+            3,
+            -1,
+            0
+          ],
+          "CD2": [
+            3,
+            1,
+            0
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ]
+        }
+      },
+      "M": {
+        "atoms": [
+          "CB",
+          "CG",
+          "SD",
+          "CE"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "SD"
+          ],
+          [
+            "SD",
+            "CE"
+          ]
+        ],
+        "branch_atom_count": 0,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CE": [
+            4,
+            0,
+            0
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ],
+          "SD": [
+            3,
+            0,
+            0
+          ]
+        }
+      },
+      "N": {
+        "atoms": [
+          "CB",
+          "CG",
+          "OD1",
+          "ND2"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "OD1"
+          ],
+          [
+            "CG",
+            "ND2"
+          ]
+        ],
+        "branch_atom_count": 1,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ],
+          "ND2": [
+            3,
+            1,
+            0
+          ],
+          "OD1": [
+            3,
+            -1,
+            0
+          ]
+        }
+      },
+      "P": {
+        "atoms": [
+          "CB",
+          "CG",
+          "CD"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "CD"
+          ]
+        ],
+        "branch_atom_count": 0,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CD": [
+            3,
+            0,
+            0
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ]
+        }
+      },
+      "Q": {
+        "atoms": [
+          "CB",
+          "CG",
+          "CD",
+          "OE1",
+          "NE2"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "CD"
+          ],
+          [
+            "CD",
+            "OE1"
+          ],
+          [
+            "CD",
+            "NE2"
+          ]
+        ],
+        "branch_atom_count": 1,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CD": [
+            3,
+            0,
+            0
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ],
+          "NE2": [
+            4,
+            0,
+            1
+          ],
+          "OE1": [
+            4,
+            0,
+            -1
+          ]
+        }
+      },
+      "R": {
+        "atoms": [
+          "CB",
+          "CG",
+          "CD",
+          "NE",
+          "CZ",
+          "NH1",
+          "NH2"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "CD"
+          ],
+          [
+            "CD",
+            "NE"
+          ],
+          [
+            "NE",
+            "CZ"
+          ],
+          [
+            "CZ",
+            "NH1"
+          ],
+          [
+            "CZ",
+            "NH2"
+          ]
+        ],
+        "branch_atom_count": 1,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CD": [
+            3,
+            0,
+            0
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ],
+          "CZ": [
+            5,
+            0,
+            0
+          ],
+          "NE": [
+            4,
+            0,
+            0
+          ],
+          "NH1": [
+            6,
+            0,
+            -1
+          ],
+          "NH2": [
+            6,
+            0,
+            1
+          ]
+        }
+      },
+      "S": {
+        "atoms": [
+          "CB",
+          "OG"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "OG"
+          ]
+        ],
+        "branch_atom_count": 0,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "OG": [
+            2,
+            0,
+            0
+          ]
+        }
+      },
+      "T": {
+        "atoms": [
+          "CB",
+          "OG1",
+          "CG2"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "OG1"
+          ],
+          [
+            "CB",
+            "CG2"
+          ]
+        ],
+        "branch_atom_count": 1,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CG2": [
+            2,
+            0,
+            1
+          ],
+          "OG1": [
+            2,
+            0,
+            -1
+          ]
+        }
+      },
+      "V": {
+        "atoms": [
+          "CB",
+          "CG1",
+          "CG2"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG1"
+          ],
+          [
+            "CB",
+            "CG2"
+          ]
+        ],
+        "branch_atom_count": 1,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CG1": [
+            2,
+            0,
+            -1
+          ],
+          "CG2": [
+            2,
+            0,
+            1
+          ]
+        }
+      },
+      "W": {
+        "atoms": [
+          "CB",
+          "CG",
+          "CD1",
+          "CD2",
+          "NE1",
+          "CE2",
+          "CE3",
+          "CZ2",
+          "CZ3",
+          "CH2"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "CD1"
+          ],
+          [
+            "CG",
+            "CD2"
+          ],
+          [
+            "CD1",
+            "NE1"
+          ],
+          [
+            "CD2",
+            "CE2"
+          ],
+          [
+            "CD2",
+            "CE3"
+          ],
+          [
+            "NE1",
+            "CE2"
+          ],
+          [
+            "CE2",
+            "CZ2"
+          ],
+          [
+            "CE3",
+            "CZ3"
+          ],
+          [
+            "CZ2",
+            "CH2"
+          ],
+          [
+            "CZ3",
+            "CH2"
+          ]
+        ],
+        "branch_atom_count": 3,
+        "cycle_rank": 2,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CD1": [
+            3,
+            -1,
+            0
+          ],
+          "CD2": [
+            3,
+            1,
+            0
+          ],
+          "CE2": [
+            4,
+            1,
+            -1
+          ],
+          "CE3": [
+            4,
+            1,
+            1
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ],
+          "CH2": [
+            6,
+            1,
+            -1
+          ],
+          "CZ2": [
+            5,
+            1,
+            -1
+          ],
+          "CZ3": [
+            5,
+            1,
+            1
+          ],
+          "NE1": [
+            4,
+            -1,
+            0
+          ]
+        }
+      },
+      "Y": {
+        "atoms": [
+          "CB",
+          "CG",
+          "CD1",
+          "CD2",
+          "CE1",
+          "CE2",
+          "CZ",
+          "OH"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "CD1"
+          ],
+          [
+            "CG",
+            "CD2"
+          ],
+          [
+            "CD1",
+            "CE1"
+          ],
+          [
+            "CD2",
+            "CE2"
+          ],
+          [
+            "CE1",
+            "CZ"
+          ],
+          [
+            "CE2",
+            "CZ"
+          ],
+          [
+            "CZ",
+            "OH"
+          ]
+        ],
+        "branch_atom_count": 2,
+        "cycle_rank": 1,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CD1": [
+            3,
+            -1,
+            0
+          ],
+          "CD2": [
+            3,
+            1,
+            0
+          ],
+          "CE1": [
+            4,
+            -1,
+            0
+          ],
+          "CE2": [
+            4,
+            1,
+            0
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ],
+          "CZ": [
+            5,
+            -1,
+            0
+          ],
+          "OH": [
+            6,
+            -1,
+            0
+          ]
+        }
+      }
+    },
+    "hard_exclusion_unit": "one non-neighbour residue pair with at least one atom encounter",
+    "pair_exclusion_unit": "1/2 fold of generated adjacent C-alpha step",
+    "reach": "n/(n+1) of generated adjacent C-alpha step",
+    "reward": null,
+    "rotamer": null,
+    "target": null
+  },
+  "states": [
+    18,
+    339,
+    398,
+    504,
+    328,
+    269,
+    314,
+    18,
+    116,
+    205,
+    241,
+    437,
+    333,
+    428,
+    467,
+    360,
+    452,
+    217,
+    515,
+    353,
+    258,
+    443,
+    116,
+    191,
+    477,
+    255,
+    458,
+    202,
+    529,
+    547,
+    347,
+    366,
+    24,
+    169,
+    347,
+    226,
+    246,
+    41,
+    284,
+    281,
+    507,
+    104,
+    155,
+    275,
+    243,
+    123,
+    362,
+    149,
+    197,
+    120,
+    223,
+    116,
+    124,
+    341,
+    139,
+    275,
+    278,
+    68,
+    257,
+    314,
+    169,
+    2,
+    326,
+    226,
+    571,
+    573,
+    288,
+    164,
+    3,
+    357,
+    189,
+    248,
+    13,
+    134,
+    452,
+    0
+  ],
+  "status": "completed",
+  "steric_census": {
+    "alphabet": "ACDEFGHIKLMNPQRSTVWY",
+    "alphabet_count": 20,
+    "sidechain_heavy_atom_counts": {
+      "A": 1,
+      "C": 2,
+      "D": 4,
+      "E": 5,
+      "F": 7,
+      "G": 0,
+      "H": 6,
+      "I": 4,
+      "K": 5,
+      "L": 4,
+      "M": 4,
+      "N": 4,
+      "P": 3,
+      "Q": 5,
+      "R": 7,
+      "S": 2,
+      "T": 3,
+      "V": 3,
+      "W": 10,
+      "Y": 8
+    },
+    "sidechain_heavy_atoms": {
+      "A": [
+        "CB"
+      ],
+      "C": [
+        "CB",
+        "SG"
+      ],
+      "D": [
+        "CB",
+        "CG",
+        "OD1",
+        "OD2"
+      ],
+      "E": [
+        "CB",
+        "CG",
+        "CD",
+        "OE1",
+        "OE2"
+      ],
+      "F": [
+        "CB",
+        "CG",
+        "CD1",
+        "CD2",
+        "CE1",
+        "CE2",
+        "CZ"
+      ],
+      "G": [],
+      "H": [
+        "CB",
+        "CG",
+        "ND1",
+        "CD2",
+        "CE1",
+        "NE2"
+      ],
+      "I": [
+        "CB",
+        "CG1",
+        "CG2",
+        "CD1"
+      ],
+      "K": [
+        "CB",
+        "CG",
+        "CD",
+        "CE",
+        "NZ"
+      ],
+      "L": [
+        "CB",
+        "CG",
+        "CD1",
+        "CD2"
+      ],
+      "M": [
+        "CB",
+        "CG",
+        "SD",
+        "CE"
+      ],
+      "N": [
+        "CB",
+        "CG",
+        "OD1",
+        "ND2"
+      ],
+      "P": [
+        "CB",
+        "CG",
+        "CD"
+      ],
+      "Q": [
+        "CB",
+        "CG",
+        "CD",
+        "OE1",
+        "NE2"
+      ],
+      "R": [
+        "CB",
+        "CG",
+        "CD",
+        "NE",
+        "CZ",
+        "NH1",
+        "NH2"
+      ],
+      "S": [
+        "CB",
+        "OG"
+      ],
+      "T": [
+        "CB",
+        "OG1",
+        "CG2"
+      ],
+      "V": [
+        "CB",
+        "CG1",
+        "CG2"
+      ],
+      "W": [
+        "CB",
+        "CG",
+        "CD1",
+        "CD2",
+        "NE1",
+        "CE2",
+        "CE3",
+        "CZ2",
+        "CZ3",
+        "CH2"
+      ],
+      "Y": [
+        "CB",
+        "CG",
+        "CD1",
+        "CD2",
+        "CE1",
+        "CE2",
+        "CZ",
+        "OH"
+      ]
+    }
+  },
+  "topology_hydrogen_bond_census": {
+    "acceptor_residues": "ACDEFGHIKLMNPQRSTVWY",
+    "alpha_sequence_separation": 4,
+    "alphabet": "ACDEFGHIKLMNPQRSTVWY",
+    "alphabet_count": 20,
+    "angular_cutoff": null,
+    "distance_cutoff": null,
+    "donor_residues": "ACDEFGHIKLMNQRSTVWY",
+    "fitted_energy": null,
+    "global_acceptor_capacity": 1,
+    "global_donor_capacity": 1,
+    "interstrand_minimum_separation": 5,
+    "interwindow_residues": 4,
+    "non_donor_residues": "P",
+    "topology_classes": [
+      "alpha",
+      "interstrand"
+    ],
+    "topology_weight": null
+  },
+  "whole_chain_cache_hits": 56,
+  "whole_chain_evaluations": 63977
+}

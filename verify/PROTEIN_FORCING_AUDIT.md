@@ -492,6 +492,28 @@ improve pairwise-distance geometry. V22 is retained rather than extended
 unchanged; the next refinement is sequence-derived contact type or topology,
 not a theoretical limit on contact propagation.
 
+V23 advances the construction at the architectural level. It binds the
+previously sealed V13 path as a target-free parent, expands every active
+residue over all 576 lattice states, retains 24-state domains, assembles
+four-residue segments from both directions, and reconciles the complete-chain
+frontiers. Sealed L32 TM advances from `0.07299987461043171` to
+`0.10735637845099816` (**47.0638%**) while dRMSD improves from
+`5.983598069677243 Å` to `4.850165353081668 Å` (**18.9423%**). At L24,
+dRMSD improves **31.9230%** to `4.769070919552925 Å`.
+
+The L76 V23 development execution selected a globally sparse path and measured
+TM `0.09280403102009477` / dRMSD `8.736733341909353 Å`. V23.1 added the exact
+parent-state departure count without a lock, limit or weight and reproduced
+all three V23 PDBs byte for byte, proving that a soft continuity axis did not
+reach the hard-stratum decision. V23.2 restored the V13/V19 local admission
+stage before global segment assembly. At L76 it retains 22/75 parent states in
+the residue domains, improves TM over V23 to `0.10174365312824842`, and
+improves dRMSD to `7.658167829235897 Å`; the latter is **2.7269%** better than
+V13. The remaining construction is now localised to generating coherent
+locally admitted four-residue tuples instead of independently weaving domain
+ranks. These are source-bound cumulative development measurements, not a
+theoretical limit or an agent-authored publication conclusion.
+
 ## Preserved development evidence, not attributed conclusions
 
 Selector v2 receipts remain intact because they contain useful target-isolation,
@@ -537,14 +559,15 @@ The registry verifier halts if:
 
 Generated PDBs and campaign receipts are evidence rather than forcing source.
 They are bound by the protected construction manifest or their immutable seals.
-All 83 tracked PDBs are also exhaustively classified: two experimental
+All 92 tracked PDBs are also exhaustively classified: two experimental
 references, one protected target-assisted construction, eleven sealed v2
 development outputs, four sealed v3 blind predictions, one sealed v4 auxiliary
 development output, two sealed v5 applied development outputs, and thirty-nine
 legacy pre-project development artifacts, plus the three sealed v6-v8 and
 three sealed v9-v10, one sealed v11, one sealed v12, three sealed v13, two
 sealed v14, one sealed v15, one sealed v16, one sealed v17, one sealed v18,
-three sealed v19 and one each sealed v20, v21 and v22 development outputs
+three sealed v19, one each sealed v20, v21 and v22, and nine sealed
+V23/V23.1/V23.2 development outputs
 described above.
 Their complete path-and-content census is hash-bound by the registry; both v2
 aggregate seals are reverified. Legacy filenames such as `predicted`,
@@ -576,12 +599,18 @@ improves dRMSD while producing mixed TM/local measurements. V13 therefore
 remains the current complete-sequence predictive route, with V19-V22 retained
 as fully traced applied development evidence.
 
-The next state is to derive how sequence-sidechain contact type or topology
-participates in inter-window orientation and long-range assembly,
-preserve the V13 local route, and test the new relation first on matched sealed
-sequence-only data. The single-build reuse path and cached complete-prefix
-graph calculations remain the measured optimisation direction, provided exact
-sealed output identity is preserved. New relations must
+V23 now supplies the complete-domain bidirectional global architecture. Its
+L32 two-metric advance and L24/L76 pairwise-distance advances establish that
+the architecture can propagate substantial global change. V23.2's L76
+recovery localises the next work to coherent segment alternatives. V13 remains
+the current complete-sequence topology route while this segment construction
+is completed and remeasured on the same sealed cumulative development ladder.
+
+The next state is to generate 24 coherent four-residue segment tuples through
+the existing V13/V19 local constitution, then assemble those tuples through
+V23's bidirectional whole-chain reconciliation. The cached vectorised sequence
+graph has already reduced the complete L76 global pass to about 94 seconds;
+local-domain closure currently completes in about 175 seconds. New relations must
 be named in their own immutable manifest, traced
 through the engine standard, source-bound, tested, and executed on sealed real
 sequence before comparison. The protected complete-lattice construction, the

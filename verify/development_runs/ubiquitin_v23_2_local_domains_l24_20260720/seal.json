@@ -1,0 +1,41 @@
+{
+  "complete_domain_states": 576,
+  "domain_capacity": 24,
+  "execution": "locally closed complete domains before bidirectional global assembly",
+  "frontier_capacity": 24,
+  "hard_exclusion_strata": [
+    "backbone",
+    "sidechain_graph"
+  ],
+  "official_run": false,
+  "parent_departures": 23,
+  "parent_states_retained_in_domains": 8,
+  "path_length": 24,
+  "prediction_pdb_sha256": "6176a90dcafbfc6336e0139eeb7b78e4cbe0b67b61c175930b5863424866de83",
+  "protocol_manifest_sha256": "14c4a6b77e22778fdaa75e4148b6adf2e2f7611c9b477f77fda451dac99b408e",
+  "result_type": "cumulative development benchmark",
+  "run_id": "development-ubiquitin-v23-2-local-domains-l24-20260720",
+  "runtime_seconds": 18.870860375,
+  "schema": "fold-protein-blind-seal/v23.2",
+  "seed_run_id": "development-ubiquitin-v13-retained-topology-l24-20260719",
+  "seed_selected_states_sha256": "5e2c2a7fcbdaa033a125d93d8798a458e867b84ba77c9283b8305bf09d172952",
+  "segment_count": 6,
+  "segment_residues": 4,
+  "selected_states_sha256": "eb026b9ebd95600f5db039d119d71634d9f42f6f87dc0dde6ddf4ca59893d541",
+  "selector_input_sha256": "94a4e7cd8b8ad3450e26c7cefc3833548eefc242518fcd6fc9e7948880c89cc8",
+  "sequence_sha256": "31b12152ecf937f3f9fb63d7346d54e03d058a50667be18b0aa22e9270049d6e",
+  "source_sha256": {
+    "tools/blind_24_lattice_selector_v23.py": "88c28f5bce3c66c22d457d1096b76b925834955a2c92ea896821efa720814033",
+    "tools/blind_24_lattice_selector_v23_2.py": "88ad08d1e882dfdafd356883913e056ec37efd6d918401efa80e2bb120cea909",
+    "tools/global_sequence_constraint_graph_v1.py": "f7e412ce5cb8863281ec13afe76e2617aacff5de922125cb855094c00c6d5cac",
+    "tools/protein_backbone_geometry_v1.py": "a043e5d05a26fdf063c4703dac619f5fe918b65779a96df6d3cfa2f536fdc315",
+    "tools/run_blind_protocol_v21.py": "19a070f41e7666940cbc418d3b4b90c94db5cad69ee4ac3e0756b374dba712bc",
+    "tools/run_blind_protocol_v23.py": "30d70f1ff510515efff4ba89875c1e9173e9df2b34a7e2a7fa45935211701e9a",
+    "tools/run_blind_protocol_v23_2.py": "23720cf0d84221fe0d3fbafb8ea7da5794275bcc879fe60cb46c597f813ab939",
+    "tools/sidechain_graph_spatial_exclusion_v1.py": "88509bac8510a1278f06eaaa8f2259307ee29b796ceea27052be2c1bf3ce0407",
+    "verify/blind_selector_v23.json": "2b08e3d8d71246f218b8843c909fca4a899ab9685d2dc617864bc261dcf03a45",
+    "verify/evaluate_sealed_blind_v23_2.py": "f8a77e9575b8bd984df5b3967aadb775be85962668b6697a2fb9303b76056296"
+  },
+  "status": "completed",
+  "whole_chain_evaluations": 19071
+}

@@ -1,0 +1,46 @@
+{
+  "schema": "fold-protein-blind-selector/v23.2",
+  "version": "23.2.0-development",
+  "execution": "V13/V19 locally closed 576-state domains before V23 bidirectional global assembly",
+  "foundation": {
+    "theorem": "one machine-checked self-proven theorem: there is no nothing",
+    "axioms": 0,
+    "trace": "24-lattice -> complete residue domain -> local constitutional admission -> four-residue segment domains -> bidirectional global reconciliation"
+  },
+  "selector_config": {
+    "complete_domain_states": 576,
+    "domain_capacity": 24,
+    "frontier_capacity": 24,
+    "segment_residues": 4,
+    "domain_order": "V13/V19 local eligibility before complete-chain assembly",
+    "assembly_directions": ["forward", "reverse"],
+    "target": null,
+    "template": null,
+    "reward": null,
+    "weight": null,
+    "trained_parameter": null
+  },
+  "correction": {
+    "measured_cause": "V23 global-only domains erased the established local eligibility stage",
+    "repair": "evaluate all 576 states through the V19-wrapped V13 local relation and retain a 24-state local domain before global assembly",
+    "target_runtime_access": null
+  },
+  "seed_records": {
+    "development-ubiquitin-v13-retained-topology-l24-20260719": {"path": "verify/development_runs/ubiquitin_v13_retained_topology_l24_20260719/selected_states.json", "sha256": "5e2c2a7fcbdaa033a125d93d8798a458e867b84ba77c9283b8305bf09d172952"},
+    "development-ubiquitin-v13-retained-topology-l32-20260719": {"path": "verify/development_runs/ubiquitin_v13_retained_topology_l32_20260719/selected_states.json", "sha256": "825b5ca0ff0a271a2299df9c4a2af33dbf1f6874908028eeede1c09e30f3e0bf"},
+    "development-ubiquitin-v13-retained-topology-l76-20260719": {"path": "verify/development_runs/ubiquitin_v13_retained_topology_l76_20260719/selected_states.json", "sha256": "f5528d58482e76d8fab3390381a7bb1821aeb605ef0252aee9e553ed3be4b063"}
+  },
+  "source_sha256": {
+    "verify/blind_selector_v23.json": "2b08e3d8d71246f218b8843c909fca4a899ab9685d2dc617864bc261dcf03a45",
+    "tools/blind_24_lattice_selector_v23.py": "88c28f5bce3c66c22d457d1096b76b925834955a2c92ea896821efa720814033",
+    "tools/blind_24_lattice_selector_v23_2.py": "88ad08d1e882dfdafd356883913e056ec37efd6d918401efa80e2bb120cea909",
+    "tools/global_sequence_constraint_graph_v1.py": "f7e412ce5cb8863281ec13afe76e2617aacff5de922125cb855094c00c6d5cac",
+    "tools/protein_backbone_geometry_v1.py": "a043e5d05a26fdf063c4703dac619f5fe918b65779a96df6d3cfa2f536fdc315",
+    "tools/sidechain_graph_spatial_exclusion_v1.py": "88509bac8510a1278f06eaaa8f2259307ee29b796ceea27052be2c1bf3ce0407",
+    "tools/run_blind_protocol_v21.py": "19a070f41e7666940cbc418d3b4b90c94db5cad69ee4ac3e0756b374dba712bc",
+    "tools/run_blind_protocol_v23.py": "30d70f1ff510515efff4ba89875c1e9173e9df2b34a7e2a7fa45935211701e9a",
+    "tools/run_blind_protocol_v23_2.py": "23720cf0d84221fe0d3fbafb8ea7da5794275bcc879fe60cb46c597f813ab939",
+    "verify/evaluate_sealed_blind_v23_2.py": "f8a77e9575b8bd984df5b3967aadb775be85962668b6697a2fb9303b76056296"
+  },
+  "status": "cumulative development correction awaiting sealed applied data"
+}

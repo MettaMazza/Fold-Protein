@@ -1,0 +1,41 @@
+{
+  "complete_domain_states": 576,
+  "domain_capacity": 24,
+  "execution": "V23 global assembly with weight-free parent continuity",
+  "frontier_capacity": 24,
+  "hard_exclusion_strata": [
+    "backbone",
+    "sidechain_graph"
+  ],
+  "official_run": false,
+  "parent_departures": 31,
+  "parent_states_retained_in_domains": 13,
+  "path_length": 32,
+  "prediction_pdb_sha256": "c4fd9a32f6b7401724e51ddd14821c1ec4d96411e555af12641c73bf89ff33d2",
+  "protocol_manifest_sha256": "8df5d738d6c25eb28b444f4daab9e9c66f47798546c9d2a707e1aab3f9068544",
+  "result_type": "cumulative development benchmark",
+  "run_id": "development-ubiquitin-v23-1-parent-continuity-l32-20260720",
+  "runtime_seconds": 15.504938334,
+  "schema": "fold-protein-blind-seal/v23.1",
+  "seed_run_id": "development-ubiquitin-v13-retained-topology-l32-20260719",
+  "seed_selected_states_sha256": "825b5ca0ff0a271a2299df9c4a2af33dbf1f6874908028eeede1c09e30f3e0bf",
+  "segment_count": 8,
+  "segment_residues": 4,
+  "selected_states_sha256": "c26e4a99e825a3715e2e8bbf7d41d2d87872eb31c750768f5b5389bbadeb2329",
+  "selector_input_sha256": "46904b44549461f744b817b9ec3795bdd4a41932aae303a32b9321c714ecca01",
+  "sequence_sha256": "111ce91ce082b13e5de20b4e3faa1914243bddb33f1c35da4a585d9d2e80bb1f",
+  "source_sha256": {
+    "tools/blind_24_lattice_selector_v23.py": "88c28f5bce3c66c22d457d1096b76b925834955a2c92ea896821efa720814033",
+    "tools/blind_24_lattice_selector_v23_1.py": "3cb0c3f7dc87b1a530bb283d67dd0d4c7c6b3d4b2869431caa7be2b055166310",
+    "tools/global_sequence_constraint_graph_v1.py": "f7e412ce5cb8863281ec13afe76e2617aacff5de922125cb855094c00c6d5cac",
+    "tools/protein_backbone_geometry_v1.py": "a043e5d05a26fdf063c4703dac619f5fe918b65779a96df6d3cfa2f536fdc315",
+    "tools/run_blind_protocol_v21.py": "19a070f41e7666940cbc418d3b4b90c94db5cad69ee4ac3e0756b374dba712bc",
+    "tools/run_blind_protocol_v23.py": "30d70f1ff510515efff4ba89875c1e9173e9df2b34a7e2a7fa45935211701e9a",
+    "tools/run_blind_protocol_v23_1.py": "82901745be58e3b92a6e185d6f17e5670b11d951d57235d38cf368af9bf7c3e8",
+    "tools/sidechain_graph_spatial_exclusion_v1.py": "88509bac8510a1278f06eaaa8f2259307ee29b796ceea27052be2c1bf3ce0407",
+    "verify/blind_selector_v23.json": "2b08e3d8d71246f218b8843c909fca4a899ab9685d2dc617864bc261dcf03a45",
+    "verify/evaluate_sealed_blind_v23_1.py": "5da0b369403879d8bddd2c5335d4c0105a13bd7bb7ed1234d50db7f605a49d59"
+  },
+  "status": "completed",
+  "whole_chain_evaluations": 25983
+}

@@ -74,6 +74,19 @@ is blind when the SFT-constrained selector cannot access the target and its outp
 is sealed before correctly computed post-seal comparison. Accuracy measures the
 output; it does not decide whether prediction occurred. Maria has declared the sealed 8-, 16-, 24- and complete 76-residue predictions and their positive local empirical results for publication. The next explicit objective is to propagate the demonstrated local geometry through inter-window orientation and complete whole-chain assembly.
 
+### Development scale and reporting
+
+Default to a complete architectural advance that addresses the measured
+bottleneck as one coherent development version. Do not consume versions on
+single selector variants when a whole missing layer—domains, segments,
+bidirectional propagation, whole-chain reconciliation or caching—can be built
+and measured together. Return to incremental isolation only after a completed
+architecture produces a measured regression. Every end report must state
+whether each measured result improved, regressed or remained unchanged; what
+the result can indicate; the next technical correction; and whether a broader
+cumulative development trial is recommended. Development trials are not
+official runs unless Maria registers them.
+
 The first visible repository commit already contains mixed-purpose agent-era
 engines, so presence in Git is not proof of forcing. The complete classification
 is `verify/protein_forcing_registry_v1.json`; enforce it with
@@ -161,6 +174,21 @@ V13 as the current complete-sequence predictive route, retain V19-V22 as
 source-bound applied evidence, and direct the next construction toward
 sequence-derived contact type/topology rather than extending total contact
 quantity unchanged. Maria alone decides whether and when further runs occur.
+
+V23 is the first complete-domain global architecture. It evaluates all 576
+lattice states at every active residue, retains 24-state domains, assembles
+four-residue segments in both chain directions, reconciles whole-chain
+frontiers, and applies the explicit graph relation before emission. Its sealed
+L32 prediction improves TM from V19's `0.0729998746` to `0.1073563785`
+(47.06%) and improves dRMSD from `5.9835980697 Å` to `4.8501653531 Å`
+(18.94%). At L24 it improves dRMSD 31.92%. The matched L76 execution exposed
+loss of local-domain continuity; V23.2 restores V13/V19 local admission before
+global assembly, recovers both L76 measures over V23, and reaches
+`7.6581678292 Å` dRMSD—2.73% better than V13—while TM remains the active
+topology-development frontier. The next construction must form coherent
+locally admitted four-residue segment tuples rather than independently weaving
+residue-domain ranks. Preserve V23/V23.1/V23.2 source hashes and receipts as
+the applied causal record.
 
 **The sequence supplies the spatial command.** The forward-forcing programme derives how amino-acid
 identity determines the invariant exclusions and relations that select among the 576 exact states per

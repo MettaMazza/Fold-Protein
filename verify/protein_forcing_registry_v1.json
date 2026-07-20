@@ -36,6 +36,9 @@
     "blind_selector_v20": "sealed exact atom-encounter child hierarchy at 24 residues; preserves every v19 state and measurement and is retained as constituted development evidence",
     "blind_selector_v21": "sealed fold-to-One explicit atom-contact objective at 24 residues; active contact census with exact v19 path preservation",
     "blind_selector_v22": "sealed ordered contact-deficit hierarchy at 24 residues; active 22-state path change and 0.701% dRMSD improvement with mixed TM/local measurements",
+    "blind_selector_v23": "sealed complete-domain bidirectional global architecture at 24, 32 and 76 residues; L32 improves TM 47.06% and dRMSD 18.94% over V19, while L24 improves dRMSD 31.92%",
+    "blind_selector_v23_1": "sealed weight-free parent-continuity diagnosis; byte-identical applied outputs establish that the soft continuity axis does not alter the hard-stratum selection",
+    "blind_selector_v23_2": "sealed local-domain correction at 24, 32 and 76 residues; L76 recovers over V23 and improves dRMSD 2.73% over V13 while the coherent-segment topology continuation remains active",
     "legacy_engines": "retained history only; excluded from promoted and active continuation routes"
   },
   "inherited_toolchain_boundary": {
@@ -272,6 +275,22 @@
       "tools/sidechain_graph_contact_topology_v2.py",
       "verify/evaluate_sealed_blind_local_v22.py",
       "verify/evaluate_sealed_blind_v22.py"
+    ],
+    "blind_v23_global_domain_development": [
+      "tests/test_blind_selector_v23.py",
+      "tests/test_blind_selector_v23_1.py",
+      "tests/test_blind_selector_v23_2.py",
+      "tests/test_global_sequence_constraint_graph_v1.py",
+      "tools/blind_24_lattice_selector_v23.py",
+      "tools/blind_24_lattice_selector_v23_1.py",
+      "tools/blind_24_lattice_selector_v23_2.py",
+      "tools/global_sequence_constraint_graph_v1.py",
+      "tools/run_blind_protocol_v23.py",
+      "tools/run_blind_protocol_v23_1.py",
+      "tools/run_blind_protocol_v23_2.py",
+      "verify/evaluate_sealed_blind_v23.py",
+      "verify/evaluate_sealed_blind_v23_1.py",
+      "verify/evaluate_sealed_blind_v23_2.py"
     ],
     "legacy_agent_development_unpromoted": [
       "tests/test_blind_protocol.py",
@@ -606,6 +625,25 @@
       "tools/sidechain_graph_spatial_exclusion_v1.py",
       "tools/run_blind_protocol_v21.py",
       "tools/run_blind_protocol_v22.py"
+    ],
+    "v23_runtime_roots": [
+      "tools/blind_24_lattice_selector_v23.py",
+      "tools/global_sequence_constraint_graph_v1.py",
+      "tools/run_blind_protocol_v23.py"
+    ],
+    "v23_1_runtime_roots": [
+      "tools/blind_24_lattice_selector_v23.py",
+      "tools/blind_24_lattice_selector_v23_1.py",
+      "tools/global_sequence_constraint_graph_v1.py",
+      "tools/run_blind_protocol_v23.py",
+      "tools/run_blind_protocol_v23_1.py"
+    ],
+    "v23_2_runtime_roots": [
+      "tools/blind_24_lattice_selector_v23.py",
+      "tools/blind_24_lattice_selector_v23_2.py",
+      "tools/global_sequence_constraint_graph_v1.py",
+      "tools/run_blind_protocol_v23.py",
+      "tools/run_blind_protocol_v23_2.py"
     ]
   },
   "generated_evidence": {
@@ -632,11 +670,14 @@
     "v20_graph_atom_hierarchy_development": "verify/development_runs/ubiquitin_v20_graph_atom_hierarchy_l24_20260720/ binds the exact atom-encounter child stratum and its sealed 24/24 state and measurement identity with V19; Maria determines all conclusions and official status.",
     "v21_graph_contact_development": "verify/development_runs/ubiquitin_v21_graph_contact_l24_20260720/ binds the explicit fold-to-One contact census and its exact V19 path preservation as a soft ordinal objective.",
     "v22_contact_deficit_development": "verify/development_runs/ubiquitin_v22_contact_deficit_l24_20260720/ binds the ordered contact-deficit path activation, 0.701% dRMSD improvement, TM change and complete local-window comparison.",
+    "v23_global_domain_development": "verify/development_runs/ubiquitin_v23_global_domains_l{24,32,76}_20260720/ bind all-576-state residue domains, bidirectional four-residue segment assembly, and post-seal measurements including the L32 two-metric advance.",
+    "v23_1_parent_continuity_development": "verify/development_runs/ubiquitin_v23_1_parent_continuity_l{24,32,76}_20260720/ bind the exact parent-departure relation and byte-identical applied evidence showing that it does not alter hard-stratum selection.",
+    "v23_2_local_domain_development": "verify/development_runs/ubiquitin_v23_2_local_domains_l{24,32,76}_20260720/ bind complete 576-state local admission before global assembly; the L76 correction improves both measures over V23 and improves dRMSD over V13.",
     "classification": "A recorded development execution is not a Maria finding, loss or failed prediction."
   },
   "artifact_inventory": {
-    "tracked_pdb_files": 83,
-    "tracked_pdb_file_set_sha256": "e3a9edbbcf988b5908601af09a1fab6c1c7acc32695e1f98cdc19d71282686d3",
+    "tracked_pdb_files": 92,
+    "tracked_pdb_file_set_sha256": "5ce2c97f9f2fd0e1e79083b4fd4102d61b88b919bd221388a472b6bceed5a8b2",
     "classes": {
       "experimental_reference": [
         "verify/1cop.pdb",
@@ -721,6 +762,21 @@
       ],
       "sealed_v22_contact_deficit_development_output": [
         "verify/development_runs/ubiquitin_v22_contact_deficit_l24_20260720/prediction.pdb"
+      ],
+      "sealed_v23_global_domain_development_output": [
+        "verify/development_runs/ubiquitin_v23_global_domains_l24_20260720/prediction.pdb",
+        "verify/development_runs/ubiquitin_v23_global_domains_l32_20260720/prediction.pdb",
+        "verify/development_runs/ubiquitin_v23_global_domains_l76_20260720/prediction.pdb"
+      ],
+      "sealed_v23_1_parent_continuity_development_output": [
+        "verify/development_runs/ubiquitin_v23_1_parent_continuity_l24_20260720/prediction.pdb",
+        "verify/development_runs/ubiquitin_v23_1_parent_continuity_l32_20260720/prediction.pdb",
+        "verify/development_runs/ubiquitin_v23_1_parent_continuity_l76_20260720/prediction.pdb"
+      ],
+      "sealed_v23_2_local_domain_development_output": [
+        "verify/development_runs/ubiquitin_v23_2_local_domains_l24_20260720/prediction.pdb",
+        "verify/development_runs/ubiquitin_v23_2_local_domains_l32_20260720/prediction.pdb",
+        "verify/development_runs/ubiquitin_v23_2_local_domains_l76_20260720/prediction.pdb"
       ],
       "legacy_preproject_development_artifact": [
         "1ubq_autonomous.pdb",
