@@ -614,7 +614,7 @@ The registry verifier halts if:
 
 Generated PDBs and campaign receipts are evidence rather than forcing source.
 They are bound by the protected construction manifest or their immutable seals.
-All 107 tracked PDBs are also exhaustively classified: two experimental
+All 110 tracked PDBs are also exhaustively classified: two experimental
 references, one protected target-assisted construction, eleven sealed v2
 development outputs, four sealed v3 blind predictions, one sealed v4 auxiliary
 development output, two sealed v5 applied development outputs, and thirty-nine
@@ -623,7 +623,7 @@ three sealed v9-v10, one sealed v11, one sealed v12, three sealed v13, two
 sealed v14, one sealed v15, one sealed v16, one sealed v17, one sealed v18,
 three sealed v19, one each sealed v20, v21 and v22, nine sealed
 V23/V23.1/V23.2 development outputs, nine sealed V24/V24.1/V25 outputs, and
-six sealed V26/V26.1 outputs
+six sealed V26/V26.1 outputs and three sealed V27 reconciliation outputs
 described above.
 Their complete path-and-content census is hash-bound by the registry; both v2
 aggregate seals are reverified. Legacy filenames such as `predicted`,
@@ -669,10 +669,15 @@ relations; V26.1 admits those transitions first through their focal relation.
 The resulting L76 dRMSD of `6.7648477959 Å` is the strongest complete-sequence
 distance geometry in the V13-V26 line while retaining TM `0.1287565476`.
 
-The next state is a constitutional reconciliation of V25's strongest
-full-length TM frontier and V26.1's strongest distance-geometry frontier,
-without target-selected weights or target feedback, followed by the same
-sealed L24/L32/L76 ladder. New relations must be named in their own immutable
+V27 now exhausts the complete V25/V26.1 disagreement cube and propagates its
+constitutionally retained frontier through bidirectional coordinate beams.
+It improves both V26.1 measures at L24 and L32 and reaches the strongest L24
+dRMSD of those three branches. At L76 it improves dRMSD over V25 but does not
+retain V26.1's strongest complete-chain distance relation; V25 and V26.1
+therefore remain the leading complete-length TM and dRMSD frontiers. The next
+state is multiscale segment/domain reconciliation that preserves both parent
+frontiers through full-chain selection, without target-selected weights or
+target feedback. New relations must be named in their own immutable
 manifest, traced through the engine standard, source-bound, tested, and
 executed on sealed real sequence before comparison. The protected complete-
 lattice construction, forced secondary-structure coordinates, and successive

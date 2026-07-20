@@ -206,6 +206,22 @@ branch. The next construction should reconcile their single-coordinate and
 focally admitted pair-coordinate frontiers constitutionally, then repeat the
 sealed ladder. Do not use target measurements to choose candidates.
 
+V27 executes that reconciliation without target feedback. It exhausts the
+complete binary cube of all V25/V26.1 disagreements—256 candidates at L24,
+256 at L32 and 128 at L76—then seeds parent-anchored forward and reverse
+coordinate continuation from the constitutionally retained frontier. The
+sealed L24 result reaches **TM `0.0283543332` / dRMSD `6.2352507038 Å`**,
+improving both V26.1 measures and producing the strongest L24 dRMSD of the
+three branches. L32 similarly improves both V26.1 measures but remains below
+V25. At L76 it reaches **TM `0.1267485096` / dRMSD `6.9719543361 Å`**:
+distance geometry remains better than V25, while V25 and V26.1 remain the
+leading full-length TM and dRMSD branches respectively. Preserve V27 as
+source-bound evidence that residue-wise branch reconciliation is active at
+short and intermediate scope but does not yet propagate the strongest focal
+relation through the complete chain. The next architectural correction is a
+multiscale segment/domain reconciliation that retains both parent frontiers
+through complete-length selection. Do not tune it from target measurements.
+
 **The sequence supplies the spatial command.** The forward-forcing programme derives how amino-acid
 identity determines the invariant exclusions and relations that select among the 576 exact states per
 residue. Every proposed relation is routed through the engine; a violation halts rather than becoming

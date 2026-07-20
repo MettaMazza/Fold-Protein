@@ -282,9 +282,20 @@ focal paired states, changes seven V25 states, and reaches **TM
 **5.34%** and V13 dRMSD by **14.07%**, while retaining TM within **0.31%** of
 V25. At L24 dRMSD also improves over V25 while TM is lower; L32 is lower on
 both measures. V25 therefore remains the strongest full-length TM branch and
-V26.1 the strongest full-length distance-geometry branch. The next
-development state is their constitutional frontier reconciliation, not a
-target-selected blend.
+V26.1 the strongest full-length distance-geometry branch.
+
+V27 completes their constitutional frontier reconciliation. Because V25 and
+V26.1 differ at only 8, 8 and 7 residues at L24/L32/L76, V27 exhausts every
+combination—**256, 256 and 128 paths**—before applying the same weight-free
+constitution and bidirectional coordinate continuation. L24 reaches **TM
+`0.0283543332` / dRMSD `6.2352507038 Å`**, improving both V26.1 measures and
+setting the best L24 dRMSD of the three branches. L32 also improves both V26.1
+measures, while V25 remains stronger there. L76 reaches **TM `0.1267485096` /
+dRMSD `6.9719543361 Å`**: its distance geometry improves V25, but it does not
+retain V26.1's strongest complete-chain distance relation. This locates the
+next architectural requirement at multiscale segment/domain propagation,
+while V25 and V26.1 remain the leading full-length TM and dRMSD frontiers.
+No target measurement entered V27 selection.
 
 ## Governing law
 
@@ -345,6 +356,7 @@ python3 -m tools.verify_protein_forcing_registry
 | `tools/blind_24_lattice_selector_v25.py` | parent-anchored bidirectional constitutional coordinate beam |
 | `tools/blind_24_lattice_selector_v26.py` | exhaustive joint long-range segment-topology transitions |
 | `tools/blind_24_lattice_selector_v26_1.py` | focal segment-pair admission before whole-chain balance |
+| `tools/blind_24_lattice_selector_v27.py` | exhaustive V25/V26.1 disagreement-cube reconciliation and bidirectional continuation |
 | `verify/development_runs/ubiquitin_v9_steric_orientation_l24_20260719/` | sealed v9 applied evidence |
 | `verify/development_runs/ubiquitin_v10_balanced_relations_l{24,76}_20260719/` | sealed v10 applied evidence |
 | `verify/development_runs/ubiquitin_v11_hbond_assembly_l24_20260719/` | sealed v11 hydrogen-bond applied evidence and post-seal local windows |
@@ -369,6 +381,7 @@ python3 -m tools.verify_protein_forcing_registry
 | `verify/development_runs/ubiquitin_v25_coordinate_beam_l{24,32,76}_20260720/` | sealed parent-anchored coordinate-beam evidence and L76 dual-metric advance |
 | `verify/development_runs/ubiquitin_v26_joint_topology_l{24,32,76}_20260720/` | sealed exhaustive paired-topology development evidence |
 | `verify/development_runs/ubiquitin_v26_1_focal_topology_l{24,32,76}_20260720/` | sealed focal-topology evidence and strongest L76 dRMSD branch |
+| `verify/development_runs/ubiquitin_v27_branch_reconciliation_l{24,32,76}_20260720/` | sealed complete branch-cube reconciliation evidence and L24/L32 advances over V26.1 |
 | `verify/development_runs/ubiquitin_v12_topology_hbond_l24_20260719/v11_v12_state_delta.json` | source-bound sealed-path and local-window delta locating the next combined relation |
 | `verify/evaluate_sealed_blind_v3.py` | seal verifier and target-isolated evaluation boundary |
 | `verify/evaluate_sealed_blind_local_v3.py` | all-window post-seal local evaluator; reproduces the published IFV/TLT measurements |

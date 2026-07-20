@@ -1,0 +1,18 @@
+{
+  "branch_cube_candidates": 128,
+  "ca_drmsd_angstrom": 6.971954336112957,
+  "execution": "post-seal structural comparison",
+  "matched_ca_atoms": 76,
+  "official_run": false,
+  "result_type": "cumulative development benchmark",
+  "run_id": "development-ubiquitin-v27-branch-reconciliation-l76-20260720",
+  "schema": "fold-protein-blind-evaluation/v27",
+  "seal_sha256": "90bd6243993f2bf18d8358446f1afb2bad8b54c541d8d793be8cc9ceac82c125",
+  "sequence_length": 76,
+  "status": "completed",
+  "target_id": "1ubq.pdb",
+  "target_sha256": "d4a6812d8951cf6594e6a0763f089e35f5a80b62acb3c117b2c5565228a7b161",
+  "tm_score": 0.12674850963786977,
+  "v25_departures": 7,
+  "v26_1_departures": 10
+}
