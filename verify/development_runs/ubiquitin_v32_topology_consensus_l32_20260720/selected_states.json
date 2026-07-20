@@ -1,0 +1,6083 @@
+{
+  "charge_census": {
+    "alphabet": "ACDEFGHIKLMNPQRSTVWY",
+    "alphabet_count": 20,
+    "classes": {
+      "negative": "DE",
+      "positive": "KR",
+      "uncharged": "ACFGHILMNPQSTVWY"
+    },
+    "signs": {
+      "A": 0,
+      "C": 0,
+      "D": -1,
+      "E": -1,
+      "F": 0,
+      "G": 0,
+      "H": 0,
+      "I": 0,
+      "K": 1,
+      "L": 0,
+      "M": 0,
+      "N": 0,
+      "P": 0,
+      "Q": 0,
+      "R": 1,
+      "S": 0,
+      "T": 0,
+      "V": 0,
+      "W": 0,
+      "Y": 0
+    }
+  },
+  "consensus": {
+    "candidate_count": 78,
+    "family_order": [
+      2,
+      3,
+      4
+    ],
+    "retained_family_membership": [
+      [],
+      [],
+      [
+        3
+      ],
+      [],
+      [
+        4
+      ],
+      [
+        4
+      ],
+      [
+        4
+      ],
+      [
+        4
+      ],
+      [
+        4
+      ],
+      [
+        4
+      ],
+      [
+        4
+      ],
+      [
+        4
+      ],
+      [
+        4
+      ],
+      [
+        4
+      ],
+      [
+        4
+      ],
+      [
+        4
+      ],
+      [
+        4
+      ],
+      [
+        4
+      ],
+      [
+        4
+      ],
+      [
+        4
+      ],
+      [
+        4
+      ],
+      [
+        4
+      ],
+      [
+        2
+      ],
+      []
+    ],
+    "retained_paths": 24,
+    "retained_relations": [
+      {
+        "family_minimum_state_distances": [
+          5,
+          9,
+          10
+        ],
+        "total_family_distance": 24,
+        "worst_family_distance": 10
+      },
+      {
+        "family_minimum_state_distances": [
+          6,
+          10,
+          11
+        ],
+        "total_family_distance": 27,
+        "worst_family_distance": 11
+      },
+      {
+        "family_minimum_state_distances": [
+          11,
+          0,
+          6
+        ],
+        "total_family_distance": 17,
+        "worst_family_distance": 11
+      },
+      {
+        "family_minimum_state_distances": [
+          11,
+          3,
+          6
+        ],
+        "total_family_distance": 20,
+        "worst_family_distance": 11
+      },
+      {
+        "family_minimum_state_distances": [
+          11,
+          6,
+          0
+        ],
+        "total_family_distance": 17,
+        "worst_family_distance": 11
+      },
+      {
+        "family_minimum_state_distances": [
+          11,
+          6,
+          0
+        ],
+        "total_family_distance": 17,
+        "worst_family_distance": 11
+      },
+      {
+        "family_minimum_state_distances": [
+          11,
+          6,
+          0
+        ],
+        "total_family_distance": 17,
+        "worst_family_distance": 11
+      },
+      {
+        "family_minimum_state_distances": [
+          11,
+          6,
+          0
+        ],
+        "total_family_distance": 17,
+        "worst_family_distance": 11
+      },
+      {
+        "family_minimum_state_distances": [
+          11,
+          6,
+          0
+        ],
+        "total_family_distance": 17,
+        "worst_family_distance": 11
+      },
+      {
+        "family_minimum_state_distances": [
+          11,
+          6,
+          0
+        ],
+        "total_family_distance": 17,
+        "worst_family_distance": 11
+      },
+      {
+        "family_minimum_state_distances": [
+          11,
+          6,
+          0
+        ],
+        "total_family_distance": 17,
+        "worst_family_distance": 11
+      },
+      {
+        "family_minimum_state_distances": [
+          11,
+          6,
+          0
+        ],
+        "total_family_distance": 17,
+        "worst_family_distance": 11
+      },
+      {
+        "family_minimum_state_distances": [
+          11,
+          6,
+          0
+        ],
+        "total_family_distance": 17,
+        "worst_family_distance": 11
+      },
+      {
+        "family_minimum_state_distances": [
+          11,
+          6,
+          0
+        ],
+        "total_family_distance": 17,
+        "worst_family_distance": 11
+      },
+      {
+        "family_minimum_state_distances": [
+          11,
+          6,
+          0
+        ],
+        "total_family_distance": 17,
+        "worst_family_distance": 11
+      },
+      {
+        "family_minimum_state_distances": [
+          11,
+          6,
+          0
+        ],
+        "total_family_distance": 17,
+        "worst_family_distance": 11
+      },
+      {
+        "family_minimum_state_distances": [
+          11,
+          6,
+          0
+        ],
+        "total_family_distance": 17,
+        "worst_family_distance": 11
+      },
+      {
+        "family_minimum_state_distances": [
+          11,
+          6,
+          0
+        ],
+        "total_family_distance": 17,
+        "worst_family_distance": 11
+      },
+      {
+        "family_minimum_state_distances": [
+          11,
+          6,
+          0
+        ],
+        "total_family_distance": 17,
+        "worst_family_distance": 11
+      },
+      {
+        "family_minimum_state_distances": [
+          11,
+          6,
+          0
+        ],
+        "total_family_distance": 17,
+        "worst_family_distance": 11
+      },
+      {
+        "family_minimum_state_distances": [
+          11,
+          6,
+          0
+        ],
+        "total_family_distance": 17,
+        "worst_family_distance": 11
+      },
+      {
+        "family_minimum_state_distances": [
+          11,
+          6,
+          0
+        ],
+        "total_family_distance": 17,
+        "worst_family_distance": 11
+      },
+      {
+        "family_minimum_state_distances": [
+          0,
+          11,
+          11
+        ],
+        "total_family_distance": 22,
+        "worst_family_distance": 11
+      },
+      {
+        "family_minimum_state_distances": [
+          9,
+          11,
+          12
+        ],
+        "total_family_distance": 32,
+        "worst_family_distance": 12
+      }
+    ],
+    "selected_family_membership": [
+      4
+    ],
+    "selected_relation": {
+      "family_minimum_state_distances": [
+        11,
+        6,
+        0
+      ],
+      "total_family_distance": 17,
+      "worst_family_distance": 11
+    }
+  },
+  "constraint_graph_census": {
+    "edge_count": 465,
+    "fitted_cutoff": null,
+    "learned_quantity": null,
+    "mixing_weight": null,
+    "residue_count": 32,
+    "reward": null,
+    "segment_count": 8,
+    "segment_pair_count": 36,
+    "segment_residues": 4,
+    "sidechain_reach": "n/(n+1) of generated adjacent C-alpha step",
+    "support_bridge": "left reach + spatial One + right reach",
+    "target": null,
+    "template": null
+  },
+  "domain_capacity": 24,
+  "domain_run_id": "development-ubiquitin-v23-2-local-domains-l32-20260720",
+  "domain_sha256": "306c489ddfef299ccedc8a0562552ddc1e1cf79fcf63049f31fdcf8cc8bb4af0",
+  "domain_state_count": 576,
+  "final_relations": {
+    "bounded_tertiary_frontier": {
+      "2": {
+        "degree_capacity": 2,
+        "edges": [
+          {
+            "body_capacity": 480,
+            "degree_capacity": 2,
+            "hydrophobic_capacity": 120,
+            "left_residues": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "like_charge_capacity": 0,
+            "opposite_charge_capacity": 0,
+            "ordinal_vector": [
+              3,
+              1,
+              0,
+              0
+            ],
+            "orientation_deficit": 0.38614370400620357,
+            "right_residues": [
+              13,
+              14,
+              15,
+              16
+            ],
+            "segments": [
+              0,
+              3
+            ],
+            "support_deficit": 157,
+            "supported_body_capacity": 323,
+            "unsigned_axis_alignment": 0.6138562959937964
+          },
+          {
+            "body_capacity": 528,
+            "degree_capacity": 2,
+            "hydrophobic_capacity": 60,
+            "left_residues": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "like_charge_capacity": 0,
+            "opposite_charge_capacity": 0,
+            "ordinal_vector": [
+              3,
+              2,
+              0,
+              0
+            ],
+            "orientation_deficit": 0.10064718288335228,
+            "right_residues": [
+              29,
+              30,
+              31,
+              32
+            ],
+            "segments": [
+              0,
+              7
+            ],
+            "support_deficit": 528,
+            "supported_body_capacity": 0,
+            "unsigned_axis_alignment": 0.8993528171166477
+          },
+          {
+            "body_capacity": 418,
+            "degree_capacity": 2,
+            "hydrophobic_capacity": 28,
+            "left_residues": [
+              5,
+              6,
+              7,
+              8
+            ],
+            "like_charge_capacity": 25,
+            "opposite_charge_capacity": 20,
+            "ordinal_vector": [
+              6,
+              4,
+              2,
+              2
+            ],
+            "orientation_deficit": 0.9738552085516169,
+            "right_residues": [
+              29,
+              30,
+              31,
+              32
+            ],
+            "segments": [
+              1,
+              7
+            ],
+            "support_deficit": 418,
+            "supported_body_capacity": 0,
+            "unsigned_axis_alignment": 0.026144791448383088
+          },
+          {
+            "body_capacity": 400,
+            "degree_capacity": 2,
+            "hydrophobic_capacity": 32,
+            "left_residues": [
+              13,
+              14,
+              15,
+              16
+            ],
+            "like_charge_capacity": 45,
+            "opposite_charge_capacity": 0,
+            "ordinal_vector": [
+              6,
+              5,
+              4,
+              3
+            ],
+            "orientation_deficit": 0.27656150356771225,
+            "right_residues": [
+              21,
+              22,
+              23,
+              24
+            ],
+            "segments": [
+              3,
+              5
+            ],
+            "support_deficit": 244,
+            "supported_body_capacity": 156,
+            "unsigned_axis_alignment": 0.7234384964322877
+          },
+          {
+            "body_capacity": 340,
+            "degree_capacity": 2,
+            "hydrophobic_capacity": 12,
+            "left_residues": [
+              21,
+              22,
+              23,
+              24
+            ],
+            "like_charge_capacity": 0,
+            "opposite_charge_capacity": 45,
+            "ordinal_vector": [
+              10,
+              10,
+              0,
+              0
+            ],
+            "orientation_deficit": 0.378615004133359,
+            "right_residues": [
+              25,
+              26,
+              27,
+              28
+            ],
+            "segments": [
+              5,
+              6
+            ],
+            "support_deficit": 160,
+            "supported_body_capacity": 180,
+            "unsigned_axis_alignment": 0.621384995866641
+          },
+          {
+            "body_capacity": 323,
+            "degree_capacity": 2,
+            "hydrophobic_capacity": 21,
+            "left_residues": [
+              5,
+              6,
+              7,
+              8
+            ],
+            "like_charge_capacity": 0,
+            "opposite_charge_capacity": 25,
+            "ordinal_vector": [
+              12,
+              8,
+              1,
+              0
+            ],
+            "orientation_deficit": 0.4782858915561331,
+            "right_residues": [
+              17,
+              18,
+              19,
+              20
+            ],
+            "segments": [
+              1,
+              4
+            ],
+            "support_deficit": 323,
+            "supported_body_capacity": 0,
+            "unsigned_axis_alignment": 0.5217141084438669
+          },
+          {
+            "body_capacity": 255,
+            "degree_capacity": 2,
+            "hydrophobic_capacity": 0,
+            "left_residues": [
+              9,
+              10,
+              11,
+              12
+            ],
+            "like_charge_capacity": 0,
+            "opposite_charge_capacity": 25,
+            "ordinal_vector": [
+              16,
+              12,
+              1,
+              0
+            ],
+            "orientation_deficit": 0.27163754859488176,
+            "right_residues": [
+              17,
+              18,
+              19,
+              20
+            ],
+            "segments": [
+              2,
+              4
+            ],
+            "support_deficit": 239,
+            "supported_body_capacity": 16,
+            "unsigned_axis_alignment": 0.7283624514051182
+          }
+        ],
+        "objective_names": [
+          "degree_2_support_deficit",
+          "degree_2_orientation_deficit",
+          "degree_2_edge_0_support_deficit",
+          "degree_2_edge_0_orientation_deficit",
+          "degree_2_edge_1_support_deficit",
+          "degree_2_edge_1_orientation_deficit",
+          "degree_2_edge_2_support_deficit",
+          "degree_2_edge_2_orientation_deficit",
+          "degree_2_edge_3_support_deficit",
+          "degree_2_edge_3_orientation_deficit",
+          "degree_2_edge_4_support_deficit",
+          "degree_2_edge_4_orientation_deficit",
+          "degree_2_edge_5_support_deficit",
+          "degree_2_edge_5_orientation_deficit",
+          "degree_2_edge_6_support_deficit",
+          "degree_2_edge_6_orientation_deficit"
+        ],
+        "objectives": [
+          2069,
+          2.865746043293259,
+          157,
+          0.38614370400620357,
+          528,
+          0.10064718288335228,
+          418,
+          0.9738552085516169,
+          244,
+          0.27656150356771225,
+          160,
+          0.378615004133359,
+          323,
+          0.4782858915561331,
+          239,
+          0.27163754859488176
+        ],
+        "orientation_deficit": 2.865746043293259,
+        "spatial_one_squared": 14.405034636428692,
+        "support_deficit": 2069
+      },
+      "3": {
+        "degree_capacity": 3,
+        "edges": [
+          {
+            "body_capacity": 480,
+            "degree_capacity": 3,
+            "hydrophobic_capacity": 120,
+            "left_residues": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "like_charge_capacity": 0,
+            "opposite_charge_capacity": 0,
+            "ordinal_vector": [
+              3,
+              1,
+              0,
+              0
+            ],
+            "orientation_deficit": 0.38614370400620357,
+            "right_residues": [
+              13,
+              14,
+              15,
+              16
+            ],
+            "segments": [
+              0,
+              3
+            ],
+            "support_deficit": 157,
+            "supported_body_capacity": 323,
+            "unsigned_axis_alignment": 0.6138562959937964
+          },
+          {
+            "body_capacity": 528,
+            "degree_capacity": 3,
+            "hydrophobic_capacity": 60,
+            "left_residues": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "like_charge_capacity": 0,
+            "opposite_charge_capacity": 0,
+            "ordinal_vector": [
+              3,
+              2,
+              0,
+              0
+            ],
+            "orientation_deficit": 0.10064718288335228,
+            "right_residues": [
+              29,
+              30,
+              31,
+              32
+            ],
+            "segments": [
+              0,
+              7
+            ],
+            "support_deficit": 528,
+            "supported_body_capacity": 0,
+            "unsigned_axis_alignment": 0.8993528171166477
+          },
+          {
+            "body_capacity": 456,
+            "degree_capacity": 3,
+            "hydrophobic_capacity": 105,
+            "left_residues": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "like_charge_capacity": 0,
+            "opposite_charge_capacity": 0,
+            "ordinal_vector": [
+              3,
+              2,
+              1,
+              0
+            ],
+            "orientation_deficit": 0.5825199396144223,
+            "right_residues": [
+              5,
+              6,
+              7,
+              8
+            ],
+            "segments": [
+              0,
+              1
+            ],
+            "support_deficit": 55,
+            "supported_body_capacity": 401,
+            "unsigned_axis_alignment": 0.4174800603855777
+          },
+          {
+            "body_capacity": 400,
+            "degree_capacity": 3,
+            "hydrophobic_capacity": 32,
+            "left_residues": [
+              13,
+              14,
+              15,
+              16
+            ],
+            "like_charge_capacity": 45,
+            "opposite_charge_capacity": 0,
+            "ordinal_vector": [
+              6,
+              5,
+              4,
+              3
+            ],
+            "orientation_deficit": 0.27656150356771225,
+            "right_residues": [
+              21,
+              22,
+              23,
+              24
+            ],
+            "segments": [
+              3,
+              5
+            ],
+            "support_deficit": 244,
+            "supported_body_capacity": 156,
+            "unsigned_axis_alignment": 0.7234384964322877
+          },
+          {
+            "body_capacity": 340,
+            "degree_capacity": 3,
+            "hydrophobic_capacity": 24,
+            "left_residues": [
+              13,
+              14,
+              15,
+              16
+            ],
+            "like_charge_capacity": 0,
+            "opposite_charge_capacity": 25,
+            "ordinal_vector": [
+              10,
+              7,
+              1,
+              0
+            ],
+            "orientation_deficit": 0.01655874801395274,
+            "right_residues": [
+              25,
+              26,
+              27,
+              28
+            ],
+            "segments": [
+              3,
+              6
+            ],
+            "support_deficit": 340,
+            "supported_body_capacity": 0,
+            "unsigned_axis_alignment": 0.9834412519860473
+          },
+          {
+            "body_capacity": 374,
+            "degree_capacity": 3,
+            "hydrophobic_capacity": 12,
+            "left_residues": [
+              17,
+              18,
+              19,
+              20
+            ],
+            "like_charge_capacity": 20,
+            "opposite_charge_capacity": 25,
+            "ordinal_vector": [
+              10,
+              8,
+              1,
+              1
+            ],
+            "orientation_deficit": 0.1341783980251775,
+            "right_residues": [
+              29,
+              30,
+              31,
+              32
+            ],
+            "segments": [
+              4,
+              7
+            ],
+            "support_deficit": 374,
+            "supported_body_capacity": 0,
+            "unsigned_axis_alignment": 0.8658216019748225
+          },
+          {
+            "body_capacity": 330,
+            "degree_capacity": 3,
+            "hydrophobic_capacity": 0,
+            "left_residues": [
+              9,
+              10,
+              11,
+              12
+            ],
+            "like_charge_capacity": 25,
+            "opposite_charge_capacity": 20,
+            "ordinal_vector": [
+              12,
+              11,
+              2,
+              2
+            ],
+            "orientation_deficit": 0.03025828755181592,
+            "right_residues": [
+              29,
+              30,
+              31,
+              32
+            ],
+            "segments": [
+              2,
+              7
+            ],
+            "support_deficit": 330,
+            "supported_body_capacity": 0,
+            "unsigned_axis_alignment": 0.9697417124481841
+          }
+        ],
+        "objective_names": [
+          "degree_3_support_deficit",
+          "degree_3_orientation_deficit",
+          "degree_3_edge_0_support_deficit",
+          "degree_3_edge_0_orientation_deficit",
+          "degree_3_edge_1_support_deficit",
+          "degree_3_edge_1_orientation_deficit",
+          "degree_3_edge_2_support_deficit",
+          "degree_3_edge_2_orientation_deficit",
+          "degree_3_edge_3_support_deficit",
+          "degree_3_edge_3_orientation_deficit",
+          "degree_3_edge_4_support_deficit",
+          "degree_3_edge_4_orientation_deficit",
+          "degree_3_edge_5_support_deficit",
+          "degree_3_edge_5_orientation_deficit",
+          "degree_3_edge_6_support_deficit",
+          "degree_3_edge_6_orientation_deficit"
+        ],
+        "objectives": [
+          2028,
+          1.5268677636626369,
+          157,
+          0.38614370400620357,
+          528,
+          0.10064718288335228,
+          55,
+          0.5825199396144223,
+          244,
+          0.27656150356771225,
+          340,
+          0.01655874801395274,
+          374,
+          0.1341783980251775,
+          330,
+          0.03025828755181592
+        ],
+        "orientation_deficit": 1.5268677636626369,
+        "spatial_one_squared": 14.405034636428692,
+        "support_deficit": 2028
+      },
+      "4": {
+        "degree_capacity": 4,
+        "edges": [
+          {
+            "body_capacity": 480,
+            "degree_capacity": 4,
+            "hydrophobic_capacity": 120,
+            "left_residues": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "like_charge_capacity": 0,
+            "opposite_charge_capacity": 0,
+            "ordinal_vector": [
+              3,
+              1,
+              0,
+              0
+            ],
+            "orientation_deficit": 0.38614370400620357,
+            "right_residues": [
+              13,
+              14,
+              15,
+              16
+            ],
+            "segments": [
+              0,
+              3
+            ],
+            "support_deficit": 157,
+            "supported_body_capacity": 323,
+            "unsigned_axis_alignment": 0.6138562959937964
+          },
+          {
+            "body_capacity": 528,
+            "degree_capacity": 4,
+            "hydrophobic_capacity": 60,
+            "left_residues": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "like_charge_capacity": 0,
+            "opposite_charge_capacity": 0,
+            "ordinal_vector": [
+              3,
+              2,
+              0,
+              0
+            ],
+            "orientation_deficit": 0.10064718288335228,
+            "right_residues": [
+              29,
+              30,
+              31,
+              32
+            ],
+            "segments": [
+              0,
+              7
+            ],
+            "support_deficit": 528,
+            "supported_body_capacity": 0,
+            "unsigned_axis_alignment": 0.8993528171166477
+          },
+          {
+            "body_capacity": 456,
+            "degree_capacity": 4,
+            "hydrophobic_capacity": 105,
+            "left_residues": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "like_charge_capacity": 0,
+            "opposite_charge_capacity": 0,
+            "ordinal_vector": [
+              3,
+              2,
+              1,
+              0
+            ],
+            "orientation_deficit": 0.5825199396144223,
+            "right_residues": [
+              5,
+              6,
+              7,
+              8
+            ],
+            "segments": [
+              0,
+              1
+            ],
+            "support_deficit": 55,
+            "supported_body_capacity": 401,
+            "unsigned_axis_alignment": 0.4174800603855777
+          },
+          {
+            "body_capacity": 480,
+            "degree_capacity": 4,
+            "hydrophobic_capacity": 60,
+            "left_residues": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "like_charge_capacity": 0,
+            "opposite_charge_capacity": 0,
+            "ordinal_vector": [
+              3,
+              2,
+              1,
+              0
+            ],
+            "orientation_deficit": 0.40501122432415015,
+            "right_residues": [
+              21,
+              22,
+              23,
+              24
+            ],
+            "segments": [
+              0,
+              5
+            ],
+            "support_deficit": 480,
+            "supported_body_capacity": 0,
+            "unsigned_axis_alignment": 0.5949887756758498
+          },
+          {
+            "body_capacity": 340,
+            "degree_capacity": 4,
+            "hydrophobic_capacity": 24,
+            "left_residues": [
+              13,
+              14,
+              15,
+              16
+            ],
+            "like_charge_capacity": 0,
+            "opposite_charge_capacity": 25,
+            "ordinal_vector": [
+              10,
+              7,
+              1,
+              0
+            ],
+            "orientation_deficit": 0.01655874801395274,
+            "right_residues": [
+              25,
+              26,
+              27,
+              28
+            ],
+            "segments": [
+              3,
+              6
+            ],
+            "support_deficit": 340,
+            "supported_body_capacity": 0,
+            "unsigned_axis_alignment": 0.9834412519860473
+          },
+          {
+            "body_capacity": 340,
+            "degree_capacity": 4,
+            "hydrophobic_capacity": 24,
+            "left_residues": [
+              13,
+              14,
+              15,
+              16
+            ],
+            "like_charge_capacity": 25,
+            "opposite_charge_capacity": 0,
+            "ordinal_vector": [
+              10,
+              7,
+              3,
+              2
+            ],
+            "orientation_deficit": 0.5771240101880689,
+            "right_residues": [
+              17,
+              18,
+              19,
+              20
+            ],
+            "segments": [
+              3,
+              4
+            ],
+            "support_deficit": 95,
+            "supported_body_capacity": 245,
+            "unsigned_axis_alignment": 0.4228759898119311
+          },
+          {
+            "body_capacity": 330,
+            "degree_capacity": 4,
+            "hydrophobic_capacity": 0,
+            "left_residues": [
+              9,
+              10,
+              11,
+              12
+            ],
+            "like_charge_capacity": 25,
+            "opposite_charge_capacity": 20,
+            "ordinal_vector": [
+              12,
+              11,
+              2,
+              2
+            ],
+            "orientation_deficit": 0.03025828755181592,
+            "right_residues": [
+              29,
+              30,
+              31,
+              32
+            ],
+            "segments": [
+              2,
+              7
+            ],
+            "support_deficit": 330,
+            "supported_body_capacity": 0,
+            "unsigned_axis_alignment": 0.9697417124481841
+          }
+        ],
+        "objective_names": [
+          "degree_4_support_deficit",
+          "degree_4_orientation_deficit",
+          "degree_4_edge_0_support_deficit",
+          "degree_4_edge_0_orientation_deficit",
+          "degree_4_edge_1_support_deficit",
+          "degree_4_edge_1_orientation_deficit",
+          "degree_4_edge_2_support_deficit",
+          "degree_4_edge_2_orientation_deficit",
+          "degree_4_edge_3_support_deficit",
+          "degree_4_edge_3_orientation_deficit",
+          "degree_4_edge_4_support_deficit",
+          "degree_4_edge_4_orientation_deficit",
+          "degree_4_edge_5_support_deficit",
+          "degree_4_edge_5_orientation_deficit",
+          "degree_4_edge_6_support_deficit",
+          "degree_4_edge_6_orientation_deficit"
+        ],
+        "objectives": [
+          1985,
+          2.098263096581966,
+          157,
+          0.38614370400620357,
+          528,
+          0.10064718288335228,
+          55,
+          0.5825199396144223,
+          480,
+          0.40501122432415015,
+          340,
+          0.01655874801395274,
+          95,
+          0.5771240101880689,
+          330,
+          0.03025828755181592
+        ],
+        "orientation_deficit": 2.098263096581966,
+        "spatial_one_squared": 14.405034636428692,
+        "support_deficit": 1985
+      }
+    },
+    "constraint_graph": {
+      "backbone_exclusions": 0,
+      "edge_count": 465,
+      "objective_names": [
+        "hydrophobic_support_deficit",
+        "opposite_charge_support_deficit",
+        "like_charge_support",
+        "intersegment_hydrophobic_support_deficit",
+        "intersegment_opposite_charge_support_deficit",
+        "intersegment_like_charge_support"
+      ],
+      "objectives": [
+        545,
+        365,
+        115,
+        545,
+        365,
+        95
+      ],
+      "segment_pair_objectives": [
+        16,
+        0,
+        0,
+        72,
+        0,
+        0,
+        21,
+        0,
+        0,
+        60,
+        0,
+        0,
+        45,
+        0,
+        0,
+        60,
+        0,
+        0,
+        0,
+        0,
+        0,
+        40,
+        25,
+        0,
+        21,
+        25,
+        0,
+        28,
+        45,
+        0,
+        21,
+        0,
+        0,
+        28,
+        20,
+        0,
+        0,
+        0,
+        0,
+        0,
+        25,
+        0,
+        0,
+        45,
+        0,
+        0,
+        0,
+        0,
+        0,
+        20,
+        0,
+        12,
+        0,
+        25,
+        16,
+        0,
+        0,
+        24,
+        25,
+        0,
+        32,
+        25,
+        0,
+        0,
+        0,
+        45,
+        9,
+        0,
+        0,
+        12,
+        25,
+        0,
+        0,
+        20,
+        0,
+        16,
+        45,
+        0,
+        12,
+        20,
+        25
+      ],
+      "segment_pair_rows": [
+        {
+          "objectives": [
+            16,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            1
+          ]
+        },
+        {
+          "objectives": [
+            72,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            3
+          ]
+        },
+        {
+          "objectives": [
+            21,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            4
+          ]
+        },
+        {
+          "objectives": [
+            60,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            5
+          ]
+        },
+        {
+          "objectives": [
+            45,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            6
+          ]
+        },
+        {
+          "objectives": [
+            60,
+            0,
+            0
+          ],
+          "segments": [
+            0,
+            7
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            1,
+            2
+          ]
+        },
+        {
+          "objectives": [
+            40,
+            25,
+            0
+          ],
+          "segments": [
+            1,
+            3
+          ]
+        },
+        {
+          "objectives": [
+            21,
+            25,
+            0
+          ],
+          "segments": [
+            1,
+            4
+          ]
+        },
+        {
+          "objectives": [
+            28,
+            45,
+            0
+          ],
+          "segments": [
+            1,
+            5
+          ]
+        },
+        {
+          "objectives": [
+            21,
+            0,
+            0
+          ],
+          "segments": [
+            1,
+            6
+          ]
+        },
+        {
+          "objectives": [
+            28,
+            20,
+            0
+          ],
+          "segments": [
+            1,
+            7
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            2,
+            3
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            25,
+            0
+          ],
+          "segments": [
+            2,
+            4
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            45,
+            0
+          ],
+          "segments": [
+            2,
+            5
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            0
+          ],
+          "segments": [
+            2,
+            6
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            20,
+            0
+          ],
+          "segments": [
+            2,
+            7
+          ]
+        },
+        {
+          "objectives": [
+            12,
+            0,
+            25
+          ],
+          "segments": [
+            3,
+            4
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            0,
+            0
+          ],
+          "segments": [
+            3,
+            5
+          ]
+        },
+        {
+          "objectives": [
+            24,
+            25,
+            0
+          ],
+          "segments": [
+            3,
+            6
+          ]
+        },
+        {
+          "objectives": [
+            32,
+            25,
+            0
+          ],
+          "segments": [
+            3,
+            7
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            0,
+            45
+          ],
+          "segments": [
+            4,
+            5
+          ]
+        },
+        {
+          "objectives": [
+            9,
+            0,
+            0
+          ],
+          "segments": [
+            4,
+            6
+          ]
+        },
+        {
+          "objectives": [
+            12,
+            25,
+            0
+          ],
+          "segments": [
+            4,
+            7
+          ]
+        },
+        {
+          "objectives": [
+            0,
+            20,
+            0
+          ],
+          "segments": [
+            5,
+            6
+          ]
+        },
+        {
+          "objectives": [
+            16,
+            45,
+            0
+          ],
+          "segments": [
+            5,
+            7
+          ]
+        },
+        {
+          "objectives": [
+            12,
+            20,
+            25
+          ],
+          "segments": [
+            6,
+            7
+          ]
+        }
+      ],
+      "spatial_one_squared": 14.405034636428692,
+      "supported_edge_count": 110
+    },
+    "hard_exclusion_strata": [
+      "backbone",
+      "sidechain_graph"
+    ],
+    "hard_exclusion_vector": [
+      0,
+      1
+    ],
+    "hard_exclusions": 1,
+    "hydrogen_bond_assembly": {
+      "eligible_pair_count": 197,
+      "pair_count": 23,
+      "pairs": [
+        {
+          "acceptor_residue": 12,
+          "dimensionless_strength": 0.839228737218223,
+          "donor_residue": 15
+        },
+        {
+          "acceptor_residue": 14,
+          "dimensionless_strength": 0.46004306508596754,
+          "donor_residue": 22
+        },
+        {
+          "acceptor_residue": 1,
+          "dimensionless_strength": 0.351967897830836,
+          "donor_residue": 18
+        },
+        {
+          "acceptor_residue": 29,
+          "dimensionless_strength": 0.26074968970802087,
+          "donor_residue": 25
+        },
+        {
+          "acceptor_residue": 18,
+          "dimensionless_strength": 0.25825137283552585,
+          "donor_residue": 21
+        },
+        {
+          "acceptor_residue": 15,
+          "dimensionless_strength": 0.2531449924371622,
+          "donor_residue": 8
+        },
+        {
+          "acceptor_residue": 3,
+          "dimensionless_strength": 0.24270573858850392,
+          "donor_residue": 9
+        },
+        {
+          "acceptor_residue": 17,
+          "dimensionless_strength": 0.21823073203309237,
+          "donor_residue": 28
+        },
+        {
+          "acceptor_residue": 28,
+          "dimensionless_strength": 0.21736781228982513,
+          "donor_residue": 32
+        },
+        {
+          "acceptor_residue": 6,
+          "dimensionless_strength": 0.20446986927378075,
+          "donor_residue": 12
+        },
+        {
+          "acceptor_residue": 10,
+          "dimensionless_strength": 0.19996300049829135,
+          "donor_residue": 13
+        },
+        {
+          "acceptor_residue": 26,
+          "dimensionless_strength": 0.19676158603750352,
+          "donor_residue": 29
+        },
+        {
+          "acceptor_residue": 16,
+          "dimensionless_strength": 0.16856740815428964,
+          "donor_residue": 5
+        },
+        {
+          "acceptor_residue": 23,
+          "dimensionless_strength": 0.13941820768325108,
+          "donor_residue": 20
+        },
+        {
+          "acceptor_residue": 4,
+          "dimensionless_strength": 0.13125605972903262,
+          "donor_residue": 7
+        },
+        {
+          "acceptor_residue": 2,
+          "dimensionless_strength": 0.12859387580310655,
+          "donor_residue": 24
+        },
+        {
+          "acceptor_residue": 25,
+          "dimensionless_strength": 0.0809616372449125,
+          "donor_residue": 16
+        },
+        {
+          "acceptor_residue": 11,
+          "dimensionless_strength": 0.07971395135599688,
+          "donor_residue": 17
+        },
+        {
+          "acceptor_residue": 30,
+          "dimensionless_strength": 0.06982463100970687,
+          "donor_residue": 14
+        },
+        {
+          "acceptor_residue": 20,
+          "dimensionless_strength": 0.05542852544307036,
+          "donor_residue": 27
+        },
+        {
+          "acceptor_residue": 22,
+          "dimensionless_strength": 0.05209349751322886,
+          "donor_residue": 26
+        },
+        {
+          "acceptor_residue": 31,
+          "dimensionless_strength": 0.012705035421972677,
+          "donor_residue": 6
+        },
+        {
+          "acceptor_residue": 13,
+          "dimensionless_strength": 0.010912627399134307,
+          "donor_residue": 23
+        }
+      ],
+      "relation": -4.632359950594436
+    },
+    "hydrogen_bond_topologies": {
+      "eligible_pair_count": 181,
+      "eligible_pair_counts": {
+        "alpha": 11,
+        "interstrand": 170
+      },
+      "pair_count": 23,
+      "pair_counts": {
+        "alpha": 1,
+        "interstrand": 22
+      },
+      "pairs": [
+        {
+          "acceptor_residue": 14,
+          "dimensionless_strength": 0.46004306508596754,
+          "donor_residue": 22,
+          "sequence_separation": 8,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 1,
+          "dimensionless_strength": 0.351967897830836,
+          "donor_residue": 18,
+          "sequence_separation": 17,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 10,
+          "dimensionless_strength": 0.2718043517996789,
+          "donor_residue": 15,
+          "sequence_separation": 5,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 15,
+          "dimensionless_strength": 0.2531449924371622,
+          "donor_residue": 8,
+          "sequence_separation": 7,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 3,
+          "dimensionless_strength": 0.24270573858850392,
+          "donor_residue": 9,
+          "sequence_separation": 6,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 17,
+          "dimensionless_strength": 0.21823073203309237,
+          "donor_residue": 28,
+          "sequence_separation": 11,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 28,
+          "dimensionless_strength": 0.21736781228982513,
+          "donor_residue": 32,
+          "sequence_separation": 4,
+          "topology": "alpha"
+        },
+        {
+          "acceptor_residue": 6,
+          "dimensionless_strength": 0.20446986927378075,
+          "donor_residue": 12,
+          "sequence_separation": 6,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 12,
+          "dimensionless_strength": 0.17535887951136483,
+          "donor_residue": 17,
+          "sequence_separation": 5,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 16,
+          "dimensionless_strength": 0.16856740815428964,
+          "donor_residue": 5,
+          "sequence_separation": 11,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 11,
+          "dimensionless_strength": 0.1466256092824575,
+          "donor_residue": 21,
+          "sequence_separation": 10,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 2,
+          "dimensionless_strength": 0.12859387580310655,
+          "donor_residue": 24,
+          "sequence_separation": 22,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 22,
+          "dimensionless_strength": 0.12321219645888197,
+          "donor_residue": 29,
+          "sequence_separation": 7,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 30,
+          "dimensionless_strength": 0.10041448952947675,
+          "donor_residue": 25,
+          "sequence_separation": 5,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 25,
+          "dimensionless_strength": 0.0809616372449125,
+          "donor_residue": 16,
+          "sequence_separation": 9,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 20,
+          "dimensionless_strength": 0.05542852544307036,
+          "donor_residue": 27,
+          "sequence_separation": 7,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 29,
+          "dimensionless_strength": 0.052809068530351305,
+          "donor_residue": 14,
+          "sequence_separation": 15,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 8,
+          "dimensionless_strength": 0.0369812721322202,
+          "donor_residue": 13,
+          "sequence_separation": 5,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 26,
+          "dimensionless_strength": 0.036534752510528665,
+          "donor_residue": 6,
+          "sequence_separation": 20,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 31,
+          "dimensionless_strength": 0.03184907980047939,
+          "donor_residue": 7,
+          "sequence_separation": 24,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 21,
+          "dimensionless_strength": 0.022246236362439865,
+          "donor_residue": 26,
+          "sequence_separation": 5,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 13,
+          "dimensionless_strength": 0.010912627399134307,
+          "donor_residue": 23,
+          "sequence_separation": 10,
+          "topology": "interstrand"
+        },
+        {
+          "acceptor_residue": 9,
+          "dimensionless_strength": 0.009134073319518137,
+          "donor_residue": 20,
+          "sequence_separation": 11,
+          "topology": "interstrand"
+        }
+      ],
+      "relations": {
+        "alpha": -0.21736781228982513,
+        "interstrand": -3.181996378531254
+      }
+    },
+    "objectives": [
+      0.08808864507743464,
+      32.70660643902851,
+      -0.45480239992336635,
+      1.0,
+      0.8630555970131055,
+      -0.21736781228982513,
+      -0.0,
+      0.0,
+      2133.915476205405,
+      -0.4374384464989031,
+      0.8257431999460441,
+      7.914245049207614,
+      -0.21736781228982513,
+      -3.181996378531254,
+      -4.632359950594436,
+      545,
+      365,
+      115,
+      545,
+      365,
+      95,
+      16,
+      0,
+      0,
+      72,
+      0,
+      0,
+      21,
+      0,
+      0,
+      60,
+      0,
+      0,
+      45,
+      0,
+      0,
+      60,
+      0,
+      0,
+      0,
+      0,
+      0,
+      40,
+      25,
+      0,
+      21,
+      25,
+      0,
+      28,
+      45,
+      0,
+      21,
+      0,
+      0,
+      28,
+      20,
+      0,
+      0,
+      0,
+      0,
+      0,
+      25,
+      0,
+      0,
+      45,
+      0,
+      0,
+      0,
+      0,
+      0,
+      20,
+      0,
+      12,
+      0,
+      25,
+      16,
+      0,
+      0,
+      24,
+      25,
+      0,
+      32,
+      25,
+      0,
+      0,
+      0,
+      45,
+      9,
+      0,
+      0,
+      12,
+      25,
+      0,
+      0,
+      20,
+      0,
+      16,
+      45,
+      0,
+      12,
+      20,
+      25
+    ],
+    "raw": {
+      "complete": [
+        [
+          0,
+          1
+        ],
+        2133.915476205405,
+        -0.4374384464989031,
+        0.8257431999460441,
+        7.914245049207614,
+        -0.21736781228982513,
+        -3.181996378531254,
+        -4.632359950594436
+      ],
+      "local": [
+        0.08808864507743464,
+        [
+          0,
+          0
+        ],
+        32.70660643902851,
+        -0.45480239992336635,
+        1.0,
+        0.8630555970131055,
+        -0.21736781228982513,
+        -0.0,
+        0.0
+      ]
+    },
+    "sidechain_graph_spatial_exclusion": {
+      "atom_encounter_count": 6,
+      "excluded_pairs": [
+        {
+          "atom_encounter_count": 6,
+          "encounters": [
+            {
+              "dimensionless_distance_squared": 0.7146762965465542,
+              "left_atom": "CG",
+              "right_atom": "NZ"
+            },
+            {
+              "dimensionless_distance_squared": 0.7993482186277563,
+              "left_atom": "CD1",
+              "right_atom": "CE"
+            },
+            {
+              "dimensionless_distance_squared": 0.3259771961734865,
+              "left_atom": "CD1",
+              "right_atom": "NZ"
+            },
+            {
+              "dimensionless_distance_squared": 0.7648221045073301,
+              "left_atom": "CD2",
+              "right_atom": "CD"
+            },
+            {
+              "dimensionless_distance_squared": 0.49510933659923617,
+              "left_atom": "CD2",
+              "right_atom": "CE"
+            },
+            {
+              "dimensionless_distance_squared": 0.44761879091336465,
+              "left_atom": "CD2",
+              "right_atom": "NZ"
+            }
+          ],
+          "left_identity": "L",
+          "left_residue": 8,
+          "right_identity": "K",
+          "right_residue": 11
+        }
+      ],
+      "excluded_residue_pair_count": 1,
+      "hard_exclusions": 1
+    }
+  },
+  "frontier_capacity": 24,
+  "hydrogen_bond_census": {
+    "acceptor_capacity": 1,
+    "acceptor_residues": "ACDEFGHIKLMNPQRSTVWY",
+    "alphabet": "ACDEFGHIKLMNPQRSTVWY",
+    "alphabet_count": 20,
+    "angular_cutoff": null,
+    "distance_cutoff": null,
+    "donor_capacity": 1,
+    "donor_residues": "ACDEFGHIKLMNQRSTVWY",
+    "fitted_energy": null,
+    "interwindow_residues": 4,
+    "minimum_sequence_separation": 3,
+    "non_donor_residues": "P",
+    "overlap_residues": 3
+  },
+  "orientation_modes": {
+    "alpha": 0.7682042835361056,
+    "beta": -0.18257647754674627,
+    "source_angles_degrees": {
+      "alpha": [
+        "-60",
+        "-45"
+      ],
+      "beta": [
+        "-120",
+        "135"
+      ]
+    }
+  },
+  "orientation_trace": [
+    {
+      "mode_distance": 0.4537144955463988,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.6362909730931451,
+      "residue_positions_one_based": [
+        1,
+        4
+      ],
+      "sequence": "MQIF"
+    },
+    {
+      "mode_distance": 0.23365769171461476,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.41623416926136103,
+      "residue_positions_one_based": [
+        2,
+        5
+      ],
+      "sequence": "QIFV"
+    },
+    {
+      "mode_distance": 0.07972209885063042,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.847926382386736,
+      "residue_positions_one_based": [
+        3,
+        6
+      ],
+      "sequence": "IFVK"
+    },
+    {
+      "mode_distance": 0.13479783592350178,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.0477786416232445,
+      "residue_positions_one_based": [
+        4,
+        7
+      ],
+      "sequence": "FVKT"
+    },
+    {
+      "mode_distance": 0.19999277572043722,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.3825692532671835,
+      "residue_positions_one_based": [
+        5,
+        8
+      ],
+      "sequence": "VKTL"
+    },
+    {
+      "mode_distance": 0.05630008193794825,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.23887655948469452,
+      "residue_positions_one_based": [
+        6,
+        9
+      ],
+      "sequence": "KTLT"
+    },
+    {
+      "mode_distance": 0.5132300471935758,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.6958065247403221,
+      "residue_positions_one_based": [
+        7,
+        10
+      ],
+      "sequence": "TLTG"
+    },
+    {
+      "mode_distance": 0.3567072707688528,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": 0.17413079322210648,
+      "residue_positions_one_based": [
+        8,
+        11
+      ],
+      "sequence": "LTGK"
+    },
+    {
+      "mode_distance": 0.0740447292382177,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.6941595542978879,
+      "residue_positions_one_based": [
+        9,
+        12
+      ],
+      "sequence": "TGKT"
+    },
+    {
+      "mode_distance": 0.32464297184660557,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.5072194493933518,
+      "residue_positions_one_based": [
+        10,
+        13
+      ],
+      "sequence": "GKTI"
+    },
+    {
+      "mode_distance": 0.0976809660696909,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.2802574436164372,
+      "residue_positions_one_based": [
+        11,
+        14
+      ],
+      "sequence": "KTIT"
+    },
+    {
+      "mode_distance": 0.03413284345623013,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.2167093210029764,
+      "residue_positions_one_based": [
+        12,
+        15
+      ],
+      "sequence": "TITL"
+    },
+    {
+      "mode_distance": 0.5839642606628981,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.7665407382096443,
+      "residue_positions_one_based": [
+        13,
+        16
+      ],
+      "sequence": "ITLE"
+    },
+    {
+      "mode_distance": 0.44063616242292364,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.6232126399696699,
+      "residue_positions_one_based": [
+        14,
+        17
+      ],
+      "sequence": "TLEV"
+    },
+    {
+      "mode_distance": 0.27899814967653913,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": 0.09642167212979286,
+      "residue_positions_one_based": [
+        15,
+        18
+      ],
+      "sequence": "LEVE"
+    },
+    {
+      "mode_distance": 0.3789112429757268,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.5614877205224731,
+      "residue_positions_one_based": [
+        16,
+        19
+      ],
+      "sequence": "EVEP"
+    },
+    {
+      "mode_distance": 0.09859971174754828,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.28117618929429455,
+      "residue_positions_one_based": [
+        17,
+        20
+      ],
+      "sequence": "VEPS"
+    },
+    {
+      "mode_distance": 0.7168939765585285,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.8994704541052748,
+      "residue_positions_one_based": [
+        18,
+        21
+      ],
+      "sequence": "EPSD"
+    },
+    {
+      "mode_distance": 0.1366714966949788,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.6315327868411268,
+      "residue_positions_one_based": [
+        19,
+        22
+      ],
+      "sequence": "PSDT"
+    },
+    {
+      "mode_distance": 0.4410372443158745,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": 0.2584607667691282,
+      "residue_positions_one_based": [
+        20,
+        23
+      ],
+      "sequence": "SDTI"
+    },
+    {
+      "mode_distance": 0.04379739947573702,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.7244068840603686,
+      "residue_positions_one_based": [
+        21,
+        24
+      ],
+      "sequence": "DTIE"
+    },
+    {
+      "mode_distance": 0.538757076596379,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.7213335541431253,
+      "residue_positions_one_based": [
+        22,
+        25
+      ],
+      "sequence": "TIEN"
+    },
+    {
+      "mode_distance": 0.2299090224742542,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.4124855000210005,
+      "residue_positions_one_based": [
+        23,
+        26
+      ],
+      "sequence": "IENV"
+    },
+    {
+      "mode_distance": 0.05747762520791422,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.8256819087440198,
+      "residue_positions_one_based": [
+        24,
+        27
+      ],
+      "sequence": "ENVK"
+    },
+    {
+      "mode_distance": 0.13752415603047358,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.32010063357721985,
+      "residue_positions_one_based": [
+        25,
+        28
+      ],
+      "sequence": "NVKA"
+    },
+    {
+      "mode_distance": 0.11755417009119862,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.650650113444907,
+      "residue_positions_one_based": [
+        26,
+        29
+      ],
+      "sequence": "VKAK"
+    },
+    {
+      "mode_distance": 0.4075455810958919,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.3606587024402137,
+      "residue_positions_one_based": [
+        27,
+        30
+      ],
+      "sequence": "KAKI"
+    },
+    {
+      "mode_distance": 0.11485641168907312,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.6533478718470325,
+      "residue_positions_one_based": [
+        28,
+        31
+      ],
+      "sequence": "AKIQ"
+    },
+    {
+      "mode_distance": 0.08808864507743464,
+      "nearest_generated_mode": "alpha",
+      "normalized_signed_volume": 0.680115638458671,
+      "residue_positions_one_based": [
+        29,
+        32
+      ],
+      "sequence": "KIQD"
+    }
+  ],
+  "reconciliation": {
+    "branch_retention": [
+      false,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "retained_paths": 24
+  },
+  "run_id": "development-ubiquitin-v32-topology-consensus-l32-20260720",
+  "runtime_seconds": 99.132554333,
+  "schema": "fold-protein-selected-states/v32",
+  "segment_residues": 4,
+  "sequence": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQD",
+  "sidechain_graph_spatial_census": {
+    "alphabet": "ACDEFGHIKLMNPQRSTVWY",
+    "alphabet_count": 20,
+    "atom_occupancy_unit": "1/(n+1) of generated adjacent C-alpha step",
+    "chirality": "L positive cross(CA-to-N, CA-to-C) half-space",
+    "empirical_bond_angle": null,
+    "empirical_bond_length": null,
+    "empirical_radius": null,
+    "fitted_cutoff": null,
+    "graphs": {
+      "A": {
+        "atoms": [
+          "CB"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ]
+        ],
+        "branch_atom_count": 0,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ]
+        }
+      },
+      "C": {
+        "atoms": [
+          "CB",
+          "SG"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "SG"
+          ]
+        ],
+        "branch_atom_count": 0,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "SG": [
+            2,
+            0,
+            0
+          ]
+        }
+      },
+      "D": {
+        "atoms": [
+          "CB",
+          "CG",
+          "OD1",
+          "OD2"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "OD1"
+          ],
+          [
+            "CG",
+            "OD2"
+          ]
+        ],
+        "branch_atom_count": 1,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ],
+          "OD1": [
+            3,
+            -1,
+            0
+          ],
+          "OD2": [
+            3,
+            1,
+            0
+          ]
+        }
+      },
+      "E": {
+        "atoms": [
+          "CB",
+          "CG",
+          "CD",
+          "OE1",
+          "OE2"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "CD"
+          ],
+          [
+            "CD",
+            "OE1"
+          ],
+          [
+            "CD",
+            "OE2"
+          ]
+        ],
+        "branch_atom_count": 1,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CD": [
+            3,
+            0,
+            0
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ],
+          "OE1": [
+            4,
+            0,
+            -1
+          ],
+          "OE2": [
+            4,
+            0,
+            1
+          ]
+        }
+      },
+      "F": {
+        "atoms": [
+          "CB",
+          "CG",
+          "CD1",
+          "CD2",
+          "CE1",
+          "CE2",
+          "CZ"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "CD1"
+          ],
+          [
+            "CG",
+            "CD2"
+          ],
+          [
+            "CD1",
+            "CE1"
+          ],
+          [
+            "CD2",
+            "CE2"
+          ],
+          [
+            "CE1",
+            "CZ"
+          ],
+          [
+            "CE2",
+            "CZ"
+          ]
+        ],
+        "branch_atom_count": 1,
+        "cycle_rank": 1,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CD1": [
+            3,
+            -1,
+            0
+          ],
+          "CD2": [
+            3,
+            1,
+            0
+          ],
+          "CE1": [
+            4,
+            -1,
+            0
+          ],
+          "CE2": [
+            4,
+            1,
+            0
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ],
+          "CZ": [
+            5,
+            -1,
+            0
+          ]
+        }
+      },
+      "G": {
+        "atoms": [],
+        "bonds": [],
+        "branch_atom_count": 0,
+        "cycle_rank": 0,
+        "integer_embedding": {}
+      },
+      "H": {
+        "atoms": [
+          "CB",
+          "CG",
+          "ND1",
+          "CD2",
+          "CE1",
+          "NE2"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "ND1"
+          ],
+          [
+            "CG",
+            "CD2"
+          ],
+          [
+            "ND1",
+            "CE1"
+          ],
+          [
+            "CD2",
+            "NE2"
+          ],
+          [
+            "CE1",
+            "NE2"
+          ]
+        ],
+        "branch_atom_count": 1,
+        "cycle_rank": 1,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CD2": [
+            3,
+            1,
+            0
+          ],
+          "CE1": [
+            4,
+            -1,
+            0
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ],
+          "ND1": [
+            3,
+            -1,
+            0
+          ],
+          "NE2": [
+            4,
+            1,
+            0
+          ]
+        }
+      },
+      "I": {
+        "atoms": [
+          "CB",
+          "CG1",
+          "CG2",
+          "CD1"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG1"
+          ],
+          [
+            "CB",
+            "CG2"
+          ],
+          [
+            "CG1",
+            "CD1"
+          ]
+        ],
+        "branch_atom_count": 1,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CD1": [
+            3,
+            0,
+            -1
+          ],
+          "CG1": [
+            2,
+            0,
+            -1
+          ],
+          "CG2": [
+            2,
+            0,
+            1
+          ]
+        }
+      },
+      "K": {
+        "atoms": [
+          "CB",
+          "CG",
+          "CD",
+          "CE",
+          "NZ"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "CD"
+          ],
+          [
+            "CD",
+            "CE"
+          ],
+          [
+            "CE",
+            "NZ"
+          ]
+        ],
+        "branch_atom_count": 0,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CD": [
+            3,
+            0,
+            0
+          ],
+          "CE": [
+            4,
+            0,
+            0
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ],
+          "NZ": [
+            5,
+            0,
+            0
+          ]
+        }
+      },
+      "L": {
+        "atoms": [
+          "CB",
+          "CG",
+          "CD1",
+          "CD2"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "CD1"
+          ],
+          [
+            "CG",
+            "CD2"
+          ]
+        ],
+        "branch_atom_count": 1,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CD1": [
+            3,
+            -1,
+            0
+          ],
+          "CD2": [
+            3,
+            1,
+            0
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ]
+        }
+      },
+      "M": {
+        "atoms": [
+          "CB",
+          "CG",
+          "SD",
+          "CE"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "SD"
+          ],
+          [
+            "SD",
+            "CE"
+          ]
+        ],
+        "branch_atom_count": 0,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CE": [
+            4,
+            0,
+            0
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ],
+          "SD": [
+            3,
+            0,
+            0
+          ]
+        }
+      },
+      "N": {
+        "atoms": [
+          "CB",
+          "CG",
+          "OD1",
+          "ND2"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "OD1"
+          ],
+          [
+            "CG",
+            "ND2"
+          ]
+        ],
+        "branch_atom_count": 1,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ],
+          "ND2": [
+            3,
+            1,
+            0
+          ],
+          "OD1": [
+            3,
+            -1,
+            0
+          ]
+        }
+      },
+      "P": {
+        "atoms": [
+          "CB",
+          "CG",
+          "CD"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "CD"
+          ]
+        ],
+        "branch_atom_count": 0,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CD": [
+            3,
+            0,
+            0
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ]
+        }
+      },
+      "Q": {
+        "atoms": [
+          "CB",
+          "CG",
+          "CD",
+          "OE1",
+          "NE2"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "CD"
+          ],
+          [
+            "CD",
+            "OE1"
+          ],
+          [
+            "CD",
+            "NE2"
+          ]
+        ],
+        "branch_atom_count": 1,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CD": [
+            3,
+            0,
+            0
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ],
+          "NE2": [
+            4,
+            0,
+            1
+          ],
+          "OE1": [
+            4,
+            0,
+            -1
+          ]
+        }
+      },
+      "R": {
+        "atoms": [
+          "CB",
+          "CG",
+          "CD",
+          "NE",
+          "CZ",
+          "NH1",
+          "NH2"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "CD"
+          ],
+          [
+            "CD",
+            "NE"
+          ],
+          [
+            "NE",
+            "CZ"
+          ],
+          [
+            "CZ",
+            "NH1"
+          ],
+          [
+            "CZ",
+            "NH2"
+          ]
+        ],
+        "branch_atom_count": 1,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CD": [
+            3,
+            0,
+            0
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ],
+          "CZ": [
+            5,
+            0,
+            0
+          ],
+          "NE": [
+            4,
+            0,
+            0
+          ],
+          "NH1": [
+            6,
+            0,
+            -1
+          ],
+          "NH2": [
+            6,
+            0,
+            1
+          ]
+        }
+      },
+      "S": {
+        "atoms": [
+          "CB",
+          "OG"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "OG"
+          ]
+        ],
+        "branch_atom_count": 0,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "OG": [
+            2,
+            0,
+            0
+          ]
+        }
+      },
+      "T": {
+        "atoms": [
+          "CB",
+          "OG1",
+          "CG2"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "OG1"
+          ],
+          [
+            "CB",
+            "CG2"
+          ]
+        ],
+        "branch_atom_count": 1,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CG2": [
+            2,
+            0,
+            1
+          ],
+          "OG1": [
+            2,
+            0,
+            -1
+          ]
+        }
+      },
+      "V": {
+        "atoms": [
+          "CB",
+          "CG1",
+          "CG2"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG1"
+          ],
+          [
+            "CB",
+            "CG2"
+          ]
+        ],
+        "branch_atom_count": 1,
+        "cycle_rank": 0,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CG1": [
+            2,
+            0,
+            -1
+          ],
+          "CG2": [
+            2,
+            0,
+            1
+          ]
+        }
+      },
+      "W": {
+        "atoms": [
+          "CB",
+          "CG",
+          "CD1",
+          "CD2",
+          "NE1",
+          "CE2",
+          "CE3",
+          "CZ2",
+          "CZ3",
+          "CH2"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "CD1"
+          ],
+          [
+            "CG",
+            "CD2"
+          ],
+          [
+            "CD1",
+            "NE1"
+          ],
+          [
+            "CD2",
+            "CE2"
+          ],
+          [
+            "CD2",
+            "CE3"
+          ],
+          [
+            "NE1",
+            "CE2"
+          ],
+          [
+            "CE2",
+            "CZ2"
+          ],
+          [
+            "CE3",
+            "CZ3"
+          ],
+          [
+            "CZ2",
+            "CH2"
+          ],
+          [
+            "CZ3",
+            "CH2"
+          ]
+        ],
+        "branch_atom_count": 3,
+        "cycle_rank": 2,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CD1": [
+            3,
+            -1,
+            0
+          ],
+          "CD2": [
+            3,
+            1,
+            0
+          ],
+          "CE2": [
+            4,
+            1,
+            -1
+          ],
+          "CE3": [
+            4,
+            1,
+            1
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ],
+          "CH2": [
+            6,
+            1,
+            -1
+          ],
+          "CZ2": [
+            5,
+            1,
+            -1
+          ],
+          "CZ3": [
+            5,
+            1,
+            1
+          ],
+          "NE1": [
+            4,
+            -1,
+            0
+          ]
+        }
+      },
+      "Y": {
+        "atoms": [
+          "CB",
+          "CG",
+          "CD1",
+          "CD2",
+          "CE1",
+          "CE2",
+          "CZ",
+          "OH"
+        ],
+        "bonds": [
+          [
+            "CA",
+            "CB"
+          ],
+          [
+            "CB",
+            "CG"
+          ],
+          [
+            "CG",
+            "CD1"
+          ],
+          [
+            "CG",
+            "CD2"
+          ],
+          [
+            "CD1",
+            "CE1"
+          ],
+          [
+            "CD2",
+            "CE2"
+          ],
+          [
+            "CE1",
+            "CZ"
+          ],
+          [
+            "CE2",
+            "CZ"
+          ],
+          [
+            "CZ",
+            "OH"
+          ]
+        ],
+        "branch_atom_count": 2,
+        "cycle_rank": 1,
+        "integer_embedding": {
+          "CB": [
+            1,
+            0,
+            0
+          ],
+          "CD1": [
+            3,
+            -1,
+            0
+          ],
+          "CD2": [
+            3,
+            1,
+            0
+          ],
+          "CE1": [
+            4,
+            -1,
+            0
+          ],
+          "CE2": [
+            4,
+            1,
+            0
+          ],
+          "CG": [
+            2,
+            0,
+            0
+          ],
+          "CZ": [
+            5,
+            -1,
+            0
+          ],
+          "OH": [
+            6,
+            -1,
+            0
+          ]
+        }
+      }
+    },
+    "hard_exclusion_unit": "one non-neighbour residue pair with at least one atom encounter",
+    "pair_exclusion_unit": "1/2 fold of generated adjacent C-alpha step",
+    "reach": "n/(n+1) of generated adjacent C-alpha step",
+    "reward": null,
+    "rotamer": null,
+    "target": null
+  },
+  "states": [
+    9,
+    223,
+    77,
+    110,
+    198,
+    136,
+    262,
+    86,
+    369,
+    100,
+    363,
+    562,
+    391,
+    84,
+    533,
+    537,
+    61,
+    538,
+    388,
+    34,
+    151,
+    170,
+    380,
+    315,
+    7,
+    212,
+    141,
+    56,
+    117,
+    546,
+    8,
+    0
+  ],
+  "status": "completed",
+  "steric_census": {
+    "alphabet": "ACDEFGHIKLMNPQRSTVWY",
+    "alphabet_count": 20,
+    "sidechain_heavy_atom_counts": {
+      "A": 1,
+      "C": 2,
+      "D": 4,
+      "E": 5,
+      "F": 7,
+      "G": 0,
+      "H": 6,
+      "I": 4,
+      "K": 5,
+      "L": 4,
+      "M": 4,
+      "N": 4,
+      "P": 3,
+      "Q": 5,
+      "R": 7,
+      "S": 2,
+      "T": 3,
+      "V": 3,
+      "W": 10,
+      "Y": 8
+    },
+    "sidechain_heavy_atoms": {
+      "A": [
+        "CB"
+      ],
+      "C": [
+        "CB",
+        "SG"
+      ],
+      "D": [
+        "CB",
+        "CG",
+        "OD1",
+        "OD2"
+      ],
+      "E": [
+        "CB",
+        "CG",
+        "CD",
+        "OE1",
+        "OE2"
+      ],
+      "F": [
+        "CB",
+        "CG",
+        "CD1",
+        "CD2",
+        "CE1",
+        "CE2",
+        "CZ"
+      ],
+      "G": [],
+      "H": [
+        "CB",
+        "CG",
+        "ND1",
+        "CD2",
+        "CE1",
+        "NE2"
+      ],
+      "I": [
+        "CB",
+        "CG1",
+        "CG2",
+        "CD1"
+      ],
+      "K": [
+        "CB",
+        "CG",
+        "CD",
+        "CE",
+        "NZ"
+      ],
+      "L": [
+        "CB",
+        "CG",
+        "CD1",
+        "CD2"
+      ],
+      "M": [
+        "CB",
+        "CG",
+        "SD",
+        "CE"
+      ],
+      "N": [
+        "CB",
+        "CG",
+        "OD1",
+        "ND2"
+      ],
+      "P": [
+        "CB",
+        "CG",
+        "CD"
+      ],
+      "Q": [
+        "CB",
+        "CG",
+        "CD",
+        "OE1",
+        "NE2"
+      ],
+      "R": [
+        "CB",
+        "CG",
+        "CD",
+        "NE",
+        "CZ",
+        "NH1",
+        "NH2"
+      ],
+      "S": [
+        "CB",
+        "OG"
+      ],
+      "T": [
+        "CB",
+        "OG1",
+        "CG2"
+      ],
+      "V": [
+        "CB",
+        "CG1",
+        "CG2"
+      ],
+      "W": [
+        "CB",
+        "CG",
+        "CD1",
+        "CD2",
+        "NE1",
+        "CE2",
+        "CE3",
+        "CZ2",
+        "CZ3",
+        "CH2"
+      ],
+      "Y": [
+        "CB",
+        "CG",
+        "CD1",
+        "CD2",
+        "CE1",
+        "CE2",
+        "CZ",
+        "OH"
+      ]
+    }
+  },
+  "tertiary_census": {
+    "degree_frontier": [
+      2,
+      3,
+      4
+    ],
+    "energy": null,
+    "fitted_cutoff": null,
+    "frontier_complete": true,
+    "residue_count": 32,
+    "reward": null,
+    "segment_count": 8,
+    "segment_residues": 4,
+    "target": null,
+    "template": null,
+    "topologies": [
+      {
+        "body_degrees": [
+          2,
+          2,
+          1,
+          2,
+          2,
+          2,
+          1,
+          2
+        ],
+        "capacity_respected": true,
+        "connected_acyclic": true,
+        "degree_capacity": 2,
+        "edge_count": 7
+      },
+      {
+        "body_degrees": [
+          3,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          3
+        ],
+        "capacity_respected": true,
+        "connected_acyclic": true,
+        "degree_capacity": 3,
+        "edge_count": 7
+      },
+      {
+        "body_degrees": [
+          4,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          2
+        ],
+        "capacity_respected": true,
+        "connected_acyclic": true,
+        "degree_capacity": 4,
+        "edge_count": 7
+      }
+    ],
+    "trained_parameter": null,
+    "weight": null
+  },
+  "topology_hydrogen_bond_census": {
+    "acceptor_residues": "ACDEFGHIKLMNPQRSTVWY",
+    "alpha_sequence_separation": 4,
+    "alphabet": "ACDEFGHIKLMNPQRSTVWY",
+    "alphabet_count": 20,
+    "angular_cutoff": null,
+    "distance_cutoff": null,
+    "donor_residues": "ACDEFGHIKLMNQRSTVWY",
+    "fitted_energy": null,
+    "global_acceptor_capacity": 1,
+    "global_donor_capacity": 1,
+    "interstrand_minimum_separation": 5,
+    "interwindow_residues": 4,
+    "non_donor_residues": "P",
+    "topology_classes": [
+      "alpha",
+      "interstrand"
+    ],
+    "topology_weight": null
+  },
+  "topology_traces": [
+    {
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "degree_capacity": 2,
+      "forward_paths": 24,
+      "forward_trace": [
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true
+          ],
+          "direction": "forward",
+          "edge_index": 0,
+          "expanded_unique_paths": 1189,
+          "left_residues": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "segments": [
+            0,
+            3
+          ]
+        },
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "direction": "forward",
+          "edge_index": 1,
+          "expanded_unique_paths": 1897,
+          "left_residues": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "segments": [
+            0,
+            7
+          ]
+        },
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "direction": "forward",
+          "edge_index": 2,
+          "expanded_unique_paths": 3050,
+          "left_residues": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "segments": [
+            1,
+            7
+          ]
+        },
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "direction": "forward",
+          "edge_index": 3,
+          "expanded_unique_paths": 4542,
+          "left_residues": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "segments": [
+            3,
+            5
+          ]
+        },
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "direction": "forward",
+          "edge_index": 4,
+          "expanded_unique_paths": 4545,
+          "left_residues": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            25,
+            26,
+            27,
+            28
+          ],
+          "segments": [
+            5,
+            6
+          ]
+        },
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "direction": "forward",
+          "edge_index": 5,
+          "expanded_unique_paths": 4614,
+          "left_residues": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "segments": [
+            1,
+            4
+          ]
+        },
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "direction": "forward",
+          "edge_index": 6,
+          "expanded_unique_paths": 4181,
+          "left_residues": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "segments": [
+            2,
+            4
+          ]
+        }
+      ],
+      "reconciliation_inputs": 54,
+      "retained_paths": 24,
+      "reverse_paths": 24,
+      "reverse_trace": [
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "direction": "reverse",
+          "edge_index": 0,
+          "expanded_unique_paths": 1122,
+          "left_residues": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "segments": [
+            2,
+            4
+          ]
+        },
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "direction": "reverse",
+          "edge_index": 1,
+          "expanded_unique_paths": 3473,
+          "left_residues": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "segments": [
+            1,
+            4
+          ]
+        },
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "direction": "reverse",
+          "edge_index": 2,
+          "expanded_unique_paths": 4496,
+          "left_residues": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            25,
+            26,
+            27,
+            28
+          ],
+          "segments": [
+            5,
+            6
+          ]
+        },
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "direction": "reverse",
+          "edge_index": 3,
+          "expanded_unique_paths": 4347,
+          "left_residues": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "segments": [
+            3,
+            5
+          ]
+        },
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "direction": "reverse",
+          "edge_index": 4,
+          "expanded_unique_paths": 3189,
+          "left_residues": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "segments": [
+            1,
+            7
+          ]
+        },
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "direction": "reverse",
+          "edge_index": 5,
+          "expanded_unique_paths": 3191,
+          "left_residues": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "segments": [
+            0,
+            7
+          ]
+        },
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "direction": "reverse",
+          "edge_index": 6,
+          "expanded_unique_paths": 2761,
+          "left_residues": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "segments": [
+            0,
+            3
+          ]
+        }
+      ],
+      "topology": [
+        {
+          "body_capacity": 480,
+          "degree_capacity": 2,
+          "hydrophobic_capacity": 120,
+          "left_residues": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "like_charge_capacity": 0,
+          "opposite_charge_capacity": 0,
+          "ordinal_vector": [
+            3,
+            1,
+            0,
+            0
+          ],
+          "right_residues": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "segments": [
+            0,
+            3
+          ]
+        },
+        {
+          "body_capacity": 528,
+          "degree_capacity": 2,
+          "hydrophobic_capacity": 60,
+          "left_residues": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "like_charge_capacity": 0,
+          "opposite_charge_capacity": 0,
+          "ordinal_vector": [
+            3,
+            2,
+            0,
+            0
+          ],
+          "right_residues": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "segments": [
+            0,
+            7
+          ]
+        },
+        {
+          "body_capacity": 418,
+          "degree_capacity": 2,
+          "hydrophobic_capacity": 28,
+          "left_residues": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "like_charge_capacity": 25,
+          "opposite_charge_capacity": 20,
+          "ordinal_vector": [
+            6,
+            4,
+            2,
+            2
+          ],
+          "right_residues": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "segments": [
+            1,
+            7
+          ]
+        },
+        {
+          "body_capacity": 400,
+          "degree_capacity": 2,
+          "hydrophobic_capacity": 32,
+          "left_residues": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "like_charge_capacity": 45,
+          "opposite_charge_capacity": 0,
+          "ordinal_vector": [
+            6,
+            5,
+            4,
+            3
+          ],
+          "right_residues": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "segments": [
+            3,
+            5
+          ]
+        },
+        {
+          "body_capacity": 340,
+          "degree_capacity": 2,
+          "hydrophobic_capacity": 12,
+          "left_residues": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "like_charge_capacity": 0,
+          "opposite_charge_capacity": 45,
+          "ordinal_vector": [
+            10,
+            10,
+            0,
+            0
+          ],
+          "right_residues": [
+            25,
+            26,
+            27,
+            28
+          ],
+          "segments": [
+            5,
+            6
+          ]
+        },
+        {
+          "body_capacity": 323,
+          "degree_capacity": 2,
+          "hydrophobic_capacity": 21,
+          "left_residues": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "like_charge_capacity": 0,
+          "opposite_charge_capacity": 25,
+          "ordinal_vector": [
+            12,
+            8,
+            1,
+            0
+          ],
+          "right_residues": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "segments": [
+            1,
+            4
+          ]
+        },
+        {
+          "body_capacity": 255,
+          "degree_capacity": 2,
+          "hydrophobic_capacity": 0,
+          "left_residues": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "like_charge_capacity": 0,
+          "opposite_charge_capacity": 25,
+          "ordinal_vector": [
+            16,
+            12,
+            1,
+            0
+          ],
+          "right_residues": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "segments": [
+            2,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "degree_capacity": 3,
+      "forward_paths": 24,
+      "forward_trace": [
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          "direction": "forward",
+          "edge_index": 0,
+          "expanded_unique_paths": 1189,
+          "left_residues": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "segments": [
+            0,
+            3
+          ]
+        },
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          "direction": "forward",
+          "edge_index": 1,
+          "expanded_unique_paths": 2055,
+          "left_residues": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "segments": [
+            0,
+            7
+          ]
+        },
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "direction": "forward",
+          "edge_index": 2,
+          "expanded_unique_paths": 2847,
+          "left_residues": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "segments": [
+            0,
+            1
+          ]
+        },
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "direction": "forward",
+          "edge_index": 3,
+          "expanded_unique_paths": 4589,
+          "left_residues": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "segments": [
+            3,
+            5
+          ]
+        },
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "direction": "forward",
+          "edge_index": 4,
+          "expanded_unique_paths": 4686,
+          "left_residues": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            25,
+            26,
+            27,
+            28
+          ],
+          "segments": [
+            3,
+            6
+          ]
+        },
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "direction": "forward",
+          "edge_index": 5,
+          "expanded_unique_paths": 3198,
+          "left_residues": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "segments": [
+            4,
+            7
+          ]
+        },
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "direction": "forward",
+          "edge_index": 6,
+          "expanded_unique_paths": 3078,
+          "left_residues": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "segments": [
+            2,
+            7
+          ]
+        }
+      ],
+      "reconciliation_inputs": 54,
+      "retained_paths": 24,
+      "reverse_paths": 24,
+      "reverse_trace": [
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          "direction": "reverse",
+          "edge_index": 0,
+          "expanded_unique_paths": 752,
+          "left_residues": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "segments": [
+            2,
+            7
+          ]
+        },
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "direction": "reverse",
+          "edge_index": 1,
+          "expanded_unique_paths": 2948,
+          "left_residues": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "segments": [
+            4,
+            7
+          ]
+        },
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "direction": "reverse",
+          "edge_index": 2,
+          "expanded_unique_paths": 4658,
+          "left_residues": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            25,
+            26,
+            27,
+            28
+          ],
+          "segments": [
+            3,
+            6
+          ]
+        },
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "direction": "reverse",
+          "edge_index": 3,
+          "expanded_unique_paths": 4542,
+          "left_residues": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "segments": [
+            3,
+            5
+          ]
+        },
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "direction": "reverse",
+          "edge_index": 4,
+          "expanded_unique_paths": 4758,
+          "left_residues": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "segments": [
+            0,
+            1
+          ]
+        },
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "direction": "reverse",
+          "edge_index": 5,
+          "expanded_unique_paths": 1689,
+          "left_residues": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "segments": [
+            0,
+            7
+          ]
+        },
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "direction": "reverse",
+          "edge_index": 6,
+          "expanded_unique_paths": 3020,
+          "left_residues": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "segments": [
+            0,
+            3
+          ]
+        }
+      ],
+      "topology": [
+        {
+          "body_capacity": 480,
+          "degree_capacity": 3,
+          "hydrophobic_capacity": 120,
+          "left_residues": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "like_charge_capacity": 0,
+          "opposite_charge_capacity": 0,
+          "ordinal_vector": [
+            3,
+            1,
+            0,
+            0
+          ],
+          "right_residues": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "segments": [
+            0,
+            3
+          ]
+        },
+        {
+          "body_capacity": 528,
+          "degree_capacity": 3,
+          "hydrophobic_capacity": 60,
+          "left_residues": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "like_charge_capacity": 0,
+          "opposite_charge_capacity": 0,
+          "ordinal_vector": [
+            3,
+            2,
+            0,
+            0
+          ],
+          "right_residues": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "segments": [
+            0,
+            7
+          ]
+        },
+        {
+          "body_capacity": 456,
+          "degree_capacity": 3,
+          "hydrophobic_capacity": 105,
+          "left_residues": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "like_charge_capacity": 0,
+          "opposite_charge_capacity": 0,
+          "ordinal_vector": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "right_residues": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "segments": [
+            0,
+            1
+          ]
+        },
+        {
+          "body_capacity": 400,
+          "degree_capacity": 3,
+          "hydrophobic_capacity": 32,
+          "left_residues": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "like_charge_capacity": 45,
+          "opposite_charge_capacity": 0,
+          "ordinal_vector": [
+            6,
+            5,
+            4,
+            3
+          ],
+          "right_residues": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "segments": [
+            3,
+            5
+          ]
+        },
+        {
+          "body_capacity": 340,
+          "degree_capacity": 3,
+          "hydrophobic_capacity": 24,
+          "left_residues": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "like_charge_capacity": 0,
+          "opposite_charge_capacity": 25,
+          "ordinal_vector": [
+            10,
+            7,
+            1,
+            0
+          ],
+          "right_residues": [
+            25,
+            26,
+            27,
+            28
+          ],
+          "segments": [
+            3,
+            6
+          ]
+        },
+        {
+          "body_capacity": 374,
+          "degree_capacity": 3,
+          "hydrophobic_capacity": 12,
+          "left_residues": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "like_charge_capacity": 20,
+          "opposite_charge_capacity": 25,
+          "ordinal_vector": [
+            10,
+            8,
+            1,
+            1
+          ],
+          "right_residues": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "segments": [
+            4,
+            7
+          ]
+        },
+        {
+          "body_capacity": 330,
+          "degree_capacity": 3,
+          "hydrophobic_capacity": 0,
+          "left_residues": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "like_charge_capacity": 25,
+          "opposite_charge_capacity": 20,
+          "ordinal_vector": [
+            12,
+            11,
+            2,
+            2
+          ],
+          "right_residues": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "segments": [
+            2,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "branch_retention": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "degree_capacity": 4,
+      "forward_paths": 24,
+      "forward_trace": [
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          "direction": "forward",
+          "edge_index": 0,
+          "expanded_unique_paths": 1189,
+          "left_residues": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "segments": [
+            0,
+            3
+          ]
+        },
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "direction": "forward",
+          "edge_index": 1,
+          "expanded_unique_paths": 1909,
+          "left_residues": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "segments": [
+            0,
+            7
+          ]
+        },
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "direction": "forward",
+          "edge_index": 2,
+          "expanded_unique_paths": 2759,
+          "left_residues": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "segments": [
+            0,
+            1
+          ]
+        },
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "direction": "forward",
+          "edge_index": 3,
+          "expanded_unique_paths": 2753,
+          "left_residues": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "segments": [
+            0,
+            5
+          ]
+        },
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "direction": "forward",
+          "edge_index": 4,
+          "expanded_unique_paths": 4686,
+          "left_residues": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            25,
+            26,
+            27,
+            28
+          ],
+          "segments": [
+            3,
+            6
+          ]
+        },
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "direction": "forward",
+          "edge_index": 5,
+          "expanded_unique_paths": 4734,
+          "left_residues": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "segments": [
+            3,
+            4
+          ]
+        },
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "direction": "forward",
+          "edge_index": 6,
+          "expanded_unique_paths": 3078,
+          "left_residues": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "segments": [
+            2,
+            7
+          ]
+        }
+      ],
+      "reconciliation_inputs": 54,
+      "retained_paths": 24,
+      "reverse_paths": 24,
+      "reverse_trace": [
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          "direction": "reverse",
+          "edge_index": 0,
+          "expanded_unique_paths": 752,
+          "left_residues": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "segments": [
+            2,
+            7
+          ]
+        },
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "direction": "reverse",
+          "edge_index": 1,
+          "expanded_unique_paths": 4613,
+          "left_residues": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "segments": [
+            3,
+            4
+          ]
+        },
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "direction": "reverse",
+          "edge_index": 2,
+          "expanded_unique_paths": 4417,
+          "left_residues": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            25,
+            26,
+            27,
+            28
+          ],
+          "segments": [
+            3,
+            6
+          ]
+        },
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "direction": "reverse",
+          "edge_index": 3,
+          "expanded_unique_paths": 4614,
+          "left_residues": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "segments": [
+            0,
+            5
+          ]
+        },
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "direction": "reverse",
+          "edge_index": 4,
+          "expanded_unique_paths": 2759,
+          "left_residues": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "segments": [
+            0,
+            1
+          ]
+        },
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "direction": "reverse",
+          "edge_index": 5,
+          "expanded_unique_paths": 1764,
+          "left_residues": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "segments": [
+            0,
+            7
+          ]
+        },
+        {
+          "best_hard_vector": [
+            0
+          ],
+          "branch_retention": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "direction": "reverse",
+          "edge_index": 6,
+          "expanded_unique_paths": 2716,
+          "left_residues": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "retained_paths": 24,
+          "right_residues": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "segments": [
+            0,
+            3
+          ]
+        }
+      ],
+      "topology": [
+        {
+          "body_capacity": 480,
+          "degree_capacity": 4,
+          "hydrophobic_capacity": 120,
+          "left_residues": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "like_charge_capacity": 0,
+          "opposite_charge_capacity": 0,
+          "ordinal_vector": [
+            3,
+            1,
+            0,
+            0
+          ],
+          "right_residues": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "segments": [
+            0,
+            3
+          ]
+        },
+        {
+          "body_capacity": 528,
+          "degree_capacity": 4,
+          "hydrophobic_capacity": 60,
+          "left_residues": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "like_charge_capacity": 0,
+          "opposite_charge_capacity": 0,
+          "ordinal_vector": [
+            3,
+            2,
+            0,
+            0
+          ],
+          "right_residues": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "segments": [
+            0,
+            7
+          ]
+        },
+        {
+          "body_capacity": 456,
+          "degree_capacity": 4,
+          "hydrophobic_capacity": 105,
+          "left_residues": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "like_charge_capacity": 0,
+          "opposite_charge_capacity": 0,
+          "ordinal_vector": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "right_residues": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "segments": [
+            0,
+            1
+          ]
+        },
+        {
+          "body_capacity": 480,
+          "degree_capacity": 4,
+          "hydrophobic_capacity": 60,
+          "left_residues": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "like_charge_capacity": 0,
+          "opposite_charge_capacity": 0,
+          "ordinal_vector": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "right_residues": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "segments": [
+            0,
+            5
+          ]
+        },
+        {
+          "body_capacity": 340,
+          "degree_capacity": 4,
+          "hydrophobic_capacity": 24,
+          "left_residues": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "like_charge_capacity": 0,
+          "opposite_charge_capacity": 25,
+          "ordinal_vector": [
+            10,
+            7,
+            1,
+            0
+          ],
+          "right_residues": [
+            25,
+            26,
+            27,
+            28
+          ],
+          "segments": [
+            3,
+            6
+          ]
+        },
+        {
+          "body_capacity": 340,
+          "degree_capacity": 4,
+          "hydrophobic_capacity": 24,
+          "left_residues": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "like_charge_capacity": 25,
+          "opposite_charge_capacity": 0,
+          "ordinal_vector": [
+            10,
+            7,
+            3,
+            2
+          ],
+          "right_residues": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "segments": [
+            3,
+            4
+          ]
+        },
+        {
+          "body_capacity": 330,
+          "degree_capacity": 4,
+          "hydrophobic_capacity": 0,
+          "left_residues": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "like_charge_capacity": 25,
+          "opposite_charge_capacity": 20,
+          "ordinal_vector": [
+            12,
+            11,
+            2,
+            2
+          ],
+          "right_residues": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "segments": [
+            2,
+            7
+          ]
+        }
+      ]
+    }
+  ],
+  "v25_departures": 15,
+  "v25_run_id": "development-ubiquitin-v25-coordinate-beam-l32-20260720",
+  "v25_sha256": "fb4949818feb2ee8d3579306de12586d6c748969763c9d3f13bcf56fdf9f2f48",
+  "v25_states": [
+    81,
+    199,
+    77,
+    130,
+    223,
+    135,
+    262,
+    86,
+    392,
+    100,
+    363,
+    7,
+    416,
+    62,
+    533,
+    562,
+    61,
+    538,
+    388,
+    33,
+    151,
+    170,
+    380,
+    268,
+    33,
+    212,
+    141,
+    56,
+    92,
+    547,
+    8,
+    0
+  ],
+  "v26_1_departures": 11,
+  "v26_1_run_id": "development-ubiquitin-v26-1-focal-topology-l32-20260720",
+  "v26_1_sha256": "1269b36eee2f73ebda16b2fc11e468907353d0e253c7b66b7b05b34ab7cabadd",
+  "v26_1_states": [
+    9,
+    223,
+    77,
+    130,
+    223,
+    136,
+    262,
+    86,
+    392,
+    100,
+    363,
+    6,
+    416,
+    84,
+    533,
+    562,
+    61,
+    538,
+    388,
+    32,
+    151,
+    170,
+    380,
+    268,
+    33,
+    212,
+    141,
+    56,
+    92,
+    546,
+    32,
+    0
+  ],
+  "v27_departures": 12,
+  "v27_run_id": "development-ubiquitin-v27-branch-reconciliation-l32-20260720",
+  "v27_sha256": "15f1e932eebd75c06fbd6bdea36802ec66231d94b545e3544511f72b6f91a76d",
+  "v27_states": [
+    9,
+    129,
+    77,
+    130,
+    223,
+    136,
+    262,
+    86,
+    392,
+    100,
+    363,
+    6,
+    416,
+    84,
+    533,
+    562,
+    61,
+    538,
+    388,
+    32,
+    151,
+    170,
+    380,
+    267,
+    57,
+    212,
+    141,
+    56,
+    92,
+    546,
+    33,
+    0
+  ],
+  "v28_departures": 10,
+  "v28_run_id": "development-ubiquitin-v28-multiscale-reconciliation-l32-20260720",
+  "v28_sha256": "ae23595c37547de5aca4bed8c2a28d75fd131df493bfe397217edab971293688",
+  "v28_states": [
+    9,
+    223,
+    77,
+    130,
+    223,
+    136,
+    262,
+    86,
+    392,
+    100,
+    363,
+    6,
+    416,
+    84,
+    533,
+    562,
+    61,
+    538,
+    388,
+    32,
+    151,
+    170,
+    380,
+    268,
+    33,
+    212,
+    141,
+    56,
+    92,
+    546,
+    8,
+    0
+  ],
+  "v29_departures": 6,
+  "v29_run_id": "development-ubiquitin-v29-tertiary-bodies-l32-20260720",
+  "v29_sha256": "192982df0d8c856bd71cc80d0dbc416d1cd0af1b9ad3e557a60ab6975f04c4f9",
+  "v29_states": [
+    9,
+    223,
+    77,
+    110,
+    222,
+    136,
+    262,
+    86,
+    392,
+    100,
+    363,
+    562,
+    392,
+    84,
+    533,
+    562,
+    61,
+    538,
+    388,
+    9,
+    151,
+    170,
+    380,
+    292,
+    7,
+    212,
+    141,
+    56,
+    117,
+    546,
+    8,
+    0
+  ],
+  "v30_departures": 12,
+  "v30_run_id": "development-ubiquitin-v30-tertiary-path-l32-20260720",
+  "v30_sha256": "9a9a50108c9b39677ca88d861a5c4cbd8325a26b3c6e75976483b0b71aff1e1a",
+  "v30_states": [
+    9,
+    199,
+    77,
+    130,
+    246,
+    135,
+    262,
+    86,
+    392,
+    100,
+    363,
+    7,
+    416,
+    62,
+    533,
+    537,
+    61,
+    538,
+    388,
+    34,
+    151,
+    170,
+    380,
+    268,
+    33,
+    212,
+    141,
+    79,
+    117,
+    547,
+    8,
+    0
+  ],
+  "whole_chain_cache_hits": 12,
+  "whole_chain_evaluations": 133499
+}

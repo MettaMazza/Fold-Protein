@@ -614,7 +614,7 @@ The registry verifier halts if:
 
 Generated PDBs and campaign receipts are evidence rather than forcing source.
 They are bound by the protected construction manifest or their immutable seals.
-All 121 tracked PDBs are also exhaustively classified: two experimental
+All 123 tracked PDBs are also exhaustively classified: two experimental
 references, one protected target-assisted construction, eleven sealed v2
 development outputs, four sealed v3 blind predictions, one sealed v4 auxiliary
 development output, two sealed v5 applied development outputs, and thirty-nine
@@ -626,7 +626,8 @@ V23/V23.1/V23.2 development outputs, nine sealed V24/V24.1/V25 outputs, and
 six sealed V26/V26.1 outputs, three sealed V27 reconciliation outputs and
 three sealed V28 multiscale outputs, three sealed V29 tertiary-body-tree
 outputs, three sealed V30 degree-two-tertiary-path outputs and two sealed V31
-bounded-topology-frontier gate outputs
+bounded-topology-frontier gate outputs plus two sealed V32 cross-topology
+consensus gate outputs
 described above.
 Their complete path-and-content census is hash-bound by the registry; both v2
 aggregate seals are reverified. Legacy filenames such as `predicted`,
@@ -712,3 +713,13 @@ development gate identifying topology-family collapse, not a Maria finding,
 failed prediction or theoretical wall. The next registered architecture must
 derive cross-topology consensus from the exact three-family/24-path census and
 preserve family provenance through final selection.
+
+V32 implements that provenance-preserving admission through exact minimum
+state distances to all three complete family frontiers. All three families
+survive its L24 consensus frontier and TM improves over V31, with mixed dRMSD.
+At L32 multiple families survive consensus admission but established physical
+reconciliation selects the byte-identical V31 state/PDB. No L76 V32 execution
+was started. This trace isolates the next implementation at an outer minimax
+consensus stratum—exact worst-family distance followed by symmetric family
+distances—before physical reconciliation. It remains development evidence,
+not a limit or failed Maria prediction.

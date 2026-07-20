@@ -336,6 +336,19 @@ direction is cross-topology consensus that retains the exact provenance of all
 three topology families through final selection; V31 is applied development
 evidence, not a finding, prediction failure or theoretical limit.
 
+V32 adds a separate cross-topology consensus stage. Every candidate receives
+three exact minimum state distances—one to each complete degree-family
+frontier—and these enter permutation-invariant admission before the established
+whole-chain constitution. At L24 all three topology families survive the
+24-path consensus frontier and TM improves over V31 to **`0.0196520134`**,
+while dRMSD is **`6.3312973879 Å`**. At L32 consensus admission preserves
+multiple families, but final physical reconciliation selects the byte-identical
+V31 degree-4 path at **TM `0.0363843691` / dRMSD `5.7052176785 Å`**. The next
+correction is therefore exact minimax consensus—worst family distance first,
+then symmetric family distance—before another physical reconciliation. V32
+was stopped before L76 because it would reproduce an already identified
+selected-path issue, not because of a theoretical wall.
+
 ## Governing law
 
 SFT begins from one machine-checked, self-proven theorem—*there is no nothing*—with zero axioms. The engine determines forcing and derivation by tracing every admitted construction to the One and halting on violation. No agent may weaken the result, declare a theoretical wall, or substitute statistical convention for the engine's standard. Maria Smith determines which engine results are published and directs the next investigation.

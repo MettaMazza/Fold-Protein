@@ -264,6 +264,18 @@ cross-topology consensus constitution derived from the exact three-family and
 selection without a reward, fitted weight, target comparison or continuity
 lock.
 
+V32 derives explicit cross-topology consensus by counting every candidate's
+minimum state distance to each complete degree-family frontier before applying
+the established whole-chain constitution. At L24 the consensus frontier
+contains degree-2, degree-3 and degree-4 members; the selected result improves
+V31 TM to **`0.0196520134`** but dRMSD is lower at **`6.3312973879 Å`**. At
+L32 the selected state/PDB is byte-identical to V31 at **TM `0.0363843691` /
+dRMSD `5.7052176785 Å`**, even though multiple families survive consensus
+admission. Do not spend V32 at L76. The next targeted correction is to make the
+exact worst-family distance the outer minimax consensus stratum before
+physical reconciliation, followed by symmetric family distances; this is a
+counted constitutional order, not a weight, reward, quota or lock.
+
 **The sequence supplies the spatial command.** The forward-forcing programme derives how amino-acid
 identity determines the invariant exclusions and relations that select among the 576 exact states per
 residue. Every proposed relation is routed through the engine; a violation halts rather than becoming
