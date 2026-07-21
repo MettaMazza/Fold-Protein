@@ -1,0 +1,1587 @@
+{
+  "boundary_contexts": 8,
+  "boundary_trace": [
+    {
+      "active_state": 0,
+      "best_key": [
+        0,
+        1.0,
+        0.25
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 2,
+      "inbound_per_context": [
+        1
+      ],
+      "retained_contexts": 2,
+      "worst_key": [
+        0,
+        1.0,
+        0.25
+      ]
+    },
+    {
+      "active_state": 1,
+      "best_key": [
+        0,
+        1.0,
+        0.451296787126223
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 4,
+      "inbound_per_context": [
+        1
+      ],
+      "retained_contexts": 4,
+      "worst_key": [
+        0,
+        1.0,
+        0.5763163202512167
+      ]
+    },
+    {
+      "active_state": 2,
+      "best_key": [
+        0,
+        1.0,
+        0.5606968026506542
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 8,
+      "inbound_per_context": [
+        1
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        1.0,
+        1.0434293464264777
+      ]
+    },
+    {
+      "active_state": 3,
+      "best_key": [
+        0,
+        1.0405689770541617,
+        0.7444642746195452
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        2.069564670718093,
+        1.6378755130602727
+      ]
+    },
+    {
+      "active_state": 4,
+      "best_key": [
+        0,
+        0.6870983223300162,
+        1.1633517368548012
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        1.6866510305426392,
+        1.05561702020046
+      ]
+    },
+    {
+      "active_state": 5,
+      "best_key": [
+        0,
+        0.6526061258019467,
+        1.0156553745256476
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        1.2742282389693982,
+        1.2997495896700932
+      ]
+    },
+    {
+      "active_state": 6,
+      "best_key": [
+        0,
+        0.599069591373326,
+        1.6830506009336792
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.950411426598589,
+        1.236855836387871
+      ]
+    },
+    {
+      "active_state": 7,
+      "best_key": [
+        0,
+        0.4539618917898882,
+        2.2865612174462777
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.8327744782777873,
+        1.4543515188445546
+      ]
+    },
+    {
+      "active_state": 8,
+      "best_key": [
+        0,
+        0.6512060313983843,
+        2.189323961597049
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        1.069750788661606,
+        2.6337061615646817
+      ]
+    },
+    {
+      "active_state": 9,
+      "best_key": [
+        0,
+        0.6120652271051856,
+        2.39005485358891
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.9409277859794293,
+        2.750997191986903
+      ]
+    },
+    {
+      "active_state": 10,
+      "best_key": [
+        0,
+        0.6209424874896852,
+        2.3030361967312505
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.8535874374957368,
+        3.128603244312895
+      ]
+    },
+    {
+      "active_state": 11,
+      "best_key": [
+        0,
+        0.6172007663072874,
+        2.836503977103781
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.7561394586829835,
+        3.0529497266752683
+      ]
+    },
+    {
+      "active_state": 12,
+      "best_key": [
+        0,
+        0.7066046677140724,
+        2.319451591138985
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.8163732325073928,
+        3.3282451960503625
+      ]
+    },
+    {
+      "active_state": 13,
+      "best_key": [
+        0,
+        0.6430564509627197,
+        2.5783520352418043
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.7165678382548681,
+        3.306707338338319
+      ]
+    },
+    {
+      "active_state": 14,
+      "best_key": [
+        0,
+        0.5432975987752363,
+        3.078787586236181
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.6691542230233867,
+        2.5107400603813352
+      ]
+    },
+    {
+      "active_state": 15,
+      "best_key": [
+        0,
+        0.446867805380281,
+        3.7726632644361566
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.599598175936615,
+        4.036135506566431
+      ]
+    },
+    {
+      "active_state": 16,
+      "best_key": [
+        0,
+        0.36131033685086045,
+        4.700155146898485
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.5133858186253744,
+        5.337527489488771
+      ]
+    },
+    {
+      "active_state": 17,
+      "best_key": [
+        0,
+        0.29300936768159064,
+        5.836495202085965
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.4296288600483031,
+        3.9963791554826664
+      ]
+    },
+    {
+      "active_state": 18,
+      "best_key": [
+        0,
+        0.23955746384378027,
+        7.186702178903525
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.3463672590352189,
+        4.985175612325177
+      ]
+    },
+    {
+      "active_state": 19,
+      "best_key": [
+        0,
+        0.19802849628828956,
+        8.749185292569535
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.2679917910303974,
+        6.476918338052148
+      ]
+    },
+    {
+      "active_state": 20,
+      "best_key": [
+        0,
+        0.16589719550042287,
+        10.506434979591118
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.22219460610571953,
+        7.855414605503565
+      ]
+    },
+    {
+      "active_state": 21,
+      "best_key": [
+        0,
+        0.4752162241110051,
+        7.876828987016597
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.7676593234875618,
+        11.285882174388616
+      ]
+    },
+    {
+      "active_state": 22,
+      "best_key": [
+        0,
+        0.47563738023201046,
+        8.098884483471933
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.6544524415147888,
+        10.974638629155347
+      ]
+    },
+    {
+      "active_state": 23,
+      "best_key": [
+        0,
+        0.5316146645833366,
+        7.817681948968764
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        1.004663456252051,
+        12.089159605155197
+      ]
+    },
+    {
+      "active_state": 24,
+      "best_key": [
+        0,
+        0.5339902901983881,
+        7.5635506573386255
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.890584325864871,
+        8.810262583528246
+      ]
+    },
+    {
+      "active_state": 25,
+      "best_key": [
+        0,
+        0.5525804682497615,
+        7.3422784960006044
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.8415653640133988,
+        9.362418280916005
+      ]
+    },
+    {
+      "active_state": 26,
+      "best_key": [
+        0,
+        0.561738209005432,
+        7.252372717938782
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.8054570913542084,
+        10.364080524182791
+      ]
+    },
+    {
+      "active_state": 27,
+      "best_key": [
+        0,
+        0.5582561054595409,
+        7.700690464825857
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.6344752426566554,
+        7.587913223884243
+      ]
+    },
+    {
+      "active_state": 28,
+      "best_key": [
+        0,
+        0.5803742673685072,
+        6.967124029438225
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.7226089288085417,
+        8.024772273544626
+      ]
+    },
+    {
+      "active_state": 29,
+      "best_key": [
+        0,
+        0.5868172158927621,
+        6.9134281614125
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.6615019422587972,
+        7.650011506000294
+      ]
+    },
+    {
+      "active_state": 30,
+      "best_key": [
+        0,
+        0.5827732886342966,
+        6.982410073038652
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        1,
+        0.6091339319927738,
+        6.8041050070625415
+      ]
+    },
+    {
+      "active_state": 31,
+      "best_key": [
+        0,
+        0.5678848929699748,
+        7.185188510004618
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.6029346915275544,
+        6.8933916976589265
+      ]
+    },
+    {
+      "active_state": 32,
+      "best_key": [
+        0,
+        0.6019275351543945,
+        7.037515204927503
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.7011366845919695,
+        7.0446174920792615
+      ]
+    },
+    {
+      "active_state": 33,
+      "best_key": [
+        0,
+        0.6051968815292673,
+        7.256114009422202
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.6753844682783505,
+        6.968421705010649
+      ]
+    },
+    {
+      "active_state": 34,
+      "best_key": [
+        0,
+        0.587580959651855,
+        7.490700887346385
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.6415568818020441,
+        7.21915319354217
+      ]
+    },
+    {
+      "active_state": 35,
+      "best_key": [
+        0,
+        0.5460158065910689,
+        8.830980325849065
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.6021561573369993,
+        7.326544113352359
+      ]
+    },
+    {
+      "active_state": 36,
+      "best_key": [
+        0,
+        0.4955902449402519,
+        9.747859346022102
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.5983196034265494,
+        7.389108512528593
+      ]
+    },
+    {
+      "active_state": 37,
+      "best_key": [
+        0,
+        0.4447331730565317,
+        10.881949161426535
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.5179302554919039,
+        9.347576149912305
+      ]
+    },
+    {
+      "active_state": 38,
+      "best_key": [
+        0,
+        0.5969663774159399,
+        9.425335185059433
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.7497100925364478,
+        10.655239101281778
+      ]
+    },
+    {
+      "active_state": 39,
+      "best_key": [
+        0,
+        0.6430983183902027,
+        9.463161241525485
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.8143552109987622,
+        11.958606954844585
+      ]
+    },
+    {
+      "active_state": 40,
+      "best_key": [
+        0,
+        0.6492598921466566,
+        9.38311531156096
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.9339262708174044,
+        12.753601717097844
+      ]
+    },
+    {
+      "active_state": 41,
+      "best_key": [
+        0,
+        0.6546520545946365,
+        9.53223939402768
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.8842453007277804,
+        13.491594071814397
+      ]
+    },
+    {
+      "active_state": 42,
+      "best_key": [
+        0,
+        0.646717480015772,
+        9.088513854397268
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.9285624153322891,
+        13.988786585919275
+      ]
+    },
+    {
+      "active_state": 43,
+      "best_key": [
+        0,
+        0.657204563923219,
+        9.121640728095048
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.6988923300100763,
+        9.79382508156644
+      ]
+    },
+    {
+      "active_state": 44,
+      "best_key": [
+        0,
+        0.6503152929506472,
+        9.944406196757363
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.6601002542165986,
+        10.61772587256259
+      ]
+    },
+    {
+      "active_state": 45,
+      "best_key": [
+        0,
+        0.6238233218066533,
+        10.380270748152459
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.6546563532475885,
+        9.892361101011852
+      ]
+    },
+    {
+      "active_state": 46,
+      "best_key": [
+        0,
+        0.5927349583565387,
+        10.938226517540947
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.6291889208325555,
+        11.168818670051039
+      ]
+    },
+    {
+      "active_state": 47,
+      "best_key": [
+        0,
+        0.5555521611433174,
+        11.683941357301395
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.6007995603962926,
+        11.710636803995339
+      ]
+    },
+    {
+      "active_state": 48,
+      "best_key": [
+        0,
+        0.6845675021953538,
+        11.412468276056618
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.725291717017494,
+        11.710221118533214
+      ]
+    },
+    {
+      "active_state": 49,
+      "best_key": [
+        0,
+        0.7318231834577836,
+        11.520221369233159
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.8105396455524884,
+        11.91428679050305
+      ]
+    },
+    {
+      "active_state": 50,
+      "best_key": [
+        0,
+        0.7259292969136597,
+        12.285598295983673
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.7414322446304211,
+        12.790687161974784
+      ]
+    },
+    {
+      "active_state": 51,
+      "best_key": [
+        0,
+        0.6993992745906737,
+        12.394298336739496
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.7261898688482945,
+        11.937730865099878
+      ]
+    },
+    {
+      "active_state": 52,
+      "best_key": [
+        0,
+        0.6635733756271206,
+        14.320074945445116
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.7174593643979745,
+        13.245906808976796
+      ]
+    },
+    {
+      "active_state": 53,
+      "best_key": [
+        0,
+        0.7492264173843306,
+        13.300122662467817
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.8192200634597437,
+        14.45499352634264
+      ]
+    },
+    {
+      "active_state": 54,
+      "best_key": [
+        0,
+        0.7441656196327076,
+        13.342054722137181
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.7502870111146627,
+        12.897086383780923
+      ]
+    },
+    {
+      "active_state": 55,
+      "best_key": [
+        0,
+        0.716020984280705,
+        13.878917671131642
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.7390935652569458,
+        13.104511507642485
+      ]
+    },
+    {
+      "active_state": 56,
+      "best_key": [
+        0,
+        0.7661923340291048,
+        13.139443572034793
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.8061170622688815,
+        13.822728331528442
+      ]
+    },
+    {
+      "active_state": 57,
+      "best_key": [
+        0,
+        0.7611547162447637,
+        13.935755390226753
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.7870480163989445,
+        13.890299572888589
+      ]
+    },
+    {
+      "active_state": 58,
+      "best_key": [
+        0,
+        0.7469205711812628,
+        13.86199931886006
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.7767386719713459,
+        12.983703466207812
+      ]
+    },
+    {
+      "active_state": 59,
+      "best_key": [
+        0,
+        0.7195177810395352,
+        14.401165072066954
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.7655931998999652,
+        13.535435386038527
+      ]
+    },
+    {
+      "active_state": 60,
+      "best_key": [
+        0,
+        0.6873769201854093,
+        15.085817955038245
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.7525499548875295,
+        14.129782067150215
+      ]
+    },
+    {
+      "active_state": 61,
+      "best_key": [
+        0,
+        0.6509645673980831,
+        15.941085239197024
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.7029413595657935,
+        14.763526783738751
+      ]
+    },
+    {
+      "active_state": 62,
+      "best_key": [
+        0,
+        0.6119019200992606,
+        16.970447420403193
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.6572255513933829,
+        15.801191015581246
+      ]
+    },
+    {
+      "active_state": 63,
+      "best_key": [
+        0,
+        0.5717720803102879,
+        18.173644539390697
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.622184848361558,
+        16.70234532631866
+      ]
+    },
+    {
+      "active_state": 64,
+      "best_key": [
+        0,
+        0.5312169079834844,
+        19.573739426827935
+      ],
+      "candidate_domain": [
+        117,
+        201
+      ],
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8,
+      "worst_key": [
+        0,
+        0.5707805390764655,
+        18.2180207461434
+      ]
+    }
+  ],
+  "closed_domain": {
+    "alpha": 201,
+    "beta": 117
+  },
+  "final_key": [
+    0,
+    0.5312169079834844,
+    19.573739426827935
+  ],
+  "modes": [
+    "alpha",
+    "alpha",
+    "alpha",
+    "beta",
+    "alpha",
+    "beta",
+    "beta",
+    "alpha",
+    "alpha",
+    "beta",
+    "alpha",
+    "beta",
+    "alpha",
+    "beta",
+    "beta",
+    "beta",
+    "beta",
+    "beta",
+    "alpha",
+    "alpha",
+    "beta",
+    "beta",
+    "beta",
+    "alpha",
+    "beta",
+    "alpha",
+    "alpha",
+    "alpha",
+    "alpha",
+    "beta",
+    "beta",
+    "beta",
+    "beta",
+    "beta",
+    "beta",
+    "alpha",
+    "alpha",
+    "beta",
+    "beta",
+    "beta",
+    "beta",
+    "beta",
+    "beta",
+    "alpha",
+    "beta",
+    "beta",
+    "alpha",
+    "alpha",
+    "beta",
+    "beta",
+    "alpha",
+    "alpha",
+    "alpha",
+    "beta",
+    "beta",
+    "beta",
+    "beta",
+    "alpha",
+    "beta",
+    "beta",
+    "beta",
+    "beta",
+    "beta",
+    "beta",
+    "beta",
+    "inactive"
+  ],
+  "official_run": false,
+  "quartet_transitions": 16,
+  "result_type": "cumulative development benchmark",
+  "run_id": "protein-v35-generalisation-20260721-lambda-cro-1cop-d-model1-v35",
+  "schema": "fold-protein-selected-states/v35",
+  "sequence": "MEQRITLKDYAMRFGQTKTAKDLGVYQSAINKAIHAGRKIFLTINADGSVYAEEVKPFPSNKKTTA",
+  "states": [
+    201,
+    201,
+    201,
+    117,
+    201,
+    117,
+    117,
+    201,
+    201,
+    117,
+    201,
+    117,
+    201,
+    117,
+    117,
+    117,
+    117,
+    117,
+    201,
+    201,
+    117,
+    117,
+    117,
+    201,
+    117,
+    201,
+    201,
+    201,
+    201,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    201,
+    201,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    201,
+    117,
+    117,
+    201,
+    201,
+    117,
+    117,
+    201,
+    201,
+    201,
+    117,
+    117,
+    117,
+    117,
+    201,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    0
+  ],
+  "status": "completed"
+}

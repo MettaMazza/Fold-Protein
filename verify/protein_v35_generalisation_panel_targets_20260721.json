@@ -1,0 +1,22 @@
+{
+  "official_run": false,
+  "panel_registration_sha256": "91278995bb48cd46e39d4c2640c380865356617df3782805ed8f3399ab3629d0",
+  "result_type": "cumulative development benchmark",
+  "schema": "fold-protein-v35-paired-panel-target-map/v1",
+  "targets": [
+    {
+      "chain_id": "A",
+      "model_index": 1,
+      "protein_id": "ubiquitin-1ubq-a-model1",
+      "target": "verify/1ubq.pdb",
+      "target_sha256": "d4a6812d8951cf6594e6a0763f089e35f5a80b62acb3c117b2c5565228a7b161"
+    },
+    {
+      "chain_id": "D",
+      "model_index": 1,
+      "protein_id": "lambda-cro-1cop-d-model1",
+      "target": "verify/1cop.pdb",
+      "target_sha256": "e3deda2437e807057effe5e4771f943190d1fdc80c2d84696cba5ecf2ab3114f"
+    }
+  ]
+}

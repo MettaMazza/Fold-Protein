@@ -1,0 +1,34 @@
+{
+  "boundary_contexts": 8,
+  "candidate_domain": {
+    "alpha": 201,
+    "beta": 117
+  },
+  "execution": "complete V2 boundary graph under the admitted V3 order",
+  "official_run": false,
+  "path_length": 76,
+  "prediction_pdb_sha256": "df53cbe45c27b904d3fbf06e0673ebfb057a1c1dbf31b95e1d6e8f0f81c0059f",
+  "protocol_manifest_sha256": "f556848f09c2980a2247a58af80a57221730ebdfc8405633adb374cb3a34b071",
+  "quartet_transitions": 16,
+  "result_type": "cumulative development benchmark",
+  "run_id": "protein-v35-generalisation-20260721-ubiquitin-1ubq-a-model1-v35",
+  "schema": "fold-protein-blind-seal/v35",
+  "selected_states_sha256": "ec4e78042807d89e58797cf787a41ccd62496d3ffbab1e02dfc1e189b4c80831",
+  "selector_input_sha256": "5048e866ecb2084c60b8d5c08de7c5736a3393654055b45ae796f42ff5b528a5",
+  "sequence_sha256": "233b4b0b8c4616095bc3249f9375fc345d32af7deaef07117d0383c51d6f19aa",
+  "source_sha256": {
+    "constants/protein_blind_selector_v35_admission.ep": "488b693599f2387b716c0e28e2194c0d9d2794cc00010569b47dfea2a51853d1",
+    "tools/blind_24_lattice_selector_v3.py": "062c2e4174e42494d3631e0c6aa38a708ec1a5952dc321ce66328620ff305cb5",
+    "tools/blind_24_lattice_selector_v34.py": "bf2bcd1f03a55e29c660d0c5b95f1ea17f3ac8d463eb9647d2d02f0b077ab5a2",
+    "tools/blind_24_lattice_selector_v35.py": "14e3ac555e1648c75e4ed9bbf508afa2369c0d41924dcb9b01e2122a586e6131",
+    "tools/protein_backbone_geometry_v1.py": "a043e5d05a26fdf063c4703dac619f5fe918b65779a96df6d3cfa2f536fdc315",
+    "tools/residue_partition_v1.py": "f48e0ebc2c3dbc1d6d7a37370e0a2329968524d169d7b43022dce30ceacd3814",
+    "tools/run_blind_protocol_v35.py": "bde4c42aba92174d06b5d5900981c66401e4f230302431366136cc84ccb9fe31",
+    "verify/blind_selector_v3.json": "c6988dc13395e59aaaf6c96e6838a14477ceda7a8ecb4d4314c61ca0e8c85ecd",
+    "verify/protein_backbone_geometry_v1.json": "47da7e3f3c58a88e53b36157c5d5ed4dfa2c8b2c6e2cba91a5da34e5746571fd",
+    "verify/protein_engine_closure_v1.json": "a0e0593c9a12020cb532b9c214ed703adc695ea46086a3328f490b3a3db11220",
+    "verify/protein_selector_v34_admission_v1.json": "d9f87b03d5fe7027f364f8527c4b9462e98f4e379eb81ac205fb489e1e31901f",
+    "verify/protein_selector_v35_admission_v1.json": "1af7086a79785e8815872b6eee04d1c27de3242f0085a15a230bb2ce360b025c"
+  },
+  "status": "completed"
+}

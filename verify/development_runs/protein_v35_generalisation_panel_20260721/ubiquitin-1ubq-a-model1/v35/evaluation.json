@@ -1,0 +1,26 @@
+{
+  "ca_drmsd_angstrom": 11.25969101353946,
+  "execution": "post-panel-seal structural comparison",
+  "matched_ca_atoms": 76,
+  "mode_census": {
+    "alpha": 31,
+    "beta": 44,
+    "inactive": 1
+  },
+  "nested_seal_sha256": "aae96485e27b5af7d791c2527e5cfe97d39558c1b941d8bae4a535aa4a0f669e",
+  "official_run": false,
+  "panel_seal_sha256": "1f926a4777bcaf3eef19279fb7f0b9b884ae62d3459292a22c0d91e013bd5e9e",
+  "protein_id": "ubiquitin-1ubq-a-model1",
+  "result_type": "cumulative development benchmark",
+  "run_id": "protein-v35-generalisation-20260721-ubiquitin-1ubq-a-model1-v35",
+  "schema": "fold-protein-blind-evaluation/v35-paired-panel",
+  "sequence_length": 76,
+  "status": "completed",
+  "target_id": "1ubq.pdb",
+  "target_projection": {
+    "chain_id": "A",
+    "model_index": 1
+  },
+  "target_sha256": "d4a6812d8951cf6594e6a0763f089e35f5a80b62acb3c117b2c5565228a7b161",
+  "tm_score": 0.08048457640231105
+}

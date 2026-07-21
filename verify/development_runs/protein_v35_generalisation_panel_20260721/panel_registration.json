@@ -1,0 +1,31 @@
+{
+  "execution": "frozen V34/V35 paired multi-protein sequence-only cumulative development panel",
+  "official_run": false,
+  "panel_id": "protein-v35-generalisation-20260721",
+  "proteins": [
+    {
+      "protein_id": "ubiquitin-1ubq-a-model1",
+      "sequence": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG"
+    },
+    {
+      "protein_id": "lambda-cro-1cop-d-model1",
+      "sequence": "MEQRITLKDYAMRFGQTKTAKDLGVYQSAINKAIHAGRKIFLTINADGSVYAEEVKPFPSNKKTTA"
+    }
+  ],
+  "result_type": "cumulative development benchmark",
+  "runner_source_sha256": {
+    "tools/run_blind_panel_v35.py": "6f376e12ee156b1c961d4af480543eb0ae639f86371f4b275858b6d8aa2794a5",
+    "tools/verify_blind_panel_v35.py": "f314215a22685058212a49ef17a341dcf694c74f15f21ffdff168db1b1498a76"
+  },
+  "schema": "fold-protein-v34-v35-paired-panel/v1",
+  "selectors": {
+    "v34": {
+      "manifest": "verify/blind_selector_v34.json",
+      "manifest_sha256": "c81c9e515baf4c67b9bb5c468ec27af44f8a90fee336cafbab36bcdb26bd0b05"
+    },
+    "v35": {
+      "manifest": "verify/blind_selector_v35.json",
+      "manifest_sha256": "f556848f09c2980a2247a58af80a57221730ebdfc8405633adb374cb3a34b071"
+    }
+  }
+}

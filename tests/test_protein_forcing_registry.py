@@ -14,7 +14,7 @@ class ProteinForcingRegistryTests(unittest.TestCase):
         )
         self.assertEqual(receipt["inherited_compiler"]["tracked_files"], 315)
         self.assertEqual(receipt["inherited_foundation"]["tracked_files"], 9)
-        self.assertEqual(receipt["artifact_inventory"]["tracked_pdb_files"], 128)
+        self.assertEqual(receipt["artifact_inventory"]["tracked_pdb_files"], 132)
         self.assertEqual(
             receipt["artifact_inventory"]["class_counts"]["sealed_v3_blind_prediction"],
             4,
@@ -97,13 +97,21 @@ class ProteinForcingRegistryTests(unittest.TestCase):
         self.assertEqual(
             receipt["artifact_inventory"]["class_counts"][
                 "sealed_v34_closed_domain_forward_forcing_output"],
-            1,
+            3,
         )
         self.assertEqual(
             receipt["artifact_inventory"]["class_counts"][
                 "sealed_v35_complete_boundary_forward_forcing_output"],
-            1,
+            3,
         )
+        self.assertEqual(
+            receipt["artifact_inventory"]["v35_paired_panel"]["verified_predictions"],
+            4,
+        )
+        self.assertEqual(
+            receipt["v35_generalisation"]["proteins_with_tm_improvement"], 2)
+        self.assertEqual(
+            receipt["v35_generalisation"]["proteins_with_ca_drmsd_improvement"], 2)
         self.assertEqual(
             receipt["derivation_admission"]["archived_selector_range"],
             "V4-V33 non-admitted development evidence",

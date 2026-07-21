@@ -64,6 +64,18 @@ positive cumulative development evidence for complete forced boundary propagatio
 Maria determines its publication and official-run status. No theoretical wall is
 established.
 
+The frozen paired V34/V35 panel then completed both ubiquitin L76 and an independent
+lambda-Cro L66 sequence before either experimental coordinate set was opened. On
+lambda-Cro, V35 improves TM **24.95%**, from **0.0861911480** to **0.1076949961**,
+and improves C-alpha dRMSD **47.53%**, from **19.1677598309 Å** to
+**10.0579513939 Å**. Together with the ubiquitin row, V35 improves both structural
+measures on **2/2 proteins**. Mean TM advances from **0.0516673415** to
+**0.0940897863**, while mean dRMSD improves from **26.6987839712 Å** to
+**10.6588212037 Å**. This is positive cross-protein generalisation evidence for
+the same admitted complete-boundary propagation, with no selector change between
+proteins. The exact registration, four nested seals, target projections and scores
+are bound by `verify/protein_selector_v35_generalisation_evidence_v1.json`.
+
 ### Current forward-forcing stage
 
 The continuation has now moved beyond the original v3 blind baseline:

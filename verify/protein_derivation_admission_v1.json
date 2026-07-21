@@ -54,7 +54,8 @@
       "source_class": "blind_v35_complete_boundary_forward_forcing",
       "closure_receipt": "verify/protein_selector_v35_admission_v1.json",
       "applied_evidence": "verify/protein_selector_v35_applied_evidence_v1.json",
-      "target_boundary": "Selector input is exactly run_id and sequence; 76-residue states and coordinates are sealed before the separate evaluator can open the target."
+      "generalisation_evidence": "verify/protein_selector_v35_generalisation_evidence_v1.json",
+      "target_boundary": "Selector input is exactly run_id and sequence. The paired panel jointly seals frozen V34/V35 structures for ubiquitin L76 and lambda-Cro L66 before a separately hash-bound evaluator opens either target projection."
     }
   },
   "archived_development": {

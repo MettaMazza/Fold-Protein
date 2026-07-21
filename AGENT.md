@@ -282,9 +282,18 @@ Runtime falls **65.94%** from V34 to 3.12 seconds. The simultaneous two-metric a
 is positive applied evidence that complete forced boundary propagation carries the
 closed canonical domain into materially better whole-chain topology and distance
 geometry. It is a cumulative development benchmark, not an official run or a Maria
-publication conclusion. No theoretical wall is established. Before another selector,
-derive the next complete-chain reconciliation relation through the engine; V35 itself
-is ready for a frozen multi-protein sequence-only development panel if Maria orders it.
+publication conclusion. No theoretical wall is established.
+
+The frozen paired multi-protein panel has now executed V34 and V35 against two
+preregistered sequence-only inputs before any target coordinate access. On the
+independent 66-residue lambda-Cro chain, V35 raises TM from `0.0861911480` to
+`0.1076949961` (**24.95%**) and reduces C-alpha dRMSD from `19.1677598309 Å`
+to `10.0579513939 Å` (**47.53%**). The ubiquitin row reproduces the sealed V35
+advance. Across both proteins, V35 improves both measures in **2/2** cases; mean
+TM rises from `0.0516673415` to `0.0940897863`, and mean dRMSD falls from
+`26.6987839712 Å` to `10.6588212037 Å`. This is positive cross-protein
+generalisation evidence for the admitted complete-boundary relation. Before another
+selector, derive the next complete-chain reconciliation relation through the engine.
 
 **The sequence must supply the spatial command.** The forward-forcing programme investigates how
 amino-acid identity can determine the invariant exclusions and relations that select among the 576
@@ -404,6 +413,9 @@ python3 -m unittest discover -s tests -p 'test_*.py' -v
   V2 closed-domain/V3-order composition and sealed complete-length protocol.
 - `tools/blind_24_lattice_selector_v35.py`, `tools/run_blind_protocol_v35.py` — admitted
   complete 8-context/16-transition boundary propagation and sealed L76 protocol.
+- `tools/run_blind_panel_v35.py`, `tools/verify_blind_panel_v35.py`,
+  `verify/evaluate_sealed_blind_panel_v35.py` — frozen paired V34/V35 multi-protein
+  sealing and post-seal comparison boundary.
 - `tools/blind_24_lattice_selector_v5.py` through `v12.py` and their protocols —
   traced inter-window, signed-orientation, charge, side-chain, and balanced
   continuation surfaces.

@@ -1,0 +1,104 @@
+{
+  "aggregate": {
+    "proteins_with_ca_drmsd_improvement": 2,
+    "proteins_with_tm_improvement": 2,
+    "v34_mean_ca_drmsd_angstrom": 26.69878397122941,
+    "v34_mean_tm_score": 0.05166734148808215,
+    "v35_mean_ca_drmsd_angstrom": 10.658821203710094,
+    "v35_mean_tm_score": 0.09408978625889858,
+    "v35_mean_ca_drmsd_reduction_angstrom": 16.039962767519317,
+    "v35_mean_tm_score_absolute_improvement": 0.04242244477081643
+  },
+  "date": "2026-07-21",
+  "engineering_inference_not_maria_conclusion": "The independent lambda-Cro row reproduces the direction of the ubiquitin V35 advance on both structural measures under the same frozen target-incapable selector. This is positive cross-protein generalisation evidence for complete boundary propagation rather than a theoretical wall, official run, publication conclusion or final benchmark-victory declaration.",
+  "official_run": false,
+  "panel": {
+    "command": "/usr/bin/time -l python3 -m tools.run_blind_panel_v35 verify/blind_selector_v35_paired_panel.json verify/development_runs/protein_v35_generalisation_panel_20260721",
+    "evaluation_command": "python3 -m verify.evaluate_sealed_blind_panel_v35 verify/development_runs/protein_v35_generalisation_panel_20260721 verify/protein_v35_generalisation_panel_targets_20260721.json",
+    "panel_evaluation_sha256": "885252572a8af3ceeb42ffe1e352ec476bacd7427ba9fc5c6a1ddc213031cb03",
+    "panel_registration_sha256": "91278995bb48cd46e39d4c2640c380865356617df3782805ed8f3399ab3629d0",
+    "panel_seal_sha256": "1f926a4777bcaf3eef19279fb7f0b9b884ae62d3459292a22c0d91e013bd5e9e",
+    "target_map_sha256": "c44fec8f005371be6a57db72bf9a679da7ab1192d30fb5776ce20587762cdcd6"
+  },
+  "proteins": {
+    "lambda-cro-1cop-d-model1": {
+      "ca_coordinates_changed": 65,
+      "ca_coordinates_unchanged": 1,
+      "sequence_length": 66,
+      "states_changed": 15,
+      "states_unchanged": 51,
+      "v34": {
+        "ca_drmsd_angstrom": 19.16775983086938,
+        "elapsed_seconds": 6.0670112079999985,
+        "evaluation_sha256": "e401634465e069cf1b13793a38c2aa2476a1a657fa9a55148903685aa5f9ca0d",
+        "prediction_pdb_sha256": "94f41f3e6e585b4cebd1343ded3f5e2c842de527cb88af9c66aed1d5e0a3484f",
+        "seal_sha256": "248cded3745005b62fd8fd2b20c9e91673d4708e5df57ef5c80ede548c67f872",
+        "selected_states_sha256": "ae15fcadb8b7c98cbc2daa9f464b72948371b3a8649aeefae915494f4bc29d63",
+        "tm_score": 0.0861911480112344
+      },
+      "v35": {
+        "ca_drmsd_angstrom": 10.057951393880726,
+        "elapsed_seconds": 2.0192947090000004,
+        "evaluation_sha256": "4fd9fffe455380b60316ae2964766791f3fcf98495d742447b30b4aa8beb8989",
+        "prediction_pdb_sha256": "9ec1389e5e267c597e4f018f6708978efb471da75f296634a7b0b882456c4934",
+        "seal_sha256": "6de0300b84aedea974c6026abb88793617b6d3b9f4868d3d0d24f8f8bc1e9ae2",
+        "selected_states_sha256": "c94142747764c9591e72a3096279cedb14189623c675907febcea3e3539665a0",
+        "tm_score": 0.10769499611548612
+      },
+      "v35_minus_v34": {
+        "ca_drmsd_performance_improvement_percent": 47.52672465312012,
+        "ca_drmsd_reduction_angstrom": 9.109808436988653,
+        "runtime_improvement_percent": 66.71681261545477,
+        "tm_score_absolute_improvement": 0.021503848104251724,
+        "tm_score_improvement_percent": 24.94902156477699
+      }
+    },
+    "ubiquitin-1ubq-a-model1": {
+      "ca_coordinates_changed": 75,
+      "ca_coordinates_unchanged": 1,
+      "sequence_length": 76,
+      "states_changed": 27,
+      "states_unchanged": 49,
+      "v34": {
+        "ca_drmsd_angstrom": 34.22980811158944,
+        "elapsed_seconds": 8.999366042,
+        "evaluation_sha256": "b937a487e6b812c5fa2116a5fb09fe460405e7d901632bdee34fddb90b385152",
+        "prediction_pdb_sha256": "2abfcc7f1774a3e2261c1acc1713582b6718b30ca0f4c660cf80bd9b407ae4bf",
+        "seal_sha256": "b67bb7b26f763d30a9fd954166f24a036b127df5edefd4092760045a2c4fe1b7",
+        "selected_states_sha256": "e4fc1399b69fba19705790c65b3608c7016126b2d787c71da9de0e4af7c9d3ea",
+        "tm_score": 0.017143534964929905
+      },
+      "v35": {
+        "ca_drmsd_angstrom": 11.25969101353946,
+        "elapsed_seconds": 2.9858186669999984,
+        "evaluation_sha256": "a4c3e64decc53250b6bf1e067f2c0dbed8b30acdb9ad1516e8d5fd545341b962",
+        "prediction_pdb_sha256": "df53cbe45c27b904d3fbf06e0673ebfb057a1c1dbf31b95e1d6e8f0f81c0059f",
+        "seal_sha256": "aae96485e27b5af7d791c2527e5cfe97d39558c1b941d8bae4a535aa4a0f669e",
+        "selected_states_sha256": "ec4e78042807d89e58797cf787a41ccd62496d3ffbab1e02dfc1e189b4c80831",
+        "tm_score": 0.08048457640231105
+      },
+      "v35_minus_v34": {
+        "ca_drmsd_performance_improvement_percent": 67.10559703743364,
+        "ca_drmsd_reduction_angstrom": 22.970117098049982,
+        "runtime_improvement_percent": 66.82189997534053,
+        "tm_score_absolute_improvement": 0.06334104143738115,
+        "tm_score_improvement_percent": 369.47479949121526
+      }
+    }
+  },
+  "resources": {
+    "maximum_resident_set_bytes": 27705344,
+    "peak_memory_footprint_bytes": 21529984,
+    "system_seconds": 0.04,
+    "user_seconds": 20.09,
+    "wall_seconds": 20.14
+  },
+  "result_type": "cumulative development benchmark",
+  "schema": "fold-protein-selector-v35-generalisation-evidence/v1",
+  "source_sha256": {
+    "tools/run_blind_panel_v35.py": "6f376e12ee156b1c961d4af480543eb0ae639f86371f4b275858b6d8aa2794a5",
+    "tools/verify_blind_panel_v35.py": "f314215a22685058212a49ef17a341dcf694c74f15f21ffdff168db1b1498a76",
+    "verify/evaluate_sealed_blind_panel_v35.py": "2439fde75194097f5aae4d079a3da0046e654488e710080f81ea09f02a85bfd6"
+  },
+  "status": "completed"
+}

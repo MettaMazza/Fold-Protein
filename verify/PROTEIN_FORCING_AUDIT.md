@@ -810,7 +810,32 @@ are preserved in `verify/protein_selector_v35_applied_evidence_v1.json`.
 Engineering inference only: the simultaneous two-metric advance supports the intended
 causal correction—complete forced boundary propagation materially improves both
 whole-chain topology and distance geometry. It is not an official run or Maria-declared
-publication conclusion and establishes no theoretical wall. The frozen V35 protocol is
-technically ready for a multi-protein sequence-only cumulative development panel;
-continued single-target architecture work must first engine-close a complete-chain
-reconciliation relation rather than add another local selector.
+publication conclusion and establishes no theoretical wall.
+
+### V35 paired multi-protein applied execution
+
+`verify/blind_selector_v35_paired_panel.json` preregisters ubiquitin chain A/model 1
+and lambda-Cro chain D/model 1 as sequence-only inputs under the frozen V34 and V35
+manifests. The panel runner produced and jointly sealed all four structures before
+`verify/protein_v35_generalisation_panel_targets_20260721.json` was created or read.
+The verifier checks the registration hash, both selector manifests, all nested source
+hashes, all selected-state and PDB hashes, and exact four-run coverage before the
+evaluator can open either target.
+
+On lambda-Cro L66, V35 reaches TM `0.10769499611548612` and C-alpha dRMSD
+`10.057951393880726 Å`, improving frozen V34 by `24.9490215648%` TM and
+`47.5267246531%` dRMSD. It changes 15 of 66 states and 65 of 66 emitted C-alpha
+coordinates. The ubiquitin panel row byte-reproduces the earlier V35 PDB and both
+measurements. Across the two proteins, V35 improves both metrics in 2/2 rows: mean
+TM rises from `0.05166734148808215` to `0.09408978625889858`, and mean dRMSD
+falls from `26.69878397122941 Å` to `10.658821203710094 Å`. The complete panel
+uses 20.14 wall seconds, 27,705,344 bytes maximum resident memory and 21,529,984
+bytes peak memory footprint.
+
+Engineering inference only: the independent lambda-Cro result reproduces the direction
+of the complete-boundary advance outside ubiquitin without changing the selector. This
+is positive cross-protein generalisation evidence and supplies the empirical basis for
+continuing complete-chain reconciliation through a newly engine-closed relation. It is
+a cumulative development panel, not an official run or Maria-declared publication
+conclusion, and establishes no theoretical wall. Exact receipts are consolidated in
+`verify/protein_selector_v35_generalisation_evidence_v1.json`.

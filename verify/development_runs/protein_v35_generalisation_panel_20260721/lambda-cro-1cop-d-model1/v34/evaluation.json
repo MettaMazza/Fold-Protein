@@ -1,0 +1,26 @@
+{
+  "ca_drmsd_angstrom": 19.16775983086938,
+  "execution": "post-panel-seal structural comparison",
+  "matched_ca_atoms": 66,
+  "mode_census": {
+    "alpha": 23,
+    "beta": 42,
+    "inactive": 1
+  },
+  "nested_seal_sha256": "248cded3745005b62fd8fd2b20c9e91673d4708e5df57ef5c80ede548c67f872",
+  "official_run": false,
+  "panel_seal_sha256": "1f926a4777bcaf3eef19279fb7f0b9b884ae62d3459292a22c0d91e013bd5e9e",
+  "protein_id": "lambda-cro-1cop-d-model1",
+  "result_type": "cumulative development benchmark",
+  "run_id": "protein-v35-generalisation-20260721-lambda-cro-1cop-d-model1-v34",
+  "schema": "fold-protein-blind-evaluation/v34-paired-panel",
+  "sequence_length": 66,
+  "status": "completed",
+  "target_id": "1cop.pdb",
+  "target_projection": {
+    "chain_id": "D",
+    "model_index": 1
+  },
+  "target_sha256": "e3deda2437e807057effe5e4771f943190d1fdc80c2d84696cba5ecf2ab3114f",
+  "tm_score": 0.0861911480112344
+}

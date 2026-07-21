@@ -1,0 +1,62 @@
+{
+  "aggregate": {
+    "v34": {
+      "mean_ca_drmsd_angstrom": 26.69878397122941,
+      "mean_tm_score": 0.05166734148808215
+    },
+    "v35": {
+      "mean_ca_drmsd_angstrom": 10.658821203710094,
+      "mean_tm_score": 0.09408978625889858
+    },
+    "v35_minus_v34": {
+      "mean_ca_drmsd_reduction_angstrom": 16.039962767519317,
+      "mean_tm_score_absolute": 0.04242244477081643,
+      "proteins_with_drmsd_improvement": 2,
+      "proteins_with_tm_improvement": 2
+    }
+  },
+  "by_protein": {
+    "lambda-cro-1cop-d-model1": {
+      "v34": {
+        "ca_drmsd_angstrom": 19.16775983086938,
+        "tm_score": 0.0861911480112344
+      },
+      "v35": {
+        "ca_drmsd_angstrom": 10.057951393880726,
+        "tm_score": 0.10769499611548612
+      },
+      "v35_minus_v34": {
+        "ca_drmsd_performance_percent": 47.52672465312012,
+        "ca_drmsd_reduction_angstrom": 9.109808436988653,
+        "tm_score_absolute": 0.021503848104251724,
+        "tm_score_percent": 24.94902156477699
+      }
+    },
+    "ubiquitin-1ubq-a-model1": {
+      "v34": {
+        "ca_drmsd_angstrom": 34.22980811158944,
+        "tm_score": 0.017143534964929905
+      },
+      "v35": {
+        "ca_drmsd_angstrom": 11.25969101353946,
+        "tm_score": 0.08048457640231105
+      },
+      "v35_minus_v34": {
+        "ca_drmsd_performance_percent": 67.10559703743364,
+        "ca_drmsd_reduction_angstrom": 22.970117098049982,
+        "tm_score_absolute": 0.06334104143738115,
+        "tm_score_percent": 369.47479949121526
+      }
+    }
+  },
+  "official_run": false,
+  "panel_id": "protein-v35-generalisation-20260721",
+  "panel_registration_sha256": "91278995bb48cd46e39d4c2640c380865356617df3782805ed8f3399ab3629d0",
+  "panel_seal_sha256": "1f926a4777bcaf3eef19279fb7f0b9b884ae62d3459292a22c0d91e013bd5e9e",
+  "prediction_count": 4,
+  "protein_count": 2,
+  "result_type": "cumulative development benchmark",
+  "schema": "fold-protein-v35-paired-panel-evaluation/v1",
+  "status": "completed",
+  "target_map_sha256": "c44fec8f005371be6a57db72bf9a679da7ab1192d30fb5776ce20587762cdcd6"
+}

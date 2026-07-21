@@ -16,7 +16,9 @@ if str(ROOT) not in sys.path:
 from verify.replay_protein_backbone_geometry_v1 import replay as replay_geometry
 from tools.verify_blind_length_ladder_v2 import verify_ladder
 from tools.verify_blind_panel_v2 import verify_panel
+from tools.verify_blind_panel_v35 import verify_panel as verify_panel_v35
 from tools.verify_protein_derivation_admission import verify_admission
+from tools.verify_protein_selector_v35_generalisation import verify_generalisation
 
 
 REGISTRY = ROOT / "verify/protein_forcing_registry_v1.json"
@@ -36,6 +38,7 @@ def source_scope() -> set[str]:
         "verify/blind_selector_v3.json",
         "verify/blind_selector_v34.json",
         "verify/blind_selector_v35.json",
+        "verify/blind_selector_v35_paired_panel.json",
         "verify/protein_backbone_geometry_v1.json",
         "verify/protein_derivation_admission_v1.json",
         "verify/protein_engine_closure_v1.json",
@@ -43,6 +46,8 @@ def source_scope() -> set[str]:
         "verify/protein_selector_v34_applied_evidence_v1.json",
         "verify/protein_selector_v35_admission_v1.json",
         "verify/protein_selector_v35_applied_evidence_v1.json",
+        "verify/protein_selector_v35_generalisation_evidence_v1.json",
+        "verify/protein_v35_generalisation_panel_targets_20260721.json",
         "verify/ubiquitin_24_lattice_manifest.json",
         "verify/test_protein_folding.c",
         "verify/test_protein_folding_3d.c",
@@ -242,7 +247,10 @@ def verify_registry() -> dict:
         raise RuntimeError("target-incapable geometry replay did not verify")
     ladder = verify_ladder(ROOT / "verify/blind_selector_v2_length_ladder_run_20260718")
     panel = verify_panel(ROOT / "verify/blind_selector_v2_panel_run_20260718")
+    paired_panel = verify_panel_v35(
+        ROOT / "verify/development_runs/protein_v35_generalisation_panel_20260721")
     admission = verify_admission()
+    generalisation = verify_generalisation()
     return {
         "schema": "fold-protein-forcing-registry-verification/v1",
         "status": "verified",
@@ -271,9 +279,11 @@ def verify_registry() -> dict:
             },
             "v2_ladder": ladder,
             "v2_panel": panel,
+            "v35_paired_panel": paired_panel,
         },
         "other_tracked_artifacts": len(registry["other_tracked_artifacts"]),
         "derivation_admission": admission,
+        "v35_generalisation": generalisation,
     }
 
 
