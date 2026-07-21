@@ -1,0 +1,57 @@
+{
+  "authority": "The engine and executable guards determine admission. V37 is a named forward-forcing constitution over the admitted complete V36 grammar; no target comparison determines runtime selection.",
+  "composition": {
+    "candidate_grammar": "All sixteen V36 directional full-chain candidates remain present.",
+    "generator_partition": "The active chain is exhausted by complete groups of binary plus colour counts; the two closed protein modes must carry the unordered shares {binary*groups, colour*groups}.",
+    "mode_assignment": "none: the relation does not identify alpha or beta with either generator",
+    "runtime_uniqueness": "Exactly one complete V36 candidate must satisfy the unordered census or execution halts.",
+    "new_parameter": "none",
+    "new_score": "none",
+    "target": "none"
+  },
+  "date": "2026-07-21",
+  "minimal_composition_roles": [
+    "engine_closed_candidate_domain",
+    "engine_closed_complete_two_boundary_grammar",
+    "engine_closed_unordered_generator_partition",
+    "runtime_unique_partition_candidate",
+    "target_incapable_geometry",
+    "seal_before_comparison"
+  ],
+  "required_derivation_guards": {
+    "assembled_form_minimality": "Generated assembly enumeration proves neither bare generator reaches the partition span; multiplication is genuinely required for each registered share.",
+    "dependency_trace_to_the_One_or_an_engine_closed_result": "The terminal One, binary count, colour count, two closed protein modes and complete sixteen-candidate grammar are inherited through the V2, V34, V35 and V36 engine closures.",
+    "engine_halt_on_violation": "Ernos and Python guards halt on indivisible active length, generator exhaustion failure, form non-uniqueness, candidate-count drift, zero/multiple qualifying paths, source drift, import drift or seal drift.",
+    "generated_complete_candidate_space": "The census is evaluated over every one of the sixteen V36 candidates; it does not create or omit a path.",
+    "measured_provenance_excluded_from_derivation": "Selector input is exactly run_id and sequence. Coordinates and structural comparison remain inaccessible until the V37 seal is verified.",
+    "named_shape_uniqueness": "Among one-operation +,-,*,/ forms, unordered b+c uniquely gives the partition span and unit multiplication uniquely gives each share.",
+    "purpose_matched_real_execution": "Required before promotion and recorded separately by the sealed ubiquitin L76 cumulative development benchmark."
+  },
+  "registered_l76_relation": {
+    "residue_count": 76,
+    "active_state_count": 75,
+    "partition_span": 5,
+    "partition_unit_count": 15,
+    "expected_unordered_mode_census": [30, 45],
+    "complete_chain_candidates": 16,
+    "required_qualifying_candidates": 1
+  },
+  "schema": "fold-protein-selector-v37-admission/v1",
+  "source_sha256": {
+    "constants/protein_blind_selector_v37_admission.ep": "4dbd867447d418ae00973dfbc95804aa5500c834a86865c00ea507380ecdb66c",
+    "tools/blind_24_lattice_selector_v3.py": "062c2e4174e42494d3631e0c6aa38a708ec1a5952dc321ce66328620ff305cb5",
+    "tools/blind_24_lattice_selector_v34.py": "bf2bcd1f03a55e29c660d0c5b95f1ea17f3ac8d463eb9647d2d02f0b077ab5a2",
+    "tools/blind_24_lattice_selector_v36.py": "430a9fabe788243f4430ad57d84b82c6605560d8c4c00a2ef2065745ca62448e",
+    "tools/blind_24_lattice_selector_v37.py": "32d016d1c20ec715bcebdf6ab9c493ec9ad7ba44cb1359dfa221a5976d95fcf5",
+    "tools/protein_backbone_geometry_v1.py": "a043e5d05a26fdf063c4703dac619f5fe918b65779a96df6d3cfa2f536fdc315",
+    "tools/residue_partition_v1.py": "f48e0ebc2c3dbc1d6d7a37370e0a2329968524d169d7b43022dce30ceacd3814",
+    "tools/run_blind_protocol_v37.py": "f371a3da57791c513d9efbf0048f3191227e926d08f9b88f67071ba11d3c5d7a",
+    "tools/verify_protein_selector_v37_admission.py": "e02e9caa8cbc5d08b65449848885301416149cbd3a2777dafe30baeea843edd3",
+    "verify/blind_selector_v36.json": "7003563201404cc96c7e919499e9392a41195af69a0a0f91778eab5191caf2cb",
+    "verify/evaluate_sealed_blind_v37.py": "364f7c06a48890f47d85b78730ec0b5ac5822376dbd56d4bd0656778a515c6ce",
+    "verify/protein_backbone_geometry_v1.json": "47da7e3f3c58a88e53b36157c5d5ed4dfa2c8b2c6e2cba91a5da34e5746571fd",
+    "verify/protein_engine_closure_v1.json": "a0e0593c9a12020cb532b9c214ed703adc695ea46086a3328f490b3a3db11220",
+    "verify/protein_selector_v36_admission_v1.json": "ebd6b80412a764b68688955633f8e5ef1933eca7eaa6f7ae301cb8a49b689c58"
+  },
+  "status": "engine_admitted_named_forward_forcing_constitution"
+}

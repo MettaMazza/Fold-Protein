@@ -56,6 +56,22 @@
       "applied_evidence": "verify/protein_selector_v35_applied_evidence_v1.json",
       "generalisation_evidence": "verify/protein_selector_v35_generalisation_evidence_v1.json",
       "target_boundary": "Selector input is exactly run_id and sequence. The paired panel jointly seals frozen V34/V35 structures for ubiquitin L76 and lambda-Cro L66 before a separately hash-bound evaluator opens either target projection."
+    },
+    "blind_selector_v36": {
+      "status": "named_forward_forcing_constitution",
+      "scope": "Complete propagation of every V35 boundary context independently from both linear-chain boundaries, generating the complete sixteen-candidate directional full-chain grammar under the inherited V3 order.",
+      "source_class": "blind_v36_two_boundary_forward_forcing",
+      "closure_receipt": "verify/protein_selector_v36_admission_v1.json",
+      "applied_evidence": "verify/protein_selector_v36_applied_evidence_v1.json",
+      "target_boundary": "Selector input is exactly run_id and sequence. The L76 output is sealed before structural comparison; the measured ordering regression is a development artifact, not a derivation-status change or Maria conclusion."
+    },
+    "blind_selector_v37": {
+      "status": "named_forward_forcing_constitution",
+      "scope": "The complete V36 candidate grammar reconciled by the engine-closed unordered binary/colour whole-chain mode census, with exactly one qualifying path required at runtime.",
+      "source_class": "blind_v37_generator_partition_forward_forcing",
+      "closure_receipt": "verify/protein_selector_v37_admission_v1.json",
+      "applied_evidence": "verify/protein_selector_v37_applied_evidence_v1.json",
+      "target_boundary": "Selector input is exactly run_id and sequence; no alpha/beta generator assignment, target, score, reward, fitted weight or template enters selection. The full structure is sealed and verified before comparison."
     }
   },
   "archived_development": {

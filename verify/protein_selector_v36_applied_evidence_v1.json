@@ -1,0 +1,41 @@
+{
+  "schema": "fold-protein-selector-v36-applied-evidence/v1",
+  "date": "2026-07-21",
+  "status": "completed",
+  "result_type": "cumulative development benchmark",
+  "official_run": false,
+  "purpose": "Apply the engine-admitted complete two-boundary grammar to ubiquitin L76 and measure whether the inherited V3 order correctly reconciles all sixteen directional full-chain candidates.",
+  "protocol": {
+    "manifest_sha256": "7003563201404cc96c7e919499e9392a41195af69a0a0f91778eab5191caf2cb",
+    "selector_input_sha256": "67bc60932fcf3e19334c4bf541c13c5cb1f3d1b6fd0de232313023b7ae505620",
+    "seal_sha256": "d6ab48824fa48f140df419efd5b906ba9307f63ae13172622781a89cafb97309",
+    "selected_states_sha256": "7107bb8832532b3562ac82513137d60cb643e3451f5ca31b16a02726a8900cef",
+    "prediction_pdb_sha256": "199d753a094a7e7c3711227e533197e90681257b22eb9f07f1a3d8c89fca4d8c"
+  },
+  "resources": {
+    "wall_seconds": 6.28,
+    "user_seconds": 6.25,
+    "system_seconds": 0.02,
+    "maximum_resident_set_bytes": 28246016,
+    "peak_memory_footprint_bytes": 22169344
+  },
+  "complete_length_measurement": {
+    "sequence_length": 76,
+    "matched_ca_atoms": 76,
+    "tm_score": 0.0782376776559524,
+    "ca_drmsd_angstrom": 11.64291303610759,
+    "mode_census": {"alpha": 39, "beta": 36, "inactive": 1},
+    "complete_chain_candidates": 16,
+    "selected_direction": "c_to_n",
+    "selected_context": [201, 201, 201]
+  },
+  "deltas_from_v35": {
+    "tm_score_absolute": -0.0022468987463586526,
+    "tm_score_percent": -2.7917134521865172,
+    "ca_drmsd_angstrom_absolute": 0.3832220225681304,
+    "ca_drmsd_performance_percent": -3.4034861356969426,
+    "states_changed": 38,
+    "states_unchanged": 38
+  },
+  "development_interpretation": "The complete two-boundary candidate relation is engine-admitted, but its applied V3-order reconciliation selected the reverse path and measured below V35 on both metrics. This run is retained as a development artifact and evidence locating the reconciliation defect; it is not a theory limit, Maria finding, official run, or failed prediction claim."
+}

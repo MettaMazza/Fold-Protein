@@ -1,0 +1,26 @@
+{
+  "ca_drmsd_angstrom": 11.64291303610759,
+  "execution": "post-seal structural comparison",
+  "matched_ca_atoms": 76,
+  "mode_census": {
+    "alpha": 39,
+    "beta": 36,
+    "inactive": 1
+  },
+  "official_run": false,
+  "result_type": "cumulative development benchmark",
+  "run_id": "ubiquitin-v36-two-boundary-l76-20260721",
+  "schema": "fold-protein-blind-evaluation/v36",
+  "seal_sha256": "d6ab48824fa48f140df419efd5b906ba9307f63ae13172622781a89cafb97309",
+  "selected_context": [
+    201,
+    201,
+    201
+  ],
+  "selected_direction": "c_to_n",
+  "sequence_length": 76,
+  "status": "completed",
+  "target_id": "1ubq.pdb",
+  "target_sha256": "d4a6812d8951cf6594e6a0763f089e35f5a80b62acb3c117b2c5565228a7b161",
+  "tm_score": 0.0782376776559524
+}

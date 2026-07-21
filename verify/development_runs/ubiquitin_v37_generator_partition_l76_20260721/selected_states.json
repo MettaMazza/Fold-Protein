@@ -1,0 +1,397 @@
+{
+  "census_trace": [
+    {
+      "context": [
+        201,
+        117,
+        117
+      ],
+      "direction": "n_to_c",
+      "qualifies": false,
+      "unordered_mode_census": [
+        31,
+        44
+      ]
+    },
+    {
+      "context": [
+        201,
+        117,
+        201
+      ],
+      "direction": "n_to_c",
+      "qualifies": false,
+      "unordered_mode_census": [
+        32,
+        43
+      ]
+    },
+    {
+      "context": [
+        117,
+        117,
+        117
+      ],
+      "direction": "n_to_c",
+      "qualifies": true,
+      "unordered_mode_census": [
+        30,
+        45
+      ]
+    },
+    {
+      "context": [
+        117,
+        201,
+        117
+      ],
+      "direction": "n_to_c",
+      "qualifies": false,
+      "unordered_mode_census": [
+        32,
+        43
+      ]
+    },
+    {
+      "context": [
+        117,
+        117,
+        201
+      ],
+      "direction": "n_to_c",
+      "qualifies": false,
+      "unordered_mode_census": [
+        31,
+        44
+      ]
+    },
+    {
+      "context": [
+        117,
+        201,
+        201
+      ],
+      "direction": "n_to_c",
+      "qualifies": false,
+      "unordered_mode_census": [
+        33,
+        42
+      ]
+    },
+    {
+      "context": [
+        201,
+        201,
+        117
+      ],
+      "direction": "n_to_c",
+      "qualifies": false,
+      "unordered_mode_census": [
+        32,
+        43
+      ]
+    },
+    {
+      "context": [
+        201,
+        201,
+        201
+      ],
+      "direction": "n_to_c",
+      "qualifies": false,
+      "unordered_mode_census": [
+        33,
+        42
+      ]
+    },
+    {
+      "context": [
+        201,
+        201,
+        201
+      ],
+      "direction": "c_to_n",
+      "qualifies": false,
+      "unordered_mode_census": [
+        36,
+        39
+      ]
+    },
+    {
+      "context": [
+        117,
+        201,
+        201
+      ],
+      "direction": "c_to_n",
+      "qualifies": false,
+      "unordered_mode_census": [
+        37,
+        38
+      ]
+    },
+    {
+      "context": [
+        117,
+        201,
+        117
+      ],
+      "direction": "c_to_n",
+      "qualifies": false,
+      "unordered_mode_census": [
+        37,
+        38
+      ]
+    },
+    {
+      "context": [
+        201,
+        201,
+        117
+      ],
+      "direction": "c_to_n",
+      "qualifies": false,
+      "unordered_mode_census": [
+        37,
+        38
+      ]
+    },
+    {
+      "context": [
+        201,
+        117,
+        201
+      ],
+      "direction": "c_to_n",
+      "qualifies": false,
+      "unordered_mode_census": [
+        37,
+        38
+      ]
+    },
+    {
+      "context": [
+        117,
+        117,
+        201
+      ],
+      "direction": "c_to_n",
+      "qualifies": false,
+      "unordered_mode_census": [
+        37,
+        38
+      ]
+    },
+    {
+      "context": [
+        201,
+        117,
+        117
+      ],
+      "direction": "c_to_n",
+      "qualifies": false,
+      "unordered_mode_census": [
+        37,
+        38
+      ]
+    },
+    {
+      "context": [
+        117,
+        117,
+        117
+      ],
+      "direction": "c_to_n",
+      "qualifies": false,
+      "unordered_mode_census": [
+        36,
+        39
+      ]
+    }
+  ],
+  "closed_domain": {
+    "alpha": 201,
+    "beta": 117
+  },
+  "complete_chain_candidates": 16,
+  "expected_unordered_mode_census": [
+    30,
+    45
+  ],
+  "final_key": [
+    0,
+    0.822769626569478,
+    19.01662106690331
+  ],
+  "modes": [
+    "beta",
+    "alpha",
+    "alpha",
+    "beta",
+    "beta",
+    "alpha",
+    "beta",
+    "beta",
+    "beta",
+    "alpha",
+    "alpha",
+    "beta",
+    "beta",
+    "alpha",
+    "beta",
+    "beta",
+    "beta",
+    "beta",
+    "alpha",
+    "alpha",
+    "beta",
+    "beta",
+    "beta",
+    "alpha",
+    "beta",
+    "alpha",
+    "beta",
+    "alpha",
+    "beta",
+    "beta",
+    "beta",
+    "beta",
+    "beta",
+    "alpha",
+    "beta",
+    "alpha",
+    "beta",
+    "beta",
+    "alpha",
+    "beta",
+    "alpha",
+    "alpha",
+    "alpha",
+    "alpha",
+    "beta",
+    "alpha",
+    "beta",
+    "alpha",
+    "beta",
+    "alpha",
+    "beta",
+    "beta",
+    "alpha",
+    "alpha",
+    "beta",
+    "beta",
+    "beta",
+    "alpha",
+    "beta",
+    "alpha",
+    "alpha",
+    "beta",
+    "beta",
+    "alpha",
+    "alpha",
+    "beta",
+    "beta",
+    "beta",
+    "alpha",
+    "beta",
+    "alpha",
+    "beta",
+    "beta",
+    "beta",
+    "beta",
+    "inactive"
+  ],
+  "official_run": false,
+  "partition_span": 5,
+  "partition_unit_count": 15,
+  "qualifying_candidates": 1,
+  "result_type": "cumulative development benchmark",
+  "run_id": "ubiquitin-v37-generator-partition-l76-20260721",
+  "schema": "fold-protein-selected-states/v37",
+  "selected_context": [
+    117,
+    117,
+    117
+  ],
+  "selected_direction": "n_to_c",
+  "sequence": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+  "states": [
+    117,
+    201,
+    201,
+    117,
+    117,
+    201,
+    117,
+    117,
+    117,
+    201,
+    201,
+    117,
+    117,
+    201,
+    117,
+    117,
+    117,
+    117,
+    201,
+    201,
+    117,
+    117,
+    117,
+    201,
+    117,
+    201,
+    117,
+    201,
+    117,
+    117,
+    117,
+    117,
+    117,
+    201,
+    117,
+    201,
+    117,
+    117,
+    201,
+    117,
+    201,
+    201,
+    201,
+    201,
+    117,
+    201,
+    117,
+    201,
+    117,
+    201,
+    117,
+    117,
+    201,
+    201,
+    117,
+    117,
+    117,
+    201,
+    117,
+    201,
+    201,
+    117,
+    117,
+    201,
+    201,
+    117,
+    117,
+    117,
+    201,
+    117,
+    201,
+    117,
+    117,
+    117,
+    117,
+    0
+  ],
+  "status": "completed"
+}

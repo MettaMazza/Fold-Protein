@@ -1,0 +1,110 @@
+# Engine admission for V37 whole-chain generator-partition reconciliation.
+#
+# V36 generates the complete sixteen-candidate two-boundary grammar.  V37 does
+# not add another candidate, score or fitted choice.  It asks whether the two
+# already-closed protein modes exhaust the active chain in the same unordered
+# binary/colour partition that generates the corpus counts.  For a registered
+# sequence length L, the selector has L - One active dihedral states.  The
+# relation is admitted only when that active count divides exactly into b+c
+# groups; the two mode censuses must then be the unordered pair {b*k, c*k}.
+# No assignment of b or c to alpha or beta is introduced.
+
+import "protein_blind_selector_v36_admission.ep"
+
+
+define protein_mode_partition_span returning Int:
+    return binary_count() + colour_count()
+
+
+define protein_selector_active_count with residue_count as Int returning Int:
+    if residue_count <= protein_interwindow_one_count():
+        return halt_violation("a protein selector requires a residue beyond the terminal One")
+    return residue_count - protein_interwindow_one_count()
+
+
+define protein_mode_partition_unit_count with residue_count as Int returning Int:
+    set active to protein_selector_active_count(residue_count)
+    set span to protein_mode_partition_span()
+    if active % span == 0:
+        return active / span
+    return halt_violation("the registered active chain does not close into binary-colour groups")
+
+
+define protein_mode_partition_binary_share with residue_count as Int returning Int:
+    return protein_mode_partition_unit_count(residue_count) * binary_count()
+
+
+define protein_mode_partition_colour_share with residue_count as Int returning Int:
+    return protein_mode_partition_unit_count(residue_count) * colour_count()
+
+
+define protein_mode_partition_leaf_numerators returning List:
+    set nums to create_list()
+    set ok to append_list(nums and binary_count())
+    set ok to append_list(nums and colour_count())
+    return nums
+
+
+define protein_mode_partition_leaf_denominators returning List:
+    set dens to create_list()
+    set ok to append_list(dens and 1)
+    set ok to append_list(dens and 1)
+    return dens
+
+
+define protein_mode_partition_span_is_minimal returning Int:
+    return canonical_assembly_is_minimal("neither bare generator spans the binary-colour partition" and protein_mode_partition_leaf_numerators() and protein_mode_partition_leaf_denominators() and protein_mode_partition_span() and 1 and 1)
+
+
+# Addition is evaluated once because the partition is unordered; swapping its
+# operands does not create a second shape.  No other one-operation shape over
+# {b,c} reaches b+c.
+define protein_mode_partition_span_is_unique returning Int:
+    set total to 0
+    set target to fraction_from_whole_number(protein_mode_partition_span())
+    set binary to fraction_from_whole_number(binary_count())
+    set colour to fraction_from_whole_number(colour_count())
+    set total to count_form_match(total and fraction_add(binary and colour) and target)
+    set total to count_form_match(total and fraction_subtract(binary and colour) and target)
+    set total to count_form_match(total and fraction_subtract(colour and binary) and target)
+    set total to count_form_match(total and fraction_multiply(binary and colour) and target)
+    set total to count_form_match(total and fraction_divide(binary and colour) and target)
+    set total to count_form_match(total and fraction_divide(colour and binary) and target)
+    return forbid_form_selection("the unordered binary-plus-colour partition span" and total)
+
+
+define protein_mode_partition_share_shape_is_unique with unit_count as Int and generator_count as Int and expected_share as Int returning Int:
+    set total to 0
+    set target to fraction_from_whole_number(expected_share)
+    set units to fraction_from_whole_number(unit_count)
+    set generator to fraction_from_whole_number(generator_count)
+    set total to count_form_match(total and fraction_add(units and generator) and target)
+    set total to count_form_match(total and fraction_subtract(units and generator) and target)
+    set total to count_form_match(total and fraction_subtract(generator and units) and target)
+    set total to count_form_match(total and fraction_multiply(units and generator) and target)
+    set total to count_form_match(total and fraction_divide(units and generator) and target)
+    set total to count_form_match(total and fraction_divide(generator and units) and target)
+    return forbid_form_selection("generator multiplication is the unique mode-share shape" and total)
+
+
+define enforce_protein_selector_v37_mode_partition with residue_count as Int returning Int:
+    set chain_guard to enforce_protein_selector_v36_complete_chain()
+    set active to protein_selector_active_count(residue_count)
+    set units to protein_mode_partition_unit_count(residue_count)
+    set binary_share to protein_mode_partition_binary_share(residue_count)
+    set colour_share to protein_mode_partition_colour_share(residue_count)
+    set exhaustion_guard to forced_to_be("the unordered generator shares exhaust every active state" and binary_share + colour_share and active)
+    set span_minimal_guard to protein_mode_partition_span_is_minimal()
+    set span_unique_guard to protein_mode_partition_span_is_unique()
+    set binary_share_guard to protein_mode_partition_share_shape_is_unique(units and binary_count() and binary_share)
+    set colour_share_guard to protein_mode_partition_share_shape_is_unique(units and colour_count() and colour_share)
+    set target_guard to forbid_target_input("V37 unordered whole-chain mode partition" and false)
+    if chain_guard == 1:
+        if exhaustion_guard == active:
+            if span_minimal_guard == 1:
+                if span_unique_guard == 1:
+                    if binary_share_guard == 1:
+                        if colour_share_guard == 1:
+                            if target_guard == 1:
+                                return 1
+    return halt_violation("V37 whole-chain generator partition did not close")

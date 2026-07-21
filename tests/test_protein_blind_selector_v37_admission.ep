@@ -1,0 +1,22 @@
+import "../constants/protein_blind_selector_v37_admission.ep"
+
+define expect_number with label as Str and got as Int and want as Int:
+    if got equals want:
+        display concat("  ok    " and concat(label and concat(" = " and int_to_string(got))))
+    else:
+        return halt_violation(concat("V37 admission count failed: " and label))
+    return 0
+
+define main:
+    display "=== Protein V37 whole-chain generator-partition admission ==="
+    set ok to expect_number("partition span" and protein_mode_partition_span() and 5)
+    set ok to expect_number("ubiquitin active states" and protein_selector_active_count(76) and 75)
+    set ok to expect_number("complete partition units" and protein_mode_partition_unit_count(76) and 15)
+    set ok to expect_number("unordered binary share" and protein_mode_partition_binary_share(76) and 30)
+    set ok to expect_number("unordered colour share" and protein_mode_partition_colour_share(76) and 45)
+    set admitted to enforce_protein_selector_v37_mode_partition(76)
+    if admitted == 1:
+        display "  ok    registered L76 generator partition closes through the engine"
+        display "=== done ==="
+        return 0
+    return halt_violation("V37 admission returned without closure")

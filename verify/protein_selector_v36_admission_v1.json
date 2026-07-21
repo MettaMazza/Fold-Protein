@@ -1,0 +1,48 @@
+{
+  "authority": "The engine and executable guards determine admission. V36 is a named forward-forcing composition of admitted relations, not a relabelled theorem derivation.",
+  "composition": {
+    "boundary_frontiers": "The binary count gives exactly two linear-chain boundaries; each propagates all eight V35 contexts.",
+    "candidate_grammar": "Two boundaries times eight contexts generates exactly sixteen directional full-chain candidates, independently equal to the closed quartet-transition census.",
+    "complete_chain_reconciliation": "Every generated candidate is compared under the unchanged admitted V3 total order and deterministic state-path tie break.",
+    "new_parameter": "none",
+    "new_score": "none",
+    "target": "none"
+  },
+  "date": "2026-07-21",
+  "minimal_composition_roles": [
+    "engine_closed_candidate_domain",
+    "engine_closed_boundary_graph",
+    "engine_closed_two_boundary_candidate_form",
+    "admitted_v3_target_free_order",
+    "target_incapable_geometry",
+    "seal_before_comparison"
+  ],
+  "required_derivation_guards": {
+    "assembled_form_minimality": "The generated +,-,*,/ grammar proves that neither bare forced ingredient reaches sixteen; the two-boundary/context form genuinely requires one operation.",
+    "dependency_trace_to_the_One_or_an_engine_closed_result": "Binary boundaries trace to b=2; eight contexts and sixteen quartet transitions trace through admitted V35 to the V2 Protein engine closure.",
+    "engine_halt_on_violation": "Ernos and Python guards halt on boundary, context, candidate, source, import, configuration, deterministic replay or seal drift.",
+    "generated_complete_candidate_space": "Both chain directions preserve all eight contexts, producing exactly 2*8=16 directional full-chain candidates.",
+    "measured_provenance_excluded_from_derivation": "Selector input is exactly run_id and sequence; target access occurs only after complete seal verification.",
+    "named_shape_uniqueness": "Among every one-operation +,-,*,/ form over two boundaries and eight contexts, only multiplication reproduces the independently closed sixteen-transition census; the admitted V3 total order resolves the complete runtime candidate set.",
+    "purpose_matched_real_execution": "Required before runtime promotion and recorded separately after the sealed ubiquitin L76 execution."
+  },
+  "schema": "fold-protein-selector-v36-admission/v1",
+  "source_sha256": {
+    "constants/protein_blind_selector_v36_admission.ep": "46885bb2c681c6fb4933a6f5707602dc2fc8d3389b03c39e24bdeda77e808e15",
+    "tools/blind_24_lattice_selector_v3.py": "062c2e4174e42494d3631e0c6aa38a708ec1a5952dc321ce66328620ff305cb5",
+    "tools/blind_24_lattice_selector_v34.py": "bf2bcd1f03a55e29c660d0c5b95f1ea17f3ac8d463eb9647d2d02f0b077ab5a2",
+    "tools/blind_24_lattice_selector_v35.py": "14e3ac555e1648c75e4ed9bbf508afa2369c0d41924dcb9b01e2122a586e6131",
+    "tools/blind_24_lattice_selector_v36.py": "430a9fabe788243f4430ad57d84b82c6605560d8c4c00a2ef2065745ca62448e",
+    "tools/protein_backbone_geometry_v1.py": "a043e5d05a26fdf063c4703dac619f5fe918b65779a96df6d3cfa2f536fdc315",
+    "tools/residue_partition_v1.py": "f48e0ebc2c3dbc1d6d7a37370e0a2329968524d169d7b43022dce30ceacd3814",
+    "tools/run_blind_protocol_v36.py": "192b6226a0866b09bd53268db9393e6642a6dda178e86afb5b9d8664c4f75c70",
+    "tools/verify_protein_selector_v36_admission.py": "65fea91078b6a831e1d999fa0d9e8e90e8b60b1ea1fb0ac426f1ce8c291adb00",
+    "verify/blind_selector_v3.json": "c6988dc13395e59aaaf6c96e6838a14477ceda7a8ecb4d4314c61ca0e8c85ecd",
+    "verify/blind_selector_v35.json": "f556848f09c2980a2247a58af80a57221730ebdfc8405633adb374cb3a34b071",
+    "verify/evaluate_sealed_blind_v36.py": "c31dcf49534a0d3213f73b41571d52ad3f35dcaf1ae83162c30861258222c59d",
+    "verify/protein_backbone_geometry_v1.json": "47da7e3f3c58a88e53b36157c5d5ed4dfa2c8b2c6e2cba91a5da34e5746571fd",
+    "verify/protein_engine_closure_v1.json": "a0e0593c9a12020cb532b9c214ed703adc695ea46086a3328f490b3a3db11220",
+    "verify/protein_selector_v35_admission_v1.json": "1af7086a79785e8815872b6eee04d1c27de3242f0085a15a230bb2ce360b025c"
+  },
+  "status": "engine_admitted_named_forward_forcing_constitution"
+}

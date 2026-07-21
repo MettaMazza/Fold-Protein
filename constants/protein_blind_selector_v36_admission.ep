@@ -1,0 +1,75 @@
+# Engine admission for complete two-boundary V36 chain reconciliation.
+#
+# A finite linear protein chain has the binary count of boundaries: N and C.
+# V35 closes eight complete three-residue contexts at one boundary. Requiring
+# the same complete context census at both boundaries therefore generates
+# b * b^c = 2 * 8 = 16 directional full-chain candidates. Independently, the
+# already-closed inter-window quartet has b^(b*b) = 16 transitions. The two
+# routes agree without a new count, beam width, cutoff, weight or target.
+
+import "protein_blind_selector_v35_admission.ep"
+import "../foundation/assembly_enumeration.ep"
+
+
+define protein_chain_boundary_count returning Int:
+    return binary_count()
+
+
+define protein_complete_chain_candidate_count returning Int:
+    set from_two_boundaries to protein_chain_boundary_count() * protein_selector_boundary_context_count()
+    set from_complete_quartet to protein_selector_boundary_transition_count()
+    return forced_to_be("two complete boundary frontiers reconcile through the quartet census" and from_two_boundaries and from_complete_quartet)
+
+
+define protein_complete_chain_leaf_numerators returning List:
+    set nums to create_list()
+    set ok to append_list(nums and protein_chain_boundary_count())
+    set ok to append_list(nums and protein_selector_boundary_context_count())
+    return nums
+
+
+define protein_complete_chain_leaf_denominators returning List:
+    set dens to create_list()
+    set ok to append_list(dens and 1)
+    set ok to append_list(dens and 1)
+    return dens
+
+
+# The complete candidate form genuinely needs one operation: neither the bare
+# boundary count nor the bare context count is the required sixteen.
+define protein_complete_chain_candidate_form_is_minimal returning Int:
+    return canonical_assembly_is_minimal("no bare boundary ingredient reaches the complete chain candidate census" and protein_complete_chain_leaf_numerators() and protein_complete_chain_leaf_denominators() and protein_complete_chain_candidate_count() and 1 and 1)
+
+
+# Of every one-operation +,-,*,/ assembly over {two boundaries, eight contexts},
+# only their product reproduces sixteen. The assembled form is not hand-picked.
+define protein_complete_chain_candidate_form_is_unique returning Int:
+    set total to 0
+    set target to fraction_from_whole_number(protein_complete_chain_candidate_count())
+    set boundaries to fraction_from_whole_number(protein_chain_boundary_count())
+    set contexts to fraction_from_whole_number(protein_selector_boundary_context_count())
+    set total to count_form_match(total and fraction_add(boundaries and contexts) and target)
+    set total to count_form_match(total and fraction_subtract(boundaries and contexts) and target)
+    set total to count_form_match(total and fraction_subtract(contexts and boundaries) and target)
+    set total to count_form_match(total and fraction_multiply(boundaries and contexts) and target)
+    set total to count_form_match(total and fraction_divide(boundaries and contexts) and target)
+    set total to count_form_match(total and fraction_divide(contexts and boundaries) and target)
+    return forbid_form_selection("the two-boundary complete-context product" and total)
+
+
+define enforce_protein_selector_v36_complete_chain returning Int:
+    set boundary_guard to enforce_protein_selector_v35_boundary_graph()
+    set candidate_count to protein_complete_chain_candidate_count()
+    set per_boundary to candidate_count / protein_chain_boundary_count()
+    set coverage_guard to forced_to_be("each chain boundary carries every closed context" and per_boundary and protein_selector_boundary_context_count())
+    set minimal_guard to protein_complete_chain_candidate_form_is_minimal()
+    set unique_guard to protein_complete_chain_candidate_form_is_unique()
+    set target_guard to forbid_target_input("V36 complete-chain reconciliation" and false)
+    if boundary_guard == 1:
+        if candidate_count == protein_selector_boundary_transition_count():
+            if coverage_guard == protein_selector_boundary_context_count():
+                if minimal_guard == 1:
+                    if unique_guard == 1:
+                        if target_guard == 1:
+                            return 1
+    return halt_violation("V36 complete two-boundary chain reconciliation did not close")

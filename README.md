@@ -76,6 +76,26 @@ the same admitted complete-boundary propagation, with no selector change between
 proteins. The exact registration, four nested seals, target projections and scores
 are bound by `verify/protein_selector_v35_generalisation_evidence_v1.json`.
 
+V36 then completed the missing two-boundary grammar: all eight V35 contexts are
+propagated independently from both ends of the linear chain, producing exactly
+`2 × 8 = 16` directional full-chain candidates, independently equal to the
+closed quartet-transition census. Its sealed L76 application showed that the
+inherited V3 order selected the reverse candidate and measured below V35; that
+execution is retained as a development artifact locating the reconciliation
+work and is not used as a theory limit or publication conclusion.
+
+V37 closes that reconciliation without a target score, fitted weight, new
+candidate, or α/β-to-generator assignment. The 75 active L76 states form 15
+complete groups of `binary + colour = 5`; the two closed mode counts must equal
+the unordered shares `{2 × 15, 3 × 15} = {30,45}`. Exactly one of all sixteen
+V36 candidates satisfies the relation, otherwise the selector halts. The full
+target-isolated, pre-comparison-sealed L76 run selected the N→C path and reached
+**TM 0.0840105987 / 11.1739658456 Å Cα dRMSD**. Against V35 this improves TM
+**4.381%** and dRMSD **0.761%**, changing only **3/76** states. V37 is therefore
+the current admitted L76 development parent. The immediate work remains
+complete-chain ubiquitin assembly; protein diversification is deferred until
+the L76 predictive TM case is strong enough for Maria to authorize it.
+
 ### Current forward-forcing stage
 
 The continuation has now moved beyond the original v3 blind baseline:
@@ -436,6 +456,8 @@ python3 -m tools.verify_protein_forcing_registry
 | `tools/blind_24_lattice_selector_v3.py` | secured provenance-isolated blind baseline |
 | `tools/blind_24_lattice_selector_v34.py` | engine-admitted V2 canonical-domain composition with the unchanged V3 target-free order |
 | `tools/blind_24_lattice_selector_v35.py` | engine-admitted complete propagation over all 8 boundary contexts and 16 quartet transitions |
+| `tools/blind_24_lattice_selector_v36.py` | complete two-boundary 16-candidate grammar and measured reconciliation-development artifact |
+| `tools/blind_24_lattice_selector_v37.py` | current L76 parent: unique unordered binary/colour whole-chain census over all V36 candidates |
 | `verify/blind_selector_v3.json` | v3 relation routes, prohibited inputs, and source hashes |
 | `verify/development_runs/ubiquitin_v3_l{8,16,24}_20260719/` | sealed blind sequence predictions and post-seal whole-prefix measurements |
 | `verify/development_runs/ubiquitin_v3_current_20260719/` | complete sealed 76-residue blind prediction and post-seal global/local measurements |

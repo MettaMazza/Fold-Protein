@@ -1,0 +1,67 @@
+{
+  "admission": "verify/protein_selector_v37_admission_v1.json",
+  "allowed_selector_input": [
+    "run_id",
+    "sequence"
+  ],
+  "composition": {
+    "additional_candidate": null,
+    "candidate_grammar": "all sixteen V36 directional full-chain candidates",
+    "complete_chain_reconciliation": "the unique V36 candidate whose two mode counts equal the unordered binary/colour shares of the active chain",
+    "mode_assignment": null,
+    "partition": "active states divide exactly into b+c groups; the unordered mode census is {b*groups,c*groups}"
+  },
+  "execution": "complete V36 grammar reconciled by the unordered engine-closed binary-colour census",
+  "foundation": {
+    "axioms": 0,
+    "theorem": "one machine-checked self-proven theorem: there is no nothing",
+    "trace": "One -> V2 alpha/beta forms -> V36 complete two-boundary grammar -> active chain / (binary+colour) -> unordered generator shares -> unique target-incapable candidate -> sealed structure"
+  },
+  "legacy_runtime_imports": [],
+  "official_run": false,
+  "prohibited_selector_input": [
+    "target",
+    "native",
+    "reference",
+    "template",
+    "distance_map",
+    "pdb_path",
+    "arbitrary_path"
+  ],
+  "protected_construction": "verify/ubiquitin_24_lattice_manifest.json",
+  "result_type": "cumulative development benchmark",
+  "schema": "fold-protein-blind-selector/v37",
+  "selector_config": {
+    "candidate_domain": {
+      "alpha": 201,
+      "beta": 117
+    },
+    "candidate_domain_count": 2,
+    "complete_chain_candidates": 16,
+    "mode_assignment": null,
+    "partition_generators": [2, 3],
+    "partition_span": 5,
+    "required_qualifying_candidates": 1,
+    "reward": null,
+    "target": null,
+    "template": null,
+    "trained_parameter": null,
+    "weight": null
+  },
+  "source_sha256": {
+    "constants/protein_blind_selector_v37_admission.ep": "4dbd867447d418ae00973dfbc95804aa5500c834a86865c00ea507380ecdb66c",
+    "tools/blind_24_lattice_selector_v3.py": "062c2e4174e42494d3631e0c6aa38a708ec1a5952dc321ce66328620ff305cb5",
+    "tools/blind_24_lattice_selector_v34.py": "bf2bcd1f03a55e29c660d0c5b95f1ea17f3ac8d463eb9647d2d02f0b077ab5a2",
+    "tools/blind_24_lattice_selector_v36.py": "430a9fabe788243f4430ad57d84b82c6605560d8c4c00a2ef2065745ca62448e",
+    "tools/blind_24_lattice_selector_v37.py": "32d016d1c20ec715bcebdf6ab9c493ec9ad7ba44cb1359dfa221a5976d95fcf5",
+    "tools/protein_backbone_geometry_v1.py": "a043e5d05a26fdf063c4703dac619f5fe918b65779a96df6d3cfa2f536fdc315",
+    "tools/residue_partition_v1.py": "f48e0ebc2c3dbc1d6d7a37370e0a2329968524d169d7b43022dce30ceacd3814",
+    "tools/run_blind_protocol_v37.py": "f371a3da57791c513d9efbf0048f3191227e926d08f9b88f67071ba11d3c5d7a",
+    "verify/evaluate_sealed_blind_v37.py": "364f7c06a48890f47d85b78730ec0b5ac5822376dbd56d4bd0656778a515c6ce",
+    "verify/protein_backbone_geometry_v1.json": "47da7e3f3c58a88e53b36157c5d5ed4dfa2c8b2c6e2cba91a5da34e5746571fd",
+    "verify/protein_engine_closure_v1.json": "a0e0593c9a12020cb532b9c214ed703adc695ea46086a3328f490b3a3db11220",
+    "verify/protein_selector_v36_admission_v1.json": "ebd6b80412a764b68688955633f8e5ef1933eca7eaa6f7ae301cb8a49b689c58",
+    "verify/protein_selector_v37_admission_v1.json": "b890a88b42e4baeafdd8d8e63fd8f190e53b6bc688c73addcb61ae4b1fcf2d6e"
+  },
+  "version": "37.0.0"
+}

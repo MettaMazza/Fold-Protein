@@ -1,0 +1,2980 @@
+{
+  "boundary_contexts": 8,
+  "boundary_trace": [
+    {
+      "active_states": 1,
+      "direction": "n_to_c",
+      "expanded_transitions": 2,
+      "inbound_per_context": [
+        1
+      ],
+      "retained_contexts": 2
+    },
+    {
+      "active_states": 2,
+      "direction": "n_to_c",
+      "expanded_transitions": 4,
+      "inbound_per_context": [
+        1
+      ],
+      "retained_contexts": 4
+    },
+    {
+      "active_states": 3,
+      "direction": "n_to_c",
+      "expanded_transitions": 8,
+      "inbound_per_context": [
+        1
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 4,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 5,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 6,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 7,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 8,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 9,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 10,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 11,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 12,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 13,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 14,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 15,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 16,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 17,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 18,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 19,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 20,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 21,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 22,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 23,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 24,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 25,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 26,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 27,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 28,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 29,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 30,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 31,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 32,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 33,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 34,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 35,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 36,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 37,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 38,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 39,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 40,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 41,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 42,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 43,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 44,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 45,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 46,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 47,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 48,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 49,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 50,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 51,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 52,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 53,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 54,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 55,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 56,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 57,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 58,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 59,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 60,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 61,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 62,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 63,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 64,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 65,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 66,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 67,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 68,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 69,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 70,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 71,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 72,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 73,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 74,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 75,
+      "direction": "n_to_c",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 1,
+      "direction": "c_to_n",
+      "expanded_transitions": 2,
+      "inbound_per_context": [
+        1
+      ],
+      "retained_contexts": 2
+    },
+    {
+      "active_states": 2,
+      "direction": "c_to_n",
+      "expanded_transitions": 4,
+      "inbound_per_context": [
+        1
+      ],
+      "retained_contexts": 4
+    },
+    {
+      "active_states": 3,
+      "direction": "c_to_n",
+      "expanded_transitions": 8,
+      "inbound_per_context": [
+        1
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 4,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 5,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 6,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 7,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 8,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 9,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 10,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 11,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 12,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 13,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 14,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 15,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 16,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 17,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 18,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 19,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 20,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 21,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 22,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 23,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 24,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 25,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 26,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 27,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 28,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 29,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 30,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 31,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 32,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 33,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 34,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 35,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 36,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 37,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 38,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 39,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 40,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 41,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 42,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 43,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 44,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 45,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 46,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 47,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 48,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 49,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 50,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 51,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 52,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 53,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 54,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 55,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 56,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 57,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 58,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 59,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 60,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 61,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 62,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 63,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 64,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 65,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 66,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 67,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 68,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 69,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 70,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 71,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 72,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 73,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 74,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    },
+    {
+      "active_states": 75,
+      "direction": "c_to_n",
+      "expanded_transitions": 16,
+      "inbound_per_context": [
+        2
+      ],
+      "retained_contexts": 8
+    }
+  ],
+  "candidates_per_boundary": {
+    "c_to_n": 8,
+    "n_to_c": 8
+  },
+  "chain_boundaries": 2,
+  "closed_domain": {
+    "alpha": 201,
+    "beta": 117
+  },
+  "complete_chain_candidates": 16,
+  "final_key": [
+    0,
+    0.7755185356239446,
+    20.705867085970652
+  ],
+  "modes": [
+    "alpha",
+    "alpha",
+    "alpha",
+    "alpha",
+    "beta",
+    "alpha",
+    "beta",
+    "beta",
+    "beta",
+    "alpha",
+    "alpha",
+    "alpha",
+    "alpha",
+    "beta",
+    "alpha",
+    "beta",
+    "alpha",
+    "beta",
+    "beta",
+    "alpha",
+    "beta",
+    "alpha",
+    "beta",
+    "alpha",
+    "beta",
+    "beta",
+    "beta",
+    "alpha",
+    "beta",
+    "alpha",
+    "alpha",
+    "alpha",
+    "beta",
+    "beta",
+    "alpha",
+    "alpha",
+    "alpha",
+    "alpha",
+    "beta",
+    "beta",
+    "beta",
+    "beta",
+    "alpha",
+    "beta",
+    "alpha",
+    "beta",
+    "alpha",
+    "alpha",
+    "alpha",
+    "alpha",
+    "alpha",
+    "alpha",
+    "beta",
+    "beta",
+    "beta",
+    "alpha",
+    "beta",
+    "alpha",
+    "beta",
+    "beta",
+    "alpha",
+    "beta",
+    "alpha",
+    "alpha",
+    "beta",
+    "beta",
+    "beta",
+    "beta",
+    "alpha",
+    "alpha",
+    "alpha",
+    "beta",
+    "beta",
+    "beta",
+    "alpha",
+    "inactive"
+  ],
+  "official_run": false,
+  "reconciliation_trace": [
+    {
+      "context": [
+        201,
+        117,
+        117
+      ],
+      "direction": "n_to_c",
+      "key": [
+        0,
+        0.8195103452207984,
+        18.643125532907863
+      ],
+      "path": [
+        117,
+        201,
+        201,
+        117,
+        117,
+        201,
+        117,
+        117,
+        117,
+        201,
+        201,
+        117,
+        117,
+        201,
+        117,
+        117,
+        117,
+        117,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        201,
+        117,
+        201,
+        201,
+        201,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        201,
+        117,
+        117,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        117,
+        201,
+        201,
+        117,
+        117
+      ]
+    },
+    {
+      "context": [
+        201,
+        117,
+        201
+      ],
+      "direction": "n_to_c",
+      "key": [
+        0,
+        0.8213852223550617,
+        18.60060075405372
+      ],
+      "path": [
+        117,
+        201,
+        201,
+        117,
+        117,
+        201,
+        117,
+        117,
+        117,
+        201,
+        201,
+        117,
+        117,
+        201,
+        117,
+        117,
+        117,
+        117,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        201,
+        117,
+        201,
+        201,
+        201,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        201,
+        117,
+        117,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        117,
+        201,
+        201,
+        117,
+        201
+      ]
+    },
+    {
+      "context": [
+        117,
+        117,
+        117
+      ],
+      "direction": "n_to_c",
+      "key": [
+        0,
+        0.822769626569478,
+        19.01662106690331
+      ],
+      "path": [
+        117,
+        201,
+        201,
+        117,
+        117,
+        201,
+        117,
+        117,
+        117,
+        201,
+        201,
+        117,
+        117,
+        201,
+        117,
+        117,
+        117,
+        117,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        201,
+        117,
+        201,
+        201,
+        201,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        201,
+        117,
+        117,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        117,
+        117
+      ]
+    },
+    {
+      "context": [
+        117,
+        201,
+        117
+      ],
+      "direction": "n_to_c",
+      "key": [
+        0,
+        0.8231878286197016,
+        19.018689468814653
+      ],
+      "path": [
+        117,
+        201,
+        201,
+        117,
+        117,
+        201,
+        117,
+        117,
+        117,
+        201,
+        201,
+        117,
+        117,
+        201,
+        117,
+        117,
+        117,
+        117,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        201,
+        117,
+        201,
+        201,
+        201,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        201,
+        117,
+        117,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        201,
+        117,
+        201,
+        117
+      ]
+    },
+    {
+      "context": [
+        117,
+        117,
+        201
+      ],
+      "direction": "n_to_c",
+      "key": [
+        0,
+        0.8238231487939237,
+        18.992318820457427
+      ],
+      "path": [
+        117,
+        201,
+        201,
+        117,
+        117,
+        201,
+        117,
+        117,
+        117,
+        201,
+        201,
+        117,
+        117,
+        201,
+        117,
+        117,
+        117,
+        117,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        201,
+        117,
+        201,
+        201,
+        201,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        201,
+        117,
+        117,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        117,
+        201
+      ]
+    },
+    {
+      "context": [
+        117,
+        201,
+        201
+      ],
+      "direction": "n_to_c",
+      "key": [
+        0,
+        0.8259995056945167,
+        18.953994630816208
+      ],
+      "path": [
+        117,
+        201,
+        201,
+        117,
+        117,
+        201,
+        117,
+        117,
+        117,
+        201,
+        201,
+        117,
+        117,
+        201,
+        117,
+        117,
+        117,
+        117,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        201,
+        117,
+        201,
+        201,
+        201,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        201,
+        117,
+        117,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        201,
+        117,
+        201,
+        201
+      ]
+    },
+    {
+      "context": [
+        201,
+        201,
+        117
+      ],
+      "direction": "n_to_c",
+      "key": [
+        0,
+        0.8311189241526463,
+        18.38291071486425
+      ],
+      "path": [
+        117,
+        201,
+        201,
+        117,
+        117,
+        201,
+        117,
+        117,
+        117,
+        201,
+        201,
+        117,
+        117,
+        201,
+        117,
+        117,
+        117,
+        117,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        201,
+        117,
+        201,
+        201,
+        201,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        201,
+        117,
+        117,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        117,
+        201,
+        201,
+        201,
+        117
+      ]
+    },
+    {
+      "context": [
+        201,
+        201,
+        201
+      ],
+      "direction": "n_to_c",
+      "key": [
+        0,
+        0.8318572909994387,
+        18.80901494078836
+      ],
+      "path": [
+        117,
+        201,
+        201,
+        117,
+        117,
+        201,
+        117,
+        117,
+        117,
+        201,
+        201,
+        117,
+        117,
+        201,
+        117,
+        117,
+        117,
+        117,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        201,
+        117,
+        201,
+        201,
+        201,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        201,
+        117,
+        117,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        201,
+        201,
+        201
+      ]
+    },
+    {
+      "context": [
+        201,
+        201,
+        201
+      ],
+      "direction": "c_to_n",
+      "key": [
+        0,
+        0.7755185356239446,
+        20.705867085970652
+      ],
+      "path": [
+        201,
+        201,
+        201,
+        201,
+        117,
+        201,
+        117,
+        117,
+        117,
+        201,
+        201,
+        201,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        201,
+        201,
+        117,
+        117,
+        201,
+        201,
+        201,
+        201,
+        117,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        201,
+        201,
+        201,
+        201,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        201,
+        117,
+        201,
+        201,
+        117,
+        117,
+        117,
+        117,
+        201,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201
+      ]
+    },
+    {
+      "context": [
+        117,
+        201,
+        201
+      ],
+      "direction": "c_to_n",
+      "key": [
+        0,
+        0.7755185356239457,
+        20.705867085970734
+      ],
+      "path": [
+        117,
+        201,
+        201,
+        201,
+        117,
+        201,
+        117,
+        117,
+        117,
+        201,
+        201,
+        201,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        201,
+        201,
+        117,
+        117,
+        201,
+        201,
+        201,
+        201,
+        117,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        201,
+        201,
+        201,
+        201,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        201,
+        117,
+        201,
+        201,
+        117,
+        117,
+        117,
+        117,
+        201,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201
+      ]
+    },
+    {
+      "context": [
+        117,
+        201,
+        117
+      ],
+      "direction": "c_to_n",
+      "key": [
+        0,
+        0.7834910722427708,
+        20.948308102169793
+      ],
+      "path": [
+        117,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        117,
+        201,
+        201,
+        201,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        201,
+        201,
+        117,
+        117,
+        201,
+        201,
+        201,
+        201,
+        117,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        201,
+        201,
+        201,
+        201,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        201,
+        117,
+        201,
+        201,
+        117,
+        117,
+        117,
+        117,
+        201,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201
+      ]
+    },
+    {
+      "context": [
+        201,
+        201,
+        117
+      ],
+      "direction": "c_to_n",
+      "key": [
+        0,
+        0.7834910722427724,
+        20.94830810216984
+      ],
+      "path": [
+        201,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        117,
+        201,
+        201,
+        201,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        201,
+        201,
+        117,
+        117,
+        201,
+        201,
+        201,
+        201,
+        117,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        201,
+        201,
+        201,
+        201,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        201,
+        117,
+        201,
+        201,
+        117,
+        117,
+        117,
+        117,
+        201,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201
+      ]
+    },
+    {
+      "context": [
+        201,
+        117,
+        201
+      ],
+      "direction": "c_to_n",
+      "key": [
+        0,
+        0.7936484283167886,
+        20.888639707984986
+      ],
+      "path": [
+        201,
+        117,
+        201,
+        201,
+        117,
+        201,
+        117,
+        117,
+        117,
+        201,
+        201,
+        201,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        201,
+        201,
+        117,
+        117,
+        201,
+        201,
+        201,
+        201,
+        117,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        201,
+        201,
+        201,
+        201,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        201,
+        117,
+        201,
+        201,
+        117,
+        117,
+        117,
+        117,
+        201,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201
+      ]
+    },
+    {
+      "context": [
+        117,
+        117,
+        201
+      ],
+      "direction": "c_to_n",
+      "key": [
+        0,
+        0.793648428316789,
+        20.888639707984982
+      ],
+      "path": [
+        117,
+        117,
+        201,
+        201,
+        117,
+        201,
+        117,
+        117,
+        117,
+        201,
+        201,
+        201,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        201,
+        201,
+        117,
+        117,
+        201,
+        201,
+        201,
+        201,
+        117,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        201,
+        201,
+        201,
+        201,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        201,
+        117,
+        201,
+        201,
+        117,
+        117,
+        117,
+        117,
+        201,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201
+      ]
+    },
+    {
+      "context": [
+        201,
+        117,
+        117
+      ],
+      "direction": "c_to_n",
+      "key": [
+        0,
+        0.7937898897395262,
+        20.713241139724545
+      ],
+      "path": [
+        201,
+        117,
+        117,
+        117,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201,
+        201,
+        201,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        201,
+        201,
+        117,
+        117,
+        201,
+        201,
+        201,
+        201,
+        117,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        201,
+        201,
+        201,
+        201,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        201,
+        117,
+        201,
+        201,
+        117,
+        117,
+        117,
+        117,
+        201,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201
+      ]
+    },
+    {
+      "context": [
+        117,
+        117,
+        117
+      ],
+      "direction": "c_to_n",
+      "key": [
+        0,
+        0.793789889739527,
+        20.713241139724605
+      ],
+      "path": [
+        117,
+        117,
+        117,
+        117,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201,
+        201,
+        201,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        201,
+        201,
+        117,
+        117,
+        201,
+        201,
+        201,
+        201,
+        117,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        201,
+        201,
+        201,
+        201,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201,
+        117,
+        201,
+        117,
+        117,
+        201,
+        117,
+        201,
+        201,
+        117,
+        117,
+        117,
+        117,
+        201,
+        201,
+        201,
+        117,
+        117,
+        117,
+        201
+      ]
+    }
+  ],
+  "result_type": "cumulative development benchmark",
+  "run_id": "ubiquitin-v36-two-boundary-l76-20260721",
+  "schema": "fold-protein-selected-states/v36",
+  "selected_context": [
+    201,
+    201,
+    201
+  ],
+  "selected_direction": "c_to_n",
+  "sequence": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+  "states": [
+    201,
+    201,
+    201,
+    201,
+    117,
+    201,
+    117,
+    117,
+    117,
+    201,
+    201,
+    201,
+    201,
+    117,
+    201,
+    117,
+    201,
+    117,
+    117,
+    201,
+    117,
+    201,
+    117,
+    201,
+    117,
+    117,
+    117,
+    201,
+    117,
+    201,
+    201,
+    201,
+    117,
+    117,
+    201,
+    201,
+    201,
+    201,
+    117,
+    117,
+    117,
+    117,
+    201,
+    117,
+    201,
+    117,
+    201,
+    201,
+    201,
+    201,
+    201,
+    201,
+    117,
+    117,
+    117,
+    201,
+    117,
+    201,
+    117,
+    117,
+    201,
+    117,
+    201,
+    201,
+    117,
+    117,
+    117,
+    117,
+    201,
+    201,
+    201,
+    117,
+    117,
+    117,
+    201,
+    0
+  ],
+  "status": "completed"
+}

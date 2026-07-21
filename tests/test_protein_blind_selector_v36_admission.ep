@@ -1,0 +1,21 @@
+import "../constants/protein_blind_selector_v36_admission.ep"
+
+define expect_number with label as Str and got as Int and want as Int:
+    if got equals want:
+        display concat("  ok    " and concat(label and concat(" = " and int_to_string(got))))
+    else:
+        return halt_violation(concat("V36 admission count failed: " and label))
+    return 0
+
+define main:
+    display "=== Protein V36 complete-chain reconciliation admission ==="
+    set ok to expect_number("linear-chain boundaries" and protein_chain_boundary_count() and 2)
+    set ok to expect_number("contexts per boundary" and protein_selector_boundary_context_count() and 8)
+    set ok to expect_number("complete chain candidates" and protein_complete_chain_candidate_count() and 16)
+    set ok to expect_number("quartet transition cross-check" and protein_selector_boundary_transition_count() and 16)
+    set admitted to enforce_protein_selector_v36_complete_chain()
+    if admitted == 1:
+        display "  ok    complete two-boundary reconciliation closes through the engine"
+        display "=== done ==="
+        return 0
+    return halt_violation("V36 admission returned without closure")

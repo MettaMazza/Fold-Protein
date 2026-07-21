@@ -295,6 +295,25 @@ TM rises from `0.0516673415` to `0.0940897863`, and mean dRMSD falls from
 generalisation evidence for the admitted complete-boundary relation. Before another
 selector, derive the next complete-chain reconciliation relation through the engine.
 
+V36 supplies that complete-chain grammar without a beam or new score: both linear
+chain boundaries propagate all eight V35 contexts, so the runtime generates exactly
+16 directional full-chain candidates, independently equal to the quartet-transition
+census. Its sealed L76 cumulative benchmark selected the reverse path under the
+inherited V3 order and measured TM `0.0782376777` / dRMSD `11.6429130361 Å`.
+Preserve that execution as a development artifact locating the reconciliation work;
+never recast it as a failed Maria prediction, finding, or theoretical boundary.
+
+V37 is the current admitted L76 parent. The engine closes an unordered whole-chain
+generator partition: 75 active states divide into 15 complete `b+c=5` groups, and
+the two closed mode censuses must be the unordered pair `{b*15,c*15}={30,45}`.
+There is deliberately no assignment of b or c to alpha or beta. Exactly one of all
+16 V36 candidates qualifies, otherwise execution halts. The target-isolated,
+pre-comparison-sealed L76 benchmark reaches TM `0.0840105987` / dRMSD
+`11.1739658456 Å`, improving V35 by 4.381% TM and 0.761% dRMSD while changing only
+3/76 states. Continue complete-chain ubiquitin assembly from V37. Do not diversify
+to another protein until the L76 predictive TM evidence is strong enough for Maria
+to authorize the transition.
+
 **The sequence must supply the spatial command.** The forward-forcing programme investigates how
 amino-acid identity can determine the invariant exclusions and relations that select among the 576
 exact states per residue. V4-V33 are archived development evidence and excluded from active
@@ -413,6 +432,12 @@ python3 -m unittest discover -s tests -p 'test_*.py' -v
   V2 closed-domain/V3-order composition and sealed complete-length protocol.
 - `tools/blind_24_lattice_selector_v35.py`, `tools/run_blind_protocol_v35.py` — admitted
   complete 8-context/16-transition boundary propagation and sealed L76 protocol.
+- `tools/blind_24_lattice_selector_v36.py`, `tools/run_blind_protocol_v36.py` — admitted
+  complete two-boundary candidate grammar; its applied ordering result is preserved
+  as a reconciliation-development artifact.
+- `tools/blind_24_lattice_selector_v37.py`, `tools/run_blind_protocol_v37.py` — current
+  L76 parent, using the engine-closed unordered binary/colour mode census over every
+  V36 candidate and halting unless exactly one qualifies.
 - `tools/run_blind_panel_v35.py`, `tools/verify_blind_panel_v35.py`,
   `verify/evaluate_sealed_blind_panel_v35.py` — frozen paired V34/V35 multi-protein
   sealing and post-seal comparison boundary.

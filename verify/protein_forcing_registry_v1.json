@@ -445,6 +445,34 @@
       "verify/protein_selector_v35_generalisation_evidence_v1.json",
       "verify/protein_v35_generalisation_panel_targets_20260721.json"
     ],
+    "blind_v36_two_boundary_forward_forcing": [
+      "constants/protein_blind_selector_v36_admission.ep",
+      "tests/test_blind_protocol_v36.py",
+      "tests/test_blind_selector_v36.py",
+      "tests/test_protein_blind_selector_v36_admission.ep",
+      "tests/test_protein_selector_v36_admission.py",
+      "tools/blind_24_lattice_selector_v36.py",
+      "tools/run_blind_protocol_v36.py",
+      "tools/verify_protein_selector_v36_admission.py",
+      "verify/blind_selector_v36.json",
+      "verify/evaluate_sealed_blind_v36.py",
+      "verify/protein_selector_v36_admission_v1.json",
+      "verify/protein_selector_v36_applied_evidence_v1.json"
+    ],
+    "blind_v37_generator_partition_forward_forcing": [
+      "constants/protein_blind_selector_v37_admission.ep",
+      "tests/test_blind_protocol_v37.py",
+      "tests/test_blind_selector_v37.py",
+      "tests/test_protein_blind_selector_v37_admission.ep",
+      "tests/test_protein_selector_v37_admission.py",
+      "tools/blind_24_lattice_selector_v37.py",
+      "tools/run_blind_protocol_v37.py",
+      "tools/verify_protein_selector_v37_admission.py",
+      "verify/blind_selector_v37.json",
+      "verify/evaluate_sealed_blind_v37.py",
+      "verify/protein_selector_v37_admission_v1.json",
+      "verify/protein_selector_v37_applied_evidence_v1.json"
+    ],
     "legacy_agent_development_unpromoted": [
       "tests/test_blind_protocol.py",
       "tools/beam_search_engine.py",
@@ -479,7 +507,28 @@
       "protected_target_assisted_forward_forcing",
       "blind_v3_named_forward_forcing_development",
       "blind_v34_closed_domain_forward_forcing",
-      "blind_v35_complete_boundary_forward_forcing"
+      "blind_v35_complete_boundary_forward_forcing",
+      "blind_v36_two_boundary_forward_forcing",
+      "blind_v37_generator_partition_forward_forcing"
+    ],
+    "v36_runtime_roots": [
+      "tools/blind_24_lattice_selector_v3.py",
+      "tools/blind_24_lattice_selector_v34.py",
+      "tools/blind_24_lattice_selector_v35.py",
+      "tools/blind_24_lattice_selector_v36.py",
+      "tools/protein_backbone_geometry_v1.py",
+      "tools/residue_partition_v1.py",
+      "tools/run_blind_protocol_v36.py"
+    ],
+    "v37_runtime_roots": [
+      "tools/blind_24_lattice_selector_v3.py",
+      "tools/blind_24_lattice_selector_v34.py",
+      "tools/blind_24_lattice_selector_v35.py",
+      "tools/blind_24_lattice_selector_v36.py",
+      "tools/blind_24_lattice_selector_v37.py",
+      "tools/protein_backbone_geometry_v1.py",
+      "tools/residue_partition_v1.py",
+      "tools/run_blind_protocol_v37.py"
     ],
     "forbidden_runtime_modules": [
       "tools.predict_structure",
@@ -1026,11 +1075,13 @@
     "v33_minimax_topology_consensus_development": "verify/development_runs/ubiquitin_v33_minimax_consensus_l{24,32,76}_20260720/ bind the archived non-admitted agent minimax-consensus architecture and its applied outputs; L24 selects V26.1, L32 selects V28, and L76 selects V29 byte-exactly at TM 0.0938366517 / 8.7716502163 Å dRMSD.",
     "v34_closed_domain_forward_forcing": "verify/development_runs/ubiquitin_v34_closed_domain_l76_20260720/ binds the admitted V2 alpha/beta domain, unchanged V3 target-free order, complete 76-residue seal and post-seal measurement; C-alpha dRMSD improves 35.28% over V3 to 34.2298081116 Å while TM measures 0.0171435350. Maria determines the conclusion and official status.",
     "v35_complete_boundary_forward_forcing": "verify/development_runs/ubiquitin_v35_complete_boundary_l76_20260721/ binds complete propagation over all 8 boundary contexts and 16 quartet transitions. verify/development_runs/protein_v35_generalisation_panel_20260721/ then binds the frozen paired V34/V35 ubiquitin and lambda-Cro executions before target-map access. V35 improves both structural measures on 2/2 proteins; lambda-Cro TM improves 24.95% to 0.1076949961 and dRMSD improves 47.53% to 10.0579513939 Å. Maria determines the conclusion and official status.",
+    "v36_two_boundary_forward_forcing": "verify/development_runs/ubiquitin_v36_two_boundary_l76_20260721/ binds the complete 2*8=16 directional full-chain grammar and its sealed L76 application. The inherited V3 order selected the reverse candidate and the measured row is preserved solely as a reconciliation-development artifact, never as a failed Maria prediction, theory limit or publication conclusion.",
+    "v37_generator_partition_forward_forcing": "verify/development_runs/ubiquitin_v37_generator_partition_l76_20260721/ binds the engine-closed unordered {30,45} binary/colour mode census over all sixteen V36 candidates, exactly one qualifying target-incapable path, seal-before-comparison, and the positive L76 advance to TM 0.0840105987 / 11.1739658456 Å dRMSD. It improves both V35 measures while changing only 3/76 states. Maria determines the conclusion and official status.",
     "classification": "A recorded development execution is not a Maria finding, loss or failed prediction."
   },
   "artifact_inventory": {
-    "tracked_pdb_files": 132,
-    "tracked_pdb_file_set_sha256": "7e1cbcf46bed829f84888876b9dbc9c1fdb80c290eef82b6f809ebd445a04e0f",
+    "tracked_pdb_files": 134,
+    "tracked_pdb_file_set_sha256": "89fb8f8a820929822017ed104607cff21de80ccbe8d180198b11e8538204ba09",
     "classes": {
       "experimental_reference": [
         "verify/1cop.pdb",
@@ -1198,6 +1249,12 @@
         "verify/development_runs/ubiquitin_v35_complete_boundary_l76_20260721/prediction.pdb",
         "verify/development_runs/protein_v35_generalisation_panel_20260721/lambda-cro-1cop-d-model1/v35/prediction.pdb",
         "verify/development_runs/protein_v35_generalisation_panel_20260721/ubiquitin-1ubq-a-model1/v35/prediction.pdb"
+      ],
+      "sealed_v36_two_boundary_forward_forcing_output": [
+        "verify/development_runs/ubiquitin_v36_two_boundary_l76_20260721/prediction.pdb"
+      ],
+      "sealed_v37_generator_partition_forward_forcing_output": [
+        "verify/development_runs/ubiquitin_v37_generator_partition_l76_20260721/prediction.pdb"
       ],
       "legacy_preproject_development_artifact": [
         "1ubq_autonomous.pdb",

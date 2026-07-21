@@ -79,6 +79,8 @@ def verify_admission() -> dict:
     )
     expected_manifests.add("blind_selector_v34")
     expected_manifests.add("blind_selector_v35")
+    expected_manifests.add("blind_selector_v36")
+    expected_manifests.add("blind_selector_v37")
     actual_manifests = selector_manifests()
     if actual_manifests != expected_manifests:
         raise RuntimeError(
@@ -108,6 +110,8 @@ def verify_admission() -> dict:
         "blind_v3_named_forward_forcing_development",
         "blind_v34_closed_domain_forward_forcing",
         "blind_v35_complete_boundary_forward_forcing",
+        "blind_v36_two_boundary_forward_forcing",
+        "blind_v37_generator_partition_forward_forcing",
     }
     if active != allowed_active:
         raise RuntimeError(

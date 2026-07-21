@@ -1,0 +1,31 @@
+{
+  "ca_drmsd_angstrom": 11.173965845563586,
+  "execution": "post-seal structural comparison",
+  "expected_unordered_mode_census": [
+    30,
+    45
+  ],
+  "matched_ca_atoms": 76,
+  "mode_census": {
+    "alpha": 30,
+    "beta": 45,
+    "inactive": 1
+  },
+  "official_run": false,
+  "qualifying_candidates": 1,
+  "result_type": "cumulative development benchmark",
+  "run_id": "ubiquitin-v37-generator-partition-l76-20260721",
+  "schema": "fold-protein-blind-evaluation/v37",
+  "seal_sha256": "77403c31efffc07df19fbd349931a3c71a3383e81863630cd91121c2327f8b03",
+  "selected_context": [
+    117,
+    117,
+    117
+  ],
+  "selected_direction": "n_to_c",
+  "sequence_length": 76,
+  "status": "completed",
+  "target_id": "1ubq.pdb",
+  "target_sha256": "d4a6812d8951cf6594e6a0763f089e35f5a80b62acb3c117b2c5565228a7b161",
+  "tm_score": 0.08401059869827314
+}

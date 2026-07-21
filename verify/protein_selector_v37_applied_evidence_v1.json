@@ -1,0 +1,54 @@
+{
+  "schema": "fold-protein-selector-v37-applied-evidence/v1",
+  "date": "2026-07-21",
+  "status": "completed",
+  "result_type": "cumulative development benchmark",
+  "official_run": false,
+  "purpose": "Apply the engine-admitted unordered binary/colour whole-chain census over every V36 candidate to ubiquitin L76, seal before target access, and measure the complete-chain structural delta.",
+  "protocol": {
+    "manifest_sha256": "8aab648ec0dd0a065bf0ed12768bbf4eca2096742d8d99a34a940b6ecbd5627b",
+    "selector_input_sha256": "9cf22323f5a788048e1cd87dea8050a56230b5fa4bb519c83c3e66e60ef0d132",
+    "seal_sha256": "77403c31efffc07df19fbd349931a3c71a3383e81863630cd91121c2327f8b03",
+    "selected_states_sha256": "2ede9191967a598869e5fadfa2278fdc78d0c682468ba3552d883010d7f43a71",
+    "prediction_pdb_sha256": "c272c3596077fbf402c02e181171c23645babd54b651fd96e3e2829dac2fb134",
+    "evaluation_sha256": "f4f78576d6ab79521fb69619eb9277c101441111f543e3fe12b31584ee4f53b1"
+  },
+  "resources": {
+    "wall_seconds": 6.23,
+    "user_seconds": 6.20,
+    "system_seconds": 0.02,
+    "maximum_resident_set_bytes": 26345472,
+    "peak_memory_footprint_bytes": 20137216
+  },
+  "complete_length_measurement": {
+    "sequence_length": 76,
+    "matched_ca_atoms": 76,
+    "tm_score": 0.08401059869827314,
+    "ca_drmsd_angstrom": 11.173965845563586,
+    "mode_census": {"alpha": 30, "beta": 45, "inactive": 1},
+    "complete_chain_candidates": 16,
+    "partition_span": 5,
+    "partition_unit_count": 15,
+    "expected_unordered_mode_census": [30, 45],
+    "qualifying_candidates": 1,
+    "selected_direction": "n_to_c",
+    "selected_context": [117, 117, 117]
+  },
+  "deltas_from_v35": {
+    "tm_score_absolute": 0.003526022295962092,
+    "tm_score_improvement_percent": 4.3809913073740825,
+    "ca_drmsd_angstrom_absolute": -0.08572516797587326,
+    "ca_drmsd_performance_improvement_percent": 0.7613456521390449,
+    "states_changed": 3,
+    "states_unchanged": 73
+  },
+  "deltas_from_v36": {
+    "tm_score_absolute": 0.005772921042320744,
+    "tm_score_improvement_percent": 7.378696831604548,
+    "ca_drmsd_angstrom_absolute": -0.4689471905440037,
+    "ca_drmsd_performance_improvement_percent": 4.027747944948834,
+    "states_changed": 35,
+    "states_unchanged": 41
+  },
+  "engineering_inference_not_maria_conclusion": "The simultaneous TM and dRMSD advance over V35, achieved by changing only three of 76 states, is positive applied evidence that the engine-closed unordered generator census corrects complete-chain reconciliation while preserving the V35 boundary-propagation gain. It does not declare an official run or substitute an agent conclusion for Maria's."
+}
