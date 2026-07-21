@@ -96,6 +96,14 @@
       "closure_receipt": "verify/protein_selector_v40_admission_v1.json",
       "applied_evidence": "verify/protein_selector_v40_applied_evidence_v1.json",
       "target_boundary": "Selector input is exactly run_id and sequence. Parent-child admission, not measured parent performance, defines the lineage; both complete fixed points and the emitted structure are sealed before comparison."
+    },
+    "blind_selector_v41": {
+      "status": "named_forward_forcing_constitution",
+      "scope": "The two sealed V40 fixed points reconciled across the complete binary cube of their unique maximal connected disagreement components, followed by complete paired-state descent under the unchanged admitted V3 order.",
+      "source_class": "blind_v41_component_cube_forward_forcing",
+      "closure_receipt": "verify/protein_selector_v41_admission_v1.json",
+      "applied_evidence": "verify/protein_selector_v41_applied_evidence_v1.json",
+      "target_boundary": "Selector input is exactly run_id and sequence. The 42 disagreements and 13 maximal chain components are counted only from already sealed target-free V40 states; all 8,192 component assignments and the emitted fixed point are sealed before comparison."
     }
   },
   "archived_development": {

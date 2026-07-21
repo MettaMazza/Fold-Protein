@@ -1,0 +1,36 @@
+{
+  "schema": "fold-protein-selector-v41-admission/v1",
+  "date": "2026-07-21",
+  "status": "engine_admitted_named_forward_forcing_constitution",
+  "authority": "V41 is admitted only through the source-bound V40 fixed-point rows, unique maximal components of their linear-chain disagreement graph, complete binary component assignment space, and the already-admitted paired-state descent.",
+  "composition": {
+    "parent_fixed_points": 2,
+    "disagreements": 42,
+    "maximal_connected_components": 13,
+    "complete_component_cube": 8192,
+    "paired_states_per_residue": 576,
+    "new_parameter": "none",
+    "new_score": "none",
+    "target": "none"
+  },
+  "required_derivation_guards": {
+    "dependency_trace_to_the_One_or_an_engine_closed_result": "V40, the registered linear chain, binary count, complete paired lattice and V3 target-free order are admitted dependencies.",
+    "generated_complete_candidate_space": "Runtime reconstructs all maximal connected disagreement components and every binary assignment across them.",
+    "assembled_form_minimality": "A component cannot be split without ceasing to be a maximal connected component, and omitting either binary assignment makes the cube incomplete.",
+    "named_shape_uniqueness": "Linear-chain adjacency uniquely partitions the disagreement set into maximal connected components.",
+    "measured_provenance_excluded_from_derivation": "Components are counted from sealed target-free state rows; TM and dRMSD do not enter construction.",
+    "engine_halt_on_violation": "Guards halt on parent, count, component, cube, source, fixed-point or seal drift.",
+    "purpose_matched_real_execution": "Required before promotion through a sealed L76 cumulative development benchmark."
+  },
+  "source_sha256": {
+    "constants/protein_blind_selector_v41_admission.ep": "20c9a7c73eacbb5f3faa23c23142fca08ba5eafe69b273aa291217374a11c3e1",
+    "tools/blind_24_lattice_selector_v41.py": "fcc2bed0480861f86f10399974421460c9b001c5fcf84ed32ba8d1709e942567",
+    "tools/run_blind_protocol_v41.py": "f66c41eb96ce5da9f2ce548fc0f1fea68fdb50a7d398ff2b8c6457be35d2a2a9",
+    "tools/verify_protein_selector_v41_admission.py": "5d48f534736e9260e488fb40bbcdf8ea2dc5d5e3f1f2d0288b6045f4939faefe",
+    "verify/evaluate_sealed_blind_v41.py": "81944952aaf0cd7af8870d3f3161cf1de24f2d6abc4d157105f07470a601cc12",
+    "verify/blind_selector_v40.json": "6f6b6b5e94778d8700d24fdbbea150019e9af82e38698fab30a96426568706ab",
+    "verify/protein_selector_v40_admission_v1.json": "47beddcd6adcce9c7088f33195ee4a92178e01747f395f7547aa64e366754269",
+    "verify/development_runs/ubiquitin_v40_lineage_paired_fixed_point_l76_20260721/seal.json": "d1f40c8f3441f9a2038c9c536fd7df11cee3f6e956f63f20166df2a9d3479133",
+    "verify/development_runs/ubiquitin_v40_lineage_paired_fixed_point_l76_20260721/selected_states.json": "3ab3808c17bc13500850c1d9d4002d89a8a6a4c7df478cf82b444f501a0557e2"
+  }
+}

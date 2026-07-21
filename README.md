@@ -128,9 +128,18 @@ no measured parent score defines the construction. The sealed L76 run performs
 dRMSD**. This improves V38 by **15.72% TM** and **7.67% dRMSD** and establishes
 the lowest recorded blind L76 dRMSD in the repository. The second already-sealed
 fixed point retains **0.1461439410 TM**. V39 therefore remains the leading blind
-TM frontier while V40 becomes the leading blind distance frontier. The immediate
-work is their complete engine-closed fixed-point reconciliation on ubiquitin;
-post-seal measurements may diagnose it but may not define the selector.
+TM frontier while V40 becomes the leading blind distance frontier. Their complete
+score-independent fixed-point reconciliation is the V41 construction below;
+post-seal measurements diagnose it but do not define the selector.
+
+V41 completes that score-independent reconciliation. The 42 differences between
+V40's sealed fixed points uniquely decompose into 13 maximal connected chain
+components, and the runtime exhausts all **8,192** binary assignments before
+another complete paired-state sweep. The sealed result is byte-identical to V40
+at **TM 0.1220133907 / 6.4962002453 Å dRMSD**. This unchanged closure result
+does not establish a predictive failure or theoretical wall; it shows that the
+next L76 architecture must derive a new inter-component or whole-chain topology
+relation rather than another subset of the same component cube.
 
 ### Current forward-forcing stage
 

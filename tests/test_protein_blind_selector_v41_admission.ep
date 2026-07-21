@@ -1,0 +1,18 @@
+import "../constants/protein_blind_selector_v41_admission.ep"
+
+define expect_number with label as Str and got as Int and want as Int:
+    if got equals want:
+        display concat("  ok    " and concat(label and concat(" = " and int_to_string(got))))
+    else:
+        return halt_violation(concat("V41 admission count failed: " and label))
+    return 0
+
+define main:
+    display "=== Protein V41 connected-component cube admission ==="
+    set ok to expect_number("complete binary component cube" and protein_component_assignment_count(13) and 8192)
+    set admitted to enforce_protein_selector_v41_component_cube(76 and 42 and 13 and 8192)
+    if admitted == 1:
+        display "  ok    complete component cube and paired descent close"
+        display "=== done ==="
+        return 0
+    return halt_violation("V41 admission returned without closure")

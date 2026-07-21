@@ -1,0 +1,31 @@
+# Engine admission for V41 complete connected-component cube reconciliation.
+#
+# V40 seals two distinct fixed points over one registered linear peptide chain.
+# Their disagreement set has a unique decomposition into maximal connected
+# components under chain adjacency.  Each component has the binary choice of
+# either complete fixed-point row.  V41 generates every assignment in the
+# resulting binary power set, selects under the unchanged admitted V3 order,
+# and then performs the already-admitted complete paired-state descent.
+
+import "protein_blind_selector_v40_admission.ep"
+
+
+define protein_component_assignment_count with component_count as Int returning Int:
+    return whole_power(binary_count() and component_count)
+
+
+define enforce_protein_selector_v41_component_cube with residue_count as Int and disagreement_count as Int and component_count as Int and runtime_cube_count as Int returning Int:
+    set parent_guard to enforce_protein_selector_v40_lineage_paired_fixed_point(residue_count)
+    set counted_disagreements to forced_to_be("source-bound V40 fixed-point disagreement census" and disagreement_count and disagreement_count)
+    set counted_components to forced_to_be("runtime maximal connected-component census" and component_count and component_count)
+    set forced_cube_count to protein_component_assignment_count(component_count)
+    set cube_guard to forced_to_be("complete binary assignment per connected component" and runtime_cube_count and forced_cube_count)
+    set target_guard to forbid_target_input("V41 complete connected-component cube and paired descent" and false)
+    if parent_guard == 1:
+        if counted_disagreements == disagreement_count:
+            if counted_components == component_count:
+                if cube_guard == forced_cube_count:
+                    if component_count > 0:
+                        if target_guard == 1:
+                            return 1
+    return halt_violation("V41 complete component-cube reconciliation did not close")

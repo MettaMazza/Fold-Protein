@@ -6,7 +6,7 @@
     "publication": "Maria Smith alone declares publishable conclusions, benchmark findings, victories, losses and real-run status.",
     "agent_evidence": "Agent-created probes and development executions remain auxiliary evidence unless Maria adopts a conclusion from them."
   },
-  "route_status_interpretation": "Every blind_selector_v4 through blind_selector_v33 route-status entry describes archived non-admitted agent development implementation and applied evidence only. V34 through V40 are separately admitted named forward-forcing compositions whose complete generated spaces, uniqueness and halt guards are registered individually. Terms inside immutable historical manifests or source-bound descriptions do not promote an assembled selector form to forced or derived status. The separate derivation-admission gate is authoritative.",
+  "route_status_interpretation": "Every blind_selector_v4 through blind_selector_v33 route-status entry describes archived non-admitted agent development implementation and applied evidence only. V34 through V41 are separately admitted named forward-forcing compositions whose complete generated spaces, uniqueness and halt guards are registered individually. Terms inside immutable historical manifests or source-bound descriptions do not promote an assembled selector form to forced or derived status. The separate derivation-admission gate is authoritative.",
   "visible_history": {
     "first_commit": "6b08f5288034d0958a15c8b4b0af0edb59715e37",
     "first_commit_date": "2026-07-15T10:58:26+01:00",
@@ -61,6 +61,7 @@
     "blind_selector_v38": "engine-admitted complete coordinate fixed-point descent over all 24 values of phi and psi, both chain directions and both axis orders; its sealed L76 result advances both V37 measures",
     "blind_selector_v39": "engine-admitted causal reconciliation of all four sealed V38 fixed points through the registered N-to-C, phi-before-psi peptide-construction order; its sealed L76 result is the repository's leading recorded blind TM branch",
     "blind_selector_v40": "engine-admitted complete binary parent-child lineage crossed with all 576 paired states at every active residue and descended N-to-C to strict fixed points; its sealed L76 output is the repository's leading recorded blind distance branch",
+    "blind_selector_v41": "engine-admitted exhaustive reconciliation of all binary assignments over the unique maximal connected components of the two sealed V40 fixed points, followed by complete paired-state descent; its sealed L76 output is byte-identical to V40",
     "legacy_engines": "retained history only; excluded from promoted and active continuation routes"
   },
   "inherited_toolchain_boundary": {
@@ -518,6 +519,19 @@
       "verify/protein_selector_v40_admission_v1.json",
       "verify/protein_selector_v40_applied_evidence_v1.json"
     ],
+    "blind_v41_component_cube_forward_forcing": [
+      "constants/protein_blind_selector_v41_admission.ep",
+      "tests/test_blind_selector_v41.py",
+      "tests/test_protein_blind_selector_v41_admission.ep",
+      "tests/test_protein_selector_v41_admission.py",
+      "tools/blind_24_lattice_selector_v41.py",
+      "tools/run_blind_protocol_v41.py",
+      "tools/verify_protein_selector_v41_admission.py",
+      "verify/blind_selector_v41.json",
+      "verify/evaluate_sealed_blind_v41.py",
+      "verify/protein_selector_v41_admission_v1.json",
+      "verify/protein_selector_v41_applied_evidence_v1.json"
+    ],
     "legacy_agent_development_unpromoted": [
       "tests/test_blind_protocol.py",
       "tools/beam_search_engine.py",
@@ -557,7 +571,8 @@
       "blind_v37_generator_partition_forward_forcing",
       "blind_v38_coordinate_fixed_point_forward_forcing",
       "blind_v39_peptide_causal_forward_forcing",
-      "blind_v40_lineage_paired_fixed_point_forward_forcing"
+      "blind_v40_lineage_paired_fixed_point_forward_forcing",
+      "blind_v41_component_cube_forward_forcing"
     ],
     "v36_runtime_roots": [
       "tools/blind_24_lattice_selector_v3.py",
@@ -608,6 +623,20 @@
       "tools/protein_backbone_geometry_v1.py",
       "tools/residue_partition_v1.py",
       "tools/run_blind_protocol_v40.py"
+    ],
+    "v41_runtime_roots": [
+      "tools/blind_24_lattice_selector_v3.py",
+      "tools/blind_24_lattice_selector_v34.py",
+      "tools/blind_24_lattice_selector_v35.py",
+      "tools/blind_24_lattice_selector_v36.py",
+      "tools/blind_24_lattice_selector_v37.py",
+      "tools/blind_24_lattice_selector_v38.py",
+      "tools/blind_24_lattice_selector_v39.py",
+      "tools/blind_24_lattice_selector_v40.py",
+      "tools/blind_24_lattice_selector_v41.py",
+      "tools/protein_backbone_geometry_v1.py",
+      "tools/residue_partition_v1.py",
+      "tools/run_blind_protocol_v41.py"
     ],
     "forbidden_runtime_modules": [
       "tools.predict_structure",
@@ -1159,11 +1188,12 @@
     "v38_coordinate_fixed_point_forward_forcing": "verify/development_runs/ubiquitin_v38_coordinate_fixed_point_l76_20260721/ binds complete 24-value one-coordinate scans, all four boundary/axis orders, strict finite fixed-point termination, 136,800 target-incapable full-chain evaluations and seal-before-comparison. The L76 result advances both V37 metrics to TM 0.1054402742 / 7.0361416061 Å dRMSD. Maria determines the conclusion and official status.",
     "v39_peptide_causal_forward_forcing": "verify/development_runs/ubiquitin_v39_peptide_causal_l76_20260721/ binds the complete sealed V38 fixed-point grammar, registered N-to-C peptide direction, engine-closed phi-before-One-advanced-psi event order, unique qualifying row and seal-before-comparison. The L76 result reaches TM 0.1486092106 / 7.2111851336 Å dRMSD: the leading recorded blind L76 TM branch. Maria determines the conclusion and official status.",
     "v40_lineage_paired_fixed_point_forward_forcing": "verify/development_runs/ubiquitin_v40_lineage_paired_fixed_point_l76_20260721/ binds the admitted binary V38-parent/V39-child lineage, all 576 paired states at every active residue, causal N-to-C propagation, strict fixed-point termination, 518,400 target-free evaluations and seal-before-comparison. The emitted L76 row reaches TM 0.1220133907 / 6.4962002453 Å dRMSD, improving both V38 measures and establishing the leading recorded blind distance branch; the second sealed fixed point retains TM 0.1461439410. Maria determines the conclusion and official status.",
+    "v41_component_cube_forward_forcing": "verify/development_runs/ubiquitin_v41_component_cube_l76_20260721/ binds the 42 target-free V40 fixed-point disagreements, their unique 13 maximal connected chain components, all 8,192 binary component assignments, complete paired-state descent and seal-before-comparison. The emitted L76 row is byte-identical to V40 at TM 0.1220133907 / 6.4962002453 Å dRMSD, providing complete applied closure evidence for component recombination under the unchanged order. Maria determines the conclusion and official status.",
     "classification": "A recorded development execution is not a Maria finding, loss or failed prediction."
   },
   "artifact_inventory": {
-    "tracked_pdb_files": 137,
-    "tracked_pdb_file_set_sha256": "2b6443f60d360f02422de7034109fae39bfbe118d7cbae25e7dda53fc0847580",
+    "tracked_pdb_files": 138,
+    "tracked_pdb_file_set_sha256": "eac68e13fb8af8e4cdafe1eb59d07100565e064f80801b17abf666052ebd0843",
     "classes": {
       "experimental_reference": [
         "verify/1cop.pdb",
@@ -1346,6 +1376,9 @@
       ],
       "sealed_v40_lineage_paired_fixed_point_forward_forcing_output": [
         "verify/development_runs/ubiquitin_v40_lineage_paired_fixed_point_l76_20260721/prediction.pdb"
+      ],
+      "sealed_v41_component_cube_forward_forcing_output": [
+        "verify/development_runs/ubiquitin_v41_component_cube_l76_20260721/prediction.pdb"
       ],
       "legacy_preproject_development_artifact": [
         "1ubq_autonomous.pdb",
