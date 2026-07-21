@@ -1,0 +1,90 @@
+{
+  "schema": "fold-protein-selector-v40-applied-evidence/v1",
+  "date": "2026-07-21",
+  "status": "completed",
+  "result_type": "cumulative development benchmark",
+  "official_run": false,
+  "purpose": "Execute complete 576-state N-to-C paired-state fixed-point descent from both members of the admitted V38-parent/V39-causal-child lineage, seal the reconciled output, then measure only after seal verification.",
+  "protocol": {
+    "manifest_sha256": "6f6b6b5e94778d8700d24fdbbea150019e9af82e38698fab30a96426568706ab",
+    "selector_input_sha256": "21456f1b42856fd2cbf3480bdf6a0f91e8816fb87376c2be54230534c14970ae",
+    "seal_sha256": "d1f40c8f3441f9a2038c9c536fd7df11cee3f6e956f63f20166df2a9d3479133",
+    "selected_states_sha256": "3ab3808c17bc13500850c1d9d4002d89a8a6a4c7df478cf82b444f501a0557e2",
+    "prediction_pdb_sha256": "0a5603f8fc5c23ec57784bae2015e5dafbeab0442fe043577d4a38308a932f1e",
+    "evaluation_sha256": "0181e25103c3a79e293d564471c353c3d5f8b90f8b1d7aef7abf248ec2c00acb",
+    "fixed_point_postseal_sha256": "0ec2c0e0ec3f94a2ee4d8dd5fc6c109e4a4fd03d96ba6b6ef715c6f086e13e7d"
+  },
+  "resources": {
+    "wall_seconds": 238.26,
+    "aggregate_user_seconds": 5397.98,
+    "system_seconds": 13.45,
+    "maximum_resident_set_bytes": 38617088,
+    "peak_memory_footprint_bytes": 32212352,
+    "parallel_workers": 24
+  },
+  "complete_length_measurement": {
+    "sequence_length": 76,
+    "matched_ca_atoms": 76,
+    "tm_score": 0.12201339071424178,
+    "ca_drmsd_angstrom": 6.496200245253753,
+    "states_changed_from_v38": 16,
+    "states_changed_from_v39": 42,
+    "lineage_seed_count": 2,
+    "paired_state_count": 576,
+    "updates_per_residue_across_lineage": 1152,
+    "distinct_fixed_points": 2,
+    "selected_fixed_point": "v38_parent",
+    "total_paired_evaluations": 518400,
+    "fixed_point_sweeps": {
+      "v38_parent": 7,
+      "v39_causal_child": 5
+    }
+  },
+  "sealed_fixed_point_postseal_measurements": [
+    {
+      "seed": "v38_parent",
+      "selected_emission": true,
+      "evaluations": 302400,
+      "sweeps": 7,
+      "tm_score": 0.12201339071424178,
+      "ca_drmsd_angstrom": 6.496200245253753
+    },
+    {
+      "seed": "v39_causal_child",
+      "selected_emission": false,
+      "evaluations": 216000,
+      "sweeps": 5,
+      "tm_score": 0.14614394099328498,
+      "ca_drmsd_angstrom": 7.249751078454174
+    }
+  ],
+  "deltas_from_v39": {
+    "tm_score_absolute": -0.026595819871083448,
+    "tm_score_performance_change_percent": -17.8964814942027,
+    "ca_drmsd_angstrom_absolute": -0.7149848883746301,
+    "ca_drmsd_performance_improvement_percent": 9.914942899474255
+  },
+  "deltas_from_v38": {
+    "tm_score_absolute": 0.01657311653262837,
+    "tm_score_improvement_percent": 15.718013502205386,
+    "ca_drmsd_angstrom_absolute": -0.5399413608896388,
+    "ca_drmsd_performance_improvement_percent": 7.673827377467868
+  },
+  "deltas_from_v26_1": {
+    "tm_score_absolute": -0.006743156885758217,
+    "tm_score_performance_change_percent": -5.237137071045717,
+    "ca_drmsd_angstrom_absolute": -0.26864755064624646,
+    "ca_drmsd_performance_improvement_percent": 3.9712283077391164
+  },
+  "deltas_from_v3": {
+    "tm_score_absolute": 0.09502065276424178,
+    "tm_score_improvement_percent": 352.0230253790975,
+    "ca_drmsd_angstrom_absolute": -46.39694653544625,
+    "ca_drmsd_performance_improvement_percent": 87.7182572022277
+  },
+  "recorded_l76_position": {
+    "distance_geometry": "lowest recorded blind L76 C-alpha dRMSD in the repository at execution time",
+    "topology": "V39 retains the highest recorded blind L76 TM score"
+  },
+  "engineering_inference_not_maria_conclusion": "Complete joint phi/psi descent from the admitted parent-child lineage advances both V38 measures and establishes a new recorded blind L76 distance frontier. The two sealed fixed points preserve separate strong topology and distance branches, locating the next engine work at their complete constitutional reconciliation rather than at another unforced selector. Maria alone determines official and publication status."
+}

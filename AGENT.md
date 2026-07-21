@@ -303,7 +303,7 @@ inherited V3 order and measured TM `0.0782376777` / dRMSD `11.6429130361 Å`.
 Preserve that execution as a development artifact locating the reconciliation work;
 never recast it as a failed Maria prediction, finding, or theoretical boundary.
 
-V37 is the current admitted L76 parent. The engine closes an unordered whole-chain
+V37 became the admitted L76 parent at that stage. The engine closes an unordered whole-chain
 generator partition: 75 active states divide into 15 complete `b+c=5` groups, and
 the two closed mode censuses must be the unordered pair `{b*15,c*15}={30,45}`.
 There is deliberately no assignment of b or c to alpha or beta. Exactly one of all
@@ -314,7 +314,7 @@ pre-comparison-sealed L76 benchmark reaches TM `0.0840105987` / dRMSD
 to another protein until the L76 predictive TM evidence is strong enough for Maria
 to authorize the transition.
 
-V38 is now the current admitted L76 parent. It expands V37 into the complete
+V38 then became the admitted L76 parent. It expands V37 into the complete
 paired lattice without an arbitrary beam: every active phi and psi coordinate is
 scanned over all 24 counted axis values, every other coordinate is preserved, and
 both chain directions cross both phi/psi axis orders. Each of the four independent
@@ -335,9 +335,23 @@ L76 cumulative development benchmark reaches **TM `0.1486092106` / dRMSD
 `7.2111851336 Å`**, the highest recorded blind L76 TM in the repository. Against
 V38, TM improves **40.94%** while dRMSD performance changes **-2.49%**; against
 V13, both measures improve (**4.46% TM** and **8.40% dRMSD**). Treat V39 as the
-current admitted TM frontier and V38 as the current admitted distance frontier.
-Continue ubiquitin through an engine-closed reconciliation of those frontiers;
+admitted TM frontier at that stage and V38 as the admitted distance frontier.
+The next step was an engine-closed reconciliation of those frontiers;
 do not diversify until Maria authorizes it.
+
+V40 completes that next architectural layer without using either parent's measured
+score to define the form. The admitted V38 emission and its V39 causal child are
+the complete binary parent-child lineage. From both seeds, every active residue
+scans all `24 × 24 = 576` joint phi/psi states in the registered N-to-C direction,
+then repeats until a complete sweep changes zero states under the unchanged V3
+order. The sealed L76 run executes **518,400** paired-state evaluations and reaches
+**TM `0.1220133907` / dRMSD `6.4962002453 Å`**. It improves V38 by **15.72% TM**
+and **7.67% dRMSD** and is the lowest recorded blind L76 dRMSD in the repository.
+V39 remains the highest recorded blind L76 TM branch. Both V40 lineage fixed points
+are sealed: the V38-seeded row carries the distance frontier, while the V39-seeded
+row retains **TM `0.1461439410`**. Continue ubiquitin through a complete engine-closed
+reconciliation of those sealed fixed points; do not choose between them from the
+post-seal scores and do not diversify until Maria authorizes it.
 
 **The sequence must supply the spatial command.** The forward-forcing programme investigates how
 amino-acid identity can determine the invariant exclusions and relations that select among the 576

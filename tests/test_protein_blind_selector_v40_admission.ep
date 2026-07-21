@@ -1,0 +1,21 @@
+import "../constants/protein_blind_selector_v40_admission.ep"
+
+define expect_number with label as Str and got as Int and want as Int:
+    if got equals want:
+        display concat("  ok    " and concat(label and concat(" = " and int_to_string(got))))
+    else:
+        return halt_violation(concat("V40 admission count failed: " and label))
+    return 0
+
+define main:
+    display "=== Protein V40 complete lineage paired-state admission ==="
+    set ok to expect_number("parent-child lineage" and protein_parent_child_lineage_count() and 2)
+    set ok to expect_number("paired states per residue" and protein_complete_paired_angle_state_count() and 576)
+    set ok to expect_number("complete crossed updates" and protein_lineage_paired_update_count() and 1152)
+    set ok to expect_number("causal directions" and protein_positive_chain_direction_candidate_count() and 1)
+    set admitted to enforce_protein_selector_v40_lineage_paired_fixed_point(76)
+    if admitted == 1:
+        display "  ok    complete binary lineage crossed with all paired states closes"
+        display "=== done ==="
+        return 0
+    return halt_violation("V40 admission returned without closure")

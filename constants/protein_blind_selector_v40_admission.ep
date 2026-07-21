@@ -1,0 +1,75 @@
+# Engine admission for V40 complete parent-child paired-state fixed points.
+#
+# V38 supplies the complete paired 24x24 lattice and strict finite descent.
+# V39 supplies the unique positive N->C peptide direction and phi-before-psi
+# causal order.  V40 retains the complete binary lineage consisting of the
+# admitted V38 parent emission and its admitted V39 causal child.  From each
+# seed it replaces both dihedral coordinates together by every one of the 576
+# paired states at every active residue, in causal N->C order, until a complete
+# sweep changes nothing under the unchanged admitted V3 total order.  Thus the
+# per-residue lineage update space is exactly b * (24 * 24) = 1152.
+
+import "protein_blind_selector_v39_admission.ep"
+
+
+define protein_parent_child_lineage_count returning Int:
+    return binary_count()
+
+
+define protein_lineage_paired_update_count returning Int:
+    set from_lineage to protein_parent_child_lineage_count() * protein_complete_paired_angle_state_count()
+    set from_counts to binary_count() * protein_angle_lattice_count() * protein_angle_lattice_count()
+    return forced_to_be("complete parent-child lineage crossed with every paired angle state" and from_lineage and from_counts)
+
+
+define protein_lineage_update_leaf_numerators returning List:
+    set nums to create_list()
+    set ok to append_list(nums and protein_parent_child_lineage_count())
+    set ok to append_list(nums and protein_complete_paired_angle_state_count())
+    return nums
+
+
+define protein_lineage_update_leaf_denominators returning List:
+    set dens to create_list()
+    set ok to append_list(dens and 1)
+    set ok to append_list(dens and 1)
+    return dens
+
+
+define protein_lineage_update_form_is_minimal returning Int:
+    return canonical_assembly_is_minimal("neither the binary lineage nor one paired lattice supplies the complete crossed update space" and protein_lineage_update_leaf_numerators() and protein_lineage_update_leaf_denominators() and protein_lineage_paired_update_count() and 1 and 1)
+
+
+define protein_lineage_update_form_is_unique returning Int:
+    set total to 0
+    set target to fraction_from_whole_number(protein_lineage_paired_update_count())
+    set lineage to fraction_from_whole_number(protein_parent_child_lineage_count())
+    set paired to fraction_from_whole_number(protein_complete_paired_angle_state_count())
+    set total to count_form_match(total and fraction_add(lineage and paired) and target)
+    set total to count_form_match(total and fraction_subtract(lineage and paired) and target)
+    set total to count_form_match(total and fraction_subtract(paired and lineage) and target)
+    set total to count_form_match(total and fraction_multiply(lineage and paired) and target)
+    set total to count_form_match(total and fraction_divide(lineage and paired) and target)
+    set total to count_form_match(total and fraction_divide(paired and lineage) and target)
+    return forbid_form_selection("binary parent-child lineage Cartesian paired-state descent" and total)
+
+
+define enforce_protein_selector_v40_lineage_paired_fixed_point with residue_count as Int returning Int:
+    set parent_guard to enforce_protein_selector_v39_causal_reconciliation(residue_count)
+    set lineage_guard to forced_to_be("V38 parent and V39 causal child form the complete binary lineage" and protein_parent_child_lineage_count() and binary_count())
+    set paired_guard to forced_to_be("each joint update exhausts the complete paired angle lattice" and protein_complete_paired_angle_state_count() and protein_angle_lattice_count() * protein_angle_lattice_count())
+    set cross_guard to forced_to_be("both lineage seeds execute every paired update" and protein_lineage_paired_update_count() and binary_count() * protein_complete_paired_angle_state_count())
+    set direction_guard to forced_unique("registered positive N-to-C causal direction" and protein_positive_chain_direction_candidate_count() and protein_positive_chain_direction_candidate_count() - 1)
+    set minimal_guard to protein_lineage_update_form_is_minimal()
+    set unique_guard to protein_lineage_update_form_is_unique()
+    set target_guard to forbid_target_input("V40 complete parent-child paired-state fixed points" and false)
+    if parent_guard == 1:
+        if lineage_guard == binary_count():
+            if paired_guard == protein_complete_paired_angle_state_count():
+                if cross_guard == protein_lineage_paired_update_count():
+                    if direction_guard == 1:
+                        if minimal_guard == 1:
+                            if unique_guard == 1:
+                                if target_guard == 1:
+                                    return 1
+    return halt_violation("V40 complete lineage paired-state fixed point did not close")

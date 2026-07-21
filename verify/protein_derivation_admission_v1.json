@@ -88,6 +88,14 @@
       "closure_receipt": "verify/protein_selector_v39_admission_v1.json",
       "applied_evidence": "verify/protein_selector_v39_applied_evidence_v1.json",
       "target_boundary": "Selector input is exactly run_id and sequence. V39 reads only the already sealed V38 grammar, requires one causal fixed point, and seals the emitted L76 structure before comparison."
+    },
+    "blind_selector_v40": {
+      "status": "named_forward_forcing_constitution",
+      "scope": "The admitted V38 parent and V39 causal child crossed as the complete binary lineage with every one of the 576 paired states at every active residue, descending N-to-C to strict fixed points under the unchanged admitted V3 order.",
+      "source_class": "blind_v40_lineage_paired_fixed_point_forward_forcing",
+      "closure_receipt": "verify/protein_selector_v40_admission_v1.json",
+      "applied_evidence": "verify/protein_selector_v40_applied_evidence_v1.json",
+      "target_boundary": "Selector input is exactly run_id and sequence. Parent-child admission, not measured parent performance, defines the lineage; both complete fixed points and the emitted structure are sealed before comparison."
     }
   },
   "archived_development": {

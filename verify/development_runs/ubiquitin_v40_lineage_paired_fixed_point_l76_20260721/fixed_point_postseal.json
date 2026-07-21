@@ -1,0 +1,30 @@
+{
+  "evaluator_sha256": "1339032c52cee06e87b11d4368da7b6bf419b1c10033f4efb8d538ed6e2b9d74",
+  "fixed_points": [
+    {
+      "ca_drmsd_angstrom": 6.496200245253753,
+      "evaluations": 302400,
+      "seed": "v38_parent",
+      "selected_emission": true,
+      "sweeps": 7,
+      "tm_score": 0.12201339071424178
+    },
+    {
+      "ca_drmsd_angstrom": 7.249751078454174,
+      "evaluations": 216000,
+      "seed": "v39_causal_child",
+      "selected_emission": false,
+      "sweeps": 5,
+      "tm_score": 0.14614394099328498
+    }
+  ],
+  "official_run": false,
+  "result_type": "post-seal cumulative development diagnostic",
+  "run_id": "ubiquitin-v40-lineage-paired-fixed-point-l76-20260721",
+  "schema": "fold-protein-v40-fixed-point-postseal-evaluation/v1",
+  "seal_sha256": "d1f40c8f3441f9a2038c9c536fd7df11cee3f6e956f63f20166df2a9d3479133",
+  "selected_states_sha256": "3ab3808c17bc13500850c1d9d4002d89a8a6a4c7df478cf82b444f501a0557e2",
+  "status": "completed",
+  "target_id": "1ubq.pdb",
+  "target_sha256": "d4a6812d8951cf6594e6a0763f089e35f5a80b62acb3c117b2c5565228a7b161"
+}

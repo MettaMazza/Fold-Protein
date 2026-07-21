@@ -92,7 +92,7 @@ V36 candidates satisfies the relation, otherwise the selector halts. The full
 target-isolated, pre-comparison-sealed L76 run selected the N→C path and reached
 **TM 0.0840105987 / 11.1739658456 Å Cα dRMSD**. Against V35 this improves TM
 **4.381%** and dRMSD **0.761%**, changing only **3/76** states. V37 is therefore
-the current admitted L76 development parent. The immediate work remains
+the admitted L76 development parent at that stage. The immediate work was
 complete-chain ubiquitin assembly; protein diversification is deferred until
 the L76 predictive TM case is strong enough for Maria to authorize it.
 
@@ -105,7 +105,7 @@ coordinates; strict descent over the finite `24^(2×75)` path space forces
 termination without an iteration cutoff. The sealed L76 run performed
 **136,800** full-chain coordinate evaluations and reached **TM 0.1054402742 /
 7.0361416061 Å Cα dRMSD**. Against V37, TM improves **25.51%** and dRMSD
-improves **37.03%** simultaneously. V38 is the current admitted L76 parent.
+improves **37.03%** simultaneously. V38 became the admitted L76 parent.
 
 V39 closes the causal reconciliation already present inside V38's four sealed
 fixed points. The registered backbone builder constructs the chain N-to-C and
@@ -115,10 +115,22 @@ the complete L76 structure, and only then permits comparison. It reaches **TM
 0.1486092106 / 7.2111851336 Å Cα dRMSD**, the highest recorded blind L76 TM in
 the repository. Relative to V38, TM improves **40.94%** and dRMSD performance
 changes **-2.49%**; relative to V13, both improve by **4.46% TM** and **8.40%
-dRMSD**. V39 is the current admitted TM frontier and V38 remains the current
-admitted distance frontier. The next L76 construction must reconcile those
+dRMSD**. V39 became the admitted TM frontier and V38 the admitted distance
+frontier at that stage. The next L76 construction had to reconcile those
 frontiers through the engine; protein diversification remains deferred unless
 Maria authorizes it.
+
+V40 crosses the complete admitted parent-child lineage—V38 and its V39 causal
+child—with every **576** paired phi/psi state at every active residue. Both seeds
+descend N-to-C until complete fixed points under the unchanged target-free order;
+no measured parent score defines the construction. The sealed L76 run performs
+**518,400** evaluations and reaches **TM 0.1220133907 / 6.4962002453 Å Cα
+dRMSD**. This improves V38 by **15.72% TM** and **7.67% dRMSD** and establishes
+the lowest recorded blind L76 dRMSD in the repository. The second already-sealed
+fixed point retains **0.1461439410 TM**. V39 therefore remains the leading blind
+TM frontier while V40 becomes the leading blind distance frontier. The immediate
+work is their complete engine-closed fixed-point reconciliation on ubiquitin;
+post-seal measurements may diagnose it but may not define the selector.
 
 ### Current forward-forcing stage
 

@@ -1,0 +1,78 @@
+{
+  "schema": "fold-protein-blind-selector/v40",
+  "version": "40.0.0",
+  "result_type": "cumulative development benchmark",
+  "official_run": false,
+  "admission": "verify/protein_selector_v40_admission_v1.json",
+  "allowed_selector_input": ["run_id", "sequence"],
+  "prohibited_selector_input": [
+    "target", "native", "reference", "template", "distance_map", "pdb_path", "arbitrary_path"
+  ],
+  "foundation": {
+    "axioms": 0,
+    "theorem": "one machine-checked self-proven theorem: there is no nothing",
+    "trace": "One -> binary parent-child lineage -> complete 24x24 paired lattice -> unique N-to-C causal direction -> complete paired-state scans -> strict fixed points -> admitted target-free order -> sealed structure"
+  },
+  "composition": {
+    "lineage": "complete admitted V38 parent and V39 causal-child pair",
+    "candidate_space": "both lineage seeds crossed with all 576 paired states at every active residue",
+    "propagation": "registered N-to-C peptide direction",
+    "termination": "strict descent until a complete paired-state sweep changes zero states",
+    "reconciliation": "all distinct lineage fixed points under the unchanged admitted V3 total order"
+  },
+  "selector_config": {
+    "lineage_seed_count": 2,
+    "paired_state_count": 576,
+    "updates_per_residue_across_lineage": 1152,
+    "causal_direction": "n_to_c",
+    "convergence": "strict finite total-order fixed point",
+    "parallel_workers": 24,
+    "beam": null,
+    "cutoff": null,
+    "target": null,
+    "template": null,
+    "reward": null,
+    "weight": null,
+    "trained_parameter": null
+  },
+  "parent_v38": {
+    "manifest_sha256": "28200900a1e8745f0aa73031b40f5e0474386c7d032f5b9911477a477889a89c",
+    "seal_sha256": "9ed0386295c0cbfe4acc42a635d46353d7e5f7f30d9784fe5dcd0e4f6a986f8c",
+    "selected_states_sha256": "0c83c5d4d0a1431431435c8b1b4647e612d9f287588711e1ea40b7c96b0895c1",
+    "prediction_pdb_sha256": "5d74249322a00e4649ec4aff974ca6a1438cacccf0abdb49d5dd1d9b3d3c704f",
+    "selector_input_sha256": "3454eae3efb58d926214d9427414dcd8ecf18c1f8696e9cc009c476beb313215"
+  },
+  "parent_v39": {
+    "manifest_sha256": "f2c80a403f8520bc254c27daa96adc25cee8220c5e28492179b40bdcaba44afc",
+    "seal_sha256": "93174afe8745f68b1eea3cbe3336ad0622457b2e0d92c0d52b4957ed798c3c40",
+    "selected_states_sha256": "401452ccf86c7889dbfeae630ca64ff6b5840dfc3497f8254c78aca9470fae2f",
+    "prediction_pdb_sha256": "1a99ca1fb5c5a69e14eb9f490d9ce4fad14b7fb6bc29ab72e6a9eda12b8dca0b",
+    "selector_input_sha256": "6efb3f1469c0d54df5b3ae51b351fe40ed87178f4f0d052acff779ff8dd2c5ea"
+  },
+  "legacy_runtime_imports": [],
+  "protected_construction": "verify/ubiquitin_24_lattice_manifest.json",
+  "source_sha256": {
+    "constants/protein_blind_selector_v40_admission.ep": "d73cbce42acf7c5929ea1f979b76f343601fea36b9991f07f559740923e6ec40",
+    "tools/blind_24_lattice_selector_v3.py": "062c2e4174e42494d3631e0c6aa38a708ec1a5952dc321ce66328620ff305cb5",
+    "tools/blind_24_lattice_selector_v34.py": "bf2bcd1f03a55e29c660d0c5b95f1ea17f3ac8d463eb9647d2d02f0b077ab5a2",
+    "tools/blind_24_lattice_selector_v35.py": "14e3ac555e1648c75e4ed9bbf508afa2369c0d41924dcb9b01e2122a586e6131",
+    "tools/blind_24_lattice_selector_v36.py": "430a9fabe788243f4430ad57d84b82c6605560d8c4c00a2ef2065745ca62448e",
+    "tools/blind_24_lattice_selector_v37.py": "32d016d1c20ec715bcebdf6ab9c493ec9ad7ba44cb1359dfa221a5976d95fcf5",
+    "tools/blind_24_lattice_selector_v38.py": "dcbaf7755ccdf839e3a98ab309ad054ca50d44bdd277983ff2b69e67ce0d895a",
+    "tools/blind_24_lattice_selector_v39.py": "51da8134df57407749349859786db786360c5526bd25fce1981efd885d473e88",
+    "tools/blind_24_lattice_selector_v40.py": "1403bf420f5f38be1eb3f7c2da513e18abaaf70fb4ad8e25c7593e2de0226488",
+    "tools/protein_backbone_geometry_v1.py": "a043e5d05a26fdf063c4703dac619f5fe918b65779a96df6d3cfa2f536fdc315",
+    "tools/residue_partition_v1.py": "f48e0ebc2c3dbc1d6d7a37370e0a2329968524d169d7b43022dce30ceacd3814",
+    "tools/run_blind_protocol_v40.py": "9823620544995a663e229812fc155cc2770f3b8d4ea179a769315aa4fddd2e9b",
+    "verify/evaluate_sealed_blind_v40.py": "814aec8611e13ca8f7def508ae521c2424880a483b3ba8a97a6a0219f8e6417c",
+    "verify/protein_backbone_geometry_v1.json": "47da7e3f3c58a88e53b36157c5d5ed4dfa2c8b2c6e2cba91a5da34e5746571fd",
+    "verify/protein_engine_closure_v1.json": "a0e0593c9a12020cb532b9c214ed703adc695ea46086a3328f490b3a3db11220",
+    "verify/protein_selector_v38_admission_v1.json": "e6ab326408b139f2c8f216551c2a70f351efc9f5db65ebf849c7ac2ff52074c9",
+    "verify/protein_selector_v39_admission_v1.json": "4522fdd13405340bf8ca6c8a7718c077018f15cfff8e4fc18eb8b14ad12833ef",
+    "verify/protein_selector_v40_admission_v1.json": "47beddcd6adcce9c7088f33195ee4a92178e01747f395f7547aa64e366754269",
+    "verify/development_runs/ubiquitin_v38_coordinate_fixed_point_l76_20260721/seal.json": "9ed0386295c0cbfe4acc42a635d46353d7e5f7f30d9784fe5dcd0e4f6a986f8c",
+    "verify/development_runs/ubiquitin_v38_coordinate_fixed_point_l76_20260721/selected_states.json": "0c83c5d4d0a1431431435c8b1b4647e612d9f287588711e1ea40b7c96b0895c1",
+    "verify/development_runs/ubiquitin_v39_peptide_causal_l76_20260721/seal.json": "93174afe8745f68b1eea3cbe3336ad0622457b2e0d92c0d52b4957ed798c3c40",
+    "verify/development_runs/ubiquitin_v39_peptide_causal_l76_20260721/selected_states.json": "401452ccf86c7889dbfeae630ca64ff6b5840dfc3497f8254c78aca9470fae2f"
+  }
+}
