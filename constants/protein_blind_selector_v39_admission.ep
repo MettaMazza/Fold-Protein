@@ -1,0 +1,93 @@
+# Engine admission for V39 peptide-causal reconciliation of V38 fixed points.
+#
+# The target-incapable backbone constitution builds each residue in N->C order.
+# Within residue i, phi places C_i at the end of the colour-count N/CA/C window;
+# psi then places N_(i+1), exactly one event later.  Thus the causal event ranks
+# are c and c+One = b*b, and their unique one-operation relation is addition by
+# the One.  Of V38's complete two-boundary by two-axis-order grammar, exactly
+# one fixed point has both positive chain advance and phi-before-psi order.
+
+import "protein_blind_selector_v38_admission.ep"
+
+
+define protein_phi_causal_event_rank returning Int:
+    return protein_orientation_window()
+
+
+define protein_psi_causal_event_rank returning Int:
+    set from_advance to protein_phi_causal_event_rank() + protein_interwindow_one_count()
+    set from_quartet to protein_orientation_quartet()
+    return forced_to_be("psi advances from the local phi event by the One" and from_advance and from_quartet)
+
+
+define protein_causal_order_leaf_numerators returning List:
+    set nums to create_list()
+    set ok to append_list(nums and protein_phi_causal_event_rank())
+    set ok to append_list(nums and protein_interwindow_one_count())
+    return nums
+
+
+define protein_causal_order_leaf_denominators returning List:
+    set dens to create_list()
+    set ok to append_list(dens and 1)
+    set ok to append_list(dens and 1)
+    return dens
+
+
+define protein_causal_order_form_is_minimal returning Int:
+    return canonical_assembly_is_minimal("neither the phi event nor bare One reaches the subsequent psi event" and protein_causal_order_leaf_numerators() and protein_causal_order_leaf_denominators() and protein_psi_causal_event_rank() and 1 and 1)
+
+
+define protein_causal_order_form_is_unique returning Int:
+    set total to 0
+    set target to fraction_from_whole_number(protein_psi_causal_event_rank())
+    set phi_event to fraction_from_whole_number(protein_phi_causal_event_rank())
+    set one to fraction_from_whole_number(protein_interwindow_one_count())
+    set total to count_form_match(total and fraction_add(phi_event and one) and target)
+    set total to count_form_match(total and fraction_subtract(phi_event and one) and target)
+    set total to count_form_match(total and fraction_subtract(one and phi_event) and target)
+    set total to count_form_match(total and fraction_multiply(phi_event and one) and target)
+    set total to count_form_match(total and fraction_divide(phi_event and one) and target)
+    set total to count_form_match(total and fraction_divide(one and phi_event) and target)
+    return forbid_form_selection("phi then One-advanced psi is the unique causal event shape" and total)
+
+
+define protein_positive_chain_direction_candidate_count returning Int:
+    # Of the binary boundary directions, only increasing residue index advances
+    # by positive One through the registered N->C peptide construction.
+    set matching to 0
+    set candidate to 0 - protein_interwindow_one_count()
+    repeat while candidate <= protein_interwindow_one_count():
+        if candidate == protein_interwindow_one_count():
+            set matching to matching + 1
+        set candidate to candidate + binary_count()
+    return matching
+
+
+define protein_causal_fixed_point_candidate_count returning Int:
+    set chain_matches to protein_positive_chain_direction_candidate_count()
+    set axis_matches to 0
+    if protein_psi_causal_event_rank() - protein_phi_causal_event_rank() == protein_interwindow_one_count():
+        set axis_matches to 1
+    return chain_matches * axis_matches
+
+
+define enforce_protein_selector_v39_causal_reconciliation with residue_count as Int returning Int:
+    set parent_guard to enforce_protein_selector_v38_coordinate_fixed_point(residue_count)
+    set event_guard to forced_to_be("phi-to-psi causal separation is the One" and protein_psi_causal_event_rank() - protein_phi_causal_event_rank() and protein_interwindow_one_count())
+    set direction_matches to protein_positive_chain_direction_candidate_count()
+    set fixed_point_matches to protein_causal_fixed_point_candidate_count()
+    set direction_guard to forced_unique("positive N-to-C One advance" and direction_matches and direction_matches - 1)
+    set fixed_point_guard to forced_unique("unique V38 fixed point matching peptide causal order" and fixed_point_matches and fixed_point_matches - 1)
+    set minimal_guard to protein_causal_order_form_is_minimal()
+    set unique_guard to protein_causal_order_form_is_unique()
+    set target_guard to forbid_target_input("V39 peptide-causal reconciliation" and false)
+    if parent_guard == 1:
+        if event_guard == protein_interwindow_one_count():
+            if direction_guard == 1:
+                if fixed_point_guard == 1:
+                    if minimal_guard == 1:
+                        if unique_guard == 1:
+                            if target_guard == 1:
+                                return 1
+    return halt_violation("V39 peptide-causal reconciliation did not close")

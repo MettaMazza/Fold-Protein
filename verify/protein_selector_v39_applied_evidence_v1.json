@@ -1,0 +1,60 @@
+{
+  "schema": "fold-protein-selector-v39-applied-evidence/v1",
+  "date": "2026-07-21",
+  "status": "completed",
+  "result_type": "cumulative development benchmark",
+  "official_run": false,
+  "purpose": "Reconcile the complete sealed V38 fixed-point grammar through the registered N-to-C peptide-construction direction and phi-before-psi causal order, then measure only after seal verification.",
+  "protocol": {
+    "manifest_sha256": "f2c80a403f8520bc254c27daa96adc25cee8220c5e28492179b40bdcaba44afc",
+    "selector_input_sha256": "6efb3f1469c0d54df5b3ae51b351fe40ed87178f4f0d052acff779ff8dd2c5ea",
+    "seal_sha256": "93174afe8745f68b1eea3cbe3336ad0622457b2e0d92c0d52b4957ed798c3c40",
+    "selected_states_sha256": "401452ccf86c7889dbfeae630ca64ff6b5840dfc3497f8254c78aca9470fae2f",
+    "prediction_pdb_sha256": "1a99ca1fb5c5a69e14eb9f490d9ce4fad14b7fb6bc29ab72e6a9eda12b8dca0b",
+    "evaluation_sha256": "cdad36c4887f645bfdf4cc883ea5dc99e2225ebe4c6a93e74d79ba758601e202"
+  },
+  "resources": {
+    "wall_seconds": 0.07,
+    "user_seconds": 0.05,
+    "system_seconds": 0.01,
+    "maximum_resident_set_bytes": 24788992,
+    "peak_memory_footprint_bytes": 18531328,
+    "new_coordinate_search": false
+  },
+  "complete_length_measurement": {
+    "sequence_length": 76,
+    "matched_ca_atoms": 76,
+    "tm_score": 0.14860921058532522,
+    "ca_drmsd_angstrom": 7.211185133628383,
+    "states_changed_from_v38_emission": 40,
+    "parent_fixed_points": 4,
+    "qualifying_fixed_points": 1,
+    "selected_direction": "n_to_c",
+    "selected_axis_order": [0, 1],
+    "selected_parent_sweeps": 12,
+    "selected_parent_coordinate_evaluations": 43200
+  },
+  "deltas_from_v38_emission": {
+    "tm_score_absolute": 0.04316893640371182,
+    "tm_score_improvement_percent": 40.94160105213345,
+    "ca_drmsd_angstrom_absolute": 0.1750435274849913,
+    "ca_drmsd_performance_change_percent": -2.487777212046982
+  },
+  "deltas_from_v13": {
+    "tm_score_absolute": 0.006340435072610062,
+    "tm_score_improvement_percent": 4.45665962173365,
+    "ca_drmsd_angstrom_absolute": -0.6615652006056658,
+    "ca_drmsd_performance_improvement_percent": 8.403228509977012
+  },
+  "deltas_from_v3": {
+    "tm_score_absolute": 0.12161647263532523,
+    "tm_score_improvement_percent": 450.55256291748356,
+    "ca_drmsd_angstrom_absolute": -45.68196164707162,
+    "ca_drmsd_performance_improvement_percent": 86.36650384306564
+  },
+  "recorded_l76_position": {
+    "tm_score": "highest recorded blind L76 TM score in the repository at execution time",
+    "admitted_distance_branch": "V38 retains the lower dRMSD among the current admitted V38/V39 branches"
+  },
+  "engineering_inference_not_maria_conclusion": "The registered peptide-construction causal order selects one already sealed V38 fixed point without target access or a new search and produces the leading recorded blind L76 TM score. The simultaneous improvement over V13 in both TM and dRMSD is positive applied evidence for the causal reconciliation. The V39-versus-V38 dRMSD tradeoff preserves two useful admitted frontiers for the next engine-closed joint topology relation. Maria alone determines official and publication status."
+}

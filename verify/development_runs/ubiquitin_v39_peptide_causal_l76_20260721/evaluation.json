@@ -1,0 +1,27 @@
+{
+  "ca_drmsd_angstrom": 7.211185133628383,
+  "causal_axis_order": [
+    0,
+    1
+  ],
+  "causal_direction": "n_to_c",
+  "causal_event_ranks": {
+    "phi": 3,
+    "psi": 4
+  },
+  "execution": "post-seal structural comparison",
+  "matched_ca_atoms": 76,
+  "official_run": false,
+  "result_type": "cumulative development benchmark",
+  "run_id": "ubiquitin-v39-peptide-causal-l76-20260721",
+  "schema": "fold-protein-blind-evaluation/v39",
+  "seal_sha256": "93174afe8745f68b1eea3cbe3336ad0622457b2e0d92c0d52b4957ed798c3c40",
+  "selected_parent_evaluations": 43200,
+  "selected_parent_sweeps": 12,
+  "sequence_length": 76,
+  "states_changed_from_v38_emission": 40,
+  "status": "completed",
+  "target_id": "1ubq.pdb",
+  "target_sha256": "d4a6812d8951cf6594e6a0763f089e35f5a80b62acb3c117b2c5565228a7b161",
+  "tm_score": 0.14860921058532522
+}

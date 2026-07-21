@@ -107,6 +107,19 @@ termination without an iteration cutoff. The sealed L76 run performed
 7.0361416061 Å Cα dRMSD**. Against V37, TM improves **25.51%** and dRMSD
 improves **37.03%** simultaneously. V38 is the current admitted L76 parent.
 
+V39 closes the causal reconciliation already present inside V38's four sealed
+fixed points. The registered backbone builder constructs the chain N-to-C and
+places phi's `C_i` before psi's `N_(i+1)`; exactly one complete V38 row has both
+that direction and axis order. V39 selects that row before target access, seals
+the complete L76 structure, and only then permits comparison. It reaches **TM
+0.1486092106 / 7.2111851336 Å Cα dRMSD**, the highest recorded blind L76 TM in
+the repository. Relative to V38, TM improves **40.94%** and dRMSD performance
+changes **-2.49%**; relative to V13, both improve by **4.46% TM** and **8.40%
+dRMSD**. V39 is the current admitted TM frontier and V38 remains the current
+admitted distance frontier. The next L76 construction must reconcile those
+frontiers through the engine; protein diversification remains deferred unless
+Maria authorizes it.
+
 ### Current forward-forcing stage
 
 The continuation has now moved beyond the original v3 blind baseline:

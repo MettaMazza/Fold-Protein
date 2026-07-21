@@ -6,7 +6,7 @@
     "publication": "Maria Smith alone declares publishable conclusions, benchmark findings, victories, losses and real-run status.",
     "agent_evidence": "Agent-created probes and development executions remain auxiliary evidence unless Maria adopts a conclusion from them."
   },
-  "route_status_interpretation": "Every blind_selector_v4 through blind_selector_v33 route-status entry describes archived non-admitted agent development implementation and applied evidence only. V34 and V35 are separately admitted named forward-forcing compositions: V34 closes the V2 domain under the V3 order; V35 completely propagates its eight boundary contexts and sixteen quartet transitions. Terms inside immutable historical manifests or source-bound descriptions do not promote an assembled selector form to forced or derived status. The separate derivation-admission gate is authoritative.",
+  "route_status_interpretation": "Every blind_selector_v4 through blind_selector_v33 route-status entry describes archived non-admitted agent development implementation and applied evidence only. V34 through V39 are separately admitted named forward-forcing compositions whose complete generated spaces, uniqueness and halt guards are registered individually. Terms inside immutable historical manifests or source-bound descriptions do not promote an assembled selector form to forced or derived status. The separate derivation-admission gate is authoritative.",
   "visible_history": {
     "first_commit": "6b08f5288034d0958a15c8b4b0af0edb59715e37",
     "first_commit_date": "2026-07-15T10:58:26+01:00",
@@ -56,6 +56,10 @@
     "blind_selector_v33": "archived non-admitted agent minimax-consensus development architecture with sealed applied outputs at 24, 32 and 76 residues; its L24 row is TM 0.0264163231 / 6.2909406819 Å dRMSD, its L32 output reproduces V28 at TM 0.0444462491 / 5.6156347475 Å dRMSD, and its L76 output reproduces V29 at TM 0.0938366517 / 8.7716502163 Å dRMSD",
     "blind_selector_v34": "engine-admitted named forward-forcing composition of the two uniquely closed V2 alpha/beta forms and the admitted target-free V3 order; its sealed L76 development output improves C-alpha dRMSD 35.28% over V3 to 34.2298081116 Å while TM measures 0.0171435350",
     "blind_selector_v35": "engine-admitted complete boundary propagation over 8 three-residue contexts and 16 four-residue transitions; its frozen paired panel improves both TM and dRMSD over V34 on ubiquitin and independent lambda-Cro, with lambda-Cro advancing 24.95% TM and 47.53% dRMSD",
+    "blind_selector_v36": "engine-admitted complete propagation of all eight V35 contexts from both chain boundaries, yielding all sixteen directional full-chain candidates under the inherited V3 order",
+    "blind_selector_v37": "engine-admitted reconciliation of all sixteen V36 candidates through the unordered {30,45} binary/colour mode census, requiring exactly one qualifying target-incapable path",
+    "blind_selector_v38": "engine-admitted complete coordinate fixed-point descent over all 24 values of phi and psi, both chain directions and both axis orders; its sealed L76 result advances both V37 measures",
+    "blind_selector_v39": "engine-admitted causal reconciliation of all four sealed V38 fixed points through the registered N-to-C, phi-before-psi peptide-construction order; its sealed L76 result is the repository's leading recorded blind TM branch",
     "legacy_engines": "retained history only; excluded from promoted and active continuation routes"
   },
   "inherited_toolchain_boundary": {
@@ -486,6 +490,19 @@
       "verify/protein_selector_v38_admission_v1.json",
       "verify/protein_selector_v38_applied_evidence_v1.json"
     ],
+    "blind_v39_peptide_causal_forward_forcing": [
+      "constants/protein_blind_selector_v39_admission.ep",
+      "tests/test_blind_selector_v39.py",
+      "tests/test_protein_blind_selector_v39_admission.ep",
+      "tests/test_protein_selector_v39_admission.py",
+      "tools/blind_24_lattice_selector_v39.py",
+      "tools/run_blind_protocol_v39.py",
+      "tools/verify_protein_selector_v39_admission.py",
+      "verify/blind_selector_v39.json",
+      "verify/evaluate_sealed_blind_v39.py",
+      "verify/protein_selector_v39_admission_v1.json",
+      "verify/protein_selector_v39_applied_evidence_v1.json"
+    ],
     "legacy_agent_development_unpromoted": [
       "tests/test_blind_protocol.py",
       "tools/beam_search_engine.py",
@@ -523,7 +540,8 @@
       "blind_v35_complete_boundary_forward_forcing",
       "blind_v36_two_boundary_forward_forcing",
       "blind_v37_generator_partition_forward_forcing",
-      "blind_v38_coordinate_fixed_point_forward_forcing"
+      "blind_v38_coordinate_fixed_point_forward_forcing",
+      "blind_v39_peptide_causal_forward_forcing"
     ],
     "v36_runtime_roots": [
       "tools/blind_24_lattice_selector_v3.py",
@@ -554,6 +572,13 @@
       "tools/protein_backbone_geometry_v1.py",
       "tools/residue_partition_v1.py",
       "tools/run_blind_protocol_v38.py"
+    ],
+    "v39_runtime_roots": [
+      "tools/blind_24_lattice_selector_v3.py",
+      "tools/blind_24_lattice_selector_v39.py",
+      "tools/protein_backbone_geometry_v1.py",
+      "tools/residue_partition_v1.py",
+      "tools/run_blind_protocol_v39.py"
     ],
     "forbidden_runtime_modules": [
       "tools.predict_structure",
@@ -1103,11 +1128,12 @@
     "v36_two_boundary_forward_forcing": "verify/development_runs/ubiquitin_v36_two_boundary_l76_20260721/ binds the complete 2*8=16 directional full-chain grammar and its sealed L76 application. The inherited V3 order selected the reverse candidate and the measured row is preserved solely as a reconciliation-development artifact, never as a failed Maria prediction, theory limit or publication conclusion.",
     "v37_generator_partition_forward_forcing": "verify/development_runs/ubiquitin_v37_generator_partition_l76_20260721/ binds the engine-closed unordered {30,45} binary/colour mode census over all sixteen V36 candidates, exactly one qualifying target-incapable path, seal-before-comparison, and the positive L76 advance to TM 0.0840105987 / 11.1739658456 Å dRMSD. It improves both V35 measures while changing only 3/76 states. Maria determines the conclusion and official status.",
     "v38_coordinate_fixed_point_forward_forcing": "verify/development_runs/ubiquitin_v38_coordinate_fixed_point_l76_20260721/ binds complete 24-value one-coordinate scans, all four boundary/axis orders, strict finite fixed-point termination, 136,800 target-incapable full-chain evaluations and seal-before-comparison. The L76 result advances both V37 metrics to TM 0.1054402742 / 7.0361416061 Å dRMSD. Maria determines the conclusion and official status.",
+    "v39_peptide_causal_forward_forcing": "verify/development_runs/ubiquitin_v39_peptide_causal_l76_20260721/ binds the complete sealed V38 fixed-point grammar, registered N-to-C peptide direction, engine-closed phi-before-One-advanced-psi event order, unique qualifying row and seal-before-comparison. The L76 result reaches TM 0.1486092106 / 7.2111851336 Å dRMSD: the leading recorded blind L76 TM branch, with V38 retaining the admitted distance frontier. Maria determines the conclusion and official status.",
     "classification": "A recorded development execution is not a Maria finding, loss or failed prediction."
   },
   "artifact_inventory": {
-    "tracked_pdb_files": 135,
-    "tracked_pdb_file_set_sha256": "d90230294e5fe73fc9694158e884b4c777dc816193ab32f401647e28b7e31294",
+    "tracked_pdb_files": 136,
+    "tracked_pdb_file_set_sha256": "00bb4a26c67ad8eedeaacc156de205b2ed6ab6656804ae539b8ba5212240ca88",
     "classes": {
       "experimental_reference": [
         "verify/1cop.pdb",
@@ -1284,6 +1310,9 @@
       ],
       "sealed_v38_coordinate_fixed_point_forward_forcing_output": [
         "verify/development_runs/ubiquitin_v38_coordinate_fixed_point_l76_20260721/prediction.pdb"
+      ],
+      "sealed_v39_peptide_causal_forward_forcing_output": [
+        "verify/development_runs/ubiquitin_v39_peptide_causal_l76_20260721/prediction.pdb"
       ],
       "legacy_preproject_development_artifact": [
         "1ubq_autonomous.pdb",

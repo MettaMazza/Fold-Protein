@@ -325,6 +325,20 @@ coordinate evaluations and reaches TM `0.1054402742` / dRMSD `7.0361416061 Å`,
 improving V37 by 25.51% TM and 37.03% dRMSD simultaneously. Continue whole-chain
 ubiquitin development from V38. Do not diversify until Maria authorizes it.
 
+V39 reconciles the complete sealed V38 fixed-point grammar through the registered
+peptide-construction causal order. The backbone builder advances N-to-C; within
+each residue, phi places `C_i` at colour rank three and psi places `N_(i+1)` one
+event later at rank four. Exactly one of the four V38 fixed points is both N-to-C
+and phi-before-psi, so the runtime must select that row or halt. No target, score,
+reward, fitted weight, new search or new candidate enters the relation. Its sealed
+L76 cumulative development benchmark reaches **TM `0.1486092106` / dRMSD
+`7.2111851336 Å`**, the highest recorded blind L76 TM in the repository. Against
+V38, TM improves **40.94%** while dRMSD performance changes **-2.49%**; against
+V13, both measures improve (**4.46% TM** and **8.40% dRMSD**). Treat V39 as the
+current admitted TM frontier and V38 as the current admitted distance frontier.
+Continue ubiquitin through an engine-closed reconciliation of those frontiers;
+do not diversify until Maria authorizes it.
+
 **The sequence must supply the spatial command.** The forward-forcing programme investigates how
 amino-acid identity can determine the invariant exclusions and relations that select among the 576
 exact states per residue. V4-V33 are archived development evidence and excluded from active

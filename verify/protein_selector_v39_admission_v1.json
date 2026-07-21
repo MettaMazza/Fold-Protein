@@ -1,0 +1,57 @@
+{
+  "authority": "The engine and executable guards determine admission. V39 is a named forward-forcing reconciliation of the complete sealed V38 fixed-point grammar through the registered peptide-construction causal order.",
+  "composition": {
+    "parent_grammar": "All four V38 fixed points remain sealed and source-bound.",
+    "chain_direction": "The registered backbone builder advances through increasing residue indices from N to C.",
+    "axis_order": "Phi places C_i at causal rank three; psi places N_(i+1) at rank four, exactly one event later.",
+    "runtime_uniqueness": "Exactly one V38 fixed point has both N-to-C direction and phi-before-psi order.",
+    "new_search": "none",
+    "new_parameter": "none",
+    "new_score": "none",
+    "target": "none"
+  },
+  "date": "2026-07-21",
+  "minimal_composition_roles": [
+    "engine_closed_v38_complete_fixed_point_grammar",
+    "registered_n_to_c_backbone_construction",
+    "engine_closed_phi_then_one_advanced_psi_order",
+    "runtime_unique_causal_fixed_point",
+    "target_incapable_geometry",
+    "seal_before_comparison"
+  ],
+  "required_derivation_guards": {
+    "assembled_form_minimality": "Generated assembly enumeration proves neither the phi event rank nor the bare One reaches the subsequent psi event rank.",
+    "dependency_trace_to_the_One_or_an_engine_closed_result": "The colour-count N/CA/C window, One advance, quartet rank, V38 complete fixed-point grammar and registered target-incapable backbone builder are already closed and source-bound.",
+    "engine_halt_on_violation": "Ernos and Python guards halt on event-rank, direction, parent grammar, uniqueness, source, configuration or seal drift.",
+    "generated_complete_candidate_space": "V39 checks the complete four-row V38 boundary/axis-order Cartesian grammar and accepts exactly one causal row.",
+    "measured_provenance_excluded_from_derivation": "The selected fixed point was generated and sealed in V38 before comparison; V39 reads only the registered seal and selected-state record.",
+    "named_shape_uniqueness": "Among one-operation +,-,*,/ forms over phi rank three and the One, only addition reaches the subsequent psi rank four.",
+    "purpose_matched_real_execution": "Required before promotion and recorded separately by the sealed ubiquitin L76 cumulative development benchmark."
+  },
+  "registered_l76_relation": {
+    "parent_fixed_points": 4,
+    "causal_direction": "n_to_c",
+    "causal_axis_order": [0, 1],
+    "phi_event_rank": 3,
+    "psi_event_rank": 4,
+    "qualifying_fixed_points": 1
+  },
+  "schema": "fold-protein-selector-v39-admission/v1",
+  "source_sha256": {
+    "constants/protein_blind_selector_v39_admission.ep": "f86c831d9f9ee0fd5780a83e1411c9d2950a8cc891bdd73924e15747395af3d2",
+    "tools/blind_24_lattice_selector_v3.py": "062c2e4174e42494d3631e0c6aa38a708ec1a5952dc321ce66328620ff305cb5",
+    "tools/blind_24_lattice_selector_v39.py": "51da8134df57407749349859786db786360c5526bd25fce1981efd885d473e88",
+    "tools/protein_backbone_geometry_v1.py": "a043e5d05a26fdf063c4703dac619f5fe918b65779a96df6d3cfa2f536fdc315",
+    "tools/residue_partition_v1.py": "f48e0ebc2c3dbc1d6d7a37370e0a2329968524d169d7b43022dce30ceacd3814",
+    "tools/run_blind_protocol_v39.py": "317753a3447e76e6ab26e18b972ed613489cca1d56e65cd644a379ec81fb2d7b",
+    "tools/verify_protein_selector_v39_admission.py": "cb783bc206d17275ee97271a707a69e9ccc349674d18e3740723669849a54bf7",
+    "verify/blind_selector_v38.json": "28200900a1e8745f0aa73031b40f5e0474386c7d032f5b9911477a477889a89c",
+    "verify/evaluate_sealed_blind_v39.py": "3e0255d2da7ffb5de096d876d862740a6882ceaee28d5556e51de1422ed41811",
+    "verify/protein_backbone_geometry_v1.json": "47da7e3f3c58a88e53b36157c5d5ed4dfa2c8b2c6e2cba91a5da34e5746571fd",
+    "verify/protein_engine_closure_v1.json": "a0e0593c9a12020cb532b9c214ed703adc695ea46086a3328f490b3a3db11220",
+    "verify/protein_selector_v38_admission_v1.json": "e6ab326408b139f2c8f216551c2a70f351efc9f5db65ebf849c7ac2ff52074c9",
+    "verify/development_runs/ubiquitin_v38_coordinate_fixed_point_l76_20260721/seal.json": "9ed0386295c0cbfe4acc42a635d46353d7e5f7f30d9784fe5dcd0e4f6a986f8c",
+    "verify/development_runs/ubiquitin_v38_coordinate_fixed_point_l76_20260721/selected_states.json": "0c83c5d4d0a1431431435c8b1b4647e612d9f287588711e1ea40b7c96b0895c1"
+  },
+  "status": "engine_admitted_named_forward_forcing_constitution"
+}

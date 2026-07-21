@@ -80,6 +80,14 @@
       "closure_receipt": "verify/protein_selector_v38_admission_v1.json",
       "applied_evidence": "verify/protein_selector_v38_applied_evidence_v1.json",
       "target_boundary": "Selector input is exactly run_id and sequence. All 136,800 coordinate evaluations and the selected complete structure are sealed before the evaluator can open the target."
+    },
+    "blind_selector_v39": {
+      "status": "named_forward_forcing_constitution",
+      "scope": "The complete sealed V38 four-fixed-point grammar reconciled by the registered N-to-C peptide-construction direction and engine-closed phi-before-One-advanced-psi causal order, with exactly one qualifying row required at runtime.",
+      "source_class": "blind_v39_peptide_causal_forward_forcing",
+      "closure_receipt": "verify/protein_selector_v39_admission_v1.json",
+      "applied_evidence": "verify/protein_selector_v39_applied_evidence_v1.json",
+      "target_boundary": "Selector input is exactly run_id and sequence. V39 reads only the already sealed V38 grammar, requires one causal fixed point, and seals the emitted L76 structure before comparison."
     }
   },
   "archived_development": {
