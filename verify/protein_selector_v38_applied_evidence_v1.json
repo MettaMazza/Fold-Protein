@@ -1,0 +1,61 @@
+{
+  "schema": "fold-protein-selector-v38-applied-evidence/v1",
+  "date": "2026-07-21",
+  "status": "completed",
+  "result_type": "cumulative development benchmark",
+  "official_run": false,
+  "purpose": "Execute complete one-coordinate fixed-point descent over all 24 phi and psi values, both chain directions and both axis orders from the sealed V37 L76 parent, then measure only after seal verification.",
+  "protocol": {
+    "manifest_sha256": "28200900a1e8745f0aa73031b40f5e0474386c7d032f5b9911477a477889a89c",
+    "selector_input_sha256": "3454eae3efb58d926214d9427414dcd8ecf18c1f8696e9cc009c476beb313215",
+    "seal_sha256": "9ed0386295c0cbfe4acc42a635d46353d7e5f7f30d9784fe5dcd0e4f6a986f8c",
+    "selected_states_sha256": "0c83c5d4d0a1431431435c8b1b4647e612d9f287588711e1ea40b7c96b0895c1",
+    "prediction_pdb_sha256": "5d74249322a00e4649ec4aff974ca6a1438cacccf0abdb49d5dd1d9b3d3c704f",
+    "evaluation_sha256": "d8713b68f1fb2e78d56e651f7f2462c42370083cde1d4d0a36c528a64664feb0"
+  },
+  "resources": {
+    "wall_seconds": 306.28,
+    "aggregate_user_seconds": 958.62,
+    "system_seconds": 1.00,
+    "maximum_resident_set_bytes": 28655616,
+    "peak_memory_footprint_bytes": 22201536,
+    "parallel_workers": 4
+  },
+  "complete_length_measurement": {
+    "sequence_length": 76,
+    "matched_ca_atoms": 76,
+    "tm_score": 0.1054402741816134,
+    "ca_drmsd_angstrom": 7.036141606143392,
+    "axis_value_count": 24,
+    "paired_state_count": 576,
+    "descent_order_count": 4,
+    "total_coordinate_evaluations": 136800,
+    "states_changed_from_v37": 32,
+    "selected_descent": "c_to_n:[1, 0]",
+    "descent_sweeps": [
+      {"direction": "n_to_c", "axis_order": [0, 1], "sweeps": 12},
+      {"direction": "n_to_c", "axis_order": [1, 0], "sweeps": 7},
+      {"direction": "c_to_n", "axis_order": [0, 1], "sweeps": 9},
+      {"direction": "c_to_n", "axis_order": [1, 0], "sweeps": 10}
+    ]
+  },
+  "deltas_from_v37": {
+    "tm_score_absolute": 0.021429675483340266,
+    "tm_score_improvement_percent": 25.508299923329503,
+    "ca_drmsd_angstrom_absolute": -4.137824239420194,
+    "ca_drmsd_performance_improvement_percent": 37.03093688140312
+  },
+  "deltas_from_v35": {
+    "tm_score_absolute": 0.024955697779302358,
+    "tm_score_improvement_percent": 31.00680763300354,
+    "ca_drmsd_angstrom_absolute": -4.223549407396067,
+    "ca_drmsd_performance_improvement_percent": 37.51034910564924
+  },
+  "deltas_from_v3": {
+    "tm_score_absolute": 0.07844753623161341,
+    "tm_score_improvement_percent": 290.62459827871373,
+    "ca_drmsd_angstrom_absolute": -45.857005174556605,
+    "ca_drmsd_performance_improvement_percent": 86.69744185325955
+  },
+  "engineering_inference_not_maria_conclusion": "The simultaneous 25.51% TM and 37.03% dRMSD improvements over V37 are positive applied evidence that complete paired-lattice coordinate freedom and finite fixed-point reconciliation carry materially more whole-chain topology and distance geometry than the two-state parent. This remains a cumulative development benchmark; Maria determines official and publication status."
+}

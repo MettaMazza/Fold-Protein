@@ -314,6 +314,17 @@ pre-comparison-sealed L76 benchmark reaches TM `0.0840105987` / dRMSD
 to another protein until the L76 predictive TM evidence is strong enough for Maria
 to authorize the transition.
 
+V38 is now the current admitted L76 parent. It expands V37 into the complete
+paired lattice without an arbitrary beam: every active phi and psi coordinate is
+scanned over all 24 counted axis values, every other coordinate is preserved, and
+both chain directions cross both phi/psi axis orders. Each of the four independent
+descents continues until a complete sweep changes zero coordinates under the
+unchanged V3 total order; strict descent in the finite path space forces termination
+without a cutoff. The sealed L76 cumulative benchmark performs 136,800 full-chain
+coordinate evaluations and reaches TM `0.1054402742` / dRMSD `7.0361416061 Å`,
+improving V37 by 25.51% TM and 37.03% dRMSD simultaneously. Continue whole-chain
+ubiquitin development from V38. Do not diversify until Maria authorizes it.
+
 **The sequence must supply the spatial command.** The forward-forcing programme investigates how
 amino-acid identity can determine the invariant exclusions and relations that select among the 576
 exact states per residue. V4-V33 are archived development evidence and excluded from active
@@ -438,6 +449,9 @@ python3 -m unittest discover -s tests -p 'test_*.py' -v
 - `tools/blind_24_lattice_selector_v37.py`, `tools/run_blind_protocol_v37.py` — current
   L76 parent, using the engine-closed unordered binary/colour mode census over every
   V36 candidate and halting unless exactly one qualifies.
+- `tools/blind_24_lattice_selector_v38.py`, `tools/run_blind_protocol_v38.py` — current
+  L76 parent, applying complete 24-value one-coordinate scans through all four
+  boundary/axis orders until strict finite fixed points.
 - `tools/run_blind_panel_v35.py`, `tools/verify_blind_panel_v35.py`,
   `verify/evaluate_sealed_blind_panel_v35.py` — frozen paired V34/V35 multi-protein
   sealing and post-seal comparison boundary.

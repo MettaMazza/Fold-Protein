@@ -1,0 +1,57 @@
+{
+  "admission": "verify/protein_selector_v38_admission_v1.json",
+  "allowed_selector_input": ["run_id", "sequence"],
+  "composition": {
+    "candidate_basis": "all 24 values of exactly one phi or psi coordinate while every other coordinate remains fixed",
+    "complete_order_grammar": "both chain directions crossed with both phi/psi axis permutations",
+    "convergence": "strict descent under the admitted V3 total order until a complete sweep changes zero coordinates",
+    "reconciliation": "V37 parent plus all four finite fixed points under the unchanged V3 order"
+  },
+  "execution": "complete four-order one-coordinate descent to strict finite fixed points",
+  "foundation": {
+    "axioms": 0,
+    "theorem": "one machine-checked self-proven theorem: there is no nothing",
+    "trace": "One -> 24-value angle axis -> binary phi/psi axes -> complete 576 paired states -> V37 L76 parent -> four boundary/axis-order descents -> finite fixed points -> V3 reconciliation -> sealed structure"
+  },
+  "legacy_runtime_imports": [],
+  "official_run": false,
+  "prohibited_selector_input": [
+    "target", "native", "reference", "template", "distance_map", "pdb_path", "arbitrary_path"
+  ],
+  "protected_construction": "verify/ubiquitin_24_lattice_manifest.json",
+  "result_type": "cumulative development benchmark",
+  "schema": "fold-protein-blind-selector/v38",
+  "selector_config": {
+    "axis_value_count": 24,
+    "coordinate_axis_count": 2,
+    "paired_state_count": 576,
+    "chain_direction_count": 2,
+    "axis_order_count": 2,
+    "descent_order_count": 4,
+    "parallel_workers": 4,
+    "coordinate_candidates_per_scan": 24,
+    "convergence": "strict finite total-order fixed point",
+    "beam": null,
+    "cutoff": null,
+    "target": null,
+    "template": null,
+    "reward": null,
+    "weight": null,
+    "trained_parameter": null
+  },
+  "source_sha256": {
+    "constants/protein_blind_selector_v38_admission.ep": "b9a20b5fde104dbb36ba6ee1c8a54a4f860a044567ab8570e00dbeef8729480f",
+    "tools/blind_24_lattice_selector_v3.py": "062c2e4174e42494d3631e0c6aa38a708ec1a5952dc321ce66328620ff305cb5",
+    "tools/blind_24_lattice_selector_v37.py": "32d016d1c20ec715bcebdf6ab9c493ec9ad7ba44cb1359dfa221a5976d95fcf5",
+    "tools/blind_24_lattice_selector_v38.py": "dcbaf7755ccdf839e3a98ab309ad054ca50d44bdd277983ff2b69e67ce0d895a",
+    "tools/protein_backbone_geometry_v1.py": "a043e5d05a26fdf063c4703dac619f5fe918b65779a96df6d3cfa2f536fdc315",
+    "tools/residue_partition_v1.py": "f48e0ebc2c3dbc1d6d7a37370e0a2329968524d169d7b43022dce30ceacd3814",
+    "tools/run_blind_protocol_v38.py": "35fa034fd7e9a29d2f27b4213e275ef3dd00b31c51b09d93b1aaf0de6cc30168",
+    "verify/evaluate_sealed_blind_v38.py": "f1f587aaf55f6f1df9e5bd5305d4f924fdb485baae606c13b59f2c4ff938a0bf",
+    "verify/protein_backbone_geometry_v1.json": "47da7e3f3c58a88e53b36157c5d5ed4dfa2c8b2c6e2cba91a5da34e5746571fd",
+    "verify/protein_engine_closure_v1.json": "a0e0593c9a12020cb532b9c214ed703adc695ea46086a3328f490b3a3db11220",
+    "verify/protein_selector_v37_admission_v1.json": "b890a88b42e4baeafdd8d8e63fd8f190e53b6bc688c73addcb61ae4b1fcf2d6e",
+    "verify/protein_selector_v38_admission_v1.json": "e6ab326408b139f2c8f216551c2a70f351efc9f5db65ebf849c7ac2ff52074c9"
+  },
+  "version": "38.0.0"
+}

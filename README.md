@@ -96,6 +96,17 @@ the current admitted L76 development parent. The immediate work remains
 complete-chain ubiquitin assembly; protein diversification is deferred until
 the L76 predictive TM case is strong enough for Maria to authorize it.
 
+V38 makes the next architectural expansion while retaining the V37 parent and
+the admitted V3 target-free order. At every active residue it scans all **24**
+values of exactly one φ or ψ coordinate while preserving every other
+coordinate. Both chain directions and both φ/ψ axis orders are executed, giving
+four complete descents. Each repeats until a full sweep changes zero
+coordinates; strict descent over the finite `24^(2×75)` path space forces
+termination without an iteration cutoff. The sealed L76 run performed
+**136,800** full-chain coordinate evaluations and reached **TM 0.1054402742 /
+7.0361416061 Å Cα dRMSD**. Against V37, TM improves **25.51%** and dRMSD
+improves **37.03%** simultaneously. V38 is the current admitted L76 parent.
+
 ### Current forward-forcing stage
 
 The continuation has now moved beyond the original v3 blind baseline:
@@ -458,6 +469,7 @@ python3 -m tools.verify_protein_forcing_registry
 | `tools/blind_24_lattice_selector_v35.py` | engine-admitted complete propagation over all 8 boundary contexts and 16 quartet transitions |
 | `tools/blind_24_lattice_selector_v36.py` | complete two-boundary 16-candidate grammar and measured reconciliation-development artifact |
 | `tools/blind_24_lattice_selector_v37.py` | current L76 parent: unique unordered binary/colour whole-chain census over all V36 candidates |
+| `tools/blind_24_lattice_selector_v38.py` | current L76 parent: complete 24-value φ/ψ coordinate descents across all four boundary/axis orders to finite fixed points |
 | `verify/blind_selector_v3.json` | v3 relation routes, prohibited inputs, and source hashes |
 | `verify/development_runs/ubiquitin_v3_l{8,16,24}_20260719/` | sealed blind sequence predictions and post-seal whole-prefix measurements |
 | `verify/development_runs/ubiquitin_v3_current_20260719/` | complete sealed 76-residue blind prediction and post-seal global/local measurements |

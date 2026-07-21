@@ -72,6 +72,14 @@
       "closure_receipt": "verify/protein_selector_v37_admission_v1.json",
       "applied_evidence": "verify/protein_selector_v37_applied_evidence_v1.json",
       "target_boundary": "Selector input is exactly run_id and sequence; no alpha/beta generator assignment, target, score, reward, fitted weight or template enters selection. The full structure is sealed and verified before comparison."
+    },
+    "blind_selector_v38": {
+      "status": "named_forward_forcing_constitution",
+      "scope": "Complete 24-value one-coordinate scans across both backbone dihedral axes, both chain directions and both axis orders, repeated under the admitted V3 total order until strict finite fixed points and reconciled with the V37 parent.",
+      "source_class": "blind_v38_coordinate_fixed_point_forward_forcing",
+      "closure_receipt": "verify/protein_selector_v38_admission_v1.json",
+      "applied_evidence": "verify/protein_selector_v38_applied_evidence_v1.json",
+      "target_boundary": "Selector input is exactly run_id and sequence. All 136,800 coordinate evaluations and the selected complete structure are sealed before the evaluator can open the target."
     }
   },
   "archived_development": {

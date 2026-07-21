@@ -1,0 +1,22 @@
+import "../constants/protein_blind_selector_v38_admission.ep"
+
+define expect_number with label as Str and got as Int and want as Int:
+    if got equals want:
+        display concat("  ok    " and concat(label and concat(" = " and int_to_string(got))))
+    else:
+        return halt_violation(concat("V38 admission count failed: " and label))
+    return 0
+
+define main:
+    display "=== Protein V38 complete coordinate fixed-point admission ==="
+    set ok to expect_number("coordinate axes" and protein_coordinate_axis_count() and 2)
+    set ok to expect_number("values per complete axis" and protein_coordinate_axis_value_count() and 24)
+    set ok to expect_number("complete paired angle states" and protein_complete_paired_angle_state_count() and 576)
+    set ok to expect_number("axis orders" and protein_coordinate_axis_order_count() and 2)
+    set ok to expect_number("complete descent orders" and protein_coordinate_descent_order_count() and 4)
+    set admitted to enforce_protein_selector_v38_coordinate_fixed_point(76)
+    if admitted == 1:
+        display "  ok    registered L76 coordinate fixed-point descent closes through the engine"
+        display "=== done ==="
+        return 0
+    return halt_violation("V38 admission returned without closure")

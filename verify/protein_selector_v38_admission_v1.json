@@ -1,0 +1,59 @@
+{
+  "authority": "The engine and executable guards determine admission. V38 is a named forward-forcing constitution over the sealed V37 parent and the complete counted paired-angle lattice.",
+  "composition": {
+    "candidate_basis": "At one active residue and one coordinate axis, generate every one of the 24 counted values while preserving all other coordinates.",
+    "complete_order_grammar": "Execute the Cartesian product of both linear-chain directions and both permutations of phi/psi, producing four independent descents.",
+    "convergence": "Repeat each complete scan while the admitted V3 total order strictly descends; the finite path space and inclusion of the current path force termination at a fixed point.",
+    "reconciliation": "Compare the V37 parent and all four fixed points under the unchanged admitted V3 total order and deterministic state-path tie break.",
+    "new_parameter": "none",
+    "new_score": "none",
+    "target": "none"
+  },
+  "date": "2026-07-21",
+  "minimal_composition_roles": [
+    "engine_closed_complete_paired_lattice",
+    "engine_closed_complete_boundary_axis_order_grammar",
+    "complete_one_coordinate_candidate_scans",
+    "strict_finite_total_order_termination",
+    "admitted_v3_target_free_order",
+    "target_incapable_geometry",
+    "seal_before_comparison"
+  ],
+  "required_derivation_guards": {
+    "assembled_form_minimality": "Generated assembly enumeration proves one bare 24-value axis cannot exhaust the 576 paired states.",
+    "dependency_trace_to_the_One_or_an_engine_closed_result": "The V37 parent, binary coordinate count, 24-value angle lattice, paired 576-state product, binary chain boundaries and orientation quartet all trace through existing engine closures.",
+    "engine_halt_on_violation": "Ernos and Python guards halt on lattice, order, candidate-axis, monotonicity, fixed-point, source, import, configuration or seal drift.",
+    "generated_complete_candidate_space": "Every coordinate scan contains all 24 axis values; all boundary and coordinate-axis orders are generated as a Cartesian product.",
+    "measured_provenance_excluded_from_derivation": "Selector input is exactly run_id and sequence; target coordinates and structural metrics remain inaccessible until the V38 seal verifies.",
+    "named_shape_uniqueness": "Among one-operation +,-,*,/ forms over both complete 24-value axes, only their Cartesian product reaches all 576 paired states.",
+    "purpose_matched_real_execution": "Required before promotion and recorded separately by the sealed ubiquitin L76 cumulative development benchmark."
+  },
+  "registered_l76_relation": {
+    "residue_count": 76,
+    "active_residue_count": 75,
+    "coordinate_axis_count": 2,
+    "axis_value_count": 24,
+    "paired_state_count": 576,
+    "chain_direction_count": 2,
+    "axis_order_count": 2,
+    "descent_order_count": 4,
+    "parallel_workers": 4
+  },
+  "schema": "fold-protein-selector-v38-admission/v1",
+  "source_sha256": {
+    "constants/protein_blind_selector_v38_admission.ep": "b9a20b5fde104dbb36ba6ee1c8a54a4f860a044567ab8570e00dbeef8729480f",
+    "tools/blind_24_lattice_selector_v3.py": "062c2e4174e42494d3631e0c6aa38a708ec1a5952dc321ce66328620ff305cb5",
+    "tools/blind_24_lattice_selector_v37.py": "32d016d1c20ec715bcebdf6ab9c493ec9ad7ba44cb1359dfa221a5976d95fcf5",
+    "tools/blind_24_lattice_selector_v38.py": "dcbaf7755ccdf839e3a98ab309ad054ca50d44bdd277983ff2b69e67ce0d895a",
+    "tools/protein_backbone_geometry_v1.py": "a043e5d05a26fdf063c4703dac619f5fe918b65779a96df6d3cfa2f536fdc315",
+    "tools/residue_partition_v1.py": "f48e0ebc2c3dbc1d6d7a37370e0a2329968524d169d7b43022dce30ceacd3814",
+    "tools/run_blind_protocol_v38.py": "35fa034fd7e9a29d2f27b4213e275ef3dd00b31c51b09d93b1aaf0de6cc30168",
+    "tools/verify_protein_selector_v38_admission.py": "1aca1f73aedf7e45028fc9bce71d8a4cb91b40d47cd77c68028f386c90fa55f5",
+    "verify/blind_selector_v37.json": "8aab648ec0dd0a065bf0ed12768bbf4eca2096742d8d99a34a940b6ecbd5627b",
+    "verify/evaluate_sealed_blind_v38.py": "f1f587aaf55f6f1df9e5bd5305d4f924fdb485baae606c13b59f2c4ff938a0bf",
+    "verify/protein_backbone_geometry_v1.json": "47da7e3f3c58a88e53b36157c5d5ed4dfa2c8b2c6e2cba91a5da34e5746571fd",
+    "verify/protein_engine_closure_v1.json": "a0e0593c9a12020cb532b9c214ed703adc695ea46086a3328f490b3a3db11220",
+    "verify/protein_selector_v37_admission_v1.json": "b890a88b42e4baeafdd8d8e63fd8f190e53b6bc688c73addcb61ae4b1fcf2d6e"
+  },
+  "status": "engine_admitted_named_forward_forcing_constitution"
+}

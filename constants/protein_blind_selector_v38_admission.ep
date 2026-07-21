@@ -1,0 +1,86 @@
+# Engine admission for V38 complete coordinate-axis fixed-point descent.
+#
+# V37 supplies the sealed complete-chain parent.  The counted angle lattice has
+# 24 values on each of the binary number of backbone dihedral axes.  V38 varies
+# exactly one coordinate at a time across its complete 24-value axis, preserving
+# every other coordinate.  Both linear-chain boundaries and every permutation
+# of the binary coordinate axes are executed, giving the Cartesian product of
+# two boundaries and two axis orders.  Each path descends under the unchanged
+# admitted V3 total order until no complete one-coordinate scan changes it.
+# Strict descent over the finite 24^(2*active) path space must terminate.
+
+import "protein_blind_selector_v37_admission.ep"
+
+
+define protein_coordinate_axis_count returning Int:
+    return binary_count()
+
+
+define protein_coordinate_axis_value_count returning Int:
+    return protein_angle_lattice_count()
+
+
+define protein_complete_paired_angle_state_count returning Int:
+    set from_axes to whole_power(protein_coordinate_axis_value_count() and protein_coordinate_axis_count())
+    set from_lattice to protein_angle_lattice_count() * protein_angle_lattice_count()
+    return forced_to_be("complete paired dihedral lattice" and from_axes and from_lattice)
+
+
+define protein_coordinate_axis_order_count returning Int:
+    # The binary axes have exactly the two permutations phi-psi and psi-phi.
+    return binary_count()
+
+
+define protein_coordinate_descent_order_count returning Int:
+    set cartesian_orders to protein_chain_boundary_count() * protein_coordinate_axis_order_count()
+    set quartet_cross_check to protein_orientation_quartet()
+    return forced_to_be("every chain boundary crossed with every binary axis order" and cartesian_orders and quartet_cross_check)
+
+
+define protein_paired_state_leaf_numerators returning List:
+    set nums to create_list()
+    set ok to append_list(nums and protein_coordinate_axis_value_count())
+    set ok to append_list(nums and protein_coordinate_axis_value_count())
+    return nums
+
+
+define protein_paired_state_leaf_denominators returning List:
+    set dens to create_list()
+    set ok to append_list(dens and 1)
+    set ok to append_list(dens and 1)
+    return dens
+
+
+define protein_paired_state_form_is_minimal returning Int:
+    return canonical_assembly_is_minimal("a bare lattice axis cannot exhaust the paired angle states" and protein_paired_state_leaf_numerators() and protein_paired_state_leaf_denominators() and protein_complete_paired_angle_state_count() and 1 and 1)
+
+
+define protein_paired_state_form_is_unique returning Int:
+    set total to 0
+    set target to fraction_from_whole_number(protein_complete_paired_angle_state_count())
+    set axis to fraction_from_whole_number(protein_coordinate_axis_value_count())
+    set total to count_form_match(total and fraction_add(axis and axis) and target)
+    set total to count_form_match(total and fraction_subtract(axis and axis) and target)
+    set total to count_form_match(total and fraction_multiply(axis and axis) and target)
+    set total to count_form_match(total and fraction_divide(axis and axis) and target)
+    return forbid_form_selection("the Cartesian product of both complete coordinate axes" and total)
+
+
+define enforce_protein_selector_v38_coordinate_fixed_point with residue_count as Int returning Int:
+    set parent_guard to enforce_protein_selector_v37_mode_partition(residue_count)
+    set axis_guard to forced_to_be("each coordinate scan exhausts the counted lattice axis" and protein_coordinate_axis_value_count() and protein_angle_lattice_count())
+    set paired_states to protein_complete_paired_angle_state_count()
+    set paired_guard to forced_to_be("paired state count equals the complete 24 by 24 lattice" and paired_states and protein_angle_lattice_count() * protein_angle_lattice_count())
+    set order_guard to forced_to_be("complete boundary-axis-order grammar equals the orientation quartet" and protein_coordinate_descent_order_count() and protein_orientation_quartet())
+    set minimal_guard to protein_paired_state_form_is_minimal()
+    set unique_guard to protein_paired_state_form_is_unique()
+    set target_guard to forbid_target_input("V38 complete coordinate fixed-point descent" and false)
+    if parent_guard == 1:
+        if axis_guard == protein_angle_lattice_count():
+            if paired_guard == paired_states:
+                if order_guard == protein_orientation_quartet():
+                    if minimal_guard == 1:
+                        if unique_guard == 1:
+                            if target_guard == 1:
+                                return 1
+    return halt_violation("V38 complete coordinate fixed-point descent did not close")

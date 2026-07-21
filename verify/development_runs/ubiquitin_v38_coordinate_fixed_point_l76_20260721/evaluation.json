@@ -1,0 +1,52 @@
+{
+  "ca_drmsd_angstrom": 7.036141606143392,
+  "descent_sweeps": [
+    {
+      "axis_order": [
+        0,
+        1
+      ],
+      "direction": "n_to_c",
+      "sweeps": 12
+    },
+    {
+      "axis_order": [
+        1,
+        0
+      ],
+      "direction": "n_to_c",
+      "sweeps": 7
+    },
+    {
+      "axis_order": [
+        0,
+        1
+      ],
+      "direction": "c_to_n",
+      "sweeps": 9
+    },
+    {
+      "axis_order": [
+        1,
+        0
+      ],
+      "direction": "c_to_n",
+      "sweeps": 10
+    }
+  ],
+  "execution": "post-seal structural comparison",
+  "matched_ca_atoms": 76,
+  "official_run": false,
+  "result_type": "cumulative development benchmark",
+  "run_id": "ubiquitin-v38-coordinate-fixed-point-l76-20260721",
+  "schema": "fold-protein-blind-evaluation/v38",
+  "seal_sha256": "9ed0386295c0cbfe4acc42a635d46353d7e5f7f30d9784fe5dcd0e4f6a986f8c",
+  "selected_descent": "c_to_n:[1, 0]",
+  "sequence_length": 76,
+  "states_changed_from_v37": 32,
+  "status": "completed",
+  "target_id": "1ubq.pdb",
+  "target_sha256": "d4a6812d8951cf6594e6a0763f089e35f5a80b62acb3c117b2c5565228a7b161",
+  "tm_score": 0.1054402741816134,
+  "total_coordinate_evaluations": 136800
+}
