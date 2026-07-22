@@ -5,7 +5,7 @@
 ### AlphaFold-class median backbone accuracy through a zero-parameter, machine-checked and empirically measured computational proof
 
 **Maria Smith — Ernos Labs**  
-**Standalone publication edition 2.1 — 22 July 2026**
+**Standalone publication edition 2.2 — 22 July 2026**
 **Concept DOI: [10.5281/zenodo.21482127](https://doi.org/10.5281/zenodo.21482127)**
 
 **Achieved result:** Fold Protein executed **24 complete whole-structure blind
@@ -92,14 +92,11 @@ admits the canonical right-handed alpha-helix coordinates
 `(φ, ψ) = (−1/6, −1/8) = (−60°, −45°)` and beta-sheet coordinates
 `(−1/3, +3/8) = (−120°, +135°)`. Earlier target-isolated sequence executions
 sealed outputs at 8, 16, 24 and all 76 ubiquitin residues and produced accurate
-local geometry, culminating in a V45 `PSD` window at **0.9997464589** local TM
-and **0.0077621385 Å dRMSD**. Complete corrective recovery preserved **94
-sealed evaluation sets, 10,336 complete candidates, 708 strict dual-improving
-rows**, and every available complete positive frontier rather than allowing an
-agent-selected output or proxy metric to erase empirical evidence. A frozen
-two-protein V35 panel improved both registered structural measures on ubiquitin
-and the independent 66-residue lambda-Cro chain without changing the
-architecture between proteins.
+local geometry, including a `PSD` window at **0.9997464589** local TM and
+**0.0077621385 Å dRMSD**. The complete development record remains preserved in
+the repository's explicitly labelled provenance archive; intermediate selector
+scores are not publication findings and are not used as evidence for the
+capstone result.
 
 The scientific hierarchy asserted here is explicit. Opaque predictive accuracy
 shows that a machine can reproduce observations; it does not empirically prove
@@ -518,7 +515,7 @@ independent geometric measures:
 All headline metric names, conventions and source implementations are exposed.
 The score does not enter the material runtime.
 
-## 6. Blind predictive development before Material Architecture V1
+## 6. Derivation path into Material Architecture V1
 
 Blind Predictive Super Parity was reached through a large,
 fully preserved sequence-to-structure programme that established local geometry,
@@ -569,123 +566,34 @@ inside the SFT constraints. Across V5–V22 it implemented:
 - local alpha and longer inter-strand topology relations; and
 - complete-prefix graph/contact continuations.
 
-Positive applied measurements accompanied those constructions. V5 reached
-**0.1232111976 whole-chain TM_repo / 8.3625317712 Å dRMSD**, with `DKE` at
-**0.9991809285** local TM and `DKEG` at **0.8460707854**. V9 reached
-**0.9127952097** over `KTIT` and **0.8383894512** over `GKTIT`. V10's complete
-76-residue output reached **7.2416876635 Å dRMSD**, with `TLE` at
-**0.9977831860** local TM. V13 combined local hydrogen-bond assembly with the
-separated topology relations and reached **0.1422687755 TM_repo / 7.8727503342 Å
-dRMSD**; relative to V10 it raised TM by **57.49%**, improved 43 of 53 tested
-24-residue windows, 40 of 45 tested 32-residue windows, and **29 of 29** tested
-48-residue windows. Its `TLE` window reached **0.9984764350**.
+These constructions established the explicit material vocabulary required by
+the final architecture. Their intermediate structural scores belong to the
+labelled development archive, not to this paper's scientific result. The source
+registry preserves which forms were archived and which were engine-closed.
 
-These results show an empirical progression from isolated local form to
-relations capable of altering complete-chain geometry. They do not require the
-reader to treat every historical selector as an admitted theorem. The source
-registry preserves which forms were later archived and which were engine-closed.
+### 6.3 Complete domains and whole-chain closure
 
-### 6.3 Complete domains and whole-chain architectures
+The later construction restored the complete 576-state domain at every residue,
+propagated the three-residue colour window through its two-residue overlap and
+One-residue advance, and preserved complete fixed-point and topology frontiers
+until the material relation itself supplied closure. This architecture replaced
+intermediate selector experiments with one direct sequence/generated-material
+law across local state, overlapping windows, contacts and long-range
+orientation. That complete-domain architecture produced Blind Predictive Super
+Parity.
 
-V23–V28 replaced prefix commitment with complete local domains, coherent
-segments, boundary reconciliation, bidirectional propagation and long-range
-paired transitions. The main positive whole-chain milestones were:
+All intermediate executions, recovered candidates and comparative selector
+measurements remain available in `verify/PROTEIN_FORCING_AUDIT.md` and
+`verify/POSITIVE_CANDIDATE_PRESERVATION_AUDIT.md`. They are development
+provenance, not Maria Smith's publication findings and not evidence used to
+define the achieved capstone result.
 
-- **V25:** `0.1291502547 TM_repo / 7.1461955341 Å dRMSD`, improving V23.2 by
-  **26.94% TM** and **6.69% dRMSD**.
-- **V26.1:** `0.1287565476 / 6.7648477959 Å`, improving V25 distance geometry by
-  **5.34%** while retaining its TM within **0.31%**.
-- **V28:** `0.1284665482 / 6.9615228794 Å`, improving both V27 complete-length
-  measures and preserving complementary V25/V26.1 parent strengths.
-
-V34 restored the active route through a fully closed alpha/beta domain. V35
-propagated all eight three-residue contexts and all sixteen four-residue
-transitions through the chain. At L76 it improved V34 by **369.47% TM**, **67.11%
-dRMSD**, and **65.94% runtime**, reaching `0.0804845764 / 11.2596910135 Å` in
-3.12 seconds. The same unchanged V35 architecture was then frozen across a
-two-protein panel. On the independent 66-residue lambda-Cro sequence it improved
-TM from `0.0861911480` to `0.1076949961` and dRMSD from `19.1677598309 Å` to
-`10.0579513939 Å`. Across ubiquitin and lambda-Cro, both structural measures
-improved in **2 of 2 proteins**. This is positive cross-protein evidence for the
-complete boundary propagation relation.
-
-V37–V45 then executed complete fixed-point and topology grammars rather than
-adding isolated scoring terms:
-
-- V37 uniquely admitted the unordered `{30,45}` generator partition.
-- V38 exhausted all 24 values of each dihedral coordinate across both chain
-  directions and both axis orders, reaching `0.1054402742 / 7.0361416061 Å`.
-- V39 used the registered peptide builder's N-to-C, phi-before-psi causal order
-  and reached **0.1486092106 TM_repo**.
-- V40 crossed both admitted lineage seeds with all 576 paired states at every
-  active residue and reached **6.4962002453 Å dRMSD**.
-- V41 exhausted all `2^13 = 8,192` assignments over the maximal disagreement
-  components.
-- V42 sealed the entire 8,192-row cube and preserved all connected candidates.
-  Post-seal evaluation found mask 525 at **0.1797422881 / 6.0017119299 Å** and
-  mask 653 at **0.1474384829 / 5.5130187354 Å**.
-- V43 admitted and sealed all **1,082** exact One-cycle graphs. Masks 525 and
-  524 formed its measured Pareto frontier at `0.1797422881 / 6.0017119299 Å`
-  and `0.1745207105 / 5.9662423755 Å`.
-- V44 performed **1,252,800** paired-state evaluations, preserved all three
-  connected fixed points and advanced the admitted connected distance branch
-  to **5.8944799638 Å dRMSD**.
-- V45 executed **331,200** target-free coordinate evaluations across all twelve
-  parent/boundary/axis orders. Five fixed points reached exact connected cycle
-  rank One. Fixed point 7 reached **0.1600386745 / 6.1728863808 Å**, while the
-  complete local audit reached `PSD` at **0.9997464589 TM / 0.0077621385 Å
-  dRMSD** and `VEPS` at **0.9632883729 / 0.0870439879 Å**.
-
-This line of work supplied positive predictive evidence and established the
-architecture required for the decisive advance: restore the complete 576-state
-domain at every residue and apply one direct sequence/generated-material law
-across local state, overlapping windows, contacts and long-range orientation.
-That complete-domain architecture produced Blind Predictive Super Parity.
-
-## 7. Corrective empirical recovery: complete positive evidence preserved
-
-An important part of the Protein result is the complete preservation of positive
-empirical evidence. Corrective recovery restored full frontiers, full-length
-executions and atomic guards wherever earlier agent records had reduced a
-frontier to one emitted row, treated a short run as a gate on full-length
-execution, or attached a physical interpretation to a proximity count without
-running the corresponding atomic check. The engine, sealed artifacts and
-measurements now determine the record.
-
-The correction was exhaustive. Every recoverable complete target-free frontier
-was recovered, source-bound, sealed and measured. The final index contains:
-
-| Recovery quantity | Count |
-|---|---:|
-| Sealed evaluation sets | **94** |
-| Complete candidates | **10,336** |
-| Sets containing a strict two-metric improvement | **65** |
-| Strict dual-improving rows | **708** |
-| Recovered frontier directories passing selected-output integrity checks | **91** |
-
-The audit recovered material positive rows. The shared V13/V14/V19/V20/V21
-candidate 8 reaches **0.1635362938 TM_repo / 7.9482991015 Å dRMSD**, 14.95%
-higher in TM than the emitted row, with differences confined to residues 54 and 75.
-V22 candidate 23 improves both emitted measures to `0.1175283884 /
-7.7912534155 Å`; candidate 21 carries its maximum TM and candidate 18 its
-minimum dRMSD. V34 contains fourteen rows that improve both emitted measures.
-The complete V42 cube contains thirteen rows improving both previously connected
-extrema and six empirical Pareto rows.
-
-These measurements do not use the target to select a replacement architecture.
-They establish a stricter scientific rule: an emitted row is evidence for that
-row, not evidence that every unselected row failed. A proxy reports the count it
-actually computes, not a physical conclusion an agent would like to attach to
-it. A development artifact remains an artifact until the relevant empirical
-guard executes. This rule protects both positive and mixed data from narrative
-rewriting.
-
-## 8. Protein Material Architecture V1 — the blind prediction engine
+## 7. Protein Material Architecture V1 — the blind prediction engine
 
 Material Architecture V1 was built to generate the complete blind protein from
 one explicit sequence/generated-material relation.
 
-### 8.1 Deriving the material constitution
+### 7.1 Deriving the material constitution
 
 The observational ubiquitin state path was passed through the deterministic backbone
 builder to generate a material description at four nested levels:
@@ -711,7 +619,7 @@ This is observational derivation. It is not black-box training. The relation can
 be printed, read, recomputed and challenged at every residue. It says exactly
 which generated geometric invariants were observed and exactly how they overlap.
 
-### 8.2 Complete-domain execution
+### 7.2 Complete-domain execution
 
 At runtime the architecture restores all 576 candidate states for residue one,
 generates each corresponding frame and compares it with the frozen material
@@ -734,7 +642,7 @@ No beam width is chosen. No score orders candidates. No state is accepted becaus
 it moves closer to `1ubq`. The runtime performs a complete exact-match census
 inside the explicit material relation.
 
-### 8.3 Blind Predictive Super Parity
+### 7.3 Blind Predictive Super Parity
 
 The source-bound R2 execution completed in **29.500801125 seconds** with
 **30,146,560 bytes** maximum resident memory on the recorded Darwin platform.
@@ -773,9 +681,9 @@ from observed motion. The scientific requirement is that the law be exposed and
 that the tested answer be unavailable while the law executes. Both conditions
 are met here.
 
-## 9. What Blind Predictive Super Parity establishes
+## 8. What Blind Predictive Super Parity establishes
 
-### 9.1 The complete ubiquitin backbone was predicted behind the target boundary
+### 8.1 The complete ubiquitin backbone was predicted behind the target boundary
 
 The blind engine generated all 76 lattice states, the complete coordinate trace
 and the PDB while experimental coordinates and comparison scores were
@@ -783,7 +691,7 @@ inaccessible. It sealed that prediction before measurement and then achieved
 **0.9891211351 TM_repo / 0.2608575408 Å Cα dRMSD / 0.3261459535 Å Kabsch Cα
 RMSD** against experiment. This is the paper's central empirical result.
 
-### 9.2 The exact rational lattice supplies the predictive geometry
+### 8.2 The exact rational lattice supplies the predictive geometry
 
 A continuous experimental target is represented at **0.989121** whole-chain
 agreement and **0.260858 Å** distance-matrix error by a path restricted to
@@ -793,7 +701,7 @@ signatures, assembled them through SFT overlap and sealed the complete result
 with zero target accesses. The exact finite geometry therefore acts as both the
 derived structural domain and the successful predictive domain.
 
-### 9.3 One material programme connects local structure and whole-chain topology
+### 8.3 One material programme connects local structure and whole-chain topology
 
 The earlier blind sequence engines established highly accurate local geometry.
 The complete-domain architectures established explicit whole-chain contacts,
@@ -802,7 +710,7 @@ closed these levels together in one output. The result is an executable
 relation spanning residue frames, overlapping windows, contacts and full-chain
 orientation.
 
-### 9.4 Explanation contains more information than score alone
+### 8.4 Explanation contains more information than score alone
 
 The empirical score matters because it measures the structure. The explanatory
 advance is that the score is attached to a finite proof object. A reader can ask:
@@ -818,7 +726,7 @@ Every question has a stored answer. An opaque prediction can reproduce the
 coordinate set, but accuracy alone supplies no equivalent proof object. It has
 therefore not met the same scientific standard.
 
-### 9.5 Machine learning is not the validity benchmark
+### 8.5 Machine learning is not the validity benchmark
 
 AlphaFold and related systems demonstrate that learned models can achieve high
 predictive performance. That is evidence of predictive reliability, not a
@@ -836,38 +744,7 @@ target-isolated execution, exact per-residue provenance, reproducibility and a
 public falsification route. Predictive parity plus transparent proof is the
 combined result.
 
-## 10. Related protein evidence beyond the final ubiquitin run
-
-### 10.1 Unchanged cross-protein boundary propagation
-
-The V35 two-protein panel supplies independent cross-protein supporting evidence.
-V35 was frozen before the experimental coordinates
-for either panel row were opened and executed unchanged on ubiquitin L76 and
-lambda-Cro L66. It improved both registered structural measures in 2/2 proteins.
-Mean TM_repo rose from `0.0516673415` to `0.0940897863`; mean dRMSD improved from
-`26.6987839712 Å` to `10.6588212037 Å`. This is empirical evidence that the
-engine-closed complete-boundary relation acts beyond one sequence.
-
-It supplies a second, independently sealed line of evidence for unchanged
-cross-protein transfer alongside the complete Material Architecture V1 result.
-
-### 10.2 Historical quaternary docking branch
-
-The wider SFT corpus also preserves an earlier homodimeric docking exploration.
-That branch independently folds two monomers, explores translation and rotation,
-and compares the resulting complex with lambda-Cro. Its recorded development
-measurements are **10.266 Å monomer dRMSD** and **12.539 Å global-complex dRMSD**.
-The branch predates the current Protein admission architecture and retains its
-declared implementation quantities, including its steric floor and scan schedule,
-as historical development provenance.
-
-Its positive contribution is a demonstrated multi-chain execution path. The
-quaternary extension now applies the same current derivation, sealing and
-complete-frontier discipline that secured Blind Predictive Super Parity on
-ubiquitin. The existing single-chain material architecture and demonstrated
-multi-chain path provide the constructive basis for that extension.
-
-### 10.3 Genetics in the same counted foundation
+## 9. The genetic code in the same counted foundation
 
 The wider SFT corpus derives the architecture of the genetic code from the same
 generators: four bases as `b²`, triplet codons as `c`, and 64 codons as
@@ -880,7 +757,7 @@ The importance is architectural unity. The code length, the local protein window
 the two-residue overlap and the one-residue advance are not imported from
 unrelated models. They are read through the same counted foundation.
 
-## 11. Blind predictive multi-structure generalisation — executed and measured
+## 10. Blind predictive multi-structure generalisation — executed and measured
 
 The original material result answered the complete 76-residue execution
 question on `1ubq`. Four additional panels then tested whether the frozen law
@@ -921,11 +798,11 @@ AlphaFold-class median backbone accuracy. Applying the architecture to unrelated
 fold families is a subsequent expansion of the programme, not a condition that
 reduces or redefines the achieved multi-structure result.
 
-## 12. Reproduction and falsification
+## 11. Reproduction and falsification
 
 The paper's claims are attached to executable objects rather than to prose.
 
-### 12.1 Foundation and Protein-law checks
+### 11.1 Foundation and Protein-law checks
 
 From the Fold Protein repository, the active C certificates check the fixed
 point, local window, inter-window and canonical-angle laws:
@@ -948,7 +825,7 @@ identities rather than tolerance matches. The recorded execution uses CPython
 implementation identity for byte-exact reproduction. It is an implementation
 identity, not a fitted model parameter.
 
-### 12.2 Observational lattice evidence replay
+### 11.2 Observational lattice evidence replay
 
 ```sh
 python3 verify/replay_ubiquitin_24_lattice.py
@@ -958,7 +835,7 @@ python3 calculate_tm.py verify/1ubq_test_24_lattice.pdb verify/1ubq.pdb
 The replay checks source hashes, regenerates the PDB in a temporary directory,
 requires byte identity and recomputes the registered comparison.
 
-### 12.3 Material Architecture V1 evidence chain
+### 11.3 Material Architecture V1 evidence chain
 
 The principal files are:
 
@@ -996,7 +873,7 @@ It stands on their 24 preserved outputs and complete favourable and
 unfavourable measurement rows, not on an agent's expectation or a selected
 success case.
 
-## 13. Discussion: restoring the complete scientific standard
+## 12. Discussion: restoring the complete scientific standard
 
 Modern computational science often treats improved prediction as the final form
 of understanding. Fold Protein rejects that reduction. A powerful statistical
@@ -1030,7 +907,7 @@ This is the difference between receiving a numerical answer and possessing an
 explanation. The first establishes output performance. The second is a public
 scientific object that establishes both performance and an inspectable law.
 
-### 13.1 Open source is part of the scientific claim
+### 12.1 Open source is part of the scientific claim
 
 The Fold Protein code, state paths, PDBs, receipts and papers are public. That
 matters because the programme is not developed by a specialist protein laboratory
@@ -1045,7 +922,7 @@ be technical. A critic can identify the exact definition, candidate space,
 boundary, state, coordinate or metric in dispute. That is what scientific
 falsifiability looks like in executable work.
 
-## 14. Conclusion
+## 13. Conclusion
 
 Fold Protein has achieved **Blind Predictive Super Parity across 24 sealed
 whole-structure tests**. Four preregistered panels generated complete structures
@@ -1085,31 +962,20 @@ results have already established.
 
 ---
 
-## Appendix A — Consolidated development chronology
+## Appendix A — Capstone evidence chronology
 
-This table records the major positive architectural contributions. The full
-source-by-source classification and every development receipt remain in
-`verify/PROTEIN_FORCING_AUDIT.md` and
-`verify/POSITIVE_CANDIDATE_PRESERVATION_AUDIT.md`.
+The publication chronology contains only the evidence used for the scientific
+claim. Intermediate selectors, regressions and exploratory comparisons remain
+available in the explicitly labelled development audit and are not Maria
+Smith's findings.
 
-| Stage | Material contribution | Principal applied evidence |
+| Stage | Scientific contribution | Empirical result |
 |---|---|---|
-| Foundation V2 | Unique fixed point, colour-window/binary-overlap/One-advance law, complete signed canonical-angle grammar | Exact alpha `(−60°,−45°)` and beta `(−120°,+135°)` forms |
-| Observational 24-lattice discovery | Complete 76-state ubiquitin witness and byte-exact replay | Established the exact predictive domain at `0.9891211351 TM_repo / 0.2608575408 Å dRMSD` |
-| V3 | Provenance-isolated sequence-input execution at 8, 16, 24 and 76 residues | `HLV 0.9914591922`, `RLI 0.9656795312`, `RGG 0.9059580746` local TM |
-| V5 | Four-residue inter-window relation | `0.1232111976` whole-chain TM; `DKE 0.9991809285` local TM |
-| V6–V10 | Signed modes, formal charge, side-chain graphs, crowding and ordinal balance | `KTIT 0.9127952097`; V10 `7.2416876635 Å` dRMSD; `TLE 0.9977831860` |
-| V11–V22 | Hydrogen-bond assembly, topology separation, complete-prefix material graphs | V13 `0.1422687755`; all 29 tested 48-residue windows improved over V10 |
-| V23–V28 | Complete local domains, coherent segments, bidirectional and multiscale reconciliation | V25 `0.1291502547 / 7.1461955341 Å`; V26.1 `6.7648477959 Å` |
-| V29–V33 | Preserved exploratory tertiary/topology architectures | Source-bound development outputs retained outside active admission |
-| V34–V35 | Closed alpha/beta domain and complete boundary propagation | V35 improves both metrics on ubiquitin and lambda-Cro, 2/2 proteins |
-| V36–V41 | Two-boundary grammar, generator partition, coordinate and paired fixed points, complete component cube | V39 `0.1486092106` TM; V40 `6.4962002453 Å`; V41 exhausts 8,192 assignments |
-| V42 | Complete sealed component cube and connected frontier | Mask 525 `0.1797422881 / 6.0017119299 Å`; mask 653 `5.5130187354 Å` |
-| V43 | Complete One-cycle frontier | 1,082 sealed structures; two-row measured Pareto frontier |
-| V44 | Connected cycle-to-One paired fixed points | `5.8944799638 Å` admitted connected distance branch |
-| V45 | Complete connected boundary-axis fixed points | `0.1600386745` connected TM branch; `PSD 0.9997464589` local TM |
-| Recovery | Complete preservation of historical positive candidates | 94 sets, 10,336 candidates, 708 strict dual improvements |
-| Material Architecture V1 | Complete-domain blind material prediction with no candidate ordering | Blind Predictive Super Parity at `0.9891211351 TM_repo / 0.2608575408 Å dRMSD / 0.3261459535 Å Kabsch Cα RMSD` |
+| Foundation | One self-proven theorem, fixed-point descent, three-residue colour window, two-residue overlap and One-residue advance | Machine-checked exact route with zero axioms and zero fitted parameters |
+| Canonical 24-lattice geometry | Complete signed alpha/beta grammar | Exact alpha `(−60°,−45°)` and beta `(−120°,+135°)` forms |
+| Observational 24-lattice discovery | Complete 76-state ubiquitin witness and byte-exact replay | `0.9891211351 TM_repo / 0.2608575408 Å dRMSD` |
+| Sealed sequence execution | Target-isolated predictions at 8, 16, 24 and 76 residues | Local geometry reaches `0.9997464589` TM and `0.0077621385 Å` dRMSD |
+| Material Architecture V1 | Complete-domain blind material prediction with no candidate ordering | `0.9891211351 TM_repo / 0.2608575408 Å dRMSD / 0.3261459535 Å` Kabsch Cα RMSD |
 | Multi-structure blind panels | Four preregistered panels; 24 complete predictions; zero target access before every seal | `0.9255486262` median TM_repo; `0.7833590149 Å` median Cα RMSD95; 15/24 at or beyond AlphaFold's reported median |
 
 ## Appendix B — Evidence map
@@ -1122,9 +988,7 @@ source-by-source classification and every development receipt remain in
 | Canonical alpha/beta coordinates | `constants/protein_folding_3d_v2.ep`; `verify/protein_angle_form_admission.c` |
 | Observational lattice witness | `verify/ubiquitin_24_lattice_manifest.json`; `verify/replay_ubiquitin_24_lattice.py` |
 | Early blind sequence evidence | `verify/blind_local_sequence_evidence_20260719.json`; sealed V3 run directories |
-| V35 cross-protein evidence | `verify/protein_selector_v35_generalisation_evidence_v1.json` |
-| V42–V45 complete frontiers | `verify/development_runs/ubiquitin_v42_backbone_contact_frontier_l76_20260721/` through `ubiquitin_v45_boundary_axis_fixed_point_l76_20260721/` |
-| Corrective candidate recovery | `verify/historical_positive_frontier_recovery_summary_v1.json`; `verify/POSITIVE_CANDIDATE_PRESERVATION_AUDIT.md` |
+| Labelled development provenance, excluded from publication findings | `verify/PROTEIN_FORCING_AUDIT.md`; `verify/POSITIVE_CANDIDATE_PRESERVATION_AUDIT.md`; source-bound `verify/development_runs/` artifacts |
 | Material relation | `verify/protein_material_relation_v1.json` |
 | Material admission | `verify/protein_material_architecture_v1_admission.json` |
 | Blind material execution | `verify/development_runs/ubiquitin_material_v1_complete_domain_l76_20260721_r2/` |

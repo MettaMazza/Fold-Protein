@@ -289,7 +289,7 @@ def cover(st):
         )
     )
     story.append(Paragraph("<b>Maria Smith</b><br/>Ernos Labs", ParagraphStyle("Author", fontName="Ernos", fontSize=11, leading=15, textColor=TEXT, alignment=TA_CENTER, spaceAfter=9)))
-    story.append(Paragraph("22 July 2026&nbsp;&nbsp;·&nbsp;&nbsp;Standalone publication edition 2.1<br/><link href=\"https://doi.org/10.5281/zenodo.21482127\" color=\"#087F8C\"><u>concept doi:10.5281/zenodo.21482127</u></link>", ParagraphStyle("Edition", fontName="Ernos", fontSize=9, leading=13, textColor=MID, alignment=TA_CENTER, spaceAfter=16)))
+    story.append(Paragraph("22 July 2026&nbsp;&nbsp;·&nbsp;&nbsp;Standalone publication edition 2.2<br/><link href=\"https://doi.org/10.5281/zenodo.21482127\" color=\"#087F8C\"><u>concept doi:10.5281/zenodo.21482127</u></link>", ParagraphStyle("Edition", fontName="Ernos", fontSize=9, leading=13, textColor=MID, alignment=TA_CENTER, spaceAfter=16)))
 
     key_data = [
         [Paragraph("<b>BLIND PREDICTIVE SUPER PARITY</b>", ParagraphStyle("BoxHead", fontName="ErnosBold", fontSize=8, leading=10, textColor=colors.white, alignment=TA_CENTER))],

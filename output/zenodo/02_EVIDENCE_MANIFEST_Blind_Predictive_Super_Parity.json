@@ -78,8 +78,8 @@
     },
     {
       "path": "papers/From_One_Theorem_to_Blind_Protein_Structure_A_Zero_Parameter_Computational_Proof.md",
-      "bytes": 66373,
-      "sha256": "9e87d50f45b54ecce28a9121cdc24dd1adf9f5a5198c249bd259bdce77149103"
+      "bytes": 57224,
+      "sha256": "446885650a8cae97f622b231aa543cc8d1702268d8e12442574bf86bbe8176a3"
     },
     {
       "path": "publication/EVIDENCE_README.md",
@@ -89,7 +89,7 @@
     {
       "path": "publication/zenodo_standalone_metadata_v1.json",
       "bytes": 6277,
-      "sha256": "b030aa5f357cfcb8d1daed071b5d9d255c69684814bcb36c9962a84652b48239"
+      "sha256": "b52b88e599cbe7f2507558d6a2d68ed0a29caa102ddf7b7567a3fef3e25783ca"
     },
     {
       "path": "requirements-reproduction.txt",
