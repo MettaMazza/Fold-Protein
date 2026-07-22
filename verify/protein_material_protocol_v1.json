@@ -1,0 +1,37 @@
+{
+  "admission_receipt": "verify/protein_material_architecture_v1_admission.json",
+  "admission_receipt_sha256": "80e6f8c187ad79d376ff7eefc463c287d91999be3a3a3d49a0f51f76e940330c",
+  "author_audit": {
+    "author": "OpenAI Codex",
+    "model": "GPT-5",
+    "reasoning_level": "high"
+  },
+  "authority": "Maria Smith determines scientific conclusions and official runs",
+  "execution": "complete 576-state domain at every residue; exact material-frame matching; SFT colour-window/binary-overlap/One-advance closure; canonical terminal gauge; direct unique structure emission",
+  "material_relation": "verify/protein_material_relation_v1.json",
+  "material_relation_sha256": "f8d8690b6cddd33f32d9ed90eb6d5d38a6f1feabfb4aa1be0f0e33216e6fad8e",
+  "official_run": false,
+  "result_type": "cumulative development benchmark protocol",
+  "runtime_prohibitions": [
+    "experimental target coordinates",
+    "protected witness file access",
+    "comparison scores",
+    "candidate ordering",
+    "weights",
+    "fitted parameters",
+    "reward"
+  ],
+  "schema": "fold-protein-material-protocol/v1",
+  "source_sha256": {
+    "constants/protein_material_architecture_v1_admission.ep": "0ee3032f65433fbd87a8d5e0d9489a64db49ec406e146ec220871aab2fc88699",
+    "tests/test_protein_material_architecture_v1_admission.ep": "97a2d6028f0a09eab04e3353a7626bf4438e85add196a579a18655697db935f6",
+    "tools/blind_24_lattice_selector_v3.py": "062c2e4174e42494d3631e0c6aa38a708ec1a5952dc321ce66328620ff305cb5",
+    "tools/protein_backbone_geometry_v1.py": "a043e5d05a26fdf063c4703dac619f5fe918b65779a96df6d3cfa2f536fdc315",
+    "tools/protein_material_architecture_v1.py": "9c998d7f8ea33ff601162e8e20b665f8e4c5a17f37195043d8b91015425bf945",
+    "tools/residue_partition_v1.py": "f48e0ebc2c3dbc1d6d7a37370e0a2329968524d169d7b43022dce30ceacd3814",
+    "tools/run_protein_material_protocol_v1.py": "c7f651d72bfe4affb17f6bf95be383145d14418d9e935290cc3f028a5f925029",
+    "verify/protein_material_architecture_v1_admission.json": "80e6f8c187ad79d376ff7eefc463c287d91999be3a3a3d49a0f51f76e940330c",
+    "verify/protein_material_relation_v1.json": "f8d8690b6cddd33f32d9ed90eb6d5d38a6f1feabfb4aa1be0f0e33216e6fad8e"
+  },
+  "status": "registered"
+}

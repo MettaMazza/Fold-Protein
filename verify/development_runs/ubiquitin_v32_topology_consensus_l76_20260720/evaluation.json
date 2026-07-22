@@ -1,0 +1,38 @@
+{
+  "ca_drmsd_angstrom": 8.77165021627567,
+  "consensus_relation": {
+    "family_minimum_state_distances": [
+      0,
+      15,
+      11
+    ],
+    "total_family_distance": 26,
+    "worst_family_distance": 15
+  },
+  "degree_frontier": [
+    2,
+    3,
+    4
+  ],
+  "execution": "post-seal structural comparison",
+  "matched_ca_atoms": 76,
+  "official_run": false,
+  "result_type": "cumulative development benchmark",
+  "run_id": "development-ubiquitin-v32-topology-consensus-l76-20260720",
+  "schema": "fold-protein-blind-evaluation/v32",
+  "seal_sha256": "256d40f4fc228787fb27c0528c63bb1b3fff61559fb0055081463d8c87bb128c",
+  "selected_family_membership": [
+    2
+  ],
+  "sequence_length": 76,
+  "status": "completed",
+  "target_id": "1ubq.pdb",
+  "target_sha256": "d4a6812d8951cf6594e6a0763f089e35f5a80b62acb3c117b2c5565228a7b161",
+  "tm_score": 0.09383665166845076,
+  "v25_departures": 17,
+  "v26_1_departures": 18,
+  "v27_departures": 11,
+  "v28_departures": 16,
+  "v29_departures": 0,
+  "v30_departures": 23
+}

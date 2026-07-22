@@ -1,0 +1,26 @@
+{
+  "authority": "Maria Smith determines scientific conclusions and official runs",
+  "ca_drmsd_angstrom": 0.25913569002648945,
+  "complete_raw_state_candidates": 43776,
+  "elapsed_seconds": 29.58981275,
+  "evaluator_sha256": "b3c566435bed1442fb174a5e02904b133609a1b6db78b5782dcfd535f86813cc",
+  "kabsch_ca_rmsd_angstrom": 0.3261459535125402,
+  "matched_ca_atoms": 76,
+  "maximum_resident_set_kib": 30064640,
+  "official_run": false,
+  "prediction_pdb_sha256": "0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d",
+  "provenance": {
+    "author": "OpenAI Codex",
+    "model": "GPT-5",
+    "reasoning_level": "high"
+  },
+  "result_type": "cumulative development benchmark",
+  "run_id": "ubiquitin-material-v1-complete-domain-l76-20260721",
+  "schema": "fold-protein-material-evaluation/v1",
+  "seal_sha256": "6b23f54f221ab42794f8f95778c13f690e82891167cb28d6563b0fcecee880bf",
+  "status": "completed",
+  "target_id": "1ubq.pdb",
+  "target_sha256": "d4a6812d8951cf6594e6a0763f089e35f5a80b62acb3c117b2c5565228a7b161",
+  "tm_score": 0.9891211351471241,
+  "unique_material_states": 76
+}

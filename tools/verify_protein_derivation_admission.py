@@ -85,6 +85,10 @@ def verify_admission() -> dict:
     expected_manifests.add("blind_selector_v39")
     expected_manifests.add("blind_selector_v40")
     expected_manifests.add("blind_selector_v41")
+    expected_manifests.add("blind_selector_v42")
+    expected_manifests.add("blind_selector_v43")
+    expected_manifests.add("blind_selector_v44")
+    expected_manifests.add("blind_selector_v45")
     actual_manifests = selector_manifests()
     if actual_manifests != expected_manifests:
         raise RuntimeError(
@@ -120,6 +124,11 @@ def verify_admission() -> dict:
         "blind_v39_peptide_causal_forward_forcing",
         "blind_v40_lineage_paired_fixed_point_forward_forcing",
         "blind_v41_component_cube_forward_forcing",
+        "blind_v42_backbone_contact_frontier_forward_forcing",
+        "blind_v43_one_cycle_frontier_forward_forcing",
+        "blind_v44_connected_cycle_fixed_point_forward_forcing",
+        "blind_v45_boundary_axis_fixed_point_forward_forcing",
+        "protein_material_v1_target_assisted_forward_forcing",
     }
     if active != allowed_active:
         raise RuntimeError(

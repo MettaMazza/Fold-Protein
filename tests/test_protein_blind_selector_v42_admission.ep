@@ -1,0 +1,10 @@
+import "../constants/protein_blind_selector_v42_admission.ep"
+
+define main:
+    display "=== Protein V42 whole-chain contact-frontier admission ==="
+    set admitted to enforce_protein_selector_v42_contact_frontier(76 and 42 and 13 and 26 and 13 and 13 and 8192 and 3)
+    if admitted == 1:
+        display "  ok    complete binary cube and complete connected frontier close"
+        display "=== done ==="
+        return 0
+    return halt_violation("V42 admission returned without closure")

@@ -1,0 +1,29 @@
+{
+  "candidate_count": 2,
+  "frontier_sha256": "7d651d32be10dec0c32d4886b9e7095ed1a84db41fc15978751bfc7fe664157c",
+  "official_run": false,
+  "original_seal_sha256": "630a105de26c0ac72cc04331f922e60ec4a4858f3d5d645bc3f0fcd23b0fd9e7",
+  "prediction_pdb_sha256": {
+    "candidate_00.pdb": "13a50bc960cfb9d9e5688ab05542bebd6343b6c04ba32e59c6ecef6af93cb0fc",
+    "candidate_01.pdb": "e64f2020731b02230974be38d8fa314acfb34eda2e5eeef8a479106d3aade180"
+  },
+  "protocol_manifest_sha256": "d3cc0fe7b930d80325556033c034076677a8481d231d5ca1994a8ad922a9a7fc",
+  "reconstruction_source_sha256": "8b9cf8314b87969bec214b5acb9aee5b79597be56c92f98d361f396c658647b5",
+  "result_type": "target-free historical frontier reconstruction",
+  "run_id": "development-ubiquitin-v33-minimax-consensus-l24-20260720",
+  "schema": "fold-protein-v33-reconstructed-frontier-seal/v1",
+  "selector_input_sha256": "ad2810d4ee2b605508b0cb9653dc9b8db508c2f9ad8966ef2bea9c1a9efe9812",
+  "selector_source_sha256": {
+    "tools/blind_24_lattice_selector_v29.py": "ea64f91a4c994046e774b895ecbfddf4157f0f74a2783652bec58fe802201ca2",
+    "tools/blind_24_lattice_selector_v31.py": "4bb2021bd9d4195f6068e7c22163cc15b0806c936be90f485d17030a6cfb9469",
+    "tools/blind_24_lattice_selector_v32.py": "e11061f7792a0631e8563ce25ebf85bbfacc7c7d4364a58a0331077dbbf6182f",
+    "tools/blind_24_lattice_selector_v33.py": "dc166c9d124f8e34688ad411ba17dfb0c7319bf135d9a80a965718eb15ab154c",
+    "tools/run_blind_protocol_v32.py": "e3ca002a2bb73ee274894afad3c53a4232583a7f8c81d1d8cfa26ed3dfe300a1",
+    "tools/run_blind_protocol_v33.py": "004ff24a57646850c093bc5238997602027e36b191ceacf280542c514b1257d9",
+    "tools/tertiary_segment_body_constitution_v3.py": "486b858d834aeed4e2964fb6a43a410f1ccdfe2b3f14ab6b91d01c994c26f67a",
+    "verify/blind_selector_v29.json": "bd1294b8c15d6da0d480ef1adc39f8b5bbbe59828674358a3f1dc1baac1be7b1",
+    "verify/blind_selector_v32.json": "68a5f8a1c7b7456662e8a0c6a08ffbe8a7a833ec4a19776920e491131eb1d653",
+    "verify/evaluate_sealed_blind_v33.py": "9eabacf56fdb471694b3db598838749b121e780264c100d72afcc4b441d8775b"
+  },
+  "status": "completed"
+}

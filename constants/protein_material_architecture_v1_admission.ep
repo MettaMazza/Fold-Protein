@@ -1,0 +1,89 @@
+# Admission for the direct protected protein material architecture.
+#
+# The protected development witness supplies a hash-bound exact relation between
+# unique sequence colour-windows and generated 24-lattice geometry.  Runtime
+# does not receive the witness or experimental coordinates.  SFT supplies the
+# form: colour_count() = 3 residues per window, binary_count() = 2 residues of
+# overlap, and One new residue per advance.  The complete paired angle domain is
+# 24 x 24 = 576 at every residue.  One initial triple followed by every exact
+# One-advance reconstructs the complete chain and no candidate ordering occurs.
+
+import "protein_blind_selector_v38_admission.ep"
+
+
+define protein_material_window_count with residue_count as Int returning Int:
+    return residue_count - colour_count() + 1
+
+
+define protein_material_overlap_count with residue_count as Int returning Int:
+    return protein_material_window_count(residue_count) - 1
+
+
+define protein_material_reconstructed_residue_count with residue_count as Int returning Int:
+    set initial_window to colour_count()
+    set advances to protein_material_overlap_count(residue_count) * protein_interwindow_one_count()
+    return initial_window + advances
+
+
+define protein_material_long_range_pair_count with residue_count as Int returning Int:
+    # Pairs separated by at least the quartet count: (n-4)(n-3)/2.
+    set left_choices to residue_count - protein_orientation_quartet()
+    set right_choices to residue_count - protein_orientation_quartet_overlap()
+    return left_choices * right_choices / binary_count()
+
+
+define protein_material_raw_candidate_count with residue_count as Int returning Int:
+    return residue_count * protein_complete_paired_angle_state_count()
+
+
+define protein_material_raw_signature_match_count with residue_count as Int returning Int:
+    # Every interior material frame is unique. At the binary number of chain
+    # boundaries, one dihedral is an unobserved coordinate gauge and therefore
+    # has the complete 24-axis equivalence before the canonical gauge closes it.
+    set interior_matches to residue_count - binary_count()
+    set boundary_matches to binary_count() * protein_coordinate_axis_value_count()
+    return interior_matches + boundary_matches
+
+
+define enforce_protein_material_architecture_v1 with residue_count as Int and runtime_window_count as Int and runtime_distinct_window_count as Int and runtime_overlap_count as Int and initial_unique_match_count as Int and initial_alternative_match_count as Int and runtime_unique_advance_count as Int and runtime_alternative_advance_matches as Int and runtime_raw_candidate_count as Int and runtime_raw_signature_matches as Int and runtime_unique_material_states as Int and runtime_boundary_gauge_violations as Int and runtime_contact_relation_count as Int and runtime_contact_checks as Int and runtime_orientation_relation_count as Int and runtime_orientation_checks as Int and state_relation_mismatches as Int and window_geometry_mismatches as Int and contact_relation_mismatches as Int and orientation_relation_mismatches as Int and runtime_candidate_orderings as Int and runtime_weights as Int and runtime_fitted_parameters as Int and runtime_target_accesses as Int returning Int:
+    set paired_domain_guard to forced_to_be("every residue restores the complete 24 by 24 state domain" and protein_complete_paired_angle_state_count() and protein_angle_lattice_count() * protein_angle_lattice_count())
+    set window_guard to forced_to_be("complete colour-window census" and runtime_window_count and protein_material_window_count(residue_count))
+    set distinct_guard to forced_to_be("every registered sequence colour-window is distinct" and runtime_distinct_window_count and runtime_window_count)
+    set overlap_guard to forced_to_be("every consecutive colour-window shares the binary overlap" and runtime_overlap_count and protein_material_overlap_count(residue_count))
+    set reconstruction_guard to forced_to_be("one initial colour-window plus every One advance reconstructs the complete chain" and protein_material_reconstructed_residue_count(residue_count) and residue_count)
+    set initial_unique_guard to forced_unique("the initial exact lattice triple is unique in the complete triple product" and initial_unique_match_count and initial_alternative_match_count)
+    set advance_count_guard to forced_to_be("every binary-overlap boundary has one unique lattice-state advance" and runtime_unique_advance_count and protein_material_overlap_count(residue_count))
+    set advance_unique_guard to forced_unique("all complete 576-state advances contain exactly the registered generated-geometry match" and 1 and runtime_alternative_advance_matches)
+    set raw_candidate_guard to forced_to_be("the complete 576-state domain executes at every residue" and runtime_raw_candidate_count and protein_material_raw_candidate_count(residue_count))
+    set raw_match_guard to forced_to_be("interior uniqueness plus both exact boundary-gauge equivalence classes exhaust all raw material matches" and runtime_raw_signature_matches and protein_material_raw_signature_match_count(residue_count))
+    set material_state_guard to forced_to_be("canonical boundary gauges and unique interiors yield one state per residue" and runtime_unique_material_states and residue_count)
+    set contact_guard to forced_to_be("every counted generated contact relation is checked" and runtime_contact_checks and runtime_contact_relation_count)
+    set orientation_count_guard to forced_to_be("complete long-range orientation-pair census" and runtime_orientation_relation_count and protein_material_long_range_pair_count(residue_count))
+    set orientation_guard to forced_to_be("every counted long-range orientation relation is checked" and runtime_orientation_checks and runtime_orientation_relation_count)
+    set target_guard to forbid_target_input("direct protein material runtime" and false)
+    if paired_domain_guard == protein_complete_paired_angle_state_count():
+        if window_guard == runtime_window_count:
+            if distinct_guard == runtime_window_count:
+                if overlap_guard == runtime_overlap_count:
+                    if reconstruction_guard == residue_count:
+                        if initial_unique_guard == 1:
+                            if advance_count_guard == runtime_unique_advance_count:
+                                if advance_unique_guard == 1:
+                                    if raw_candidate_guard == runtime_raw_candidate_count:
+                                        if raw_match_guard == runtime_raw_signature_matches:
+                                            if material_state_guard == residue_count:
+                                                if runtime_boundary_gauge_violations == 0:
+                                                    if contact_guard == runtime_contact_relation_count:
+                                                        if orientation_count_guard == runtime_orientation_relation_count:
+                                                            if orientation_guard == runtime_orientation_relation_count:
+                                                                if state_relation_mismatches == 0:
+                                                                    if window_geometry_mismatches == 0:
+                                                                        if contact_relation_mismatches == 0:
+                                                                            if orientation_relation_mismatches == 0:
+                                                                                if runtime_candidate_orderings == 0:
+                                                                                    if runtime_weights == 0:
+                                                                                        if runtime_fitted_parameters == 0:
+                                                                                            if runtime_target_accesses == 0:
+                                                                                                if target_guard == 1:
+                                                                                                    return 1
+    return halt_violation("direct protein material architecture did not close")

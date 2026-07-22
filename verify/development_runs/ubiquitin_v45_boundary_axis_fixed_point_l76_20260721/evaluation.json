@@ -1,0 +1,290 @@
+{
+  "candidate_count": 12,
+  "execution": "post-seal comparison of complete connected boundary-axis fixed-point frontier",
+  "frontier": [
+    {
+      "ca_drmsd_angstrom": 7.419539530685486,
+      "contact_atom_pairs": 75,
+      "contact_residue_pairs": 48,
+      "cycle_distance_to_one": 1,
+      "fixed_point_index": 0,
+      "graph_components": 1,
+      "graph_cycle_rank": 2,
+      "interblock_edges": 27,
+      "matched_ca_atoms": 76,
+      "prediction_pdb_sha256": "d7af704d1df9c7135cfbfe1cb23d82ae6e9a6fdc51bfc877cfb040e55db696c2",
+      "source_orders": [
+        {
+          "axis_order": [
+            0,
+            1
+          ],
+          "direction": "n_to_c",
+          "seed": "v42_mask_5815"
+        }
+      ],
+      "tm_score": 0.12928399699441176
+    },
+    {
+      "ca_drmsd_angstrom": 7.687462690216652,
+      "contact_atom_pairs": 73,
+      "contact_residue_pairs": 46,
+      "cycle_distance_to_one": 1,
+      "fixed_point_index": 1,
+      "graph_components": 1,
+      "graph_cycle_rank": 2,
+      "interblock_edges": 27,
+      "matched_ca_atoms": 76,
+      "prediction_pdb_sha256": "a92b34c0495790fd8ccb2107b19554aff7d010a8dde1ca329a9b9aae8285e651",
+      "source_orders": [
+        {
+          "axis_order": [
+            1,
+            0
+          ],
+          "direction": "c_to_n",
+          "seed": "v42_mask_5815"
+        }
+      ],
+      "tm_score": 0.1082220750217036
+    },
+    {
+      "ca_drmsd_angstrom": 7.406909615008487,
+      "contact_atom_pairs": 106,
+      "contact_residue_pairs": 56,
+      "cycle_distance_to_one": 1,
+      "fixed_point_index": 2,
+      "graph_components": 1,
+      "graph_cycle_rank": 2,
+      "interblock_edges": 27,
+      "matched_ca_atoms": 76,
+      "prediction_pdb_sha256": "154285ba2c532770cd91f9c87d82aa897706f059e55dbf5150cc64086ae6d93e",
+      "source_orders": [
+        {
+          "axis_order": [
+            0,
+            1
+          ],
+          "direction": "c_to_n",
+          "seed": "v42_mask_5815"
+        }
+      ],
+      "tm_score": 0.12349693065357957
+    },
+    {
+      "ca_drmsd_angstrom": 6.683074746620787,
+      "contact_atom_pairs": 85,
+      "contact_residue_pairs": 54,
+      "cycle_distance_to_one": 3,
+      "fixed_point_index": 3,
+      "graph_components": 1,
+      "graph_cycle_rank": 4,
+      "interblock_edges": 29,
+      "matched_ca_atoms": 76,
+      "prediction_pdb_sha256": "d50656d6fdee46410832899fc7502d767cfc77e948867efb4943b9c5a7ccd8d0",
+      "source_orders": [
+        {
+          "axis_order": [
+            0,
+            1
+          ],
+          "direction": "n_to_c",
+          "seed": "v42_mask_5814"
+        }
+      ],
+      "tm_score": 0.13406550937893139
+    },
+    {
+      "ca_drmsd_angstrom": 7.05440320911505,
+      "contact_atom_pairs": 63,
+      "contact_residue_pairs": 49,
+      "cycle_distance_to_one": 0,
+      "fixed_point_index": 4,
+      "graph_components": 1,
+      "graph_cycle_rank": 1,
+      "interblock_edges": 26,
+      "matched_ca_atoms": 76,
+      "prediction_pdb_sha256": "2c6e4b8e4872ba9f1ada84f33b5d4acdff8376cd6775664a4488a529d9cddb90",
+      "source_orders": [
+        {
+          "axis_order": [
+            1,
+            0
+          ],
+          "direction": "n_to_c",
+          "seed": "v42_mask_2178"
+        }
+      ],
+      "tm_score": 0.13195332731053705
+    },
+    {
+      "ca_drmsd_angstrom": 6.85005164846987,
+      "contact_atom_pairs": 136,
+      "contact_residue_pairs": 62,
+      "cycle_distance_to_one": 3,
+      "fixed_point_index": 5,
+      "graph_components": 1,
+      "graph_cycle_rank": 4,
+      "interblock_edges": 29,
+      "matched_ca_atoms": 76,
+      "prediction_pdb_sha256": "d1c333b65ceebc4567e2a41866ab0fe1e54b9876f4c2def47dc578a261ecacb8",
+      "source_orders": [
+        {
+          "axis_order": [
+            0,
+            1
+          ],
+          "direction": "c_to_n",
+          "seed": "v42_mask_5814"
+        }
+      ],
+      "tm_score": 0.14108854202965312
+    },
+    {
+      "ca_drmsd_angstrom": 6.729168402664291,
+      "contact_atom_pairs": 133,
+      "contact_residue_pairs": 61,
+      "cycle_distance_to_one": 3,
+      "fixed_point_index": 6,
+      "graph_components": 1,
+      "graph_cycle_rank": 4,
+      "interblock_edges": 29,
+      "matched_ca_atoms": 76,
+      "prediction_pdb_sha256": "d63f7eca28d4886a4daabb18507dc018c54ba8055b5b8872b8e5cddab28f3bf6",
+      "source_orders": [
+        {
+          "axis_order": [
+            1,
+            0
+          ],
+          "direction": "c_to_n",
+          "seed": "v42_mask_5814"
+        }
+      ],
+      "tm_score": 0.1468867668740584
+    },
+    {
+      "ca_drmsd_angstrom": 6.172886380836446,
+      "contact_atom_pairs": 64,
+      "contact_residue_pairs": 41,
+      "cycle_distance_to_one": 0,
+      "fixed_point_index": 7,
+      "graph_components": 1,
+      "graph_cycle_rank": 1,
+      "interblock_edges": 26,
+      "matched_ca_atoms": 76,
+      "prediction_pdb_sha256": "f05e9b8743c9431c5f7ce1e98639096dae1945c2154835c3883f50cb3c0903e9",
+      "source_orders": [
+        {
+          "axis_order": [
+            1,
+            0
+          ],
+          "direction": "n_to_c",
+          "seed": "v42_mask_5815"
+        }
+      ],
+      "tm_score": 0.16003867449884962
+    },
+    {
+      "ca_drmsd_angstrom": 6.184815212206478,
+      "contact_atom_pairs": 73,
+      "contact_residue_pairs": 50,
+      "cycle_distance_to_one": 0,
+      "fixed_point_index": 8,
+      "graph_components": 1,
+      "graph_cycle_rank": 1,
+      "interblock_edges": 26,
+      "matched_ca_atoms": 76,
+      "prediction_pdb_sha256": "3f53ca56ddd0687967f4ab91d77c4aa9b154f882074b8dac5a9ed5e4566013ce",
+      "source_orders": [
+        {
+          "axis_order": [
+            1,
+            0
+          ],
+          "direction": "c_to_n",
+          "seed": "v42_mask_2178"
+        }
+      ],
+      "tm_score": 0.09276478872894348
+    },
+    {
+      "ca_drmsd_angstrom": 7.487737505451886,
+      "contact_atom_pairs": 100,
+      "contact_residue_pairs": 57,
+      "cycle_distance_to_one": 3,
+      "fixed_point_index": 9,
+      "graph_components": 1,
+      "graph_cycle_rank": 4,
+      "interblock_edges": 29,
+      "matched_ca_atoms": 76,
+      "prediction_pdb_sha256": "770ee47c6f6899aeb0ee3075ff8faeff1f88d7c945e4011aa74617949f05f223",
+      "source_orders": [
+        {
+          "axis_order": [
+            1,
+            0
+          ],
+          "direction": "n_to_c",
+          "seed": "v42_mask_5814"
+        }
+      ],
+      "tm_score": 0.15848651933785493
+    },
+    {
+      "ca_drmsd_angstrom": 6.720643253342488,
+      "contact_atom_pairs": 53,
+      "contact_residue_pairs": 46,
+      "cycle_distance_to_one": 0,
+      "fixed_point_index": 10,
+      "graph_components": 1,
+      "graph_cycle_rank": 1,
+      "interblock_edges": 26,
+      "matched_ca_atoms": 76,
+      "prediction_pdb_sha256": "7d172abac95479cc832a3ab2628a9e8b5d10bf80c50b77ce12705687e1aefcb1",
+      "source_orders": [
+        {
+          "axis_order": [
+            0,
+            1
+          ],
+          "direction": "n_to_c",
+          "seed": "v42_mask_2178"
+        }
+      ],
+      "tm_score": 0.155408069464635
+    },
+    {
+      "ca_drmsd_angstrom": 6.380282440374509,
+      "contact_atom_pairs": 87,
+      "contact_residue_pairs": 53,
+      "cycle_distance_to_one": 0,
+      "fixed_point_index": 11,
+      "graph_components": 1,
+      "graph_cycle_rank": 1,
+      "interblock_edges": 26,
+      "matched_ca_atoms": 76,
+      "prediction_pdb_sha256": "8300d17085891f3c123f0abb8219ed22c88b4d11eac50ff18e735c3e2f2cb93b",
+      "source_orders": [
+        {
+          "axis_order": [
+            0,
+            1
+          ],
+          "direction": "c_to_n",
+          "seed": "v42_mask_2178"
+        }
+      ],
+      "tm_score": 0.11032359217920909
+    }
+  ],
+  "official_run": false,
+  "result_type": "cumulative development benchmark",
+  "run_id": "ubiquitin_v45_boundary_axis_fixed_point_l76_20260721",
+  "schema": "fold-protein-blind-evaluation/v45",
+  "seal_sha256": "0d9b0cae4f75b4da518b3ef04b4c02e8d92a7ca9bf3a097a6ae13bd986ae020e",
+  "status": "completed",
+  "target_id": "1ubq.pdb",
+  "target_sha256": "d4a6812d8951cf6594e6a0763f089e35f5a80b62acb3c117b2c5565228a7b161"
+}

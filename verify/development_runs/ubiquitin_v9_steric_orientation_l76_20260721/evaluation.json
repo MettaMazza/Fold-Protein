@@ -1,0 +1,13 @@
+{
+  "ca_drmsd_angstrom": 91.55819555878188,
+  "execution": "post-seal structural comparison",
+  "matched_ca_atoms": 76,
+  "run_id": "development-ubiquitin-v9-steric-orientation-l76-20260721",
+  "schema": "fold-protein-blind-evaluation/v9",
+  "seal_sha256": "5749042a3e0f54f3159271e7e10c6dc9712eb5bc0996e89e3d2ad28a824ce94f",
+  "sequence_length": 76,
+  "status": "completed",
+  "target_id": "1ubq.pdb",
+  "target_sha256": "d4a6812d8951cf6594e6a0763f089e35f5a80b62acb3c117b2c5565228a7b161",
+  "tm_score": 0.01600980077398572
+}

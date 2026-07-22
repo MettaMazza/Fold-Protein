@@ -1,0 +1,89 @@
+{
+  "candidate_count": 4,
+  "candidates": [
+    {
+      "axis_order": [
+        0,
+        1
+      ],
+      "candidate_index": 0,
+      "coordinate_evaluations": 43200,
+      "direction": "n_to_c",
+      "path_sha256": "866827eccb4daee07ea07e040fb73871de8f92e99d9aeeaa7c5d5937dc5c1450",
+      "prediction_pdb": "candidate_00.pdb",
+      "prediction_pdb_sha256": "1a99ca1fb5c5a69e14eb9f490d9ce4fad14b7fb6bc29ab72e6a9eda12b8dca0b",
+      "rank_key": [
+        0,
+        0.5900490920837517,
+        11.058056865252707
+      ],
+      "selected_emission": false,
+      "sweeps": 12
+    },
+    {
+      "axis_order": [
+        1,
+        0
+      ],
+      "candidate_index": 1,
+      "coordinate_evaluations": 25200,
+      "direction": "n_to_c",
+      "path_sha256": "5a814186b77395d8ccaf7e5c53f85ef6a8d0cba4ee8b756542721634af59b37c",
+      "prediction_pdb": "candidate_01.pdb",
+      "prediction_pdb_sha256": "3468f59b83af556cfbcab5a34bf299327237fe69a7002b761062c353da7a8d55",
+      "rank_key": [
+        0,
+        0.6118784768854892,
+        11.66554353548808
+      ],
+      "selected_emission": false,
+      "sweeps": 7
+    },
+    {
+      "axis_order": [
+        0,
+        1
+      ],
+      "candidate_index": 2,
+      "coordinate_evaluations": 32400,
+      "direction": "c_to_n",
+      "path_sha256": "3e2e73a941576c6c37d70d05f9f9eacf43e6f7d8126cbce826d108e8cba99ea1",
+      "prediction_pdb": "candidate_02.pdb",
+      "prediction_pdb_sha256": "78bdd2ef7e67d414dd37c3cdddc7c845845aa34b13e61c2373611b7c29e50581",
+      "rank_key": [
+        0,
+        0.5999839775858461,
+        10.950193067705502
+      ],
+      "selected_emission": false,
+      "sweeps": 9
+    },
+    {
+      "axis_order": [
+        1,
+        0
+      ],
+      "candidate_index": 3,
+      "coordinate_evaluations": 36000,
+      "direction": "c_to_n",
+      "path_sha256": "280d2c9875b9bded1c085a20d0a34ef44c0b9efda651bf93ff8fc60361001f9d",
+      "prediction_pdb": "candidate_03.pdb",
+      "prediction_pdb_sha256": "5d74249322a00e4649ec4aff974ca6a1438cacccf0abdb49d5dd1d9b3d3c704f",
+      "rank_key": [
+        0,
+        0.5830356163821023,
+        10.9792312453205
+      ],
+      "selected_emission": true,
+      "sweeps": 10
+    }
+  ],
+  "evaluator_sha256": "7654e29a302dffed2700f4df7d856ebce54e35a010db0664f3299f0d86ee29ef",
+  "official_run": false,
+  "result_type": "cumulative development frontier recovery",
+  "run_id": "ubiquitin-v38-coordinate-fixed-point-l76-20260721",
+  "schema": "fold-protein-v38-sealed-frontier-replay/v1",
+  "source_seal_sha256": "9ed0386295c0cbfe4acc42a635d46353d7e5f7f30d9784fe5dcd0e4f6a986f8c",
+  "source_selected_states_sha256": "0c83c5d4d0a1431431435c8b1b4647e612d9f287588711e1ea40b7c96b0895c1",
+  "status": "replayed_from_original_precomparison_seal"
+}

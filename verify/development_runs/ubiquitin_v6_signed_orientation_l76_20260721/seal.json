@@ -1,0 +1,44 @@
+{
+  "execution": "sequence-only signed-orientation selector output",
+  "generated_orientation_modes": {
+    "alpha": 0.7682042835361056,
+    "beta": -0.18257647754674627,
+    "source_angles_degrees": {
+      "alpha": [
+        "-60",
+        "-45"
+      ],
+      "beta": [
+        "-120",
+        "135"
+      ]
+    }
+  },
+  "orientation_quartets": 73,
+  "path_length": 76,
+  "prediction_pdb_sha256": "5af6dcccfc95450d35941682b82db54c5f49d90145a6718c153c9c2f27b144c0",
+  "protocol_manifest_sha256": "395c303fdee4314293a861e7a470ad8a218c7a42f19c53a7a5d3abfec6927484",
+  "run_id": "development-ubiquitin-v6-signed-orientation-l76-20260721",
+  "schema": "fold-protein-blind-seal/v6",
+  "selected_states_sha256": "60e314b3fa941f36529175d895f7fc50600807bcc712599099cd1a74b84f47ef",
+  "selector_input_sha256": "6e65933a11e09877165b59455bec0283d52d63e3093522492ceb644210e3d38f",
+  "sequence_sha256": "233b4b0b8c4616095bc3249f9375fc345d32af7deaef07117d0383c51d6f19aa",
+  "source_sha256": {
+    "constants/protein_folding_3d.ep": "4f70c494aaff364b116d887899ac63b11b5df9d72d6b1f9beec00b36dbb3cc9f",
+    "constants/protein_interwindow_orientation.ep": "da5a126a9f678e40a657a850908978b0e11d772a9a8a0460ee12729ce7d1dad4",
+    "foundation/exact_fractions.ep": "fcf464b0a5db6974c62916208280ab31e5fe30fc7d73467c27711f42f2c80809",
+    "foundation/structural_counts.ep": "d2bae850fe45cda4ee1c3282b48d85b54be11918ffb565d4881f9b338cd9a028",
+    "foundation/the_one_and_the_fold.ep": "c630e359c3e6cfde0c6c96b605570e021e3098b3a8f4ea401f2d675ae56fff40",
+    "tools/blind_24_lattice_selector_v3.py": "062c2e4174e42494d3631e0c6aa38a708ec1a5952dc321ce66328620ff305cb5",
+    "tools/blind_24_lattice_selector_v5.py": "3a98c254240b5ce94ab54351c703282621b7c98863e7b3ac82e6d6f1fd784652",
+    "tools/blind_24_lattice_selector_v6.py": "b593f6a4aac5d8c14c418dc1870897a778d0769d3150ba125364b8d1114c219a",
+    "tools/protein_backbone_geometry_v1.py": "a043e5d05a26fdf063c4703dac619f5fe918b65779a96df6d3cfa2f536fdc315",
+    "tools/residue_partition_v1.py": "f48e0ebc2c3dbc1d6d7a37370e0a2329968524d169d7b43022dce30ceacd3814",
+    "tools/run_blind_protocol_v6.py": "6f866cec2f37c9ce4efa34c735ef920d8128597a69df2cb282db9128ea7d0042",
+    "verify/evaluate_sealed_blind_local_v6.py": "6c6f8e6c3ce490b002896ce244d718cfb7f9b94d67949f6d38c4b363cc808388",
+    "verify/evaluate_sealed_blind_v6.py": "b84427ef6c3758409af2b60caf38fd38f12fcc4252c61a4cd850217585f4dcf5",
+    "verify/protein_backbone_geometry_v1.json": "47da7e3f3c58a88e53b36157c5d5ed4dfa2c8b2c6e2cba91a5da34e5746571fd",
+    "verify/replay_protein_backbone_geometry_v1.py": "c441fac4b7afde843ff260fadcd62430aa8937f3881d2e778de32c27c3b80b62"
+  },
+  "status": "completed"
+}

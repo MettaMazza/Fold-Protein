@@ -1,0 +1,1056 @@
+{
+  "analyzer": {
+    "path": "tools/trace_selector_continuation_lineage_v2.py",
+    "sha256": "f6efe8ea18851c69f6ce306e7e2a9d0dcc7689f1a10b537b22b8fede88074d8f"
+  },
+  "beam_width": 24,
+  "comparisons": [
+    {
+      "anchor_active_length": 7,
+      "anchor_path": [
+        13,
+        300,
+        12,
+        288,
+        0,
+        0,
+        300
+      ],
+      "anchor_verified_as_frontier_winner": true,
+      "continuation_rows": [
+        {
+          "active_state": 7,
+          "best_key": [
+            0,
+            0.58714647927661,
+            3.155651654722101
+          ],
+          "best_rank": 2,
+          "lineage_alive": true,
+          "residue": "L",
+          "retained_descendants": 2
+        },
+        {
+          "active_state": 8,
+          "best_key": [
+            0,
+            0.487068828785471,
+            3.927645788724976
+          ],
+          "best_rank": 4,
+          "lineage_alive": true,
+          "residue": "T",
+          "retained_descendants": 2
+        },
+        {
+          "active_state": 9,
+          "best_key": [
+            0,
+            0.3947427970933346,
+            4.974410383761318
+          ],
+          "best_rank": 9,
+          "lineage_alive": true,
+          "residue": "G",
+          "retained_descendants": 2
+        },
+        {
+          "active_state": 10,
+          "best_key": [
+            0,
+            0.3229320645402493,
+            6.217426418401319
+          ],
+          "best_rank": 3,
+          "lineage_alive": true,
+          "residue": "K",
+          "retained_descendants": 2
+        },
+        {
+          "active_state": 11,
+          "best_key": [
+            0,
+            0.8790589468933931,
+            6.744887013148711
+          ],
+          "best_rank": 1,
+          "lineage_alive": true,
+          "residue": "T",
+          "retained_descendants": 2
+        },
+        {
+          "active_state": 12,
+          "best_key": [
+            0,
+            0.7951580281648867,
+            7.584707279307387
+          ],
+          "best_rank": 5,
+          "lineage_alive": true,
+          "residue": "I",
+          "retained_descendants": 2
+        },
+        {
+          "active_state": 13,
+          "best_key": [
+            0,
+            1.0282358128022742,
+            8.017124952206986
+          ],
+          "best_rank": 5,
+          "lineage_alive": true,
+          "residue": "T",
+          "retained_descendants": 2
+        },
+        {
+          "active_state": 14,
+          "best_key": [
+            0,
+            0.9523405793836744,
+            8.768746455163864
+          ],
+          "best_rank": 8,
+          "lineage_alive": true,
+          "residue": "L",
+          "retained_descendants": 2
+        }
+      ],
+      "final_path_descends_from_anchor": false,
+      "first_displaced_active_state": 7,
+      "first_extinct_active_state": null,
+      "long_length": 16,
+      "short_length": 8
+    },
+    {
+      "anchor_active_length": 15,
+      "anchor_path": [
+        6,
+        300,
+        12,
+        288,
+        0,
+        0,
+        300,
+        280,
+        0,
+        0,
+        0,
+        300,
+        300,
+        300,
+        321
+      ],
+      "anchor_verified_as_frontier_winner": true,
+      "continuation_rows": [
+        {
+          "active_state": 15,
+          "best_key": [
+            0,
+            1.085058582880768,
+            9.236231165787485
+          ],
+          "best_rank": 3,
+          "lineage_alive": true,
+          "residue": "E",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 16,
+          "best_key": [
+            0,
+            1.0106006342236982,
+            10.01725225673404
+          ],
+          "best_rank": 3,
+          "lineage_alive": true,
+          "residue": "V",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 17,
+          "best_key": [
+            0,
+            0.9263988967426127,
+            11.025750814400896
+          ],
+          "best_rank": 2,
+          "lineage_alive": true,
+          "residue": "E",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 18,
+          "best_key": [
+            0,
+            0.8348667703529189,
+            12.332423680864448
+          ],
+          "best_rank": 2,
+          "lineage_alive": true,
+          "residue": "P",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 19,
+          "best_key": [
+            0,
+            0.7480269539435049,
+            13.863545403591353
+          ],
+          "best_rank": 2,
+          "lineage_alive": true,
+          "residue": "S",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 20,
+          "best_key": [
+            0,
+            0.6659743381038525,
+            15.673783576419456
+          ],
+          "best_rank": 2,
+          "lineage_alive": true,
+          "residue": "D",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 21,
+          "best_key": [
+            0,
+            1.0118685137448007,
+            16.949525986833063
+          ],
+          "best_rank": 10,
+          "lineage_alive": true,
+          "residue": "T",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 22,
+          "best_key": [
+            0,
+            0.9308928732983074,
+            18.526518257942264
+          ],
+          "best_rank": 7,
+          "lineage_alive": true,
+          "residue": "I",
+          "retained_descendants": 1
+        }
+      ],
+      "final_path_descends_from_anchor": false,
+      "first_displaced_active_state": 15,
+      "first_extinct_active_state": null,
+      "long_length": 24,
+      "short_length": 16
+    },
+    {
+      "anchor_active_length": 23,
+      "anchor_path": [
+        13,
+        300,
+        12,
+        288,
+        0,
+        0,
+        300,
+        280,
+        0,
+        0,
+        0,
+        300,
+        300,
+        300,
+        321,
+        324,
+        319,
+        0,
+        0,
+        0,
+        0,
+        324,
+        299
+      ],
+      "anchor_verified_as_frontier_winner": true,
+      "continuation_rows": [
+        {
+          "active_state": 23,
+          "best_key": [
+            0,
+            0.8537369364554379,
+            20.304184330359547
+          ],
+          "best_rank": 1,
+          "lineage_alive": true,
+          "residue": "E",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 24,
+          "best_key": [
+            0,
+            1.0726264255318838,
+            21.409358184503567
+          ],
+          "best_rank": 8,
+          "lineage_alive": true,
+          "residue": "N",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 25,
+          "best_key": [
+            0,
+            1.0121819117137048,
+            22.787896841669085
+          ],
+          "best_rank": 10,
+          "lineage_alive": true,
+          "residue": "V",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 26,
+          "best_key": [
+            0,
+            0.9470316383716048,
+            24.454868603943062
+          ],
+          "best_rank": 3,
+          "lineage_alive": true,
+          "residue": "K",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 27,
+          "best_key": [
+            0,
+            0.8811050283848472,
+            26.38415787215928
+          ],
+          "best_rank": 3,
+          "lineage_alive": true,
+          "residue": "A",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 28,
+          "best_key": [
+            0,
+            1.0849732747495888,
+            27.73388156009361
+          ],
+          "best_rank": 17,
+          "lineage_alive": true,
+          "residue": "K",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 29,
+          "best_key": [
+            0,
+            1.0276476235874121,
+            29.37816583691644
+          ],
+          "best_rank": 17,
+          "lineage_alive": true,
+          "residue": "I",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 30,
+          "best_key": [
+            0,
+            0.9679626702035111,
+            31.28643824024185
+          ],
+          "best_rank": 15,
+          "lineage_alive": true,
+          "residue": "Q",
+          "retained_descendants": 1
+        }
+      ],
+      "final_path_descends_from_anchor": false,
+      "first_displaced_active_state": 24,
+      "first_extinct_active_state": null,
+      "long_length": 32,
+      "short_length": 24
+    },
+    {
+      "anchor_active_length": 31,
+      "anchor_path": [
+        0,
+        300,
+        12,
+        288,
+        0,
+        0,
+        300,
+        320,
+        0,
+        0,
+        0,
+        300,
+        300,
+        300,
+        279,
+        276,
+        281,
+        0,
+        0,
+        0,
+        0,
+        276,
+        301,
+        0,
+        324,
+        276,
+        0,
+        0,
+        324,
+        277,
+        0
+      ],
+      "anchor_verified_as_frontier_winner": true,
+      "continuation_rows": [
+        {
+          "active_state": 31,
+          "best_key": [
+            0,
+            0.9072528087075687,
+            33.477124563064336
+          ],
+          "best_rank": 1,
+          "lineage_alive": true,
+          "residue": "D",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 32,
+          "best_key": [
+            0,
+            0.847805801626317,
+            35.92247617891101
+          ],
+          "best_rank": 1,
+          "lineage_alive": true,
+          "residue": "K",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 33,
+          "best_key": [
+            0,
+            0.7902480562946698,
+            38.638184984433906
+          ],
+          "best_rank": 2,
+          "lineage_alive": true,
+          "residue": "E",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 34,
+          "best_key": [
+            0,
+            1.046741656342711,
+            40.744862513033276
+          ],
+          "best_rank": 2,
+          "lineage_alive": true,
+          "residue": "G",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 35,
+          "best_key": [
+            0,
+            0.9907760907581784,
+            43.145828009996656
+          ],
+          "best_rank": 2,
+          "lineage_alive": true,
+          "residue": "I",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 36,
+          "best_key": [
+            0,
+            0.9357055679109282,
+            45.78501802326428
+          ],
+          "best_rank": 2,
+          "lineage_alive": true,
+          "residue": "P",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 37,
+          "best_key": [
+            0,
+            0.8813844037583837,
+            48.70752015958671
+          ],
+          "best_rank": 2,
+          "lineage_alive": true,
+          "residue": "P",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 38,
+          "best_key": [
+            0,
+            0.8293956812539659,
+            51.86245469904353
+          ],
+          "best_rank": 1,
+          "lineage_alive": true,
+          "residue": "D",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 39,
+          "best_key": [
+            0,
+            0.7794335288692877,
+            55.29007812434019
+          ],
+          "best_rank": 1,
+          "lineage_alive": true,
+          "residue": "Q",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 40,
+          "best_key": [
+            0,
+            0.7324169018305146,
+            58.94414142734279
+          ],
+          "best_rank": 2,
+          "lineage_alive": true,
+          "residue": "Q",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 41,
+          "best_key": [
+            0,
+            1.0162198918003387,
+            61.8383535669798
+          ],
+          "best_rank": 13,
+          "lineage_alive": true,
+          "residue": "R",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 42,
+          "best_key": [
+            0,
+            1.1752383786988323,
+            63.84373482367948
+          ],
+          "best_rank": 6,
+          "lineage_alive": true,
+          "residue": "L",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 43,
+          "best_key": [
+            0,
+            1.2590284010970467,
+            65.22989212829481
+          ],
+          "best_rank": 6,
+          "lineage_alive": true,
+          "residue": "I",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 44,
+          "best_key": [
+            0,
+            1.2301958595952325,
+            66.85822203143051
+          ],
+          "best_rank": 4,
+          "lineage_alive": true,
+          "residue": "F",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 45,
+          "best_key": [
+            0,
+            1.1972171077483331,
+            68.79780494336589
+          ],
+          "best_rank": 4,
+          "lineage_alive": true,
+          "residue": "A",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 46,
+          "best_key": [
+            0,
+            1.1619916639778907,
+            70.9800706732034
+          ],
+          "best_rank": 3,
+          "lineage_alive": true,
+          "residue": "G",
+          "retained_descendants": 1
+        }
+      ],
+      "final_path_descends_from_anchor": false,
+      "first_displaced_active_state": 33,
+      "first_extinct_active_state": null,
+      "long_length": 48,
+      "short_length": 32
+    },
+    {
+      "anchor_active_length": 47,
+      "anchor_path": [
+        20,
+        300,
+        12,
+        288,
+        0,
+        0,
+        300,
+        320,
+        0,
+        0,
+        0,
+        300,
+        300,
+        300,
+        279,
+        276,
+        281,
+        0,
+        0,
+        0,
+        0,
+        276,
+        301,
+        0,
+        324,
+        276,
+        0,
+        0,
+        324,
+        277,
+        0,
+        0,
+        0,
+        0,
+        300,
+        300,
+        0,
+        0,
+        0,
+        0,
+        0,
+        300,
+        30,
+        24,
+        300,
+        0,
+        0
+      ],
+      "anchor_verified_as_frontier_winner": true,
+      "continuation_rows": [
+        {
+          "active_state": 47,
+          "best_key": [
+            0,
+            1.1241171030282686,
+            73.46745023124399
+          ],
+          "best_rank": 1,
+          "lineage_alive": true,
+          "residue": "K",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 48,
+          "best_key": [
+            0,
+            1.2256405339168581,
+            75.54235278625711
+          ],
+          "best_rank": 1,
+          "lineage_alive": true,
+          "residue": "Q",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 49,
+          "best_key": [
+            0,
+            1.1895905327581864,
+            77.92539280850164
+          ],
+          "best_rank": 3,
+          "lineage_alive": true,
+          "residue": "L",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 50,
+          "best_key": [
+            0,
+            1.1523951324734696,
+            80.53365679214222
+          ],
+          "best_rank": 2,
+          "lineage_alive": true,
+          "residue": "E",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 51,
+          "best_key": [
+            0,
+            1.1134265108628851,
+            83.44497676700456
+          ],
+          "best_rank": 4,
+          "lineage_alive": true,
+          "residue": "D",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 52,
+          "best_key": [
+            0,
+            1.074234939017976,
+            86.58192082085732
+          ],
+          "best_rank": 3,
+          "lineage_alive": true,
+          "residue": "G",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 53,
+          "best_key": [
+            0,
+            1.0343185777202943,
+            90.01599318317702
+          ],
+          "best_rank": 5,
+          "lineage_alive": true,
+          "residue": "R",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 54,
+          "best_key": [
+            0,
+            1.1711439378470845,
+            92.9794713859337
+          ],
+          "best_rank": 4,
+          "lineage_alive": true,
+          "residue": "T",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 55,
+          "best_key": [
+            0,
+            1.1324920653733987,
+            96.2451038727968
+          ],
+          "best_rank": 2,
+          "lineage_alive": true,
+          "residue": "L",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 56,
+          "best_key": [
+            0,
+            1.0939972095803547,
+            99.72395733084919
+          ],
+          "best_rank": 2,
+          "lineage_alive": true,
+          "residue": "S",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 57,
+          "best_key": [
+            0,
+            1.2010585310324804,
+            102.56621154567236
+          ],
+          "best_rank": 11,
+          "lineage_alive": true,
+          "residue": "D",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 58,
+          "best_key": [
+            0,
+            1.1667844577711937,
+            105.67039596900884
+          ],
+          "best_rank": 7,
+          "lineage_alive": true,
+          "residue": "Y",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 59,
+          "best_key": [
+            0,
+            1.2414017401551232,
+            108.21209852490038
+          ],
+          "best_rank": 5,
+          "lineage_alive": true,
+          "residue": "N",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 60,
+          "best_key": [
+            0,
+            1.2108468385548332,
+            111.03257873407989
+          ],
+          "best_rank": 3,
+          "lineage_alive": true,
+          "residue": "I",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 61,
+          "best_key": [
+            0,
+            1.1788256454574495,
+            114.13797163042534
+          ],
+          "best_rank": 2,
+          "lineage_alive": true,
+          "residue": "Q",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 62,
+          "best_key": [
+            0,
+            1.1457883400778401,
+            117.51805503176958
+          ],
+          "best_rank": 2,
+          "lineage_alive": true,
+          "residue": "K",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 63,
+          "best_key": [
+            0,
+            1.1119962093328952,
+            121.17824373812658
+          ],
+          "best_rank": 2,
+          "lineage_alive": true,
+          "residue": "E",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 64,
+          "best_key": [
+            0,
+            1.0778288207134707,
+            125.10864702399653
+          ],
+          "best_rank": 1,
+          "lineage_alive": true,
+          "residue": "S",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 65,
+          "best_key": [
+            0,
+            1.1770066081564736,
+            128.46380909454615
+          ],
+          "best_rank": 5,
+          "lineage_alive": true,
+          "residue": "T",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 66,
+          "best_key": [
+            0,
+            1.1453500530552843,
+            132.10297932535275
+          ],
+          "best_rank": 3,
+          "lineage_alive": true,
+          "residue": "L",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 67,
+          "best_key": [
+            0,
+            1.2184447598760324,
+            135.22782896671958
+          ],
+          "best_rank": 20,
+          "lineage_alive": true,
+          "residue": "H",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 68,
+          "best_key": [
+            0,
+            1.2651915988886242,
+            137.61591797947017
+          ],
+          "best_rank": 18,
+          "lineage_alive": true,
+          "residue": "L",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 69,
+          "best_key": [
+            0,
+            1.2906737716331302,
+            139.43653546097622
+          ],
+          "best_rank": 24,
+          "lineage_alive": true,
+          "residue": "V",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 70,
+          "best_key": [
+            0,
+            1.2729524604364668,
+            141.46227645371414
+          ],
+          "best_rank": 24,
+          "lineage_alive": true,
+          "residue": "L",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 71,
+          "best_key": [
+            0,
+            1.2846832279942075,
+            142.985612989888
+          ],
+          "best_rank": 22,
+          "lineage_alive": true,
+          "residue": "R",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 72,
+          "best_key": [
+            0,
+            1.269877245396099,
+            144.73461507119328
+          ],
+          "best_rank": 24,
+          "lineage_alive": true,
+          "residue": "L",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 73,
+          "best_key": [
+            0,
+            1.2528328521697456,
+            146.78445919753335
+          ],
+          "best_rank": 24,
+          "lineage_alive": true,
+          "residue": "R",
+          "retained_descendants": 1
+        },
+        {
+          "active_state": 74,
+          "best_key": [
+            0,
+            1.2343051094704969,
+            149.06762597595332
+          ],
+          "best_rank": 24,
+          "lineage_alive": true,
+          "residue": "G",
+          "retained_descendants": 1
+        }
+      ],
+      "final_path_descends_from_anchor": false,
+      "first_displaced_active_state": 49,
+      "first_extinct_active_state": null,
+      "long_length": 76,
+      "short_length": 48
+    }
+  ],
+  "governance_authority": false,
+  "interpretation": "sequence-only continuation lineage; the engine determines forcing or halt and Maria Smith assigns project conclusions",
+  "relation": "a longer path is a descendant exactly when its active-state tuple begins with the registered shorter winner",
+  "replay_strategy": "one maximum-length replay; every frontier is shared exactly by all registered runs with the same sequence prefix",
+  "result_type": "measured implementation result",
+  "schema": "fold-protein-selector-v2-continuation-lineage/v1",
+  "selected_state_bindings": [
+    {
+      "length": 8,
+      "sha256": "5ebfe1c499759e6a4485c8090e606730b48683e6eee7d17a983bf74d850b2b80"
+    },
+    {
+      "length": 16,
+      "sha256": "d45072ed6af0e6f3adefa09510aaed5abcc1d519742a9210fc99a2f9837f6308"
+    },
+    {
+      "length": 24,
+      "sha256": "dda19f0fc83c1506acd51503606c4ef3d7f941d2e25d8b370e2e9bbe008005b7"
+    },
+    {
+      "length": 32,
+      "sha256": "7627a8bb86e1ab61504303ca7319b1ca587427c86c312750093259de330b341a"
+    },
+    {
+      "length": 48,
+      "sha256": "2ac703ac12ffe2a6e1cd19aa016f9fc143bdc6d9862b318c0a89b814339eda96"
+    },
+    {
+      "length": 76,
+      "sha256": "a5c82bfe7d669a58ec25119a5776f1239a3ee3d7e4625d18fb84a1d8ca4b48a9"
+    }
+  ],
+  "selector_source_sha256": "b8d1c406ffcf85ebf38f2f87590e5aee7a694501242cd268bbe5372cd388a934",
+  "status": "completed",
+  "target_access": "none",
+  "verified_ladder": {
+    "completed_runs": 6,
+    "failed_runs": 0,
+    "registration_sha256": "13712fc188fd362a1d0b6bd0e139321f4404cbb51bcbc5a1349b127a01241e64",
+    "schema": "fold-protein-selector-v2-length-ladder-verification/v1",
+    "seal_sha256": "05b11e798c95c30e5bfda70e7000158d29f91a2cdd6b817c205ad72b620c7c00",
+    "status": "verified"
+  }
+}

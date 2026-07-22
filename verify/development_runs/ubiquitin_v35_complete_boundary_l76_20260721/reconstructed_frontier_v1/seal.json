@@ -1,0 +1,37 @@
+{
+  "candidate_count": 8,
+  "frontier_sha256": "9ceccf4f2bdef70084cec24b509d1d5e415e78900f1bc0e352d1314b86d61a37",
+  "official_run": false,
+  "original_seal_sha256": "da9ccdafb7f9669f296403a6939e2541e3432fa2f17c36cbc90d5cdeab72aeff",
+  "prediction_pdb_sha256": {
+    "candidate_00.pdb": "df53cbe45c27b904d3fbf06e0673ebfb057a1c1dbf31b95e1d6e8f0f81c0059f",
+    "candidate_01.pdb": "a743e7ac8b570b3716c8b16feff5d9dea136c4e84c5cca6b0da6d34912963772",
+    "candidate_02.pdb": "c272c3596077fbf402c02e181171c23645babd54b651fd96e3e2829dac2fb134",
+    "candidate_03.pdb": "c5f6cf23ef1bfca9d1b0c7f004a617ace5ec9d5c45bd909242615285bc03ef09",
+    "candidate_04.pdb": "3c802ffd6e3572a42ed619a75f20d51c4173e0672a1af09e85a56a5063a640e4",
+    "candidate_05.pdb": "7cbf572dffb622ce0b4bc24e65c612a39186abfdce10ebc74a64c5fcc149371e",
+    "candidate_06.pdb": "d6164e9af62577c81d6a4e1c39e5255bdfa2a86de9ce13df43fecc8752170cfa",
+    "candidate_07.pdb": "6395600b9a931b53a0791d3e67a4e81eafe3519e3ec3c16b342316022d0a2f27"
+  },
+  "protocol_manifest_sha256": "f556848f09c2980a2247a58af80a57221730ebdfc8405633adb374cb3a34b071",
+  "reconstruction_source_sha256": "a1c8e2f73b33ceccbecafdc05510134129699d36c5106cc0bb687df15548cffb",
+  "result_type": "target-free historical frontier reconstruction",
+  "run_id": "development-ubiquitin-v35-complete-boundary-l76-20260721",
+  "schema": "fold-protein-v35-reconstructed-frontier-seal/v1",
+  "selector_input_sha256": "72382fda2b3ec42d66db3d817089cba457d0a9cf1d548530b71a707e886f52c6",
+  "selector_source_sha256": {
+    "constants/protein_blind_selector_v35_admission.ep": "488b693599f2387b716c0e28e2194c0d9d2794cc00010569b47dfea2a51853d1",
+    "tools/blind_24_lattice_selector_v3.py": "062c2e4174e42494d3631e0c6aa38a708ec1a5952dc321ce66328620ff305cb5",
+    "tools/blind_24_lattice_selector_v34.py": "bf2bcd1f03a55e29c660d0c5b95f1ea17f3ac8d463eb9647d2d02f0b077ab5a2",
+    "tools/blind_24_lattice_selector_v35.py": "14e3ac555e1648c75e4ed9bbf508afa2369c0d41924dcb9b01e2122a586e6131",
+    "tools/protein_backbone_geometry_v1.py": "a043e5d05a26fdf063c4703dac619f5fe918b65779a96df6d3cfa2f536fdc315",
+    "tools/residue_partition_v1.py": "f48e0ebc2c3dbc1d6d7a37370e0a2329968524d169d7b43022dce30ceacd3814",
+    "tools/run_blind_protocol_v35.py": "bde4c42aba92174d06b5d5900981c66401e4f230302431366136cc84ccb9fe31",
+    "verify/blind_selector_v3.json": "c6988dc13395e59aaaf6c96e6838a14477ceda7a8ecb4d4314c61ca0e8c85ecd",
+    "verify/protein_backbone_geometry_v1.json": "47da7e3f3c58a88e53b36157c5d5ed4dfa2c8b2c6e2cba91a5da34e5746571fd",
+    "verify/protein_engine_closure_v1.json": "a0e0593c9a12020cb532b9c214ed703adc695ea46086a3328f490b3a3db11220",
+    "verify/protein_selector_v34_admission_v1.json": "d9f87b03d5fe7027f364f8527c4b9462e98f4e379eb81ac205fb489e1e31901f",
+    "verify/protein_selector_v35_admission_v1.json": "1af7086a79785e8815872b6eee04d1c27de3242f0085a15a230bb2ce360b025c"
+  },
+  "status": "completed"
+}

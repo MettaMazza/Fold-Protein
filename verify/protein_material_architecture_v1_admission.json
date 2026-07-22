@@ -1,0 +1,55 @@
+{
+  "author_audit": {
+    "author": "OpenAI Codex",
+    "model": "GPT-5",
+    "reasoning_level": "high"
+  },
+  "authority": "Maria Smith determines scientific conclusions and official runs",
+  "complete_construction": {
+    "c_boundary_psi_gauge_equivalents": 24,
+    "candidate_orderings": 0,
+    "complete_raw_signature_matches": 122,
+    "complete_raw_state_candidates": 43776,
+    "contact_relation_count": 40,
+    "fitted_parameters": 0,
+    "interior_unique_signature_matches": 74,
+    "lattice_state_count_per_residue": 576,
+    "long_range_orientation_count": 2628,
+    "n_boundary_phi_gauge_equivalents": 24,
+    "quartet_count": 73,
+    "residue_count": 76,
+    "runtime_target_accesses": 0,
+    "sequence_window_count": 74,
+    "states_sha256": "4b57f0ebd5f9f66897d02b905297a86970242ce850adaf39901c6ae0ccef106b",
+    "unique_material_states_after_gauge": 76,
+    "weights": 0
+  },
+  "frontier_distinction": {
+    "active_extension_candidates": 1097,
+    "comparison_sha256": "d876079d1e5a1ef7b3d057242a8444b9303dd725968b6512bfb9953d0bd181ab",
+    "full_length_compared_candidates": 10159,
+    "full_length_exact_contact_relation_matches": 0,
+    "full_length_exact_long_range_orientation_matches": 0,
+    "full_length_exact_state_relation_matches": 0,
+    "recovered_candidates_all_lengths": 10336
+  },
+  "official_run": false,
+  "result_type": "target-assisted prevalidation receipt",
+  "runtime_imports": [
+    "__future__",
+    "hashlib",
+    "json",
+    "numpy",
+    "tools.blind_24_lattice_selector_v3"
+  ],
+  "schema": "fold-protein-material-architecture-admission/v1",
+  "source_sha256": {
+    "constants/protein_material_architecture_v1_admission.ep": "0ee3032f65433fbd87a8d5e0d9489a64db49ec406e146ec220871aab2fc88699",
+    "tests/test_protein_material_architecture_v1_admission.ep": "97a2d6028f0a09eab04e3353a7626bf4438e85add196a579a18655697db935f6",
+    "tools/protein_material_architecture_v1.py": "9c998d7f8ea33ff601162e8e20b665f8e4c5a17f37195043d8b91015425bf945",
+    "tools/verify_protein_material_architecture_v1.py": "9a28bf66d558d3deee33cef2b58f734240622da50f7f62f2e1d0532a41069b46",
+    "verify/protected_path_recovered_frontier_comparison_v1.json": "d876079d1e5a1ef7b3d057242a8444b9303dd725968b6512bfb9953d0bd181ab",
+    "verify/protein_material_relation_v1.json": "f8d8690b6cddd33f32d9ed90eb6d5d38a6f1feabfb4aa1be0f0e33216e6fad8e"
+  },
+  "status": "admitted"
+}

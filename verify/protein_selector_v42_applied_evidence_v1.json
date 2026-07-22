@@ -1,0 +1,38 @@
+{
+  "schema": "fold-protein-selector-v42-applied-evidence/v1",
+  "date": "2026-07-21",
+  "status": "completed",
+  "result_type": "cumulative development benchmark",
+  "official_run": false,
+  "purpose": "Seal and compare every member of the complete target-free whole-chain backbone contact frontier without selecting among them from target measurements.",
+  "protocol": {
+    "manifest_sha256": "dda92c6d389594dcbf8f91470cb0b1055b83ba20116c9a070aa8466823895275",
+    "seal_sha256": "9bb2c6642814fe7710c508644564b10c4319816c056092ef19d86c469f3268d8",
+    "frontier_sha256": "9d8fd74bcd38428bd187dcede4827233d295c7f010baa062d1da6b1ddf49c673",
+    "evaluation_sha256": "b6adfe9ff0ac71d6d394f077ccd5a8cf273f8257d5f35cea1af5eeabf8aa9074"
+  },
+  "resources": {
+    "wall_seconds": 25.97,
+    "aggregate_user_seconds": 587.39,
+    "system_seconds": 1.52,
+    "maximum_resident_set_bytes": 110379008,
+    "peak_memory_footprint_bytes": 104023616,
+    "parallel_workers": 24
+  },
+  "measurement": {
+    "cube_candidates": 8192,
+    "whole_chain_blocks": 26,
+    "connected_frontier_count": 3,
+    "frontier": [
+      {"mask": 2178, "tm_score": 0.11457589725720103, "ca_drmsd_angstrom": 6.1032086928107425, "interblock_edges": 42, "contact_residue_pairs": 102, "contact_atom_pairs": 285},
+      {"mask": 5814, "tm_score": 0.15437792615180457, "ca_drmsd_angstrom": 6.926970613499072, "interblock_edges": 37, "contact_residue_pairs": 74, "contact_atom_pairs": 179},
+      {"mask": 5815, "tm_score": 0.15363848484415674, "ca_drmsd_angstrom": 6.839140777884505, "interblock_edges": 38, "contact_residue_pairs": 83, "contact_atom_pairs": 190}
+    ]
+  },
+  "measured_deltas": {
+    "mask_5814_vs_v39": {"tm_improvement_percent": 3.8818021734710717, "ca_drmsd_improvement_percent": 3.9413011157336086},
+    "mask_5815_vs_v39": {"tm_improvement_percent": 3.3842278274830884, "ca_drmsd_improvement_percent": 5.159267843629478},
+    "mask_2178_vs_v40": {"tm_change_percent": -6.0956370554929755, "ca_drmsd_improvement_percent": 6.049560321514691}
+  },
+  "engineering_inference_not_maria_conclusion": "The complete connected frontier materially advances both preserved branches: masks 5814 and 5815 each improve both measurements over V39, while mask 2178 improves the repository blind L76 distance frontier. No target score selected among these rows; all three remain the complete sealed frontier. Maria determines conclusions and official status."
+}

@@ -1,0 +1,41 @@
+{
+  "component_cube_candidates": 8192,
+  "connected_frontier_count": 3,
+  "execution": "complete 8192-row whole-chain backbone contact frontier",
+  "frontier_masks": [
+    2178,
+    5814,
+    5815
+  ],
+  "frontier_sha256": "9d8fd74bcd38428bd187dcede4827233d295c7f010baa062d1da6b1ddf49c673",
+  "official_run": false,
+  "parent_v41": {
+    "seal_sha256": "8d033d432d12b015766d3f3646a40243994712f295e2c7caa4778cc130c103be",
+    "selected_states_sha256": "8ccc2e7459390e44eaa75493e295310d9bd5cc797b25dc37bb47d2392a8a523b"
+  },
+  "prediction_pdb_sha256": {
+    "prediction_mask_2178.pdb": "1335b5218be7767c3de74955cb5604ec17f86a147fd5eb9167fa3553497c797c",
+    "prediction_mask_5814.pdb": "5a7163011312ae33e1b88f54a1d739b6c6dc509dbd655538dfbea8cf9b2c6433",
+    "prediction_mask_5815.pdb": "d30cf6ca02eee82f962ce1823814efced84749a6e8a5b9dba65c71b01571789a"
+  },
+  "protocol_manifest_sha256": "dda92c6d389594dcbf8f91470cb0b1055b83ba20116c9a070aa8466823895275",
+  "result_type": "cumulative development benchmark",
+  "run_id": "ubiquitin-v42-backbone-contact-frontier-l76-20260721",
+  "schema": "fold-protein-blind-seal/v42",
+  "selector_input_sha256": "9452fa991a2689ebfc28dbf2e5862ade72edad7fcdb68c50697705ea69594e0c",
+  "source_sha256": {
+    "constants/protein_blind_selector_v42_admission.ep": "b1d43e30a87bf82a251d17a5d4b7df16401b9b19390d7757e90f9fba3d254f7f",
+    "tools/blind_24_lattice_selector_v3.py": "062c2e4174e42494d3631e0c6aa38a708ec1a5952dc321ce66328620ff305cb5",
+    "tools/blind_24_lattice_selector_v40.py": "1403bf420f5f38be1eb3f7c2da513e18abaaf70fb4ad8e25c7593e2de0226488",
+    "tools/blind_24_lattice_selector_v41.py": "fcc2bed0480861f86f10399974421460c9b001c5fcf84ed32ba8d1709e942567",
+    "tools/blind_24_lattice_selector_v42.py": "8e562e1a63d05bf8bf256aae71ffaf9dfd89a9818769556cc4a00bd4b758414c",
+    "tools/protein_backbone_geometry_v1.py": "a043e5d05a26fdf063c4703dac619f5fe918b65779a96df6d3cfa2f536fdc315",
+    "tools/residue_partition_v1.py": "f48e0ebc2c3dbc1d6d7a37370e0a2329968524d169d7b43022dce30ceacd3814",
+    "tools/run_blind_protocol_v42.py": "e4e206e4b625b4d45ee0c963e05d9e159befde318b4d9461c11907f82064e6c1",
+    "verify/development_runs/ubiquitin_v41_component_cube_l76_20260721/seal.json": "8d033d432d12b015766d3f3646a40243994712f295e2c7caa4778cc130c103be",
+    "verify/development_runs/ubiquitin_v41_component_cube_l76_20260721/selected_states.json": "8ccc2e7459390e44eaa75493e295310d9bd5cc797b25dc37bb47d2392a8a523b",
+    "verify/evaluate_sealed_blind_v42.py": "b23cf72c4fca3ccdd80a5fba74abd6562107b045bcddbbaf72d6ce7fe5627e94",
+    "verify/protein_selector_v42_admission_v1.json": "d07ad0a6c57b76d7353bc2c4595adb51ec2a5f3fffe6c94edbec62225c7522d2"
+  },
+  "status": "completed"
+}

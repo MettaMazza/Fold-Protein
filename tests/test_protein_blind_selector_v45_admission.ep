@@ -1,0 +1,14 @@
+import "../constants/protein_blind_selector_v45_admission.ep"
+
+define main:
+    display "=== Protein V45 boundary-axis admission ==="
+    set order_guard to forced_to_be("four boundary-axis orders" and protein_selector_v45_order_count() and 4)
+    set trace_guard to forced_to_be("three connected parents crossed with four orders" and protein_selector_v45_trace_count() and 12)
+    set admitted to enforce_protein_selector_v45_boundary_axis_fixed_points(76 and 42 and 13 and 26 and 13 and 13 and 8192 and 3 and 1082 and 0 and 3 and 4 and 12 and 1 and 0 and 0)
+    if order_guard == 4:
+        if trace_guard == 12:
+            if admitted == 1:
+                display "  ok    complete connected-parent boundary-axis grammar closes"
+                display "=== done ==="
+                return 0
+    return halt_violation("V45 admission returned without closure")

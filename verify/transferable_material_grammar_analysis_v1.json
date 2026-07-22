@@ -1,0 +1,440 @@
+{
+  "author_audit": {
+    "author": "OpenAI Codex",
+    "model": "GPT-5",
+    "reasoning_level": "high"
+  },
+  "authority": "Maria Smith determines scientific conclusions and official runs",
+  "best_phi_relations": [
+    {
+      "exact_positions": 13,
+      "expression": "advance_colour_position+colour*window_binary_position",
+      "first_half_exact_positions": 6,
+      "output_sha256": "e7d633768694bfec23dc1a951c53313c32a205ede233a30fff732755d6945df9",
+      "second_half_exact_positions": 7,
+      "total_circular_axis_error": 302
+    },
+    {
+      "exact_positions": 13,
+      "expression": "(left_atom+left_colour_position)",
+      "first_half_exact_positions": 9,
+      "output_sha256": "74ecf88908101be703421ee31882e413b05514001fd4ef6988e191ce3ef13396",
+      "second_half_exact_positions": 4,
+      "total_circular_axis_error": 305
+    },
+    {
+      "exact_positions": 13,
+      "expression": "left_binary_position+fold(window_donor)",
+      "first_half_exact_positions": 6,
+      "output_sha256": "092715b83c310812d93d61b23f867d8be248ca54078b4b8a27fe42690f14ec25",
+      "second_half_exact_positions": 7,
+      "total_circular_axis_error": 310
+    },
+    {
+      "exact_positions": 13,
+      "expression": "right_binary_position+fold(window_donor)",
+      "first_half_exact_positions": 6,
+      "output_sha256": "e7ad2c8107a4505da1ae419eb83a762ea57dfe51b1a273c18c49d8ea9aa078ff",
+      "second_half_exact_positions": 7,
+      "total_circular_axis_error": 311
+    },
+    {
+      "exact_positions": 13,
+      "expression": "window_charge+fold(window_colour_position)",
+      "first_half_exact_positions": 6,
+      "output_sha256": "7fdfffe4c4f88dc4a693f2bb3a4bc9aa70908ce88795cd665fb0753390d20720",
+      "second_half_exact_positions": 7,
+      "total_circular_axis_error": 315
+    },
+    {
+      "exact_positions": 13,
+      "expression": "fold(colour)+window_charge",
+      "first_half_exact_positions": 6,
+      "output_sha256": "15990685e5670ef712c65bc30a3f5363eeea7f1b510bba01f61c0ffee09012ca",
+      "second_half_exact_positions": 7,
+      "total_circular_axis_error": 321
+    },
+    {
+      "exact_positions": 13,
+      "expression": "left_charge+fold(window_branch)",
+      "first_half_exact_positions": 8,
+      "output_sha256": "b366d46a81b4b9669b207802ad50230c8de9a566be7a341f90f254aea8aa7d86",
+      "second_half_exact_positions": 5,
+      "total_circular_axis_error": 323
+    },
+    {
+      "exact_positions": 13,
+      "expression": "colour*advance_position+window_charge",
+      "first_half_exact_positions": 6,
+      "output_sha256": "8f4c1ab7b80a1e3e50cea5a0abcc2a2d78b7700bc15bebea6533628df1d35202",
+      "second_half_exact_positions": 7,
+      "total_circular_axis_error": 324
+    },
+    {
+      "exact_positions": 13,
+      "expression": "prior_phi+fold(right_charge)",
+      "first_half_exact_positions": 9,
+      "output_sha256": "5aeba9aac3e3539d5bc8203b1256181064fa9183f21fec3795ae4f176de68560",
+      "second_half_exact_positions": 4,
+      "total_circular_axis_error": 376
+    },
+    {
+      "exact_positions": 13,
+      "expression": "left_position+colour*self_charge",
+      "first_half_exact_positions": 7,
+      "output_sha256": "09b6c0fb820e52e9f8a9c816eb202b156f8df73b112b50688d29f882a4bb1ae3",
+      "second_half_exact_positions": 6,
+      "total_circular_axis_error": 389
+    },
+    {
+      "exact_positions": 12,
+      "expression": "left_atom+fold(right_donor)",
+      "first_half_exact_positions": 5,
+      "output_sha256": "bf154f9324a6f72cdf6fad815f80d68a2382652ccd70bbc5817b7354c831de42",
+      "second_half_exact_positions": 7,
+      "total_circular_axis_error": 304
+    },
+    {
+      "exact_positions": 12,
+      "expression": "left_atom+fold(self_donor)",
+      "first_half_exact_positions": 6,
+      "output_sha256": "6af649e942c043e6be584218e15b5dc03c293cd52d7856bae94793d9d49b3915",
+      "second_half_exact_positions": 6,
+      "total_circular_axis_error": 304
+    },
+    {
+      "exact_positions": 12,
+      "expression": "left_bond+fold(right_donor)",
+      "first_half_exact_positions": 5,
+      "output_sha256": "9234fe9a500e6698e41447c4b17ea51e0fadc54fed62d08cc21c1287c93a8b31",
+      "second_half_exact_positions": 7,
+      "total_circular_axis_error": 304
+    },
+    {
+      "exact_positions": 12,
+      "expression": "left_bond+fold(self_donor)",
+      "first_half_exact_positions": 6,
+      "output_sha256": "a01cd4a394a43dfe02d37d15ffed9869bfd08073269242bfbe04519c1e2877c0",
+      "second_half_exact_positions": 6,
+      "total_circular_axis_error": 304
+    },
+    {
+      "exact_positions": 12,
+      "expression": "(left_bond+left_colour_position)",
+      "first_half_exact_positions": 8,
+      "output_sha256": "58d63e73db0cc349d2cbbdd40503e86a418c0fcc9d778160a85a5d8359a08f23",
+      "second_half_exact_positions": 4,
+      "total_circular_axis_error": 305
+    },
+    {
+      "exact_positions": 12,
+      "expression": "(binary+left_atom)",
+      "first_half_exact_positions": 6,
+      "output_sha256": "f58bf59fed8aef8785f297455fd4a7f0d6dcf1875106c3e169b62ca043941d8a",
+      "second_half_exact_positions": 6,
+      "total_circular_axis_error": 306
+    },
+    {
+      "exact_positions": 12,
+      "expression": "(binary+left_bond)",
+      "first_half_exact_positions": 6,
+      "output_sha256": "bdd9f8251c918694458eebd9911073f40a99d95a9be573fb128711bf1e3fe795",
+      "second_half_exact_positions": 6,
+      "total_circular_axis_error": 306
+    },
+    {
+      "exact_positions": 12,
+      "expression": "left_atom+fold(left_donor)",
+      "first_half_exact_positions": 7,
+      "output_sha256": "f84e43242e31f50ed3db2d36d025a4b6f66d2220574be299dd5489e2dbceb693",
+      "second_half_exact_positions": 5,
+      "total_circular_axis_error": 306
+    },
+    {
+      "exact_positions": 12,
+      "expression": "left_bond+fold(left_donor)",
+      "first_half_exact_positions": 7,
+      "output_sha256": "ca1527954ad695d31a55c93f3a49a9d741d8d3ed53ba40ffb60c3688aef303ed",
+      "second_half_exact_positions": 5,
+      "total_circular_axis_error": 306
+    },
+    {
+      "exact_positions": 12,
+      "expression": "(advance_position+left_atom)",
+      "first_half_exact_positions": 6,
+      "output_sha256": "d51f1f46f98b0f8470a6cfec063184366431e846cedabcaafe87fc7332fc18b7",
+      "second_half_exact_positions": 6,
+      "total_circular_axis_error": 307
+    },
+    {
+      "exact_positions": 12,
+      "expression": "(advance_position+left_bond)",
+      "first_half_exact_positions": 6,
+      "output_sha256": "b3429ba5ebffc7866c4fe423ec21146db52689f2ee4e256acd80b742e1361420",
+      "second_half_exact_positions": 6,
+      "total_circular_axis_error": 307
+    },
+    {
+      "exact_positions": 12,
+      "expression": "window_charge+fold(window_donor)",
+      "first_half_exact_positions": 6,
+      "output_sha256": "2649f3511a81beffab0cc111f96f536bb37529ebb791c45cd790d302f6bcd7e1",
+      "second_half_exact_positions": 6,
+      "total_circular_axis_error": 313
+    },
+    {
+      "exact_positions": 12,
+      "expression": "right_atom+fold(right_donor)",
+      "first_half_exact_positions": 5,
+      "output_sha256": "448675607a257ca588658c917d3566fa71d29e92bee083de16cbde71cd10ee17",
+      "second_half_exact_positions": 7,
+      "total_circular_axis_error": 314
+    },
+    {
+      "exact_positions": 12,
+      "expression": "right_bond+fold(right_donor)",
+      "first_half_exact_positions": 5,
+      "output_sha256": "f1cb2cc04b9340fece74af05ca8d3e75cd43cba7d79eaefbdcb6e1070ff71324",
+      "second_half_exact_positions": 7,
+      "total_circular_axis_error": 314
+    }
+  ],
+  "best_psi_relations": [
+    {
+      "exact_positions": 13,
+      "expression": "colour*left_atom+left_charge",
+      "first_half_exact_positions": 6,
+      "output_sha256": "6d48ecd676d0b77a8115486170fa6d5a666f433b21a5ea232b3109436770ccdc",
+      "second_half_exact_positions": 7,
+      "total_circular_axis_error": 398
+    },
+    {
+      "exact_positions": 12,
+      "expression": "colour*left_bond+left_charge",
+      "first_half_exact_positions": 5,
+      "output_sha256": "1ce4a7a9de7e621ad9ad34a45db7209e548086d9c09443d2d6c442ecb9ca9a40",
+      "second_half_exact_positions": 7,
+      "total_circular_axis_error": 408
+    },
+    {
+      "exact_positions": 12,
+      "expression": "(binary_prior_phi*self_colour_position)",
+      "first_half_exact_positions": 5,
+      "output_sha256": "94597b8e962472e4fe7b041b47e7a006f807860db90148c068753d2c75beec32",
+      "second_half_exact_positions": 7,
+      "total_circular_axis_error": 411
+    },
+    {
+      "exact_positions": 11,
+      "expression": "(binary_prior_psi*self_binary_position)",
+      "first_half_exact_positions": 6,
+      "output_sha256": "de6341f9e66e155f9fa88fad6d67b944424603e6e1ae694e85afc8b2a1d254f3",
+      "second_half_exact_positions": 5,
+      "total_circular_axis_error": 385
+    },
+    {
+      "exact_positions": 11,
+      "expression": "(prior_psi*self_charge)",
+      "first_half_exact_positions": 4,
+      "output_sha256": "0e8d2a8ad8591ec374661cdc90db61e1e3b4db8c90bed43c546511258dd545fa",
+      "second_half_exact_positions": 7,
+      "total_circular_axis_error": 405
+    },
+    {
+      "exact_positions": 11,
+      "expression": "(prior_psi*self_binary_position)",
+      "first_half_exact_positions": 5,
+      "output_sha256": "a12d0716b3dd656e66dd338b58c85f07346d044019c56b3720dc9c854e5fc9d9",
+      "second_half_exact_positions": 6,
+      "total_circular_axis_error": 408
+    },
+    {
+      "exact_positions": 11,
+      "expression": "fold(binary_prior_phi)+left_charge",
+      "first_half_exact_positions": 7,
+      "output_sha256": "185c8bf54401427a740251eb559985945d5b7626d68197e012d2920fe6623e02",
+      "second_half_exact_positions": 4,
+      "total_circular_axis_error": 415
+    },
+    {
+      "exact_positions": 11,
+      "expression": "self_atom+colour*window_bond",
+      "first_half_exact_positions": 4,
+      "output_sha256": "b6fc047212220f681b4935e4cf87c58ae24a2e64129e9cb9b1f7100b4074620a",
+      "second_half_exact_positions": 7,
+      "total_circular_axis_error": 427
+    },
+    {
+      "exact_positions": 11,
+      "expression": "self_bond+colour*window_bond",
+      "first_half_exact_positions": 4,
+      "output_sha256": "92ff3b6082508e78555207fd68663682d6f1ab62e474b552661e6945728849ea",
+      "second_half_exact_positions": 7,
+      "total_circular_axis_error": 429
+    },
+    {
+      "exact_positions": 10,
+      "expression": "(binary_prior_psi-left_branch)",
+      "first_half_exact_positions": 5,
+      "output_sha256": "6a5cb22581825a98d7376fbfc0be77139af4a10fb892d8b0203050edf7d67ad0",
+      "second_half_exact_positions": 5,
+      "total_circular_axis_error": 361
+    },
+    {
+      "exact_positions": 10,
+      "expression": "(binary_prior_psi-right_colour_position)",
+      "first_half_exact_positions": 5,
+      "output_sha256": "fe1506cae1674130310a41a16522e31ed961923a921e72ebb26ed33e1d7f24b3",
+      "second_half_exact_positions": 5,
+      "total_circular_axis_error": 365
+    },
+    {
+      "exact_positions": 10,
+      "expression": "(binary_prior_psi+window_packing)",
+      "first_half_exact_positions": 7,
+      "output_sha256": "28029dd037fbb6705cfd969aea2321a6f9bcb03cf19d28923f942d2e292fc928",
+      "second_half_exact_positions": 3,
+      "total_circular_axis_error": 373
+    },
+    {
+      "exact_positions": 10,
+      "expression": "(binary_prior_psi+left_branch)",
+      "first_half_exact_positions": 8,
+      "output_sha256": "bc9ea100bdbb4279754023d122e1a6822602121a513c6797b9b9ad65fe94e8fd",
+      "second_half_exact_positions": 2,
+      "total_circular_axis_error": 375
+    },
+    {
+      "exact_positions": 10,
+      "expression": "(window_packing-prior_psi)",
+      "first_half_exact_positions": 7,
+      "output_sha256": "9ee27ccd811fccc3ea9251a35160962fbbd71a1296ef2c2ff7b0fdf3d9335d31",
+      "second_half_exact_positions": 3,
+      "total_circular_axis_error": 385
+    },
+    {
+      "exact_positions": 10,
+      "expression": "(binary_prior_phi+self_atom)",
+      "first_half_exact_positions": 6,
+      "output_sha256": "a9b33babbd53ba4eeadde89d60237210287b9cda3ad0af2606f095a147062cbf",
+      "second_half_exact_positions": 4,
+      "total_circular_axis_error": 393
+    },
+    {
+      "exact_positions": 10,
+      "expression": "(binary_prior_phi+self_bond)",
+      "first_half_exact_positions": 6,
+      "output_sha256": "4d58edac70f586791cbd6afeb5f5945ba7f19e57aafb620095bc25c9f55a1f82",
+      "second_half_exact_positions": 4,
+      "total_circular_axis_error": 395
+    },
+    {
+      "exact_positions": 10,
+      "expression": "colour*advance_branch+prior_phi",
+      "first_half_exact_positions": 4,
+      "output_sha256": "725156022a5f6d1c9289f577808df36c9bb7219ac1531eb6209b4889f95fa69e",
+      "second_half_exact_positions": 6,
+      "total_circular_axis_error": 398
+    },
+    {
+      "exact_positions": 10,
+      "expression": "advance_charge+fold(binary_prior_phi)",
+      "first_half_exact_positions": 6,
+      "output_sha256": "9c2c5870657417471789d112a9a29761a82ad7de64800941f98847423a90a1fd",
+      "second_half_exact_positions": 4,
+      "total_circular_axis_error": 405
+    },
+    {
+      "exact_positions": 10,
+      "expression": "(prior_phi*self_binary_position)",
+      "first_half_exact_positions": 5,
+      "output_sha256": "3d86b39131df8a7746b0ee9a06dbe17658ba04514926ddaa2a28f117e9fa51ff",
+      "second_half_exact_positions": 5,
+      "total_circular_axis_error": 418
+    },
+    {
+      "exact_positions": 10,
+      "expression": "(left_branch*prior_phi)",
+      "first_half_exact_positions": 5,
+      "output_sha256": "857abad05ed910c7635bd1c11d4b39d72e986b55dfaba3e3cfdeae2fc0115e09",
+      "second_half_exact_positions": 5,
+      "total_circular_axis_error": 423
+    },
+    {
+      "exact_positions": 10,
+      "expression": "colour*window_colour_position+window_donor",
+      "first_half_exact_positions": 4,
+      "output_sha256": "4b92d91b4c0b4e261055256ff4794365e95513d47fc59f0554df8544ed22eb7e",
+      "second_half_exact_positions": 6,
+      "total_circular_axis_error": 423
+    },
+    {
+      "exact_positions": 10,
+      "expression": "colour*colour+window_donor",
+      "first_half_exact_positions": 4,
+      "output_sha256": "cfa0a1db26848c7edbfda47bb1e66ef12f9c9f4d180ffa0d2c113625f7f8bc00",
+      "second_half_exact_positions": 6,
+      "total_circular_axis_error": 424
+    },
+    {
+      "exact_positions": 10,
+      "expression": "advance_bond+fold(right_bond)",
+      "first_half_exact_positions": 6,
+      "output_sha256": "c8782b9ae210b00da50e8dee10f66f344ba6b445cc3a78ea0e7991a21810fb56",
+      "second_half_exact_positions": 4,
+      "total_circular_axis_error": 425
+    },
+    {
+      "exact_positions": 10,
+      "expression": "(binary_prior_psi*self_charge)",
+      "first_half_exact_positions": 4,
+      "output_sha256": "a0dcbf79c40653087d21bec0bfff0219b79637f902d93c12587667ed3a7d7d00",
+      "second_half_exact_positions": 6,
+      "total_circular_axis_error": 426
+    }
+  ],
+  "complete_exact_paired_relation_count": 0,
+  "complete_exact_phi_relations": [],
+  "complete_exact_psi_relations": [],
+  "grammar": {
+    "axis_modulus": 24,
+    "binary_overlap": 2,
+    "coefficients": [
+      1,
+      2,
+      3
+    ],
+    "colour_window": 3,
+    "comparison_scores": 0,
+    "deduplicated_expression_count": 12227,
+    "fitted_coefficients": 0,
+    "one_advance": 1,
+    "operations": [
+      "identity",
+      "fold",
+      "antipode",
+      "One translation",
+      "colour translation",
+      "addition",
+      "subtraction",
+      "multiplication",
+      "binary fold composition",
+      "colour composition"
+    ],
+    "primitive_count": 57,
+    "statistical_or_learned_model_queries": 0,
+    "target_coordinates": 0,
+    "weights": 0
+  },
+  "interpretation_boundary": "This exhausts the declared first depth-two transferable material grammar. It admits a direct architecture only if both axes have complete exact relations; otherwise the next derivation must add a newly engine-closed generated-geometry relation rather than choosing a near match.",
+  "official_run": false,
+  "result_type": "protected-witness forward-forcing diagnostic",
+  "schema": "fold-protein-transferable-material-grammar-analysis/v1",
+  "status": "complete",
+  "witness": {
+    "path": "verify/ubiquitin_24_lattice_manifest.json",
+    "residues": 76,
+    "sequence_sha256": "233b4b0b8c4616095bc3249f9375fc345d32af7deaef07117d0383c51d6f19aa",
+    "sha256": "5c9771cccd998484e32e1180bdb6c3555c7c555c1175328164ba6cb6a9cba6ac"
+  }
+}

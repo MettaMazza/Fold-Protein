@@ -1,0 +1,44 @@
+{
+  "schema": "fold-protein-selector-v43-applied-evidence/v1",
+  "date": "2026-07-21",
+  "status": "verified_cumulative_development_evidence",
+  "result_type": "target-isolated seal-before-score complete One-cycle frontier",
+  "official_run": false,
+  "authority": "Maria Smith determines scientific conclusions and official-run status.",
+  "execution": {
+    "run_id": "ubiquitin-v43-one-cycle-frontier-l76-20260721",
+    "sequence_length": 76,
+    "parent_cube_count": 8192,
+    "cycle_rank_target": 1,
+    "sealed_frontier_count": 1082,
+    "selection_among_frontier": "none"
+  },
+  "positive_empirical_frontier": {
+    "pareto_count": 2,
+    "rows": [
+      {
+        "mask": 525,
+        "tm_score": 0.1797422881025564,
+        "ca_drmsd_angstrom": 6.001711929850275,
+        "graph_cycle_rank": 1,
+        "prediction_pdb_sha256": "6e58abdf8cd03294d5c2a44c965a3aa83ba797a204a1721790cdc003ad12ead6"
+      },
+      {
+        "mask": 524,
+        "tm_score": 0.17452071051976514,
+        "ca_drmsd_angstrom": 5.966242375529655,
+        "graph_cycle_rank": 1,
+        "prediction_pdb_sha256": "321f263cb3c37a7b90c3ca9e7a60ecf1cfe967ae0141b5c43cd18db3fada9217"
+      }
+    ],
+    "rows_improving_both_v42_connected_extrema": 2
+  },
+  "provenance_boundary": "The exact One-cycle relation and all 1,082 output structures were sealed before target access. Post-seal measurements preserve every row and do not select mask 524 or 525 as a unique selector output.",
+  "sha256": {
+    "selector_manifest": "501d189eea5b88dcb14f2a0e3f294efd94a1223f9cb1fb03cea1c69be0ee75e7",
+    "selector_input": "9c25251955a2a6ad15d29edf56c28ed64db54e563f8ed7a732c6dab28995ccc0",
+    "seal": "61cda7c45e2552cb5c179a4903132a2adf39c4c68e95baa3891c6b7f33640a67",
+    "frontier": "5bc43851ea580fd80a31cd1717f2aa6aca84b5977e8dca3df0de026dd5a8b73a",
+    "evaluation": "bdab83a6d5e80a06a9e430dd9e95b135bd6c0001cf3269559db6faaf543d7cfb"
+  }
+}

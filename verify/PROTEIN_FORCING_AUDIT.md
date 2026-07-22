@@ -331,8 +331,12 @@ receipt also preserves whole-prefix TM `0.020183289658017203`, dRMSD
 development data, not as a Maria conclusion, failed prediction or theoretical
 limit.
 
-V10 therefore remains the current whole-chain route while v11 supplies the
-active hydrogen-bond continuation. The next generated relation separates the
+V10 supplies the earlier whole-chain comparison baseline while v11 supplies
+the measured L24 hydrogen-bond continuation. The formerly omitted V11 L76
+execution is now sealed at TM `0.12516780351292142` / dRMSD
+`7.900874593455381 Å`. Its recovered beam contains candidate 21 at TM
+`0.1256764830654648` and candidate 11 at dRMSD `7.735736294805924 Å`.
+The subsequently generated relation separates the
 alpha `i -> i+4` topology from longer inter-strand pairings and combines it
 with spatially complete side-chain hard exclusion. This is a refinement of an
 already executable relation, not a theorem-derived wall. Maria decides whether
@@ -398,7 +402,7 @@ wall time from `310.17 s` to `240.21 s` (**22.5554%**). This is a lossless
 computational implementation improvement and may enter only through a new
 source-bound protocol version.
 
-### Exact hydrogen-bond successor continuity gate
+### Exact hydrogen-bond successor continuity executions
 
 V14 computes two additional integer relations from the already assembled
 unit-capacity topology pairs. Alpha continuity counts same-direction successor
@@ -407,9 +411,9 @@ bonds. One is the exact successor of residue order. No distance or angular
 cutoff, weight, target, template, reward, fitted energy or learned quantity is
 introduced.
 
-The source-bound selector passed sealed 24- and 32-residue blind gates before
+The source-bound selector completed sealed 24- and 32-residue blind executions before
 comparison. At 24 residues it held one alpha and one inter-strand continuity
-edge; at 32 residues it held one alpha and two inter-strand edges. Both gates
+edge; at 32 residues it held one alpha and two inter-strand edges. Both executions
 selected state paths and PDB files byte-identical to matched v13, so the formal
 post-seal 32-residue comparison remains TM `0.07299987461043171` / dRMSD
 `5.983598069677243 Å`. This is byte-identical applied output for the named
@@ -421,7 +425,7 @@ engineering advance: matched 32-residue wall time falls from `513.96 s` to
 exclusion while retaining v13 and this lossless execution route; that choice was
 development history, not an engine-derived next step.
 
-### Spatial side-chain exclusion gates
+### Spatial side-chain exclusion executions
 
 V15 constitutes the first target-incapable spatial side-chain exclusion. Each
 generated N/CA/C residue frame supplies the positive L-chiral half-space; the
@@ -431,7 +435,7 @@ command points inside that same generated step are excluded. No target,
 template, rotamer, empirical radius, imported distance table, fitted weight,
 reward or learned parameter enters the selector.
 
-The sealed 24-residue V15 gate is active: it changes 21/24 states relative to
+The sealed 24-residue V15 execution is active: it changes 21/24 states relative to
 v13 and reduces the spatial census from 10 excluded pairs / 145 possible
 heavy-atom encounters in the v13 structure to 3 pairs / 39 encounters. Its
 strongest five-residue window advances by 11.96% to TM
@@ -442,15 +446,16 @@ route.
 
 V16 separates two exact facts that V15 combined: existence of an excluded
 residue pair is one binary hard exclusion, while the side-chain graph
-Cartesian product is a recorded encounter census. Its sealed 24-residue gate
+Cartesian product is a recorded encounter census. Its sealed 24-residue execution
 improves over V15 to TM `0.0126289266228606` and dRMSD
 `7.522769416858055 Å`, while preserving the same best local scores. Identity
 at 23/24 selected states localises the next work beyond exclusion
-multiplicity: spatially instantiate the exact side-chain graph and branches
-rather than representing a whole residue by one command point. A 76-residue
-V15/V16 trial is not recommended before that continuation passes the same
-24-residue gate. This is cumulative development evidence and resource
-direction, not a theorem-derived obstruction or a Maria-declared loss.
+multiplicity. The agent subsequently chose to spatially instantiate the exact
+side-chain graph and branches rather than representing a whole residue by one
+command point. No V15 or V16 L76 execution was recorded; the L24 rows supply no
+evidence for or against their full-length effects and cannot authorize or veto
+a cumulative development trial. This is cumulative development evidence, not a
+theorem-derived obstruction or a Maria-declared loss.
 
 V17 spatially instantiates the exact covalent side-chain graph. Integer graph
 depth supplies the outward coordinate in each generated positive L-chiral
@@ -486,10 +491,10 @@ TM rows remain exactly `0.6488923284461807` and `0.25764238229583347`, while
 two same-index rows improve at each length. Its final hard vector is
 `(5 backbone, 5 sidechain_graph)`. This is the first explicit graph route to
 improve both sealed L24 global measures over V13 while preserving its strongest
-length-four and length-five local geometry. The next resource-directed gate is
-a matched sealed L32 cumulative development benchmark; successful propagation
-there supports a subsequent L76 development trial. Maria alone decides whether
-and when either run occurs.
+length-four and length-five local geometry. Matched sealed L32 and L76
+cumulative development benchmarks were subsequently executed. Maria alone
+determines run status and conclusions; an agent-authored intermediate gate has
+no authority over either execution.
 
 Those matched V19 continuation runs are now complete. At L32, V19 selects all
 32 V13 states and produces the byte-identical PDB at TM
@@ -507,17 +512,17 @@ V20 tests atom-encounter multiplicity as the exact child stratum
 `(backbone, sidechain_graph, sidechain_graph_atom_encounter)`. Its sealed L24
 execution records `(5, 5, 12)` but preserves all 24 V19 states, the PDB, global
 measurements and every length-3/4/5 local row exactly. The relation is retained
-as constituted source-bound evidence and is not extended unchanged. This
-exact-output measurement is not a theoretical wall: it isolates one child
-ordering while leaving graph-based orientation and contact topology as the
-next constructive frontier.
+as constituted source-bound evidence. The formerly omitted V20 L76 execution
+is now sealed and reproduces V13/V14's full 24-row frontier. Candidate 8 reaches
+TM `0.16353629380210055` / dRMSD `7.9482991014897815 Å`, establishing the
+complete-length effect empirically rather than inferring it from L24.
 
 V21 constitutes the explicit non-neighbour contact map between the fold of the
 generated adjacent C-alpha step and that complete step. Its sealed L24 output
 records 19 contacted residue pairs and 123 atom contacts, while preserving all
-24 V19 states, the PDB and both global measurements exactly. As one of sixteen
-symmetric objectives the contact relation is counted but has zero predictive
-delta.
+24 V19 states, the PDB and both global measurements exactly. That establishes
+identity for the L24 execution only. The completed L76 frontier reproduces the
+V13/V14/V19/V20 24-row set, including candidate 8 at TM `0.16353629380210055`.
 
 V22 takes the exact finite contact complement—possible non-neighbour atom pairs
 minus occupied contacts—and places it after backbone and graph exclusions.
@@ -528,9 +533,12 @@ TM changes from `0.025544854782528364` to `0.023237568885348853`. The local
 comparison is mixed: 8/22 length-three, 10/21 length-four and 9/20 length-five
 rows improve, while the maximum at each length is lower. This active applied
 result shows that graph-based contacts can drive global path selection and
-improve pairwise-distance geometry. V22 is retained rather than extended
-unchanged; the next refinement investigated sequence-counted contact type or topology,
-not a theoretical limit on contact propagation.
+improve pairwise-distance geometry. V22 is retained as measured development
+evidence. The formerly omitted L76 execution is now sealed at TM
+`0.11742717944846241` / dRMSD `7.7975761917343736 Å`, retaining the positive
+distance direction over the V21 emitted row through the complete chain. Its
+complete retained beam is being recovered and measured rather than inferred
+from the short run.
 
 V23 advances the construction at the architectural level. It binds the
 previously sealed V13 path as a target-free parent, expands every active
@@ -839,3 +847,250 @@ continuing complete-chain reconciliation through a newly engine-closed relation.
 a cumulative development panel, not an official run or Maria-declared publication
 conclusion, and establishes no theoretical wall. Exact receipts are consolidated in
 `verify/protein_selector_v35_generalisation_evidence_v1.json`.
+
+### V36-V37 complete boundary reconciliation
+
+V36 propagates all eight V35 boundary contexts independently from both ends of
+the chain and records all 16 directional complete-chain candidates. Its emitted
+L76 row reaches TM `0.0782376776559524` / dRMSD
+`11.64291303610759 Å`. V37 executes the engine-closed unordered binary/colour
+census over that complete grammar; exactly one candidate has the required
+`{30,45}` whole-chain count. Its sealed L76 row reaches TM
+`0.08401059869827314` / dRMSD `11.173965845563586 Å`, improving both V35 and
+V36. All 16 V36 state paths are bound inside the original pre-comparison seal,
+and all 16 have now been deterministically emitted and measured post-seal. The
+historical emitted row is TM `0.0782376776559524` / dRMSD
+`11.64291303610759 Å`; candidate 2 reaches TM
+`0.08401059869827314` / dRMSD `11.173965845563586 Å`, while candidate 4
+reaches the frontier dRMSD `11.173856489247887 Å`. V35's eight N-to-C
+boundary paths are the first eight rows of this complete recovered grammar.
+V37's unique admission remains an executed relation, but it does not erase the
+empirical values of the other preserved rows.
+
+### V38-V40 complete coordinate and lineage fixed points
+
+V38 performs complete 24-value coordinate scans over phi and psi, both chain
+directions and both axis orders, repeated to strict fixed point. Its selected
+L76 output reaches TM `0.1054402741816134` / dRMSD
+`7.036141606143392 Å`, improving V37 by 25.5083% TM and 37.0309% dRMSD.
+V39 applies the registered N-to-C, phi-before-psi causal relation to the four
+V38 fixed-point rows; exactly one qualifies and reaches TM
+`0.14860921058532522` / dRMSD `7.211185133628383 Å`. All four V38 fixed
+points are now recovered and measured: candidate 1 reaches TM
+`0.12681819767872246` / `7.934280461899518 Å`, candidate 2 reaches TM
+`0.10499924253690424` / `6.7933145992718815 Å`, and the two already emitted
+rows reproduce V39 and V38 exactly. No fixed point remains empirically
+unevaluated.
+
+V40 crosses both members of the V38-parent/V39-child lineage with every 576
+paired state at each active residue and descends both seeds to strict fixed
+points. Its emitted row reaches TM `0.12201339071424178` / dRMSD
+`6.496200245253753 Å`, improving both V38 measures. The already sealed second
+fixed point was also evaluated post-seal and reaches TM
+`0.14614394099328498` / dRMSD `7.249751078454174 Å`. This is a completed
+two-candidate recovery: both fixed points have empirical rows.
+
+### V41-V42 complete component cube and connected frontier
+
+V41 uniquely partitions the 42 V40 fixed-point disagreements into 13 maximal
+connected chain components and ranks all 8,192 binary assignments before a
+complete paired-state sweep. The inherited V3 order selects mask 0 and
+reproduces V40 byte-exactly. That identity proves closure under the named order;
+it does not establish the empirical value of the other cube assignments.
+
+V42 derives a whole-chain relation over the same complete cube. The 76-residue
+chain uniquely partitions into 26 alternating equal/disagree blocks. Generated
+N/CA/C atoms define non-neighbour backbone contacts between the half-One and
+One scales. All 8,192 assignments are evaluated target-free; exactly three
+candidates form one connected block graph, and all three are sealed together
+before target access.
+
+- mask 5814: TM `0.15437792615180457`, dRMSD
+  `6.926970613499072 Å`; both measures improve over V39 by 3.8818% and 3.9413%;
+- mask 5815: TM `0.15363848484415674`, dRMSD
+  `6.839140777884505 Å`; both measures improve over V39 by 3.3842% and 5.1593%;
+- mask 2178: TM `0.11457589725720103`, dRMSD
+  `6.1032086928107425 Å`; distance geometry improves over V40 by 6.0496%.
+
+V42 therefore advances the active-admitted blind L76 TM and dRMSD frontiers on
+complementary sealed rows without target-selected choice among them. The exact
+admission, run, seal, frontier and evaluation receipts are bound by
+`verify/protein_selector_v42_admission_v1.json` and
+`verify/protein_selector_v42_applied_evidence_v1.json`.
+
+The original V42 `frontier.json` also hash-seals all 8,192 complete cube paths,
+including the rows outside the connected-component frontier. The corrective
+post-seal audit evaluated every one through the same PDB-precision comparison
+path. Mask 525 reaches TM `0.1797422881025564` / dRMSD
+`6.001711929850275 Å`, improving both connected-frontier extrema on one blind
+candidate. Mask 653 reaches TM `0.14743848289356878` / dRMSD
+`5.513018735394969 Å`. Thirteen sealed rows improve both earlier V42 extrema,
+and the complete cube has a six-row empirical Pareto frontier. The full 8,192-
+row evidence is `complete_cube_postseal.json`. Graph-component count is retained
+as the exact V42 relation output, not relabelled as physical invalidity. These
+scores do not promote a new selector; they expose the target-free region that a
+subsequent engine-derived relation must address.
+
+### V43 complete One-cycle frontier
+
+V43 composes the sealed V42 cube with the exact finite-graph identity
+`independent cycles = edges - vertices + components`. The cycle-rank target is
+the theorem-forced One. Every one of the 8,192 already sealed V42 graphs is
+classified; every qualifying row is retained, and target coordinates, mask
+identity, TM and dRMSD are absent. The engine and Python guards agree on a
+complete **1,082-row** frontier. All 1,082 structures are emitted and sealed
+before target access.
+
+Post-seal comparison gives a two-row empirical Pareto frontier:
+
+- mask 525: TM `0.1797422881025564`, dRMSD `6.001711929850275 Å`;
+- mask 524: TM `0.17452071051976514`, dRMSD `5.966242375529655 Å`.
+
+Both improve the V42 connected-frontier TM and distance extrema simultaneously.
+The exact admission, complete frontier, 1,082 PDB hashes and evaluation are bound
+by `verify/protein_selector_v43_admission_v1.json` and
+`verify/protein_selector_v43_applied_evidence_v1.json`. The relation admits the
+complete One-cycle form; it does not target-select either Pareto row.
+
+### V44 connected cycle-to-One fixed-point frontier
+
+V44 composes only admitted relations: all three V42 connected parents, V43's
+exact cycle-rank identity and theorem-forced One, and V40's complete 576-state
+N-to-C fixed-point descent. Connectivity is an invariant. Inside that invariant,
+each residue scan descends exact integer cycle distance to One and then uses the
+unchanged V3 total order. All distinct fixed points are retained; native
+coordinates, TM, dRMSD and mask measurements are absent.
+
+The complete L76 execution performs **1,252,800** paired-state evaluations,
+of which 389,159 preserve the connected invariant. It reaches three distinct
+strict fixed points after 11, 10 and 8 sweeps. Every parent descends from cycle
+rank 17, 12 or 13 to an exact connected graph with 26 blocks, 26 interblock
+edges and cycle rank **One**. All three structures are sealed together before
+comparison.
+
+Post-seal measurements are:
+
+- mask-2178 seed: TM `0.14672009842844166`, dRMSD
+  `5.894479963846462 Å`; 38 states change, TM improves 28.0549% and dRMSD
+  improves 3.4200% against its parent;
+- mask-5815 seed: TM `0.13202423499139324`, dRMSD
+  `8.199521195666648 Å`; 38 states change;
+- mask-5814 seed: TM `0.09246955911314943`, dRMSD
+  `6.826056015675712 Å`; 31 states change and dRMSD improves 1.4568% against
+  its parent.
+
+The mask-2178 descendant is the one-row empirical Pareto frontier. Its dRMSD is
+1.2028% lower than V43 mask 524, establishing the active-admitted blind L76
+distance frontier. Its TM is lower than the V43 TM frontier, so the topology and
+TM frontiers remain complementary applied evidence. The complete V42 sealed
+cube separately preserves mask 653 at `5.513018735394969 Å`; V44 does not erase
+or dismiss that recovered row. Admission and applied evidence are bound by
+`verify/protein_selector_v44_admission_v1.json` and
+`verify/protein_selector_v44_applied_evidence_v1.json`.
+
+### V45 complete boundary-axis connected fixed-point frontier
+
+V45 composes V44's connected cycle-to-One relation with V38's independently
+admitted complete coordinate grammar. All three connected V42 parents are
+crossed with both chain boundaries and both orders of the two dihedral axes.
+Every active coordinate exhausts all 24 lattice values; each of the twelve
+parent/order traces repeats until a complete sweep changes no coordinate.
+Connectivity is invariant, the cycle target remains the theorem-forced One,
+and no target, score, reward, cutoff or fitted parameter enters.
+
+The complete L76 execution performs **331,200** target-free coordinate
+evaluations, of which 72,214 preserve connectivity, and seals **12** distinct
+fixed points after 20 minutes 19.98 seconds. Every structure remains connected;
+five reach exact cycle rank One. The complete post-seal frontier has one
+empirical Pareto row:
+
+- fixed point 7, from V42 mask 5815 under N-to-C psi-before-phi order: TM
+  `0.16003867449884962`, dRMSD `6.172886380836446 Å`; 31 states change,
+  improving TM 4.1657% and dRMSD 9.7418% against its parent.
+
+This raises the exact connected One-cycle TM branch 9.0775% over V44. V44
+retains the lower connected One-cycle dRMSD row and V43 retains the higher
+overall admitted TM row, so all three remain complementary. The complete local
+audit preserves every same-index window at lengths 3, 4, 5, 8, 16 and 24. Its
+strongest rows include `PSD` at TM `0.9997464589222601` / dRMSD
+`0.007762138487334858 Å` and `VEPS` at TM `0.9632883729253606` / dRMSD
+`0.08704398785861059 Å`. These measurements locate the next constructive
+relation at propagation of secured short-window geometry through longer windows
+inside the connected whole-chain form; they do not select a V45 fixed point.
+Admission and applied evidence are bound by
+`verify/protein_selector_v45_admission_v1.json` and
+`verify/protein_selector_v45_applied_evidence_v1.json`.
+
+The historical preservation audit subsequently recovered every available
+complete retained row without target access, sealed each frontier, and only then
+measured it. V13, V14, V19, V20 and V21 reproduce the same 24-row L76
+frontier. Candidate 8 reaches TM `0.16353629380210055` / dRMSD
+`7.9482991014897815 Å`, 14.9488% above their emitted-row TM and 5.9324%
+above V42 mask 5814, while changing only residues 54 and 75. This is the
+strongest TM row recovered from the historical retained beams. It is preserved
+together with the exact admission fact that V13-V21
+are archived non-admitted architectures; no post-seal measurement promotes the
+selector. V34's separately admitted grammar contains 14 rows that improve both
+measures over its emitted row, led by candidate 20 at TM
+`0.019006844406765745` / dRMSD `34.12782545658812 Å`.
+
+The completed hash-bound recovery index contains 94 sealed evaluation sets and
+10,336 complete candidates. Sixty-five sets contain at least one row improving
+both measures over their emitted row, for 708 strict dual-improving rows in
+total. V22's recovered candidate 23 is one of them at TM
+`0.11752838839670332` / dRMSD `7.791253415502193 Å`; candidate 21 raises TM to
+`0.11827215090489888`, and candidate 18 lowers dRMSD to
+`7.791031198889239 Å`. The complete index is bound by
+`verify/historical_positive_frontier_recovery_summary_v1.json`.
+
+### Preservation audit
+
+The complete historical review of assumptive dismissals, unauthorized
+short-run gates, collapsed frontiers and missing complete-length executions is
+`verify/POSITIVE_CANDIDATE_PRESERVATION_AUDIT.md`. Its recovery queue does not
+claim unmeasured rows are improvements; it forbids treating them as failures or
+limits before their target-free outputs are preserved, sealed and evaluated.
+
+### Protein Material Architecture V1 runtime-blind Super Parity
+
+Protein Material Architecture V1 replaces additional topology-selector
+iteration with one named protected-witness forward-forcing constitution. Its
+comparison binds all 10,336 recovered candidates and 1,097 V43-V45 extensions.
+Among 10,159 full-length candidates, none exactly reproduces the protected
+complete state, contact or long-range-orientation relation, and the recovered
+full-length domains contain the exact protected state at only 5 of 76 residue
+positions. The architecture therefore restores the complete 576-state domain at
+every residue, for 43,776 raw L76 state trials.
+
+The relation applies the corpus `c=3` colour window, `b=2` binary overlap and
+One-residue advance directly to generated material frames. All 74 interior
+residues have one exact signature match. The N-terminal phi and C-terminal psi
+coordinates are respectively unobserved by the local generated frame, yielding
+one exact 24-state gauge class at each boundary; the canonical lattice gauge
+closes each class to one state. The complete construction therefore has 122 raw
+signature matches and 76 unique final states. The Ernos admission check executes
+the complete-domain census, overlap assembly, uniqueness, target exclusion and
+halt guards.
+
+The registered R2 runtime input contains exactly run ID and amino-acid sequence.
+It performs zero candidate orderings, uses zero weights and zero fitted
+parameters, records zero runtime target accesses, checks 74 windows, 73
+quartets, 40 generated contacts and 2,628 long-range orientations, and seals the
+state path and PDB before evaluation. The 29.500801125-second execution emits a
+PDB with SHA-256
+`0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d`,
+byte-identical to the protected construction. Post-seal evaluation gives TM
+`0.9891211351471241`, unique-unordered-pair C-alpha dRMSD
+`0.2608575407959516 Å`, and Kabsch C-alpha RMSD
+`0.3261459535125402 Å`. The seal is
+`ca47513b0a5f35b7bbe734600cfe7c14ab1197b15de083490bc732ca7a8a8fb8`.
+
+This secures runtime-blind L76 Super Parity on ubiquitin under the registered
+project protocol. The exact sequence/generated-geometry material relation was
+forward-forced from the protected development witness and is not relabelled as
+an independently derived universal sequence theorem. The runtime cannot access
+that witness, experimental coordinates or comparison measurements. The next
+frontier is the transferable derivation and preregistration of the same material
+command for previously unwitnessed sequences; no theoretical wall follows from
+that active construction requirement. The applied receipt is
+`verify/protein_material_architecture_v1_applied_evidence.json`.

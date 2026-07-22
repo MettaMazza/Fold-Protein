@@ -1,0 +1,735 @@
+{
+  "candidate_count": 24,
+  "candidates": [
+    {
+      "candidate_index": 0,
+      "prediction_pdb": "candidate_00.pdb",
+      "prediction_pdb_sha256": "6ac1cf0d7abec5c6efdc92192816b27c4a0b546d0efe664950e4194670d1ac8f",
+      "selected_emission": true,
+      "selector_relation_vector": [
+        0,
+        0.9523405793836742,
+        8.768746455163855
+      ],
+      "states": [
+        6,
+        300,
+        12,
+        288,
+        0,
+        0,
+        300,
+        280,
+        0,
+        0,
+        0,
+        300,
+        300,
+        300,
+        321,
+        0
+      ],
+      "states_sha256": "56d97c1a5ab2bb20a8b1a25a936bb030d51c9493601bf4479c6232a6b60b8fe5"
+    },
+    {
+      "candidate_index": 1,
+      "prediction_pdb": "candidate_01.pdb",
+      "prediction_pdb_sha256": "70ece1ff2a207b9358d9fa517e49dc7a39201c912a2eacb7b3a1106eb0b08697",
+      "selected_emission": false,
+      "selector_relation_vector": [
+        0,
+        0.9523405793836742,
+        8.768746455163859
+      ],
+      "states": [
+        5,
+        300,
+        12,
+        288,
+        0,
+        0,
+        300,
+        280,
+        0,
+        0,
+        0,
+        300,
+        300,
+        300,
+        321,
+        0
+      ],
+      "states_sha256": "b636b9b15fe580da9a3591dcfa596a55deb78a815696d7ca991b2ad32744621c"
+    },
+    {
+      "candidate_index": 2,
+      "prediction_pdb": "candidate_02.pdb",
+      "prediction_pdb_sha256": "9e54fcf7773e441989558537cee1fd1d8baa6df821db6d757b1da5b43b2f5a56",
+      "selected_emission": false,
+      "selector_relation_vector": [
+        0,
+        0.9523405793836744,
+        8.768746455163857
+      ],
+      "states": [
+        11,
+        300,
+        12,
+        288,
+        0,
+        0,
+        300,
+        280,
+        0,
+        0,
+        0,
+        300,
+        300,
+        300,
+        321,
+        0
+      ],
+      "states_sha256": "862437a96edc128b22d0c4bfee70aa3a64a3a6dc38d0cd2aebd8ad44f3311cd6"
+    },
+    {
+      "candidate_index": 3,
+      "prediction_pdb": "candidate_03.pdb",
+      "prediction_pdb_sha256": "212a39cab53d368f8fa2a8a9777469d390c63da6e03dadd43fb92ab4a58c607d",
+      "selected_emission": false,
+      "selector_relation_vector": [
+        0,
+        0.9523405793836744,
+        8.768746455163857
+      ],
+      "states": [
+        19,
+        300,
+        12,
+        288,
+        0,
+        0,
+        300,
+        320,
+        0,
+        0,
+        0,
+        300,
+        300,
+        300,
+        279,
+        0
+      ],
+      "states_sha256": "b3fa5a2cfd2bb5e7fd7c6d8437374d147caa9cd2090fb10ac6519b28a49cd267"
+    },
+    {
+      "candidate_index": 4,
+      "prediction_pdb": "candidate_04.pdb",
+      "prediction_pdb_sha256": "877897de4ae06dcda8e3d98434c7f928086d2b9e9bb57abddc516d9aafebf779",
+      "selected_emission": false,
+      "selector_relation_vector": [
+        0,
+        0.9523405793836744,
+        8.76874645516386
+      ],
+      "states": [
+        0,
+        300,
+        12,
+        288,
+        0,
+        0,
+        300,
+        280,
+        0,
+        0,
+        0,
+        300,
+        300,
+        300,
+        321,
+        0
+      ],
+      "states_sha256": "91559e962a332388fbd52bceb29b68ee6927bb303be6fe6c5f362ce598a9c55e"
+    },
+    {
+      "candidate_index": 5,
+      "prediction_pdb": "candidate_05.pdb",
+      "prediction_pdb_sha256": "ff3d797e48593972c9a7893fee7bd5dedf9003651186629ae8eeadf2ac7f9ca7",
+      "selected_emission": false,
+      "selector_relation_vector": [
+        0,
+        0.9523405793836744,
+        8.768746455163862
+      ],
+      "states": [
+        0,
+        300,
+        12,
+        288,
+        0,
+        0,
+        300,
+        320,
+        0,
+        0,
+        0,
+        300,
+        300,
+        300,
+        279,
+        0
+      ],
+      "states_sha256": "332ea79e7fdd549dd5c385b7baf5467089cf7031fb55541ec5858582c50f08f3"
+    },
+    {
+      "candidate_index": 6,
+      "prediction_pdb": "candidate_06.pdb",
+      "prediction_pdb_sha256": "9ef73fc73a39742ee9b0837bb771984402719d988f7f15e02ce2afe59b25ad43",
+      "selected_emission": false,
+      "selector_relation_vector": [
+        0,
+        0.9523405793836744,
+        8.768746455163864
+      ],
+      "states": [
+        11,
+        300,
+        12,
+        288,
+        0,
+        0,
+        300,
+        320,
+        0,
+        0,
+        0,
+        300,
+        300,
+        300,
+        279,
+        0
+      ],
+      "states_sha256": "27325706fb505181c6f2dd79a1fcd8e60fb046f1a4c7414559baa63b5797b864"
+    },
+    {
+      "candidate_index": 7,
+      "prediction_pdb": "candidate_07.pdb",
+      "prediction_pdb_sha256": "acc7e6d461aaf78e81eab2ab1b1a76d9b479345b6b5e0c39553cc34cabef75b4",
+      "selected_emission": false,
+      "selector_relation_vector": [
+        0,
+        0.9523405793836744,
+        8.768746455163864
+      ],
+      "states": [
+        13,
+        300,
+        12,
+        288,
+        0,
+        0,
+        300,
+        320,
+        0,
+        0,
+        0,
+        300,
+        300,
+        300,
+        279,
+        0
+      ],
+      "states_sha256": "f3d1be76ec1cd0ccfa791bb49ec65fd02fcafa164255ff063b6304873623d34e"
+    },
+    {
+      "candidate_index": 8,
+      "prediction_pdb": "candidate_08.pdb",
+      "prediction_pdb_sha256": "84fc53d0b143a954f3c664d3cfdd17e12314584d3995f52a42ea7698c34c6efe",
+      "selected_emission": false,
+      "selector_relation_vector": [
+        0,
+        0.9523405793836744,
+        8.768746455163866
+      ],
+      "states": [
+        5,
+        300,
+        12,
+        288,
+        0,
+        0,
+        300,
+        320,
+        0,
+        0,
+        0,
+        300,
+        300,
+        300,
+        279,
+        0
+      ],
+      "states_sha256": "7f3c93e84d1f3db4b0a55bf1573690e15c379c1a6e1804924c05924075e10c16"
+    },
+    {
+      "candidate_index": 9,
+      "prediction_pdb": "candidate_09.pdb",
+      "prediction_pdb_sha256": "94cc43671f03a2708e21f8f4f9fac55221a0fe149b53f494ccdd3954454eacfe",
+      "selected_emission": false,
+      "selector_relation_vector": [
+        0,
+        0.9523405793836744,
+        8.768746455163866
+      ],
+      "states": [
+        19,
+        300,
+        12,
+        288,
+        0,
+        0,
+        300,
+        280,
+        0,
+        0,
+        0,
+        300,
+        300,
+        300,
+        321,
+        0
+      ],
+      "states_sha256": "61791c60c40e7bb4e849e2b3a6eff30a49fcd926045b51906d886a77bcd21af7"
+    },
+    {
+      "candidate_index": 10,
+      "prediction_pdb": "candidate_10.pdb",
+      "prediction_pdb_sha256": "552a9b64a0d9e928665fecc78f2eda205cc342111bff90a59a534134df76d6db",
+      "selected_emission": false,
+      "selector_relation_vector": [
+        0,
+        0.9523405793836744,
+        8.768746455163866
+      ],
+      "states": [
+        20,
+        300,
+        12,
+        288,
+        0,
+        0,
+        300,
+        320,
+        0,
+        0,
+        0,
+        300,
+        300,
+        300,
+        279,
+        0
+      ],
+      "states_sha256": "881ee4ba18ff4ccaecc02b62be4ac1aff5372e6f6bcb5804bfb0ec1fd3e23f39"
+    },
+    {
+      "candidate_index": 11,
+      "prediction_pdb": "candidate_11.pdb",
+      "prediction_pdb_sha256": "e39130786b7890821b0b4a48537bf9ffe0769469847ab93a0c01b9614e4a104e",
+      "selected_emission": false,
+      "selector_relation_vector": [
+        0,
+        0.9523405793836746,
+        8.768746455163859
+      ],
+      "states": [
+        16,
+        300,
+        12,
+        288,
+        0,
+        0,
+        300,
+        320,
+        0,
+        0,
+        0,
+        300,
+        300,
+        300,
+        279,
+        0
+      ],
+      "states_sha256": "edad79e28363e04beeb473b42b19950ab716a235143f67c567450deb7ee075d3"
+    },
+    {
+      "candidate_index": 12,
+      "prediction_pdb": "candidate_12.pdb",
+      "prediction_pdb_sha256": "6841ebf0266a68ac3227187d51a8987a919a70e690a8d329d49cdd08d0dadd79",
+      "selected_emission": false,
+      "selector_relation_vector": [
+        0,
+        0.9523405793836747,
+        8.76874645516386
+      ],
+      "states": [
+        13,
+        300,
+        12,
+        288,
+        0,
+        0,
+        300,
+        280,
+        0,
+        0,
+        0,
+        300,
+        300,
+        300,
+        321,
+        0
+      ],
+      "states_sha256": "762cabc1855960c5377a31947cf4488bb3bc0f0932e20479f395452f1cab7f81"
+    },
+    {
+      "candidate_index": 13,
+      "prediction_pdb": "candidate_13.pdb",
+      "prediction_pdb_sha256": "b9e442e708db5430fe76ad883e4e7f920cada09a7fe5bcf8fd7a1e95fec3df75",
+      "selected_emission": false,
+      "selector_relation_vector": [
+        0,
+        0.9523405793836747,
+        8.76874645516386
+      ],
+      "states": [
+        23,
+        300,
+        12,
+        288,
+        0,
+        0,
+        300,
+        280,
+        0,
+        0,
+        0,
+        300,
+        300,
+        300,
+        321,
+        0
+      ],
+      "states_sha256": "a5725899c920cf170d82768ebd122406db061847bf72be67a6c67efc6f75dfee"
+    },
+    {
+      "candidate_index": 14,
+      "prediction_pdb": "candidate_14.pdb",
+      "prediction_pdb_sha256": "0ebce8ce9961906ef06854930d9a088d998837d0f8f4388f7f6e59c96bdfb835",
+      "selected_emission": false,
+      "selector_relation_vector": [
+        0,
+        0.9523405793836747,
+        8.768746455163862
+      ],
+      "states": [
+        3,
+        300,
+        12,
+        288,
+        0,
+        0,
+        300,
+        280,
+        0,
+        0,
+        0,
+        300,
+        300,
+        300,
+        321,
+        0
+      ],
+      "states_sha256": "d8e192e19fc5733f6940b907499fedee8714075d29891c03858b67cb5225e653"
+    },
+    {
+      "candidate_index": 15,
+      "prediction_pdb": "candidate_15.pdb",
+      "prediction_pdb_sha256": "d986c8b433a774e4b398a6183573a071bfae20cfa547040c315f89307a010a8d",
+      "selected_emission": false,
+      "selector_relation_vector": [
+        0,
+        0.9523405793836747,
+        8.768746455163866
+      ],
+      "states": [
+        7,
+        300,
+        12,
+        288,
+        0,
+        0,
+        300,
+        280,
+        0,
+        0,
+        0,
+        300,
+        300,
+        300,
+        321,
+        0
+      ],
+      "states_sha256": "530bf5e9d6f09eb420f603431cd87007dc60737024d936277b175104423cac47"
+    },
+    {
+      "candidate_index": 16,
+      "prediction_pdb": "candidate_16.pdb",
+      "prediction_pdb_sha256": "4828ab241c04ec019cbac374d18e363f37a82856a125396e94d29564c8774dfe",
+      "selected_emission": false,
+      "selector_relation_vector": [
+        0,
+        0.9523405793836747,
+        8.76874645516387
+      ],
+      "states": [
+        23,
+        300,
+        12,
+        288,
+        0,
+        0,
+        300,
+        320,
+        0,
+        0,
+        0,
+        300,
+        300,
+        300,
+        279,
+        0
+      ],
+      "states_sha256": "630c1e3e616625916ae1a4edafce7b2370adcaa52ab7c9f24a2c50518ce1f32f"
+    },
+    {
+      "candidate_index": 17,
+      "prediction_pdb": "candidate_17.pdb",
+      "prediction_pdb_sha256": "fc68896bd1c8c7ff4652579ceb6788d3024b660592e9d64600123e3da54429aa",
+      "selected_emission": false,
+      "selector_relation_vector": [
+        0,
+        0.9523405793836748,
+        8.76874645516386
+      ],
+      "states": [
+        21,
+        300,
+        12,
+        288,
+        0,
+        0,
+        300,
+        280,
+        0,
+        0,
+        0,
+        300,
+        300,
+        300,
+        321,
+        0
+      ],
+      "states_sha256": "133cb89fd2024258d7ad100dffb55c97d347d26e6527ce13cc4307d73e370113"
+    },
+    {
+      "candidate_index": 18,
+      "prediction_pdb": "candidate_18.pdb",
+      "prediction_pdb_sha256": "b481d6d39ea90c2d70aa06b4499426ea69a7369d66f669231917dc3d0ae97c3c",
+      "selected_emission": false,
+      "selector_relation_vector": [
+        0,
+        0.9523405793836748,
+        8.768746455163864
+      ],
+      "states": [
+        21,
+        300,
+        12,
+        288,
+        0,
+        0,
+        300,
+        320,
+        0,
+        0,
+        0,
+        300,
+        300,
+        300,
+        279,
+        0
+      ],
+      "states_sha256": "88802205552c9e8c954e2a787669f7ce6be4f9c24bf57465b8bdc9ce6926ca83"
+    },
+    {
+      "candidate_index": 19,
+      "prediction_pdb": "candidate_19.pdb",
+      "prediction_pdb_sha256": "3adc2ded61b0b7dc7fd7d5dc91a97573e500479574c5f9d427e31ed37fbbc39e",
+      "selected_emission": false,
+      "selector_relation_vector": [
+        0,
+        0.9523405793836749,
+        8.768746455163868
+      ],
+      "states": [
+        20,
+        300,
+        12,
+        288,
+        0,
+        0,
+        300,
+        280,
+        0,
+        0,
+        0,
+        300,
+        300,
+        300,
+        321,
+        0
+      ],
+      "states_sha256": "d0068cfe74cb05b6657acef191799848f1392a7ecbd6bc9aa4f5c3cea8056f81"
+    },
+    {
+      "candidate_index": 20,
+      "prediction_pdb": "candidate_20.pdb",
+      "prediction_pdb_sha256": "c0ff9b1a8bd900d50a0f0a9e59c5a4710fae063acc68bf053f66f6dfc3852ee0",
+      "selected_emission": false,
+      "selector_relation_vector": [
+        0,
+        0.9523405793836749,
+        8.76874645516387
+      ],
+      "states": [
+        22,
+        300,
+        12,
+        288,
+        0,
+        0,
+        300,
+        320,
+        0,
+        0,
+        0,
+        300,
+        300,
+        300,
+        279,
+        0
+      ],
+      "states_sha256": "285974dc2a3b6f05214a4940f0a0f32f724b2c9bed445de7cfdd80a8dcdba4b8"
+    },
+    {
+      "candidate_index": 21,
+      "prediction_pdb": "candidate_21.pdb",
+      "prediction_pdb_sha256": "a2b208884a8d6b4c9b352773d422e5deb02ccc89878129c548e91b6f8786bee2",
+      "selected_emission": false,
+      "selector_relation_vector": [
+        0,
+        0.9523405793836751,
+        8.76874645516386
+      ],
+      "states": [
+        16,
+        300,
+        12,
+        288,
+        0,
+        0,
+        300,
+        280,
+        0,
+        0,
+        0,
+        300,
+        300,
+        300,
+        321,
+        0
+      ],
+      "states_sha256": "2f8898672204c007313296180743fb316bfe4e42af24a2022f7ddd1983bae5a4"
+    },
+    {
+      "candidate_index": 22,
+      "prediction_pdb": "candidate_22.pdb",
+      "prediction_pdb_sha256": "2185491b7749dfe13f23475ddfd0b1bf68e7f795e08264c73816a630c6c60770",
+      "selected_emission": false,
+      "selector_relation_vector": [
+        0,
+        0.9523405793836754,
+        8.76874645516387
+      ],
+      "states": [
+        6,
+        300,
+        12,
+        288,
+        0,
+        0,
+        300,
+        320,
+        0,
+        0,
+        0,
+        300,
+        300,
+        300,
+        279,
+        0
+      ],
+      "states_sha256": "96d6b0fe3702ca745da530c24ef4bba52aa20d14f93d91dd71fb3182ed96caff"
+    },
+    {
+      "candidate_index": 23,
+      "prediction_pdb": "candidate_23.pdb",
+      "prediction_pdb_sha256": "97c566407890dd7d29384d528bc8a88e2881d7d9187380dfb5d65c16f6a26d13",
+      "selected_emission": false,
+      "selector_relation_vector": [
+        0,
+        0.9523405793836756,
+        8.768746455163875
+      ],
+      "states": [
+        3,
+        300,
+        12,
+        288,
+        0,
+        0,
+        300,
+        320,
+        0,
+        0,
+        0,
+        300,
+        300,
+        300,
+        279,
+        0
+      ],
+      "states_sha256": "3bb29ffdf3855ddd8dad2bd85778d5a9a586450a6fc13cfb76709c8dab549b90"
+    }
+  ],
+  "captured_selector_local": "beam",
+  "official_run": false,
+  "original_seal_sha256": "52961e2b5471d6cf62e6074bb86456b72633b1c67631d0bff410e982d213d0ac",
+  "original_selected_states_sha256": "9b2ec2ebabdd62f635eb7e14dbc3eafac2e7ff19230f4f3a9015c7edaa11cb84",
+  "result_type": "target-free historical frontier reconstruction",
+  "run_id": "ubiquitin-v3-development-l16-20260719",
+  "schema": "fold-protein-v3-reconstructed-final-beam/v1",
+  "selected_candidate_index": 0,
+  "selected_output_reproduced": true,
+  "status": "completed"
+}

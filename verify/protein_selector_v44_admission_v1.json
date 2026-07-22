@@ -1,0 +1,50 @@
+{
+  "schema": "fold-protein-selector-v44-admission/v1",
+  "date": "2026-07-21",
+  "status": "engine_admitted_named_forward_forcing_constitution",
+  "authority": "V44 composes the complete V42 connected frontier, the V43 exact cycle-rank law and the V40 complete paired-state fixed-point descent; it retains every distinct fixed point and does not choose from target measurements.",
+  "composition": {
+    "connected_parent": "all three sealed V42 connected whole-chain rows",
+    "cycle_relation": "V43 exact independent-cycle rank descended by integer distance to the theorem-forced One",
+    "update_space": "all 576 paired 24-lattice states at every active residue",
+    "direction": "registered positive N-to-C causal direction",
+    "invariant": "one connected block graph",
+    "termination": "strict finite fixed point after a complete unchanged sweep",
+    "selection_among_fixed_points": "none",
+    "new_parameter": "none",
+    "target": "none"
+  },
+  "complete_construction": {
+    "connected_parent_count": 3,
+    "paired_state_count": 576,
+    "cycle_rank_target": 1,
+    "causal_direction": "n_to_c"
+  },
+  "required_derivation_guards": {
+    "dependency_trace_to_the_One_or_an_engine_closed_result": "V42 supplies connected parents, V43 supplies the exact cycle-rank identity and theorem-forced One, and V40 supplies complete paired-state fixed-point descent.",
+    "generated_complete_candidate_space": "Every one of the three connected parents executes every one of the 576 paired states at every active residue until a complete sweep changes no state.",
+    "assembled_form_minimality": "Neither the connected parent frontier nor one paired lattice alone supplies their complete Cartesian update space; the engine checks their product as the minimal named assembly.",
+    "named_shape_uniqueness": "Connectivity is preserved as the V42 invariant; inside it, exact integer distance to the unique cycle target One precedes the unchanged V3 total order.",
+    "measured_provenance_excluded_from_derivation": "Only sealed V42/V43 relations, sequence and generated geometry enter; native coordinates, TM, dRMSD and mask measurements are absent.",
+    "engine_halt_on_violation": "Runtime halts on parent, source, count, direction, connectivity, monotonicity, fixed-point, target-input or seal drift.",
+    "purpose_matched_real_execution": "The complete L76 fixed-point frontier is emitted and sealed before every retained structure is compared."
+  },
+  "source_sha256": {
+    "constants/protein_blind_selector_v44_admission.ep": "686bdf42c540488f2b3ecdf506461b3116fb4129465cae504f273f7ac756c5bb",
+    "tests/test_blind_selector_v44.py": "ff2b556d510f2f18f7f72028f2bec45d9e138123877212585b9e0f3fdf3b7200",
+    "tests/test_protein_blind_selector_v44_admission.ep": "8026b2bb3acf76343620b4efb105e666ff57b037242458be47598396855afc19",
+    "tests/test_protein_selector_v44_admission.py": "ee57a7c5315bb698469990ef4a74b9aa268efff4b956cb4f2fbfea4ab109e66e",
+    "tools/blind_24_lattice_selector_v44.py": "4cd7081291fcdee5e166ed2582d705d6128ea005f99e1461cd1f47f9ab5b9690",
+    "tools/run_blind_protocol_v44.py": "c93da5c6a832f97460ab4704b786bdced672a17ac091193efdad01b6c4c0ed38",
+    "tools/verify_protein_selector_v44_admission.py": "f749d2a32422f0b7ea8105408a7fe74f06bae1ec9fd141217d0a1a54dc8a5e67",
+    "verify/evaluate_sealed_blind_v44.py": "9ca3125e96e558aad6072bd14b26721def44955c4cba18dc57db40b8f5ee297a",
+    "verify/blind_selector_v42.json": "dda92c6d389594dcbf8f91470cb0b1055b83ba20116c9a070aa8466823895275",
+    "verify/blind_selector_v43.json": "501d189eea5b88dcb14f2a0e3f294efd94a1223f9cb1fb03cea1c69be0ee75e7",
+    "verify/protein_selector_v42_admission_v1.json": "d07ad0a6c57b76d7353bc2c4595adb51ec2a5f3fffe6c94edbec62225c7522d2",
+    "verify/protein_selector_v43_admission_v1.json": "d0d763a1ec80549fc6be27d59564af1b199575301e36f8a58200883674ff2bc4",
+    "verify/development_runs/ubiquitin_v42_backbone_contact_frontier_l76_20260721/seal.json": "9bb2c6642814fe7710c508644564b10c4319816c056092ef19d86c469f3268d8",
+    "verify/development_runs/ubiquitin_v42_backbone_contact_frontier_l76_20260721/frontier.json": "9d8fd74bcd38428bd187dcede4827233d295c7f010baa062d1da6b1ddf49c673",
+    "verify/development_runs/ubiquitin_v43_one_cycle_frontier_l76_20260721/seal.json": "61cda7c45e2552cb5c179a4903132a2adf39c4c68e95baa3891c6b7f33640a67",
+    "verify/development_runs/ubiquitin_v43_one_cycle_frontier_l76_20260721/frontier.json": "5bc43851ea580fd80a31cd1717f2aa6aca84b5977e8dca3df0de026dd5a8b73a"
+  }
+}

@@ -1,0 +1,22 @@
+import "../constants/protein_material_architecture_v1_admission.ep"
+
+define main:
+    display "=== Protein material architecture V1 admission ==="
+    set window_count to protein_material_window_count(76)
+    set overlap_count to protein_material_overlap_count(76)
+    set reconstructed to protein_material_reconstructed_residue_count(76)
+    set long_range_pairs to protein_material_long_range_pair_count(76)
+    set raw_candidates to protein_material_raw_candidate_count(76)
+    set raw_matches to protein_material_raw_signature_match_count(76)
+    set admitted to enforce_protein_material_architecture_v1(76 and 74 and 74 and 73 and 1 and 0 and 73 and 0 and 43776 and 122 and 76 and 0 and 40 and 40 and 2628 and 2628 and 0 and 0 and 0 and 0 and 0 and 0 and 0 and 0)
+    if window_count == 74:
+        if overlap_count == 73:
+            if reconstructed == 76:
+                if long_range_pairs == 2628:
+                    if raw_candidates == 43776:
+                        if raw_matches == 122:
+                            if admitted == 1:
+                                display "  ok    complete-domain overlap material relation closes uniquely"
+                                display "=== done ==="
+                                return 0
+    return halt_violation("protein material architecture V1 admission returned without closure")

@@ -1,0 +1,62 @@
+{
+  "candidate_count": 3,
+  "execution": "post-seal comparison of complete connected cycle-to-One fixed-point frontier",
+  "frontier": [
+    {
+      "ca_drmsd_angstrom": 5.894479963846462,
+      "contact_atom_pairs": 76,
+      "contact_residue_pairs": 51,
+      "cycle_distance_to_one": 0,
+      "fixed_point_index": 0,
+      "graph_components": 1,
+      "graph_cycle_rank": 1,
+      "interblock_edges": 26,
+      "matched_ca_atoms": 76,
+      "prediction_pdb_sha256": "d1bbc07461bb8f4ec948255218562cc4ee580f8e90d8aaf897a91ea10da58b70",
+      "source_seeds": [
+        "v42_mask_2178"
+      ],
+      "tm_score": 0.14672009842844166
+    },
+    {
+      "ca_drmsd_angstrom": 8.199521195666648,
+      "contact_atom_pairs": 63,
+      "contact_residue_pairs": 49,
+      "cycle_distance_to_one": 0,
+      "fixed_point_index": 1,
+      "graph_components": 1,
+      "graph_cycle_rank": 1,
+      "interblock_edges": 26,
+      "matched_ca_atoms": 76,
+      "prediction_pdb_sha256": "2650fbdf4d15a54c2d550e928f8a79e8b75f6921bb347b6aee286333ba1b4f5f",
+      "source_seeds": [
+        "v42_mask_5815"
+      ],
+      "tm_score": 0.13202423499139324
+    },
+    {
+      "ca_drmsd_angstrom": 6.826056015675712,
+      "contact_atom_pairs": 54,
+      "contact_residue_pairs": 42,
+      "cycle_distance_to_one": 0,
+      "fixed_point_index": 2,
+      "graph_components": 1,
+      "graph_cycle_rank": 1,
+      "interblock_edges": 26,
+      "matched_ca_atoms": 76,
+      "prediction_pdb_sha256": "78f2f1f46caf2dcadc42021b84bc72155efb1f00d437c1190e5457c0dbe17279",
+      "source_seeds": [
+        "v42_mask_5814"
+      ],
+      "tm_score": 0.09246955911314943
+    }
+  ],
+  "official_run": false,
+  "result_type": "cumulative development benchmark",
+  "run_id": "ubiquitin_v44_connected_cycle_fixed_point_l76_20260721",
+  "schema": "fold-protein-blind-evaluation/v44",
+  "seal_sha256": "9f10df1d44846888bd268cd65fbd6a5bc17c1475a3051fc51363cdc3340fa7d6",
+  "status": "completed",
+  "target_id": "1ubq.pdb",
+  "target_sha256": "d4a6812d8951cf6594e6a0763f089e35f5a80b62acb3c117b2c5565228a7b161"
+}

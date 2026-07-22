@@ -1,0 +1,25 @@
+{
+  "execution": "sequence-only binary-overlap selector output",
+  "path_length": 76,
+  "prediction_pdb_sha256": "69168b742c23813b6c2460bcef92c55aa85eb26692d48cf027a4d53fc022a558",
+  "protocol_manifest_sha256": "589edc57159d13c386afb993e6c6b6fce986732ced0fd0d5c3c8417c20079435",
+  "run_id": "development-ubiquitin-v4-overlap-l76-20260721",
+  "schema": "fold-protein-blind-seal/v4",
+  "selected_states_sha256": "71c3d658223161cf1d2a66d6bf42cd0b2f03da4ea1af26a744fb4e0e3230dcdb",
+  "selector_input_sha256": "33a52755a10be5ad59df59ae8905fb2cde43e0a5c37c949f26f8d926de7b374a",
+  "sequence_sha256": "233b4b0b8c4616095bc3249f9375fc345d32af7deaef07117d0383c51d6f19aa",
+  "source_sha256": {
+    "constants/protein_window_orientation.ep": "6c756381026127f64426f0e836ae13c4586f3f48079daaa95ec702d4fcb6875e",
+    "foundation/structural_counts.ep": "d2bae850fe45cda4ee1c3282b48d85b54be11918ffb565d4881f9b338cd9a028",
+    "tools/blind_24_lattice_selector_v3.py": "062c2e4174e42494d3631e0c6aa38a708ec1a5952dc321ce66328620ff305cb5",
+    "tools/blind_24_lattice_selector_v4.py": "c0e2e65a5e3c2cafd84bc49484b2e40750b3c934ed9cf2245de50efd76cefbbe",
+    "tools/protein_backbone_geometry_v1.py": "a043e5d05a26fdf063c4703dac619f5fe918b65779a96df6d3cfa2f536fdc315",
+    "tools/residue_partition_v1.py": "f48e0ebc2c3dbc1d6d7a37370e0a2329968524d169d7b43022dce30ceacd3814",
+    "tools/run_blind_protocol_v4.py": "ee2e6b1fb5c6c14b6411a7970ce4bd0cd8b9f806c54519c6d111154cf3ab187c",
+    "verify/evaluate_sealed_blind_local_v4.py": "a0eb6b70e69a59f5a80ac0eb6a02f6b81fd933b2b7130e71047bc8964fbf2c2a",
+    "verify/evaluate_sealed_blind_v4.py": "17448b7c4adb36da70d31307b4186db034d814d1789145b11d7cc95b1bd3102b",
+    "verify/protein_backbone_geometry_v1.json": "47da7e3f3c58a88e53b36157c5d5ed4dfa2c8b2c6e2cba91a5da34e5746571fd",
+    "verify/replay_protein_backbone_geometry_v1.py": "c441fac4b7afde843ff260fadcd62430aa8937f3881d2e778de32c27c3b80b62"
+  },
+  "status": "completed"
+}

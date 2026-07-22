@@ -1,0 +1,111 @@
+{
+  "schema": "fold-protein-selector-v45-applied-evidence/v1",
+  "date": "2026-07-21",
+  "status": "verified_cumulative_development_evidence",
+  "result_type": "target-isolated seal-before-score complete connected boundary-axis fixed-point frontier",
+  "official_run": false,
+  "authority": "Maria Smith determines scientific conclusions and official-run status.",
+  "execution": {
+    "run_id": "ubiquitin_v45_boundary_axis_fixed_point_l76_20260721",
+    "sequence_length": 76,
+    "connected_parent_count": 3,
+    "axis_values_per_coordinate": 24,
+    "descent_order_count": 4,
+    "fixed_point_trace_count": 12,
+    "sealed_fixed_point_count": 12,
+    "total_coordinate_evaluations": 331200,
+    "connected_evaluations": 72214,
+    "runtime_seconds": 1219.979249715805,
+    "selection_among_frontier": "none"
+  },
+  "topology_result": {
+    "all_fixed_points_connected": true,
+    "exact_cycle_rank_one_fixed_points": 5,
+    "complete_cycle_rank_census": {
+      "1": 5,
+      "2": 3,
+      "4": 4
+    }
+  },
+  "positive_empirical_frontier": {
+    "pareto_count": 1,
+    "rows": [
+      {
+        "fixed_point_index": 7,
+        "source_seed": "v42_mask_5815",
+        "direction": "n_to_c",
+        "axis_order": [
+          1,
+          0
+        ],
+        "tm_score": 0.16003867449884962,
+        "ca_drmsd_angstrom": 6.172886380836446,
+        "graph_components": 1,
+        "graph_cycle_rank": 1,
+        "states_changed_from_parent": 31,
+        "parent_tm_improvement_percent": 4.165746402136761,
+        "parent_drmsd_improvement_percent": 9.741785096784417,
+        "v44_connected_one_cycle_tm_improvement_percent": 9.077540305020793,
+        "prediction_pdb_sha256": "f05e9b8743c9431c5f7ce1e98639096dae1945c2154835c3883f50cb3c0903e9"
+      }
+    ]
+  },
+  "local_empirical_frontier": {
+    "all_fixed_points_and_all_windows_retained": true,
+    "window_lengths": [
+      3,
+      4,
+      5,
+      8,
+      16,
+      24
+    ],
+    "strongest_three_residue_row": {
+      "fixed_point_index": 2,
+      "sequence": "PSD",
+      "residue_positions_one_based": [
+        19,
+        21
+      ],
+      "local_tm_score": 0.9997464589222601,
+      "ca_drmsd_angstrom": 0.007762138487334858
+    },
+    "strongest_four_residue_row": {
+      "fixed_point_index": 4,
+      "sequence": "VEPS",
+      "residue_positions_one_based": [
+        17,
+        20
+      ],
+      "local_tm_score": 0.9632883729253606,
+      "ca_drmsd_angstrom": 0.08704398785861059
+    },
+    "strongest_five_residue_row": {
+      "fixed_point_index": 10,
+      "sequence": "VEPSD",
+      "residue_positions_one_based": [
+        17,
+        21
+      ],
+      "local_tm_score": 0.6983926615962893,
+      "ca_drmsd_angstrom": 0.2302005859310778
+    }
+  },
+  "comparison_boundary": {
+    "v43_active_admitted_tm_frontier": 0.1797422881046024,
+    "v44_active_admitted_drmsd_frontier_angstrom": 5.894479963846462,
+    "v45_tm_change_from_v43_percent": -10.96214686790129,
+    "v45_drmsd_change_from_v44_percent": -4.723171826820649,
+    "interpretation": "V45 advances the exact connected One-cycle TM branch over V44 while V43 retains the higher overall admitted TM row and V44 retains the lower exact connected One-cycle dRMSD row. The complete V45 local audit preserves accurate three- and four-residue geometry and supplies the applied basis for the next local-to-global propagation constitution."
+  },
+  "provenance_boundary": "All three V42 connected parents, all four boundary-axis orders, every coordinate scan, all strict fixed-point sweeps and all twelve emitted structures were sealed before target access. Post-seal measurements preserve all twelve rows and do not select fixed point 7 as a unique engine output.",
+  "sha256": {
+    "selector_manifest": "a501c8ab2fd53ef01a9900173bf701885eb3950bc5dda529229b9a0383515551",
+    "selector_input": "50118b50a96c3cff10a4fbdac90c74ea009cf71b0423aeab7f47658dc86e5acf",
+    "seal": "0d9b0cae4f75b4da518b3ef04b4c02e8d92a7ca9bf3a097a6ae13bd986ae020e",
+    "frontier": "0310b97b5ff75fa494d9e871a1601cd956641c04bbc73f4715492f939f4be088",
+    "evaluation": "058d8d3fe97540421189d8310d917b0846205367fabf11057da7a50a321e0291",
+    "local_evaluation": "817745767452d746e94d043c3b89a9210f4528290edc1c69b9d893ba7af80fb3",
+    "local_evaluator": "2d8ac37b2fff1b36be8462b74353b951140ac0e20a3f97a7be97dfe7180689e8"
+  }
+}

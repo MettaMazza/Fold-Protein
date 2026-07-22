@@ -1,0 +1,52 @@
+{
+  "axis_value_count": 24,
+  "connected_parent_count": 3,
+  "cycle_rank_target": 1,
+  "descent_order_count": 4,
+  "distinct_fixed_points": 12,
+  "execution": "all connected parents crossed with every boundary-axis coordinate fixed-point order",
+  "fixed_point_trace_count": 12,
+  "frontier_sha256": "0310b97b5ff75fa494d9e871a1601cd956641c04bbc73f4715492f939f4be088",
+  "official_run": false,
+  "parent_v42": {
+    "frontier_sha256": "9d8fd74bcd38428bd187dcede4827233d295c7f010baa062d1da6b1ddf49c673",
+    "seal_sha256": "9bb2c6642814fe7710c508644564b10c4319816c056092ef19d86c469f3268d8"
+  },
+  "prediction_pdb_sha256": {
+    "prediction_fixed_point_00.pdb": "d7af704d1df9c7135cfbfe1cb23d82ae6e9a6fdc51bfc877cfb040e55db696c2",
+    "prediction_fixed_point_01.pdb": "a92b34c0495790fd8ccb2107b19554aff7d010a8dde1ca329a9b9aae8285e651",
+    "prediction_fixed_point_02.pdb": "154285ba2c532770cd91f9c87d82aa897706f059e55dbf5150cc64086ae6d93e",
+    "prediction_fixed_point_03.pdb": "d50656d6fdee46410832899fc7502d767cfc77e948867efb4943b9c5a7ccd8d0",
+    "prediction_fixed_point_04.pdb": "2c6e4b8e4872ba9f1ada84f33b5d4acdff8376cd6775664a4488a529d9cddb90",
+    "prediction_fixed_point_05.pdb": "d1c333b65ceebc4567e2a41866ab0fe1e54b9876f4c2def47dc578a261ecacb8",
+    "prediction_fixed_point_06.pdb": "d63f7eca28d4886a4daabb18507dc018c54ba8055b5b8872b8e5cddab28f3bf6",
+    "prediction_fixed_point_07.pdb": "f05e9b8743c9431c5f7ce1e98639096dae1945c2154835c3883f50cb3c0903e9",
+    "prediction_fixed_point_08.pdb": "3f53ca56ddd0687967f4ab91d77c4aa9b154f882074b8dac5a9ed5e4566013ce",
+    "prediction_fixed_point_09.pdb": "770ee47c6f6899aeb0ee3075ff8faeff1f88d7c945e4011aa74617949f05f223",
+    "prediction_fixed_point_10.pdb": "7d172abac95479cc832a3ab2628a9e8b5d10bf80c50b77ce12705687e1aefcb1",
+    "prediction_fixed_point_11.pdb": "8300d17085891f3c123f0abb8219ed22c88b4d11eac50ff18e735c3e2f2cb93b"
+  },
+  "protocol_manifest_sha256": "a501c8ab2fd53ef01a9900173bf701885eb3950bc5dda529229b9a0383515551",
+  "result_type": "cumulative development benchmark",
+  "run_id": "ubiquitin_v45_boundary_axis_fixed_point_l76_20260721",
+  "schema": "fold-protein-blind-seal/v45",
+  "selector_input_sha256": "50118b50a96c3cff10a4fbdac90c74ea009cf71b0423aeab7f47658dc86e5acf",
+  "source_sha256": {
+    "constants/protein_blind_selector_v45_admission.ep": "bed0d2d3b3854117b63fe6f0963af035de988abadcb89190e474fc2511f9e147",
+    "tools/blind_24_lattice_selector_v3.py": "062c2e4174e42494d3631e0c6aa38a708ec1a5952dc321ce66328620ff305cb5",
+    "tools/blind_24_lattice_selector_v38.py": "dcbaf7755ccdf839e3a98ab309ad054ca50d44bdd277983ff2b69e67ce0d895a",
+    "tools/blind_24_lattice_selector_v40.py": "1403bf420f5f38be1eb3f7c2da513e18abaaf70fb4ad8e25c7593e2de0226488",
+    "tools/blind_24_lattice_selector_v42.py": "8e562e1a63d05bf8bf256aae71ffaf9dfd89a9818769556cc4a00bd4b758414c",
+    "tools/blind_24_lattice_selector_v43.py": "6da6b2506d53105fd2c15456a64b3f5026ccffd0c0a83011145424d9e1e9594e",
+    "tools/blind_24_lattice_selector_v44.py": "4cd7081291fcdee5e166ed2582d705d6128ea005f99e1461cd1f47f9ab5b9690",
+    "tools/blind_24_lattice_selector_v45.py": "825f168f24eebeedcbf265f2d7b206c7b5a8157725a09f2736ab949ea6998e6f",
+    "tools/protein_backbone_geometry_v1.py": "a043e5d05a26fdf063c4703dac619f5fe918b65779a96df6d3cfa2f536fdc315",
+    "tools/residue_partition_v1.py": "f48e0ebc2c3dbc1d6d7a37370e0a2329968524d169d7b43022dce30ceacd3814",
+    "tools/run_blind_protocol_v45.py": "f6db900ccb4daf2498422b6a7940ccf4c48815d03a78c0a31916765254ed3eed",
+    "verify/evaluate_sealed_blind_v45.py": "cf9779233cb799b35930b9d59e64a17e993f97bd648d2a400ba405d5a8c0dd02",
+    "verify/protein_selector_v45_admission_v1.json": "54fb4b3ce5cbf7923e857016ec32769bb51235d7016b9f7d92d4bf602b3acaa2"
+  },
+  "status": "completed",
+  "total_connected_evaluations": 72214,
+  "total_evaluations": 331200
+}

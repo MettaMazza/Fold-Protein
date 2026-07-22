@@ -1,0 +1,43 @@
+{
+  "schema": "fold-protein-selector-v42-admission/v1",
+  "date": "2026-07-21",
+  "status": "engine_admitted_named_forward_forcing_constitution",
+  "authority": "V42 admits the complete target-free frontier reaching one connected component; it does not choose among retained rows.",
+  "composition": {
+    "parent": "complete sealed V41 component cube",
+    "full_chain_blocks": 26,
+    "disagreement_blocks": 13,
+    "equal_blocks": 13,
+    "contact_atoms": ["N", "CA", "C"],
+    "contact_shell": "generated half-One inclusive to generated adjacent C-alpha One exclusive",
+    "cube_candidates": 8192,
+    "new_parameter": "none",
+    "target": "none"
+  },
+  "complete_frontier": {
+    "connected_component_target": 1,
+    "count": 3,
+    "masks": [2178, 5814, 5815],
+    "selection_among_frontier": "none"
+  },
+  "required_derivation_guards": {
+    "dependency_trace_to_the_One_or_an_engine_closed_result": "V41 supplies the complete binary cube; the contact shell is bounded by the generated half-One and One.",
+    "generated_complete_candidate_space": "All 8,192 V41 component assignments are evaluated.",
+    "assembled_form_minimality": "One is the smallest positive graph-component count.",
+    "named_shape_uniqueness": "Maximal equal/disagree runs and graph connected components are unique; every row reaching One is retained.",
+    "measured_provenance_excluded_from_derivation": "Only sequence, sealed parent states and generated backbone atoms enter; target coordinates and scores are absent.",
+    "engine_halt_on_violation": "Runtime halts on parent, block, cube, source, empty-frontier or seal drift.",
+    "purpose_matched_real_execution": "A complete sealed L76 frontier must be compared only after sealing."
+  },
+  "source_sha256": {
+    "constants/protein_blind_selector_v42_admission.ep": "b1d43e30a87bf82a251d17a5d4b7df16401b9b19390d7757e90f9fba3d254f7f",
+    "tools/blind_24_lattice_selector_v42.py": "8e562e1a63d05bf8bf256aae71ffaf9dfd89a9818769556cc4a00bd4b758414c",
+    "tools/run_blind_protocol_v42.py": "e4e206e4b625b4d45ee0c963e05d9e159befde318b4d9461c11907f82064e6c1",
+    "tools/verify_protein_selector_v42_admission.py": "f7b144d39372924f182482665144c8326b359d4da2d1c4a51cd6a2965536e88a",
+    "verify/evaluate_sealed_blind_v42.py": "b23cf72c4fca3ccdd80a5fba74abd6562107b045bcddbbaf72d6ce7fe5627e94",
+    "verify/blind_selector_v41.json": "b13dadb715a04fae9c922f1ff3395dab291683d20a5c371cf56fe2dfa6dcd284",
+    "verify/protein_selector_v41_admission_v1.json": "8d87d980727ba722698abbf5e554029201bb50a593c2fdb47e6528afa8eb9707",
+    "verify/development_runs/ubiquitin_v41_component_cube_l76_20260721/seal.json": "8d033d432d12b015766d3f3646a40243994712f295e2c7caa4778cc130c103be",
+    "verify/development_runs/ubiquitin_v41_component_cube_l76_20260721/selected_states.json": "8ccc2e7459390e44eaa75493e295310d9bd5cc797b25dc37bb47d2392a8a523b"
+  }
+}

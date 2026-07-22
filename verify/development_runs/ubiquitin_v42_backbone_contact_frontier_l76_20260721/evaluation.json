@@ -1,0 +1,45 @@
+{
+  "execution": "post-seal comparison of complete connected frontier",
+  "frontier": [
+    {
+      "ca_drmsd_angstrom": 6.1032086928107425,
+      "contact_atom_pairs": 285,
+      "contact_residue_pairs": 102,
+      "graph_components": 1,
+      "interblock_edges": 42,
+      "mask": 2178,
+      "matched_ca_atoms": 76,
+      "prediction_pdb_sha256": "1335b5218be7767c3de74955cb5604ec17f86a147fd5eb9167fa3553497c797c",
+      "tm_score": 0.11457589725720103
+    },
+    {
+      "ca_drmsd_angstrom": 6.926970613499072,
+      "contact_atom_pairs": 179,
+      "contact_residue_pairs": 74,
+      "graph_components": 1,
+      "interblock_edges": 37,
+      "mask": 5814,
+      "matched_ca_atoms": 76,
+      "prediction_pdb_sha256": "5a7163011312ae33e1b88f54a1d739b6c6dc509dbd655538dfbea8cf9b2c6433",
+      "tm_score": 0.15437792615180457
+    },
+    {
+      "ca_drmsd_angstrom": 6.839140777884505,
+      "contact_atom_pairs": 190,
+      "contact_residue_pairs": 83,
+      "graph_components": 1,
+      "interblock_edges": 38,
+      "mask": 5815,
+      "matched_ca_atoms": 76,
+      "prediction_pdb_sha256": "d30cf6ca02eee82f962ce1823814efced84749a6e8a5b9dba65c71b01571789a",
+      "tm_score": 0.15363848484415674
+    }
+  ],
+  "official_run": false,
+  "result_type": "cumulative development benchmark",
+  "schema": "fold-protein-blind-evaluation/v42",
+  "seal_sha256": "9bb2c6642814fe7710c508644564b10c4319816c056092ef19d86c469f3268d8",
+  "status": "completed",
+  "target_id": "1ubq.pdb",
+  "target_sha256": "d4a6812d8951cf6594e6a0763f089e35f5a80b62acb3c117b2c5565228a7b161"
+}

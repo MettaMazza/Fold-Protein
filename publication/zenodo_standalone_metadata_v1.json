@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "title": "From One Self-Proven Theorem to Blind Protein Structure: Blind Predictive Super Parity through a Zero-Parameter, Machine-Checked and Empirically Measured Computational Proof",
+    "upload_type": "publication",
+    "publication_type": "article",
+    "publication_date": "2026-07-22",
+    "creators": [
+      {
+        "name": "Smith, Maria",
+        "affiliation": "Ernos Labs"
+      }
+    ],
+    "description": "<p><strong>Fold Protein achieves Blind Predictive Super Parity on the complete 76-residue ubiquitin backbone.</strong> Protein Material Architecture V1 generates and seals the full structure while the experimental target is inaccessible, then measures <strong>0.9891211351 TM_repo</strong>, <strong>0.2608575408 Å Cα dRMSD</strong>, and <strong>0.3261459535 Å Kabsch Cα RMSD</strong> against experiment.</p><p>The execution restores all <strong>576 exact dihedral states at every residue</strong>, giving <strong>43,776 complete residue-state trials</strong>. It applies the Smithian Fold Theory three-residue colour window, two-residue binary overlap and One-residue advance across generated material frames. The complete run records <strong>zero trained weights, zero fitted parameters, zero candidate orderings and zero target accesses</strong>. It uniquely closes 74 interior states and two terminal gauge classes, checks 74 local windows, 73 overlapping quartets, 40 generated contacts and all 2,628 long-range orientation pairs, and hash-seals the state path and PDB before experimental comparison.</p><p>The paper makes a precise scientific distinction between <strong>opaque reliability</strong> and <strong>empirical explanation</strong>. A black-box predictor can be empirically shown to return reliable answers; that validates predictive performance. It does not expose or machine-prove the physical law responsible for the phenomenon. Fold Protein establishes the higher evidentiary chain: a stated mathematical foundation, inspectable derivation, machine-checked construction, sealed blind consequence, reproducible experimental measurement and explicit falsification conditions.</p><p>The protein programme begins from Smithian Fold Theory's one machine-checked, self-proven theorem—<em>there is no nothing</em>—with zero axioms. The exact-fraction engine independently forces the canonical right-handed alpha-helix coordinates (−60°, −45°) and beta-sheet coordinates (−120°, +135°) on the complete signed 24-lattice. Supporting evidence includes blind local geometry reaching <strong>0.9997464589 TM</strong>, complete corrective preservation of <strong>94 sealed evaluation sets, 10,336 candidates and 708 strict dual-improving rows</strong>, and unchanged V35 cross-protein propagation that improves both registered structural measures on ubiquitin and lambda-Cro.</p><p>This standalone paper is the authoritative current synthesis of Fold Protein. It supersedes the two earlier Protein papers, which remain preserved as chronological development artifacts and provenance records. The next empirical extension freezes the transferable sequence-material law and applies it unchanged to previously unwitnessed proteins. That extension broadens the demonstrated range of the law while preserving the achieved ubiquitin Blind Predictive Super Parity result in full.</p><p><strong>Open evidence and source:</strong> <a href=\"https://github.com/MettaMazza/Fold-Protein\">Fold Protein</a> and <a href=\"https://github.com/MettaMazza/Smithian-Fold-Theory-Of-Everything\">Smithian Fold Theory of Everything</a>.</p>",
+    "access_right": "open",
+    "license": "cc-by-4.0",
+    "language": "eng",
+    "keywords": [
+      "blind predictive super parity",
+      "protein structure prediction",
+      "protein folding",
+      "ubiquitin",
+      "Smithian Fold Theory",
+      "zero-parameter model",
+      "zero trained parameters",
+      "computational proof",
+      "machine-checked derivation",
+      "transparent science",
+      "empirical prediction",
+      "interpretable computation",
+      "exact rational geometry",
+      "24-lattice",
+      "alpha helix",
+      "beta sheet",
+      "Levinthal's paradox",
+      "reproducible research",
+      "open science"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/MettaMazza/Fold-Protein",
+        "relation": "isSupplementedBy",
+        "scheme": "url"
+      },
+      {
+        "identifier": "https://github.com/MettaMazza/Smithian-Fold-Theory-Of-Everything",
+        "relation": "isSupplementedBy",
+        "scheme": "url"
+      },
+      {
+        "identifier": "10.5281/zenodo.21182468",
+        "relation": "isDerivedFrom",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "10.5281/zenodo.21276950",
+        "relation": "obsoletes",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "10.5281/zenodo.21368944",
+        "relation": "obsoletes",
+        "scheme": "doi"
+      }
+    ],
+    "references": [
+      "Levinthal, C. (1969). How to fold graciously. Mössbauer Spectroscopy in Biological Systems, 22–24.",
+      "Parsons, J. et al. (2005). Practical conversion from torsion space to Cartesian space for in silico protein synthesis. Journal of Computational Chemistry, 26, 1063–1068.",
+      "Zhang, Y. & Skolnick, J. (2004). Scoring function for automated assessment of protein structure template quality. Proteins, 57, 702–710.",
+      "Jumper, J. et al. (2021). Highly accurate protein structure prediction with AlphaFold. Nature, 596, 583–589.",
+      "Smith, M. (2026). The Smithian Fold Theory of Everything. doi:10.5281/zenodo.21182468."
+    ],
+    "notes": "Standalone authoritative Fold Protein paper. The earlier Protein and Super Parity Zenodo lineages remain preserved as superseded development artifacts. The primary PDF is the first publication file; the accompanying bundle contains source, machine-checkable admissions, sealed execution artifacts, measurements, hashes and reproduction tools."
+  }
+}

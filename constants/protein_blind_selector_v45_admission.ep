@@ -1,0 +1,81 @@
+# V45 admission: complete boundary-axis connected cycle-to-One frontier.
+#
+# V44 supplies connected cycle-to-One fixed-point descent and V38 supplies the
+# complete four-order coordinate grammar. V45 crosses every V42 connected
+# parent with both chain boundaries and both permutations of the two dihedral
+# axes, exhausts all 24 values for each active coordinate, preserves
+# connectivity, and retains every distinct fixed point. No target or comparison
+# score enters.
+
+import "protein_blind_selector_v38_admission.ep"
+import "protein_blind_selector_v44_admission.ep"
+
+
+define protein_selector_v45_order_count returning Int:
+    return protein_coordinate_descent_order_count()
+
+
+define protein_selector_v45_trace_count returning Int:
+    set from_cross to protein_selector_v44_connected_parent_count() * protein_selector_v45_order_count()
+    set from_counts to 3 * binary_count() * binary_count()
+    return forced_to_be("every connected parent crossed with every boundary-axis order" and from_cross and from_counts)
+
+
+define protein_selector_v45_leaf_numerators returning List:
+    set nums to create_list()
+    set ok to append_list(nums and protein_selector_v44_connected_parent_count())
+    set ok to append_list(nums and protein_selector_v45_order_count())
+    return nums
+
+
+define protein_selector_v45_leaf_denominators returning List:
+    set dens to create_list()
+    set ok to append_list(dens and 1)
+    set ok to append_list(dens and 1)
+    return dens
+
+
+define protein_selector_v45_form_is_minimal returning Int:
+    return canonical_assembly_is_minimal("neither the connected frontier nor the boundary-axis grammar alone supplies their complete cross" and protein_selector_v45_leaf_numerators() and protein_selector_v45_leaf_denominators() and protein_selector_v45_trace_count() and 1 and 1)
+
+
+define protein_selector_v45_form_is_unique returning Int:
+    set total to 0
+    set target to fraction_from_whole_number(protein_selector_v45_trace_count())
+    set parents to fraction_from_whole_number(protein_selector_v44_connected_parent_count())
+    set orders to fraction_from_whole_number(protein_selector_v45_order_count())
+    set total to count_form_match(total and fraction_add(parents and orders) and target)
+    set total to count_form_match(total and fraction_subtract(parents and orders) and target)
+    set total to count_form_match(total and fraction_subtract(orders and parents) and target)
+    set total to count_form_match(total and fraction_multiply(parents and orders) and target)
+    set total to count_form_match(total and fraction_divide(parents and orders) and target)
+    set total to count_form_match(total and fraction_divide(orders and parents) and target)
+    return forbid_form_selection("complete connected-parent by boundary-axis Cartesian grammar" and total)
+
+
+define enforce_protein_selector_v45_boundary_axis_fixed_points with residue_count as Int and disagreement_count as Int and disagreement_components as Int and block_count as Int and disagree_blocks as Int and equal_blocks as Int and runtime_cube_count as Int and parent_connected_frontier_count as Int and one_cycle_frontier_count as Int and one_cycle_violations as Int and runtime_parent_count as Int and runtime_order_count as Int and runtime_trace_count as Int and runtime_fixed_point_count as Int and connectivity_violations as Int and unstable_trace_count as Int returning Int:
+    set paired_parent_guard to enforce_protein_selector_v44_connected_cycle_fixed_point(residue_count and disagreement_count and disagreement_components and block_count and disagree_blocks and equal_blocks and runtime_cube_count and parent_connected_frontier_count and one_cycle_frontier_count and one_cycle_violations and runtime_parent_count and 1 and 0 and 0)
+    set coordinate_parent_guard to enforce_protein_selector_v38_coordinate_fixed_point(residue_count)
+    set parent_guard to forced_to_be("all connected V42 parents enter V45" and runtime_parent_count and protein_selector_v44_connected_parent_count())
+    set axis_guard to forced_to_be("each active coordinate exhausts the lattice axis" and protein_coordinate_axis_value_count() and protein_angle_lattice_count())
+    set order_guard to forced_to_be("both boundaries crossed with both axis orders" and runtime_order_count and protein_selector_v45_order_count())
+    set trace_guard to forced_to_be("complete parent-order cross executes" and runtime_trace_count and protein_selector_v45_trace_count())
+    set cycle_guard to forced_to_be("cycle descent target remains the theorem-forced One" and protein_selector_v43_cycle_target() and 1)
+    set minimal_guard to protein_selector_v45_form_is_minimal()
+    set unique_guard to protein_selector_v45_form_is_unique()
+    set target_guard to forbid_target_input("V45 complete connected boundary-axis fixed-point frontier" and false)
+    if paired_parent_guard == 1:
+        if coordinate_parent_guard == 1:
+            if parent_guard == protein_selector_v44_connected_parent_count():
+                if axis_guard == protein_angle_lattice_count():
+                    if order_guard == protein_selector_v45_order_count():
+                        if trace_guard == protein_selector_v45_trace_count():
+                            if cycle_guard == 1:
+                                if minimal_guard == 1:
+                                    if unique_guard == 1:
+                                        if runtime_fixed_point_count > 0:
+                                            if connectivity_violations == 0:
+                                                if unstable_trace_count == 0:
+                                                    if target_guard == 1:
+                                                        return 1
+    return halt_violation("V45 complete connected boundary-axis frontier did not close")

@@ -1,0 +1,49 @@
+{
+  "schema": "fold-protein-selector-v45-admission/v1",
+  "date": "2026-07-21",
+  "status": "engine_admitted_named_forward_forcing_constitution",
+  "authority": "V45 composes V44 connected cycle-to-One descent with V38's complete boundary-axis coordinate grammar; it retains every distinct fixed point and does not choose from target measurements.",
+  "composition": {
+    "connected_parent": "all three sealed V42 connected whole-chain rows",
+    "cycle_relation": "V44 exact connected cycle-distance descent to the theorem-forced One",
+    "coordinate_relation": "V38 complete crossing of both chain boundaries and both dihedral-axis orders",
+    "update_space": "all 24 lattice values at every active coordinate",
+    "invariant": "one connected block graph",
+    "termination": "strict finite fixed point after a complete unchanged sweep",
+    "selection_among_fixed_points": "none",
+    "new_parameter": "none",
+    "target": "none"
+  },
+  "complete_construction": {
+    "connected_parent_count": 3,
+    "axis_value_count": 24,
+    "descent_order_count": 4,
+    "fixed_point_trace_count": 12,
+    "cycle_rank_target": 1
+  },
+  "required_derivation_guards": {
+    "dependency_trace_to_the_One_or_an_engine_closed_result": "V42 supplies every connected parent, V44 supplies connected cycle-to-One descent, and V38 supplies the complete boundary-axis coordinate grammar.",
+    "generated_complete_candidate_space": "Each of three parents executes both chain boundaries, both dihedral-axis orders and all 24 values at every active coordinate until a complete sweep changes no coordinate.",
+    "assembled_form_minimality": "Neither the connected parent frontier nor the boundary-axis grammar alone supplies their complete twelve-trace Cartesian cross.",
+    "named_shape_uniqueness": "Connectivity is invariant; exact integer cycle distance to One precedes the unchanged V3 total order within every independently executed coordinate order.",
+    "measured_provenance_excluded_from_derivation": "Only sealed admitted relations, sequence and generated geometry enter; native coordinates, TM, dRMSD and mask measurements are absent.",
+    "engine_halt_on_violation": "Runtime halts on parent, source, axis, order, coverage, connectivity, monotonicity, fixed-point, target-input or seal drift.",
+    "purpose_matched_real_execution": "The complete L76 fixed-point frontier is emitted and sealed before every retained structure is compared."
+  },
+  "source_sha256": {
+    "constants/protein_blind_selector_v45_admission.ep": "bed0d2d3b3854117b63fe6f0963af035de988abadcb89190e474fc2511f9e147",
+    "tests/test_blind_selector_v45.py": "b16abfc14428e217081d3aa85a9e7fc9bbba8818dfae8df4cb37041720ba556b",
+    "tests/test_protein_blind_selector_v45_admission.ep": "6399ee2458950981d1111e6efbde7040daa996b82faa133ff4e14ef5810012ef",
+    "tests/test_protein_selector_v45_admission.py": "cf368cf6a3cc8d42954bf6c4dfdf13d77abc60d8cc46fe636b408aeb938c4240",
+    "tools/blind_24_lattice_selector_v45.py": "825f168f24eebeedcbf265f2d7b206c7b5a8157725a09f2736ab949ea6998e6f",
+    "tools/run_blind_protocol_v45.py": "f6db900ccb4daf2498422b6a7940ccf4c48815d03a78c0a31916765254ed3eed",
+    "tools/verify_protein_selector_v45_admission.py": "72a17b39c9884dfa5446830b5abac5f0234a307895694566c05e60288b0fe926",
+    "verify/evaluate_sealed_blind_v45.py": "cf9779233cb799b35930b9d59e64a17e993f97bd648d2a400ba405d5a8c0dd02",
+    "verify/blind_selector_v42.json": "dda92c6d389594dcbf8f91470cb0b1055b83ba20116c9a070aa8466823895275",
+    "verify/blind_selector_v44.json": "0d9160f6358296eb83cc64bebf5edff9dca845a1e78b27b731ec7808971e82c2",
+    "verify/protein_selector_v38_admission_v1.json": "e6ab326408b139f2c8f216551c2a70f351efc9f5db65ebf849c7ac2ff52074c9",
+    "verify/protein_selector_v44_admission_v1.json": "53b71fe8efdfea45452ce3967357fbe88eb9f84bc399dbca55e5bd2596f02df3",
+    "verify/development_runs/ubiquitin_v42_backbone_contact_frontier_l76_20260721/seal.json": "9bb2c6642814fe7710c508644564b10c4319816c056092ef19d86c469f3268d8",
+    "verify/development_runs/ubiquitin_v42_backbone_contact_frontier_l76_20260721/frontier.json": "9d8fd74bcd38428bd187dcede4827233d295c7f010baa062d1da6b1ddf49c673"
+  }
+}

@@ -1,0 +1,89 @@
+# V44 admission: connected cycle-to-One paired-state fixed-point frontier.
+#
+# V42 supplies every connected whole-chain parent. V43 supplies the exact
+# finite-graph cycle rank and the theorem-forced One. V40 supplies the complete
+# paired 24 by 24 lattice, the registered positive N-to-C direction and strict
+# finite fixed-point descent. V44 crosses every connected parent with every
+# paired state at every active residue, preserves connectivity as an invariant,
+# descends the exact integer cycle distance to One, and retains every distinct
+# fixed point. It never reads a target, comparison score or mask preference.
+
+import "protein_blind_selector_v40_admission.ep"
+import "protein_blind_selector_v43_admission.ep"
+
+
+define protein_selector_v44_connected_parent_count returning Int:
+    return 3
+
+
+define protein_selector_v44_parent_paired_update_count returning Int:
+    set from_frontier to protein_selector_v44_connected_parent_count() * protein_complete_paired_angle_state_count()
+    set from_counts to 3 * protein_angle_lattice_count() * protein_angle_lattice_count()
+    return forced_to_be("complete connected frontier crossed with every paired angle state" and from_frontier and from_counts)
+
+
+define protein_selector_v44_cycle_distance_to_one with cycle_rank as Int returning Int:
+    set target to protein_selector_v43_cycle_target()
+    if cycle_rank < target:
+        return target - cycle_rank
+    return cycle_rank - target
+
+
+define protein_selector_v44_leaf_numerators returning List:
+    set nums to create_list()
+    set ok to append_list(nums and protein_selector_v44_connected_parent_count())
+    set ok to append_list(nums and protein_complete_paired_angle_state_count())
+    return nums
+
+
+define protein_selector_v44_leaf_denominators returning List:
+    set dens to create_list()
+    set ok to append_list(dens and 1)
+    set ok to append_list(dens and 1)
+    return dens
+
+
+define protein_selector_v44_update_form_is_minimal returning Int:
+    return canonical_assembly_is_minimal("neither the connected frontier nor one paired lattice supplies the complete crossed update space" and protein_selector_v44_leaf_numerators() and protein_selector_v44_leaf_denominators() and protein_selector_v44_parent_paired_update_count() and 1 and 1)
+
+
+define protein_selector_v44_update_form_is_unique returning Int:
+    set total to 0
+    set target to fraction_from_whole_number(protein_selector_v44_parent_paired_update_count())
+    set parents to fraction_from_whole_number(protein_selector_v44_connected_parent_count())
+    set paired to fraction_from_whole_number(protein_complete_paired_angle_state_count())
+    set total to count_form_match(total and fraction_add(parents and paired) and target)
+    set total to count_form_match(total and fraction_subtract(parents and paired) and target)
+    set total to count_form_match(total and fraction_subtract(paired and parents) and target)
+    set total to count_form_match(total and fraction_multiply(parents and paired) and target)
+    set total to count_form_match(total and fraction_divide(parents and paired) and target)
+    set total to count_form_match(total and fraction_divide(paired and parents) and target)
+    return forbid_form_selection("complete connected-frontier Cartesian paired-state descent" and total)
+
+
+define enforce_protein_selector_v44_connected_cycle_fixed_point with residue_count as Int and disagreement_count as Int and disagreement_components as Int and block_count as Int and disagree_blocks as Int and equal_blocks as Int and runtime_cube_count as Int and parent_connected_frontier_count as Int and one_cycle_frontier_count as Int and one_cycle_violations as Int and runtime_parent_count as Int and fixed_point_count as Int and connectivity_violations as Int and unstable_trace_count as Int returning Int:
+    set cycle_parent_guard to enforce_protein_selector_v43_one_cycle_frontier(residue_count and disagreement_count and disagreement_components and block_count and disagree_blocks and equal_blocks and runtime_cube_count and parent_connected_frontier_count and one_cycle_frontier_count and one_cycle_violations)
+    set paired_parent_guard to enforce_protein_selector_v40_lineage_paired_fixed_point(residue_count)
+    set frontier_guard to forced_to_be("all V42 connected parents enter V44" and runtime_parent_count and protein_selector_v44_connected_parent_count())
+    set paired_guard to forced_to_be("each residue scan exhausts all paired states" and protein_complete_paired_angle_state_count() and protein_angle_lattice_count() * protein_angle_lattice_count())
+    set cross_guard to forced_to_be("the connected frontier is crossed with the paired lattice" and protein_selector_v44_parent_paired_update_count() and protein_selector_v44_connected_parent_count() * protein_complete_paired_angle_state_count())
+    set direction_guard to forced_unique("registered positive N-to-C causal direction" and protein_positive_chain_direction_candidate_count() and protein_positive_chain_direction_candidate_count() - 1)
+    set cycle_guard to forced_to_be("the cycle descent target is the theorem-forced One" and protein_selector_v43_cycle_target() and 1)
+    set minimal_guard to protein_selector_v44_update_form_is_minimal()
+    set unique_guard to protein_selector_v44_update_form_is_unique()
+    set target_guard to forbid_target_input("V44 connected cycle-to-One fixed-point frontier" and false)
+    if cycle_parent_guard == 1:
+        if paired_parent_guard == 1:
+            if frontier_guard == protein_selector_v44_connected_parent_count():
+                if paired_guard == protein_complete_paired_angle_state_count():
+                    if cross_guard == protein_selector_v44_parent_paired_update_count():
+                        if direction_guard == 1:
+                            if cycle_guard == 1:
+                                if minimal_guard == 1:
+                                    if unique_guard == 1:
+                                        if fixed_point_count > 0:
+                                            if connectivity_violations == 0:
+                                                if unstable_trace_count == 0:
+                                                    if target_guard == 1:
+                                                        return 1
+    return halt_violation("V44 connected cycle-to-One paired-state fixed-point frontier did not close")

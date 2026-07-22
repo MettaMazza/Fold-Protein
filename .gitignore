@@ -9,5 +9,9 @@ compiler/target/
 /verify/test_protein_folding_3d
 /tests/test_protein_window_orientation
 /tests/test_protein_interwindow_orientation
+/tests/test_protein_*_admission
 
 .DS_Store
+__pycache__/
+*.py[cod]
+tmp/

@@ -1,0 +1,19 @@
+import "../constants/protein_blind_selector_v44_admission.ep"
+
+define main:
+    display "=== Protein V44 connected cycle-to-One admission ==="
+    set distance_low to protein_selector_v44_cycle_distance_to_one(0)
+    set distance_one to protein_selector_v44_cycle_distance_to_one(1)
+    set distance_high to protein_selector_v44_cycle_distance_to_one(17)
+    set low_guard to forced_to_be("zero is one cycle below One" and distance_low and 1)
+    set one_guard to forced_to_be("One is zero cycles from One" and distance_one and 0)
+    set high_guard to forced_to_be("seventeen is sixteen cycles above One" and distance_high and 16)
+    set admitted to enforce_protein_selector_v44_connected_cycle_fixed_point(76 and 42 and 13 and 26 and 13 and 13 and 8192 and 3 and 1082 and 0 and 3 and 2 and 0 and 0)
+    if low_guard == 1:
+        if one_guard == 0:
+            if high_guard == 16:
+                if admitted == 1:
+                    display "  ok    complete connected-parent paired-state cycle descent closes"
+                    display "=== done ==="
+                    return 0
+    return halt_violation("V44 admission returned without closure")

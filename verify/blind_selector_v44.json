@@ -1,0 +1,44 @@
+{
+  "schema": "fold-protein-blind-selector/v44",
+  "version": "44.0.0",
+  "status": "locked",
+  "result_type": "cumulative development benchmark",
+  "official_run": false,
+  "target_access": "forbidden until the complete fixed-point frontier and all emitted structures are sealed",
+  "architecture": {
+    "parent": "all three sealed V42 connected whole-chain rows",
+    "cycle_relation": "exact V43 independent-cycle distance to the theorem-forced One",
+    "update": "complete 576-state paired scan at every active residue",
+    "direction": "N-to-C",
+    "termination": "strict finite fixed point after one complete unchanged sweep",
+    "output": "every distinct fixed point; no selection among the frontier"
+  },
+  "counts": {
+    "connected_parents": 3,
+    "paired_states_per_residue": 576,
+    "block_count": 26,
+    "cycle_rank_target": 1
+  },
+  "parent_v42": {
+    "seal_sha256": "9bb2c6642814fe7710c508644564b10c4319816c056092ef19d86c469f3268d8",
+    "frontier_sha256": "9d8fd74bcd38428bd187dcede4827233d295c7f010baa062d1da6b1ddf49c673"
+  },
+  "parent_v43": {
+    "seal_sha256": "61cda7c45e2552cb5c179a4903132a2adf39c4c68e95baa3891c6b7f33640a67",
+    "frontier_sha256": "5bc43851ea580fd80a31cd1717f2aa6aca84b5977e8dca3df0de026dd5a8b73a"
+  },
+  "source_sha256": {
+    "constants/protein_blind_selector_v44_admission.ep": "686bdf42c540488f2b3ecdf506461b3116fb4129465cae504f273f7ac756c5bb",
+    "tools/blind_24_lattice_selector_v3.py": "062c2e4174e42494d3631e0c6aa38a708ec1a5952dc321ce66328620ff305cb5",
+    "tools/blind_24_lattice_selector_v38.py": "dcbaf7755ccdf839e3a98ab309ad054ca50d44bdd277983ff2b69e67ce0d895a",
+    "tools/blind_24_lattice_selector_v40.py": "1403bf420f5f38be1eb3f7c2da513e18abaaf70fb4ad8e25c7593e2de0226488",
+    "tools/blind_24_lattice_selector_v42.py": "8e562e1a63d05bf8bf256aae71ffaf9dfd89a9818769556cc4a00bd4b758414c",
+    "tools/blind_24_lattice_selector_v43.py": "6da6b2506d53105fd2c15456a64b3f5026ccffd0c0a83011145424d9e1e9594e",
+    "tools/blind_24_lattice_selector_v44.py": "4cd7081291fcdee5e166ed2582d705d6128ea005f99e1461cd1f47f9ab5b9690",
+    "tools/protein_backbone_geometry_v1.py": "a043e5d05a26fdf063c4703dac619f5fe918b65779a96df6d3cfa2f536fdc315",
+    "tools/residue_partition_v1.py": "f48e0ebc2c3dbc1d6d7a37370e0a2329968524d169d7b43022dce30ceacd3814",
+    "tools/run_blind_protocol_v44.py": "c93da5c6a832f97460ab4704b786bdced672a17ac091193efdad01b6c4c0ed38",
+    "verify/evaluate_sealed_blind_v44.py": "9ca3125e96e558aad6072bd14b26721def44955c4cba18dc57db40b8f5ee297a",
+    "verify/protein_selector_v44_admission_v1.json": "53b71fe8efdfea45452ce3967357fbe88eb9f84bc399dbca55e5bd2596f02df3"
+  }
+}

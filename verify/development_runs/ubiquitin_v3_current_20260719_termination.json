@@ -1,0 +1,19 @@
+{
+  "schema": "fold-protein-development-termination/v1",
+  "status": "terminated-no-seal",
+  "authority": "Applied development latency evidence only; Maria Smith assigns conclusions and official status.",
+  "source_commit": "85d815e3be7898087236f90245d2b749502bfe17",
+  "source": {
+    "path": "tools/blind_24_lattice_selector_v3.py",
+    "sha256": "062c2e4174e42494d3631e0c6aa38a708ec1a5952dc321ce66328620ff305cb5"
+  },
+  "manifest_sha256": "c6988dc13395e59aaaf6c96e6838a14477ceda7a8ecb4d4314c61ca0e8c85ecd",
+  "input_sha256": "c81ac43fe0a0f0eb01babb3c6429f99aa744ea5e9a46ccd476fb030edb19287b",
+  "command": "python3 -u tools/run_blind_protocol_v3.py verify/blind_selector_v3.json verify/development_inputs/ubiquitin_v3_current_20260719.json verify/development_runs/ubiquitin_v3_current_20260719",
+  "elapsed_at_decision": "00:41:29",
+  "cpu_time_at_decision": "00:41:20.76",
+  "completed_outputs": [],
+  "seal_emitted": false,
+  "performance_observation": "The 76-residue selector produced no sealed structure within 41 minutes on the declared machine.",
+  "decision": "Reject this full-length configuration as a development-feedback loop; preserve the target-free staging input and replace it with a real-sequence prefix panel before changing selector logic."
+}

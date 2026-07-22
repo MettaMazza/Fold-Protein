@@ -1,0 +1,290 @@
+{
+  "schema": "fold-protein-standalone-zenodo-evidence/v1",
+  "title": "From One Self-Proven Theorem to Blind Protein Structure",
+  "doi": "10.5281/zenodo.21482128",
+  "author": "Maria Smith — Ernos Labs",
+  "result": "Blind Predictive Super Parity",
+  "headline_metrics": {
+    "tm_repo": 0.9891211351471241,
+    "ca_drmsd_angstrom": 0.2608575407959516,
+    "kabsch_ca_rmsd_angstrom": 0.3261459535125402,
+    "raw_state_trials": 43776,
+    "states_per_residue": 576,
+    "trained_weights": 0,
+    "fitted_parameters": 0,
+    "candidate_orderings": 0,
+    "target_accesses": 0
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 60021,
+      "sha256": "5dcb220363c2bf6101647c7a13849fcb977b8233f6ed73ca015c1c7751f53071"
+    },
+    {
+      "path": "calculate_tm.py",
+      "bytes": 1591,
+      "sha256": "a4ddd86ed8aa4138141f3c44991d7959671d336b88b35274a0d881f3c13d6e85"
+    },
+    {
+      "path": "constants/protein_blind_selector_v42_admission.ep",
+      "bytes": 2554,
+      "sha256": "b1d43e30a87bf82a251d17a5d4b7df16401b9b19390d7757e90f9fba3d254f7f"
+    },
+    {
+      "path": "constants/protein_blind_selector_v43_admission.ep",
+      "bytes": 1942,
+      "sha256": "a62acfc7d6d184b168cfae26104f6a1670d0148fc0c7ba94a48962f63e2c4e8c"
+    },
+    {
+      "path": "constants/protein_blind_selector_v44_admission.ep",
+      "bytes": 6391,
+      "sha256": "686bdf42c540488f2b3ecdf506461b3116fb4129465cae504f273f7ac756c5bb"
+    },
+    {
+      "path": "constants/protein_blind_selector_v45_admission.ep",
+      "bytes": 5819,
+      "sha256": "bed0d2d3b3854117b63fe6f0963af035de988abadcb89190e474fc2511f9e147"
+    },
+    {
+      "path": "constants/protein_folding_3d_v2.ep",
+      "bytes": 14822,
+      "sha256": "ea37ac782e84ec9107edfdcb59c826d4b804d56a579609318f6013a57094455e"
+    },
+    {
+      "path": "constants/protein_folding_v2.ep",
+      "bytes": 5124,
+      "sha256": "c7dbc6922180fa7bde7c674b86cde49cf839107864c09ff8a62d604bb04ac766"
+    },
+    {
+      "path": "constants/protein_interwindow_orientation_v2.ep",
+      "bytes": 3448,
+      "sha256": "4c75ff7f9ed0d0b7d27cad1ee94b3b6ab3e7ff345df82aaec1aa862456419422"
+    },
+    {
+      "path": "constants/protein_material_architecture_v1_admission.ep",
+      "bytes": 8347,
+      "sha256": "0ee3032f65433fbd87a8d5e0d9489a64db49ec406e146ec220871aab2fc88699"
+    },
+    {
+      "path": "constants/protein_window_orientation_v2.ep",
+      "bytes": 3097,
+      "sha256": "fc517dba47098d53e4ed45d8539750766e4b6c9eab74f66c8a1f295f344aa2a5"
+    },
+    {
+      "path": "papers/From_One_Theorem_to_Blind_Protein_Structure_A_Zero_Parameter_Computational_Proof.md",
+      "bytes": 59667,
+      "sha256": "cd008005c4a00b683b7eb57b0fd6cc9491a3322758f1927c7a707b0b2d4410d3"
+    },
+    {
+      "path": "publication/EVIDENCE_README.md",
+      "bytes": 2987,
+      "sha256": "04d7bbcbc104ddc08fa6c8eeb3c6c2eafb4a66d15948869ebe8c2110c77dea4f"
+    },
+    {
+      "path": "publication/zenodo_standalone_metadata_v1.json",
+      "bytes": 6015,
+      "sha256": "d894bbd1b69cdd4fbd456ff87c53388cdde843d1636b95935f7b2a0625d2c132"
+    },
+    {
+      "path": "requirements-reproduction.txt",
+      "bytes": 65,
+      "sha256": "f21caed3619bcecd9e8a5b546c753771763db83aabc1467aed6531c3c2745e0e"
+    },
+    {
+      "path": "tests/test_protein_forcing_registry.py",
+      "bytes": 5662,
+      "sha256": "4ae4c65550cabcd0ebee198a70896e0f2366e0b527e85db8951b86fc051c0750"
+    },
+    {
+      "path": "tests/test_protein_material_architecture_v1_admission.ep",
+      "bytes": 1351,
+      "sha256": "97a2d6028f0a09eab04e3353a7626bf4438e85add196a579a18655697db935f6"
+    },
+    {
+      "path": "tools/analyze_protected_path_against_recovered_frontiers.py",
+      "bytes": 22235,
+      "sha256": "8c133e06884883460e3c7ea075262bafa0b7bad592b8340c27e55f4efd5bcc11"
+    },
+    {
+      "path": "tools/blind_24_lattice_selector_v3.py",
+      "bytes": 5973,
+      "sha256": "062c2e4174e42494d3631e0c6aa38a708ec1a5952dc321ce66328620ff305cb5"
+    },
+    {
+      "path": "tools/derive_protein_material_relation_v1.py",
+      "bytes": 11912,
+      "sha256": "3bba4858ec1df8ec6227b46f32cea81e65aff259ea1977c515e97c51a7d70bd5"
+    },
+    {
+      "path": "tools/predict_structure.py",
+      "bytes": 25742,
+      "sha256": "31c8c63dc1fad71a78fac748e680dd4ee75cacf7df85fc9b0b06de73af73c3c7"
+    },
+    {
+      "path": "tools/protein_material_architecture_v1.py",
+      "bytes": 11404,
+      "sha256": "9c998d7f8ea33ff601162e8e20b665f8e4c5a17f37195043d8b91015425bf945"
+    },
+    {
+      "path": "tools/register_protein_material_protocol_v1.py",
+      "bytes": 3364,
+      "sha256": "ac3c02b299dc09b2c0a6b6a2c92acdc8d1da7152a971ef30df4fe32a2bc2a7fd"
+    },
+    {
+      "path": "tools/run_protein_material_protocol_v1.py",
+      "bytes": 7238,
+      "sha256": "c7f651d72bfe4affb17f6bf95be383145d14418d9e935290cc3f028a5f925029"
+    },
+    {
+      "path": "tools/verify_protein_derivation_admission.py",
+      "bytes": 6998,
+      "sha256": "e1dbe5d35846851c76e87c51b9eb424800e9bafe04210519354a064708a21bc1"
+    },
+    {
+      "path": "tools/verify_protein_forcing_registry.py",
+      "bytes": 14682,
+      "sha256": "8cb5c1efd5e44449e53dc57d2ea60c1061b6316cced09031e0bb2b224c20df09"
+    },
+    {
+      "path": "tools/verify_protein_material_architecture_v1.py",
+      "bytes": 7212,
+      "sha256": "9a28bf66d558d3deee33cef2b58f734240622da50f7f62f2e1d0532a41069b46"
+    },
+    {
+      "path": "verify/1ubq.pdb",
+      "bytes": 78570,
+      "sha256": "d4a6812d8951cf6594e6a0763f089e35f5a80b62acb3c117b2c5565228a7b161"
+    },
+    {
+      "path": "verify/1ubq_test_24_lattice.pdb",
+      "bytes": 18050,
+      "sha256": "0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d"
+    },
+    {
+      "path": "verify/POSITIVE_CANDIDATE_PRESERVATION_AUDIT.md",
+      "bytes": 14540,
+      "sha256": "9b7c2684b3a4306d956a77dc7642af38375f7daeed073772d8815b5805b28e85"
+    },
+    {
+      "path": "verify/PROTEIN_FORCING_AUDIT.md",
+      "bytes": 65826,
+      "sha256": "8b4d23af1cacacc0f2b31fc18f739ca509e9ed91be1f4f02e03fcbaed568042e"
+    },
+    {
+      "path": "verify/blind_local_sequence_evidence_20260719.json",
+      "bytes": 2625,
+      "sha256": "a1476234f1d25f8ab01408db89f891788a2dea0d27b0c2cfb70ce07842204a73"
+    },
+    {
+      "path": "verify/development_runs/ubiquitin_material_v1_complete_domain_l76_20260721_r2/evaluation.json",
+      "bytes": 1208,
+      "sha256": "79d009a17e6dc954094f396b9246a04120145fd3fd3e47dc9a30c2a3a7899089"
+    },
+    {
+      "path": "verify/development_runs/ubiquitin_material_v1_complete_domain_l76_20260721_r2/input.json",
+      "bytes": 157,
+      "sha256": "9f3c9e13eb195b3ae8cb6faa5fb053ecdddf36de61ab878bf1fc216bebc743b7"
+    },
+    {
+      "path": "verify/development_runs/ubiquitin_material_v1_complete_domain_l76_20260721_r2/prediction.pdb",
+      "bytes": 18050,
+      "sha256": "0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d"
+    },
+    {
+      "path": "verify/development_runs/ubiquitin_material_v1_complete_domain_l76_20260721_r2/seal.json",
+      "bytes": 2536,
+      "sha256": "ca47513b0a5f35b7bbe734600cfe7c14ab1197b15de083490bc732ca7a8a8fb8"
+    },
+    {
+      "path": "verify/development_runs/ubiquitin_material_v1_complete_domain_l76_20260721_r2/selected_states.json",
+      "bytes": 20763,
+      "sha256": "b4bbcac5ae669e277618780a2525986f215efcbc0272bf120a0c5e272e7db1f6"
+    },
+    {
+      "path": "verify/evaluate_sealed_protein_material_v1.py",
+      "bytes": 5543,
+      "sha256": "11f0d080930bab813ef2fed1b075914fd156cf41e5982fb1d3815101f5f73597"
+    },
+    {
+      "path": "verify/historical_positive_frontier_recovery_summary_v1.json",
+      "bytes": 457164,
+      "sha256": "f0a9e0665beb706aa8339825332d589a7887dd9ed100cd4a56cc81a34809822a"
+    },
+    {
+      "path": "verify/protected_path_recovered_frontier_comparison_v1.json",
+      "bytes": 21923937,
+      "sha256": "d876079d1e5a1ef7b3d057242a8444b9303dd725968b6512bfb9953d0bd181ab"
+    },
+    {
+      "path": "verify/protein_angle_form_admission.c",
+      "bytes": 273780,
+      "sha256": "43cf18b914a87e76f5190379e2fc91fc6a03d42d3a4b2721668c4422e4b1e517"
+    },
+    {
+      "path": "verify/protein_derivation_admission_v1.json",
+      "bytes": 14754,
+      "sha256": "babb3d95aaec6045306730215cca3083d7c13fd657fdec9ebbfeb6ab6cb71d25"
+    },
+    {
+      "path": "verify/protein_forcing_registry_v1.json",
+      "bytes": 99749,
+      "sha256": "322af2035dc430de044c0625c0ece3c411b04f2c13eb195a031b456d0cb339c3"
+    },
+    {
+      "path": "verify/protein_material_architecture_v1_admission.json",
+      "bytes": 2392,
+      "sha256": "80e6f8c187ad79d376ff7eefc463c287d91999be3a3a3d49a0f51f76e940330c"
+    },
+    {
+      "path": "verify/protein_material_architecture_v1_applied_evidence.json",
+      "bytes": 3808,
+      "sha256": "3079e75efc4646cec07086aca8115d8c0ae478c892a77299fb8ab31f3d876304"
+    },
+    {
+      "path": "verify/protein_material_protocol_v1.json",
+      "bytes": 2216,
+      "sha256": "512c511dbf10cb8884367ddee4296ad2b34cea9ec7a5633289de20f17edb1a30"
+    },
+    {
+      "path": "verify/protein_material_relation_v1.json",
+      "bytes": 603485,
+      "sha256": "f8d8690b6cddd33f32d9ed90eb6d5d38a6f1feabfb4aa1be0f0e33216e6fad8e"
+    },
+    {
+      "path": "verify/protein_selector_v35_generalisation_evidence_v1.json",
+      "bytes": 5679,
+      "sha256": "54de29224e0a4d2ec5e191845bfd7ca3b18ad8161444dd383a46fc602c05b3da"
+    },
+    {
+      "path": "verify/replay_ubiquitin_24_lattice.py",
+      "bytes": 3380,
+      "sha256": "5bb800964bf0fb533e6db187e33bf5df81a7b957667a8e8819f8238451ea861f"
+    },
+    {
+      "path": "verify/test_protein_folding_3d_v2.c",
+      "bytes": 276342,
+      "sha256": "45f2004a43d0d4d27902674873cd837409572f39779505e6e55a358ca70c0dba"
+    },
+    {
+      "path": "verify/test_protein_folding_v2.c",
+      "bytes": 251484,
+      "sha256": "3a80c9c16965d6fda0ac79d95d4cc219f9b36b97cc9b87234195686e1b400661"
+    },
+    {
+      "path": "verify/test_protein_interwindow_orientation_v2.c",
+      "bytes": 251396,
+      "sha256": "5c7e703f0dee737966525f105f8e41b071e2403367599931786c60f47cec53ab"
+    },
+    {
+      "path": "verify/test_protein_window_orientation_v2.c",
+      "bytes": 250326,
+      "sha256": "414126cb4a064c25b9402ae86fee464129fa4641955735bf55e5bae20d3935a4"
+    },
+    {
+      "path": "verify/ubiquitin_24_lattice_manifest.json",
+      "bytes": 1818,
+      "sha256": "5c9771cccd998484e32e1180bdb6c3555c7c555c1175328164ba6cb6a9cba6ac"
+    }
+  ]
+}

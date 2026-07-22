@@ -1,0 +1,31 @@
+{
+  "ca_drmsd_angstrom": 16.46006426554576,
+  "degree_frontier": [
+    2,
+    3,
+    4
+  ],
+  "execution": "post-seal structural comparison",
+  "matched_ca_atoms": 76,
+  "official_run": false,
+  "result_type": "cumulative development benchmark",
+  "run_id": "development-ubiquitin-v31-topology-frontier-l76-20260720",
+  "schema": "fold-protein-blind-evaluation/v31",
+  "seal_sha256": "b090b1a27cb1bcc4b17bb8a35b1fe9fa09410fe6220a5278f6f81644376563b3",
+  "sequence_length": 76,
+  "status": "completed",
+  "target_id": "1ubq.pdb",
+  "target_sha256": "d4a6812d8951cf6594e6a0763f089e35f5a80b62acb3c117b2c5565228a7b161",
+  "tm_score": 0.06082773260010622,
+  "topology_frontier_retention": {
+    "2": 2,
+    "3": 13,
+    "4": 9
+  },
+  "v25_departures": 31,
+  "v26_1_departures": 29,
+  "v27_departures": 30,
+  "v28_departures": 25,
+  "v29_departures": 31,
+  "v30_departures": 17
+}

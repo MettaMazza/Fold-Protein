@@ -1,0 +1,45 @@
+{
+  "schema": "fold-protein-selector-v43-admission/v1",
+  "date": "2026-07-21",
+  "status": "engine_admitted_named_forward_forcing_constitution",
+  "authority": "V43 admits the complete target-free frontier whose exact finite block graphs carry one independent cycle; it does not choose among retained rows.",
+  "composition": {
+    "parent": "complete sealed V42 component cube",
+    "finite_graph_identity": "independent cycles = edges - vertices + components",
+    "cycle_rank_target": "the theorem-forced One",
+    "parent_cube_candidates": 8192,
+    "retained_frontier_count": 1082,
+    "selection_among_frontier": "none",
+    "new_parameter": "none",
+    "target": "none"
+  },
+  "complete_frontier": {
+    "parent_cube_count": 8192,
+    "cycle_rank_target": 1,
+    "count": 1082,
+    "selection_among_frontier": "none"
+  },
+  "required_derivation_guards": {
+    "dependency_trace_to_the_One_or_an_engine_closed_result": "V42 supplies the complete sealed finite block graphs; the exact graph cycle-rank identity is forward-forced to the theorem's One.",
+    "generated_complete_candidate_space": "All 8,192 V42 component-cube graphs are classified and every row with edges - blocks + components = One is retained.",
+    "assembled_form_minimality": "One is the smallest positive independent-cycle count; zero is acyclic and therefore does not instantiate the named cycle form.",
+    "named_shape_uniqueness": "For a fixed finite graph, edges - vertices + components uniquely determines its independent-cycle rank.",
+    "measured_provenance_excluded_from_derivation": "Only the pre-comparison-sealed V42 graph census enters; target coordinates, TM, dRMSD and mask identities are absent.",
+    "engine_halt_on_violation": "Runtime halts on parent, source, cube, graph-rank, frontier, target-input or seal drift.",
+    "purpose_matched_real_execution": "A complete sealed L76 One-cycle frontier must be compared only after every retained structure is sealed."
+  },
+  "source_sha256": {
+    "constants/protein_blind_selector_v43_admission.ep": "a62acfc7d6d184b168cfae26104f6a1670d0148fc0c7ba94a48962f63e2c4e8c",
+    "tests/test_blind_selector_v43.py": "cb0b46248dce8edaa2618286a73a304a703181d75b8ee24525b0d6b80898e03e",
+    "tests/test_protein_blind_selector_v43_admission.ep": "889e938b474748d337dad3f43afd238433980dc89321b11f8ba07c28cb26818c",
+    "tests/test_protein_selector_v43_admission.py": "1c3bc92a11b8be9aad5c5309f6550abb712bb4bd7631c54c13182c3ef7fb75f4",
+    "tools/blind_24_lattice_selector_v43.py": "6da6b2506d53105fd2c15456a64b3f5026ccffd0c0a83011145424d9e1e9594e",
+    "tools/run_blind_protocol_v43.py": "809bdecb2c5ad9f897375f4de8b0f429f7def1f3b5ebac0ce51e759c54d4a55b",
+    "tools/verify_protein_selector_v43_admission.py": "5343f0c246997cc67d1401fd12be08f86e53bdddea6e9bf679d0b43716d1b762",
+    "verify/evaluate_sealed_blind_v43.py": "055b0586c45ffecd1f3cac602e4ad09ee27f7426fc270679af3171a33425b367",
+    "verify/blind_selector_v42.json": "dda92c6d389594dcbf8f91470cb0b1055b83ba20116c9a070aa8466823895275",
+    "verify/protein_selector_v42_admission_v1.json": "d07ad0a6c57b76d7353bc2c4595adb51ec2a5f3fffe6c94edbec62225c7522d2",
+    "verify/development_runs/ubiquitin_v42_backbone_contact_frontier_l76_20260721/seal.json": "9bb2c6642814fe7710c508644564b10c4319816c056092ef19d86c469f3268d8",
+    "verify/development_runs/ubiquitin_v42_backbone_contact_frontier_l76_20260721/frontier.json": "9d8fd74bcd38428bd187dcede4827233d295c7f010baa062d1da6b1ddf49c673"
+  }
+}

@@ -1,0 +1,5158 @@
+{
+  "charge_census": {
+    "alphabet": "ACDEFGHIKLMNPQRSTVWY",
+    "alphabet_count": 20,
+    "classes": {
+      "negative": "DE",
+      "positive": "KR",
+      "uncharged": "ACFGHILMNPQSTVWY"
+    },
+    "signs": {
+      "A": 0,
+      "C": 0,
+      "D": -1,
+      "E": -1,
+      "F": 0,
+      "G": 0,
+      "H": 0,
+      "I": 0,
+      "K": 1,
+      "L": 0,
+      "M": 0,
+      "N": 0,
+      "P": 0,
+      "Q": 0,
+      "R": 1,
+      "S": 0,
+      "T": 0,
+      "V": 0,
+      "W": 0,
+      "Y": 0
+    }
+  },
+  "final_key": [
+    0,
+    3796.312876014265,
+    -0.4777802168182642,
+    1.2885432210743575,
+    379.65400615482315,
+    9.076565414409266e-05,
+    0,
+    0.0,
+    0.0,
+    1.0,
+    0.7178969386452599
+  ],
+  "mode_balance_trace": [
+    {
+      "alpha": {
+        "expanded": 12,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 12,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 6912,
+        "locally_eligible": 25,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 6912,
+        "locally_eligible": 25,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5128,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8696,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5155,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8669,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5335,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8489,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5319,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8505,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5331,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8493,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5299,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8525,
+        "locally_eligible": 13,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5344,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8480,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5327,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8497,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5360,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8464,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5429,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8395,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5347,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8477,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5332,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8492,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5367,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8457,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5311,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8513,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5342,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8482,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5377,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8447,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5353,
+        "locally_eligible": 13,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8471,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5352,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8472,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5295,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8529,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5399,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8425,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5465,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8359,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5320,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8504,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5174,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8650,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5363,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8461,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5321,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8503,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5296,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8528,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5402,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8422,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5368,
+        "locally_eligible": 13,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8456,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5432,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8392,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5357,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8467,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5301,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8523,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5362,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8462,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5431,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8393,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5196,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8628,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5301,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8523,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5331,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8493,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5457,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8367,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5241,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8583,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5280,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8544,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5376,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8448,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5295,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8529,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5310,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8514,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5427,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8397,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5499,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8325,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5373,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8451,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5220,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8604,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5391,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8433,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5343,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8481,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5292,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8532,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5415,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8409,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5433,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8391,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5463,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8361,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5373,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8451,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5220,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8604,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5391,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8433,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5343,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8481,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5292,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8532,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5415,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8409,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5433,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8391,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5463,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8361,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5373,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8451,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5220,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8604,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5391,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8433,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5343,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8481,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5292,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8532,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5415,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8409,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5433,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8391,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5463,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8361,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5373,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8451,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5220,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8604,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5391,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8433,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5343,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8481,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    },
+    {
+      "alpha": {
+        "expanded": 5292,
+        "locally_eligible": 12,
+        "retained": 12
+      },
+      "beta": {
+        "expanded": 8532,
+        "locally_eligible": 12,
+        "retained": 12
+      }
+    }
+  ],
+  "mode_capacity": 12,
+  "orientation_modes": {
+    "alpha": 0.7682042835361056,
+    "beta": -0.18257647754674627,
+    "source_angles_degrees": {
+      "alpha": [
+        "-60",
+        "-45"
+      ],
+      "beta": [
+        "-120",
+        "135"
+      ]
+    }
+  },
+  "orientation_trace": [
+    {
+      "mode_distance": 1.1102230246251565e-16,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674639,
+      "residue_positions_one_based": [
+        1,
+        4
+      ],
+      "sequence": "MQIF"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        2,
+        5
+      ],
+      "sequence": "QIFV"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        3,
+        6
+      ],
+      "sequence": "IFVK"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        4,
+        7
+      ],
+      "sequence": "FVKT"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        5,
+        8
+      ],
+      "sequence": "VKTL"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        6,
+        9
+      ],
+      "sequence": "KTLT"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        7,
+        10
+      ],
+      "sequence": "TLTG"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        8,
+        11
+      ],
+      "sequence": "LTGK"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        9,
+        12
+      ],
+      "sequence": "TGKT"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        10,
+        13
+      ],
+      "sequence": "GKTI"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        11,
+        14
+      ],
+      "sequence": "KTIT"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        12,
+        15
+      ],
+      "sequence": "TITL"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        13,
+        16
+      ],
+      "sequence": "ITLE"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        14,
+        17
+      ],
+      "sequence": "TLEV"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        15,
+        18
+      ],
+      "sequence": "LEVE"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        16,
+        19
+      ],
+      "sequence": "EVEP"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        17,
+        20
+      ],
+      "sequence": "VEPS"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        18,
+        21
+      ],
+      "sequence": "EPSD"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        19,
+        22
+      ],
+      "sequence": "PSDT"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        20,
+        23
+      ],
+      "sequence": "SDTI"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        21,
+        24
+      ],
+      "sequence": "DTIE"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        22,
+        25
+      ],
+      "sequence": "TIEN"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        23,
+        26
+      ],
+      "sequence": "IENV"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        24,
+        27
+      ],
+      "sequence": "ENVK"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        25,
+        28
+      ],
+      "sequence": "NVKA"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        26,
+        29
+      ],
+      "sequence": "VKAK"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        27,
+        30
+      ],
+      "sequence": "KAKI"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        28,
+        31
+      ],
+      "sequence": "AKIQ"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        29,
+        32
+      ],
+      "sequence": "KIQD"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        30,
+        33
+      ],
+      "sequence": "IQDK"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        31,
+        34
+      ],
+      "sequence": "QDKE"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        32,
+        35
+      ],
+      "sequence": "DKEG"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        33,
+        36
+      ],
+      "sequence": "KEGI"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        34,
+        37
+      ],
+      "sequence": "EGIP"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        35,
+        38
+      ],
+      "sequence": "GIPP"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        36,
+        39
+      ],
+      "sequence": "IPPD"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        37,
+        40
+      ],
+      "sequence": "PPDQ"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        38,
+        41
+      ],
+      "sequence": "PDQQ"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        39,
+        42
+      ],
+      "sequence": "DQQR"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        40,
+        43
+      ],
+      "sequence": "QQRL"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        41,
+        44
+      ],
+      "sequence": "QRLI"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        42,
+        45
+      ],
+      "sequence": "RLIF"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        43,
+        46
+      ],
+      "sequence": "LIFA"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        44,
+        47
+      ],
+      "sequence": "IFAG"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        45,
+        48
+      ],
+      "sequence": "FAGK"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        46,
+        49
+      ],
+      "sequence": "AGKQ"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        47,
+        50
+      ],
+      "sequence": "GKQL"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        48,
+        51
+      ],
+      "sequence": "KQLE"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        49,
+        52
+      ],
+      "sequence": "QLED"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        50,
+        53
+      ],
+      "sequence": "LEDG"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        51,
+        54
+      ],
+      "sequence": "EDGR"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        52,
+        55
+      ],
+      "sequence": "DGRT"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        53,
+        56
+      ],
+      "sequence": "GRTL"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        54,
+        57
+      ],
+      "sequence": "RTLS"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        55,
+        58
+      ],
+      "sequence": "TLSD"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        56,
+        59
+      ],
+      "sequence": "LSDY"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        57,
+        60
+      ],
+      "sequence": "SDYN"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        58,
+        61
+      ],
+      "sequence": "DYNI"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        59,
+        62
+      ],
+      "sequence": "YNIQ"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        60,
+        63
+      ],
+      "sequence": "NIQK"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        61,
+        64
+      ],
+      "sequence": "IQKE"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        62,
+        65
+      ],
+      "sequence": "QKES"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        63,
+        66
+      ],
+      "sequence": "KEST"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        64,
+        67
+      ],
+      "sequence": "ESTL"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        65,
+        68
+      ],
+      "sequence": "STLH"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        66,
+        69
+      ],
+      "sequence": "TLHL"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        67,
+        70
+      ],
+      "sequence": "LHLV"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        68,
+        71
+      ],
+      "sequence": "HLVL"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        69,
+        72
+      ],
+      "sequence": "LVLR"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        70,
+        73
+      ],
+      "sequence": "VLRL"
+    },
+    {
+      "mode_distance": 0.0,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18257647754674627,
+      "residue_positions_one_based": [
+        71,
+        74
+      ],
+      "sequence": "LRLR"
+    },
+    {
+      "mode_distance": 3.56867841478925e-05,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18254079076259838,
+      "residue_positions_one_based": [
+        72,
+        75
+      ],
+      "sequence": "RLRG"
+    },
+    {
+      "mode_distance": 9.076565414409266e-05,
+      "nearest_generated_mode": "beta",
+      "normalized_signed_volume": -0.18248571189260218,
+      "residue_positions_one_based": [
+        73,
+        76
+      ],
+      "sequence": "LRGG"
+    }
+  ],
+  "run_id": "development-ubiquitin-v9-steric-orientation-l76-20260721",
+  "schema": "fold-protein-selected-states/v9",
+  "score_trace": [
+    {
+      "active_state": 0,
+      "best_cross_mode_key": [
+        0,
+        0.0,
+        0.0,
+        1.0,
+        0.24999999999999997,
+        2,
+        0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 12,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 12,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        0,
+        0.0,
+        0.0,
+        1.0,
+        0.25000000000000006,
+        4,
+        0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "active_state": 1,
+      "best_cross_mode_key": [
+        0,
+        8.660055550369865,
+        0.0,
+        1.0,
+        0.6014988668376852,
+        2,
+        0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 6912,
+          "locally_eligible": 25,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 6912,
+          "locally_eligible": 25,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        0,
+        11.536430220228345,
+        0.0,
+        1.0,
+        0.43594684972136255,
+        1,
+        0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "active_state": 2,
+      "best_cross_mode_key": [
+        0,
+        38.91690744605524,
+        0.0,
+        1.150944442483107,
+        1.0434293464264774,
+        0.0,
+        0,
+        38.91690744605524,
+        0.0,
+        1.150944442483107,
+        1.0434293464264774
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5128,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8696,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        0,
+        56.11720352315162,
+        0.0,
+        0.9820918540433488,
+        0.5606968026506541,
+        3.3306690738754696e-16,
+        0,
+        56.11720352315162,
+        0.0,
+        0.9820918540433488,
+        0.5606968026506541
+      ]
+    },
+    {
+      "active_state": 3,
+      "best_cross_mode_key": [
+        0,
+        54.544118679631985,
+        0.0,
+        1.073386693221401,
+        1.6378755130602725,
+        0.0,
+        0,
+        31.871677332775324,
+        0.0,
+        0.698111115033786,
+        1.0434293464264774
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5155,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8669,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        86.50000372345362,
+        0.0,
+        0.9777419522358182,
+        0.624014440628366,
+        0.00023543818740939804,
+        0,
+        42.317039906413505,
+        0.0,
+        1.2077386005289557,
+        0.6100375480393103
+      ]
+    },
+    {
+      "active_state": 4,
+      "best_cross_mode_key": [
+        0,
+        93.02020078556035,
+        0.0,
+        0.8244728561947048,
+        2.3658055052401408,
+        0.0,
+        0,
+        33.71958210585204,
+        0.0,
+        0.698111115033786,
+        1.0434293464264774
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5335,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8489,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        0,
+        145.7884958300605,
+        0.0,
+        0.8869551330005463,
+        0.8186946955848837,
+        0.0,
+        0,
+        47.446194458935295,
+        0.0,
+        1.0358162919133027,
+        0.5606968026506541
+      ]
+    },
+    {
+      "active_state": 5,
+      "best_cross_mode_key": [
+        0,
+        114.78244147480213,
+        0.0,
+        0.6520462411902388,
+        3.225576350614707,
+        0.0,
+        0,
+        32.40865478300706,
+        0.0,
+        1.0,
+        1.0434293464264774
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5319,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8505,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        0,
+        185.88420561953586,
+        0.0,
+        0.7518493962662782,
+        1.0062476538490472,
+        0.0,
+        0,
+        46.09249352995202,
+        0.0,
+        1.0,
+        0.5606968026506546
+      ]
+    },
+    {
+      "active_state": 6,
+      "best_cross_mode_key": [
+        0,
+        148.14376032218252,
+        0.0,
+        1.0527364836967827,
+        4.217120218608326,
+        0.0,
+        0,
+        20.679884804167315,
+        0.0,
+        1.603777769932428,
+        1.0434293464264774
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5331,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8493,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        0,
+        245.87487121569674,
+        0.0,
+        0.9911139613824408,
+        1.2048095813739763,
+        0.0,
+        0,
+        29.024877146677802,
+        0.0,
+        0.928367416173395,
+        0.5606968026506544
+      ]
+    },
+    {
+      "active_state": 7,
+      "best_cross_mode_key": [
+        0,
+        172.2755216532052,
+        0.0,
+        0.86894811049378,
+        5.3415621810929155,
+        0.0,
+        0,
+        21.78862766801335,
+        0.0,
+        1.0,
+        1.0434293464264779
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5299,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8525,
+          "locally_eligible": 13,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        299.55956034122187,
+        0.0,
+        0.9653537851653176,
+        1.283598669561257,
+        0.00023543818740939804,
+        0,
+        30.051825210865942,
+        0.0,
+        1.0,
+        0.6100375480393105
+      ]
+    },
+    {
+      "active_state": 8,
+      "best_cross_mode_key": [
+        0,
+        172.2755216532052,
+        0.0,
+        0.7290902396009161,
+        6.597363524066783,
+        0.0,
+        0,
+        5.041524832380984,
+        0.0,
+        1.0,
+        1.0434293464264777
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5344,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8480,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        291.3170663666008,
+        0.0,
+        0.8269550567007617,
+        1.5304271997823182,
+        0.00023543818740939804,
+        0,
+        6.268055302312172,
+        0.0,
+        1.0,
+        0.6100375480393103
+      ]
+    },
+    {
+      "active_state": 9,
+      "best_cross_mode_key": [
+        0,
+        214.43808167892206,
+        0.22377417585991705,
+        0.6201345949636133,
+        7.986246146181108,
+        0.0,
+        0,
+        15.794160479608545,
+        0.0,
+        1.0,
+        1.0434293464264777
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5327,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8497,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        0,
+        372.10700743543373,
+        0.4360193285941274,
+        0.6510981598358702,
+        1.9725993315915784,
+        0.0,
+        0,
+        25.159775606269793,
+        0.0,
+        1.0,
+        0.5606968026506542
+      ]
+    },
+    {
+      "active_state": 10,
+      "best_cross_mode_key": [
+        0,
+        234.7293505174921,
+        0.22377417585991696,
+        0.5337846567517162,
+        9.506525047777266,
+        0.0,
+        0,
+        11.728769978839741,
+        0.0,
+        1.0,
+        1.0434293464264779
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5360,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8464,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        425.7852084386978,
+        0.4360193285941274,
+        0.6240182437071393,
+        2.101615524687325,
+        0.00023543818740939804,
+        0,
+        16.84722634890787,
+        0.0,
+        1.0,
+        0.6100375480393105
+      ]
+    },
+    {
+      "active_state": 11,
+      "best_cross_mode_key": [
+        0,
+        268.8245623883481,
+        0.22377417585991705,
+        1.1774325329606181,
+        11.15975826618567,
+        0.0,
+        0,
+        11.203388516402189,
+        0.0,
+        1.0,
+        1.0434293464264779
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5429,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8395,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        0,
+        477.2667509050415,
+        0.4360193285941274,
+        1.1576167647220503,
+        2.612858394088555,
+        0.0,
+        0,
+        13.929011782915932,
+        0.0,
+        1.0,
+        0.5606968026506542
+      ]
+    },
+    {
+      "active_state": 12,
+      "best_cross_mode_key": [
+        0,
+        294.3493379490818,
+        0.22377417585991696,
+        1.033100404953878,
+        12.944595290794604,
+        0.0,
+        0,
+        21.788627668013348,
+        0.0,
+        1.0,
+        1.0434293464264777
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5347,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8477,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        0,
+        526.3007514155538,
+        0.4360193285941274,
+        1.0298644508673624,
+        2.977823767452774,
+        0.0,
+        0,
+        31.23182966204024,
+        0.0,
+        1.0,
+        0.5606968026506541
+      ]
+    },
+    {
+      "active_state": 13,
+      "best_cross_mode_key": [
+        0,
+        331.0383059851895,
+        0.22377417585991705,
+        1.3267510113958356,
+        14.862153033648754,
+        0.0,
+        0,
+        18.43920710088687,
+        0.0,
+        0.6981111150337866,
+        1.0434293464264777
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5332,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8492,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        0,
+        596.6484194499315,
+        0.4360193285941274,
+        1.2898905433234067,
+        3.367063810088307,
+        0.0,
+        0,
+        26.23907479009462,
+        0.0,
+        1.0358162919133023,
+        0.5606968026506545
+      ]
+    },
+    {
+      "active_state": 14,
+      "best_cross_mode_key": [
+        0,
+        376.5383256644069,
+        -0.11213354662556853,
+        1.181579772952765,
+        16.91156671830101,
+        0.0,
+        0,
+        24.75687129273029,
+        0.0,
+        0.6981111150337866,
+        1.0434293464264779
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5367,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8457,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        701.026869181306,
+        -0.4026923375560219,
+        1.230285133712377,
+        3.572483970112229,
+        0.00023543818740939804,
+        0,
+        34.458749855293355,
+        0.0,
+        0.9148614840722699,
+        0.6100375480393104
+      ]
+    },
+    {
+      "active_state": 15,
+      "best_cross_mode_key": [
+        0,
+        405.6423567061882,
+        -0.11213354662556876,
+        1.3507177525703988,
+        19.093457302272903,
+        0.0,
+        0,
+        18.450803088681056,
+        0.0,
+        0.698111115033786,
+        1.0434293464264779
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5311,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8513,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        750.5326788942648,
+        -0.24375260209717767,
+        1.2657417889325666,
+        4.00938505183911,
+        0.00023543818740939804,
+        0,
+        24.121049782350276,
+        0.0,
+        1.2077386005289554,
+        0.6100375480393104
+      ]
+    },
+    {
+      "active_state": 16,
+      "best_cross_mode_key": [
+        0,
+        459.1749355139763,
+        0.19434992459781375,
+        1.217305818027384,
+        21.407434500718963,
+        0.0,
+        0,
+        28.117887847650948,
+        0.5601694258201093,
+        0.6981111150337861,
+        1.0434293464264779
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5342,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8482,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        856.0335333049652,
+        -0.3165701724454163,
+        1.2642099454283153,
+        4.478252339152912,
+        0.00023543818740939804,
+        0,
+        37.73446702657884,
+        0.6061519527868667,
+        0.91486148407227,
+        0.6100375480393104
+      ]
+    },
+    {
+      "active_state": 17,
+      "best_cross_mode_key": [
+        0,
+        490.16480126671786,
+        0.19434992459781408,
+        1.1026614268179513,
+        23.853684778561956,
+        0.0,
+        0,
+        24.5894747971139,
+        0.5601694258201093,
+        1.0,
+        1.0434293464264774
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5377,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8447,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        0,
+        902.826106753275,
+        -0.10518947618854846,
+        1.0989093114363433,
+        5.190745634929943,
+        0.0,
+        0,
+        34.71408260776926,
+        0.6964505891457975,
+        1.0,
+        0.5606968026506537
+      ]
+    },
+    {
+      "active_state": 18,
+      "best_cross_mode_key": [
+        0,
+        512.8008149421493,
+        0.19434992459781408,
+        1.0034336983242504,
+        26.432196818177182,
+        0.0,
+        0,
+        12.860704818274144,
+        0.0,
+        1.0,
+        1.0434293464264783
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5353,
+          "locally_eligible": 13,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8471,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        953.851642865905,
+        -0.10518947618854835,
+        1.0479158129971489,
+        5.4853242335349615,
+        0.00023543818740939804,
+        0,
+        16.596553171328118,
+        0.0,
+        1.0,
+        0.6100375480393108
+      ]
+    },
+    {
+      "active_state": 19,
+      "best_cross_mode_key": [
+        0,
+        556.3735747531553,
+        0.6007302846739033,
+        0.9169890603561413,
+        29.142841488993575,
+        0.0,
+        0,
+        19.71534646034931,
+        0.36958095461534524,
+        1.0,
+        1.0434293464264779
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5352,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8472,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        1045.257589897355,
+        0.6980493461427981,
+        0.9590858635340651,
+        6.033229737787052,
+        0.00023543818740939804,
+        0,
+        28.461590462057977,
+        0.7111630568578803,
+        1.0,
+        0.6100375480393103
+      ]
+    },
+    {
+      "active_state": 20,
+      "best_cross_mode_key": [
+        0,
+        586.8593471214912,
+        0.6007302846739033,
+        0.8412211030507359,
+        31.98585471430448,
+        0.0,
+        0,
+        13.409278256300079,
+        0.0,
+        1.0,
+        1.0434293464264768
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5295,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8529,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        0,
+        1093.7173310077185,
+        0.6570116458188082,
+        0.8508004314200033,
+        6.841083391765109,
+        0.0,
+        0,
+        19.156968150711613,
+        0.0,
+        1.0,
+        0.5606968026506546
+      ]
+    },
+    {
+      "active_state": 21,
+      "best_cross_mode_key": [
+        0,
+        630.1955935777953,
+        0.6007302846739032,
+        1.1743763089443437,
+        34.96092846522772,
+        0.0,
+        0,
+        15.280375004965167,
+        0.0,
+        1.0,
+        1.0434293464264774
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5399,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8425,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        0,
+        1178.0863803075183,
+        0.6570116458188082,
+        1.1663015403127408,
+        7.443793182452887,
+        0.0,
+        0,
+        21.20711966884067,
+        0.0,
+        1.0,
+        0.5606968026506542
+      ]
+    },
+    {
+      "active_state": 22,
+      "best_cross_mode_key": [
+        0,
+        683.7483039203695,
+        1.148506401123519,
+        1.0846910746905336,
+        38.068411558344536,
+        0.0,
+        0,
+        24.75687129273029,
+        0.3695809546153451,
+        1.0,
+        1.0434293464264783
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5465,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8359,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        1299.336807758297,
+        1.8273180832652538,
+        1.1141889360430373,
+        7.833831151322712,
+        0.00023543818740939804,
+        0,
+        34.45874985529335,
+        0.7111630568578801,
+        1.0,
+        0.6100375480393107
+      ]
+    },
+    {
+      "active_state": 23,
+      "best_cross_mode_key": [
+        0,
+        728.7321570691055,
+        1.148506401123519,
+        1.0048851001872017,
+        41.30794351958352,
+        0.0,
+        0,
+        21.800223655807525,
+        0.0,
+        1.0,
+        1.0434293464264783
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5320,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8504,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        1387.0886016729412,
+        1.7508055713268469,
+        1.0329587783593783,
+        8.490443824816689,
+        0.00023543818740939804,
+        0,
+        28.67914676407139,
+        0.0,
+        1.0,
+        0.6100375480393101
+      ]
+    },
+    {
+      "active_state": 24,
+      "best_cross_mode_key": [
+        0,
+        765.2860898546832,
+        1.1485064011235193,
+        1.2488179944356097,
+        44.67987223348176,
+        0.0,
+        0,
+        21.800223655807514,
+        0.0,
+        1.6037777699324278,
+        1.0434293464264792
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5174,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8650,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        1449.192389454579,
+        1.8273180832652538,
+        1.2648722540595365,
+        9.074475117679109,
+        0.0006651742725509724,
+        0,
+        27.319988815264626,
+        0.0,
+        1.1169379246138151,
+        0.6666089122701769
+      ]
+    },
+    {
+      "active_state": 25,
+      "best_cross_mode_key": [
+        0,
+        826.8129726207975,
+        0.4889581253802812,
+        1.1631949560511337,
+        48.183882681375266,
+        0.0,
+        0,
+        28.84545376908744,
+        -0.36958095461534507,
+        1.0,
+        1.0434293464264788
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5363,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8461,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        1563.3708443024427,
+        0.651510827765096,
+        1.23056740720572,
+        9.543319882863631,
+        0.0006115610381858261,
+        0,
+        39.414006732977406,
+        -0.6010833924356574,
+        1.0,
+        0.6507607346334038
+      ]
+    },
+    {
+      "active_state": 26,
+      "best_cross_mode_key": [
+        0,
+        838.7360030906719,
+        0.4889581253802812,
+        1.0860685196892101,
+        51.82024220448774,
+        0.0,
+        0,
+        14.362220612323895,
+        0.0,
+        1.0,
+        1.0434293464264774
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5321,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8503,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        1591.796272283091,
+        0.4180774527219032,
+        1.107324630563767,
+        10.615114883481725,
+        0.00023543818740939804,
+        0,
+        18.592119868708068,
+        0.0,
+        1.0,
+        0.6100375480393099
+      ]
+    },
+    {
+      "active_state": 27,
+      "best_cross_mode_key": [
+        0,
+        903.0158764755331,
+        0.6079652585840022,
+        1.0163564377931886,
+        55.58874142013153,
+        0.0,
+        0,
+        21.22845824219324,
+        0.5601694258201094,
+        1.0,
+        1.0434293464264779
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5296,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8528,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        1731.664640340424,
+        -0.1408985880097391,
+        1.0366974766485157,
+        11.379249543033174,
+        0.00023543818740939804,
+        0,
+        27.91059643997726,
+        0.6061519527868668,
+        1.0,
+        0.6100375480393105
+      ]
+    },
+    {
+      "active_state": 28,
+      "best_cross_mode_key": [
+        0,
+        948.0351694105127,
+        0.6079652585840021,
+        1.2394116284879249,
+        59.489526624512564,
+        0.0,
+        0,
+        23.636532441090075,
+        0.5601694258201092,
+        1.0,
+        1.0434293464264774
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5402,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8422,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        1820.738505818617,
+        0.20666899277563777,
+        1.1850867619030343,
+        12.168252670641904,
+        0.00023543818740939804,
+        0,
+        34.05913367695,
+        0.6964505891457969,
+        1.0,
+        0.6100375480393104
+      ]
+    },
+    {
+      "active_state": 29,
+      "best_cross_mode_key": [
+        0,
+        1010.6749466013276,
+        0.6079652585840022,
+        1.1646325413788978,
+        63.522515629172766,
+        0.0,
+        0,
+        18.09281812185989,
+        0.0,
+        1.0,
+        1.0434293464264779
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5368,
+          "locally_eligible": 13,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8456,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        1893.1705827226233,
+        0.4951165118490187,
+        1.2178441448365889,
+        11.146513654431024,
+        0.000581299292846893,
+        0,
+        20.629394920720685,
+        0.0,
+        1.0,
+        0.8515749956125708
+      ]
+    },
+    {
+      "active_state": 30,
+      "best_cross_mode_key": [
+        0,
+        1061.6920606767058,
+        0.3104473161085724,
+        1.0964140432703982,
+        67.6877296196467,
+        0.0,
+        0,
+        30.35856555093138,
+        -0.3695809546153453,
+        1.0,
+        1.043429346426478
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5432,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8392,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        2039.6263659738856,
+        -0.2596817464825133,
+        1.1118228042239184,
+        13.8276647546696,
+        0.00023543818740939804,
+        0,
+        41.332957110392336,
+        -0.7111630568578787,
+        1.0,
+        0.6100375480393114
+      ]
+    },
+    {
+      "active_state": 31,
+      "best_cross_mode_key": [
+        0,
+        1129.417269831917,
+        0.5109067032007546,
+        1.0340109621326434,
+        71.98520230993189,
+        0.0,
+        0,
+        30.3585655509314,
+        0.0,
+        1.0,
+        1.0434293464264772
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5357,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8467,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        2163.6301002913024,
+        -0.02920334031487054,
+        1.056485443921791,
+        14.59302163509219,
+        0.00130717436263883,
+        0,
+        32.89605823159308,
+        0.0,
+        1.0,
+        0.8868756515641155
+      ]
+    },
+    {
+      "active_state": 32,
+      "best_cross_mode_key": [
+        0,
+        1197.206120729511,
+        0.9291827141304305,
+        0.9767824138795904,
+        76.41485384640478,
+        0.0,
+        0,
+        34.44714802728857,
+        0.5601694258201085,
+        1.0,
+        1.0434293464264772
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5301,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8523,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        2277.9905255126787,
+        0.4482890446692881,
+        0.9949497088235821,
+        15.536501358045138,
+        5.5351933290093136e-05,
+        0,
+        38.09717560725086,
+        0.5888046833127314,
+        1.0,
+        0.8388058513315455
+      ]
+    },
+    {
+      "active_state": 33,
+      "best_cross_mode_key": [
+        0,
+        1197.206120729511,
+        0.9291827141304305,
+        0.9241709271419262,
+        80.97679991899335,
+        0.0,
+        0,
+        11.203388516402178,
+        0.5601694258201089,
+        1.0,
+        1.043429346426478
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5362,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8462,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        2276.7828251055407,
+        0.4511949539604106,
+        0.9659919856389997,
+        16.04297153752345,
+        0.0006115610381858261,
+        0,
+        11.473950385602622,
+        0.5736975192801311,
+        1.0,
+        0.6507607346334024
+      ]
+    },
+    {
+      "active_state": 34,
+      "best_cross_mode_key": [
+        0,
+        1256.022889040876,
+        0.9291827141304311,
+        1.1717757863272746,
+        85.67090036091305,
+        0.0,
+        0,
+        18.595007608709096,
+        0.0,
+        1.0,
+        1.0434293464264783
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5431,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8393,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        2426.5080494416266,
+        0.5294695652044472,
+        1.1294972959694578,
+        17.470645845102062,
+        0.00023543818740939804,
+        0,
+        26.346300192894955,
+        0.0,
+        1.0,
+        0.6100375480393102
+      ]
+    },
+    {
+      "active_state": 35,
+      "best_cross_mode_key": [
+        0,
+        1292.9508554024178,
+        0.9291827141304303,
+        1.1118766640200206,
+        90.49730838438194,
+        0.0,
+        0,
+        16.747102835632372,
+        0.0,
+        1.0,
+        1.0434293464264779
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5196,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8628,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        2504.058506024559,
+        0.5294695652044474,
+        1.1247283980206333,
+        18.44865628374787,
+        0.00023543818740939804,
+        0,
+        24.596457635784134,
+        0.0,
+        1.0,
+        0.610037548039311
+      ]
+    },
+    {
+      "active_state": 36,
+      "best_cross_mode_key": [
+        0,
+        1332.1146143579929,
+        0.9291827141304307,
+        1.0564524541473206,
+        95.45586878046205,
+        0.0,
+        0,
+        6.722033109841317,
+        0.0,
+        1.0,
+        1.0434293464264786
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5301,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8523,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        2541.444015615041,
+        0.4511949539604105,
+        1.052592783953665,
+        17.416931125709517,
+        0.00021944963335673862,
+        0,
+        7.058440338541008,
+        0.0,
+        1.0,
+        0.8980903529042928
+      ]
+    },
+    {
+      "active_state": 37,
+      "best_cross_mode_key": [
+        0,
+        1383.6556016362333,
+        1.0861122387997657,
+        1.0050670889004232,
+        100.5467288454231,
+        0.0,
+        0,
+        19.35736149352814,
+        0.0,
+        1.0,
+        1.043429346426479
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5331,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8493,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        2637.0897063725934,
+        0.7561401049128016,
+        1.0271669852231708,
+        17.884539418512507,
+        0.000581299292846893,
+        0,
+        21.723804189760735,
+        0.0,
+        1.0,
+        0.8515749956125709
+      ]
+    },
+    {
+      "active_state": 38,
+      "best_cross_mode_key": [
+        0,
+        1447.6708413894478,
+        1.0861122387997657,
+        0.9573390488199643,
+        105.76975766893472,
+        0.0,
+        0,
+        20.668288816373106,
+        0.0,
+        1.0,
+        1.0434293464264792
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5457,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8367,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        2821.712924894235,
+        0.8589245402039642,
+        0.9690080417552382,
+        21.543601739309146,
+        0.00023543818740939804,
+        0,
+        28.117132214420778,
+        0.0,
+        1.0,
+        0.6100375480393102
+      ]
+    },
+    {
+      "active_state": 39,
+      "best_cross_mode_key": [
+        0,
+        1514.2013880752418,
+        1.0861122387997661,
+        0.9129286483891278,
+        111.12506320812956,
+        0.0,
+        0,
+        25.149644222934022,
+        0.0,
+        1.0,
+        1.0434293464264766
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5241,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8583,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        0,
+        2934.7886771264284,
+        0.858924540203962,
+        0.9134754844515759,
+        22.8948299306104,
+        0.0,
+        0,
+        35.41053319691502,
+        0.0,
+        1.0,
+        0.5606968026506545
+      ]
+    },
+    {
+      "active_state": 40,
+      "best_cross_mode_key": [
+        0,
+        1613.620073235407,
+        0.6118131261837537,
+        0.8715362485206838,
+        116.61256504570446,
+        0.0,
+        0,
+        41.15758514933567,
+        -0.3695809546153451,
+        1.0,
+        1.0434293464264783
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5280,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8544,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        0,
+        3129.976306279955,
+        -0.11548960994654767,
+        0.8726462229654168,
+        24.00786449027722,
+        0.0,
+        0,
+        58.903005879734934,
+        -0.7356508384541454,
+        1.0,
+        0.5606968026506526
+      ]
+    },
+    {
+      "active_state": 41,
+      "best_cross_mode_key": [
+        0,
+        1672.9564116123652,
+        0.6118131261837537,
+        1.1318503443604486,
+        122.23231362740285,
+        0.0,
+        0,
+        38.20093751241295,
+        0.0,
+        1.0,
+        1.0434293464264772
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5376,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8448,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        3261.871735754531,
+        -0.11548960994654767,
+        1.0964351998893245,
+        24.879917810794407,
+        0.00023543818740939804,
+        0,
+        50.72207081299787,
+        0.0,
+        1.0,
+        0.6100375480393098
+      ]
+    },
+    {
+      "active_state": 42,
+      "best_cross_mode_key": [
+        0,
+        1738.7600558686897,
+        0.6118131261837534,
+        1.3131865493355528,
+        127.9842889073397,
+        0.0,
+        0,
+        34.27975153167213,
+        0.0,
+        1.0,
+        1.043429346426478
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5295,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8529,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        3390.611529889336,
+        -0.11548960994654767,
+        1.2825272074305611,
+        26.046300946992204,
+        0.00023543818740939804,
+        0,
+        45.12452759810586,
+        0.0,
+        1.0,
+        0.6100375480393095
+      ]
+    },
+    {
+      "active_state": 43,
+      "best_cross_mode_key": [
+        0,
+        1850.2157574689718,
+        0.6118131261837534,
+        1.4304542210825035,
+        133.86848202535745,
+        0.0,
+        0,
+        49.47895462207803,
+        0.0,
+        0.698111115033786,
+        1.0434293464264783
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5310,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8514,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        0,
+        3596.9709478793347,
+        -0.11548960994654767,
+        1.4246489934253062,
+        27.50843737862457,
+        0.0,
+        0,
+        75.04812407641765,
+        0.0,
+        1.0358162919133045,
+        0.5606968026506535
+      ]
+    },
+    {
+      "active_state": 44,
+      "best_cross_mode_key": [
+        0,
+        1865.9444995913952,
+        0.6118131261837534,
+        1.3709775266364421,
+        139.8849276628124,
+        0.0,
+        0,
+        19.403745444704864,
+        0.0,
+        0.6981111150337871,
+        1.0434293464264777
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5427,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8397,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        0,
+        3628.599558576253,
+        -0.11548960994654767,
+        1.3661118498580482,
+        28.728925867722545,
+        0.0,
+        0,
+        25.229022206482064,
+        0.0,
+        1.0358162919133016,
+        0.5606968026506546
+      ]
+    },
+    {
+      "active_state": 45,
+      "best_cross_mode_key": [
+        0,
+        1865.9444995913952,
+        0.6118131261837534,
+        1.3252019392245347,
+        144.924121210739,
+        3.56867841478925e-05,
+        0,
+        2.2406777032804377,
+        0.0,
+        1.0,
+        0.6648764626665132
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5499,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8325,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        3628.599558576253,
+        -0.11548960994654767,
+        1.323063804000129,
+        29.705229479274077,
+        0.00023543818740939804,
+        0,
+        2.785802356583186,
+        0.0,
+        1.0,
+        0.6100375480393112
+      ]
+    },
+    {
+      "active_state": 46,
+      "best_cross_mode_key": [
+        0,
+        1941.2626933825316,
+        0.6071948694498764,
+        1.262629381600854,
+        152.31448041172692,
+        0.0,
+        0,
+        15.736180540637639,
+        0.0,
+        1.0,
+        1.0434293464264772
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5373,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8451,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        3810.274211457782,
+        -0.1525177577395232,
+        1.2703735350515266,
+        30.978641428252722,
+        0.00023543818740939804,
+        0,
+        27.92146675396012,
+        0.0,
+        1.0,
+        0.6100375480393108
+      ]
+    },
+    {
+      "active_state": 47,
+      "best_cross_mode_key": [
+        0,
+        2006.9888134259327,
+        0.6071948694498757,
+        1.213207123105305,
+        158.72757731166564,
+        0.0,
+        0,
+        4.648751902177271,
+        0.0,
+        1.0,
+        1.0434293464264779
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5220,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8604,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        3902.1087325105386,
+        -0.1975787905508477,
+        1.225614720911735,
+        32.151231372446006,
+        5.5351933290093136e-05,
+        0,
+        5.264216388199246,
+        0.0,
+        1.0,
+        0.8388058513315455
+      ]
+    },
+    {
+      "active_state": 48,
+      "best_cross_mode_key": [
+        0,
+        2065.4092117229306,
+        0.6071948694498736,
+        1.331378994736069,
+        165.2729470341819,
+        0.0,
+        0,
+        11.203388516402228,
+        0.0,
+        1.0,
+        1.0434293464264754
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5391,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8433,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        4024.570259310569,
+        -0.1975787905508477,
+        1.3097888003288716,
+        32.97047274995228,
+        0.0006115610381858261,
+        0,
+        15.781459132884017,
+        0.0,
+        1.0,
+        0.6507607346334037
+      ]
+    },
+    {
+      "active_state": 49,
+      "best_cross_mode_key": [
+        0,
+        2142.6200132326258,
+        0.2633977413007723,
+        1.2812252505996966,
+        171.95050455337991,
+        0.0,
+        0,
+        34.44714802728861,
+        -0.36958095461534574,
+        1.0,
+        1.043429346426475
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5343,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8481,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        4209.244495595395,
+        -0.7898961857516716,
+        1.2885178874852987,
+        34.960058295484814,
+        0.00023543818740939804,
+        0,
+        46.86188702403461,
+        -0.7111630568578801,
+        1.0,
+        0.6100375480393105
+      ]
+    },
+    {
+      "active_state": 50,
+      "best_cross_mode_key": [
+        0,
+        2204.529029174615,
+        0.011932855566332667,
+        1.2338513233534831,
+        178.7603281016852,
+        0.0,
+        0,
+        30.35856555093137,
+        0.0,
+        1.0,
+        1.0434293464264786
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5292,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8532,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        4340.808696257013,
+        -1.7915011530429208,
+        1.2409807408581168,
+        36.34058458145581,
+        0.00023543818740939804,
+        0,
+        41.3329571103924,
+        0.0,
+        1.0,
+        0.6100375480393104
+      ]
+    },
+    {
+      "active_state": 51,
+      "best_cross_mode_key": [
+        0,
+        2204.529029174615,
+        0.011932855566332667,
+        1.1890560612742167,
+        185.70235065254383,
+        0.0,
+        0,
+        8.96271081312175,
+        0.0,
+        1.0,
+        1.043429346426479
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5415,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8409,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        4310.94203351693,
+        -0.9750799295259203,
+        1.2362568950031978,
+        35.05204517134755,
+        0.00021944963335673862,
+        0,
+        9.485540790737879,
+        0.0,
+        1.0,
+        0.898090352904293
+      ]
+    },
+    {
+      "active_state": 52,
+      "best_cross_mode_key": [
+        0,
+        2316.7190984579893,
+        -0.762305599931162,
+        1.1466554161191647,
+        192.77662465289512,
+        0.0,
+        0,
+        28.620077334500134,
+        -0.9297503804354543,
+        1.0,
+        1.043429346426479
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5433,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8391,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        4521.109431599388,
+        -1.928445027097131,
+        1.2164884398286964,
+        35.659562314139784,
+        0.000581299292846893,
+        0,
+        33.20819621156951,
+        -1.0776870674192824,
+        1.0,
+        0.8515749956125704
+      ]
+    },
+    {
+      "active_state": 53,
+      "best_cross_mode_key": [
+        0,
+        2358.095695342545,
+        -0.7623055999311621,
+        1.106481985752732,
+        199.98311447271865,
+        0.0,
+        0,
+        20.119715378347202,
+        -0.5601694258201091,
+        1.0,
+        1.0434293464264772
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5463,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8361,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        4652.1023556110185,
+        -2.4838404729531334,
+        1.1130974141604097,
+        40.64431994756011,
+        0.00023543818740939804,
+        0,
+        28.03457317837687,
+        -0.6964505891457965,
+        1.0,
+        0.6100375480393103
+      ]
+    },
+    {
+      "active_state": 54,
+      "best_cross_mode_key": [
+        0,
+        2423.183675485686,
+        -0.7623055999311621,
+        1.2413440697883908,
+        207.32183789972058,
+        0.0,
+        0,
+        15.68474392296307,
+        0.0,
+        1.0,
+        1.0434293464264774
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5373,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8451,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        4781.5477491795355,
+        -2.4838404729531334,
+        1.2212982050676933,
+        42.1321099846999,
+        0.00023543818740939804,
+        0,
+        16.972254678032282,
+        0.0,
+        1.0,
+        0.6100375480393102
+      ]
+    },
+    {
+      "active_state": 55,
+      "best_cross_mode_key": [
+        0,
+        2454.2874395768918,
+        -0.7623055999311613,
+        1.199323202718041,
+        214.79279485003912,
+        0.0,
+        0,
+        24.21989384249855,
+        0.0,
+        1.0,
+        1.0434293464264779
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5220,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8604,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        4835.003900185546,
+        -2.483840472953133,
+        1.1945946930121063,
+        43.496531931286555,
+        5.5351933290093136e-05,
+        0,
+        26.52688281036897,
+        0.0,
+        1.0,
+        0.8388058513315447
+      ]
+    },
+    {
+      "active_state": 56,
+      "best_cross_mode_key": [
+        0,
+        2517.333446403369,
+        -0.7758058275262467,
+        1.1593996433000773,
+        222.39596893537563,
+        0.0,
+        0,
+        16.75869882342655,
+        0.0,
+        1.0,
+        1.0434293464264786
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5391,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8433,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        4967.705658253551,
+        -2.334063590233051,
+        1.1687445681854012,
+        44.499462621326316,
+        0.0006115610381858261,
+        0,
+        23.280353131215833,
+        0.0,
+        1.0,
+        0.6507607346334054
+      ]
+    },
+    {
+      "active_state": 57,
+      "best_cross_mode_key": [
+        0,
+        2635.5390361410387,
+        -0.7758058275262488,
+        1.2723909180227972,
+        230.13139086063376,
+        0.0,
+        0,
+        29.75201217393456,
+        0.0,
+        1.6037777699324274,
+        1.0434293464264768
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5343,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8481,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        5237.703831128847,
+        -2.334063590233044,
+        1.2371067738307806,
+        45.32104746649939,
+        1.345050600565223e-05,
+        0,
+        42.26492262200418,
+        0.0,
+        1.0689525692519177,
+        0.6254585527427895
+      ]
+    },
+    {
+      "active_state": 58,
+      "best_cross_mode_key": [
+        0,
+        2696.648371148356,
+        -0.7758058275262465,
+        1.231397868621439,
+        237.99901850673712,
+        0.0,
+        0,
+        20.882069263166247,
+        0.0,
+        1.0,
+        1.0434293464264783
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5292,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8532,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        5360.544815768117,
+        -2.334063590233044,
+        1.2129715196570603,
+        46.262530476745205,
+        0.0006808434678425845,
+        0,
+        22.59065817356341,
+        0.0,
+        1.0,
+        0.8364085809795486
+      ]
+    },
+    {
+      "active_state": 59,
+      "best_cross_mode_key": [
+        0,
+        2767.8648623400104,
+        -0.7758058275262469,
+        1.3191450280491088,
+        245.9989019997393,
+        0.0,
+        0,
+        32.80142771321078,
+        0.0,
+        0.6981111150337854,
+        1.0434293464264777
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5415,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8409,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        5491.574869533244,
+        -2.334063590233044,
+        1.2608218563704812,
+        47.04498390708785,
+        0.00021944963335673862,
+        0,
+        35.048902637516846,
+        0.0,
+        0.7626529608083075,
+        0.8980903529042927
+      ]
+    },
+    {
+      "active_state": 60,
+      "best_cross_mode_key": [
+        0,
+        2854.128690595615,
+        -0.7758058275262489,
+        1.2779705820129665,
+        254.13098689222934,
+        0.0,
+        0,
+        43.912048327259456,
+        0.0,
+        0.6981111150337898,
+        1.0434293464264783
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5433,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8391,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        5653.999374007203,
+        -2.334063590233044,
+        1.2426995380060235,
+        47.76947251593999,
+        0.000581299292846893,
+        0,
+        49.04184412877002,
+        0.0,
+        0.8160732449568835,
+        0.8515749956125711
+      ]
+    },
+    {
+      "active_state": 61,
+      "best_cross_mode_key": [
+        0,
+        2939.444009551474,
+        -1.0252566527808034,
+        1.2386934357378687,
+        262.3953282446529,
+        0.0,
+        0,
+        29.79839612511129,
+        0.0,
+        1.0,
+        1.043429346426477
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5463,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8361,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        5840.214485795746,
+        -3.1682892950819492,
+        1.2436569503400865,
+        53.301068037213874,
+        0.00023543818740939804,
+        0,
+        40.275311975810844,
+        0.0,
+        1.0,
+        0.6100375480393112
+      ]
+    },
+    {
+      "active_state": 62,
+      "best_cross_mode_key": [
+        0,
+        3027.13867549425,
+        -0.8117426823235654,
+        1.2011990647340074,
+        270.7918738990484,
+        0.0,
+        0,
+        32.59924325421185,
+        0.0,
+        1.0,
+        1.043429346426477
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5373,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8451,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        6011.889446301183,
+        -2.723459316307673,
+        1.209410971743493,
+        54.85155862339305,
+        0.00130717436263883,
+        0,
+        35.320666042740555,
+        0.0,
+        1.0,
+        0.8868756515641151
+      ]
+    },
+    {
+      "active_state": 63,
+      "best_cross_mode_key": [
+        0,
+        3062.912136794982,
+        -0.8117426823235654,
+        1.165381022567383,
+        279.3206700018205,
+        0.0,
+        0,
+        23.301739449857298,
+        0.0,
+        1.0,
+        1.0434293464264772
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5220,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8604,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        6075.659131569577,
+        -2.723459316307672,
+        1.1736420526316054,
+        56.56440930526854,
+        5.5351933290093136e-05,
+        0,
+        25.26031763474154,
+        0.0,
+        1.0,
+        0.8388058513315447
+      ]
+    },
+    {
+      "active_state": 64,
+      "best_cross_mode_key": [
+        0,
+        3117.4310510653363,
+        -0.8117426823235652,
+        1.1311410343887238,
+        287.98167896619054,
+        0.0,
+        0,
+        19.54794996473291,
+        0.0,
+        1.0,
+        1.0434293464264774
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5391,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8433,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        6188.710352096705,
+        -2.7234593163076712,
+        1.1502107830093546,
+        57.75758557031629,
+        0.0006115610381858261,
+        0,
+        26.589320428999148,
+        0.0,
+        1.0,
+        0.6507607346334043
+      ]
+    },
+    {
+      "active_state": 65,
+      "best_cross_mode_key": [
+        0,
+        3184.3958637986,
+        -0.8117426823235652,
+        1.2328472886827786,
+        296.774927963409,
+        0.0,
+        0,
+        20.275515886169426,
+        0.0,
+        1.0,
+        1.0434293464264774
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5343,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8481,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        6340.115336528859,
+        -2.7234593163076712,
+        1.2143711329608469,
+        58.76109425522844,
+        1.345050600565223e-05,
+        0,
+        29.1873960681398,
+        0.0,
+        1.0,
+        0.6254585527427919
+      ]
+    },
+    {
+      "active_state": 66,
+      "best_cross_mode_key": [
+        0,
+        3282.885206769749,
+        -0.8117426823235652,
+        1.1976578874507147,
+        305.7004013382405,
+        0.0,
+        0,
+        18.999376526706982,
+        0.0,
+        1.0,
+        1.043429346426478
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5292,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8532,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        6540.645587293237,
+        -2.5953551219996993,
+        1.2019678525322828,
+        62.08379270911293,
+        0.00023543818740939804,
+        0,
+        25.016296545624538,
+        0.0,
+        1.0,
+        0.6100375480393104
+      ]
+    },
+    {
+      "active_state": 67,
+      "best_cross_mode_key": [
+        0,
+        3349.713362532812,
+        -0.8117426823235652,
+        1.278874458821067,
+        314.75810291565784,
+        0.0,
+        0,
+        23.48073193326789,
+        0.0,
+        0.6981111150337873,
+        1.0434293464264763
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5415,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8409,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        6671.855115092743,
+        -2.7234593163076712,
+        1.238797623997205,
+        60.80405814890177,
+        0.00021944963335673862,
+        0,
+        25.138127882303657,
+        0.0,
+        0.762652960808308,
+        0.8980903529042932
+      ]
+    },
+    {
+      "active_state": 68,
+      "best_cross_mode_key": [
+        0,
+        3403.6929230178825,
+        -0.8117426823235654,
+        1.3434811594632423,
+        323.948040263196,
+        0.0,
+        0,
+        23.480731933267826,
+        0.0,
+        1.1509444424831052,
+        1.0434293464264797
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5433,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8391,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        6775.095141651258,
+        -2.7234593163076712,
+        1.273897495933696,
+        61.664693571366634,
+        0.000581299292846893,
+        0,
+        26.209942434985905,
+        0.0,
+        1.160035760901077,
+        0.8515749956125708
+      ]
+    },
+    {
+      "active_state": 69,
+      "best_cross_mode_key": [
+        0,
+        3474.614455480044,
+        -0.8117426823235652,
+        1.39005350777916,
+        333.27019554730964,
+        0.0,
+        0,
+        27.915703388651963,
+        0.0,
+        0.698111115033782,
+        1.0434293464264794
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5463,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8361,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        6914.617585174141,
+        -2.5953551219996993,
+        1.3802339899972054,
+        67.67546974743875,
+        0.00023543818740939804,
+        0,
+        39.3024552138035,
+        0.0,
+        1.2077386005289612,
+        0.6100375480393078
+      ]
+    },
+    {
+      "active_state": 70,
+      "best_cross_mode_key": [
+        0,
+        3594.2152662355784,
+        -0.9329305469355265,
+        1.3525176605071139,
+        342.72459516730805,
+        0.0,
+        0,
+        31.07453548457371,
+        0.0,
+        0.6981111150337888,
+        1.0434293464264786
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5373,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8451,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        7181.511645987765,
+        -2.93770239949339,
+        1.3562138022718027,
+        69.59318089698499,
+        0.00023543818740939804,
+        0,
+        43.78496602687765,
+        0.0,
+        0.9148614840722694,
+        0.6100375480393098
+      ]
+    },
+    {
+      "active_state": 71,
+      "best_cross_mode_key": [
+        0,
+        3663.1989260159307,
+        -0.932930546935526,
+        1.3862502832424244,
+        352.31120630127276,
+        0.0,
+        0,
+        25.161240210728224,
+        0.0,
+        1.1509444424831077,
+        1.0434293464264761
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5220,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8604,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        7281.714670324572,
+        -2.8729453592732814,
+        1.3798096230827617,
+        71.35432325029784,
+        5.5351933290093136e-05,
+        0,
+        27.361297079811276,
+        0.0,
+        1.0859171394336757,
+        0.8388058513315485
+      ]
+    },
+    {
+      "active_state": 72,
+      "best_cross_mode_key": [
+        0,
+        3796.3128760142654,
+        -0.477780216818265,
+        1.3498005325158877,
+        362.0300657699545,
+        0.0,
+        0,
+        46.759279407536724,
+        0.5601694258201076,
+        0.6981111150337842,
+        1.043429346426477
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5391,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8433,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        7556.515417162002,
+        -2.3326684497450962,
+        1.352263352512745,
+        72.74308054086474,
+        0.0006115610381858261,
+        0,
+        64.67407017224627,
+        0.7890729566441999,
+        1.2297301941619034,
+        0.6507607346334046
+      ]
+    },
+    {
+      "active_state": 73,
+      "best_cross_mode_key": [
+        0,
+        3796.3128760142654,
+        -0.477780216818265,
+        1.3188176187480904,
+        370.73966121396074,
+        3.56867841478925e-05,
+        0,
+        27.44830186518533,
+        0.5601694258201088,
+        1.0,
+        0.6648764626665198
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5343,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8481,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        7556.515417162002,
+        -2.3326684497450976,
+        1.3311843356720998,
+        73.93542790121191,
+        1.345050600565223e-05,
+        0,
+        38.66457487556579,
+        0.7890729566441999,
+        1.0,
+        0.6254585527427916
+      ]
+    },
+    {
+      "active_state": 74,
+      "best_cross_mode_key": [
+        0,
+        3796.312876014265,
+        -0.4777802168182642,
+        1.2885432210743575,
+        379.65400615482315,
+        9.076565414409266e-05,
+        0,
+        0.0,
+        0.0,
+        1.0,
+        0.7178969386452599
+      ],
+      "mode_capacity": 12,
+      "modes": {
+        "alpha": {
+          "expanded": 5292,
+          "locally_eligible": 12,
+          "retained": 12
+        },
+        "beta": {
+          "expanded": 8532,
+          "locally_eligible": 12,
+          "retained": 12
+        }
+      },
+      "retained": 24,
+      "worst_cross_mode_key": [
+        1,
+        7556.515417162002,
+        -2.3326684497450976,
+        1.3090377848085974,
+        75.22635857643583,
+        0.0006808434678425845,
+        0,
+        0.0,
+        0.0,
+        1.0,
+        0.8364085809795493
+      ]
+    }
+  ],
+  "sequence": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+  "states": [
+    22,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    117,
+    375,
+    249,
+    0
+  ],
+  "status": "completed",
+  "steric_census": {
+    "alphabet": "ACDEFGHIKLMNPQRSTVWY",
+    "alphabet_count": 20,
+    "sidechain_heavy_atom_counts": {
+      "A": 1,
+      "C": 2,
+      "D": 4,
+      "E": 5,
+      "F": 7,
+      "G": 0,
+      "H": 6,
+      "I": 4,
+      "K": 5,
+      "L": 4,
+      "M": 4,
+      "N": 4,
+      "P": 3,
+      "Q": 5,
+      "R": 7,
+      "S": 2,
+      "T": 3,
+      "V": 3,
+      "W": 10,
+      "Y": 8
+    },
+    "sidechain_heavy_atoms": {
+      "A": [
+        "CB"
+      ],
+      "C": [
+        "CB",
+        "SG"
+      ],
+      "D": [
+        "CB",
+        "CG",
+        "OD1",
+        "OD2"
+      ],
+      "E": [
+        "CB",
+        "CG",
+        "CD",
+        "OE1",
+        "OE2"
+      ],
+      "F": [
+        "CB",
+        "CG",
+        "CD1",
+        "CD2",
+        "CE1",
+        "CE2",
+        "CZ"
+      ],
+      "G": [],
+      "H": [
+        "CB",
+        "CG",
+        "ND1",
+        "CD2",
+        "CE1",
+        "NE2"
+      ],
+      "I": [
+        "CB",
+        "CG1",
+        "CG2",
+        "CD1"
+      ],
+      "K": [
+        "CB",
+        "CG",
+        "CD",
+        "CE",
+        "NZ"
+      ],
+      "L": [
+        "CB",
+        "CG",
+        "CD1",
+        "CD2"
+      ],
+      "M": [
+        "CB",
+        "CG",
+        "SD",
+        "CE"
+      ],
+      "N": [
+        "CB",
+        "CG",
+        "OD1",
+        "ND2"
+      ],
+      "P": [
+        "CB",
+        "CG",
+        "CD"
+      ],
+      "Q": [
+        "CB",
+        "CG",
+        "CD",
+        "OE1",
+        "NE2"
+      ],
+      "R": [
+        "CB",
+        "CG",
+        "CD",
+        "NE",
+        "CZ",
+        "NH1",
+        "NH2"
+      ],
+      "S": [
+        "CB",
+        "OG"
+      ],
+      "T": [
+        "CB",
+        "OG1",
+        "CG2"
+      ],
+      "V": [
+        "CB",
+        "CG1",
+        "CG2"
+      ],
+      "W": [
+        "CB",
+        "CG",
+        "CD1",
+        "CD2",
+        "NE1",
+        "CE2",
+        "CE3",
+        "CZ2",
+        "CZ3",
+        "CH2"
+      ],
+      "Y": [
+        "CB",
+        "CG",
+        "CD1",
+        "CD2",
+        "CE1",
+        "CE2",
+        "CZ",
+        "OH"
+      ]
+    }
+  }
+}

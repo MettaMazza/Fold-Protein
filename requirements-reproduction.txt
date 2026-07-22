@@ -1,0 +1,2 @@
+# Recorded exact-signature execution: CPython 3.9.6
+numpy==2.0.2

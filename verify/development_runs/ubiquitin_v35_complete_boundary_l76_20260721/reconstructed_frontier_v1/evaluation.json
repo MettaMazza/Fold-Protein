@@ -1,0 +1,95 @@
+{
+  "candidate_count": 8,
+  "execution": "post-seal comparison of complete reconstructed frontier",
+  "frontier": [
+    {
+      "ca_drmsd_angstrom": 11.25969101353946,
+      "candidate_index": 0,
+      "matched_ca_atoms": 76,
+      "prediction_pdb": "candidate_00.pdb",
+      "prediction_pdb_sha256": "df53cbe45c27b904d3fbf06e0673ebfb057a1c1dbf31b95e1d6e8f0f81c0059f",
+      "selected_emission": true,
+      "states_sha256": "5c20cab55ae3d8b3f4dbdd22c70d7a4ffb6aff9de78287894a50e4a2ca766e53",
+      "tm_score": 0.08048457640231105
+    },
+    {
+      "ca_drmsd_angstrom": 11.275319545667998,
+      "candidate_index": 1,
+      "matched_ca_atoms": 76,
+      "prediction_pdb": "candidate_01.pdb",
+      "prediction_pdb_sha256": "a743e7ac8b570b3716c8b16feff5d9dea136c4e84c5cca6b0da6d34912963772",
+      "selected_emission": false,
+      "states_sha256": "80fdffdae26d3ec69b5efc35e1f67097ff1f9117bba60a29412929020d944f57",
+      "tm_score": 0.08043659670497787
+    },
+    {
+      "ca_drmsd_angstrom": 11.173965845563586,
+      "candidate_index": 2,
+      "matched_ca_atoms": 76,
+      "prediction_pdb": "candidate_02.pdb",
+      "prediction_pdb_sha256": "c272c3596077fbf402c02e181171c23645babd54b651fd96e3e2829dac2fb134",
+      "selected_emission": false,
+      "states_sha256": "1ffda2e8f1421c8b3031aef331593affe6e92fa3da09b655ccd06818f97c00bc",
+      "tm_score": 0.08401059869827314
+    },
+    {
+      "ca_drmsd_angstrom": 11.372193734819293,
+      "candidate_index": 3,
+      "matched_ca_atoms": 76,
+      "prediction_pdb": "candidate_03.pdb",
+      "prediction_pdb_sha256": "c5f6cf23ef1bfca9d1b0c7f004a617ace5ec9d5c45bd909242615285bc03ef09",
+      "selected_emission": false,
+      "states_sha256": "f2a64257dea3bf9e223ca8537b8192a4b433b8aefe12c671df5dd2e5ae99be29",
+      "tm_score": 0.08362823709114926
+    },
+    {
+      "ca_drmsd_angstrom": 11.173856489247887,
+      "candidate_index": 4,
+      "matched_ca_atoms": 76,
+      "prediction_pdb": "candidate_04.pdb",
+      "prediction_pdb_sha256": "3c802ffd6e3572a42ed619a75f20d51c4173e0672a1af09e85a56a5063a640e4",
+      "selected_emission": false,
+      "states_sha256": "2f53ec73a81d0b9d5ba3ef1e22bbf30136f5566e8ce82cb82234ccf82c1c81c9",
+      "tm_score": 0.08378925758551627
+    },
+    {
+      "ca_drmsd_angstrom": 11.380294323279665,
+      "candidate_index": 5,
+      "matched_ca_atoms": 76,
+      "prediction_pdb": "candidate_05.pdb",
+      "prediction_pdb_sha256": "7cbf572dffb622ce0b4bc24e65c612a39186abfdce10ebc74a64c5fcc149371e",
+      "selected_emission": false,
+      "states_sha256": "3b5f9cd6dfa6ea4ca69b23c8ff0c582ade34bf480ac3d85dbdaa20d1654156db",
+      "tm_score": 0.08344715127364798
+    },
+    {
+      "ca_drmsd_angstrom": 11.253826204514498,
+      "candidate_index": 6,
+      "matched_ca_atoms": 76,
+      "prediction_pdb": "candidate_06.pdb",
+      "prediction_pdb_sha256": "d6164e9af62577c81d6a4e1c39e5255bdfa2a86de9ce13df43fecc8752170cfa",
+      "selected_emission": false,
+      "states_sha256": "a8c55efaccdcc9f8f26f755f7d2cc8ec6f1eed630bee78670bf84b5caf5706a5",
+      "tm_score": 0.08009399297632008
+    },
+    {
+      "ca_drmsd_angstrom": 11.214611087011495,
+      "candidate_index": 7,
+      "matched_ca_atoms": 76,
+      "prediction_pdb": "candidate_07.pdb",
+      "prediction_pdb_sha256": "6395600b9a931b53a0791d3e67a4e81eafe3519e3ec3c16b342316022d0a2f27",
+      "selected_emission": false,
+      "states_sha256": "9dcc71905895009ce74042dc1e061db8b95936c2f26f4b3d712c09a7165cb069",
+      "tm_score": 0.08284221379397491
+    }
+  ],
+  "frontier_seal_sha256": "b881b3906165248b2bf364230367cd54770150688111b48aea63e971ac728bfa",
+  "frontier_sha256": "9ceccf4f2bdef70084cec24b509d1d5e415e78900f1bc0e352d1314b86d61a37",
+  "official_run": false,
+  "result_type": "post-seal cumulative development frontier recovery",
+  "run_id": "development-ubiquitin-v35-complete-boundary-l76-20260721",
+  "schema": "fold-protein-reconstructed-frontier-evaluation/v1",
+  "status": "completed",
+  "target_id": "1ubq.pdb",
+  "target_sha256": "d4a6812d8951cf6594e6a0763f089e35f5a80b62acb3c117b2c5565228a7b161"
+}

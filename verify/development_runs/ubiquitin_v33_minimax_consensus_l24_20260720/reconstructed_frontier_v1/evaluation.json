@@ -1,0 +1,35 @@
+{
+  "candidate_count": 2,
+  "execution": "post-seal comparison of complete reconstructed frontier",
+  "frontier": [
+    {
+      "ca_drmsd_angstrom": 6.290940681880365,
+      "candidate_index": 0,
+      "matched_ca_atoms": 24,
+      "prediction_pdb": "candidate_00.pdb",
+      "prediction_pdb_sha256": "13a50bc960cfb9d9e5688ab05542bebd6343b6c04ba32e59c6ecef6af93cb0fc",
+      "selected_emission": true,
+      "states_sha256": "5c97513c1862afc1f76a0e2c4d17dea9d81211e977c14e8fa1a9a7ae1521b290",
+      "tm_score": 0.026416323055637445
+    },
+    {
+      "ca_drmsd_angstrom": 6.205967670094479,
+      "candidate_index": 1,
+      "matched_ca_atoms": 24,
+      "prediction_pdb": "candidate_01.pdb",
+      "prediction_pdb_sha256": "e64f2020731b02230974be38d8fa314acfb34eda2e5eeef8a479106d3aade180",
+      "selected_emission": false,
+      "states_sha256": "cb7275458a53f63ab25d71c73abed79369f6f1a24e7c7299e605f5c1105ffbfe",
+      "tm_score": 0.02808658910985541
+    }
+  ],
+  "frontier_seal_sha256": "cfba5106f6d55edd3614d3e3b3f4f2755f5482a8abdf5c53d1bcd1608f8bfd32",
+  "frontier_sha256": "7d651d32be10dec0c32d4886b9e7095ed1a84db41fc15978751bfc7fe664157c",
+  "official_run": false,
+  "result_type": "post-seal cumulative development frontier recovery",
+  "run_id": "development-ubiquitin-v33-minimax-consensus-l24-20260720",
+  "schema": "fold-protein-reconstructed-frontier-evaluation/v1",
+  "status": "completed",
+  "target_id": "1ubq.pdb",
+  "target_sha256": "d4a6812d8951cf6594e6a0763f089e35f5a80b62acb3c117b2c5565228a7b161"
+}

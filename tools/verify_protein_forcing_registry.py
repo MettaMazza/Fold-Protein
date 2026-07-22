@@ -31,6 +31,7 @@ def sha256(path: Path) -> str:
 def source_scope() -> set[str]:
     paths = {
         "AGENT.md", "README.md", "calculate_tm.py",
+        "requirements-reproduction.txt",
         "verify/blind_selector_v1.json",
         "verify/blind_selector_v2.json",
         "verify/blind_selector_v2_length_ladder.json",
@@ -45,6 +46,10 @@ def source_scope() -> set[str]:
         "verify/blind_selector_v39.json",
         "verify/blind_selector_v40.json",
         "verify/blind_selector_v41.json",
+        "verify/blind_selector_v42.json",
+        "verify/blind_selector_v43.json",
+        "verify/blind_selector_v44.json",
+        "verify/blind_selector_v45.json",
         "verify/protein_backbone_geometry_v1.json",
         "verify/protein_derivation_admission_v1.json",
         "verify/protein_engine_closure_v1.json",
@@ -65,6 +70,14 @@ def source_scope() -> set[str]:
         "verify/protein_selector_v40_applied_evidence_v1.json",
         "verify/protein_selector_v41_admission_v1.json",
         "verify/protein_selector_v41_applied_evidence_v1.json",
+        "verify/protein_selector_v42_admission_v1.json",
+        "verify/protein_selector_v42_applied_evidence_v1.json",
+        "verify/protein_selector_v43_admission_v1.json",
+        "verify/protein_selector_v43_applied_evidence_v1.json",
+        "verify/protein_selector_v44_admission_v1.json",
+        "verify/protein_selector_v44_applied_evidence_v1.json",
+        "verify/protein_selector_v45_admission_v1.json",
+        "verify/protein_selector_v45_applied_evidence_v1.json",
         "verify/protein_v35_generalisation_panel_targets_20260721.json",
         "verify/ubiquitin_24_lattice_manifest.json",
         "verify/test_protein_folding.c",
@@ -202,7 +215,7 @@ def verify_registry() -> dict:
             "v3", "v5", "v8", "v9", "v10", "v11", "v12", "v13",
             "v14", "v15", "v16", "v17", "v18", "v19", "v20", "v21",
             "v22", "v34", "v35", "v36", "v37", "v38", "v39", "v40",
-            "v41")
+            "v41", "v42")
     for selector in selectors:
         runtime_hashes[selector] = {}
         roots = registry["legacy_exclusion"][f"{selector}_runtime_roots"]

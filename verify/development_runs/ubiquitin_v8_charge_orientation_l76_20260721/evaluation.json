@@ -1,0 +1,13 @@
+{
+  "ca_drmsd_angstrom": 35.12186654904012,
+  "execution": "post-seal structural comparison",
+  "matched_ca_atoms": 76,
+  "run_id": "development-ubiquitin-v8-charge-orientation-l76-20260721",
+  "schema": "fold-protein-blind-evaluation/v8",
+  "seal_sha256": "f3e246083dc24e5e15045aa6ce80a10552cba33ab815514b6baa51bd93e3ff62",
+  "sequence_length": 76,
+  "status": "completed",
+  "target_id": "1ubq.pdb",
+  "target_sha256": "d4a6812d8951cf6594e6a0763f089e35f5a80b62acb3c117b2c5565228a7b161",
+  "tm_score": 0.04202967143327857
+}

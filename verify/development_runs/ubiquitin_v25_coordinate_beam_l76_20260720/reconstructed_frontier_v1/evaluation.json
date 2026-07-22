@@ -1,0 +1,255 @@
+{
+  "candidate_count": 24,
+  "execution": "post-seal comparison of complete reconstructed frontier",
+  "frontier": [
+    {
+      "ca_drmsd_angstrom": 7.115557111374235,
+      "candidate_index": 0,
+      "matched_ca_atoms": 76,
+      "prediction_pdb": "candidate_00.pdb",
+      "prediction_pdb_sha256": "173bf50bf8d0ae1e949e8a6f6cce0df0d574d2ff944d9a54e97523890d0cc956",
+      "selected_emission": false,
+      "states_sha256": "9106dee9ece5c81238e80c9a1c8a7e7e2639c18843f78f867e9fefe57844f865",
+      "tm_score": 0.13519831766845747
+    },
+    {
+      "ca_drmsd_angstrom": 7.09014320770872,
+      "candidate_index": 1,
+      "matched_ca_atoms": 76,
+      "prediction_pdb": "candidate_01.pdb",
+      "prediction_pdb_sha256": "dd1fa0c40803f6765ed830a409df20e08f2113122ddb8f944a2ee45fe39fb06d",
+      "selected_emission": false,
+      "states_sha256": "af30f9991a36d29340dcc8d3ef8fdd3ddbca13646eb78b0dff02a1f040bf7963",
+      "tm_score": 0.13548452445966488
+    },
+    {
+      "ca_drmsd_angstrom": 7.1096447699866205,
+      "candidate_index": 2,
+      "matched_ca_atoms": 76,
+      "prediction_pdb": "candidate_02.pdb",
+      "prediction_pdb_sha256": "e4f933bbe7a78a732a8c18df8dcda875e03d8630ef7e08f9057dd72f55f48d24",
+      "selected_emission": false,
+      "states_sha256": "bb95805613468930a527e881b0ad80a5bc4930490f60813f6d2275ff5d0d5823",
+      "tm_score": 0.13664431186604623
+    },
+    {
+      "ca_drmsd_angstrom": 7.14300328783107,
+      "candidate_index": 3,
+      "matched_ca_atoms": 76,
+      "prediction_pdb": "candidate_03.pdb",
+      "prediction_pdb_sha256": "e248a57d7a92390a153c0fe199259b88705b0ad01df5662f42f8a794890be35c",
+      "selected_emission": false,
+      "states_sha256": "11163674bcac3b035814afd777acbff90983bea42ff1384d6b2b12a301a65b29",
+      "tm_score": 0.12813074282152415
+    },
+    {
+      "ca_drmsd_angstrom": 7.099814472848788,
+      "candidate_index": 4,
+      "matched_ca_atoms": 76,
+      "prediction_pdb": "candidate_04.pdb",
+      "prediction_pdb_sha256": "5d49fb5722d332422cb1e9a5d5e626e4e9ffe3b2a5e879e702b4bcf544ee5224",
+      "selected_emission": false,
+      "states_sha256": "29ce05be54e0c1574d68250a0ede99ed848d0c08b5d57c118bd7b99242fc911e",
+      "tm_score": 0.1291574125705201
+    },
+    {
+      "ca_drmsd_angstrom": 7.09981983126524,
+      "candidate_index": 5,
+      "matched_ca_atoms": 76,
+      "prediction_pdb": "candidate_05.pdb",
+      "prediction_pdb_sha256": "175752fd5080ab35157a8d20bb56983f25f249d4af4ad63c4bf47d10ab7634bf",
+      "selected_emission": false,
+      "states_sha256": "feca905b2e3b89842c245fe0e96862dda7083e35d6ba970197859d10be55d082",
+      "tm_score": 0.1291572874830013
+    },
+    {
+      "ca_drmsd_angstrom": 7.099814472848788,
+      "candidate_index": 6,
+      "matched_ca_atoms": 76,
+      "prediction_pdb": "candidate_06.pdb",
+      "prediction_pdb_sha256": "5d49fb5722d332422cb1e9a5d5e626e4e9ffe3b2a5e879e702b4bcf544ee5224",
+      "selected_emission": false,
+      "states_sha256": "19b48bfaa97f7c54146296c555320ecc7fb5c7f2c9ddbc10e6dac1b1ae411bea",
+      "tm_score": 0.1291574125705201
+    },
+    {
+      "ca_drmsd_angstrom": 7.09981983126524,
+      "candidate_index": 7,
+      "matched_ca_atoms": 76,
+      "prediction_pdb": "candidate_07.pdb",
+      "prediction_pdb_sha256": "175752fd5080ab35157a8d20bb56983f25f249d4af4ad63c4bf47d10ab7634bf",
+      "selected_emission": false,
+      "states_sha256": "15ba9cae1eebc0f58644ea218572da650871553d930b625756e913f41ab97ee4",
+      "tm_score": 0.1291572874830013
+    },
+    {
+      "ca_drmsd_angstrom": 7.099814472848788,
+      "candidate_index": 8,
+      "matched_ca_atoms": 76,
+      "prediction_pdb": "candidate_08.pdb",
+      "prediction_pdb_sha256": "5d49fb5722d332422cb1e9a5d5e626e4e9ffe3b2a5e879e702b4bcf544ee5224",
+      "selected_emission": false,
+      "states_sha256": "54fe3af69e3fda1c8539a3834c180017f9c07d1ac40c45ea8ff5a2c6f7d5b052",
+      "tm_score": 0.1291574125705201
+    },
+    {
+      "ca_drmsd_angstrom": 7.09981983126524,
+      "candidate_index": 9,
+      "matched_ca_atoms": 76,
+      "prediction_pdb": "candidate_09.pdb",
+      "prediction_pdb_sha256": "175752fd5080ab35157a8d20bb56983f25f249d4af4ad63c4bf47d10ab7634bf",
+      "selected_emission": false,
+      "states_sha256": "ae95abc58ebf1b0375010131051321d452079931e71894871e9e301043e88207",
+      "tm_score": 0.1291572874830013
+    },
+    {
+      "ca_drmsd_angstrom": 7.099814472848788,
+      "candidate_index": 10,
+      "matched_ca_atoms": 76,
+      "prediction_pdb": "candidate_10.pdb",
+      "prediction_pdb_sha256": "5d49fb5722d332422cb1e9a5d5e626e4e9ffe3b2a5e879e702b4bcf544ee5224",
+      "selected_emission": false,
+      "states_sha256": "6a78ea0a8d9245bc2d58604db2996cc2faa1c37c6481450ea1e51e2bcb910466",
+      "tm_score": 0.1291574125705201
+    },
+    {
+      "ca_drmsd_angstrom": 7.09981983126524,
+      "candidate_index": 11,
+      "matched_ca_atoms": 76,
+      "prediction_pdb": "candidate_11.pdb",
+      "prediction_pdb_sha256": "175752fd5080ab35157a8d20bb56983f25f249d4af4ad63c4bf47d10ab7634bf",
+      "selected_emission": false,
+      "states_sha256": "3ddb3aa1342f45f377eb918ca1b5dd5c6b17f9ee053198231ff3aa2d5169b01c",
+      "tm_score": 0.1291572874830013
+    },
+    {
+      "ca_drmsd_angstrom": 7.099814472848788,
+      "candidate_index": 12,
+      "matched_ca_atoms": 76,
+      "prediction_pdb": "candidate_12.pdb",
+      "prediction_pdb_sha256": "5d49fb5722d332422cb1e9a5d5e626e4e9ffe3b2a5e879e702b4bcf544ee5224",
+      "selected_emission": false,
+      "states_sha256": "6239020d211f46285c1ac34ae4c960f26a5c705aac6cb0ee5165f80edbc9c1d6",
+      "tm_score": 0.1291574125705201
+    },
+    {
+      "ca_drmsd_angstrom": 7.09981983126524,
+      "candidate_index": 13,
+      "matched_ca_atoms": 76,
+      "prediction_pdb": "candidate_13.pdb",
+      "prediction_pdb_sha256": "175752fd5080ab35157a8d20bb56983f25f249d4af4ad63c4bf47d10ab7634bf",
+      "selected_emission": false,
+      "states_sha256": "78f90303c3e6f8f96d7399a015f07731d22ffefacbd57eabe2f7858417a3e580",
+      "tm_score": 0.1291572874830013
+    },
+    {
+      "ca_drmsd_angstrom": 7.099814472848788,
+      "candidate_index": 14,
+      "matched_ca_atoms": 76,
+      "prediction_pdb": "candidate_14.pdb",
+      "prediction_pdb_sha256": "5d49fb5722d332422cb1e9a5d5e626e4e9ffe3b2a5e879e702b4bcf544ee5224",
+      "selected_emission": false,
+      "states_sha256": "31c6690ddc6c4adf74bdb48deec1fa63b179592270b17177d37b73988e74e52e",
+      "tm_score": 0.1291574125705201
+    },
+    {
+      "ca_drmsd_angstrom": 7.09981983126524,
+      "candidate_index": 15,
+      "matched_ca_atoms": 76,
+      "prediction_pdb": "candidate_15.pdb",
+      "prediction_pdb_sha256": "175752fd5080ab35157a8d20bb56983f25f249d4af4ad63c4bf47d10ab7634bf",
+      "selected_emission": false,
+      "states_sha256": "841cedc5a8e4201a228d7b72435e59327dcecdc53bc36c17ecf9f39e1e5e7888",
+      "tm_score": 0.1291572874830013
+    },
+    {
+      "ca_drmsd_angstrom": 7.099814472848788,
+      "candidate_index": 16,
+      "matched_ca_atoms": 76,
+      "prediction_pdb": "candidate_16.pdb",
+      "prediction_pdb_sha256": "5d49fb5722d332422cb1e9a5d5e626e4e9ffe3b2a5e879e702b4bcf544ee5224",
+      "selected_emission": false,
+      "states_sha256": "3fc3de1f461604cd3797fe3271d562a133f731378553e2aefcb62952b2feb2c3",
+      "tm_score": 0.1291574125705201
+    },
+    {
+      "ca_drmsd_angstrom": 7.09981983126524,
+      "candidate_index": 17,
+      "matched_ca_atoms": 76,
+      "prediction_pdb": "candidate_17.pdb",
+      "prediction_pdb_sha256": "175752fd5080ab35157a8d20bb56983f25f249d4af4ad63c4bf47d10ab7634bf",
+      "selected_emission": false,
+      "states_sha256": "3f0f084211cddeb9aefda2407aa64f4da406380a0873ed0e6a525a72f3910aee",
+      "tm_score": 0.1291572874830013
+    },
+    {
+      "ca_drmsd_angstrom": 7.099814472848788,
+      "candidate_index": 18,
+      "matched_ca_atoms": 76,
+      "prediction_pdb": "candidate_18.pdb",
+      "prediction_pdb_sha256": "5d49fb5722d332422cb1e9a5d5e626e4e9ffe3b2a5e879e702b4bcf544ee5224",
+      "selected_emission": false,
+      "states_sha256": "7b30781926d2c2694054b168b7c03bc67e2635a276943251f14082d6b782d3ad",
+      "tm_score": 0.1291574125705201
+    },
+    {
+      "ca_drmsd_angstrom": 7.105742105914073,
+      "candidate_index": 19,
+      "matched_ca_atoms": 76,
+      "prediction_pdb": "candidate_19.pdb",
+      "prediction_pdb_sha256": "9791ad2085e0f654bca1f250a2f5f53728be93845c64b5f9e71c3a45863a5ac6",
+      "selected_emission": false,
+      "states_sha256": "ae59b9c03b2e3ec4bd62dca1c11626b251b3143e6689081d08028e40c7146311",
+      "tm_score": 0.12903507217034033
+    },
+    {
+      "ca_drmsd_angstrom": 7.146195534100287,
+      "candidate_index": 20,
+      "matched_ca_atoms": 76,
+      "prediction_pdb": "candidate_20.pdb",
+      "prediction_pdb_sha256": "6bc44107cc1be00e97edeb94ebd76b576ac4f1e284917599b3131124a04a344a",
+      "selected_emission": true,
+      "states_sha256": "55572dc2334b35bfcf58f192775cb547f4feeb0585497493ea6abc1ccecbddff",
+      "tm_score": 0.12915025468960256
+    },
+    {
+      "ca_drmsd_angstrom": 7.108255390001501,
+      "candidate_index": 21,
+      "matched_ca_atoms": 76,
+      "prediction_pdb": "candidate_21.pdb",
+      "prediction_pdb_sha256": "4c8425a2953d44d8b797ee446b7226e11a5afd28f9c3502b36b6b8b026cd71e3",
+      "selected_emission": false,
+      "states_sha256": "c53b5261dc190f9784feec0c6178a6b02360d8f50bce6156aa529653e9c37b02",
+      "tm_score": 0.12824681615183298
+    },
+    {
+      "ca_drmsd_angstrom": 7.10755237634358,
+      "candidate_index": 22,
+      "matched_ca_atoms": 76,
+      "prediction_pdb": "candidate_22.pdb",
+      "prediction_pdb_sha256": "0c6888d64c0b140989c33f221a1fcde7781e59182bce54f7f2c91971392d9a2d",
+      "selected_emission": false,
+      "states_sha256": "2e516cb882b2037a58ede40c6a8d7d251df02126a0de2ae496eed67bf4f79817",
+      "tm_score": 0.1281892412236867
+    },
+    {
+      "ca_drmsd_angstrom": 7.10290908115,
+      "candidate_index": 23,
+      "matched_ca_atoms": 76,
+      "prediction_pdb": "candidate_23.pdb",
+      "prediction_pdb_sha256": "1bfca8a36feb94daddcc2a887aae058012f608d974c9097a552c94cc3f23d9a5",
+      "selected_emission": false,
+      "states_sha256": "c7a096d022870a5aab8b5f9120e33b0ed1221333980e66b8893cb647ef837145",
+      "tm_score": 0.13533875729328584
+    }
+  ],
+  "frontier_seal_sha256": "7e0598ee958500f8436517996840edf0444906ba46a42481be5c4002567454fa",
+  "frontier_sha256": "d7e1918423ca317bd32f284dda2f5bdd7651c63a403736e99cf8df1deff151c6",
+  "official_run": false,
+  "result_type": "post-seal cumulative development frontier recovery",
+  "run_id": "development-ubiquitin-v25-coordinate-beam-l76-20260720",
+  "schema": "fold-protein-reconstructed-frontier-evaluation/v1",
+  "status": "completed",
+  "target_id": "1ubq.pdb",
+  "target_sha256": "d4a6812d8951cf6594e6a0763f089e35f5a80b62acb3c117b2c5565228a7b161"
+}

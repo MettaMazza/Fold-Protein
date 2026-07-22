@@ -1,0 +1,37 @@
+# V42 admission: complete whole-chain backbone contact frontier.
+#
+# V41 supplies the complete binary cube.  The two sealed parent rows uniquely
+# partition the full chain into maximal equal/disagree runs.  Generated N/CA/C
+# atoms form a target-free contact when a non-neighbour atom lies from the
+# half-One through (but not including) the generated adjacent C-alpha One.
+# Every cube row is retained whose block graph reaches the graph-theoretic One:
+# exactly one connected component.  The complete retained frontier is the
+# output; no agent-selected tie-break chooses one row.
+
+import "protein_blind_selector_v41_admission.ep"
+
+
+define protein_selector_v42_block_type_count returning Int:
+    return binary_count()
+
+
+define protein_selector_v42_graph_target returning Int:
+    return fold_period(the_one() and binary_count())
+
+
+define enforce_protein_selector_v42_contact_frontier with residue_count as Int and disagreement_count as Int and disagreement_components as Int and block_count as Int and disagree_blocks as Int and equal_blocks as Int and runtime_cube_count as Int and retained_frontier_count as Int returning Int:
+    set parent_guard to enforce_protein_selector_v41_component_cube(residue_count and disagreement_count and disagreement_components and runtime_cube_count)
+    set block_partition_guard to forced_to_be("the full chain is completely partitioned into equal and disagree maximal runs" and disagree_blocks + equal_blocks and block_count)
+    set binary_block_guard to forced_to_be("the two status classes exhaust the maximal block partition" and protein_selector_v42_block_type_count() * disagreement_components and block_count)
+    set balanced_block_guard to forced_to_be("each target-free disagreement block has one alternating equal block" and equal_blocks and disagree_blocks)
+    set connected_target_guard to forced_to_be("the whole-chain contact graph descends to the One connected component" and protein_selector_v42_graph_target() and 1)
+    set target_guard to forbid_target_input("V42 complete whole-chain backbone contact frontier" and false)
+    if parent_guard == 1:
+        if block_partition_guard == block_count:
+            if binary_block_guard == block_count:
+                if balanced_block_guard == disagree_blocks:
+                    if connected_target_guard == 1:
+                        if retained_frontier_count > 0:
+                            if target_guard == 1:
+                                return 1
+    return halt_violation("V42 complete whole-chain contact frontier did not close")

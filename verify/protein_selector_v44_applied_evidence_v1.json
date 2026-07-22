@@ -1,0 +1,89 @@
+{
+  "schema": "fold-protein-selector-v44-applied-evidence/v1",
+  "date": "2026-07-21",
+  "status": "verified_cumulative_development_evidence",
+  "result_type": "target-isolated seal-before-score connected cycle-to-One fixed-point frontier",
+  "official_run": false,
+  "authority": "Maria Smith determines scientific conclusions and official-run status.",
+  "execution": {
+    "run_id": "ubiquitin_v44_connected_cycle_fixed_point_l76_20260721",
+    "sequence_length": 76,
+    "connected_parent_count": 3,
+    "paired_states_per_residue": 576,
+    "total_paired_evaluations": 1252800,
+    "connected_evaluations": 389159,
+    "cycle_rank_target": 1,
+    "sealed_fixed_point_count": 3,
+    "selection_among_frontier": "none"
+  },
+  "exact_topology_result": {
+    "all_fixed_points_connected": true,
+    "all_fixed_points_cycle_rank_one": true,
+    "interblock_edges_per_fixed_point": 26,
+    "parent_cycle_ranks": {
+      "v42_mask_2178": 17,
+      "v42_mask_5814": 12,
+      "v42_mask_5815": 13
+    },
+    "fixed_point_cycle_ranks": [
+      1,
+      1,
+      1
+    ]
+  },
+  "positive_empirical_frontier": {
+    "pareto_count": 1,
+    "rows": [
+      {
+        "fixed_point_index": 0,
+        "source_seed": "v42_mask_2178",
+        "tm_score": 0.14672009842844166,
+        "ca_drmsd_angstrom": 5.894479963846462,
+        "graph_components": 1,
+        "graph_cycle_rank": 1,
+        "states_changed_from_parent": 38,
+        "parent_tm_improvement_percent": 28.05494169431031,
+        "parent_drmsd_improvement_percent": 3.4199834786929673,
+        "v43_distance_frontier_improvement_percent": 1.202807515456028,
+        "prediction_pdb_sha256": "d1bbc07461bb8f4ec948255218562cc4ee580f8e90d8aaf897a91ea10da58b70"
+      }
+    ]
+  },
+  "complete_empirical_frontier": [
+    {
+      "fixed_point_index": 0,
+      "source_seed": "v42_mask_2178",
+      "tm_score": 0.14672009842844166,
+      "ca_drmsd_angstrom": 5.894479963846462,
+      "states_changed_from_parent": 38,
+      "tm_change_from_parent_percent": 28.05494169431031,
+      "drmsd_improvement_from_parent_percent": 3.4199834786929673
+    },
+    {
+      "fixed_point_index": 1,
+      "source_seed": "v42_mask_5815",
+      "tm_score": 0.13202423499139324,
+      "ca_drmsd_angstrom": 8.199521195666648,
+      "states_changed_from_parent": 38,
+      "tm_change_from_parent_percent": -14.068252413897419,
+      "drmsd_improvement_from_parent_percent": -19.891101264959453
+    },
+    {
+      "fixed_point_index": 2,
+      "source_seed": "v42_mask_5814",
+      "tm_score": 0.09246955911314943,
+      "ca_drmsd_angstrom": 6.826056015675712,
+      "states_changed_from_parent": 31,
+      "tm_change_from_parent_percent": -40.101825812699886,
+      "drmsd_improvement_from_parent_percent": 1.4568359453799418
+    }
+  ],
+  "provenance_boundary": "All three V42 connected parents, every paired-state scan, all strict fixed-point sweeps and all three emitted structures were sealed before target access. The post-seal measurements preserve the complete frontier and do not select fixed point 0 as a unique engine output.",
+  "sha256": {
+    "selector_manifest": "0d9160f6358296eb83cc64bebf5edff9dca845a1e78b27b731ec7808971e82c2",
+    "selector_input": "29f14e8586f8322dc78f971dbfb17f502e86607dfafca022da7c106a4b228506",
+    "seal": "9f10df1d44846888bd268cd65fbd6a5bc17c1475a3051fc51363cdc3340fa7d6",
+    "frontier": "079ddbcac436517ebe4fba7a31575b4b5bf4c7fad1f3e3cae4fa4c026d4bc99a",
+    "evaluation": "c1ee4a4b7501f80f64820bf2bfce0d8f5d51008f408893d673839f37c966e3b2"
+  }
+}

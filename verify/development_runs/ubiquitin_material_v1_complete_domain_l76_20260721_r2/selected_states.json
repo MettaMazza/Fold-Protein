@@ -1,0 +1,786 @@
+{
+  "candidate_orderings": 0,
+  "complete_raw_signature_matches": 122,
+  "complete_raw_state_candidates": 43776,
+  "contact_relation_checks": 40,
+  "elapsed_seconds": 29.500801125,
+  "fitted_parameters": 0,
+  "long_range_orientation_checks": 2628,
+  "material_trace": [
+    {
+      "boundary_gauge_axis": "phi",
+      "boundary_gauge_value": 0,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 24,
+      "residue_position_one_based": 1,
+      "sequence_window": "MQI",
+      "unique_state": 19
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 2,
+      "sequence_window": "MQI",
+      "unique_state": 31
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 3,
+      "sequence_window": "QIF",
+      "unique_state": 408
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 4,
+      "sequence_window": "IFV",
+      "unique_state": 18
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 5,
+      "sequence_window": "FVK",
+      "unique_state": 189
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 6,
+      "sequence_window": "VKT",
+      "unique_state": 115
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 7,
+      "sequence_window": "KTL",
+      "unique_state": 168
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 8,
+      "sequence_window": "TLT",
+      "unique_state": 177
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 9,
+      "sequence_window": "LTG",
+      "unique_state": 184
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 10,
+      "sequence_window": "TGK",
+      "unique_state": 391
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 11,
+      "sequence_window": "GKT",
+      "unique_state": 312
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 12,
+      "sequence_window": "KTI",
+      "unique_state": 55
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 13,
+      "sequence_window": "TIT",
+      "unique_state": 454
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 14,
+      "sequence_window": "ITL",
+      "unique_state": 125
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 15,
+      "sequence_window": "TLE",
+      "unique_state": 506
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 16,
+      "sequence_window": "LEV",
+      "unique_state": 544
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 17,
+      "sequence_window": "EVE",
+      "unique_state": 119
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 18,
+      "sequence_window": "VEP",
+      "unique_state": 116
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 19,
+      "sequence_window": "EPS",
+      "unique_state": 295
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 20,
+      "sequence_window": "PSD",
+      "unique_state": 209
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 21,
+      "sequence_window": "SDT",
+      "unique_state": 103
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 22,
+      "sequence_window": "DTI",
+      "unique_state": 498
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 23,
+      "sequence_window": "TIE",
+      "unique_state": 271
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 24,
+      "sequence_window": "IEN",
+      "unique_state": 251
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 25,
+      "sequence_window": "ENV",
+      "unique_state": 130
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 26,
+      "sequence_window": "NVK",
+      "unique_state": 180
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 27,
+      "sequence_window": "VKA",
+      "unique_state": 130
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 28,
+      "sequence_window": "KAK",
+      "unique_state": 178
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 29,
+      "sequence_window": "AKI",
+      "unique_state": 179
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 30,
+      "sequence_window": "KIQ",
+      "unique_state": 154
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 31,
+      "sequence_window": "IQD",
+      "unique_state": 156
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 32,
+      "sequence_window": "QDK",
+      "unique_state": 132
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 33,
+      "sequence_window": "DKE",
+      "unique_state": 83
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 34,
+      "sequence_window": "KEG",
+      "unique_state": 84
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 35,
+      "sequence_window": "EGI",
+      "unique_state": 404
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 36,
+      "sequence_window": "GIP",
+      "unique_state": 54
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 37,
+      "sequence_window": "IPP",
+      "unique_state": 561
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 38,
+      "sequence_window": "PPD",
+      "unique_state": 443
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 39,
+      "sequence_window": "PDQ",
+      "unique_state": 131
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 40,
+      "sequence_window": "DQQ",
+      "unique_state": 131
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 41,
+      "sequence_window": "QQR",
+      "unique_state": 192
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 42,
+      "sequence_window": "QRL",
+      "unique_state": 79
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 43,
+      "sequence_window": "RLI",
+      "unique_state": 451
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 44,
+      "sequence_window": "LIF",
+      "unique_state": 92
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 45,
+      "sequence_window": "IFA",
+      "unique_state": 93
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 46,
+      "sequence_window": "FAG",
+      "unique_state": 396
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 47,
+      "sequence_window": "AGK",
+      "unique_state": 490
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 48,
+      "sequence_window": "GKQ",
+      "unique_state": 191
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 49,
+      "sequence_window": "KQL",
+      "unique_state": 174
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 50,
+      "sequence_window": "QLE",
+      "unique_state": 7
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 51,
+      "sequence_window": "LED",
+      "unique_state": 452
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 52,
+      "sequence_window": "EDG",
+      "unique_state": 222
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 53,
+      "sequence_window": "DGR",
+      "unique_state": 210
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 54,
+      "sequence_window": "GRT",
+      "unique_state": 18
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 55,
+      "sequence_window": "RTL",
+      "unique_state": 240
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 56,
+      "sequence_window": "TLS",
+      "unique_state": 132
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 57,
+      "sequence_window": "LSD",
+      "unique_state": 132
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 58,
+      "sequence_window": "SDY",
+      "unique_state": 156
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 59,
+      "sequence_window": "DYN",
+      "unique_state": 107
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 60,
+      "sequence_window": "YNI",
+      "unique_state": 470
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 61,
+      "sequence_window": "NIQ",
+      "unique_state": 187
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 62,
+      "sequence_window": "IQK",
+      "unique_state": 144
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 63,
+      "sequence_window": "QKE",
+      "unique_state": 219
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 64,
+      "sequence_window": "KES",
+      "unique_state": 295
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 65,
+      "sequence_window": "EST",
+      "unique_state": 385
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 66,
+      "sequence_window": "STL",
+      "unique_state": 54
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 67,
+      "sequence_window": "TLH",
+      "unique_state": 454
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 68,
+      "sequence_window": "LHL",
+      "unique_state": 148
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 69,
+      "sequence_window": "HLV",
+      "unique_state": 520
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 70,
+      "sequence_window": "LVL",
+      "unique_state": 165
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 71,
+      "sequence_window": "VLR",
+      "unique_state": 193
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 72,
+      "sequence_window": "LRL",
+      "unique_state": 36
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 73,
+      "sequence_window": "RLR",
+      "unique_state": 336
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 74,
+      "sequence_window": "LRG",
+      "unique_state": 83
+    },
+    {
+      "boundary_gauge_axis": null,
+      "boundary_gauge_value": null,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 1,
+      "residue_position_one_based": 75,
+      "sequence_window": "RGG",
+      "unique_state": 70
+    },
+    {
+      "boundary_gauge_axis": "psi",
+      "boundary_gauge_value": 0,
+      "raw_candidate_count": 576,
+      "raw_signature_match_count": 24,
+      "residue_position_one_based": 76,
+      "sequence_window": "RGG",
+      "unique_state": 0
+    }
+  ],
+  "maximum_resident_set_bytes": 30146560,
+  "memory_platform": "darwin",
+  "official_run": false,
+  "quartet_geometry_checks": 73,
+  "result_type": "cumulative development benchmark",
+  "run_id": "ubiquitin-material-v1-complete-domain-l76-20260721-r2",
+  "runtime_target_accesses": 0,
+  "schema": "fold-protein-material-states/v1",
+  "sequence": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+  "states": [
+    19,
+    31,
+    408,
+    18,
+    189,
+    115,
+    168,
+    177,
+    184,
+    391,
+    312,
+    55,
+    454,
+    125,
+    506,
+    544,
+    119,
+    116,
+    295,
+    209,
+    103,
+    498,
+    271,
+    251,
+    130,
+    180,
+    130,
+    178,
+    179,
+    154,
+    156,
+    132,
+    83,
+    84,
+    404,
+    54,
+    561,
+    443,
+    131,
+    131,
+    192,
+    79,
+    451,
+    92,
+    93,
+    396,
+    490,
+    191,
+    174,
+    7,
+    452,
+    222,
+    210,
+    18,
+    240,
+    132,
+    132,
+    156,
+    107,
+    470,
+    187,
+    144,
+    219,
+    295,
+    385,
+    54,
+    454,
+    148,
+    520,
+    165,
+    193,
+    36,
+    336,
+    83,
+    70,
+    0
+  ],
+  "status": "completed",
+  "unique_material_states": 76,
+  "weights": 0,
+  "window_geometry_checks": 74
+}
