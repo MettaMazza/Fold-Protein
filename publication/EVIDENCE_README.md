@@ -1,8 +1,8 @@
 # Evidence accompanying the standalone Blind Predictive Super Parity paper
 
 This evidence release accompanies Maria Smith's standalone paper *From One
-Self-Proven Theorem to Blind Protein Structure* (DOI
-`10.5281/zenodo.21482128`). The paper is the primary publication artifact and
+Self-Proven Theorem to Blind Protein Structure* (concept DOI
+`10.5281/zenodo.21482127`). The paper is the primary publication artifact and
 the authoritative current synthesis of Fold Protein.
 
 ## Central empirical result

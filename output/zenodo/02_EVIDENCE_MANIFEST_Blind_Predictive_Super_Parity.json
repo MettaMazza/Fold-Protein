@@ -1,7 +1,7 @@
 {
   "schema": "fold-protein-standalone-zenodo-evidence/v1",
   "title": "From One Self-Proven Theorem to Blind Protein Structure",
-  "doi": "10.5281/zenodo.21482128",
+  "concept_doi": "10.5281/zenodo.21482127",
   "author": "Maria Smith — Ernos Labs",
   "result": "Blind Predictive Super Parity across 24 sealed whole-structure tests",
   "headline_metrics": {
@@ -23,8 +23,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 60350,
-      "sha256": "c3bfee93a12fb4132b373c74218539912fc66fba43cf4310e078b426eabf5be2"
+      "bytes": 60358,
+      "sha256": "2618479a326b8ab3ad5eee6fa48f555da39026d34c4c8673e0616cbbef201594"
     },
     {
       "path": "calculate_tm.py",
@@ -78,18 +78,18 @@
     },
     {
       "path": "papers/From_One_Theorem_to_Blind_Protein_Structure_A_Zero_Parameter_Computational_Proof.md",
-      "bytes": 66357,
-      "sha256": "528c68e01ac43be516cf5470eebfcf3f44fa111ef88a4b04a9b1e5b7b6e7f296"
+      "bytes": 66373,
+      "sha256": "9e87d50f45b54ecce28a9121cdc24dd1adf9f5a5198c249bd259bdce77149103"
     },
     {
       "path": "publication/EVIDENCE_README.md",
-      "bytes": 3672,
-      "sha256": "100b0d71ad066e698ed06888f26d5887e9ed084a6ebbdd711fc05a9bc8a72787"
+      "bytes": 3680,
+      "sha256": "341f1655742e6b3d768075b48cbc822cac856f28cd8733c34fac34f190b9396f"
     },
     {
       "path": "publication/zenodo_standalone_metadata_v1.json",
       "bytes": 6277,
-      "sha256": "68d4c48553ef669f43c4a831e1d1b4366e3d44944ec53f0f75cbde7ad9580b6d"
+      "sha256": "b030aa5f357cfcb8d1daed071b5d9d255c69684814bcb36c9962a84652b48239"
     },
     {
       "path": "requirements-reproduction.txt",

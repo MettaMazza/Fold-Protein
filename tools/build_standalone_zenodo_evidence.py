@@ -128,7 +128,7 @@ def main() -> None:
     manifest = {
         "schema": "fold-protein-standalone-zenodo-evidence/v1",
         "title": "From One Self-Proven Theorem to Blind Protein Structure",
-        "doi": "10.5281/zenodo.21482128",
+        "concept_doi": "10.5281/zenodo.21482127",
         "author": "Maria Smith — Ernos Labs",
         "result": "Blind Predictive Super Parity across 24 sealed whole-structure tests",
         "headline_metrics": {

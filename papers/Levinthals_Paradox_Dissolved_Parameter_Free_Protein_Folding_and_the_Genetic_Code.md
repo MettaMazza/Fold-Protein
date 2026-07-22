@@ -3,7 +3,7 @@
 > **Status — superseded development artifact.** This paper is preserved for
 > chronological provenance. The authoritative current Fold Protein paper is
 > [*From One Self-Proven Theorem to Blind Protein Structure*](From_One_Theorem_to_Blind_Protein_Structure_A_Zero_Parameter_Computational_Proof.md),
-> DOI [10.5281/zenodo.21482128](https://doi.org/10.5281/zenodo.21482128).
+> Concept DOI [10.5281/zenodo.21482127](https://doi.org/10.5281/zenodo.21482127).
 > The current result is **Blind Predictive Super Parity** on the complete
 > 76-residue ubiquitin backbone at **0.9891211351 TM_repo / 0.2608575408 Å Cα
 > dRMSD / 0.3261459535 Å Kabsch Cα RMSD**.

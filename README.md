@@ -8,7 +8,7 @@ Fold Protein is the protein-structure computational-proof project of the [Smithi
 Super Parity across 24 Sealed Whole-Structure Tests*](papers/From_One_Theorem_to_Blind_Protein_Structure_A_Zero_Parameter_Computational_Proof.md)
 is the authoritative current statement of the complete Protein programme.
 
-**Standalone DOI:** [10.5281/zenodo.21482128](https://doi.org/10.5281/zenodo.21482128)
+**Standalone concept DOI:** [10.5281/zenodo.21482127](https://doi.org/10.5281/zenodo.21482127)
 
 The empirical result is **Blind Predictive Super Parity across 24 complete
 sealed structures**: **0.9255486262 median TM_repo**, **0.7833590149 Å median

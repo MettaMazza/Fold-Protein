@@ -5,8 +5,8 @@
 ### AlphaFold-class median backbone accuracy through a zero-parameter, machine-checked and empirically measured computational proof
 
 **Maria Smith — Ernos Labs**  
-**Standalone publication edition 2 — 22 July 2026**  
-**DOI: [10.5281/zenodo.21482128](https://doi.org/10.5281/zenodo.21482128)**
+**Standalone publication edition 2.1 — 22 July 2026**
+**Concept DOI: [10.5281/zenodo.21482127](https://doi.org/10.5281/zenodo.21482127)**
 
 **Achieved result:** Fold Protein executed **24 complete whole-structure blind
 predictions** across four preregistered panels. Every PDB and state path was
@@ -1142,7 +1142,7 @@ Folding*. The earlier papers remain preserved as chronological development
 artifacts and provenance records; they are not the current statement of the
 work.
 
-- Standalone paper DOI: <https://doi.org/10.5281/zenodo.21482128>
+- Standalone paper concept DOI: <https://doi.org/10.5281/zenodo.21482127>
 - Fold Protein: <https://github.com/MettaMazza/Fold-Protein>
 - Smithian Fold Theory of Everything: <https://github.com/MettaMazza/Smithian-Fold-Theory-Of-Everything>
 - Superseded Protein development-artifact lineage: <https://doi.org/10.5281/zenodo.21276950>
