@@ -88,8 +88,8 @@
     },
     {
       "path": "publication/zenodo_standalone_metadata_v1.json",
-      "bytes": 6255,
-      "sha256": "432786094b2682b84707ecc48b25c173bd45d0a7a3f1ab7b8866cc0bb3dd059a"
+      "bytes": 6277,
+      "sha256": "68d4c48553ef669f43c4a831e1d1b4366e3d44944ec53f0f75cbde7ad9580b6d"
     },
     {
       "path": "requirements-reproduction.txt",
