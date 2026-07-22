@@ -1,0 +1,85 @@
+{
+  "blind_prediction": true,
+  "official_run": false,
+  "panel_id": "protein-blind-published-material-replication-2-20260722",
+  "panel_registration_sha256": "83b7ae733b27c7fc9eaeaa0f064cf1508e7f28805093b6be0bb381bb56cf24d6",
+  "prediction_count": 10,
+  "published_manifest_sha256": "5c9771cccd998484e32e1180bdb6c3555c7c555c1175328164ba6cb6a9cba6ac",
+  "result_type": "cumulative blind development benchmark",
+  "runs": [
+    {
+      "nested_seal_sha256": "976ee4ac8dce7a3152dafefde5a757e2acd0d30f7ce39a14a4f0d584650ef99a",
+      "prediction_pdb_sha256": "0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d",
+      "protein_id": "published-material-replication2-1f9j-a-model1",
+      "selected_states_sha256": "2cf7beacfbbaa2a5bd64d0836425f516833d32dcdb7aff0ad339c3d9abac3548",
+      "sequence_sha256": "233b4b0b8c4616095bc3249f9375fc345d32af7deaef07117d0383c51d6f19aa"
+    },
+    {
+      "nested_seal_sha256": "f4a24152ca6111e26c412947f3b61ae4603b70f86fc929256a6af666cf14be85",
+      "prediction_pdb_sha256": "0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d",
+      "protein_id": "published-material-replication2-1fxt-b-model1",
+      "selected_states_sha256": "8edf685300322913c4bbc5920ed494a3595bc49969679368e1dd60451867f6b2",
+      "sequence_sha256": "233b4b0b8c4616095bc3249f9375fc345d32af7deaef07117d0383c51d6f19aa"
+    },
+    {
+      "nested_seal_sha256": "9802dec13e0b0dc3ceefb4e0ae72fbe7b8bd4ab35c879c7fe614aa8e9692506d",
+      "prediction_pdb_sha256": "0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d",
+      "protein_id": "published-material-replication2-1nbf-c-model1",
+      "selected_states_sha256": "4d59e99558cec4c2a4c2f4e2318a3707532e68d3047914d61c6afda8b90ea454",
+      "sequence_sha256": "233b4b0b8c4616095bc3249f9375fc345d32af7deaef07117d0383c51d6f19aa"
+    },
+    {
+      "nested_seal_sha256": "5cec1614e57b19650392ad036f88d4c00edff171d84bbe62ced6cbdba70ca26e",
+      "prediction_pdb_sha256": "0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d",
+      "protein_id": "published-material-replication2-1p3q-u-model1",
+      "selected_states_sha256": "ae0622a8e6cc276887f30fbf037383135a39e46cd5d7f799358d015cf925e481",
+      "sequence_sha256": "233b4b0b8c4616095bc3249f9375fc345d32af7deaef07117d0383c51d6f19aa"
+    },
+    {
+      "nested_seal_sha256": "0c1d55c072faafe881fabebabb9a6e8a93caf87408185ee1c8cf0334122bb684",
+      "prediction_pdb_sha256": "0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d",
+      "protein_id": "published-material-replication2-1q5w-b-model1",
+      "selected_states_sha256": "a241edfce036c79c30246b58ebdd6f842facf176d15e51aa3c6c41bc82ad4fe6",
+      "sequence_sha256": "233b4b0b8c4616095bc3249f9375fc345d32af7deaef07117d0383c51d6f19aa"
+    },
+    {
+      "nested_seal_sha256": "784b220b147fb949b9c4144cd63688a4a0ad46e5cefbe5e4097fa078fb53b41c",
+      "prediction_pdb_sha256": "0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d",
+      "protein_id": "published-material-replication2-1s1q-b-model1",
+      "selected_states_sha256": "3477a2987b253beccd601b23f5b2dc483f1405de012a65874ea39d39d89064ca",
+      "sequence_sha256": "233b4b0b8c4616095bc3249f9375fc345d32af7deaef07117d0383c51d6f19aa"
+    },
+    {
+      "nested_seal_sha256": "162463d59620a4ea78afa31a4762e395f68f06450b0984a4da0b6b54784925ca",
+      "prediction_pdb_sha256": "0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d",
+      "protein_id": "published-material-replication2-1uzx-b-model1",
+      "selected_states_sha256": "81a0307a9bcef97994007b4de9b0fa3db3a9b29f451e4686f5e608319ff48304",
+      "sequence_sha256": "233b4b0b8c4616095bc3249f9375fc345d32af7deaef07117d0383c51d6f19aa"
+    },
+    {
+      "nested_seal_sha256": "26997023cd6c0f6628f69e5c64049952ae4bd8abc8ef58dc1c58798676bed057",
+      "prediction_pdb_sha256": "0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d",
+      "protein_id": "published-material-replication2-1v80-a-model1",
+      "selected_states_sha256": "368f6b4ba9006d4cf83803d023363bfddec35ff3cddc807e78bfb4aee6406097",
+      "sequence_sha256": "233b4b0b8c4616095bc3249f9375fc345d32af7deaef07117d0383c51d6f19aa"
+    },
+    {
+      "nested_seal_sha256": "e6f3e77a2e098a91229c35e1a510808430cdb98baa5e63985536580c95fb350d",
+      "prediction_pdb_sha256": "0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d",
+      "protein_id": "published-material-replication2-1v81-a-model1",
+      "selected_states_sha256": "8439bf5a915b6b0c2366a68185579dc0e9f3afb850e38e7b3d2f0bd4698c15ce",
+      "sequence_sha256": "233b4b0b8c4616095bc3249f9375fc345d32af7deaef07117d0383c51d6f19aa"
+    },
+    {
+      "nested_seal_sha256": "db90732b397e61cdcb650689eac45e8476ce37644e1990c7ab7a945af700532f",
+      "prediction_pdb_sha256": "0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d",
+      "protein_id": "published-material-replication2-1wr6-e-model1",
+      "selected_states_sha256": "f068583810c9d3b131c17ffbd9da6a51f91540095b07b5014d3a1bdf7e1593ec",
+      "sequence_sha256": "233b4b0b8c4616095bc3249f9375fc345d32af7deaef07117d0383c51d6f19aa"
+    }
+  ],
+  "runtime_sha256": "148e868c416019419c65ba6bfbba2820d1ff5161f9df678e9f5d5b6f2c7c1d37",
+  "schema": "fold-protein-blind-published-material-panel-seal/v1",
+  "status": "completed",
+  "target_accesses_before_seal": 0
+}

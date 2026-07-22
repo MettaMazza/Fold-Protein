@@ -1,0 +1,14 @@
+{
+  "blind_prediction": true,
+  "fitted_parameters": 0,
+  "prediction_pdb_sha256": "8468ac3751e50596e862c923fab07ac53843f2c6700ae9eb5f83fe13f6755255",
+  "protein_id": "ubiquitin-one-extension-5ohm-a-model1",
+  "published_manifest_sha256": "5c9771cccd998484e32e1180bdb6c3555c7c555c1175328164ba6cb6a9cba6ac",
+  "runtime_sha256": "95ec7c7cc8fdf9fd8bccb78f753192424e6074d4b5842c3b72ece3c50951857b",
+  "schema": "fold-protein-blind-material-one-extension-seal/v1",
+  "selected_states_sha256": "3c5cb2c232511a3b993b360a89ae4e6fc5a37a1a74b2ac88523256f93de41ec2",
+  "sequence_sha256": "fed577835acdee0e091f1cd6ad110be38a92dc482d66fa184597f4f8878e918d",
+  "status": "completed",
+  "target_accesses": 0,
+  "weights": 0
+}

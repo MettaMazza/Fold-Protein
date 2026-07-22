@@ -3,23 +3,28 @@
   "title": "From One Self-Proven Theorem to Blind Protein Structure",
   "doi": "10.5281/zenodo.21482128",
   "author": "Maria Smith — Ernos Labs",
-  "result": "Blind Predictive Super Parity",
+  "result": "Blind Predictive Super Parity across 24 sealed whole-structure tests",
   "headline_metrics": {
-    "tm_repo": 0.9891211351471241,
-    "ca_drmsd_angstrom": 0.2608575407959516,
-    "kabsch_ca_rmsd_angstrom": 0.3261459535125402,
+    "complete_blind_structure_predictions": 24,
+    "median_tm_repo": 0.9255486261999419,
+    "mean_tm_repo": 0.9064218309434505,
+    "maximum_tm_repo": 0.9882113352098658,
+    "median_ca_rmsd95_angstrom": 0.7833590149340738,
+    "mean_ca_rmsd95_angstrom": 0.8971995303810973,
+    "alphafold_casp14_reported_median_ca_rmsd95_angstrom": 0.96,
+    "rows_at_or_below_alphafold_reported_median": 15,
     "raw_state_trials": 43776,
     "states_per_residue": 576,
     "trained_weights": 0,
     "fitted_parameters": 0,
     "candidate_orderings": 0,
-    "target_accesses": 0
+    "target_accesses_before_every_seal": 0
   },
   "files": [
     {
       "path": "README.md",
-      "bytes": 60021,
-      "sha256": "5dcb220363c2bf6101647c7a13849fcb977b8233f6ed73ca015c1c7751f53071"
+      "bytes": 60350,
+      "sha256": "c3bfee93a12fb4132b373c74218539912fc66fba43cf4310e078b426eabf5be2"
     },
     {
       "path": "calculate_tm.py",
@@ -73,18 +78,18 @@
     },
     {
       "path": "papers/From_One_Theorem_to_Blind_Protein_Structure_A_Zero_Parameter_Computational_Proof.md",
-      "bytes": 59667,
-      "sha256": "cd008005c4a00b683b7eb57b0fd6cc9491a3322758f1927c7a707b0b2d4410d3"
+      "bytes": 66357,
+      "sha256": "528c68e01ac43be516cf5470eebfcf3f44fa111ef88a4b04a9b1e5b7b6e7f296"
     },
     {
       "path": "publication/EVIDENCE_README.md",
-      "bytes": 2987,
-      "sha256": "04d7bbcbc104ddc08fa6c8eeb3c6c2eafb4a66d15948869ebe8c2110c77dea4f"
+      "bytes": 3672,
+      "sha256": "100b0d71ad066e698ed06888f26d5887e9ed084a6ebbdd711fc05a9bc8a72787"
     },
     {
       "path": "publication/zenodo_standalone_metadata_v1.json",
-      "bytes": 6015,
-      "sha256": "d894bbd1b69cdd4fbd456ff87c53388cdde843d1636b95935f7b2a0625d2c132"
+      "bytes": 6255,
+      "sha256": "432786094b2682b84707ecc48b25c173bd45d0a7a3f1ab7b8866cc0bb3dd059a"
     },
     {
       "path": "requirements-reproduction.txt",
@@ -107,14 +112,34 @@
       "sha256": "8c133e06884883460e3c7ea075262bafa0b7bad592b8340c27e55f4efd5bcc11"
     },
     {
+      "path": "tools/analyze_transferable_global_material_grammar_v2.py",
+      "bytes": 8107,
+      "sha256": "17ff38ef7cc85149436b63de6d3a8e7883e597a8a6a01fdf2fadca120dcf82f5"
+    },
+    {
+      "path": "tools/analyze_transferable_material_grammar_v1.py",
+      "bytes": 10920,
+      "sha256": "b2acf4717fa0a79442ebdcc44ec56b2b06b66e6b5ca9ddc8d5757531fa136cbb"
+    },
+    {
       "path": "tools/blind_24_lattice_selector_v3.py",
       "bytes": 5973,
       "sha256": "062c2e4174e42494d3631e0c6aa38a708ec1a5952dc321ce66328620ff305cb5"
     },
     {
+      "path": "tools/build_blind_multi_structure_evidence_v1.py",
+      "bytes": 11213,
+      "sha256": "2fe5751f7210b8fa467b1b33f2f04b193be33dd3acf3af2c8d76bfef56da4dac"
+    },
+    {
       "path": "tools/derive_protein_material_relation_v1.py",
       "bytes": 11912,
       "sha256": "3bba4858ec1df8ec6227b46f32cea81e65aff259ea1977c515e97c51a7d70bd5"
+    },
+    {
+      "path": "tools/derive_protein_transfer_material_command_v2.py",
+      "bytes": 7207,
+      "sha256": "ba51dc9f9dfbe5f22c7885473f927c8c12d07dcfe4cacf8cbef1a954e682776d"
     },
     {
       "path": "tools/predict_structure.py",
@@ -127,9 +152,29 @@
       "sha256": "9c998d7f8ea33ff601162e8e20b665f8e4c5a17f37195043d8b91015425bf945"
     },
     {
+      "path": "tools/protein_transfer_material_command_v2.py",
+      "bytes": 13206,
+      "sha256": "3387ddbb690f7ab9a23456622f1cf25f3594d7a553863eb7fc16d39ffa5dd8ae"
+    },
+    {
       "path": "tools/register_protein_material_protocol_v1.py",
       "bytes": 3364,
       "sha256": "ac3c02b299dc09b2c0a6b6a2c92acdc8d1da7152a971ef30df4fe32a2bc2a7fd"
+    },
+    {
+      "path": "tools/run_blind_material_one_extension_panel_v1.py",
+      "bytes": 6782,
+      "sha256": "95ec7c7cc8fdf9fd8bccb78f753192424e6074d4b5842c3b72ece3c50951857b"
+    },
+    {
+      "path": "tools/run_blind_material_one_extension_panel_v2.py",
+      "bytes": 6944,
+      "sha256": "92f1a3e2cca8211aa56aa900fb4017c1dab4a44896bd01445506fa0a151ee060"
+    },
+    {
+      "path": "tools/run_blind_published_material_panel_v1.py",
+      "bytes": 5268,
+      "sha256": "148e868c416019419c65ba6bfbba2820d1ff5161f9df678e9f5d5b6f2c7c1d37"
     },
     {
       "path": "tools/run_protein_material_protocol_v1.py",
@@ -143,8 +188,8 @@
     },
     {
       "path": "tools/verify_protein_forcing_registry.py",
-      "bytes": 14682,
-      "sha256": "8cb5c1efd5e44449e53dc57d2ea60c1061b6316cced09031e0bb2b224c20df09"
+      "bytes": 15716,
+      "sha256": "55d2c2c89c426654acd0fa101e20125c1721a8ad008752c1e5698c64c3b86af0"
     },
     {
       "path": "tools/verify_protein_material_architecture_v1.py",
@@ -175,6 +220,406 @@
       "path": "verify/blind_local_sequence_evidence_20260719.json",
       "bytes": 2625,
       "sha256": "a1476234f1d25f8ab01408db89f891788a2dea0d27b0c2cfb70ce07842204a73"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_material_one_extension_20260722/panel_registration.json",
+      "bytes": 2550,
+      "sha256": "4e661d1bb042bd6ed16bc32fded3d3977d8ce61aa4ff14d7bb031b1f81ae3ee1"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_material_one_extension_20260722/panel_seal.json",
+      "bytes": 2481,
+      "sha256": "80be07214065046a084740b0a35a08b060ab00d30b04314102dcabb86a0d46d7"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_material_one_extension_20260722/ubiquitin-one-extension-2znv-c-model1/prediction.pdb",
+      "bytes": 18287,
+      "sha256": "21bffe254a8c6126ef2e7e77d964d8357aa95674a8fd66908add653e94b9e2c2"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_material_one_extension_20260722/ubiquitin-one-extension-2znv-c-model1/seal.json",
+      "bytes": 711,
+      "sha256": "4be3f145dcca89f9330cebdca659a104f8f3bf1980c895847d0e25d942bc5f80"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_material_one_extension_20260722/ubiquitin-one-extension-2znv-c-model1/selected_states.json",
+      "bytes": 1312,
+      "sha256": "aeb0acc9a26fdbfaedc8d9abd6551c1fb5322beb9aff802dc8ab9583234e8a23"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_material_one_extension_20260722/ubiquitin-one-extension-3a1q-a-model1/prediction.pdb",
+      "bytes": 18287,
+      "sha256": "21bffe254a8c6126ef2e7e77d964d8357aa95674a8fd66908add653e94b9e2c2"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_material_one_extension_20260722/ubiquitin-one-extension-3a1q-a-model1/seal.json",
+      "bytes": 711,
+      "sha256": "2219176e95f8b91999a4b4c3d65b67d2eb90b76cac29122ea7cbe5de515b1a9e"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_material_one_extension_20260722/ubiquitin-one-extension-3a1q-a-model1/selected_states.json",
+      "bytes": 1322,
+      "sha256": "2fdc265965f806499d8b12e7b5db41cac8d86f14d378d450be817633b961e5d7"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_material_one_extension_20260722/ubiquitin-one-extension-3a9j-b-model1/prediction.pdb",
+      "bytes": 18287,
+      "sha256": "21bffe254a8c6126ef2e7e77d964d8357aa95674a8fd66908add653e94b9e2c2"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_material_one_extension_20260722/ubiquitin-one-extension-3a9j-b-model1/seal.json",
+      "bytes": 711,
+      "sha256": "c9af49a288d8f2e49f0f53bbb9fc0dfa4cb925bf1363597c058b3c01d090e5bc"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_material_one_extension_20260722/ubiquitin-one-extension-3a9j-b-model1/selected_states.json",
+      "bytes": 1322,
+      "sha256": "88e8de1a62fbfecc645d289bd922972052862dff9b3993dd82dad3114f867ed2"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_material_one_extension_20260722/ubiquitin-one-extension-5ohm-a-model1/prediction.pdb",
+      "bytes": 18287,
+      "sha256": "8468ac3751e50596e862c923fab07ac53843f2c6700ae9eb5f83fe13f6755255"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_material_one_extension_20260722/ubiquitin-one-extension-5ohm-a-model1/seal.json",
+      "bytes": 711,
+      "sha256": "0e5882469f00f6f38e969d6a93533ade238d722554a359cc6b353adeb8d115f3"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_material_one_extension_20260722/ubiquitin-one-extension-5ohm-a-model1/selected_states.json",
+      "bytes": 1321,
+      "sha256": "3c5cb2c232511a3b993b360a89ae4e6fc5a37a1a74b2ac88523256f93de41ec2"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_material_one_extension_v2_20260722/panel_registration.json",
+      "bytes": 2622,
+      "sha256": "61b0cbc8e34f1c82d3b1382a087ab5252d3c65d906ae9fdee113968005bb6e00"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_material_one_extension_v2_20260722/panel_seal.json",
+      "bytes": 2633,
+      "sha256": "0f430138bf1dc220e8ddb452f4799248751874187c365773b8877fa8486a3110"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_material_one_extension_v2_20260722/ubiquitin-sequence-command-extension-3jsv-b-model1/prediction.pdb",
+      "bytes": 18287,
+      "sha256": "f0fd5532530b83f6f9ff862433c3fd24889c60e2b1df2f24322436d028c491c8"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_material_one_extension_v2_20260722/ubiquitin-sequence-command-extension-3jsv-b-model1/seal.json",
+      "bytes": 821,
+      "sha256": "02a4fdf249211dfa0825b0a8cfd33a5da184bd463a112407e88dec800d4d9d07"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_material_one_extension_v2_20260722/ubiquitin-sequence-command-extension-3jsv-b-model1/selected_states.json",
+      "bytes": 3275,
+      "sha256": "4fc41ce35bddfb97fcd0634050fcc00a3e2786cbaf8b041e666707c0e3f01ab9"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_material_one_extension_v2_20260722/ubiquitin-sequence-command-extension-3wwq-b-model1/prediction.pdb",
+      "bytes": 18287,
+      "sha256": "f0fd5532530b83f6f9ff862433c3fd24889c60e2b1df2f24322436d028c491c8"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_material_one_extension_v2_20260722/ubiquitin-sequence-command-extension-3wwq-b-model1/seal.json",
+      "bytes": 821,
+      "sha256": "8f914547c77178bc1feae56dd3644187d5977a3413f6392c08d01fb9387a8403"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_material_one_extension_v2_20260722/ubiquitin-sequence-command-extension-3wwq-b-model1/selected_states.json",
+      "bytes": 3274,
+      "sha256": "899d3a7a78ee1eda4352186241a505ef84ef4e5417604e9755d4433e119bacd5"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_material_one_extension_v2_20260722/ubiquitin-sequence-command-extension-4nql-c-model1/prediction.pdb",
+      "bytes": 18287,
+      "sha256": "f0fd5532530b83f6f9ff862433c3fd24889c60e2b1df2f24322436d028c491c8"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_material_one_extension_v2_20260722/ubiquitin-sequence-command-extension-4nql-c-model1/seal.json",
+      "bytes": 821,
+      "sha256": "712eb4c697e4b2ad1d6a64115aa30644963743c1d1d82606d79598261501cac7"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_material_one_extension_v2_20260722/ubiquitin-sequence-command-extension-4nql-c-model1/selected_states.json",
+      "bytes": 3275,
+      "sha256": "7cac4f2bdba9d68561c1ecf0e5cfb64c7ec4fcfeb2eb7b22c41cc3efa68bb463"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_material_one_extension_v2_20260722/ubiquitin-sequence-command-extension-5xis-b-model1/prediction.pdb",
+      "bytes": 18287,
+      "sha256": "f0fd5532530b83f6f9ff862433c3fd24889c60e2b1df2f24322436d028c491c8"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_material_one_extension_v2_20260722/ubiquitin-sequence-command-extension-5xis-b-model1/seal.json",
+      "bytes": 821,
+      "sha256": "b84fe1d64bc7dc3540bd15b1e5226c6c144ebd9d85bb7db6c156370c48932398"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_material_one_extension_v2_20260722/ubiquitin-sequence-command-extension-5xis-b-model1/selected_states.json",
+      "bytes": 3275,
+      "sha256": "24364516f65ff87d7f4bee26fe87c4067b70e8aacda65c2e994d2cba4d3b7c67"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_panel_20260722/panel_registration.json",
+      "bytes": 3036,
+      "sha256": "be75d966240866e013fc398b10faf37b565062fc06b3823099f746f4af572578"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_panel_20260722/panel_seal.json",
+      "bytes": 3460,
+      "sha256": "cc279aa4aceee4289930819afdc589fee918f33384916014928f22f8b8892381"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_panel_20260722/published-material-independent-1aar-a-model1/prediction.pdb",
+      "bytes": 18050,
+      "sha256": "0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_panel_20260722/published-material-independent-1aar-a-model1/seal.json",
+      "bytes": 672,
+      "sha256": "d306f70a06fc1fb6b017faf12bd11d6ab234b2ecdaa875215528c72ba5941df5"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_panel_20260722/published-material-independent-1aar-a-model1/selected_states.json",
+      "bytes": 1115,
+      "sha256": "0296eaf7c6310a20521993e608455c1c08a176e6d38e42a1758231e9d35e5b0c"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_panel_20260722/published-material-independent-1d3z-a-model1/prediction.pdb",
+      "bytes": 18050,
+      "sha256": "0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_panel_20260722/published-material-independent-1d3z-a-model1/seal.json",
+      "bytes": 672,
+      "sha256": "44be4832be4cbaa4f8e7f073bf4a2e0c4d230eb2ac690216eeb3c35191262109"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_panel_20260722/published-material-independent-1d3z-a-model1/selected_states.json",
+      "bytes": 1115,
+      "sha256": "c4808ef6d7f7f95ecc0650bc7cd73e7caf147063f0b0c18c677f8079598c7d21"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_panel_20260722/published-material-independent-1g6j-a-model1/prediction.pdb",
+      "bytes": 18050,
+      "sha256": "0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_panel_20260722/published-material-independent-1g6j-a-model1/seal.json",
+      "bytes": 672,
+      "sha256": "26835827a3a13ea4d8c528ac67ec879fa8b0a1cd8f5806e1f32db8fd7545eb91"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_panel_20260722/published-material-independent-1g6j-a-model1/selected_states.json",
+      "bytes": 1115,
+      "sha256": "b047d93b6a50f04a5588eece429a6007132eb97e32612ef27a59c5478b7fb62f"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_panel_20260722/published-material-independent-1ogw-a-model1/prediction.pdb",
+      "bytes": 18050,
+      "sha256": "0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_panel_20260722/published-material-independent-1ogw-a-model1/seal.json",
+      "bytes": 672,
+      "sha256": "1f3207f2c7b6589abdec872934fb494887b29a85ca30e1a90a1f38d60b9d65e8"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_panel_20260722/published-material-independent-1ogw-a-model1/selected_states.json",
+      "bytes": 1115,
+      "sha256": "d176c976ca37270a16ccb1890d95fb519a9d4e3254a51ac6c9048a01f51ca5ef"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_panel_20260722/published-material-independent-1tbe-a-model1/prediction.pdb",
+      "bytes": 18050,
+      "sha256": "0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_panel_20260722/published-material-independent-1tbe-a-model1/seal.json",
+      "bytes": 672,
+      "sha256": "700269731b6824a1b11c557a54fca1c10721d0018910a29982072ff143149abc"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_panel_20260722/published-material-independent-1tbe-a-model1/selected_states.json",
+      "bytes": 1115,
+      "sha256": "f2190ea97c639911f2d10db7b8621cb1fd6b6bfb5fb6f599aa2d6231ed80299e"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_panel_20260722/published-material-independent-1ubi-a-model1/prediction.pdb",
+      "bytes": 18050,
+      "sha256": "0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_panel_20260722/published-material-independent-1ubi-a-model1/seal.json",
+      "bytes": 672,
+      "sha256": "9804d1d69abbebfa3abb86dd4eccebc66f5b0b36dc2c572e984133e113e07a6b"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_panel_20260722/published-material-independent-1ubi-a-model1/selected_states.json",
+      "bytes": 1115,
+      "sha256": "430d21946c40d6c95a9096f26272fd861ea646e28c281121789a6c9d233fb623"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_replication2_20260722/panel_registration.json",
+      "bytes": 3990,
+      "sha256": "83b7ae733b27c7fc9eaeaa0f064cf1508e7f28805093b6be0bb381bb56cf24d6"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_replication2_20260722/panel_seal.json",
+      "bytes": 5334,
+      "sha256": "53960e934d88621c0c14be1471e5f07eb96f2489720b13b5b24850d3e1498af3"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_replication2_20260722/published-material-replication2-1f9j-a-model1/prediction.pdb",
+      "bytes": 18050,
+      "sha256": "0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_replication2_20260722/published-material-replication2-1f9j-a-model1/seal.json",
+      "bytes": 673,
+      "sha256": "976ee4ac8dce7a3152dafefde5a757e2acd0d30f7ce39a14a4f0d584650ef99a"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_replication2_20260722/published-material-replication2-1f9j-a-model1/selected_states.json",
+      "bytes": 1116,
+      "sha256": "2cf7beacfbbaa2a5bd64d0836425f516833d32dcdb7aff0ad339c3d9abac3548"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_replication2_20260722/published-material-replication2-1fxt-b-model1/prediction.pdb",
+      "bytes": 18050,
+      "sha256": "0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_replication2_20260722/published-material-replication2-1fxt-b-model1/seal.json",
+      "bytes": 673,
+      "sha256": "f4a24152ca6111e26c412947f3b61ae4603b70f86fc929256a6af666cf14be85"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_replication2_20260722/published-material-replication2-1fxt-b-model1/selected_states.json",
+      "bytes": 1116,
+      "sha256": "8edf685300322913c4bbc5920ed494a3595bc49969679368e1dd60451867f6b2"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_replication2_20260722/published-material-replication2-1nbf-c-model1/prediction.pdb",
+      "bytes": 18050,
+      "sha256": "0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_replication2_20260722/published-material-replication2-1nbf-c-model1/seal.json",
+      "bytes": 673,
+      "sha256": "9802dec13e0b0dc3ceefb4e0ae72fbe7b8bd4ab35c879c7fe614aa8e9692506d"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_replication2_20260722/published-material-replication2-1nbf-c-model1/selected_states.json",
+      "bytes": 1116,
+      "sha256": "4d59e99558cec4c2a4c2f4e2318a3707532e68d3047914d61c6afda8b90ea454"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_replication2_20260722/published-material-replication2-1p3q-u-model1/prediction.pdb",
+      "bytes": 18050,
+      "sha256": "0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_replication2_20260722/published-material-replication2-1p3q-u-model1/seal.json",
+      "bytes": 673,
+      "sha256": "5cec1614e57b19650392ad036f88d4c00edff171d84bbe62ced6cbdba70ca26e"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_replication2_20260722/published-material-replication2-1p3q-u-model1/selected_states.json",
+      "bytes": 1116,
+      "sha256": "ae0622a8e6cc276887f30fbf037383135a39e46cd5d7f799358d015cf925e481"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_replication2_20260722/published-material-replication2-1q5w-b-model1/prediction.pdb",
+      "bytes": 18050,
+      "sha256": "0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_replication2_20260722/published-material-replication2-1q5w-b-model1/seal.json",
+      "bytes": 673,
+      "sha256": "0c1d55c072faafe881fabebabb9a6e8a93caf87408185ee1c8cf0334122bb684"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_replication2_20260722/published-material-replication2-1q5w-b-model1/selected_states.json",
+      "bytes": 1116,
+      "sha256": "a241edfce036c79c30246b58ebdd6f842facf176d15e51aa3c6c41bc82ad4fe6"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_replication2_20260722/published-material-replication2-1s1q-b-model1/prediction.pdb",
+      "bytes": 18050,
+      "sha256": "0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_replication2_20260722/published-material-replication2-1s1q-b-model1/seal.json",
+      "bytes": 673,
+      "sha256": "784b220b147fb949b9c4144cd63688a4a0ad46e5cefbe5e4097fa078fb53b41c"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_replication2_20260722/published-material-replication2-1s1q-b-model1/selected_states.json",
+      "bytes": 1116,
+      "sha256": "3477a2987b253beccd601b23f5b2dc483f1405de012a65874ea39d39d89064ca"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_replication2_20260722/published-material-replication2-1uzx-b-model1/prediction.pdb",
+      "bytes": 18050,
+      "sha256": "0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_replication2_20260722/published-material-replication2-1uzx-b-model1/seal.json",
+      "bytes": 673,
+      "sha256": "162463d59620a4ea78afa31a4762e395f68f06450b0984a4da0b6b54784925ca"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_replication2_20260722/published-material-replication2-1uzx-b-model1/selected_states.json",
+      "bytes": 1116,
+      "sha256": "81a0307a9bcef97994007b4de9b0fa3db3a9b29f451e4686f5e608319ff48304"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_replication2_20260722/published-material-replication2-1v80-a-model1/prediction.pdb",
+      "bytes": 18050,
+      "sha256": "0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_replication2_20260722/published-material-replication2-1v80-a-model1/seal.json",
+      "bytes": 673,
+      "sha256": "26997023cd6c0f6628f69e5c64049952ae4bd8abc8ef58dc1c58798676bed057"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_replication2_20260722/published-material-replication2-1v80-a-model1/selected_states.json",
+      "bytes": 1116,
+      "sha256": "368f6b4ba9006d4cf83803d023363bfddec35ff3cddc807e78bfb4aee6406097"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_replication2_20260722/published-material-replication2-1v81-a-model1/prediction.pdb",
+      "bytes": 18050,
+      "sha256": "0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_replication2_20260722/published-material-replication2-1v81-a-model1/seal.json",
+      "bytes": 673,
+      "sha256": "e6f3e77a2e098a91229c35e1a510808430cdb98baa5e63985536580c95fb350d"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_replication2_20260722/published-material-replication2-1v81-a-model1/selected_states.json",
+      "bytes": 1116,
+      "sha256": "8439bf5a915b6b0c2366a68185579dc0e9f3afb850e38e7b3d2f0bd4698c15ce"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_replication2_20260722/published-material-replication2-1wr6-e-model1/prediction.pdb",
+      "bytes": 18050,
+      "sha256": "0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_replication2_20260722/published-material-replication2-1wr6-e-model1/seal.json",
+      "bytes": 673,
+      "sha256": "db90732b397e61cdcb650689eac45e8476ce37644e1990c7ab7a945af700532f"
+    },
+    {
+      "path": "verify/development_runs/protein_blind_published_material_replication2_20260722/published-material-replication2-1wr6-e-model1/selected_states.json",
+      "bytes": 1116,
+      "sha256": "f068583810c9d3b131c17ffbd9da6a51f91540095b07b5014d3a1bdf7e1593ec"
     },
     {
       "path": "verify/development_runs/ubiquitin_material_v1_complete_domain_l76_20260721_r2/evaluation.json",
@@ -222,14 +667,39 @@
       "sha256": "43cf18b914a87e76f5190379e2fc91fc6a03d42d3a4b2721668c4422e4b1e517"
     },
     {
+      "path": "verify/protein_blind_material_one_extension_registration_20260722.json",
+      "bytes": 2550,
+      "sha256": "4e661d1bb042bd6ed16bc32fded3d3977d8ce61aa4ff14d7bb031b1f81ae3ee1"
+    },
+    {
+      "path": "verify/protein_blind_material_one_extension_v2_registration_20260722.json",
+      "bytes": 2622,
+      "sha256": "61b0cbc8e34f1c82d3b1382a087ab5252d3c65d906ae9fdee113968005bb6e00"
+    },
+    {
+      "path": "verify/protein_blind_multi_structure_evidence_v1.json",
+      "bytes": 20628,
+      "sha256": "4328437e8cdab4cf6185a84c696c5f95139e5686b0ace38f44193b033e4e7f83"
+    },
+    {
+      "path": "verify/protein_blind_published_material_panel_registration_20260722.json",
+      "bytes": 3036,
+      "sha256": "be75d966240866e013fc398b10faf37b565062fc06b3823099f746f4af572578"
+    },
+    {
+      "path": "verify/protein_blind_published_material_replication2_registration_20260722.json",
+      "bytes": 3990,
+      "sha256": "83b7ae733b27c7fc9eaeaa0f064cf1508e7f28805093b6be0bb381bb56cf24d6"
+    },
+    {
       "path": "verify/protein_derivation_admission_v1.json",
       "bytes": 14754,
       "sha256": "babb3d95aaec6045306730215cca3083d7c13fd657fdec9ebbfeb6ab6cb71d25"
     },
     {
       "path": "verify/protein_forcing_registry_v1.json",
-      "bytes": 99749,
-      "sha256": "322af2035dc430de044c0625c0ece3c411b04f2c13eb195a031b456d0cb339c3"
+      "bytes": 100181,
+      "sha256": "ab8deb4bac8016be5e597ae81cdbccdc35d0a6c0c5c0c4d9d1a95819d4a5fb61"
     },
     {
       "path": "verify/protein_material_architecture_v1_admission.json",
@@ -257,9 +727,134 @@
       "sha256": "54de29224e0a4d2ec5e191845bfd7ca3b18ad8161444dd383a46fc602c05b3da"
     },
     {
+      "path": "verify/protein_transfer_material_command_v2.json",
+      "bytes": 23350,
+      "sha256": "66f386e1c3132633d33444f97711d06cc6bd4f329604e1072f5ae596fff127bd"
+    },
+    {
       "path": "verify/replay_ubiquitin_24_lattice.py",
       "bytes": 3380,
       "sha256": "5bb800964bf0fb533e6db187e33bf5df81a7b957667a8e8819f8238451ea861f"
+    },
+    {
+      "path": "verify/targets/protein_blind_material_one_extension_20260722/2znv.pdb",
+      "bytes": 515727,
+      "sha256": "01b83134337319df518426b9769ece2c811ad770dbd7480eacb902cdd267dc97"
+    },
+    {
+      "path": "verify/targets/protein_blind_material_one_extension_20260722/3a1q.pdb",
+      "bytes": 297594,
+      "sha256": "836d6f5ea2164eaca92c5abf69b6913cc8215c384dc950de1ffae45984c6a22c"
+    },
+    {
+      "path": "verify/targets/protein_blind_material_one_extension_20260722/3a9j.pdb",
+      "bytes": 313794,
+      "sha256": "e36fba4c6e2d7a8d722fbdbe146537a96f9b629c67aa3656df9f42ccf07e73e2"
+    },
+    {
+      "path": "verify/targets/protein_blind_material_one_extension_20260722/5ohm.pdb",
+      "bytes": 1314711,
+      "sha256": "db03fe8c21e447180631dfe794ad564a2966a41b296fc61e83ebba4c0cc546ce"
+    },
+    {
+      "path": "verify/targets/protein_blind_material_one_extension_v2_20260722/3jsv.pdb",
+      "bytes": 247536,
+      "sha256": "47ae4de504c4a9a6ede265cbd2ff10baf5a77a09bc50af2098e301fcd694ed35"
+    },
+    {
+      "path": "verify/targets/protein_blind_material_one_extension_v2_20260722/3wwq.pdb",
+      "bytes": 1081593,
+      "sha256": "c7735f3aff6817225c33b2045e83518889fa40b8d58b7bb2dffe9f98e79f1455"
+    },
+    {
+      "path": "verify/targets/protein_blind_material_one_extension_v2_20260722/4nql.pdb",
+      "bytes": 460890,
+      "sha256": "f092d4658ca497d24aaad538d9a56858872ca0680344e4bd38456c7356561c5a"
+    },
+    {
+      "path": "verify/targets/protein_blind_material_one_extension_v2_20260722/5xis.pdb",
+      "bytes": 374058,
+      "sha256": "b9ea5c954ece678069fc05d5c05085fd9aef1b68f65abb7904029de1aa99cd66"
+    },
+    {
+      "path": "verify/targets/protein_blind_published_material_panel_20260722/1aar.pdb",
+      "bytes": 124497,
+      "sha256": "00192b48e8b59cca9e68acb7f9c3144f79576c77d84be8db35e0cce5ceffb3c7"
+    },
+    {
+      "path": "verify/targets/protein_blind_published_material_panel_20260722/1d3z.pdb",
+      "bytes": 1015821,
+      "sha256": "21099cb88231455fdfab4095dddfadcc85cc4213e105cf5f9cfff2ca21993378"
+    },
+    {
+      "path": "verify/targets/protein_blind_published_material_panel_20260722/1g6j.pdb",
+      "bytes": 3209139,
+      "sha256": "2e3a9c76ab8c98f7065f280ff630a534083d6b67588c7af8f2a32a364d8f6188"
+    },
+    {
+      "path": "verify/targets/protein_blind_published_material_panel_20260722/1ogw.pdb",
+      "bytes": 90153,
+      "sha256": "b8f2125dab22dae5ceee162c05aa7ecf845e376f3e00885d7b83cc31ba8750db"
+    },
+    {
+      "path": "verify/targets/protein_blind_published_material_panel_20260722/1tbe.pdb",
+      "bytes": 121014,
+      "sha256": "72d1ac94887cb52ad4b5d606fb508b91874b7d86c197cdaad95c7c65007f2ff7"
+    },
+    {
+      "path": "verify/targets/protein_blind_published_material_panel_20260722/1ubi.pdb",
+      "bytes": 75978,
+      "sha256": "2cf69ce2c9b3dc74747c4b367191db3b1ae84072f088370a5d087be5ab28c353"
+    },
+    {
+      "path": "verify/targets/protein_blind_published_material_replication2_20260722/1f9j.pdb",
+      "bytes": 126765,
+      "sha256": "0e52f39fe9e1fe46addd77dfa655900919692dd922ab1924f31b948785a3e3c4"
+    },
+    {
+      "path": "verify/targets/protein_blind_published_material_replication2_20260722/1fxt.pdb",
+      "bytes": 313875,
+      "sha256": "52225ce6540f763f7024bf18d0f372200d5f22f68162dd113c229e0696202049"
+    },
+    {
+      "path": "verify/targets/protein_blind_published_material_replication2_20260722/1nbf.pdb",
+      "bytes": 863622,
+      "sha256": "8cc649915134d8da64e00148d59fcc3a9954e58ff76b8bc6cba77a97f17d9402"
+    },
+    {
+      "path": "verify/targets/protein_blind_published_material_replication2_20260722/1p3q.pdb",
+      "bytes": 197559,
+      "sha256": "9e1b3bad05a777930d4ae05cb873acc0b6a39dbfb867bc2475cde9eee6043461"
+    },
+    {
+      "path": "verify/targets/protein_blind_published_material_replication2_20260722/1q5w.pdb",
+      "bytes": 2736990,
+      "sha256": "596986a010b3f3af63c714852839f15f6ff47c7f1d571ff8fe1521d75010d931"
+    },
+    {
+      "path": "verify/targets/protein_blind_published_material_replication2_20260722/1s1q.pdb",
+      "bytes": 377298,
+      "sha256": "7b7d82b360b9946e63422eed27eba1435499fb3a55bd77d923b95b03af4d981c"
+    },
+    {
+      "path": "verify/targets/protein_blind_published_material_replication2_20260722/1uzx.pdb",
+      "bytes": 196506,
+      "sha256": "518362bda310ea2374eaaa495863ec386f2f9377d777c6197c129d682fe05cc9"
+    },
+    {
+      "path": "verify/targets/protein_blind_published_material_replication2_20260722/1v80.pdb",
+      "bytes": 929151,
+      "sha256": "b9658f32ca1acd1da1280168ebe3c8c63e4a82a095346afae2118421fe5d2664"
+    },
+    {
+      "path": "verify/targets/protein_blind_published_material_replication2_20260722/1v81.pdb",
+      "bytes": 929151,
+      "sha256": "ab24dace31bb35d63a2aba412ac84a11c859ed7effb24b159016588c33200e5e"
+    },
+    {
+      "path": "verify/targets/protein_blind_published_material_replication2_20260722/1wr6.pdb",
+      "bytes": 485028,
+      "sha256": "1fb4fb5a01c768b8eddf5f2eb427f4dfa408811861e335fb466686488c10c99f"
     },
     {
       "path": "verify/test_protein_folding_3d_v2.c",

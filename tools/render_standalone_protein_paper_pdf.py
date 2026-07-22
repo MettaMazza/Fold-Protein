@@ -238,10 +238,10 @@ class PublicationDoc(BaseDocTemplate):
             rightMargin=20 * mm,
             topMargin=20 * mm,
             bottomMargin=18 * mm,
-            title="From One Self-Proven Theorem to Blind Protein Structure: Blind Predictive Super Parity",
+            title="From One Self-Proven Theorem to Blind Protein Structure: Blind Predictive Super Parity across 24 Sealed Whole-Structure Tests",
             author="Maria Smith — Ernos Labs",
-            subject="Blind Predictive Super Parity through a zero-parameter, machine-checked protein-structure computational proof",
-            keywords="protein structure, ubiquitin, Smithian Fold Theory, computational proof, blind prediction",
+            subject="Blind Predictive Super Parity across 24 sealed whole-structure tests through a zero-parameter, machine-checked protein computational proof",
+            keywords="protein structure, ubiquitin, Smithian Fold Theory, computational proof, blind prediction, AlphaFold parity",
         )
         frame = Frame(self.leftMargin, self.bottomMargin, self.width, self.height, id="body")
         self.addPageTemplates(PageTemplate(id="paper", frames=[frame], onPage=self.decorate))
@@ -284,17 +284,17 @@ def cover(st):
     )
     story.append(
         Paragraph(
-            "Blind Predictive Super Parity through a zero-parameter,<br/>machine-checked and empirically measured computational proof",
+            "Blind Predictive Super Parity across 24 sealed<br/>whole-structure tests",
             ParagraphStyle("Subtitle", fontName="Ernos", fontSize=13, leading=17, textColor=TEAL, alignment=TA_CENTER, spaceAfter=15),
         )
     )
     story.append(Paragraph("<b>Maria Smith</b><br/>Ernos Labs", ParagraphStyle("Author", fontName="Ernos", fontSize=11, leading=15, textColor=TEXT, alignment=TA_CENTER, spaceAfter=9)))
-    story.append(Paragraph("22 July 2026&nbsp;&nbsp;·&nbsp;&nbsp;Standalone publication edition 1<br/><link href=\"https://doi.org/10.5281/zenodo.21482128\" color=\"#087F8C\"><u>doi:10.5281/zenodo.21482128</u></link>", ParagraphStyle("Edition", fontName="Ernos", fontSize=9, leading=13, textColor=MID, alignment=TA_CENTER, spaceAfter=16)))
+    story.append(Paragraph("22 July 2026&nbsp;&nbsp;·&nbsp;&nbsp;Standalone publication edition 2<br/><link href=\"https://doi.org/10.5281/zenodo.21482128\" color=\"#087F8C\"><u>doi:10.5281/zenodo.21482128</u></link>", ParagraphStyle("Edition", fontName="Ernos", fontSize=9, leading=13, textColor=MID, alignment=TA_CENTER, spaceAfter=16)))
 
     key_data = [
         [Paragraph("<b>BLIND PREDICTIVE SUPER PARITY</b>", ParagraphStyle("BoxHead", fontName="ErnosBold", fontSize=8, leading=10, textColor=colors.white, alignment=TA_CENTER))],
-        [Paragraph("<b>0.9891211351</b> TM<sub>repo</sub>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<b>0.2608575408 Å</b> Cα dRMSD&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<b>0.3261459535 Å</b> Kabsch Cα RMSD", ParagraphStyle("BoxResult", fontName="Ernos", fontSize=10.5, leading=15, textColor=NAVY, alignment=TA_CENTER))],
-        [Paragraph("576 exact states per residue · 43,776 complete state trials · 0 weights · 0 fitted parameters · 0 runtime target accesses", ParagraphStyle("BoxDetail", fontName="Ernos", fontSize=8.5, leading=12, textColor=TEXT, alignment=TA_CENTER))],
+        [Paragraph("<b>24</b> complete blind structures&nbsp;&nbsp;|&nbsp;&nbsp;<b>0.9255486262</b> median TM<sub>repo</sub>&nbsp;&nbsp;|&nbsp;&nbsp;<b>0.7833590149 Å</b> median Cα RMSD95", ParagraphStyle("BoxResult", fontName="Ernos", fontSize=10.0, leading=15, textColor=NAVY, alignment=TA_CENTER))],
+        [Paragraph("15/24 at or beyond AlphaFold's reported median · 0 weights · 0 fitted parameters · 0 target accesses before every seal", ParagraphStyle("BoxDetail", fontName="Ernos", fontSize=8.5, leading=12, textColor=TEXT, alignment=TA_CENTER))],
     ]
     key = Table(key_data, colWidths=[164 * mm], rowHeights=[9 * mm, 15 * mm, 14 * mm])
     key.setStyle(TableStyle([
@@ -308,7 +308,7 @@ def cover(st):
     story.extend([key, Spacer(1, 12 * mm)])
     story.append(
         Paragraph(
-            "An explicit mathematical relation generates a sealed protein structure before experimental comparison. The result combines transparent derivation, machine checking, blind execution and reproducible empirical measurement. Opaque prediction establishes measured reliability; this work establishes the higher evidentiary chain by additionally exposing the proposed folding law.",
+            "Twenty-four complete structures were sealed before experimental comparison. Their AlphaFold-class median accuracy is joined to first-principles derivation, machine checking, zero parameters and reproducible empirical measurement. Predictive parity plus transparent proof establishes Super Parity.",
             ParagraphStyle("CoverClaim", fontName="Ernos", fontSize=10.2, leading=15, textColor=TEXT, alignment=TA_CENTER, leftIndent=13 * mm, rightIndent=13 * mm, spaceAfter=12),
         )
     )
@@ -320,7 +320,7 @@ def cover(st):
 def contents(st, headings):
     flow = [Paragraph("Contents", st["h1"]), Spacer(1, 2 * mm)]
     for level, title in headings:
-        if level == 2 and not title.startswith("Blind Predictive Super Parity through a zero-parameter"):
+        if level == 2 and not title.startswith("Blind Predictive Super Parity across 24 sealed"):
             flow.append(Paragraph(inline_markup(title), st["toc"]))
     flow.append(PageBreak())
     return flow

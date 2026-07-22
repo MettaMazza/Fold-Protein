@@ -1,0 +1,44 @@
+{
+  "blind_prediction": true,
+  "execution": "published material path with the former terminal psi activated by the frozen sequence-only command before One advance",
+  "official_run": false,
+  "panel_id": "protein-blind-material-one-extension-v2-20260722",
+  "proteins": [
+    {
+      "future_target": {"chain_id": "B", "model_index": 1, "pdb_id": "3JSV"},
+      "protein_id": "ubiquitin-sequence-command-extension-3jsv-b-model1",
+      "sequence": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGD",
+      "sequence_source": "https://data.rcsb.org/rest/v1/core/polymer_entity/3JSV/2"
+    },
+    {
+      "future_target": {"chain_id": "B", "model_index": 1, "pdb_id": "3WWQ"},
+      "protein_id": "ubiquitin-sequence-command-extension-3wwq-b-model1",
+      "sequence": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGD",
+      "sequence_source": "https://data.rcsb.org/rest/v1/core/polymer_entity/3WWQ/2"
+    },
+    {
+      "future_target": {"chain_id": "C", "model_index": 1, "pdb_id": "4NQL"},
+      "protein_id": "ubiquitin-sequence-command-extension-4nql-c-model1",
+      "sequence": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGD",
+      "sequence_source": "https://data.rcsb.org/rest/v1/core/polymer_entity/4NQL/3"
+    },
+    {
+      "future_target": {"chain_id": "B", "model_index": 1, "pdb_id": "5XIS"},
+      "protein_id": "ubiquitin-sequence-command-extension-5xis-b-model1",
+      "sequence": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGD",
+      "sequence_source": "https://data.rcsb.org/rest/v1/core/polymer_entity/5XIS/2"
+    }
+  ],
+  "published_manifest": "verify/ubiquitin_24_lattice_manifest.json",
+  "published_manifest_sha256": "5c9771cccd998484e32e1180bdb6c3555c7c555c1175328164ba6cb6a9cba6ac",
+  "result_type": "cumulative blind development benchmark",
+  "runtime": "tools/run_blind_material_one_extension_panel_v2.py",
+  "runtime_sha256": "92f1a3e2cca8211aa56aa900fb4017c1dab4a44896bd01445506fa0a151ee060",
+  "schema": "fold-protein-blind-material-one-extension-panel/v2",
+  "selection_protocol": "Before coordinate access, register untouched deposited polymer entities whose sequence is the published ubiquitin material sequence followed by exactly One aspartate residue. No structure or score enters selection or execution.",
+  "sequence_command": "verify/protein_transfer_material_command_v2.json",
+  "sequence_command_sha256": "66f386e1c3132633d33444f97711d06cc6bd4f329604e1072f5ae596fff127bd",
+  "target_accesses_before_seal": 0,
+  "weights": 0,
+  "fitted_parameters": 0
+}

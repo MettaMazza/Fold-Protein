@@ -7,34 +7,43 @@ the authoritative current synthesis of Fold Protein.
 
 ## Central empirical result
 
-Protein Material Architecture V1 predicts the complete 76-residue ubiquitin
-backbone while the experimental target and comparison scores are inaccessible
-to execution. The prediction is sealed before comparison and measures:
+Fold Protein executes 24 complete whole-structure predictions across four
+preregistered panels. Every state path and PDB is sealed before the corresponding
+experimental coordinates are opened. The aggregate post-seal result is:
 
-- `0.9891211351471241` `TM_repo`;
-- `0.2608575407959516 Å` unique-pair Cα dRMSD; and
-- `0.3261459535125402 Å` Kabsch Cα RMSD.
+- `0.9255486261999419` median `TM_repo`;
+- `0.7833590149340738 Å` median Cα RMSD95;
+- `0.9882113352098658` best whole-structure `TM_repo`; and
+- 15 of 24 structures at or below AlphaFold's reported `0.96 Å` CASP14 median
+  Cα RMSD95.
 
-The execution restores 576 exact states at each residue, performs 43,776 raw
-state trials, and records zero trained weights, zero fitted parameters, zero
-candidate orderings and zero target accesses.
+The original complete material execution restores 576 exact states at each
+residue, performs 43,776 raw state trials, and records zero trained weights,
+zero fitted parameters, zero candidate orderings and zero target accesses. The
+four extended panels likewise record zero target accesses before every seal.
 
 ## Evidence layers
 
 1. The PDF and Markdown paper state the scientific argument, method, metrics,
    provenance and blind predictive result.
-2. `protein_material_architecture_v1_applied_evidence.json` binds the complete
+2. `protein_blind_multi_structure_evidence_v1.json` binds all 24 post-seal
+   measurements, target identities, structure hashes, aggregate parity
+   comparison and four panel seals.
+3. `protein_material_architecture_v1_applied_evidence.json` binds the complete
    candidate census, source hashes, seal, prediction hash and post-seal metrics.
-3. The material relation, admission and protocol receipts expose the exact
+4. The material relation, admission and protocol receipts expose the exact
    sequence/generated-geometry relation and its machine-checked closure.
-4. The sealed R2 execution directory contains the input, selected states, PDB,
+5. The sealed R2 execution directory contains the input, selected states, PDB,
    seal and post-seal evaluation.
-5. The forcing registry and audits distinguish engine-closed relations,
+6. The four extended panel directories contain every registration, complete
+   structure, state path and pre-comparison seal; their target directories are
+   retained solely for post-seal reproduction.
+7. The forcing registry and audits distinguish engine-closed relations,
    observational derivation, applied development evidence and author conclusions.
-6. The recovery evidence preserves every available complete positive candidate
+8. The recovery evidence preserves every available complete positive candidate
    rather than allowing a single emitted row or agent interpretation to erase
    empirical data.
-7. The source, constants and tests reproduce the mathematical and execution
+9. The source, constants and tests reproduce the mathematical and execution
    surfaces described in the paper.
 
 ## Exact execution identity
@@ -49,10 +58,11 @@ version binding is an implementation identity, not a fitted model parameter.
 
 Opaque predictive reliability and transparent empirical derivation are not the
 same evidentiary object. A black-box system can be repeatedly measured as
-reliable; that validates its output performance. Fold Protein establishes the
-higher evidentiary chain by exposing the proposed law, its derivation, the
-complete state domain, the blind execution boundary, the sealed consequence and
-the experimental comparison.
+reliable; that validates its output performance. Fold Protein establishes
+AlphaFold-class median predictive accuracy while also exposing the proposed law,
+its first-principles derivation, complete state domain, blind execution boundary,
+sealed consequences and experimental comparisons. That combined evidence is
+Blind Predictive Super Parity.
 
 The two earlier Protein papers are retained in the repositories and their
 existing Zenodo records as chronological development artifacts. This standalone

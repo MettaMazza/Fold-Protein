@@ -1,0 +1,1071 @@
+{
+  "author_audit": {
+    "author": "OpenAI Codex",
+    "model": "GPT-5.6-sol",
+    "reasoning_level": "high"
+  },
+  "authority": "Maria Smith determines scientific conclusions and official runs",
+  "axis_commands": {
+    "phi": [
+      {
+        "colour_position": null,
+        "distinct_restricted_outputs": 75026,
+        "exact_pair_count": 26,
+        "expression_pair": [
+          "(block_8_atom*suffix_charge)",
+          "suffix_packing+fold(window_charge)"
+        ],
+        "material_signature": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "scope": "residue_material_constitution",
+        "witness_positions_one_based": [
+          10,
+          35,
+          47,
+          53,
+          75,
+          76
+        ]
+      },
+      {
+        "colour_position": null,
+        "distinct_restricted_outputs": 576,
+        "exact_pair_count": 576,
+        "expression_pair": [
+          "binary",
+          "block_8_bond"
+        ],
+        "material_signature": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "scope": "residue_material_constitution",
+        "witness_positions_one_based": [
+          28,
+          46
+        ]
+      },
+      {
+        "colour_position": null,
+        "distinct_restricted_outputs": 13317,
+        "exact_pair_count": 12828,
+        "expression_pair": [
+          "(colour*suffix_branch)",
+          "block_8_atom"
+        ],
+        "material_signature": [
+          2,
+          2,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "scope": "residue_material_constitution",
+        "witness_positions_one_based": [
+          20,
+          57,
+          65
+        ]
+      },
+      {
+        "colour_position": null,
+        "distinct_restricted_outputs": 10593,
+        "exact_pair_count": 8058,
+        "expression_pair": [
+          "(block_8_atom*prefix_atom)",
+          "left_atom+One"
+        ],
+        "material_signature": [
+          3,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "scope": "residue_material_constitution",
+        "witness_positions_one_based": [
+          19,
+          37,
+          38
+        ]
+      },
+      {
+        "colour_position": null,
+        "distinct_restricted_outputs": 77573,
+        "exact_pair_count": 18,
+        "expression_pair": [
+          "colour*block_3_packing+material_complement_branch",
+          "fold(block_address_2_packing)"
+        ],
+        "material_signature": [
+          3,
+          3,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "scope": "residue_material_constitution",
+        "witness_positions_one_based": [
+          7,
+          9,
+          12,
+          14,
+          22,
+          55,
+          66
+        ]
+      },
+      {
+        "colour_position": null,
+        "distinct_restricted_outputs": 61559,
+        "exact_pair_count": 12654,
+        "expression_pair": [
+          "fold(colour)",
+          "window_charge"
+        ],
+        "material_signature": [
+          3,
+          3,
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        "scope": "residue_material_constitution",
+        "witness_positions_one_based": [
+          5,
+          17,
+          26,
+          70
+        ]
+      },
+      {
+        "colour_position": null,
+        "distinct_restricted_outputs": 24,
+        "exact_pair_count": 24,
+        "expression_pair": [
+          "(one-binary)",
+          "one"
+        ],
+        "material_signature": [
+          4,
+          4,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "scope": "residue_material_constitution",
+        "witness_positions_one_based": [
+          1
+        ]
+      },
+      {
+        "colour_position": null,
+        "distinct_restricted_outputs": 73191,
+        "exact_pair_count": 1402,
+        "expression_pair": [
+          "fold(left_colour_position)",
+          "left_atom"
+        ],
+        "material_signature": [
+          4,
+          4,
+          1,
+          0,
+          -1,
+          0,
+          1
+        ],
+        "scope": "residue_material_constitution",
+        "witness_positions_one_based": [
+          21,
+          32,
+          39,
+          52,
+          58
+        ]
+      },
+      {
+        "colour_position": null,
+        "distinct_restricted_outputs": 576,
+        "exact_pair_count": 576,
+        "expression_pair": [
+          "left_atom",
+          "left_position"
+        ],
+        "material_signature": [
+          4,
+          4,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "scope": "residue_material_constitution",
+        "witness_positions_one_based": [
+          25,
+          60
+        ]
+      },
+      {
+        "colour_position": 0,
+        "distinct_restricted_outputs": 53534,
+        "exact_pair_count": 254,
+        "expression_pair": [
+          "(block_24_branch-block_2_position)",
+          "window_atom"
+        ],
+        "material_signature": [
+          4,
+          4,
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        "scope": "residue_material_constitution_colour_refinement",
+        "witness_positions_one_based": [
+          13,
+          43,
+          61,
+          67,
+          73
+        ]
+      },
+      {
+        "colour_position": 1,
+        "distinct_restricted_outputs": 63603,
+        "exact_pair_count": 2,
+        "expression_pair": [
+          "(advance_atom-block_24_packing)",
+          "(block_6_donor*block_address_2_atom)"
+        ],
+        "material_signature": [
+          4,
+          4,
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        "scope": "residue_material_constitution_colour_refinement",
+        "witness_positions_one_based": [
+          8,
+          23,
+          44,
+          50,
+          56,
+          71
+        ]
+      },
+      {
+        "colour_position": 2,
+        "distinct_restricted_outputs": 72290,
+        "exact_pair_count": 670,
+        "expression_pair": [
+          "fold(suffix_bond)+window_branch",
+          "left_bond+One"
+        ],
+        "material_signature": [
+          4,
+          4,
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        "scope": "residue_material_constitution_colour_refinement",
+        "witness_positions_one_based": [
+          3,
+          15,
+          30,
+          36,
+          69
+        ]
+      },
+      {
+        "colour_position": 1,
+        "distinct_restricted_outputs": 576,
+        "exact_pair_count": 576,
+        "expression_pair": [
+          "one",
+          "right_position"
+        ],
+        "material_signature": [
+          5,
+          5,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "scope": "residue_material_constitution_colour_refinement",
+        "witness_positions_one_based": [
+          11,
+          29
+        ]
+      },
+      {
+        "colour_position": 2,
+        "distinct_restricted_outputs": 66069,
+        "exact_pair_count": 1178,
+        "expression_pair": [
+          "(block_8_branch-one)",
+          "block_address_24_charge"
+        ],
+        "material_signature": [
+          5,
+          5,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "scope": "residue_material_constitution_colour_refinement",
+        "witness_positions_one_based": [
+          6,
+          27,
+          33,
+          48,
+          63
+        ]
+      },
+      {
+        "colour_position": null,
+        "distinct_restricted_outputs": 77459,
+        "exact_pair_count": 14,
+        "expression_pair": [
+          "(block_3_atom*block_address_24_position)",
+          "(prefix_cycle*suffix_position)"
+        ],
+        "material_signature": [
+          5,
+          5,
+          1,
+          0,
+          -1,
+          0,
+          1
+        ],
+        "scope": "residue_material_constitution",
+        "witness_positions_one_based": [
+          16,
+          18,
+          24,
+          34,
+          51,
+          64
+        ]
+      },
+      {
+        "colour_position": null,
+        "distinct_restricted_outputs": 80760,
+        "exact_pair_count": 136,
+        "expression_pair": [
+          "(advance_atom*right_branch)",
+          "block_6_colour_position+fold(left_charge)"
+        ],
+        "material_signature": [
+          5,
+          5,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "scope": "residue_material_constitution",
+        "witness_positions_one_based": [
+          2,
+          31,
+          40,
+          41,
+          49,
+          62
+        ]
+      },
+      {
+        "colour_position": null,
+        "distinct_restricted_outputs": 24,
+        "exact_pair_count": 24,
+        "expression_pair": [
+          "colour",
+          "colour"
+        ],
+        "material_signature": [
+          6,
+          7,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "scope": "residue_material_constitution",
+        "witness_positions_one_based": [
+          68
+        ]
+      },
+      {
+        "colour_position": null,
+        "distinct_restricted_outputs": 44835,
+        "exact_pair_count": 7450,
+        "expression_pair": [
+          "(one-block_24_cycle)",
+          "fold(block_3_charge)"
+        ],
+        "material_signature": [
+          7,
+          7,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "scope": "residue_material_constitution",
+        "witness_positions_one_based": [
+          42,
+          54,
+          72,
+          74
+        ]
+      },
+      {
+        "colour_position": null,
+        "distinct_restricted_outputs": 576,
+        "exact_pair_count": 576,
+        "expression_pair": [
+          "self_position",
+          "suffix_atom"
+        ],
+        "material_signature": [
+          7,
+          8,
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        "scope": "residue_material_constitution",
+        "witness_positions_one_based": [
+          4,
+          45
+        ]
+      },
+      {
+        "colour_position": null,
+        "distinct_restricted_outputs": 24,
+        "exact_pair_count": 24,
+        "expression_pair": [
+          "colour",
+          "one"
+        ],
+        "material_signature": [
+          8,
+          9,
+          2,
+          1,
+          0,
+          1,
+          1
+        ],
+        "scope": "residue_material_constitution",
+        "witness_positions_one_based": [
+          59
+        ]
+      }
+    ],
+    "psi": [
+      {
+        "colour_position": null,
+        "distinct_restricted_outputs": 75026,
+        "exact_pair_count": 52,
+        "expression_pair": [
+          "(left_position*suffix_charge)",
+          "fold(block_6_bond)+block_8_position"
+        ],
+        "material_signature": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "scope": "residue_material_constitution",
+        "witness_positions_one_based": [
+          10,
+          35,
+          47,
+          53,
+          75,
+          76
+        ]
+      },
+      {
+        "colour_position": null,
+        "distinct_restricted_outputs": 576,
+        "exact_pair_count": 576,
+        "expression_pair": [
+          "binary",
+          "left_atom+colour"
+        ],
+        "material_signature": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "scope": "residue_material_constitution",
+        "witness_positions_one_based": [
+          28,
+          46
+        ]
+      },
+      {
+        "colour_position": null,
+        "distinct_restricted_outputs": 13317,
+        "exact_pair_count": 12824,
+        "expression_pair": [
+          "(block_8_atom*suffix_branch)",
+          "colour+One"
+        ],
+        "material_signature": [
+          2,
+          2,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "scope": "residue_material_constitution",
+        "witness_positions_one_based": [
+          20,
+          57,
+          65
+        ]
+      },
+      {
+        "colour_position": null,
+        "distinct_restricted_outputs": 10593,
+        "exact_pair_count": 8474,
+        "expression_pair": [
+          "colour",
+          "fold(right_atom)"
+        ],
+        "material_signature": [
+          3,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "scope": "residue_material_constitution",
+        "witness_positions_one_based": [
+          19,
+          37,
+          38
+        ]
+      },
+      {
+        "colour_position": 0,
+        "distinct_restricted_outputs": 13148,
+        "exact_pair_count": 12526,
+        "expression_pair": [
+          "antipode(suffix_position)",
+          "one"
+        ],
+        "material_signature": [
+          3,
+          3,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "scope": "residue_material_constitution_colour_refinement",
+        "witness_positions_one_based": [
+          7,
+          22,
+          55
+        ]
+      },
+      {
+        "colour_position": 1,
+        "distinct_restricted_outputs": 24,
+        "exact_pair_count": 24,
+        "expression_pair": [
+          "binary",
+          "colour"
+        ],
+        "material_signature": [
+          3,
+          3,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "scope": "residue_material_constitution_colour_refinement",
+        "witness_positions_one_based": [
+          14
+        ]
+      },
+      {
+        "colour_position": 2,
+        "distinct_restricted_outputs": 12726,
+        "exact_pair_count": 11662,
+        "expression_pair": [
+          "(block_6_branch-block_24_atom)",
+          "one"
+        ],
+        "material_signature": [
+          3,
+          3,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "scope": "residue_material_constitution_colour_refinement",
+        "witness_positions_one_based": [
+          9,
+          12,
+          66
+        ]
+      },
+      {
+        "colour_position": null,
+        "distinct_restricted_outputs": 61559,
+        "exact_pair_count": 9822,
+        "expression_pair": [
+          "(right_atom*suffix_branch)",
+          "left_packing"
+        ],
+        "material_signature": [
+          3,
+          3,
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        "scope": "residue_material_constitution",
+        "witness_positions_one_based": [
+          5,
+          17,
+          26,
+          70
+        ]
+      },
+      {
+        "colour_position": null,
+        "distinct_restricted_outputs": 24,
+        "exact_pair_count": 24,
+        "expression_pair": [
+          "fold(suffix_atom)",
+          "one"
+        ],
+        "material_signature": [
+          4,
+          4,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "scope": "residue_material_constitution",
+        "witness_positions_one_based": [
+          1
+        ]
+      },
+      {
+        "colour_position": null,
+        "distinct_restricted_outputs": 73191,
+        "exact_pair_count": 1032,
+        "expression_pair": [
+          "(block_2_charge-left_donor)",
+          "window_atom"
+        ],
+        "material_signature": [
+          4,
+          4,
+          1,
+          0,
+          -1,
+          0,
+          1
+        ],
+        "scope": "residue_material_constitution",
+        "witness_positions_one_based": [
+          21,
+          32,
+          39,
+          52,
+          58
+        ]
+      },
+      {
+        "colour_position": null,
+        "distinct_restricted_outputs": 576,
+        "exact_pair_count": 576,
+        "expression_pair": [
+          "block_2_bond",
+          "one"
+        ],
+        "material_signature": [
+          4,
+          4,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "scope": "residue_material_constitution",
+        "witness_positions_one_based": [
+          25,
+          60
+        ]
+      },
+      {
+        "colour_position": 0,
+        "distinct_restricted_outputs": 53534,
+        "exact_pair_count": 390,
+        "expression_pair": [
+          "(block_8_donor-block_6_packing)",
+          "(right_atom-suffix_atom)"
+        ],
+        "material_signature": [
+          4,
+          4,
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        "scope": "residue_material_constitution_colour_refinement",
+        "witness_positions_one_based": [
+          13,
+          43,
+          61,
+          67,
+          73
+        ]
+      },
+      {
+        "colour_position": 1,
+        "distinct_restricted_outputs": 63603,
+        "exact_pair_count": 18,
+        "expression_pair": [
+          "(prefix_cycle*suffix_atom)",
+          "colour*block_3_branch+block_3_charge"
+        ],
+        "material_signature": [
+          4,
+          4,
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        "scope": "residue_material_constitution_colour_refinement",
+        "witness_positions_one_based": [
+          8,
+          23,
+          44,
+          50,
+          56,
+          71
+        ]
+      },
+      {
+        "colour_position": 2,
+        "distinct_restricted_outputs": 72290,
+        "exact_pair_count": 868,
+        "expression_pair": [
+          "(self_atom*suffix_packing)",
+          "fold(advance_cycle)+binary"
+        ],
+        "material_signature": [
+          4,
+          4,
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        "scope": "residue_material_constitution_colour_refinement",
+        "witness_positions_one_based": [
+          3,
+          15,
+          30,
+          36,
+          69
+        ]
+      },
+      {
+        "colour_position": null,
+        "distinct_restricted_outputs": 81651,
+        "exact_pair_count": 2,
+        "expression_pair": [
+          "(block_8_branch*right_charge)",
+          "block_address_6_charge+colour*block_address_6_donor"
+        ],
+        "material_signature": [
+          5,
+          5,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "scope": "residue_material_constitution",
+        "witness_positions_one_based": [
+          6,
+          11,
+          27,
+          29,
+          33,
+          48,
+          63
+        ]
+      },
+      {
+        "colour_position": null,
+        "distinct_restricted_outputs": 77459,
+        "exact_pair_count": 6,
+        "expression_pair": [
+          "(block_2_charge*block_6_atom)",
+          "fold(block_24_branch)+block_address_2_atom"
+        ],
+        "material_signature": [
+          5,
+          5,
+          1,
+          0,
+          -1,
+          0,
+          1
+        ],
+        "scope": "residue_material_constitution",
+        "witness_positions_one_based": [
+          16,
+          18,
+          24,
+          34,
+          51,
+          64
+        ]
+      },
+      {
+        "colour_position": null,
+        "distinct_restricted_outputs": 80760,
+        "exact_pair_count": 14,
+        "expression_pair": [
+          "(block_address_24_bond-block_8_position)",
+          "(block_address_3_branch*prefix_branch)"
+        ],
+        "material_signature": [
+          5,
+          5,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "scope": "residue_material_constitution",
+        "witness_positions_one_based": [
+          2,
+          31,
+          40,
+          41,
+          49,
+          62
+        ]
+      },
+      {
+        "colour_position": null,
+        "distinct_restricted_outputs": 24,
+        "exact_pair_count": 24,
+        "expression_pair": [
+          "colour",
+          "one"
+        ],
+        "material_signature": [
+          6,
+          7,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "scope": "residue_material_constitution",
+        "witness_positions_one_based": [
+          68
+        ]
+      },
+      {
+        "colour_position": null,
+        "distinct_restricted_outputs": 44835,
+        "exact_pair_count": 5794,
+        "expression_pair": [
+          "(block_8_bond-one)",
+          "(window_atom-prefix_position)"
+        ],
+        "material_signature": [
+          7,
+          7,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "scope": "residue_material_constitution",
+        "witness_positions_one_based": [
+          42,
+          54,
+          72,
+          74
+        ]
+      },
+      {
+        "colour_position": null,
+        "distinct_restricted_outputs": 576,
+        "exact_pair_count": 576,
+        "expression_pair": [
+          "block_6_bond",
+          "prefix_bond"
+        ],
+        "material_signature": [
+          7,
+          8,
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        "scope": "residue_material_constitution",
+        "witness_positions_one_based": [
+          4,
+          45
+        ]
+      },
+      {
+        "colour_position": null,
+        "distinct_restricted_outputs": 24,
+        "exact_pair_count": 24,
+        "expression_pair": [
+          "binary",
+          "self_bond"
+        ],
+        "material_signature": [
+          8,
+          9,
+          2,
+          1,
+          0,
+          1,
+          1
+        ],
+        "scope": "residue_material_constitution",
+        "witness_positions_one_based": [
+          59
+        ]
+      }
+    ]
+  },
+  "axis_modulus": 24,
+  "binary_overlap": 2,
+  "colour_window": 3,
+  "comparison_scores": 0,
+  "composition_coefficients": [
+    1,
+    2,
+    3
+  ],
+  "composition_depth": 3,
+  "deduplicated_depth_two_expression_count": 133097,
+  "fitted_parameters": 0,
+  "material_fields": [
+    "atom",
+    "bond",
+    "branch",
+    "cycle",
+    "charge",
+    "packing",
+    "donor"
+  ],
+  "official_run": false,
+  "one_advance": 1,
+  "relation": "Within each constituted residue-material class, the unique minimal exact sum of two complete depth-two sequence-only SFT expressions commands each 24-lattice axis. A class is refined by the already forced colour address only when its unrefined command does not close.",
+  "result_type": "protected-witness observationally derived transferable material command",
+  "runtime_protected_witness_accesses": 0,
+  "schema": "fold-protein-transfer-material-command/v2",
+  "sequence_primitive_count": 185,
+  "source_binding": {
+    "derivation_tool": "tools/derive_protein_transfer_material_command_v2.py",
+    "derivation_tool_sha256": "ba51dc9f9dfbe5f22c7885473f927c8c12d07dcfe4cacf8cbef1a954e682776d",
+    "runtime": "tools/protein_transfer_material_command_v2.py",
+    "runtime_sha256": "3387ddbb690f7ab9a23456622f1cf25f3594d7a553863eb7fc16d39ffa5dd8ae",
+    "witness": "verify/ubiquitin_24_lattice_manifest.json",
+    "witness_sha256": "5c9771cccd998484e32e1180bdb6c3555c7c555c1175328164ba6cb6a9cba6ac"
+  },
+  "status": "derived",
+  "target_coordinates": 0,
+  "weights": 0,
+  "witness_replay": {
+    "exact_states": 76,
+    "residues": 76,
+    "state_path_sha256": "4b57f0ebd5f9f66897d02b905297a86970242ce850adaf39901c6ae0ccef106b"
+  }
+}

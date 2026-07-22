@@ -1,0 +1,14 @@
+{
+  "blind_prediction": true,
+  "fitted_parameters": 0,
+  "prediction_pdb_sha256": "21bffe254a8c6126ef2e7e77d964d8357aa95674a8fd66908add653e94b9e2c2",
+  "protein_id": "ubiquitin-one-extension-3a1q-a-model1",
+  "published_manifest_sha256": "5c9771cccd998484e32e1180bdb6c3555c7c555c1175328164ba6cb6a9cba6ac",
+  "runtime_sha256": "95ec7c7cc8fdf9fd8bccb78f753192424e6074d4b5842c3b72ece3c50951857b",
+  "schema": "fold-protein-blind-material-one-extension-seal/v1",
+  "selected_states_sha256": "2fdc265965f806499d8b12e7b5db41cac8d86f14d378d450be817633b961e5d7",
+  "sequence_sha256": "98ab53d60794edde0d74d1115e09660cbbd24d60883a774f0b2a97681b5c17bf",
+  "status": "completed",
+  "target_accesses": 0,
+  "weights": 0
+}

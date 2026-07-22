@@ -1,0 +1,28 @@
+{
+  "blind_prediction": true,
+  "execution": "unchanged published 76-state material path",
+  "official_run": false,
+  "panel_id": "protein-blind-published-material-replication-2-20260722",
+  "proteins": [
+    {"future_target":{"chain_id":"A","model_index":1,"pdb_id":"1F9J"},"protein_id":"published-material-replication2-1f9j-a-model1","sequence":"MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG","sequence_source":"https://data.rcsb.org/rest/v1/core/polymer_entity/1F9J/1"},
+    {"future_target":{"chain_id":"B","model_index":1,"pdb_id":"1FXT"},"protein_id":"published-material-replication2-1fxt-b-model1","sequence":"MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG","sequence_source":"https://data.rcsb.org/rest/v1/core/polymer_entity/1FXT/2"},
+    {"future_target":{"chain_id":"C","model_index":1,"pdb_id":"1NBF"},"protein_id":"published-material-replication2-1nbf-c-model1","sequence":"MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG","sequence_source":"https://data.rcsb.org/rest/v1/core/polymer_entity/1NBF/2"},
+    {"future_target":{"chain_id":"U","model_index":1,"pdb_id":"1P3Q"},"protein_id":"published-material-replication2-1p3q-u-model1","sequence":"MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG","sequence_source":"https://data.rcsb.org/rest/v1/core/polymer_entity/1P3Q/2"},
+    {"future_target":{"chain_id":"B","model_index":1,"pdb_id":"1Q5W"},"protein_id":"published-material-replication2-1q5w-b-model1","sequence":"MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG","sequence_source":"https://data.rcsb.org/rest/v1/core/polymer_entity/1Q5W/2"},
+    {"future_target":{"chain_id":"B","model_index":1,"pdb_id":"1S1Q"},"protein_id":"published-material-replication2-1s1q-b-model1","sequence":"MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG","sequence_source":"https://data.rcsb.org/rest/v1/core/polymer_entity/1S1Q/2"},
+    {"future_target":{"chain_id":"B","model_index":1,"pdb_id":"1UZX"},"protein_id":"published-material-replication2-1uzx-b-model1","sequence":"MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG","sequence_source":"https://data.rcsb.org/rest/v1/core/polymer_entity/1UZX/2"},
+    {"future_target":{"chain_id":"A","model_index":1,"pdb_id":"1V80"},"protein_id":"published-material-replication2-1v80-a-model1","sequence":"MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG","sequence_source":"https://data.rcsb.org/rest/v1/core/polymer_entity/1V80/1"},
+    {"future_target":{"chain_id":"A","model_index":1,"pdb_id":"1V81"},"protein_id":"published-material-replication2-1v81-a-model1","sequence":"MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG","sequence_source":"https://data.rcsb.org/rest/v1/core/polymer_entity/1V81/1"},
+    {"future_target":{"chain_id":"E","model_index":1,"pdb_id":"1WR6"},"protein_id":"published-material-replication2-1wr6-e-model1","sequence":"MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG","sequence_source":"https://data.rcsb.org/rest/v1/core/polymer_entity/1WR6/2"}
+  ],
+  "published_manifest": "verify/ubiquitin_24_lattice_manifest.json",
+  "published_manifest_sha256": "5c9771cccd998484e32e1180bdb6c3555c7c555c1175328164ba6cb6a9cba6ac",
+  "result_type": "cumulative blind development benchmark",
+  "runtime": "tools/run_blind_published_material_panel_v1.py",
+  "runtime_sha256": "148e868c416019419c65ba6bfbba2820d1ff5161f9df678e9f5d5b6f2c7c1d37",
+  "schema": "fold-protein-blind-published-material-panel/v1",
+  "selection_protocol": "Before target-coordinate access, register the next untouched exact-sequence polymer entities returned by the sequence-only RCSB query after excluding previously scored structures. Execute the unchanged published path for every target.",
+  "target_accesses_before_seal": 0,
+  "weights": 0,
+  "fitted_parameters": 0
+}

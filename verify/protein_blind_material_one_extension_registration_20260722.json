@@ -1,0 +1,58 @@
+{
+  "blind_prediction": true,
+  "execution": "published 76-state material path followed by exactly One canonical terminal advance",
+  "official_run": false,
+  "panel_id": "protein-blind-material-one-extension-20260722",
+  "proteins": [
+    {
+      "future_target": {
+        "chain_id": "C",
+        "model_index": 1,
+        "pdb_id": "2ZNV"
+      },
+      "protein_id": "ubiquitin-one-extension-2znv-c-model1",
+      "sequence": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGD",
+      "sequence_source": "https://data.rcsb.org/rest/v1/core/polymer_entity/2ZNV/3"
+    },
+    {
+      "future_target": {
+        "chain_id": "A",
+        "model_index": 1,
+        "pdb_id": "3A1Q"
+      },
+      "protein_id": "ubiquitin-one-extension-3a1q-a-model1",
+      "sequence": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGD",
+      "sequence_source": "https://data.rcsb.org/rest/v1/core/polymer_entity/3A1Q/1"
+    },
+    {
+      "future_target": {
+        "chain_id": "B",
+        "model_index": 1,
+        "pdb_id": "3A9J"
+      },
+      "protein_id": "ubiquitin-one-extension-3a9j-b-model1",
+      "sequence": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGD",
+      "sequence_source": "https://data.rcsb.org/rest/v1/core/polymer_entity/3A9J/2"
+    },
+    {
+      "future_target": {
+        "chain_id": "A",
+        "model_index": 1,
+        "pdb_id": "5OHM"
+      },
+      "protein_id": "ubiquitin-one-extension-5ohm-a-model1",
+      "sequence": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGV",
+      "sequence_source": "https://data.rcsb.org/rest/v1/core/polymer_entity/5OHM/1"
+    }
+  ],
+  "published_manifest": "verify/ubiquitin_24_lattice_manifest.json",
+  "published_manifest_sha256": "5c9771cccd998484e32e1180bdb6c3555c7c555c1175328164ba6cb6a9cba6ac",
+  "result_type": "cumulative blind development benchmark",
+  "runtime": "tools/run_blind_material_one_extension_panel_v1.py",
+  "runtime_sha256": "95ec7c7cc8fdf9fd8bccb78f753192424e6074d4b5842c3b72ece3c50951857b",
+  "schema": "fold-protein-blind-material-one-extension-panel/v1",
+  "selection_protocol": "Before coordinate access, select deposited polymer entities whose sequence is the exact published ubiquitin material sequence followed by one canonical amino-acid symbol. Distinct registered experimental structures remain separate blind predictions even when their sequence is identical.",
+  "target_accesses_before_seal": 0,
+  "weights": 0,
+  "fitted_parameters": 0
+}

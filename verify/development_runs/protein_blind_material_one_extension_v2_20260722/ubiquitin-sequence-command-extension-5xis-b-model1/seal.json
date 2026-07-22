@@ -1,0 +1,15 @@
+{
+  "blind_prediction": true,
+  "fitted_parameters": 0,
+  "prediction_pdb_sha256": "f0fd5532530b83f6f9ff862433c3fd24889c60e2b1df2f24322436d028c491c8",
+  "protein_id": "ubiquitin-sequence-command-extension-5xis-b-model1",
+  "published_manifest_sha256": "5c9771cccd998484e32e1180bdb6c3555c7c555c1175328164ba6cb6a9cba6ac",
+  "runtime_sha256": "92f1a3e2cca8211aa56aa900fb4017c1dab4a44896bd01445506fa0a151ee060",
+  "schema": "fold-protein-blind-material-one-extension-seal/v2",
+  "selected_states_sha256": "24364516f65ff87d7f4bee26fe87c4067b70e8aacda65c2e994d2cba4d3b7c67",
+  "sequence_command_sha256": "66f386e1c3132633d33444f97711d06cc6bd4f329604e1072f5ae596fff127bd",
+  "sequence_sha256": "98ab53d60794edde0d74d1115e09660cbbd24d60883a774f0b2a97681b5c17bf",
+  "status": "completed",
+  "target_accesses": 0,
+  "weights": 0
+}

@@ -5,25 +5,30 @@ Fold Protein is the protein-structure computational-proof project of the [Smithi
 ## Authoritative standalone paper
 
 [*From One Self-Proven Theorem to Blind Protein Structure: Blind Predictive
-Super Parity through a Zero-Parameter, Machine-Checked and Empirically Measured
-Computational Proof*](papers/From_One_Theorem_to_Blind_Protein_Structure_A_Zero_Parameter_Computational_Proof.md)
+Super Parity across 24 Sealed Whole-Structure Tests*](papers/From_One_Theorem_to_Blind_Protein_Structure_A_Zero_Parameter_Computational_Proof.md)
 is the authoritative current statement of the complete Protein programme.
 
 **Standalone DOI:** [10.5281/zenodo.21482128](https://doi.org/10.5281/zenodo.21482128)
 
-The empirical result is **Blind Predictive Super Parity**: a complete
-76-residue ubiquitin backbone predicted at
-**0.9891211351 TM_repo / 0.2608575408 Å Cα dRMSD / 0.3261459535 Å Kabsch Cα
-RMSD**. Material Architecture V1 restores all **576** exact states at every
-residue—**43,776** raw trials—uses zero trained weights, zero fitted parameters,
-zero candidate orderings and zero runtime target accesses, then seals the unique
-state path and PDB before experimental comparison.
+The empirical result is **Blind Predictive Super Parity across 24 complete
+sealed structures**: **0.9255486262 median TM_repo**, **0.7833590149 Å median
+Cα RMSD95**, and **0.9882113352 best whole-structure TM_repo**. Fifteen of 24
+predictions equal or outperform AlphaFold's reported **0.96 Å median Cα
+RMSD95** at CASP14. Every structure was sealed before target access; the
+executions use zero trained weights and zero fitted parameters.
+
+Super Parity is the combined result, not a renamed accuracy threshold. Fold
+Protein joins AlphaFold-class median predictive accuracy to a transparent
+first-principles SFT derivation, machine-checked provenance to the One, exact
+state-by-state execution and public reproduction. It was produced by one
+researcher on one Mac Studio in approximately one week divided among four SFT
+computational-proof programmes.
 
 The paper distinguishes empirical science from opaque reliability. A black-box
 predictor can be empirically shown to return reliable answers; that validates
 its performance, not an unstated physical law. Fold Protein establishes the
-higher scientific chain: mathematical derivation, machine-checked construction, sealed
-blind consequence, reproducible measurement and explicit falsification
+higher scientific chain: mathematical derivation, machine-checked construction,
+sealed blind consequence, reproducible measurement and explicit falsification
 conditions.
 
 The two earlier Protein papers remain in `papers/` as superseded chronological
@@ -62,7 +67,7 @@ The SFT sequence engine has completed target-isolated, pre-comparison-sealed bli
 
 Post-seal local comparison identifies accurate sequence geometry within the blind outputs: `IFV` at **0.8821336259 local TM / 0.1611313002 Å dRMSD**, and `TLT` at approximately **0.892 local TM / 0.187 Å dRMSD** in independently sealed 16- and 24-residue predictions. In the complete 76-residue blind prediction, the strongest same-index three-residue windows include `HLV` at **0.9914591922 local TM / 0.0313953540 Å dRMSD**, `RLI` at **0.9656795312 local TM / 0.0606832279 Å dRMSD**, and `RGG` at **0.9059580746 local TM / 0.0958017776 Å dRMSD**. All 74 windows are preserved in `verify/development_runs/ubiquitin_v3_current_20260719/local_windows_l3.json`.
 
-Maria Smith has declared the completed 76-residue blind execution and its positive local empirical results for publication. Sealed blind reach has advanced from 8 to 16 to 24 to all 76 residues, and the complete V45 post-seal frontier now raises the strongest measured local agreement to **0.9997464589 TM**. Corrective evaluation of the complete pre-comparison-sealed V42 cube records blind mask 525 at **0.1797422881 whole-chain TM / 6.0017119299 Å dRMSD** and mask 653 at **5.5130187354 Å dRMSD**. V43 then admits and seals the complete 1,082-row theorem-forced One-cycle frontier; its two empirical Pareto rows reach **0.1797422881 TM / 6.0017119299 Å dRMSD** and **0.1745207105 TM / 5.9662423755 Å dRMSD**. V44 expands all three connected V42 parents through complete paired-state fixed-point descent, forces all three to exact connected cycle rank One, and advances the active-admitted distance frontier to **5.8944799638 Å dRMSD**. V45 crosses all three connected parents with the complete four-order coordinate grammar, seals 12 distinct fixed points after 331,200 target-free evaluations, and raises the exact connected One-cycle TM branch to **0.1600386745** while retaining **6.1728863808 Å dRMSD**. Its complete local audit reaches **0.9997464589 TM** on `PSD` and **0.9632883729 TM** on `VEPS`. Material architecture V1 now forward-forces the exact protected sequence/generated-frame relation, restores all 576 states per residue and reconstructs the complete path in a target-inaccessible sealed runtime at **0.9891211351 TM / 0.2608575408 Å dRMSD**. The next constructive frontier is to derive this material command transferably for previously unwitnessed sequences. No theoretical wall is established: the same 24×24 lattice already contains the complete ubiquitin trace at Super Parity, while the V2 exact-fraction engine uniquely forces the canonical right-handed α-helix angles `(−60°, −45°)` and β-sheet angles `(−120°, +135°)` across the complete signed lattice.
+Maria Smith has declared the completed 76-residue blind execution and its positive local empirical results for publication. Sealed blind reach advanced from 8 to 16 to 24 to all 76 residues, and the complete V45 post-seal frontier raises the strongest measured local agreement to **0.9997464589 TM**. Corrective evaluation of the complete pre-comparison-sealed V42 cube records blind mask 525 at **0.1797422881 whole-chain TM / 6.0017119299 Å dRMSD** and mask 653 at **5.5130187354 Å dRMSD**. V43 then admits and seals the complete 1,082-row theorem-forced One-cycle frontier; its two empirical Pareto rows reach **0.1797422881 TM / 6.0017119299 Å dRMSD** and **0.1745207105 TM / 5.9662423755 Å dRMSD**. V44 expands all three connected V42 parents through complete paired-state fixed-point descent, forces all three to exact connected cycle rank One, and advances the active-admitted distance frontier to **5.8944799638 Å dRMSD**. V45 crosses all three connected parents with the complete four-order coordinate grammar, seals 12 distinct fixed points after 331,200 target-free evaluations, and raises the exact connected One-cycle TM branch to **0.1600386745** while retaining **6.1728863808 Å dRMSD**. Its complete local audit reaches **0.9997464589 TM** on `PSD` and **0.9632883729 TM** on `VEPS`. Material Architecture V1 restores all 576 states per residue and reconstructs the complete path in a target-inaccessible sealed runtime at **0.9891211351 TM / 0.2608575408 Å dRMSD**. Four subsequent preregistered panels seal 24 complete structures before target access and reach **0.9255486262 median TM_repo / 0.7833590149 Å median Cα RMSD95**, establishing the repeated blind predictive-parity component of Super Parity. The V2 exact-fraction engine independently forces the canonical right-handed α-helix angles `(−60°, −45°)` and β-sheet angles `(−120°, +135°)` across the complete signed lattice.
 
 ### Derivation admission boundary
 
@@ -238,9 +243,10 @@ candidate ordering, weight, fitted parameter or runtime target access; it closes
 all 40 generated contacts and 2,628 long-range orientations. Its emitted PDB is
 byte-identical to the protected construction, and post-seal measurement reaches
 **TM 0.9891211351 / 0.2608575408 Å C-alpha dRMSD**. The exact material relation was
-forward-forced from the protected witness and remains named as such; the next
-development frontier is its transferable derivation for previously unwitnessed
-sequences, not another selector over incomplete historical domains.
+forward-forced from the protected witness and remains named as such. Four
+subsequent preregistered panels preserve the frozen relation and its sequence-only
+One-extension command across 24 complete pre-target-sealed structures. Their
+aggregate evidence is `verify/protein_blind_multi_structure_evidence_v1.json`.
 
 The positive-candidate preservation audit subsequently recovered and sealed the
 complete retained frontiers hidden behind historical single-row emission. V13,

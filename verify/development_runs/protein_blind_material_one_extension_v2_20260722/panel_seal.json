@@ -1,0 +1,44 @@
+{
+  "blind_prediction": true,
+  "official_run": false,
+  "panel_id": "protein-blind-material-one-extension-v2-20260722",
+  "panel_registration_sha256": "61b0cbc8e34f1c82d3b1382a087ab5252d3c65d906ae9fdee113968005bb6e00",
+  "prediction_count": 4,
+  "published_manifest_sha256": "5c9771cccd998484e32e1180bdb6c3555c7c555c1175328164ba6cb6a9cba6ac",
+  "result_type": "cumulative blind development benchmark",
+  "runs": [
+    {
+      "nested_seal_sha256": "02a4fdf249211dfa0825b0a8cfd33a5da184bd463a112407e88dec800d4d9d07",
+      "prediction_pdb_sha256": "f0fd5532530b83f6f9ff862433c3fd24889c60e2b1df2f24322436d028c491c8",
+      "protein_id": "ubiquitin-sequence-command-extension-3jsv-b-model1",
+      "selected_states_sha256": "4fc41ce35bddfb97fcd0634050fcc00a3e2786cbaf8b041e666707c0e3f01ab9",
+      "sequence_sha256": "98ab53d60794edde0d74d1115e09660cbbd24d60883a774f0b2a97681b5c17bf"
+    },
+    {
+      "nested_seal_sha256": "8f914547c77178bc1feae56dd3644187d5977a3413f6392c08d01fb9387a8403",
+      "prediction_pdb_sha256": "f0fd5532530b83f6f9ff862433c3fd24889c60e2b1df2f24322436d028c491c8",
+      "protein_id": "ubiquitin-sequence-command-extension-3wwq-b-model1",
+      "selected_states_sha256": "899d3a7a78ee1eda4352186241a505ef84ef4e5417604e9755d4433e119bacd5",
+      "sequence_sha256": "98ab53d60794edde0d74d1115e09660cbbd24d60883a774f0b2a97681b5c17bf"
+    },
+    {
+      "nested_seal_sha256": "712eb4c697e4b2ad1d6a64115aa30644963743c1d1d82606d79598261501cac7",
+      "prediction_pdb_sha256": "f0fd5532530b83f6f9ff862433c3fd24889c60e2b1df2f24322436d028c491c8",
+      "protein_id": "ubiquitin-sequence-command-extension-4nql-c-model1",
+      "selected_states_sha256": "7cac4f2bdba9d68561c1ecf0e5cfb64c7ec4fcfeb2eb7b22c41cc3efa68bb463",
+      "sequence_sha256": "98ab53d60794edde0d74d1115e09660cbbd24d60883a774f0b2a97681b5c17bf"
+    },
+    {
+      "nested_seal_sha256": "b84fe1d64bc7dc3540bd15b1e5226c6c144ebd9d85bb7db6c156370c48932398",
+      "prediction_pdb_sha256": "f0fd5532530b83f6f9ff862433c3fd24889c60e2b1df2f24322436d028c491c8",
+      "protein_id": "ubiquitin-sequence-command-extension-5xis-b-model1",
+      "selected_states_sha256": "24364516f65ff87d7f4bee26fe87c4067b70e8aacda65c2e994d2cba4d3b7c67",
+      "sequence_sha256": "98ab53d60794edde0d74d1115e09660cbbd24d60883a774f0b2a97681b5c17bf"
+    }
+  ],
+  "runtime_sha256": "92f1a3e2cca8211aa56aa900fb4017c1dab4a44896bd01445506fa0a151ee060",
+  "schema": "fold-protein-blind-material-one-extension-panel-seal/v2",
+  "sequence_command_sha256": "66f386e1c3132633d33444f97711d06cc6bd4f329604e1072f5ae596fff127bd",
+  "status": "completed",
+  "target_accesses_before_seal": 0
+}

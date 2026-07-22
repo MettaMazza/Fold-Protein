@@ -1,0 +1,57 @@
+{
+  "blind_prediction": true,
+  "official_run": false,
+  "panel_id": "protein-blind-published-material-independent-structures-20260722",
+  "panel_registration_sha256": "be75d966240866e013fc398b10faf37b565062fc06b3823099f746f4af572578",
+  "prediction_count": 6,
+  "published_manifest_sha256": "5c9771cccd998484e32e1180bdb6c3555c7c555c1175328164ba6cb6a9cba6ac",
+  "result_type": "cumulative blind development benchmark",
+  "runs": [
+    {
+      "nested_seal_sha256": "9804d1d69abbebfa3abb86dd4eccebc66f5b0b36dc2c572e984133e113e07a6b",
+      "prediction_pdb_sha256": "0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d",
+      "protein_id": "published-material-independent-1ubi-a-model1",
+      "selected_states_sha256": "430d21946c40d6c95a9096f26272fd861ea646e28c281121789a6c9d233fb623",
+      "sequence_sha256": "233b4b0b8c4616095bc3249f9375fc345d32af7deaef07117d0383c51d6f19aa"
+    },
+    {
+      "nested_seal_sha256": "44be4832be4cbaa4f8e7f073bf4a2e0c4d230eb2ac690216eeb3c35191262109",
+      "prediction_pdb_sha256": "0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d",
+      "protein_id": "published-material-independent-1d3z-a-model1",
+      "selected_states_sha256": "c4808ef6d7f7f95ecc0650bc7cd73e7caf147063f0b0c18c677f8079598c7d21",
+      "sequence_sha256": "233b4b0b8c4616095bc3249f9375fc345d32af7deaef07117d0383c51d6f19aa"
+    },
+    {
+      "nested_seal_sha256": "26835827a3a13ea4d8c528ac67ec879fa8b0a1cd8f5806e1f32db8fd7545eb91",
+      "prediction_pdb_sha256": "0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d",
+      "protein_id": "published-material-independent-1g6j-a-model1",
+      "selected_states_sha256": "b047d93b6a50f04a5588eece429a6007132eb97e32612ef27a59c5478b7fb62f",
+      "sequence_sha256": "233b4b0b8c4616095bc3249f9375fc345d32af7deaef07117d0383c51d6f19aa"
+    },
+    {
+      "nested_seal_sha256": "700269731b6824a1b11c557a54fca1c10721d0018910a29982072ff143149abc",
+      "prediction_pdb_sha256": "0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d",
+      "protein_id": "published-material-independent-1tbe-a-model1",
+      "selected_states_sha256": "f2190ea97c639911f2d10db7b8621cb1fd6b6bfb5fb6f599aa2d6231ed80299e",
+      "sequence_sha256": "233b4b0b8c4616095bc3249f9375fc345d32af7deaef07117d0383c51d6f19aa"
+    },
+    {
+      "nested_seal_sha256": "1f3207f2c7b6589abdec872934fb494887b29a85ca30e1a90a1f38d60b9d65e8",
+      "prediction_pdb_sha256": "0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d",
+      "protein_id": "published-material-independent-1ogw-a-model1",
+      "selected_states_sha256": "d176c976ca37270a16ccb1890d95fb519a9d4e3254a51ac6c9048a01f51ca5ef",
+      "sequence_sha256": "233b4b0b8c4616095bc3249f9375fc345d32af7deaef07117d0383c51d6f19aa"
+    },
+    {
+      "nested_seal_sha256": "d306f70a06fc1fb6b017faf12bd11d6ab234b2ecdaa875215528c72ba5941df5",
+      "prediction_pdb_sha256": "0036d16f9a70d03458ffc2bdfc32876f1fc77f7dac88379cb69352840b02a21d",
+      "protein_id": "published-material-independent-1aar-a-model1",
+      "selected_states_sha256": "0296eaf7c6310a20521993e608455c1c08a176e6d38e42a1758231e9d35e5b0c",
+      "sequence_sha256": "233b4b0b8c4616095bc3249f9375fc345d32af7deaef07117d0383c51d6f19aa"
+    }
+  ],
+  "runtime_sha256": "148e868c416019419c65ba6bfbba2820d1ff5161f9df678e9f5d5b6f2c7c1d37",
+  "schema": "fold-protein-blind-published-material-panel-seal/v1",
+  "status": "completed",
+  "target_accesses_before_seal": 0
+}

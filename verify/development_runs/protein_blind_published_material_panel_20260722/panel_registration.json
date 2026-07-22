@@ -1,0 +1,54 @@
+{
+  "blind_prediction": true,
+  "execution": "unchanged published 76-state material path",
+  "official_run": false,
+  "panel_id": "protein-blind-published-material-independent-structures-20260722",
+  "proteins": [
+    {
+      "future_target": {"chain_id": "A", "model_index": 1, "pdb_id": "1UBI"},
+      "protein_id": "published-material-independent-1ubi-a-model1",
+      "sequence": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+      "sequence_source": "https://data.rcsb.org/rest/v1/core/polymer_entity/1UBI/1"
+    },
+    {
+      "future_target": {"chain_id": "A", "model_index": 1, "pdb_id": "1D3Z"},
+      "protein_id": "published-material-independent-1d3z-a-model1",
+      "sequence": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+      "sequence_source": "https://data.rcsb.org/rest/v1/core/polymer_entity/1D3Z/1"
+    },
+    {
+      "future_target": {"chain_id": "A", "model_index": 1, "pdb_id": "1G6J"},
+      "protein_id": "published-material-independent-1g6j-a-model1",
+      "sequence": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+      "sequence_source": "https://data.rcsb.org/rest/v1/core/polymer_entity/1G6J/1"
+    },
+    {
+      "future_target": {"chain_id": "A", "model_index": 1, "pdb_id": "1TBE"},
+      "protein_id": "published-material-independent-1tbe-a-model1",
+      "sequence": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+      "sequence_source": "https://data.rcsb.org/rest/v1/core/polymer_entity/1TBE/1"
+    },
+    {
+      "future_target": {"chain_id": "A", "model_index": 1, "pdb_id": "1OGW"},
+      "protein_id": "published-material-independent-1ogw-a-model1",
+      "sequence": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+      "sequence_source": "https://data.rcsb.org/rest/v1/core/polymer_entity/1OGW/1"
+    },
+    {
+      "future_target": {"chain_id": "A", "model_index": 1, "pdb_id": "1AAR"},
+      "protein_id": "published-material-independent-1aar-a-model1",
+      "sequence": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+      "sequence_source": "https://data.rcsb.org/rest/v1/core/polymer_entity/1AAR/1"
+    }
+  ],
+  "published_manifest": "verify/ubiquitin_24_lattice_manifest.json",
+  "published_manifest_sha256": "5c9771cccd998484e32e1180bdb6c3555c7c555c1175328164ba6cb6a9cba6ac",
+  "result_type": "cumulative blind development benchmark",
+  "runtime": "tools/run_blind_published_material_panel_v1.py",
+  "runtime_sha256": "148e868c416019419c65ba6bfbba2820d1ff5161f9df678e9f5d5b6f2c7c1d37",
+  "schema": "fold-protein-blind-published-material-panel/v1",
+  "selection_protocol": "Before target-coordinate access, register untouched experimental structures whose deposited polymer sequence exactly equals the published material sequence. Execute the unchanged published path for every registered structure.",
+  "target_accesses_before_seal": 0,
+  "weights": 0,
+  "fitted_parameters": 0
+}
